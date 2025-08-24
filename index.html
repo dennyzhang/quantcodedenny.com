@@ -6,13 +6,13 @@ export default function App() {
   const [posts, setPosts] = useState([]);
   const [currentPost, setCurrentPost] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [error, setErroxr] = useState(null);
   const [view, setView] = useState('list'); // 'list' or 'post'
 
   // Configuration for your GitHub repository.
   // The repository must be public, and your posts should be in a directory, e.g., 'posts/'.
   // IMPORTANT: Please change these values to your GitHub username and repository name.
-  const GITHUB_USERNAME = 'dennyzhang'/
+  const GITHUB_USERNAME = 'dennyzhang';
   const REPO_NAME = 'quantcodedenny.com';
   const POSTS_DIRECTORY = 'posts'; // Directory where your markdown posts are stored
 

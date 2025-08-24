@@ -1,229 +1,319 @@
-import { useState, useEffect } from 'react';
-
-// This is the core App component for the GitHub-powered blog.
-// It fetches and displays Markdown content from a GitHub repository.
-export default function App() {
-  const [posts, setPosts] = useState([]);
-  const [currentPost, setCurrentPost] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [view, setView] = useState('list'); // 'list' or 'post'
-
-  // Configuration for your GitHub repository.
-  // The repository must be public, and your posts should be in a directory, e.g., 'posts/'.
-  // IMPORTANT: Please change these values to your GitHub username and repository name.
-  const GITHUB_USERNAME = 'dennyzhang';
-  const REPO_NAME = 'quantcodedenny.com';
-  const POSTS_DIRECTORY = 'posts'; // Directory where your markdown posts are stored
-
-  // Helper function to fetch file content from GitHub
-  const fetchGitHubFile = async (path) => {
-    try {
-      const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${path}`;
-      console.log('Fetching file URL:', url);
-      const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
-      }
-      const data = await response.json();
-      const content = atob(data.content); // Decode the base64 content
-      return content;
-    } catch (err) {
-      console.error("Failed to fetch GitHub file:", err);
-      setError("Failed to load content. Please check your username, repository name, and file path.");
-      return null;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The QuantCodeDenny Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
     }
-  };
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module">
+    import React from 'https://esm.sh/react@18.2.0';
+    import ReactDOM from 'https://esm.sh/react-dom@18.2.0/client';
 
-  // Fetches the list of posts from the GitHub repository
-  useEffect(() => {
-    const fetchPosts = async () => {
-      // Check if username and repo name have been updated
-      if (GITHUB_USERNAME === 'your-github-username' || REPO_NAME === 'your-repo-name') {
-        setError("Please update your GitHub username and repository name in the code first!");
-        setIsLoading(false);
-        return;
-      }
-      try {
-        const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${POSTS_DIRECTORY}`;
-        console.log('Fetching posts URL:', url);
-        const response = await fetch(url);
-        if (!response.ok) {
-          throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
+    // This is the core App component for the GitHub-powered blog.
+    // It fetches and displays Markdown content from a GitHub repository.
+    function App() {
+      const [posts, setPosts] = React.useState([]);
+      const [currentPost, setCurrentPost] = React.useState(null);
+      const [isLoading, setIsLoading] = React.useState(true);
+      const [error, setError] = React.useState(null);
+      const [view, setView] = React.useState('list'); // 'list' or 'post'
+
+      // Configuration for your GitHub repository.
+      // The repository must be public, and your posts should be in a directory, e.g., 'posts/'.
+      // IMPORTANT: Please change these values to your GitHub username and repository name.
+      const GITHUB_USERNAME = 'dennyzhang'; // <--- CHANGE THIS TO YOUR GITHUB USERNAME
+      const REPO_NAME = 'quantcodedenny.com'; // <--- CHANGE THIS TO YOUR REPO NAME
+      const POSTS_DIRECTORY = 'posts'; // Directory where your markdown posts are stored
+
+      // Helper function to fetch file content from GitHub
+      const fetchGitHubFile = async (path) => {
+        try {
+          const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${path}`;
+          console.log('Fetching file URL:', url);
+          const response = await fetch(url);
+          if (!response.ok) {
+            throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
+          }
+          const data = await response.json();
+          const content = atob(data.content); // Decode the base64 content
+          return content;
+        } catch (err) {
+          console.error("Failed to fetch GitHub file:", err);
+          setError("Failed to load content. Please check your username, repository name, and file path.");
+          return null;
         }
-        const files = await response.json();
-        // Filter for markdown files and get their names
-        const mdFiles = files.filter(file => file.name.endsWith('.md'));
-        const postData = mdFiles.map(file => ({
-          name: file.name,
-          title: file.name.replace('.md', '').replace(/-/g, ' ').toUpperCase(),
-          path: file.path,
-        }));
-        setPosts(postData);
+      };
+
+      // Fetches the list of posts from the GitHub repository
+      React.useEffect(() => {
+        const fetchPosts = async () => {
+          // Check if username and repo name have been updated
+          if (GITHUB_USERNAME === 'your-github-username' || REPO_NAME === 'your-repo-name') {
+            setError("Please update your GitHub username and repository name in the code first!");
+            setIsLoading(false);
+            return;
+          }
+          try {
+            const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${POSTS_DIRECTORY}`;
+            console.log('Fetching posts URL:', url);
+            const response = await fetch(url);
+            if (!response.ok) {
+              throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
+            }
+            const files = await response.json();
+            // Filter for markdown files and get their names
+            const mdFiles = files.filter(file => file.name.endsWith('.md'));
+            const postData = mdFiles.map(file => ({
+              name: file.name,
+              title: file.name.replace('.md', '').replace(/-/g, ' ').toUpperCase(),
+              path: file.path,
+            }));
+            setPosts(postData);
+            setIsLoading(false);
+          } catch (err) {
+            console.error("Failed to fetch post list:", err);
+            setError("Failed to load posts. Please check your GitHub configuration. Ensure the username and repository name are correct, and the 'posts' folder exists.");
+            setIsLoading(false);
+          }
+        };
+
+        fetchPosts();
+      }, [GITHUB_USERNAME, REPO_NAME]); // Add dependencies to reload when username/repo name changes
+
+      // Handles clicking on a post title to view the full content
+      const handlePostClick = async (post) => {
+        setIsLoading(true);
+        const content = await fetchGitHubFile(post.path);
+        if (content) {
+          setCurrentPost({ ...post, content });
+          setView('post');
+        }
         setIsLoading(false);
-      } catch (err) {
-        console.error("Failed to fetch post list:", err);
-        setError("Failed to load posts. Please check your GitHub configuration. Ensure the username and repository name are correct, and the 'posts' folder exists.");
-        setIsLoading(false);
+      };
+
+      // Handles clicking the back button
+      const handleBackClick = () => {
+        setCurrentPost(null);
+        setView('list');
+      };
+
+      // Component to render the post list
+      const PostList = () => React.createElement(
+        "div",
+        { className: "space-y-6" },
+        React.createElement(
+          "div",
+          { className: "p-6 bg-gray-100 rounded-xl shadow-inner mb-6" },
+          React.createElement(
+            "h2",
+            { className: "text-3xl font-bold text-gray-800 mb-2" },
+            "Hello and Welcome!"
+          ),
+          React.createElement(
+            "p",
+            { className: "text-lg text-gray-700 leading-relaxed" },
+            "I'm Denny, an explorer passionate about the intersection of ",
+            React.createElement("strong", null, "quantitative finance"),
+            " and ",
+            React.createElement("strong", null, "computer science"),
+            ". On this blog, I'll be sharing my thoughts and projects on algorithmic trading, data analysis, and software development."
+          ),
+          React.createElement(
+            "p",
+            { className: "mt-2 text-lg text-gray-700 leading-relaxed" },
+            "I'm committed to sharing my learning journey, including both successes and challenges, in a transparent and open way."
+          )
+        ),
+        React.createElement(
+          "h2",
+          { className: "text-3xl font-bold text-gray-800" },
+          "Latest Posts"
+        ),
+        posts.length > 0 ?
+          React.createElement(
+            "ul",
+            { className: "list-none space-y-2" },
+            posts.map(post => React.createElement(
+              "li",
+              {
+                key: post.path,
+                className: "rounded-lg p-4 bg-white shadow-md hover:bg-gray-100 transition-colors cursor-pointer",
+                onClick: () => handlePostClick(post)
+              },
+              React.createElement(
+                "h3",
+                { className: "text-xl font-semibold text-gray-700" },
+                post.title
+              )
+            ))
+          ) :
+          React.createElement(
+            "p",
+            { className: "text-gray-500" },
+            "No posts found. Please add some markdown files to the 'posts' folder in your repository."
+          )
+      );
+
+      // Component to render the content of a single post
+      const PostView = () => React.createElement(
+        "div",
+        { className: "space-y-6" },
+        React.createElement(
+          "button",
+          {
+            onClick: handleBackClick,
+            className: "flex items-center text-gray-600 hover:text-gray-800 transition-colors"
+          },
+          React.createElement(
+            "svg",
+            {
+              xmlns: "http://www.w3.org/2000/svg",
+              className: "h-5 w-5 mr-2",
+              viewBox: "0 0 20 20",
+              fill: "currentColor"
+            },
+            React.createElement("path", {
+              fillRule: "evenodd",
+              d: "M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z",
+              clipRule: "evenodd"
+            })
+          ),
+          "Back to Post List"
+        ),
+        React.createElement(
+          "h1",
+          { className: "text-4xl font-extrabold text-gray-900" },
+          currentPost.title
+        ),
+        React.createElement(
+          "article",
+          { className: "prose lg:prose-xl max-w-none text-gray-700" },
+          React.createElement(MarkdownRenderer, { markdown: currentPost.content })
+        )
+      );
+
+      // Renders the main content based on the current view state.
+      return React.createElement(
+        "div",
+        { className: "font-sans min-h-screen bg-gray-50 p-4 sm:p-8 flex flex-col items-center" },
+        React.createElement(
+          "div",
+          { className: "w-full max-w-5xl" },
+          React.createElement(
+            "header",
+            { className: "mb-8 p-6 bg-blue-600 text-white rounded-xl shadow-lg" },
+            React.createElement(
+              "h1",
+              { className: "text-4xl sm:text-5xl md:text-6xl font-black text-center" },
+              "The QuantCodeDenny Blog"
+            ),
+            React.createElement(
+              "p",
+              { className: "text-lg sm:text-xl text-center mt-2 opacity-90" },
+              "Powered by GitHub and a little magic \u2728"
+            )
+          ),
+          React.createElement(
+            "main",
+            { className: "p-6 bg-white rounded-xl shadow-lg min-h-[500px]" },
+            isLoading &&
+              React.createElement(
+                "div",
+                { className: "flex justify-center items-center h-full" },
+                React.createElement(
+                  "div",
+                  { className: "text-center text-gray-500" },
+                  React.createElement("div", { className: "animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent mx-auto mb-2" }),
+                  React.createElement("p", null, "Loading...")
+                )
+              ),
+            error &&
+              React.createElement(
+                "div",
+                { className: "text-center text-red-500 p-4" },
+                React.createElement("p", null, error)
+              ),
+            !isLoading && !error && (
+              view === 'list' ?
+                React.createElement(PostList, null) :
+                React.createElement(PostView, null)
+            )
+          )
+        )
+      );
+    }
+
+    // Custom Markdown renderer component
+    const MarkdownRenderer = ({ markdown }) => {
+      const lines = markdown.split('\n');
+      
+      // A simple function to render a code block
+      const renderCodeBlock = (code, language) => {
+        return React.createElement(
+          "pre",
+          { className: "p-4 rounded-lg overflow-x-auto my-4 bg-gray-800 text-gray-200 text-sm" },
+          React.createElement(
+            "code",
+            { className: `language-${language}` },
+            code
+          )
+        );
+      };
+
+      const elements = [];
+      let inCodeBlock = false;
+      let codeBlockContent = [];
+      let codeLanguage = '';
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+
+        if (line.startsWith('```')) {
+          if (inCodeBlock) {
+            // End of code block
+            elements.push(renderCodeBlock(codeBlockContent.join('\n'), codeLanguage));
+            inCodeBlock = false;
+            codeBlockContent = [];
+            codeLanguage = '';
+          } else {
+            // Start of code block
+            codeLanguage = line.substring(3).trim();
+            inCodeBlock = true;
+          }
+        } else if (inCodeBlock) {
+          codeBlockContent.push(line);
+        } else {
+          // Render headings
+          if (line.startsWith('### ')) {
+            elements.push(React.createElement("h3", { key: i, className: "text-2xl font-semibold mt-6 mb-2" }, line.substring(4)));
+          } else if (line.startsWith('## ')) {
+            elements.push(React.createElement("h2", { key: i, className: "text-3xl font-bold mt-8 mb-4" }, line.substring(3)));
+          } else if (line.startsWith('# ')) {
+            elements.push(React.createElement("h1", { key: i, className: "text-4xl font-extrabold mt-10 mb-5" }, line.substring(2)));
+          } else if (line.trim() !== '') { // Render paragraphs
+            elements.push(React.createElement("p", { key: i, className: "my-4 text-lg leading-relaxed" }, line));
+          }
+        }
       }
+
+      return React.createElement(
+        "div",
+        { className: "markdown-body" },
+        ...elements
+      );
     };
 
-    fetchPosts();
-  }, [GITHUB_USERNAME, REPO_NAME]); // Add dependencies to reload when username/repo name changes
-
-  // Handles clicking on a post title to view the full content
-  const handlePostClick = async (post) => {
-    setIsLoading(true);
-    const content = await fetchGitHubFile(post.path);
-    if (content) {
-      setCurrentPost({ ...post, content });
-      setView('post');
-    }
-    setIsLoading(false);
-  };
-
-  // Handles clicking the back button
-  const handleBackClick = () => {
-    setCurrentPost(null);
-    setView('list');
-  };
-
-  // Component to render the post list
-  const PostList = () => (
-    <div className="space-y-6">
-      <div className="p-6 bg-gray-100 rounded-xl shadow-inner mb-6">
-        <h2 className="text-3xl font-bold text-gray-800 mb-2">Hello and Welcome!</h2>
-        <p className="text-lg text-gray-700 leading-relaxed">
-          I'm Denny, an explorer passionate about the intersection of **quantitative finance** and **computer science**. On this blog, I'll be sharing my thoughts and projects on algorithmic trading, data analysis, and software development.
-        </p>
-        <p className="mt-2 text-lg text-gray-700 leading-relaxed">
-          I'm committed to sharing my learning journey, including both successes and challenges, in a transparent and open way.
-        </p>
-      </div>
-      
-      <h2 className="text-3xl font-bold text-gray-800">Latest Posts</h2>
-      {posts.length > 0 ? (
-        <ul className="list-none space-y-2">
-          {posts.map(post => (
-            <li key={post.path} className="rounded-lg p-4 bg-white shadow-md hover:bg-gray-100 transition-colors cursor-pointer" onClick={() => handlePostClick(post)}>
-              <h3 className="text-xl font-semibold text-gray-700">{post.title}</h3>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p className="text-gray-500">No posts found. Please add some markdown files to the 'posts' folder in your repository.</p>
-      )}
-    </div>
-  );
-
-  // Component to render the content of a single post
-  const PostView = () => (
-    <div className="space-y-6">
-      <button
-        onClick={handleBackClick}
-        className="flex items-center text-gray-600 hover:text-gray-800 transition-colors"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
-          <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
-        </svg>
-        Back to Post List
-      </button>
-      <h1 className="text-4xl font-extrabold text-gray-900">{currentPost.title}</h1>
-      <article className="prose lg:prose-xl max-w-none text-gray-700">
-        <MarkdownRenderer markdown={currentPost.content} />
-      </article>
-    </div>
-  );
-
-  // Renders the main content based on the current view state.
-  return (
-    <div className="font-sans min-h-screen bg-gray-50 p-4 sm:p-8 flex flex-col items-center">
-      <div className="w-full max-w-5xl">
-        <header className="mb-8 p-6 bg-blue-600 text-white rounded-xl shadow-lg">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-center">
-            The QuantCodeDenny Blog
-          </h1>
-          <p className="text-lg sm:text-xl text-center mt-2 opacity-90">
-            Powered by GitHub and a little magic ✨
-          </p>
-        </header>
-
-        <main className="p-6 bg-white rounded-xl shadow-lg min-h-[500px]">
-          {isLoading && (
-            <div className="flex justify-center items-center h-full">
-              <div className="text-center text-gray-500">
-                <div className="animate-spin rounded-full h-12 w-12 border-4 border-blue-500 border-t-transparent mx-auto mb-2"></div>
-                <p>Loading...</p>
-              </div>
-            </div>
-          )}
-          {error && (
-            <div className="text-center text-red-500 p-4">
-              <p>{error}</p>
-            </div>
-          )}
-          {!isLoading && !error && (
-            view === 'list' ? <PostList /> : <PostView />
-          )}
-        </main>
-
-      </div>
-    </div>
-  );
-}
-
-// Custom Markdown renderer component
-const MarkdownRenderer = ({ markdown }) => {
-  const lines = markdown.split('\n');
-  
-  // A simple function to render a code block
-  const renderCodeBlock = (code, language) => {
-    return (
-      <pre className="p-4 rounded-lg overflow-x-auto my-4 bg-gray-800 text-gray-200 text-sm">
-        <code className={`language-${language}`}>{code}</code>
-      </pre>
-    );
-  };
-
-  const elements = [];
-  let inCodeBlock = false;
-  let codeBlockContent = [];
-  let codeLanguage = '';
-
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-
-    if (line.startsWith('```')) {
-      if (inCodeBlock) {
-        // End of code block
-        elements.push(renderCodeBlock(codeBlockContent.join('\n'), codeLanguage));
-        inCodeBlock = false;
-        codeBlockContent = [];
-        codeLanguage = '';
-      } else {
-        // Start of code block
-        codeLanguage = line.substring(3).trim();
-        inCodeBlock = true;
-      }
-    } else if (inCodeBlock) {
-      codeBlockContent.push(line);
-    } else {
-      // Render headings
-      if (line.startsWith('### ')) {
-        elements.push(<h3 key={i} className="text-2xl font-semibold mt-6 mb-2">{line.substring(4)}</h3>);
-      } else if (line.startsWith('## ')) {
-        elements.push(<h2 key={i} className="text-3xl font-bold mt-8 mb-4">{line.substring(3)}</h2>);
-      } else if (line.startsWith('# ')) {
-        elements.push(<h1 key={i} className="text-4xl font-extrabold mt-10 mb-5">{line.substring(2)}</h1>);
-      } else if (line.trim() !== '') { // Render paragraphs
-        elements.push(<p key={i} className="my-4 text-lg leading-relaxed">{line}</p>);
-      }
-    }
-  }
-
-  return (
-    <div className="markdown-body">
-      {elements}
-    </div>
-  );
-};
+    const rootElement = document.getElementById('root');
+    const root = ReactDOM.createRoot(rootElement);
+    root.render(React.createElement(App, null));
+  </script>
+</body>
+</html>

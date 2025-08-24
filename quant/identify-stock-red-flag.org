@@ -1,0 +1,29 @@
+-*- mode:org; fill-column:70; coding:utf-8; -*-
+* org-mode configuration
+#+STARTUP: overview
+#+STARTUP: customtime
+#+STARTUP: noalign
+#+STARTUP: logdone
+#+STARTUP: hidestars
+#+TAGS: Framework(f) Library(l) Concept(c) Difficult(d) noexport(n) Hard(h) Misc(m) Important(i) Interview(v) noexport(n) Share (s) BLOG(b) export(e)
+#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+#+DRAWERS: HIDDEN CODE CONF EMAIL WEBPAGE SNIP
+#+PRIORITIES: A D C
+#+ARCHIVE: %s_done::** Finished Tasks
+#+AUTHOR: dennyzhang.com (denny@dennyzhang.com)
+#+OPTIONS: toc:2
+#+OPTIONS: \n:t ^:nil LaTeX:nil
+#+OPTIONS: creator:nil
+* prompt - role setup
+You are a stock trading expert, specialized in high technology stocks
+* prompt - create latest news
+Given a stock code, find all latest discussion for the past two weeks.
+
+Find information from below sources
+- X
+- Facebook
+- Reddit groups
+
+Output:
+- Generate a summary for the potential of this stock
+- Highlight the latest news and progress

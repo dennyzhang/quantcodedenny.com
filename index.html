@@ -25,13 +25,15 @@
       const [isLoading, setIsLoading] = React.useState(true);
       const [error, setError] = React.useState(null);
       const [view, setView] = React.useState('list'); // 'list' or 'post'
+      const [filterCategory, setFilterCategory] = React.useState(null); // New state for category filter
 
       // Configuration for your GitHub repository.
       // The repository must be public, and your posts should be in a directory, e.g., 'posts/'.
       // IMPORTANT: Please change these values to your GitHub username and repository name.
       const GITHUB_USERNAME = 'dennyzhang'; // <--- CHANGE THIS TO YOUR GITHUB USERNAME
       const REPO_NAME = 'quantcodedenny.com'; // <--- CHANGE THIS TO YOUR REPO NAME
-      const POSTS_DIRECTORY = 'posts'; // Directory where your markdown posts are stored
+      // Change POSTS_DIRECTORY to an array of folders you want to fetch posts from.
+      const POSTS_DIRECTORIES = ['quant', 'code']; 
 
       // Helper function to fetch file content from GitHub
       const fetchGitHubFile = async (path) => {
@@ -61,32 +63,42 @@
             setIsLoading(false);
             return;
           }
+          
+          let allPosts = [];
+          
           try {
-            const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${POSTS_DIRECTORY}`;
-            console.log('Fetching posts URL:', url);
-            const response = await fetch(url);
-            if (!response.ok) {
-              throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
+            // Loop through each directory to fetch posts
+            for (const directory of POSTS_DIRECTORIES) {
+              const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${directory}`;
+              console.log('Fetching posts URL:', url);
+              const response = await fetch(url);
+              if (!response.ok) {
+                // If a directory doesn't exist, we just skip it
+                console.warn(`Directory not found: ${directory}. Skipping.`);
+                continue;
+              }
+              const files = await response.json();
+              const mdFiles = files.filter(file => file.name.endsWith('.md'));
+              const postData = mdFiles.map(file => ({
+                name: file.name,
+                title: file.name.replace('.md', '').replace(/-/g, ' ').toUpperCase(),
+                path: file.path,
+                category: directory // Add category for filtering
+              }));
+              allPosts = allPosts.concat(postData);
             }
-            const files = await response.json();
-            // Filter for markdown files and get their names
-            const mdFiles = files.filter(file => file.name.endsWith('.md'));
-            const postData = mdFiles.map(file => ({
-              name: file.name,
-              title: file.name.replace('.md', '').replace(/-/g, ' ').toUpperCase(),
-              path: file.path,
-            }));
-            setPosts(postData);
+            
+            setPosts(allPosts);
             setIsLoading(false);
           } catch (err) {
             console.error("Failed to fetch post list:", err);
-            setError("Failed to load posts. Please check your GitHub configuration. Ensure the username and repository name are correct, and the 'posts' folder exists.");
+            setError("Failed to load posts. Please check your GitHub configuration. Ensure the username and repository name are correct, and the specified folders exist.");
             setIsLoading(false);
           }
         };
 
         fetchPosts();
-      }, [GITHUB_USERNAME, REPO_NAME]); // Add dependencies to reload when username/repo name changes
+      }, [GITHUB_USERNAME, REPO_NAME]);
 
       // Handles clicking on a post title to view the full content
       const handlePostClick = async (post) => {
@@ -104,63 +116,130 @@
         setCurrentPost(null);
         setView('list');
       };
+      
+      // Handles clearing the category filter
+      const handleClearFilter = () => {
+          setFilterCategory(null);
+      };
 
       // Component to render the post list
-      const PostList = () => React.createElement(
-        "div",
-        { className: "space-y-6" },
-        React.createElement(
+      const PostList = () => {
+        // Filter posts based on the selected category
+        const filteredPosts = filterCategory
+          ? posts.filter(post => post.category === filterCategory)
+          : posts;
+
+        return React.createElement(
           "div",
-          { className: "p-6 bg-gray-100 rounded-xl shadow-inner mb-6" },
+          { className: "space-y-6" },
+          React.createElement(
+            "div",
+            { className: "p-6 bg-gray-100 rounded-xl shadow-inner mb-6" },
+            React.createElement(
+              "h2",
+              { className: "text-3xl font-bold text-gray-800 mb-2" },
+              "Hello and Welcome!"
+            ),
+            React.createElement(
+              "p",
+              { className: "text-lg text-gray-700 leading-relaxed" },
+              "I'm Denny, an ML Infra Tech Lead with almost 20 years of experience at a leading Silicon Valley tech company. Here, I'll be sharing my insights and projects on machine learning infrastructure, large language model (LLM) applications, and investing in new technology stocks."
+            ),
+            React.createElement(
+              "p",
+              { className: "mt-2 text-lg text-gray-700 leading-relaxed" },
+              "If you're interested in how tech infrastructure powers the future of AI, or want to learn about investing in the next tech giants, you're in the right place. Let's explore these topics together!"
+            )
+          ),
+          // New section for Quant - Now a clickable card
+          React.createElement(
+            "div",
+            {
+              className: "bg-white rounded-xl shadow-md p-6 flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 mb-6 cursor-pointer hover:shadow-lg transition-shadow",
+              onClick: () => setFilterCategory('quant')
+            },
+            // Image column
+            React.createElement(
+              "div",
+              { className: "w-full md:w-1/3" },
+              React.createElement("img", {
+                src: "https://placehold.co/400x300/4F46E5/ffffff?text=LLM+Investing",
+                alt: "LLM Investing",
+                className: "rounded-xl shadow-lg w-full h-auto"
+              })
+            ),
+            // Text column
+            React.createElement(
+              "div",
+              { className: "w-full md:w-2/3" },
+              React.createElement("h3", { className: "text-2xl font-semibold text-blue-700" }, "Quant: LLMs for Stock Picking & Strategy"),
+              React.createElement("p", { className: "mt-2 text-gray-700" }, "Explore how to use LLMs to analyze market sentiment, process financial news at scale, and generate data-driven investment strategies. This is where AI meets finance, turning complex information into actionable insights for the modern investor.")
+            )
+          ),
+          // New section for Code/Infra - Now a clickable card
+          React.createElement(
+            "div",
+            {
+              className: "bg-white rounded-xl shadow-md p-6 flex flex-col md:flex-row-reverse items-center space-y-4 md:space-y-0 md:space-x-6 mb-6 cursor-pointer hover:shadow-lg transition-shadow",
+              onClick: () => setFilterCategory('code')
+            },
+            // Image column
+            React.createElement(
+              "div",
+              { className: "w-full md:w-1/3" },
+              React.createElement("img", {
+                src: "https://placehold.co/400x300/1D4ED8/ffffff?text=Scalable+LLM+Apps",
+                alt: "Scalable LLM Apps",
+                className: "rounded-xl shadow-lg w-full h-auto"
+              })
+            ),
+            // Text column
+            React.createElement(
+              "div",
+              { className: "w-full md:w-2/3" },
+              React.createElement("h3", { className: "text-2xl font-semibold text-blue-700" }, "Code: Building High-Impact LLM Apps"),
+              React.createElement("p", { className: "mt-2 text-gray-700" }, "Learn how to leverage robust infrastructure expertise to build scalable, secure, and reliable LLM applications. We'll dive into system design, MLOps, and the engineering principles needed to take AI from prototype to production.")
+            )
+          ),
           React.createElement(
             "h2",
-            { className: "text-3xl font-bold text-gray-800 mb-2" },
-            "Hello and Welcome!"
+            { className: "text-3xl font-bold text-gray-800" },
+            filterCategory ? `Latest ${filterCategory.toUpperCase()} Posts` : "Latest Posts"
           ),
-          React.createElement(
-            "p",
-            { className: "text-lg text-gray-700 leading-relaxed" },
-            "I'm Denny, an explorer passionate about the intersection of ",
-            React.createElement("strong", null, "quantitative finance"),
-            " and ",
-            React.createElement("strong", null, "computer science"),
-            ". On this blog, I'll be sharing my thoughts and projects on algorithmic trading, data analysis, and software development."
-          ),
-          React.createElement(
-            "p",
-            { className: "mt-2 text-lg text-gray-700 leading-relaxed" },
-            "I'm committed to sharing my learning journey, including both successes and challenges, in a transparent and open way."
-          )
-        ),
-        React.createElement(
-          "h2",
-          { className: "text-3xl font-bold text-gray-800" },
-          "Latest Posts"
-        ),
-        posts.length > 0 ?
-          React.createElement(
-            "ul",
-            { className: "list-none space-y-2" },
-            posts.map(post => React.createElement(
-              "li",
+          filterCategory &&
+            React.createElement(
+              "button",
               {
-                key: post.path,
-                className: "rounded-lg p-4 bg-white shadow-md hover:bg-gray-100 transition-colors cursor-pointer",
-                onClick: () => handlePostClick(post)
+                onClick: handleClearFilter,
+                className: "mb-4 py-2 px-4 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors"
               },
-              React.createElement(
-                "h3",
-                { className: "text-xl font-semibold text-gray-700" },
-                post.title
-              )
-            ))
-          ) :
-          React.createElement(
-            "p",
-            { className: "text-gray-500" },
-            "No posts found. Please add some markdown files to the 'posts' folder in your repository."
-          )
-      );
+              "Return to All Posts"
+            ),
+          filteredPosts.length > 0 ?
+            React.createElement(
+              "ul",
+              { className: "list-none space-y-2" },
+              filteredPosts.map(post => React.createElement(
+                "li",
+                {
+                  key: post.path,
+                  className: "rounded-lg p-4 bg-white shadow-md hover:bg-gray-100 transition-colors cursor-pointer",
+                  onClick: () => handlePostClick(post)
+                },
+                React.createElement(
+                  "h3",
+                  { className: "text-xl font-semibold text-gray-700" },
+                  post.title
+                )
+              ))
+            ) :
+            React.createElement(
+              "p",
+              { className: "text-gray-500" },
+              `No posts found in the '${filterCategory}' category. Please add some markdown files.`
+            )
+        );
+      };
 
       // Component to render the content of a single post
       const PostView = () => React.createElement(
@@ -214,11 +293,6 @@
               "h1",
               { className: "text-4xl sm:text-5xl md:text-6xl font-black text-center" },
               "The QuantCodeDenny Blog"
-            ),
-            React.createElement(
-              "p",
-              { className: "text-lg sm:text-xl text-center mt-2 opacity-90" },
-              "Powered by GitHub and a little magic \u2728"
             )
           ),
           React.createElement(

@@ -23,7 +23,7 @@ Search by https://www.getthit.com/tools/google-adsense-eligibility-checker
 Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884/onboarding
 ** DONE verify site ownership
 CLOSED: [2025-08-24 Sun 16:39]
-  <meta name="google-adsense-account" content="ca-pub-5389711597208884">
+<meta name="google-adsense-account" content="ca-pub-5389711597208884">
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** TODO Terms & Conditions Page Available
 ** TODO About Us Page Available

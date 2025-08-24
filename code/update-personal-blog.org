@@ -1,19 +1,5 @@
 -*- mode:org; fill-column:70; coding:utf-8; -*-
-* org-mode configuration
-#+STARTUP: overview
-#+STARTUP: customtime
-#+STARTUP: noalign
-#+STARTUP: logdone
-#+STARTUP: hidestars
-#+TAGS: Framework(f) Library(l) Concept(c) Difficult(d) noexport(n) Hard(h) Misc(m) Important(i) Interview(v) noexport(n) Share (s) BLOG(b) export(e)
-#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-#+DRAWERS: HIDDEN CODE CONF EMAIL WEBPAGE SNIP
-#+PRIORITIES: A D C
-#+ARCHIVE: %s_done::** Finished Tasks
-#+AUTHOR: dennyzhang.com (denny@dennyzhang.com)
-#+OPTIONS: toc:2
-#+OPTIONS: \n:t ^:nil LaTeX:nil
-#+OPTIONS: creator:nil
+#+AUTHOR: dennyzhang (https://quantcodedenny.com/)
 * prompt - role setup
 #+BEGIN_EXAMPLE
 You are a professional websiter builder. I need your help to update my blogger.

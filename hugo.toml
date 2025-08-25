@@ -1,0 +1,6 @@
+baseURL = 'https://quantcodedenny.com/'
+languageCode = 'en-us'
+title = "Denny's personal experience for using llm as a pro for two things."
+theme = "ananke"
+enableRobotsTXT = true
+paginate = 10

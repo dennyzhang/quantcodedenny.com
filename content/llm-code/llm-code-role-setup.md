@@ -2,6 +2,7 @@
 title = "prompt - role setup"
 author = ["dennyzhang (https://quantcodedenny.com/)"]
 date = 2025-08-25
+lastmod = 2025-08-25T09:34:02-07:00
 draft = false
 tags = ["emacs", "hugo"]
 draft = false

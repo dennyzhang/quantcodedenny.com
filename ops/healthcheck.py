@@ -34,8 +34,11 @@ def check_sitemap():
     except requests.RequestException as e:
         print(f"Sitemap {url} → ❌ ERROR: {e}")
 
-if __name__ == "__main__":
+def check_urls():
     print(f"Checking website: {BASE_URL}\n")
     for page in PAGES:
         check_page(page)
     check_sitemap()
+    
+if __name__ == "__main__":
+    check_urls()

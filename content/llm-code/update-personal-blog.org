@@ -1,6 +1,4 @@
 #+hugo_base_dir: /Users/dennyzhang/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
-#+TAGS: Framework(f) Library(l) Concept(c) Difficult(d) noexport(n) Hard(h) Misc(m) Important(i) Interview(v) noexport(n) Share (s) BLOG(b) export(e)
-#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 #+language: en
 #+AUTHOR: dennyzhang (https://quantcodedenny.com/)
 * prompt - role setup
@@ -8,7 +6,6 @@
 :EXPORT_FILE_NAME: llm-code-role-setup
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: llm-code
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :tags [ "emacs" "hugo" ] :draft false
 :END:
 
 This is content

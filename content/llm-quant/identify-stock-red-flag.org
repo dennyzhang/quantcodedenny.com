@@ -1,4 +1,5 @@
--*- mode:org; fill-column:70; coding:utf-8; -*-
+#+hugo_base_dir: /Users/dennyzhang/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
+#+language: en
 #+AUTHOR: dennyzhang (https://quantcodedenny.com/)
 * prompt - role setup
 You are a stock trading expert, specialized in high technology stocks

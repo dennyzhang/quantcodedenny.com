@@ -21,9 +21,11 @@ Your change should always obey to below rules:
 * TODO create 30 posts to get it started                           :noexport:
 * TODO enroll the website to google adsense                        :noexport:
 Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884/onboarding
-** TODO tools to validate it's ready for google adsense
+** TODO tools to validate the website is ready for google adsense
 - https://fixadsense.com/
 - https://www.getthit.com/tools/google-adsense-eligibility-checker
+
+** TODO gpt prompt to validate whether the website is ready for goole adsense
 
 ** DONE verify site ownership
 CLOSED: [2025-08-24 Sun 16:39]

@@ -7,6 +7,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: llm-code
 :END:
+
 This is content
 #+BEGIN_EXAMPLE
 You are a professional websiter builder. I need your help to update my blogger.
@@ -28,10 +29,10 @@ echo "hello ox-hugo"
 :EXPORT_FILE_NAME: llm-code-role-setup2
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: llm-code
-:HUGO_URL: https://quantcodedenny.com/public/llm-code/llm-code-role-setup2
 :END:
 
 This is content2
+
 #+BEGIN_EXAMPLE
 You are a professional websiter builder. I need your help to update my blogger.
 
@@ -76,3 +77,7 @@ CLOSED: [2025-08-24 Sun 16:39]
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** TODO insert adsense js code
 * TODO export cheatsheet.dennyzhang.com to new website             :noexport:
+* TODO challenges in vibing coding                                 :noexport:
+- different versions: functions not defined; certain functions are not supported
+- understand the convention: hugo generate files into public folder
+- no defensive coding which makes debugging difficult

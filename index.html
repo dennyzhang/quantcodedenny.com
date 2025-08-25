@@ -71,7 +71,7 @@
           try {
             // Loop through each directory to fetch posts
             for (const directory of POSTS_DIRECTORIES) {
-              const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/${directory}`;
+              const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${directory}`;
               console.log('Fetching posts URL:', url);
               const response = await fetch(url);
               if (!response.ok) {

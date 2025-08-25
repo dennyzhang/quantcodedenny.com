@@ -1,3 +1,9 @@
+---
+layout: default
+title: About QuantCodeDenny
+permalink: /about/
+---
+
 # About Us
 
 Hi, I'm Denny, an ML Infra Tech Lead with nearly 20 years of experience at a top Silicon Valley tech company. Welcome to **QuantCodeDenny**, where I share practical insights on building scalable AI systems and using tech for smarter investing.

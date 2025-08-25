@@ -13,21 +13,26 @@ Your change should always obey to below rules:
 - All code you generates should be in english.
 - The content should be short and easy to understand to my audience.
 #+END_EXAMPLE
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO setup emacs org-mode to be function                         :noexport:
 ** TODO below shortcut doesn't work
 - <e
 - <s
+* TODO create 30 posts to get it started                           :noexport:
 * TODO enroll the website to google adsense                        :noexport:
-Search by https://www.getthit.com/tools/google-adsense-eligibility-checker
-
 Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884/onboarding
+** TODO tools to validate it's ready for google adsense
+- https://fixadsense.com/results
+- https://www.getthit.com/tools/google-adsense-eligibility-checker
+
 ** DONE verify site ownership
 CLOSED: [2025-08-24 Sun 16:39]
 <meta name="google-adsense-account" content="ca-pub-5389711597208884">
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** HALF About Us Page Available
+** HALF Privacy Policy Page Available
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** TODO Terms & Conditions Page Available
-** TODO About Us Page Available
-** TODO Privacy Policy Page Available
 ** TODO Contact Us Page Available
 ** TODO Sitemap Page Available
 ** TODO Page Count

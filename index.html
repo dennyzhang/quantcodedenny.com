@@ -40,7 +40,7 @@
       // Helper function to fetch file content from GitHub
       const fetchGitHubFile = async (path) => {
         try {
-          const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/content/${path}`;
+          const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/public/${path}`;
           console.log('Fetching file URL:', url);
           const response = await fetch(url);
           if (!response.ok) {
@@ -71,7 +71,7 @@
           try {
             // Loop through each directory to fetch posts
             for (const directory of POSTS_DIRECTORIES) {
-              const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/content/${directory}`;
+              const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/public/${directory}`;
               console.log('Fetching posts URL:', url);
               const response = await fetch(url);
               if (!response.ok) {

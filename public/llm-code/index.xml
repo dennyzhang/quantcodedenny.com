@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Denny&#39;s personal experience for using llm as a pro for two things.</title>
-    <link>https://quantcodedenny.com/</link>
-    <description>Recent content on Denny&#39;s personal experience for using llm as a pro for two things.</description>
+    <title>Llm-Codes on Denny&#39;s personal experience for using llm as a pro for two things.</title>
+    <link>https://quantcodedenny.com/llm-code/</link>
+    <description>Recent content in Llm-Codes on Denny&#39;s personal experience for using llm as a pro for two things.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 25 Aug 2025 10:12:50 -0700</lastBuildDate>
-    <atom:link href="https://quantcodedenny.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quantcodedenny.com/llm-code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>prompt - role setup2</title>
       <link>https://quantcodedenny.com/llm-code/llm-code-role-setup2/</link>
@@ -21,13 +21,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/llm-code/update-personal-blog/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;prompt - role setup&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;This is content&lt;/p&gt;&#xA;&lt;pre class=&#34;example&#34;&gt;&#xA;You are a professional websiter builder. I need your help to update my blogger.&#xA;&#xA;The blogger is hosted in github pages under this repo https://github.com/dennyzhang/quantcodedenny.com/.&#xA;The website url is https://quantcodedenny.com&#xA;&#xA;Your change should always obey to below rules:&#xA;- All code you generates should be in english.&#xA;- The content should be short and easy to understand to my audience.&#xA;&lt;/pre&gt;&#xA;&lt;p&gt;This is code&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://quantcodedenny.com/llm-quant/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/llm-quant/</guid>
-      <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;en&#34;&gt;&#xA;&lt;head&gt;&#xA;  &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;  &lt;title&gt;Quant - QuantCodeDenny Blog&lt;/title&gt;&#xA;  &lt;script src=&#34;https://cdn.tailwindcss.com&#34;&gt;&lt;/script&gt;&#xA;  &lt;style&gt;&#xA;    body {&#xA;      font-family: &#39;Inter&#39;, sans-serif;&#xA;    }&#xA;  &lt;/style&gt;&#xA;&lt;/head&gt;&#xA;&lt;body class=&#34;bg-gray-50 p-4 sm:p-8&#34;&gt;&#xA;  &lt;div class=&#34;w-full max-w-5xl mx-auto&#34;&gt;&#xA;    &lt;header class=&#34;mb-8 p-6 bg-blue-600 text-white rounded-xl shadow-lg&#34;&gt;&#xA;      &lt;h1 class=&#34;text-4xl sm:text-5xl md:text-6xl font-black text-center&#34;&gt;&#xA;        Quant&#xA;      &lt;/h1&gt;&#xA;      &lt;p class=&#34;mt-2 text-lg text-center font-light&#34;&gt;&#xA;        Quantitative Investing Topics I&#39;m interested in&#xA;      &lt;/p&gt;&#xA;    &lt;/header&gt;&#xA;&#xA;    &lt;main class=&#34;p-6 bg-white rounded-xl shadow-lg&#34;&gt;&#xA;      &lt;h2 class=&#34;text-3xl font-bold text-gray-800 mb-6&#34;&gt;&#xA;        Core Topics&#xA;      &lt;/h2&gt;&#xA;      &lt;ul class=&#34;grid grid-cols-1 md:grid-cols-2 gap-6&#34;&gt;&#xA;        &lt;!-- Topic 1: Identifying high-potential IT stocks --&gt;&#xA;        &lt;li class=&#34;rounded-xl p-6 bg-gray-100 shadow-md hover:bg-gray-200 transition-colors cursor-pointer&#34;&gt;&#xA;          &lt;h3 class=&#34;text-xl font-semibold text-gray-700 mb-2&#34;&gt;&#xA;            Identifying Future IT Sector Leaders&#xA;          &lt;/h3&gt;&#xA;          &lt;p class=&#34;text-gray-600&#34;&gt;&#xA;            Stock picking: Finding high-potential IT stocks that could become leaders in their sub-sectors.&#xA;          &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -22,7 +22,7 @@ Your change should always obey to below rules:
 * TODO enroll the website to google adsense                        :noexport:
 Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884/onboarding
 ** TODO tools to validate it's ready for google adsense
-- https://fixadsense.com/results
+- https://fixadsense.com/
 - https://www.getthit.com/tools/google-adsense-eligibility-checker
 
 ** DONE verify site ownership

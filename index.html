@@ -35,7 +35,7 @@
       const GITHUB_USERNAME = 'dennyzhang'; // <--- CHANGE THIS TO YOUR GITHUB USERNAME
       const REPO_NAME = 'quantcodedenny.com'; // <--- CHANGE THIS TO YOUR REPO NAME
       // Change POSTS_DIRECTORY to an array of folders you want to fetch posts from.
-      const POSTS_DIRECTORIES = ['quant', 'code']; 
+      const POSTS_DIRECTORIES = ['llm-quant', 'llm-code'];
 
       // Helper function to fetch file content from GitHub
       const fetchGitHubFile = async (path) => {
@@ -71,7 +71,7 @@
           try {
             // Loop through each directory to fetch posts
             for (const directory of POSTS_DIRECTORIES) {
-              const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/contents/${directory}`;
+              const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${REPO_NAME}/${directory}`;
               console.log('Fetching posts URL:', url);
               const response = await fetch(url);
               if (!response.ok) {

@@ -80,10 +80,10 @@
                 continue;
               }
               const files = await response.json();
-              const mdFiles = files.filter(file => file.name.endsWith('.md'));
+              const mdFiles = files.filter(file => file.name.endsWith('.html'));
               const postData = mdFiles.map(file => ({
                 name: file.name,
-                title: file.name.replace('.md', '').replace(/-/g, ' ').toUpperCase(),
+                title: file.name.replace('.html', '').replace(/-/g, ' ').toUpperCase(),
                 path: file.path,
                 category: directory // Add category for filtering
               }));
@@ -288,7 +288,7 @@
             React.createElement(
               "p",
               { className: "text-gray-500" },
-              `No posts found in the '${filterCategory}' category. Please add some markdown files.`
+              `No posts found in the '${filterCategory}' category. Please add some html files.`
             )
         );
       };

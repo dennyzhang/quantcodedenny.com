@@ -2,7 +2,7 @@ baseURL = 'https://quantcodedenny.com/'
 languageCode = 'en-us'
 relativeURLs = true
 canonifyURLs = true
-title = "Denny's personal experience for using llm as a pro for two things."
+title = "Denny - use llm as a pro for trade stock and infra engineering"
 theme = "ananke"
 enableRobotsTXT = true
 [pagination]

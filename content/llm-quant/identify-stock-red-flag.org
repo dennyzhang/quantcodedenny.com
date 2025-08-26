@@ -3,12 +3,11 @@
 #+AUTHOR: dennyzhang (https://quantcodedenny.com/)
 * prompt - role setup
 :PROPERTIES:
-:EXPORT_FILE_NAME: role-setup
+:EXPORT_FILE_NAME: role-setup1
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: llm-quant
 :END:
 You are a stock trading expert, specialized in high technology stocks
-
 * prompt - create latest news
 :PROPERTIES:
 :EXPORT_FILE_NAME: create-latest-news

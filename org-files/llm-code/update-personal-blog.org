@@ -1,6 +1,6 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
-#+AUTHOR: dennyzhang (https://quantcodedenny.com/)
+#+author: [[https://quantcodedenny.com/][dennyzhang]]
 #+HUGO_TAGS: engineering
 * prompt - role setup
 :PROPERTIES:

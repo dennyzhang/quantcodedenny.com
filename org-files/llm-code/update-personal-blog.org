@@ -6,6 +6,7 @@
 :EXPORT_FILE_NAME: llm-code-role-setup
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: llm-code
+:TAGS: engineering
 :END:
 This is content
 #+BEGIN_EXAMPLE
@@ -28,6 +29,7 @@ echo "hello ox-hugo"
 :EXPORT_FILE_NAME: llm-code-role-setup2
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: llm-code
+:TAGS: engineering
 :END:
 This is content2
 

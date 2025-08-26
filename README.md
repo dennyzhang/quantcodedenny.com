@@ -1,7 +1,6 @@
 # quantcodedenny.com
-quantcodedenny.com - Denny's personal experience for using llm as a pro for two things. quant (trade stock), code (efficient as a software engineer)
+quantcodedenny.com - Denny: use llm as a pro for trading and engineering
 
-In this repo, only files under org-files folder is manually edited.
+Main changes in org-files folder.
 
-- website: https://quantcodedenny.com/
-- github pages: https://github.com/dennyzhang/quantcodedenny.com
+Others are for blog hosting: https://quantcodedenny.com/

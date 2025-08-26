@@ -19,7 +19,6 @@ Your change should always obey to below rules:
 - The content should be short and easy to understand to my audience.
 
 #+END_EXAMPLE
-
 This is code
 #+begin_src bash
 echo "hello ox-hugo"

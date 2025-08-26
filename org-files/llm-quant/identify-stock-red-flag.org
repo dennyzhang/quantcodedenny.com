@@ -8,7 +8,6 @@
 :EXPORT_HUGO_SECTION: llm-quant
 :END:
 You are a stock trading expert, specialized in high technology stocks
-
 * prompt - create latest news
 :PROPERTIES:
 :EXPORT_FILE_NAME: create-latest-news

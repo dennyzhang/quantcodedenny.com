@@ -1,6 +1,6 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
-#+AUTHOR: [[https://quantcodedenny.com/][dennyzhang]]
+#+AUTHOR: dennyzhang
 #+HUGO_TAGS: trading
 * prompt - role setup
 :PROPERTIES:
@@ -15,7 +15,6 @@ You are a stock trading expert, specialized in high technology stocks
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-
 #+BEGIN_EXAMPLE
 Given a stock code, find all latest discussion for the past two weeks.
 

@@ -1,16 +1,14 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
-#+AUTHOR_NAME: dennyzhang
-#+AUTHOR_URL: https://quantcodedenny.com/
+#+AUTHOR: dennyzhang
 #+HUGO_TAGS: engineering
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* prompt - role setup
+* prompt - role setup to improve the blog
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-code-role-setup
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-
 This is content
 #+BEGIN_EXAMPLE
 You are a professional websiter builder. I need your help to update my blogger.

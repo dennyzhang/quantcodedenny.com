@@ -19,11 +19,11 @@ Your change should always obey to below rules:
 - The content should be short and easy to understand to my audience.
 
 #+END_EXAMPLE
+
 This is code
 #+begin_src bash
 echo "hello ox-hugo"
 #+end_src
-
 * prompt - role setup2
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-code-role-setup2
@@ -78,6 +78,6 @@ CLOSED: [2025-08-24 Sun 16:39]
 * TODO export cheatsheet.dennyzhang.com to new website             :noexport:
 * TODO challenges in vibing coding                                 :noexport:
 - different versions: functions not defined; certain functions are not supported
-- understand the convention: hugo generate files into public folder
+- understand the convention: hugo generate files into docs folder
 - no defensive coding which makes debugging difficult
 - ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property

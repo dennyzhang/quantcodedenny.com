@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1>Welcome to My Blog</h1>
+
+{{ $posts := where .Site.RegularPages "Type" "in" (slice "llm-quant" "llm-code") | sort "Date" "desc" }}
+{{ range $posts }}
+<article>
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <p>{{ .Summary }}</p>
+</article>
+{{ end }}
+
+{{ end }}

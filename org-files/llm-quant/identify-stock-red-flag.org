@@ -26,7 +26,6 @@ Output:
 - Generate a summary for the potential of this stock
 - Highlight the latest news and progress
 #+END_EXAMPLE
-
 * prompt - buy the dip for QQQ
 :PROPERTIES:
 :EXPORT_FILE_NAME: buy-dip-for-qqq

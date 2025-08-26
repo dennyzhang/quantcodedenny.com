@@ -1,0 +1,16 @@
+#+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
+#+language: en
+#+AUTHOR: dennyzhang
+#+HUGO_TAGS: engineering
+#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* challenges in vibing coding                                 
+:PROPERTIES:
+:EXPORT_FILE_NAME: challenge-in-vibe-coding
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+- different versions: functions not defined; certain functions are not supported
+- understand the convention: hugo generate files into docs folder
+- no defensive coding which makes debugging difficult
+- ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property
+- For impossible tasks, llm run into a circle instead of admitting a NO.

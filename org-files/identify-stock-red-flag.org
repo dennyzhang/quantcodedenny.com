@@ -8,7 +8,6 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-
 #+BEGIN_EXAMPLE
 Create prompt to identify the dip for QQQ
 #+END_EXAMPLE

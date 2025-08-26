@@ -31,6 +31,7 @@ echo "hello ox-hugo"
 ** TODO [#A] below shortcut doesn't work
 - <e
 - <s
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO create 30 posts to get it started                           :noexport:
 * TODO enroll the website to google adsense                        :noexport:
 Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884/onboarding
@@ -55,9 +56,3 @@ CLOSED: [2025-08-24 Sun 16:39]
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** TODO insert adsense js code
 * TODO export cheatsheet.dennyzhang.com to new website             :noexport:
-* HALF challenges in vibing coding                                 :noexport:
-- different versions: functions not defined; certain functions are not supported
-- understand the convention: hugo generate files into docs folder
-- no defensive coding which makes debugging difficult
-- ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property
-- for impossible tasks, llm run into a circle instead of admitting a NO.

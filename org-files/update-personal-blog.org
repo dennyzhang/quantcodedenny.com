@@ -1,12 +1,14 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
-#+author: [[https://quantcodedenny.com/][dennyzhang]]
+#+AUTHOR_NAME: dennyzhang
+#+AUTHOR_URL: https://quantcodedenny.com/
 #+HUGO_TAGS: engineering
+#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * prompt - role setup
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-code-role-setup
 :EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: llm-code
+:EXPORT_HUGO_SECTION: posts
 :END:
 This is content
 #+BEGIN_EXAMPLE
@@ -18,6 +20,7 @@ The website url is https://quantcodedenny.com
 Your change should always obey to below rules:
 - All code you generates should be in english.
 - The content should be short and easy to understand to my audience.
+
 #+END_EXAMPLE
 This is code
 #+begin_src bash
@@ -52,8 +55,9 @@ CLOSED: [2025-08-24 Sun 16:39]
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** TODO insert adsense js code
 * TODO export cheatsheet.dennyzhang.com to new website             :noexport:
-* TODO challenges in vibing coding                                 :noexport:
+* HALF challenges in vibing coding                                 :noexport:
 - different versions: functions not defined; certain functions are not supported
 - understand the convention: hugo generate files into docs folder
 - no defensive coding which makes debugging difficult
 - ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property
+- for impossible tasks, llm run into a circle instead of admitting a NO.

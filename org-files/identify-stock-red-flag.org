@@ -1,22 +1,20 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
-#+author: [[https://quantcodedenny.com/][dennyzhang]]
+#+AUTHOR: [[https://quantcodedenny.com/][dennyzhang]]
 #+HUGO_TAGS: trading
 * prompt - role setup
 :PROPERTIES:
 :EXPORT_FILE_NAME: quant-role-setup
 :EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: llm-quant
+:EXPORT_HUGO_SECTION: posts
 :END:
 You are a stock trading expert, specialized in high technology stocks
-
 * prompt - create latest news
 :PROPERTIES:
 :EXPORT_FILE_NAME: create-latest-news
 :EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: llm-quant
+:EXPORT_HUGO_SECTION: posts
 :END:
-
 #+BEGIN_EXAMPLE
 Given a stock code, find all latest discussion for the past two weeks.
 
@@ -34,8 +32,9 @@ Output:
 :PROPERTIES:
 :EXPORT_FILE_NAME: buy-dip-for-qqq
 :EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: llm-quant
+:EXPORT_HUGO_SECTION: posts
 :END:
+
 #+BEGIN_EXAMPLE
 Create prompt to identify the dip for QQQ
 #+END_EXAMPLE

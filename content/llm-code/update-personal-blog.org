@@ -1,4 +1,4 @@
-#+hugo_base_dir: /Users/dennyzhang/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
+#+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
 #+AUTHOR: dennyzhang (https://quantcodedenny.com/)
 * prompt - role setup

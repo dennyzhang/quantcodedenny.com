@@ -26,8 +26,9 @@ This is code
 echo "hello ox-hugo"
 #+end_src
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO make sure hugo shell command output is not distracting
 * TODO setup emacs org-mode to be function                         :noexport:
-** TODO below shortcut doesn't work
+** TODO [#A] below shortcut doesn't work
 - <e
 - <s
 * TODO create 30 posts to get it started                           :noexport:

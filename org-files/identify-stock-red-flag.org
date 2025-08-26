@@ -2,6 +2,26 @@
 #+language: en
 #+AUTHOR: dennyzhang
 #+HUGO_TAGS: trading
+* prompt - buy the dip for QQQ
+:PROPERTIES:
+:EXPORT_FILE_NAME: buy-dip-for-qqq
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+
+#+BEGIN_EXAMPLE
+Create prompt to identify the dip for QQQ
+#+END_EXAMPLE
+* prompt - monitor HIMS stock
+:PROPERTIES:
+:EXPORT_FILE_NAME: monitor-hims-stock
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+#+BEGIN_EXAMPLE
+Evaluate the HIMS stock: ongoing trends, evaluations
+#+END_EXAMPLE
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * prompt - role setup
 :PROPERTIES:
 :EXPORT_FILE_NAME: stock-role-setup
@@ -26,14 +46,4 @@ Find information from below sources
 Output:
 - Generate a summary for the potential of this stock
 - Highlight the latest news and progress
-#+END_EXAMPLE
-* prompt - buy the dip for QQQ
-:PROPERTIES:
-:EXPORT_FILE_NAME: buy-dip-for-qqq
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-
-#+BEGIN_EXAMPLE
-Create prompt to identify the dip for QQQ
 #+END_EXAMPLE

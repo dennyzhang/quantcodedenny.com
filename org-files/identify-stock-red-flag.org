@@ -15,6 +15,7 @@ You are a stock trading expert, specialized in high technology stocks
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+
 #+BEGIN_EXAMPLE
 Given a stock code, find all latest discussion for the past two weeks.
 
@@ -33,6 +34,7 @@ Output:
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+
 #+BEGIN_EXAMPLE
 Create prompt to identify the dip for QQQ
 #+END_EXAMPLE

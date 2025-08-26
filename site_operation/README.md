@@ -24,3 +24,7 @@ hugo server -D
 ```
 python3 healthcheck.py
 ```
+# cleanup hugo to regenerate files
+```
+python3 clean_hugo.py
+```

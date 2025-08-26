@@ -4,6 +4,7 @@ import shutil
 # ======== CONFIG ========
 # Path to your Hugo project
 HUGO_DIR = "~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com/"
+HUGO_DIR = os.path.expanduser(HUGO_DIR)  # Expand ~
 
 # Folders/files to remove
 AUTO_GEN_ITEMS = [

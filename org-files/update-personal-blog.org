@@ -10,6 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+
 This is content
 #+BEGIN_EXAMPLE
 You are a professional websiter builder. I need your help to update my blogger.

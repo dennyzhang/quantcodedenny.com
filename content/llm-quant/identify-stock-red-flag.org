@@ -14,6 +14,7 @@ You are a stock trading expert, specialized in high technology stocks
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: llm-quant
 :END:
+#+BEGIN_EXAMPLE
 Given a stock code, find all latest discussion for the past two weeks.
 
 Find information from below sources
@@ -24,3 +25,4 @@ Find information from below sources
 Output:
 - Generate a summary for the potential of this stock
 - Highlight the latest news and progress
+#+END_EXAMPLE

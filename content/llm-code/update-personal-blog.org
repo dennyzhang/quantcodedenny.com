@@ -28,7 +28,6 @@ echo "hello ox-hugo"
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: llm-code
 :END:
-
 This is content2
 
 #+BEGIN_EXAMPLE

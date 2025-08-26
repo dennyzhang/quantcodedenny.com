@@ -23,6 +23,7 @@ This is code
 #+begin_src bash
 echo "hello ox-hugo"
 #+end_src
+
 * prompt - role setup2
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-code-role-setup2

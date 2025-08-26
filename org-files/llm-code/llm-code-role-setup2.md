@@ -1,5 +1,5 @@
 ---
-original_url: https://quantcodedenny.com/public/llm-code/llm-code-role-setup2/
+original_url: https://quantcodedenny.com/docs/llm-code/llm-code-role-setup2/
 ---
 +++
 title = "prompt - role setup2"

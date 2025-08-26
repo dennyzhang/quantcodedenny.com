@@ -4,14 +4,14 @@
 #+HUGO_TAGS: trading
 * prompt - role setup
 :PROPERTIES:
-:EXPORT_FILE_NAME: quant-role-setup
+:EXPORT_FILE_NAME: stock-role-setup
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
 You are a stock trading expert, specialized in high technology stocks
 * prompt - create latest news
 :PROPERTIES:
-:EXPORT_FILE_NAME: create-latest-news
+:EXPORT_FILE_NAME: stock-create-latest-news
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
@@ -27,14 +27,12 @@ Output:
 - Generate a summary for the potential of this stock
 - Highlight the latest news and progress
 #+END_EXAMPLE
-
 * prompt - buy the dip for QQQ
 :PROPERTIES:
 :EXPORT_FILE_NAME: buy-dip-for-qqq
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-
 #+BEGIN_EXAMPLE
 Create prompt to identify the dip for QQQ
 #+END_EXAMPLE

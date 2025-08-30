@@ -2,29 +2,7 @@
 - install docker in your laption
 - apply for GEMINI_API_KEY
 
-# [Internal] run unit test
-```
-make test
-```
-
-# [Internal] functional test
-```
-# Use your own key
-export GEMINI_API_KEY="sk-xxx"
-# Set stock code to evaluate
-export STOCK_TICKER="TSLA"
-
-# only run sec filing parse
-make run-sec
-
-# only run llm prompt
-make run-llm
-
-# run all functions
-make run-all
-```
-
-# run for real
+# Run for real
 ```
 # Use your own key
 export GEMINI_API_KEY="sk-xxx"
@@ -69,4 +47,26 @@ Based on an analysis of recent news, social media discussions, and the provided 
 *   **Note on SEC Filing:**
     *   The provided SEC filing text is header information for a future quarterly report (10-Q) for the period ending June 30, 2025. It contains no substantive financial data or news and therefore does not influence current market sentiment.
 bash-3.2$ 
+```
+  
+# [Internal] run unit test
+```
+make test
+```
+
+# [Internal] functional test
+```
+# Use your own key
+export GEMINI_API_KEY="sk-xxx"
+# Set stock code to evaluate
+export STOCK_TICKER="TSLA"
+
+# only run sec filing parse
+make run-sec
+
+# only run llm prompt
+make run-llm
+
+# run all functions
+make run-all
 ```

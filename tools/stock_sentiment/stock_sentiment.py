@@ -1,16 +1,16 @@
-#!/usr/bin/env python3
 import os
 import logging
 import requests
 import re
 import google.generativeai as genai
+import time
 
 # ----------------------
 # Logger Setup
 # ----------------------
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s"
+    format="%(asctime)s [%(levelname)s] %(filename)s:%(lineno)d - %(message)s"
 )
 logger = logging.getLogger(__name__)
 
@@ -31,27 +31,89 @@ def init_gemini_client():
 # SEC Filing Logic
 # ----------------------
 def get_sec_filings(ticker: str, filing_type="10-Q", count=1):
-    cik_url = f"https://www.sec.gov/cgi-bin/browse-edgar?CIK={ticker}&owner=exclude&action=getcompany&count={count}&output=atom"
-    logger.info(f"Fetching SEC filings for {ticker} ({filing_type})...")
-    
-    resp = requests.get(cik_url, headers={"User-Agent": "Mozilla/5.0"})
-    if resp.status_code != 200:
-        logger.warning(f"Failed to fetch filings: {resp.status_code}")
+    """
+    Fetches the latest SEC filings for a given ticker using the new SEC API.
+    """
+    try:
+        cik = get_cik_from_ticker(ticker)
+        if not cik:
+            logger.error(f"CIK not found for ticker: {ticker}")
+            return ""
+
+        logger.info(f"Found CIK {cik} for {ticker}.")
+
+        # Step 2: Use the submissions history API to find the latest 10-Q filing
+        submissions_url = f"https://data.sec.gov/submissions/CIK{cik}.json"
+        
+        headers = {"User-Agent": "YourCompanyName YourName@YourCompany.com"} 
+        submissions_resp = requests.get(submissions_url, headers=headers)
+        submissions_resp.raise_for_status()
+        
+        submissions_data = submissions_resp.json()
+        
+        # Find the latest 10-Q filing
+        filings = submissions_data.get('filings', {}).get('recent', {})
+        accession_numbers = filings.get('accessionNumber', [])
+        form_types = filings.get('form', [])
+        
+        target_accession_number = None
+        for i, form_type in enumerate(form_types):
+            if form_type == filing_type:
+                target_accession_number = accession_numbers[i]
+                break
+
+        if not target_accession_number:
+            logger.warning(f"No recent {filing_type} filings found for {ticker}.")
+            return ""
+
+        logger.info(f"Found accession number {target_accession_number} for {ticker}.")
+
+        # Step 3: Construct the URL and fetch the filing text
+        # Correct URL format includes the accession number without dashes as a directory
+        base_url = f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/"
+        accession_dir = target_accession_number.replace('-', '') + '/'
+        submission_file = target_accession_number + '.txt'
+        
+        submission_url = base_url + accession_dir + submission_file
+        
+        logger.info(f"Fetching filing from {submission_url}")
+        filing_resp = requests.get(submission_url, headers=headers)
+        filing_resp.raise_for_status()
+
+        text_content = filing_resp.text
+        logger.info(f"Successfully fetched filing for {ticker}.")
+        
+        return text_content[:20000]
+        
+    except requests.exceptions.HTTPError as e:
+        logger.error(f"HTTP Error: {e.response.status_code} - {e.response.reason}")
         return ""
-    
-    links = re.findall(r'<link href="(https://www.sec.gov/Archives/edgar/data/[^"]+\.txt)"', resp.text)
-    if not links:
-        logger.warning("No filings found.")
+    except Exception as e:
+        logger.exception(f"An unexpected error occurred: {e}")
         return ""
+
+# New function to handle the CIK lookup more reliably
+def get_cik_from_ticker(ticker):
+    """
+    Attempts to get the CIK from a direct search on the SEC's website.
+    This is more reliable than parsing the company_tickers.json file.
+    """
+    headers = {"User-Agent": "YourCompanyName YourName@YourCompany.com"}
     
-    text_content = ""
-    for link in links[:count]:
-        r = requests.get(link, headers={"User-Agent": "Mozilla/5.0"})
-        if r.status_code == 200:
-            text_content += r.text + "\n"
-    
-    logger.info(f"Fetched {len(links[:count])} filings for {ticker}.")
-    return text_content
+    try:
+        search_url = f"https://www.sec.gov/cgi-bin/browse-edgar?CIK={ticker}&Find=Search&owner=exclude&action=getcompany"
+        
+        resp = requests.get(search_url, headers=headers)
+        resp.raise_for_status()
+
+        cik_match = re.search(r'CIK=(\d{10})', resp.text)
+        if cik_match:
+            return cik_match.group(1)
+        
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Failed to find CIK via SEC search: {e}")
+
+    return None
 
 # ----------------------
 # Prompt Generation

@@ -13,6 +13,18 @@ docker run --rm -e GEMINI_API_KEY="$MY_GEMINI_API_KEY" -v ./stock_sentiment.py:/
 make test
 ```
 
+# functional test
+```
+# only run sec filing parse
+make run-sec
+
+# only run llm prompt
+make run-llm
+
+# run all functions
+make run-all
+```
+
 # run for real
 ```
 bash-3.2$ export STOCK_TICKER="TSLA"

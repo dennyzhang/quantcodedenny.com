@@ -9,7 +9,7 @@ This tool empowers engineers to automate stock sentiment analysis with precision
 # Use your own key
 export GEMINI_API_KEY="sk-xxx"
 # Set stock code to evaluate
-export STOCK_TICKER="TSLA"
+export STOCK_TICKER="UNH"
 # Use a powerful-yet-expensive model. Default is gemini-1.5-flash
 export GEMINI_MODEL="gemini-2.5-pro"
 # Run capability via docker

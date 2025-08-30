@@ -17,4 +17,4 @@ RUN pip install --upgrade pip && \
 ENV OPENAI_API_KEY="YOUR_API_KEY_HERE"
 
 # Default command to run script
-CMD ["echo", "hi there"]
+CMD ["echo", "hi, indie trader with engineering background"]

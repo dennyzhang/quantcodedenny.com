@@ -5,7 +5,7 @@
 docker build -t denny/llm-stock-prompt .
 
 export MY_GEMINI_API_KEY="sk-xxx"
-docker run --rm -e GEMINI_API_KEY="$MY_GEMINI_API_KEY" -v ./stock_sentiment.py:/app/stock_sentiment.py denny/llm-stock-prompt
+docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -v ./stock_sentiment.py:/app/stock_sentiment.py denny/llm-stock-prompt
 ```
 
 # run unit test
@@ -28,7 +28,7 @@ make run-all
 # run for real
 ```
 bash-3.2$ export STOCK_TICKER="TSLA"
-bash-3.2$ docker run --rm -e GEMINI_API_KEY="$MY_GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v ./stock_sentiment.py:/app/stock_sentiment.py denny/llm-stock-prompt
+bash-3.2$ docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v ./stock_sentiment.py:/app/stock_sentiment.py denny/llm-stock-prompt
 2025-08-30 05:45:35,011 [INFO] Gemini client initialized successfully.
 2025-08-30 05:45:35,011 [INFO] Fetching SEC filings for TSLA (10-Q) from SEC RSS feed...
 2025-08-30 05:45:35,195 [WARNING] Failed to fetch filings: 403

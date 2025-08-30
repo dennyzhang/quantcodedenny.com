@@ -5,6 +5,7 @@
 docker build -t denny/llm-stock-prompt .
 
 export MY_GEMINI_API_KEY="sk-xxx"
+export STOCK_TICKER="TSLA"
 docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -v ./stock_sentiment.py:/app/stock_sentiment.py denny/llm-stock-prompt
 ```
 
@@ -15,6 +16,10 @@ make test
 
 # functional test
 ```
+# set env
+export MY_GEMINI_API_KEY="sk-xxx"
+export STOCK_TICKER="TSLA"
+
 # only run sec filing parse
 make run-sec
 
@@ -27,6 +32,7 @@ make run-all
 
 # run for real
 ```
+bash-3.2$ export MY_GEMINI_API_KEY="sk-xxx"
 bash-3.2$ export STOCK_TICKER="TSLA"
 bash-3.2$  docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v ./stock_sentiment.py:/app/stock_sentiment.py denny/llm-stock-prompt
 2025-08-30 06:24:08,378 [INFO] stock_sentiment.py:22 - Gemini client initialized successfully.

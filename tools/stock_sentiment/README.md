@@ -1,10 +1,10 @@
 This tool empowers engineers to automate stock sentiment analysis with precision and speed. It combines two core capabilities: parsing recent news headlines to extract market sentiment and insights, and parsing SEC filings to surface key financial and risk information. Both streams are fed into a configurable LLM pipeline, allowing you to run fast local tests with lightweight models or perform high-accuracy production analysis. Designed for modularity and reuse, it integrates seamlessly into your workflows—turning raw data into actionable insights without manual reading.
 
-# Setup env
+# 1 Setup env
 - Install docker in your laptop
 - Apply for GEMINI_API_KEY
 
-# Run for real
+# 2 Run for real
 ```
 # Use your own key
 export GEMINI_API_KEY="sk-xxx"
@@ -50,7 +50,7 @@ Based on an analysis of recent news, social media discussions, and the provided 
     *   The provided SEC filing text is header information for a future quarterly report (10-Q) for the period ending June 30, 2025. It contains no substantive financial data or news and therefore does not influence current market sentiment.
 ```
   
-# Internal: quality control
+# 3 [Optional] Local CI/CD
 ```
 # Run unit test
 make test

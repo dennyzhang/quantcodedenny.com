@@ -11,8 +11,9 @@ export GEMINI_API_KEY="sk-xxx"
 # Set stock code to evaluate
 export STOCK_TICKER="TSLA"
 # Use a powerful-yet-expensive model. Default is gemini-1.5-flash
+export GEMINI_MODEL="gemini-2.5-pro"
 # Run capability via docker
-docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v .:/app/ denny/llm-stock-prompt
+docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -e GEMINI_MODEL="$GEMINI_MODEL" -v .:/app/ denny/llm-stock-prompt
 
 2025-08-30 06:51:01,730 [INFO] llm_utils.py:14 - Gemini client initialized successfully.
 2025-08-30 06:51:02,510 [INFO] sec_utils.py:65 - Fetching filing from https://www.sec.gov/Archives/edgar/data/731766/000073176625000236/0000731766-25-000236.txt

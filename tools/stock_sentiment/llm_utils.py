@@ -15,6 +15,7 @@ def init_gemini_client():
 
     # Configurable model (default to cheaper model for testing)
     model_name = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+    # gemini-2.5-pro
     logger.info(f"Using Gemini model: {model_name}")
     return genai.GenerativeModel(model_name)
 

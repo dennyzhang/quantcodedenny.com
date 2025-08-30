@@ -6,8 +6,15 @@
     <description>Recent content in Trading on Denny: use llm as a pro for trading and engineering</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Aug 2025 08:09:12 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 21:18:06 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/trading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>clarify target audience</title>
+      <link>https://quantcodedenny.com/posts/clarify-target-audience/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/clarify-target-audience/</guid>
+      <description>&lt;p&gt;I want to help indie engineers and long-term traders unlock the power of LLMs&#xA;for quantitative investing. My focus is on building practical&#xA;tools—like reusable prompt packs, signal extractors, and AI-assisted&#xA;research workflows—that simplify market analysis and&#xA;decision-making. Instead of overwhelming dashboards, I provide&#xA;lightweight, engineer-friendly solutions that save time, reduce noise,&#xA;and surface the insights that really matter. Over time, this evolves&#xA;into a library of reusable AI frameworks for trading—blending deep&#xA;technical rigor with the accessibility needed by individual investors.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>prompt - buy the dip for QQQ</title>
       <link>https://quantcodedenny.com/posts/buy-dip-for-qqq/</link>

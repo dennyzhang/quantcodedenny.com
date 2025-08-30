@@ -1,0 +1,27 @@
+#+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
+#+language: en
+#+AUTHOR: dennyzhang
+#+HUGO_TAGS: engineering
+#+TAGS: Important(i) noexport(n)
+#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* Build and Reuse LLM Prompts to Decode High-Tech Stock Trends Fast.
+:PROPERTIES:
+:EXPORT_FILE_NAME: llm-prompt-high-tech
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+
+Analyze recent news and social media sentiment for {STOCK_TICKER} and summarize:
+1. Overall sentiment (Bullish / Neutral / Bearish)
+2. Top 3 reasons driving this sentiment
+3. Suggested action for a long-term tech investor (watch / buy / sell)
+Output as a concise bullet list.
+
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO setup the blog prompt - Ask for P0 task with 2 hours size   :noexport:
+Setup the context
+You are a business strategist and product builder specializing in monetizing niche markets at the intersection of AI, finance, and engineering. Focus on LLM Quant for indie engineers/long-term traders. 
+
+Ask for P0 task
+I have 2 hours now. I want to create one reusable content or tool in this topic. What I shall work on?  I need one sentence statement. And the audience can understand and get attracte
+d

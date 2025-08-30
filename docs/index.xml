@@ -6,14 +6,42 @@
     <description>Recent content on Denny: use llm as a pro for trading and engineering</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Aug 2025 08:11:29 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 21:25:02 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ask llm to review unit test case</title>
+      <link>https://quantcodedenny.com/posts/review-unit-test/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/review-unit-test/</guid>
+      <description>&lt;p&gt;Find major issues in given unit test code&lt;/p&gt;&#xA;&lt;p&gt;Find and read both unit test code and implemention code. Common issues include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Lack of mocking remote calls&lt;/li&gt;&#xA;&lt;li&gt;Is actually missing async_test annotation. Then a few test cases don&amp;rsquo;t work as expected, essentially got skipped&lt;/li&gt;&#xA;&lt;li&gt;Missing coverage for critical functions or capabilities&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Your answer should:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;right to the point&lt;/li&gt;&#xA;&lt;li&gt;list detail functions which have issues&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Evaluate this: &lt;a href=&#34;https://abc/tests/test_123.py&#34;&gt;https://abc/tests/test_123.py&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>bad habits jeopardize your power</title>
+      <link>https://quantcodedenny.com/posts/bad-habit-hurt-power/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/bad-habit-hurt-power/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Avoid overly available for urgencies. Work on critical things over urgent-yet-not-critical things.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Build and Reuse LLM Prompts to Decode High-Tech Stock Trends Fast.</title>
+      <link>https://quantcodedenny.com/posts/llm-prompt-high-tech/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/llm-prompt-high-tech/</guid>
+      <description>&lt;p&gt;Analyze recent news and social media sentiment for {STOCK_TICKER} and summarize:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Overall sentiment (Bullish / Neutral / Bearish)&lt;/li&gt;&#xA;&lt;li&gt;Top 3 reasons driving this sentiment&lt;/li&gt;&#xA;&lt;li&gt;Suggested action for a long-term tech investor (watch / buy / sell)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Output as a concise bullet list.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>challenges in vibing coding</title>
       <link>https://quantcodedenny.com/posts/challenge-in-vibe-coding/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/challenge-in-vibe-coding/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;different versions: functions not defined; certain functions are not supported&lt;/li&gt;&#xA;&lt;li&gt;understand the convention: hugo generate files into docs folder&lt;/li&gt;&#xA;&lt;li&gt;no defensive coding which makes debugging difficult&lt;/li&gt;&#xA;&lt;li&gt;ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property&lt;/li&gt;&#xA;&lt;li&gt;For impossible tasks, llm run into a circle instead of admitting a NO.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>clarify target audience</title>
+      <link>https://quantcodedenny.com/posts/clarify-target-audience/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/clarify-target-audience/</guid>
+      <description>&lt;p&gt;I want to help indie engineers and long-term traders unlock the power of LLMs&#xA;for quantitative investing. My focus is on building practical&#xA;tools—like reusable prompt packs, signal extractors, and AI-assisted&#xA;research workflows—that simplify market analysis and&#xA;decision-making. Instead of overwhelming dashboards, I provide&#xA;lightweight, engineer-friendly solutions that save time, reduce noise,&#xA;and surface the insights that really matter. Over time, this evolves&#xA;into a library of reusable AI frameworks for trading—blending deep&#xA;technical rigor with the accessibility needed by individual investors.&lt;/p&gt;</description>
     </item>
     <item>
       <title>prompt - buy the dip for QQQ</title>

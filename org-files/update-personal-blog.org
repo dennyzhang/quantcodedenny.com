@@ -2,6 +2,7 @@
 #+language: en
 #+AUTHOR: dennyzhang
 #+HUGO_TAGS: engineering
+#+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * prompt - role setup to improve the blog
 :PROPERTIES:
@@ -26,11 +27,14 @@ This is code
 echo "hello ox-hugo"
 #+end_src
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* TODO make sure hugo shell command output is not distracting
+* TODO make sure hugo shell command output is not distracting      :noexport:
 * TODO setup emacs org-mode to be function                         :noexport:
 ** TODO [#A] below shortcut doesn't work
 - <e
 - <s
+* TODO avoid duplicate setting for each posts                      :noexport:
+EXPORT_DATE: 2025-08-25
+EXPORT_HUGO_SECTION: posts
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO create 30 posts to get it started                           :noexport:
 * TODO enroll the website to google adsense                        :noexport:

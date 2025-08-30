@@ -1,8 +1,6 @@
-#!/usr/bin/env python3
 import unittest
 from unittest.mock import patch, MagicMock
-import os
-import stock_sentiment_module as ssm  # Replace with your script filename without .py
+import stock_sentiment_module as ssm  # replace with your file name without .py
 
 class TestStockSentiment(unittest.TestCase):
 
@@ -26,14 +24,19 @@ class TestStockSentiment(unittest.TestCase):
 
     @patch("stock_sentiment_module.genai.GenerativeModel.generate_content")
     @patch("stock_sentiment_module.get_sec_filings")
-    def test_get_stock_sentiment_returns_text(self, mock_filings, mock_generate):
+    def test_get_stock_sentiment_with_mocked_gemini(self, mock_filings, mock_generate_content):
+        # Mock SEC filing text
         mock_filings.return_value = "SEC Filing Content"
-        mock_generate.return_value = MagicMock(text="LLM Sentiment Output")
+        # Mock Gemini API response
+        mock_generate_content.return_value = MagicMock(text="LLM Sentiment Output")
 
-        model = MagicMock()
+        model = MagicMock()  # fake model object
         sentiment = ssm.get_stock_sentiment(model, "TSLA")
+
+        # Ensure the Gemini call was made
+        mock_generate_content.assert_called_once()
+        # Ensure sentiment text matches mock
         self.assertEqual(sentiment, "LLM Sentiment Output")
-        mock_generate.assert_called_once()
 
 if __name__ == "__main__":
     unittest.main()

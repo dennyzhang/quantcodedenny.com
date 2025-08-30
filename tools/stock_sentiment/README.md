@@ -5,13 +5,18 @@
 docker build -t denny-llm-stock-prompt .
 
 export MY_GEMINI_API_KEY="sk-xxx"
-docker run --rm -e GEMINI_API_KEY="$MY_GEMINI_API_KEY" -v ./stock_sentiment.py:/app/stock_sentiment.py llm-stock-prompt
+docker run --rm -e GEMINI_API_KEY="$MY_GEMINI_API_KEY" -v ./stock_sentiment.py:/app/stock_sentiment.py denny-llm-stock-prompt
 ```
 
-# Sample output
+# run unit test
+```
+make test
+```
+
+# sample run
 ```
 export STOCK_TICKER="TSLA"
-bash-3.2$ docker run --rm -e GEMINI_API_KEY="$MY_GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v ./stock_sentiment.py:/app/stock_sentiment.py llm-stock-prompt
+bash-3.2$ docker run --rm -e GEMINI_API_KEY="$MY_GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v ./stock_sentiment.py:/app/stock_sentiment.py denny-llm-stock-prompt
 === TSLA ===
 Based on an analysis of financial news and social media discussions about TSLA from the past week:
 
@@ -39,15 +44,4 @@ Based on an analysis of news and social media discussions surrounding NVDA this 
 
 *   **Suggested Action for a Long-Term Tech Investor:** Buy
     *   *The fundamental thesis for NVIDIA's dominance in the AI revolution was strengthened, not weakened, by this week's announcements. For an investor with a multi-year horizon, any price consolidation or dip should be viewed as a buying opportunity. Consider dollar-cost averaging to mitigate short-term volatility.*
-```
-
-# run unit test
-```
-docker run --rm \
-  -v $(pwd):/app \
-  -w /app \
-  -e GEMINI_API_KEY="$GEMINI_API_KEY" \
-  -e STOCK_TICKER="TSLA" \
-  llm-stock-demo \
-  python -m unittest -v test_stock_sentiment.py
 ```

@@ -1,23 +1,17 @@
-# setup env
-```
-# use docker
+# Setup env
+- install docker in your laption
+- apply for GEMINI_API_KEY
 
-docker build -t denny/llm-stock-prompt .
-
-export MY_GEMINI_API_KEY="sk-xxx"
-export STOCK_TICKER="TSLA"
-docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -v ./stock_sentiment.py:/app/stock_sentiment.py denny/llm-stock-prompt
-```
-
-# run unit test
+# [Internal] run unit test
 ```
 make test
 ```
 
-# functional test
+# [Internal] functional test
 ```
-# set env
-export MY_GEMINI_API_KEY="sk-xxx"
+# Use your own key
+export GEMINI_API_KEY="sk-xxx"
+# Set stock code to evaluate
 export STOCK_TICKER="TSLA"
 
 # only run sec filing parse
@@ -32,10 +26,13 @@ make run-all
 
 # run for real
 ```
-bash-3.2$ export MY_GEMINI_API_KEY="sk-xxx"
-bash-3.2$ export STOCK_TICKER="TSLA"
-bash-3.2$ export GEMINI_MODEL="gemini-2.5-pro" # default one is gemini-1.5-flash
-bash-3.2$ docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v .:/app/ denny/llm-stock-prompt
+# Use your own key
+export GEMINI_API_KEY="sk-xxx"
+# Set stock code to evaluate
+export STOCK_TICKER="TSLA"
+# Use a powerful-yet-expensive model. Default is gemini-1.5-flash
+# Run capability via docker
+docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v .:/app/ denny/llm-stock-prompt
 2025-08-30 06:51:01,730 [INFO] llm_utils.py:14 - Gemini client initialized successfully.
 2025-08-30 06:51:02,510 [INFO] sec_utils.py:65 - Fetching filing from https://www.sec.gov/Archives/edgar/data/731766/000073176625000236/0000731766-25-000236.txt
 2025-08-30 06:51:02,700 [INFO] sec_utils.py:68 - Successfully fetched filing for UNH.

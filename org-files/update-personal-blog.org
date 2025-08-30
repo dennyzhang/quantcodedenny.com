@@ -20,14 +20,12 @@ The website url is https://quantcodedenny.com
 Your change should always obey to below rules:
 - All code you generates should be in english.
 - The content should be short and easy to understand to my audience.
-
 #+END_EXAMPLE
 This is code
 #+begin_src bash
 echo "hello ox-hugo"
 #+end_src
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* TODO make .py file use python-mode                               :noexport:
 * TODO make sure hugo shell command output is not distracting      :noexport:
 * TODO setup emacs org-mode to be function                         :noexport:
 ** TODO [#A] below shortcut doesn't work
@@ -61,3 +59,6 @@ CLOSED: [2025-08-24 Sun 16:39]
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** TODO insert adsense js code
 * TODO export cheatsheet.dennyzhang.com to new website             :noexport:
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* DONE make .py file use python-mode                               :noexport:
+CLOSED: [2025-08-30 Sat 00:32]

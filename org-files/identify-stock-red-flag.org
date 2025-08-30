@@ -28,7 +28,10 @@ Evaluate the HIMS stock: ongoing trends, evaluations
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+#+begin_example
 You are a stock trading expert, specialized in high technology stocks
+#+end_example
+
 * prompt - create latest news
 :PROPERTIES:
 :EXPORT_FILE_NAME: stock-create-latest-news

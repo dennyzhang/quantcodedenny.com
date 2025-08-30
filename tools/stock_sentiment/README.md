@@ -9,51 +9,53 @@ This tool empowers engineers to automate stock sentiment analysis with precision
 # Use your own key
 export GEMINI_API_KEY="sk-xxx"
 # Set stock code to evaluate
-export STOCK_TICKER="UNH"
+export STOCK_TICKER="RKLB"
 # Use a powerful-yet-expensive model. Default is gemini-1.5-flash
 export GEMINI_MODEL="gemini-2.5-pro"
 # Run capability via docker
 docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -e GEMINI_MODEL="$GEMINI_MODEL" -v .:/app/ denny/llm-stock-prompt
 
-2025-08-30 06:51:01,730 [INFO] llm_utils.py:14 - Gemini client initialized successfully.
-2025-08-30 06:51:02,510 [INFO] sec_utils.py:65 - Fetching filing from https://www.sec.gov/Archives/edgar/data/731766/000073176625000236/0000731766-25-000236.txt
-2025-08-30 06:51:02,700 [INFO] sec_utils.py:68 - Successfully fetched filing for UNH.
-2025-08-30 06:51:02,707 [INFO] main.py:21 - Extracted SEC sections for UNH (len=1283)
-2025-08-30 06:51:02,707 [INFO] main.py:28 - Generating SEC sentiment for UNH...
-2025-08-30 06:51:23,429 [INFO] main.py:32 - Generating headlines sentiment for UNH...
-2025-08-30 06:51:46,990 [INFO] main.py:52 - === UNH ===
+2025-08-30 07:34:03,849 [INFO] llm_utils.py:19 - Using Gemini model: gemini-2.5-pro
+2025-08-30 07:34:04,258 [INFO] sec_utils.py:65 - Fetching filing from https://www.sec.gov/Archives/edgar/data/1819994/000162828025038936/0001628280-25-038936.txt
+2025-08-30 07:34:04,533 [INFO] sec_utils.py:68 - Successfully fetched filing for RKLB.
+2025-08-30 07:34:04,539 [INFO] main.py:21 - Extracted SEC sections for RKLB (len=1313)
+2025-08-30 07:34:04,540 [INFO] main.py:28 - Generating SEC sentiment for RKLB...
+2025-08-30 07:34:29,914 [INFO] main.py:32 - Generating headlines sentiment for RKLB...
+2025-08-30 07:34:51,624 [INFO] main.py:52 - === RKLB ===
 ```
 
-Based on an analysis of public discussions and the provided SEC filing metadata:
+Based on an analysis of public discussions and the nature of SEC 10-Q filings for Rocket Lab (RKLB), here is a sentiment summary:
 
-*   **Overall Market Sentiment: Neutral to Cautiously Bullish**
-    *   The market recognizes UnitedHealth's dominant position and the long-term growth of its Optum health services segment. However, significant short-term headwinds from regulatory scrutiny and the recent cyberattack temper enthusiasm, leading to a neutral or cautiously optimistic stance. The provided SEC filing is a standard quarterly report header and does not, by itself, indicate positive or negative sentiment.
+*   **Overall Market Sentiment: Cautiously Bullish**
+    The market is generally positive on Rocket Lab's long-term potential, recognizing its proven execution and diversified business model. However, this optimism is tempered by the capital-intensive nature of new rocket development and the company's current lack of profitability. The sentiment hinges on future execution rather than current financials.
 
 *   **Top 3 Sentiment Drivers:**
-    1.  **Regulatory and Political Headwinds:** Ongoing DOJ antitrust investigations and scrutiny over Medicare Advantage reimbursement rates are significant sources of uncertainty and bearish pressure.
-    2.  **Optum's Growth Engine:** The high-growth, high-margin Optum business (health services, tech, and PBM) remains the primary bullish driver, offering diversification from the core insurance business and exposure to health-tech innovation.
-    3.  **Change Healthcare Cyberattack Fallout:** The recent major cyberattack creates significant short-term bearish sentiment due to remediation costs, reputational damage, and potential litigation, weighing against the company's strong fundamentals.
+    1.  **Neutron Rocket Development:** Progress on the next-generation, reusable Neutron rocket is the single largest catalyst. Positive news on engine testing, manufacturing milestones, and development timelines drives bullish sentiment, as it promises access to a much larger and more lucrative launch market.
+    2.  **Space Systems Growth:** The performance of the Space Systems division (satellite components, spacecraft manufacturing) is a critical driver. Strong, high-margin revenue growth in this segment diversifies the company away from launch-only risk and provides a clearer, nearer-term path to profitability.
+    3.  **Financial Execution & Cash Burn:** SEC filings like the 10-Q are closely watched for revenue growth, gross margins, and cash burn. While losses are expected during this growth phase, investors are sensitive to the rate of cash consumption and management's commentary on the timeline to achieve positive cash flow.
 
 *   **Suggested Action for a Long-Term Tech Investor: Watch**
-    *   UNH is a healthcare giant with a significant tech component (Optum). While this offers diversification, the primary risks are tied to healthcare policy and medical cost trends, not typical tech sector risks. Given the current regulatory uncertainty and the fallout from the cyberattack, it is prudent to monitor how the company navigates these challenges before initiating a position.
+    Monitor progress on the key drivers listed above, particularly Neutron development milestones and margin improvement in the Space Systems segment. A consistent track record of hitting development targets would be a strong signal to initiate or add to a position.
 
-Based on an analysis of recent news, social media discussions, and the provided SEC filing information for UnitedHealth Group (UNH), here is a summary from the past week:
+Based on an analysis of recent news, social media discussions, and the provided SEC filing information for Rocket Lab (RKLB) over the past week:
 
-*   **Overall Sentiment: Bearish**
-    *   While UNH remains a fundamentally strong company, the recent news cycle and discussions are dominated by significant headwinds and uncertainty, leading to a negative short-term outlook.
+*   **SEC Filing Note:** The provided SEC filing (`0001628280-25-038936.txt`) is a 10-Q for the period ending June 30, **2025**. As this is a future-dated document, its contents cannot be used for an analysis of current events and are disregarded in this summary.
 
-*   **Top 3 Reasons Driving This Sentiment:**
-    1.  **Medicare Advantage (MA) Rate Pressure:** Persistent discussion surrounds the final 2025 Medicare Advantage payment rates from the government, which were lower than the industry had hoped. This is seen as a direct threat to the profitability of UNH's largest business segment, creating margin compression concerns.
-    2.  **Fallout from the Change Healthcare Cyberattack:** The financial and operational impact of the massive cyberattack on its Optum unit continues to be a major topic. Discussions focus on the high costs of remediation, potential government fines and investigations, and lingering disruption for healthcare providers, all of which create a drag on earnings and introduce significant legal and regulatory risk.
-    3.  **Elevated Medical Utilization Trends:** Broader industry data and analyst commentary continue to point towards higher-than-expected use of medical services, particularly among seniors. This trend directly increases costs for UNH, raising its medical loss ratio (MLR) and further squeezing profit margins.
+***
 
-*   **Suggested Action for a Long-Term Tech Investor: Watch**
-    *   UNH is a healthcare giant, not a pure-play tech company. For a tech-focused investor, the current environment presents too many non-tech-related risks (regulatory, reimbursement, post-cyberattack litigation). The recommendation is to **Watch** from the sidelines until there is more clarity on how UNH navigates the margin pressure from MA rates and fully quantifies and resolves the financial and legal consequences of the Change Healthcare incident.
+### **RKLB Analysis: Past Week**
 
-*   **Note on SEC Filing:**
-    *   The provided SEC filing text is header information for a future quarterly report (10-Q) for the period ending June 30, 2025. It contains no substantive financial data or news and therefore does not influence current market sentiment.
+*   **Overall Sentiment: Bullish**
+    *   Discussions reflect strong optimism about the company's long-term trajectory, focusing on execution and future growth catalysts, despite broader market volatility.
 
-  
+*   **Top 3 Reasons Driving Sentiment:**
+    1.  **Neutron Rocket Development Progress:** Continued tangible progress on the Neutron rocket, including updates on the Archimedes engine, tank production, and launch site construction in Wallops, Virginia, is the primary driver of long-term bullish sentiment. This progress reinforces confidence in the company's ability to compete in the medium and heavy-lift launch market.
+    2.  **Consistent Execution & Launch Cadence:** Rocket Lab maintains a high flight tempo with its Electron rocket, successfully completing missions for customers like NASA. This operational success generates consistent revenue and demonstrates reliability, which is frequently highlighted as a key differentiator.
+    3.  **Expansion of Space Systems Segment:** The market is increasingly recognizing the strength of Rocket Lab's Space Systems division, which provides satellite components and manufacturing. Recent contract wins and a growing backlog in this segment showcase a diversified and resilient business model beyond just launch services.
+
+*   **Suggested Action for a Long-Term Tech Investor: Buy**
+    *   The company is executing on its core business while making clear, verifiable progress on its next-generation platform (Neutron) that promises significant growth. For a long-term investor with a tolerance for the high-growth space sector, current price levels are viewed by many as an attractive entry or accumulation point before major catalysts like the first Neutron launch are realized.  
+
 # 3 [Optional] Local CI/CD
 ```
 # Run unit test

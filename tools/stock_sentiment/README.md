@@ -13,8 +13,8 @@ export STOCK_TICKER="TSLA"
 # Use a powerful-yet-expensive model. Default is gemini-1.5-flash
 # Run capability via docker
 docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v .:/app/ denny/llm-stock-prompt
-```
 
+```
 2025-08-30 06:51:01,730 [INFO] llm_utils.py:14 - Gemini client initialized successfully.
 2025-08-30 06:51:02,510 [INFO] sec_utils.py:65 - Fetching filing from https://www.sec.gov/Archives/edgar/data/731766/000073176625000236/0000731766-25-000236.txt
 2025-08-30 06:51:02,700 [INFO] sec_utils.py:68 - Successfully fetched filing for UNH.
@@ -22,6 +22,8 @@ docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICK
 2025-08-30 06:51:02,707 [INFO] main.py:28 - Generating SEC sentiment for UNH...
 2025-08-30 06:51:23,429 [INFO] main.py:32 - Generating headlines sentiment for UNH...
 2025-08-30 06:51:46,990 [INFO] main.py:52 - === UNH ===
+```
+
 Based on an analysis of public discussions and the provided SEC filing metadata:
 
 *   **Overall Market Sentiment: Neutral to Cautiously Bullish**

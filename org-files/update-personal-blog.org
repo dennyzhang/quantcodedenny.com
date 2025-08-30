@@ -27,6 +27,7 @@ This is code
 echo "hello ox-hugo"
 #+end_src
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO make .py file use python-mode                               :noexport:
 * TODO make sure hugo shell command output is not distracting      :noexport:
 * TODO setup emacs org-mode to be function                         :noexport:
 ** TODO [#A] below shortcut doesn't work

@@ -2,7 +2,7 @@
 ```
 # use docker
 
-docker build -t llm-stock-prompt .
+docker build -t denny-llm-stock-prompt .
 
 export MY_GEMINI_API_KEY="sk-xxx"
 docker run -e GEMINI_API_KEY="$MY_GEMINI_API_KEY" -v ./stock_sentiment_demo.py:/app/stock_sentiment_demo.py llm-stock-prompt
@@ -12,30 +12,30 @@ docker run -e GEMINI_API_KEY="$MY_GEMINI_API_KEY" -v ./stock_sentiment_demo.py:/
 ```
 bash-3.2$ docker run -e GEMINI_API_KEY="$MY_GEMINI_API_KEY" -v ./stock_sentiment_demo.py:/app/stock_sentiment_demo.py llm-stock-prompt
 === TSLA ===
-Here is an analysis of recent TSLA news and discussions from the past week:
+Based on an analysis of financial news and social media discussions about TSLA from the past week:
 
-*   **Overall Sentiment:** Bearish (with a strong underlying bullish counter-narrative)
+*   **Overall Sentiment:** **Neutral**
+    *   The sentiment is sharply divided. Negative sentiment is driven by current operational realities (sales, layoffs), while positive sentiment is fueled by future-looking, speculative catalysts (AI, Robotaxi). This creates a tense, neutral balance rather than a clear bullish or bearish trend.
 
 *   **Top 3 Reasons Driving Sentiment:**
-    1.  **Weak Q1 Delivery Expectations:** The dominant story is the widespread concern over the upcoming Q1 delivery and production numbers. Analyst estimates have been repeatedly cut due to reported production reductions in China, sluggish demand in Europe, and a slowing EV market, leading to fears of a potential year-over-year decline.
-    2.  **Intensifying Competition in China:** The high-profile and aggressively priced launch of Xiaomi's SU7 electric vehicle has amplified concerns about Tesla's market share and pricing power in its most critical market. This, combined with ongoing pressure from BYD, is fueling a narrative of a more difficult competitive landscape.
-    3.  **Positive FSD v12 Momentum:** Acting as a powerful counter-narrative, social media and tech circles are buzzing with impressive demonstrations of the new Full Self-Driving (Supervised) v12. Bulls are touting this as a breakthrough moment for Tesla's AI development, reinforcing the long-term thesis that Tesla is more than just a car company.
+    1.  **Slowing EV Demand & Increased Competition (Bearish):** Recent data continues to show weak sales in key markets like China and Europe. This, combined with intense competition from Chinese automakers and ongoing price wars, is weighing heavily on the core auto business fundamentals.
+    2.  **Anticipation for the 'Robotaxi' Unveiling and AI Progress (Bullish):** The primary bull case revolves around Tesla's pivot to an AI and robotics company. Hype is building for the August 8th Robotaxi reveal, and social media is filled with positive reviews of FSD (Supervised) V12, which bulls see as validation of Tesla's AI leadership.
+    3.  **Corporate Instability and Strategic Uncertainty (Bearish):** Major recent layoffs, including the abrupt firing and subsequent partial rehiring of the Supercharger team, have created a narrative of chaotic management and strategic confusion. This uncertainty makes it difficult for investors to model the company's future growth and execution.
 
-*   **Suggested Action for a Long-Term Tech Investor:** Watch
-    *   The significant short-term uncertainty around vehicle demand and upcoming delivery numbers presents a major risk. It is prudent to wait for the Q1 results to be released and see how the market digests the data before committing new capital. This allows an investor to assess if the current stock price weakness is a temporary issue or the beginning of a more fundamental downturn in growth.
+*   **Suggested Action for a Long-Term Tech Investor:** **Watch**
+    *   The company is at a critical inflection point where its valuation is detaching from its current car sales and depending almost entirely on a future AI/robotics thesis. The risk/reward is unclear. It is prudent to wait for more concrete evidence of a turnaround in the core auto business or tangible details from the Robotaxi event before committing new capital.
 
 === NVDA ===
-Here is a summary and analysis based on news and social media discussions about NVDA from the past week:
+Based on an analysis of news and social media discussions surrounding NVDA this past week:
 
-*   **Overall Sentiment:** **Bullish**
-    *   The overwhelming sentiment is positive, driven by a recent major event and the continued strength of the company's core AI narrative. Bearish voices are present but are largely drowned out by excitement and momentum.
+*   **Overall Sentiment:** Bullish
+    *   *While the stock saw some profit-taking post-announcement, the underlying sentiment about the company's future and technology remains overwhelmingly positive.*
 
 *   **Top 3 Reasons Driving Sentiment:**
-    1.  **10-for-1 Stock Split:** The stock began trading at its split-adjusted price on June 10th. This has been the dominant topic, generating significant buzz among retail investors who see the lower share price as a more accessible entry point. It has also fueled speculation about NVDA's potential inclusion in the Dow Jones Industrial Average.
-    2.  **Unwavering AI Leadership:** Discussions continue to center on NVDA's near-monopoly on AI training chips. The demand for its H100 and forthcoming Blackwell platform GPUs is seen as a durable, long-term trend, with analysts and investors confident in its massive growth runway in the data center market.
-    3.  **Positive Analyst Revisions:** In the wake of the split and continued AI demand, several Wall Street analysts have reiterated "Buy" ratings and raised their price targets (on a split-adjusted basis), reinforcing institutional confidence and providing validation for the bullish retail sentiment.
+    1.  **GTC Conference & Blackwell Unveiling:** The announcement of the next-generation "Blackwell" AI platform (B200 and GB200 GPUs) was the dominant topic. It promises a massive leap in performance, solidifying NVIDIA's technological lead in the AI hardware race and creating a clear future revenue stream.
+    2.  **Strong Ecosystem Endorsement:** Major partners, including Amazon, Google, Microsoft, and Oracle, immediately announced plans to incorporate the new Blackwell chips into their cloud services and infrastructure. This widespread, immediate adoption by key customers validates the technology and de-risks its rollout.
+    3.  **"Sell the News" Volatility:** The stock experienced a slight pullback immediately following the GTC keynote. This was widely interpreted not as a negative reaction to the news, but as a classic "buy the rumor, sell the fact" event and healthy consolidation after the stock's massive run-up, presenting a potential entry point for some investors.
 
-*   **Suggested Action for a Long-Term Tech Investor:** **Buy (with a long-term perspective)**
-    *   For an investor focused on the next 5-10 years, NVDA remains a core holding for exposure to the AI revolution. While the stock's valuation is high and short-term volatility is likely, the company's fundamental position as the leader in a transformative technology is undisputed. Consider dollar-cost averaging to build a position rather than investing a lump sum at all-time highs.
-bash-3.2$ 
+*   **Suggested Action for a Long-Term Tech Investor:** Buy
+    *   *The fundamental thesis for NVIDIA's dominance in the AI revolution was strengthened, not weakened, by this week's announcements. For an investor with a multi-year horizon, any price consolidation or dip should be viewed as a buying opportunity. Consider dollar-cost averaging to mitigate short-term volatility.*
 ```

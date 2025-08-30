@@ -48,24 +48,17 @@ Based on an analysis of recent news, social media discussions, and the provided 
     *   The provided SEC filing text is header information for a future quarterly report (10-Q) for the period ending June 30, 2025. It contains no substantive financial data or news and therefore does not influence current market sentiment.
 ```
   
-# [Internal] run unit test
+# Internal: quality control
 ```
+# Run unit test
 make test
-```
 
-# [Internal] functional test
-```
-# Use your own key
-export GEMINI_API_KEY="sk-xxx"
-# Set stock code to evaluate
-export STOCK_TICKER="TSLA"
-
-# only run sec filing parse
+# Function test: sec filing parse only
 make run-sec
 
-# only run llm prompt
+# Function test: llm prompt only
 make run-llm
 
-# run all functions
+# Function test: all
 make run-all
 ```

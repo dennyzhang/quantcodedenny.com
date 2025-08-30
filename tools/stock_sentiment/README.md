@@ -2,18 +2,23 @@ This tool empowers engineers to automate stock sentiment analysis with precision
 
 # 1 Setup env
 - Install docker in your laptop
-- Apply for GEMINI_API_KEY
+- Apply for GEMINI API KEY: https://aistudio.google.com/apikey
 
 # 2 Run for real
 ```
 # Use your own key
-export GEMINI_API_KEY="sk-xxx"
+export GEMINI_API_KEYS="sk-xxx"
 # Set stock code to evaluate
 export STOCK_TICKER="RKLB"
 # Use a powerful-yet-expensive model. Default is gemini-1.5-flash
 export GEMINI_MODEL="gemini-2.5-pro"
 # Run capability via docker
-docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -e GEMINI_MODEL="$GEMINI_MODEL" -v .:/app/ denny/llm-stock-prompt
+docker run --rm \
+  -e GEMINI_API_KEYS="$GEMINI_API_KEYS" \
+  -e STOCK_TICKER="$STOCK_TICKER" \
+  -e GEMINI_MODEL="$GEMINI_MODEL" \
+  -v .:/app/ \
+  denny/llm-stock-prompt
 
 2025-08-30 07:34:03,849 [INFO] llm_utils.py:19 - Using Gemini model: gemini-2.5-pro
 2025-08-30 07:34:04,258 [INFO] sec_utils.py:65 - Fetching filing from https://www.sec.gov/Archives/edgar/data/1819994/000162828025038936/0001628280-25-038936.txt

@@ -1,7 +1,7 @@
 # Makefile
 
 # Environment variables (can override in terminal)
-GEMINI_API_KEY ?= sk-test
+GEMINI_API_KEYS ?= sk-test
 STOCK_TICKER ?= TSLA
 
 # Docker image name
@@ -12,7 +12,7 @@ DOCKER_IMAGE ?= denny/llm-stock-prompt
 test:
 	@echo "Running unit tests inside Docker..."
 	@docker run --rm \
-		-e GEMINI_API_KEY=$(GEMINI_API_KEY) \
+		-e GEMINI_API_KEYS=$(GEMINI_API_KEYS) \
 		-e STOCK_TICKER=$(STOCK_TICKER) \
 		-v $(PWD):/app \
 		-w /app \
@@ -23,7 +23,7 @@ test:
 run-sec:
 	@echo "Running for sec filing inside Docker..."
 	@docker run --rm \
-		-e GEMINI_API_KEY=$(GEMINI_API_KEY) \
+		-e GEMINI_API_KEYS=$(GEMINI_API_KEYS) \
 		-e STOCK_TICKER=$(STOCK_TICKER) \
 		-e USE_LLM=0 \
 		-e USE_SEC=1 \
@@ -36,7 +36,7 @@ run-sec:
 run-llm:
 	@echo "Running for llm analysis Docker..."
 	@docker run --rm \
-		-e GEMINI_API_KEY=$(GEMINI_API_KEY) \
+		-e GEMINI_API_KEYS=$(GEMINI_API_KEYS) \
 		-e STOCK_TICKER=$(STOCK_TICKER) \
 		-e USE_LLM=1 \
 		-e USE_SEC=0 \
@@ -50,7 +50,7 @@ run-llm:
 run-all:
 	@echo "Running for all analysis Docker..."
 	@docker run --rm \
-		-e GEMINI_API_KEY=$(GEMINI_API_KEY) \
+		-e GEMINI_API_KEYS=$(GEMINI_API_KEYS) \
 		-e STOCK_TICKER=$(STOCK_TICKER) \
 		-e USE_LLM=1 \
 		-e USE_SEC=1 \
@@ -58,3 +58,6 @@ run-all:
 		-w /app \
 		$(DOCKER_IMAGE) \
 		python main.py
+
+publish:
+	bash ./publish.sh

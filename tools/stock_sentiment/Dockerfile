@@ -11,11 +11,13 @@ RUN pip install --upgrade pip && \
     pip install -r requirements.txt
 
 # Copy your Python script
-COPY stock_sentiment_demo.py .
+COPY stock_sentiment.py .
 
 # Set environment variable for OpenAI API key
 # (Optional: can also pass at runtime)
 ENV OPENAI_API_KEY="YOUR_API_KEY_HERE"
 
+ENV STOCK_TICKER="YOUR_STOCK_TICKER"
+
 # Default command to run script
-CMD ["python", "stock_sentiment_demo.py"]
+CMD ["python", "stock_sentiment.py"]

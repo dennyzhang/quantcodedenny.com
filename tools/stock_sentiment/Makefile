@@ -5,7 +5,7 @@ GEMINI_API_KEY ?= sk-test
 STOCK_TICKER ?= TSLA
 
 # Docker image name
-DOCKER_IMAGE ?= denny-llm-stock-prompt
+DOCKER_IMAGE ?= denny/llm-stock-prompt
 
 # Default target: run unit tests inside Docker
 .PHONY: test

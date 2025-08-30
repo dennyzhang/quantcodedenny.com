@@ -1,4 +1,4 @@
-# docker build -t denny-llm-stock-base .
+# docker build -t denny/llm-stock-base .
 # Use a modern Python image
 FROM python:3.11-slim
 

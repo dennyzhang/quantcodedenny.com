@@ -1,5 +1,5 @@
-# docker build -t denny-llm-stock-prompt .
-FROM denny-llm-stock-base:latest
+# docker build -t denny/llm-stock-prompt .
+FROM denny/llm-stock-base:latest
 
 # Set working directory
 WORKDIR /app

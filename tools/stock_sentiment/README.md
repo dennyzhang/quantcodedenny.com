@@ -14,7 +14,6 @@ export STOCK_TICKER="TSLA"
 # Run capability via docker
 docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v .:/app/ denny/llm-stock-prompt
 
-```
 2025-08-30 06:51:01,730 [INFO] llm_utils.py:14 - Gemini client initialized successfully.
 2025-08-30 06:51:02,510 [INFO] sec_utils.py:65 - Fetching filing from https://www.sec.gov/Archives/edgar/data/731766/000073176625000236/0000731766-25-000236.txt
 2025-08-30 06:51:02,700 [INFO] sec_utils.py:68 - Successfully fetched filing for UNH.

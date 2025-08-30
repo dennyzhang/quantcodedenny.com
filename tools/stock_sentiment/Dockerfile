@@ -21,4 +21,4 @@ ENV OPENAI_API_KEY="YOUR_API_KEY_HERE"
 ENV STOCK_TICKER="YOUR_STOCK_TICKER"
 
 # Default command to run script
-CMD ["python", "stock_sentiment.py"]
+CMD ["python", "main.py"]

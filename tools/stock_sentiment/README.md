@@ -34,7 +34,7 @@ make run-all
 ```
 bash-3.2$ export MY_GEMINI_API_KEY="sk-xxx"
 bash-3.2$ export STOCK_TICKER="TSLA"
-bash-3.2$  docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v ./stock_sentiment.py:/app/stock_sentiment.py denny/llm-stock-prompt
+bash-3.2$ docker run --rm -e GEMINI_API_KEY="$GEMINI_API_KEY" -e STOCK_TICKER="$STOCK_TICKER" -v .:/app/ denny/llm-stock-prompt
 2025-08-30 06:24:08,378 [INFO] stock_sentiment.py:22 - Gemini client initialized successfully.
 2025-08-30 06:24:08,702 [INFO] sec_utils.py:65 - Fetching filing from https://www.sec.gov/Archives/edgar/data/1318605/000162828025035806/0001628280-25-035806.txt
 2025-08-30 06:24:09,011 [INFO] sec_utils.py:68 - Successfully fetched filing for TSLA.

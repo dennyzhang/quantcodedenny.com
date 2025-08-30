@@ -30,7 +30,7 @@ run-sec:
 		-v $(PWD):/app \
 		-w /app \
 		$(DOCKER_IMAGE) \
-		python stock_sentiment.py
+		python main.py
 
 .PHONY: run-llm
 run-llm:
@@ -43,7 +43,7 @@ run-llm:
 		-v $(PWD):/app \
 		-w /app \
 		$(DOCKER_IMAGE) \
-		python stock_sentiment.py
+		python main.py
 
 
 .PHONY: run-all
@@ -57,4 +57,4 @@ run-all:
 		-v $(PWD):/app \
 		-w /app \
 		$(DOCKER_IMAGE) \
-		python stock_sentiment.py
+		python main.py

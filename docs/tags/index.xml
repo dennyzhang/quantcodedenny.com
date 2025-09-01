@@ -6,7 +6,7 @@
     <description>Recent content in Tags on QuantCode: The Toolkit for Engineering-Driven Traders.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 15:07:52 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 15:14:13 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogging</title>
@@ -20,6 +20,20 @@
       <link>https://quantcodedenny.com/tags/engineering/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/tags/engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://quantcodedenny.com/tags/tools/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/tags/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trading</title>
+      <link>https://quantcodedenny.com/tags/trading/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/tags/trading/</guid>
       <description></description>
     </item>
   </channel>

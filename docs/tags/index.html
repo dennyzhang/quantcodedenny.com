@@ -48,7 +48,7 @@
 
   <meta itemprop="name" content="Tags">
   <meta itemprop="datePublished" content="2025-08-25T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-09-01T15:07:52-07:00">
+  <meta itemprop="dateModified" content="2025-09-01T15:14:13-07:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tags">
 
@@ -109,34 +109,6 @@
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
-      <a href="../posts/self-intro/" class="link black dim">
-        Introduction of myself and this website
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <h2 id="basic-intro">basic intro</h2>
-<p>quantcodedenny.com - is a personal project. I have ~20 years experience working in infra engineering. And I like to long-term investment for high tech stocks in US market.</p>
-<p>I want to exercise using LLM techinques to improve my trading decision quality. And provide a free and reusable toolkit for engineering-driven indie trader.</p>
-<p>My target audience should be:</p>
-<ol>
-<li>indie trader, not big financial cooperate</li>
-<li>long-term investor, not for day trader</li>
-<li>with engineering background</li>
-</ol>
-<h2 id="current-progress">current progress</h2>
-<ul>
-<li>
-<p>The blogger is hosted in github pages under this repo <a href="https://github.com/dennyzhang/quantcodedenny.com/">https://github.com/dennyzhang/quantcodedenny.com/</a>.</p>
-    </div>
-    <a href="../posts/self-intro/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-  </div>
-</div>
-
-        
-          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
-  <div class="mb3 pa4 gray overflow-hidden bg-white">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
       <a href="../posts/ask-llm-generate-idea/" class="link black dim">
         prompt - Ask LLM to suggest new P0 task to work
       </a>
@@ -171,26 +143,54 @@ Ask follow-up questions to refine if needed.</p>
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
-      <a href="../posts/self-intro/" class="link black dim">
-        Introduction of myself and this website
+      <a href="../posts/challenge-in-vibe-coding/" class="link black dim">
+        Challenges in Vibe Coding
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <h2 id="basic-intro">basic intro</h2>
-<p>quantcodedenny.com - is a personal project. I have ~20 years experience working in infra engineering. And I like to long-term investment for high tech stocks in US market.</p>
-<p>I want to exercise using LLM techinques to improve my trading decision quality. And provide a free and reusable toolkit for engineering-driven indie trader.</p>
-<p>My target audience should be:</p>
-<ol>
-<li>indie trader, not big financial cooperate</li>
-<li>long-term investor, not for day trader</li>
-<li>with engineering background</li>
-</ol>
-<h2 id="current-progress">current progress</h2>
+      <h2 id="expert-mindset-for-vibe-coding">Expert mindset for vibe coding</h2>
 <ul>
-<li>
-<p>The blogger is hosted in github pages under this repo <a href="https://github.com/dennyzhang/quantcodedenny.com/">https://github.com/dennyzhang/quantcodedenny.com/</a>.</p>
+<li>Embrace imperfection: treat the LLM as a co-pilot, not a guarantee.</li>
+<li>Iterate fast: copy errors to the LLM and ask for fixes immediately—speed &gt; perfect understanding.</li>
+<li>Meta-awareness: question assumptions about project structure, plugin limitations, or API behavior.</li>
+<li>Build guardrails: small checks, logging, or validation to catch mistakes early.</li>
+<li>Layer knowledge: start with minimal reproducible units (file-level) before scaling to project-level.</li>
+<li>Document gaps: track behaviors, limitations, and “unknown unknowns” to avoid repeating mistakes.</li>
+<li>Continuous learning: refine your workflow based on past errors and successful patterns.</li>
+<li>Plan for LLM limitations: predefine expected outputs, constraints, and acceptable fallbacks.</li>
+</ul>
+<h2 id="technical-challenges">Technical challenges</h2>
+<ul>
+<li>Multiple versions: functions may be undefined or unsupported across versions.</li>
+<li>Understanding conventions: e.g., Hugo generates files into the `docs` folder, not `content`.</li>
+<li>Lack of defensive coding: errors propagate, making debugging harder.</li>
+<li>ox-hugo 0.12.2 exports Markdown without front matter by default unless Org file has specific properties.</li>
+<li>LLM behavior: when facing impossible tasks, it often loops endlessly instead of admitting &ldquo;No.&rdquo;</li>
+<li>Hidden dependencies: some tasks fail because of unmentioned dependencies or outdated libraries.</li>
+<li>Subtle syntax quirks: small differences in Org, Markdown, or Hugo behavior can break automation.</li>
+</ul>
+<h2 id="gaps-blind-spots-and-workflow-caveats">Gaps, blind spots &amp; workflow caveats</h2>
+<ul>
+<li>Works well for individual files, but not full project structures.</li>
+<li>[#A] You don’t know what you don’t know—and the LLM may not tell you.</li>
+<li>Component limitations arise from business, capability, or incompatibilities:
+<ul>
+<li>Business: e.g., Twitter free API only allows pulling 100 posts/day.</li>
+<li>Capability: e.g., Emacs plugin (ox-hugo) only supports Markdown blocks in Org files.</li>
+<li>Incompatibilities: old methods removed and replaced with incompatible alternatives.</li>
+</ul>
+</li>
+<li>Assumptions hidden in examples: tutorials or LLM examples often assume a different project layout.</li>
+<li>Don’t overanalyze error messages; capture them and ask the LLM to propose fixes.</li>
+<li>Recognize impossible tasks early—stop LLM loops.</li>
+<li>Treat your Org file as the single source of truth for properties; easier than chasing plugin defaults.</li>
+<li>Version control is essential: track both Org files and exported Markdown to detect regressions.</li>
+<li>Validate outputs frequently: check Hugo build results, Markdown rendering, and front matter correctness.</li>
+<li>Minimize multi-step dependencies when iterating with LLM: isolate failures to one step at a time.</li>
+<li>Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.</li>
+</ul>
     </div>
-    <a href="../posts/self-intro/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+    <a href="../posts/challenge-in-vibe-coding/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 
@@ -218,6 +218,72 @@ Your task is to generate 10 startup ideas based on my input.</p>
 Ask follow-up questions to refine if needed.</p>
     </div>
     <a href="../posts/ask-llm-generate-idea/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        
+      
+        <h2 class="f1">
+          <a href="../tags/tools/" class="link blue hover-black">
+            Tag: Tools
+          </a>
+        </h2>
+        
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="../posts/llm-stock-sentiment/" class="link black dim">
+        Use LLM for stock sentiment
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h2 id="0-intro">0 Intro</h2>
+<p>This tool empowers engineers to automate stock sentiment analysis with
+precision and speed.</p>
+<p>It combines two core capabilities: parsing recent
+news headlines to extract market sentiment and insights, and parsing
+SEC filings to surface key financial and risk information. Both
+streams are fed into a configurable LLM pipeline, allowing you to run
+fast local tests with lightweight models or perform high-accuracy
+production analysis. Designed for modularity and reuse, it integrates
+seamlessly into your workflows—turning raw data into actionable
+insights without manual reading.</p>
+    </div>
+    <a href="../posts/llm-stock-sentiment/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        
+      
+        <h2 class="f1">
+          <a href="../tags/trading/" class="link blue hover-black">
+            Tag: Trading
+          </a>
+        </h2>
+        
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="../posts/llm-stock-sentiment/" class="link black dim">
+        Use LLM for stock sentiment
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h2 id="0-intro">0 Intro</h2>
+<p>This tool empowers engineers to automate stock sentiment analysis with
+precision and speed.</p>
+<p>It combines two core capabilities: parsing recent
+news headlines to extract market sentiment and insights, and parsing
+SEC filings to surface key financial and risk information. Both
+streams are fed into a configurable LLM pipeline, allowing you to run
+fast local tests with lightweight models or perform high-accuracy
+production analysis. Designed for modularity and reuse, it integrates
+seamlessly into your workflows—turning raw data into actionable
+insights without manual reading.</p>
+    </div>
+    <a href="../posts/llm-stock-sentiment/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 

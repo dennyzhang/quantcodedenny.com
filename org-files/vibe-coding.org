@@ -10,6 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+:HUGO_URL: https://quantcodedenny.com/posts/vibe-coding/
 ** Expert mindset for vibe coding
 - Embrace imperfection: treat the LLM as a co-pilot, not a guarantee.
 - Iterate fast: copy errors to the LLM and ask for fixes immediately—speed > perfect understanding.
@@ -28,7 +29,6 @@
 - LLM behavior: when facing impossible tasks, it often loops endlessly instead of admitting "No."
 - Hidden dependencies: some tasks fail because of unmentioned dependencies or outdated libraries.
 - Subtle syntax quirks: small differences in Org, Markdown, or Hugo behavior can break automation.
-
 ** Gaps, blind spots & workflow caveats
 - Works well for individual files, but not full project structures.
 - [#A] You don’t know what you don’t know—and the LLM may not tell you.

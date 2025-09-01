@@ -10,10 +10,10 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+:HUGO_URL: https://quantcodedenny.com/posts/llm-tools/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.
-
 
 It combines two core capabilities: parsing recent
 news headlines to extract market sentiment and insights, and parsing
@@ -43,7 +43,6 @@ docker run --rm \
   -e GEMINI_MODEL="$GEMINI_MODEL" \
   -v .:/app/ \
   denny/llm-stock-prompt
-
 #+end_src
 
 #+begin_example

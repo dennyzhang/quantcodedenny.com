@@ -1,3 +1,4 @@
+# make push COMMIT_MSG="fix: cleanup generated files"
 COMMIT_MSG ?= "update website"
 
 push:

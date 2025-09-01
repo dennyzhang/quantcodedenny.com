@@ -22,7 +22,7 @@ production analysis. Designed for modularity and reuse, it integrates
 seamlessly into your workflows—turning raw data into actionable
 insights without manual reading.
 
-Github repo: https://github.com/dennyzhang/quantcodedenny.com/tree/main/tools/stock_sentiment
+Github repo: [[https://github.com/dennyzhang/quantcodedenny.com/tree/main/tools/stock_sentiment][dennyzhang/quantcodedenny.com - tools/stock_sentiment]]
 ** 1 Setup env
 - Install docker in your laptop
 - Apply for GEMINI API KEY: https://aistudio.google.com/apikey

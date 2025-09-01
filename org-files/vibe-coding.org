@@ -10,21 +10,6 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-** Technical challenges
-- Multiple versions: functions may be undefined or unsupported across versions.
-- Understanding conventions: e.g., Hugo generates files into the `docs` folder, not `content`.
-- Lack of defensive coding: errors propagate, making debugging harder.
-- ox-hugo 0.12.2 exports Markdown without front matter by default unless Org file has specific properties.
-- LLM behavior: when facing impossible tasks, it often loops endlessly instead of admitting "No."
-
-** Gaps & blind spots
-- Works well for individual files, but not full project structures.
-- [#A] You don’t know what you don’t know—and the LLM may not tell you.
-- Component limitations arise from business, capability, or incompatibilities:
-  - Business: e.g., Twitter free API only allows pulling 100 posts/day.
-  - Capability: e.g., Emacs plugin (ox-hugo) only supports Markdown blocks in Org files.
-  - Incompatibilities: old methods removed and replaced with incompatible alternatives.
-
 ** Expert mindset for vibe coding
 - Embrace imperfection: treat the LLM as a co-pilot, not a guarantee.
 - Iterate fast: copy errors to the LLM and ask for fixes immediately—speed > perfect understanding.
@@ -33,6 +18,20 @@
 - Layer knowledge: start with minimal reproducible units (file-level) before scaling to project-level.
 - Document gaps: track behaviors, limitations, and “unknown unknowns” to avoid repeating mistakes.
 - Tool orchestration: combine LLM, Emacs, Hugo, and API limitations strategically—know which tool to push and where manual intervention is cheaper.
+
+** Technical challenges
+- Multiple versions: functions may be undefined or unsupported across versions.
+- Understanding conventions: e.g., Hugo generates files into the `docs` folder, not `content`.
+- Lack of defensive coding: errors propagate, making debugging harder.
+- ox-hugo 0.12.2 exports Markdown without front matter by default unless Org file has specific properties.
+- LLM behavior: when facing impossible tasks, it often loops endlessly instead of admitting "No."
+** Gaps & blind spots
+- Works well for individual files, but not full project structures.
+- [#A] You don’t know what you don’t know—and the LLM may not tell you.
+- Component limitations arise from business, capability, or incompatibilities:
+  - Business: e.g., Twitter free API only allows pulling 100 posts/day.
+  - Capability: e.g., Emacs plugin (ox-hugo) only supports Markdown blocks in Org files.
+  - Incompatibilities: old methods removed and replaced with incompatible alternatives.
 
 ** Caveats / Workflow tips
 - Don’t overanalyze error messages; capture them and ask the LLM to propose fixes.

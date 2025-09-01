@@ -1,10 +1,10 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
 #+AUTHOR: dennyzhang
-#+HUGO_TAGS: engineering
+#+HUGO_TAGS: engineering leadership
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* bad habits jeopardize your power
+* bad habits jeopardize your power                                 :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: bad-habit-hurt-power
 :EXPORT_DATE: 2025-08-25

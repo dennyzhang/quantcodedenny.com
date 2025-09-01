@@ -7,3 +7,6 @@ push:
 	git commit -m "$(COMMIT_MSG)" || echo "No changes to commit."
 	git push
 	@echo "Push completed."
+
+clean:
+	rm -rf content/posts/*.md # remove ox-hugo markdown

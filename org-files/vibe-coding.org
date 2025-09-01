@@ -51,7 +51,6 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-
 Find major issues in given unit test code
 
 Find and read both unit test code and implemention code. Common issues include:

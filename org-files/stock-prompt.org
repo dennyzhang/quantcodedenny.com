@@ -13,15 +13,6 @@
 Evaluate the HIMS stock: ongoing trends, evaluations
 #+END_EXAMPLE
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* prompt - buy the dip for QQQ                                     :noexport:
-:PROPERTIES:
-:EXPORT_FILE_NAME: buy-dip-for-qqq
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-#+BEGIN_EXAMPLE
-Create prompt to identify the dip for QQQ
-#+END_EXAMPLE
 * prompt - role setup                                              :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: stock-role-setup
@@ -31,7 +22,15 @@ Create prompt to identify the dip for QQQ
 #+begin_example
 You are a stock trading expert, specialized in high technology stocks
 #+end_example
-
+* prompt - buy the dip for QQQ                                     :noexport:
+:PROPERTIES:
+:EXPORT_FILE_NAME: buy-dip-for-qqq
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+#+BEGIN_EXAMPLE
+Create prompt to identify the dip for QQQ
+#+END_EXAMPLE
 * prompt - create latest news                                      :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: stock-create-latest-news
@@ -50,7 +49,6 @@ Output:
 - Generate a summary for the potential of this stock
 - Highlight the latest news and progress
 #+END_EXAMPLE
-
 * Build and Reuse LLM Prompts to Decode High-Tech Stock Trends Fast. :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-prompt-high-tech

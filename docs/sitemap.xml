@@ -2,29 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://quantcodedenny.com/posts/challenge-in-vibe-coding/</loc>
-    <lastmod>2025-08-31T23:21:45-07:00</lastmod>
+    <loc>https://quantcodedenny.com/tags/blogging/</loc>
+    <lastmod>2025-09-01T15:07:52-07:00</lastmod>
   </url><url>
     <loc>https://quantcodedenny.com/tags/engineering/</loc>
-    <lastmod>2025-08-31T23:21:45-07:00</lastmod>
+    <lastmod>2025-09-01T15:07:52-07:00</lastmod>
+  </url><url>
+    <loc>https://quantcodedenny.com/posts/self-intro/</loc>
+    <lastmod>2025-09-01T15:07:43-07:00</lastmod>
   </url><url>
     <loc>https://quantcodedenny.com/posts/</loc>
-    <lastmod>2025-08-31T23:21:45-07:00</lastmod>
+    <lastmod>2025-09-01T15:07:52-07:00</lastmod>
+  </url><url>
+    <loc>https://quantcodedenny.com/posts/ask-llm-generate-idea/</loc>
+    <lastmod>2025-09-01T15:07:52-07:00</lastmod>
   </url><url>
     <loc>https://quantcodedenny.com/</loc>
-    <lastmod>2025-08-31T23:21:45-07:00</lastmod>
+    <lastmod>2025-09-01T15:07:52-07:00</lastmod>
   </url><url>
     <loc>https://quantcodedenny.com/tags/</loc>
-    <lastmod>2025-08-31T23:21:45-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/tags/tools/</loc>
-    <lastmod>2025-08-31T23:12:17-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/tags/trading/</loc>
-    <lastmod>2025-08-31T23:12:17-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/posts/llm-stock-sentiment/</loc>
-    <lastmod>2025-08-31T23:12:17-07:00</lastmod>
+    <lastmod>2025-09-01T15:07:52-07:00</lastmod>
   </url><url>
     <loc>https://quantcodedenny.com/categories/</loc>
   </url>

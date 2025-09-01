@@ -46,17 +46,17 @@ For each idea, include:
 Meta Prompt:
 After generating the 5 ideas, suggest a P0 task I can realistically execute in the next 2 hours to make concrete progress on my project.
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** Personal note                                                   :noexport:
+** Personal note
 Here is a list of features to build for my personal usage.
 
 Please reach out, if you have more to suggest
 
-| Idea               | Explanation                              | Business value | Idea to solve it |
-|--------------------+------------------------------------------+----------------+------------------|
-| Identify new trend | Fast jump of robinhood, Plantir in H1'25 |                |                  |
-| Buy the dip        | Buy RKLB at 14 on June, 2025             |                |                  |
-| Detect bias        | TSLA struggle at 320 in Q3'25            |                |                  |
-
+| No | Idea               | Explanation                              | Business value | Idea to solve it |
+|----+--------------------+------------------------------------------+----------------+------------------|
+|  1 | Identify new trend | Fast jump of robinhood, Plantir in H1'25 |                |                  |
+|  2 | Buy the dip        | Buy RKLB at 14 on June, 2025             |                |                  |
+|  3 | Detect bias        | TSLA struggle at 320 in Q3'25            |                |                  |
+#+TBLFM: $1=@#-1+0
 * TODO add llm generated content to your own parts: make it targets, and won't loss your local knowledge :noexport:
 prompt: for vibe-coding, add the common best practice and missing caveats into below, ...
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:

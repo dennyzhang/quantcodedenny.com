@@ -15,6 +15,10 @@
 - no defensive coding which makes debugging difficult
 - ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property
 - For impossible tasks, llm run into a circle instead of admitting a NO.
+** gaps
+- works for individual file, not at project structure level
+** caveats
+- stop reading the error msg. Just impatient enough, to copy to llm and ask it to fix
 * ask llm to review unit test case
 :PROPERTIES:
 :EXPORT_FILE_NAME: review-unit-test

@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>QuantCode: The Toolkit for Engineering-Driven Traders.</title>
-    <link>https://quantcodedenny.com/</link>
-    <description>Recent content on QuantCode: The Toolkit for Engineering-Driven Traders.</description>
+    <title>Engineering on QuantCode: The Toolkit for Engineering-Driven Traders.</title>
+    <link>https://quantcodedenny.com/tags/engineering/</link>
+    <description>Recent content in Engineering on QuantCode: The Toolkit for Engineering-Driven Traders.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Aug 2025 22:43:49 -0700</lastBuildDate>
-    <atom:link href="https://quantcodedenny.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://quantcodedenny.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>challenges in vibing coding</title>
       <link>https://quantcodedenny.com/posts/challenge-in-vibe-coding/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/challenge-in-vibe-coding/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;different versions: functions not defined; certain functions are not supported&lt;/li&gt;&#xA;&lt;li&gt;understand the convention: hugo generate files into docs folder&lt;/li&gt;&#xA;&lt;li&gt;no defensive coding which makes debugging difficult&lt;/li&gt;&#xA;&lt;li&gt;ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property&lt;/li&gt;&#xA;&lt;li&gt;For impossible tasks, llm run into a circle instead of admitting a NO.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;gaps&#34;&gt;gaps&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;works for individual file, not at project structure level&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;caveats&#34;&gt;caveats&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;stop reading the error msg. Just impatient enough, to copy to llm and ask it to fix&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Use LLM for stock sentiment</title>
-      <link>https://quantcodedenny.com/posts/llm-stock-sentiment/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/llm-stock-sentiment/</guid>
-      <description>&lt;p&gt;This tool empowers engineers to automate stock sentiment analysis with&#xA;precision and speed.&lt;/p&gt;&#xA;&lt;p&gt;It combines two core capabilities: parsing recent&#xA;news headlines to extract market sentiment and insights, and parsing&#xA;SEC filings to surface key financial and risk information. Both&#xA;streams are fed into a configurable LLM pipeline, allowing you to run&#xA;fast local tests with lightweight models or perform high-accuracy&#xA;production analysis. Designed for modularity and reuse, it integrates&#xA;seamlessly into your workflows—turning raw data into actionable&#xA;insights without manual reading.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

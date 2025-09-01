@@ -10,6 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+
 ** Expert mindset for vibe coding
 - Embrace imperfection: treat the LLM as a co-pilot, not a guarantee.
 - Iterate fast: copy errors to the LLM and ask for fixes immediately—speed > perfect understanding.
@@ -17,7 +18,8 @@
 - Build guardrails: small checks, logging, or validation to catch mistakes early.
 - Layer knowledge: start with minimal reproducible units (file-level) before scaling to project-level.
 - Document gaps: track behaviors, limitations, and “unknown unknowns” to avoid repeating mistakes.
-- Tool orchestration: combine LLM, Emacs, Hugo, and API limitations strategically—know which tool to push and where manual intervention is cheaper.
+- Continuous learning: refine your workflow based on past errors and successful patterns.
+- Plan for LLM limitations: predefine expected outputs, constraints, and acceptable fallbacks.
 
 ** Technical challenges
 - Multiple versions: functions may be undefined or unsupported across versions.
@@ -25,18 +27,25 @@
 - Lack of defensive coding: errors propagate, making debugging harder.
 - ox-hugo 0.12.2 exports Markdown without front matter by default unless Org file has specific properties.
 - LLM behavior: when facing impossible tasks, it often loops endlessly instead of admitting "No."
-** Gaps & blind spots
+- Hidden dependencies: some tasks fail because of unmentioned dependencies or outdated libraries.
+- Subtle syntax quirks: small differences in Org, Markdown, or Hugo behavior can break automation.
+
+** Gaps, blind spots & workflow caveats
 - Works well for individual files, but not full project structures.
 - [#A] You don’t know what you don’t know—and the LLM may not tell you.
 - Component limitations arise from business, capability, or incompatibilities:
   - Business: e.g., Twitter free API only allows pulling 100 posts/day.
   - Capability: e.g., Emacs plugin (ox-hugo) only supports Markdown blocks in Org files.
   - Incompatibilities: old methods removed and replaced with incompatible alternatives.
-
-** Caveats / Workflow tips
+- Assumptions hidden in examples: tutorials or LLM examples often assume a different project layout.
 - Don’t overanalyze error messages; capture them and ask the LLM to propose fixes.
 - Recognize impossible tasks early—stop LLM loops.
 - Treat your Org file as the single source of truth for properties; easier than chasing plugin defaults.
+- Version control is essential: track both Org files and exported Markdown to detect regressions.
+- Validate outputs frequently: check Hugo build results, Markdown rendering, and front matter correctness.
+- Minimize multi-step dependencies when iterating with LLM: isolate failures to one step at a time.
+- Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * ask llm to review unit test case
 :PROPERTIES:
 :EXPORT_FILE_NAME: review-unit-test

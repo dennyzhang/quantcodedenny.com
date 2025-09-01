@@ -48,7 +48,7 @@
 
   <meta itemprop="name" content="Posts">
   <meta itemprop="datePublished" content="2025-08-25T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-08-31T23:12:17-07:00">
+  <meta itemprop="dateModified" content="2025-08-31T23:14:31-07:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
 
@@ -112,7 +112,8 @@
 <li>Build guardrails: small checks, logging, or validation to catch mistakes early.</li>
 <li>Layer knowledge: start with minimal reproducible units (file-level) before scaling to project-level.</li>
 <li>Document gaps: track behaviors, limitations, and “unknown unknowns” to avoid repeating mistakes.</li>
-<li>Tool orchestration: combine LLM, Emacs, Hugo, and API limitations strategically—know which tool to push and where manual intervention is cheaper.</li>
+<li>Continuous learning: refine your workflow based on past errors and successful patterns.</li>
+<li>Plan for LLM limitations: predefine expected outputs, constraints, and acceptable fallbacks.</li>
 </ul>
 <h2 id="technical-challenges">Technical challenges</h2>
 <ul>
@@ -121,6 +122,8 @@
 <li>Lack of defensive coding: errors propagate, making debugging harder.</li>
 <li>ox-hugo 0.12.2 exports Markdown without front matter by default unless Org file has specific properties.</li>
 <li>LLM behavior: when facing impossible tasks, it often loops endlessly instead of admitting &ldquo;No.&rdquo;</li>
+<li>Hidden dependencies: some tasks fail because of unmentioned dependencies or outdated libraries.</li>
+<li>Subtle syntax quirks: small differences in Org, Markdown, or Hugo behavior can break automation.</li>
 </ul>
 <h2 id="gaps-and-blind-spots">Gaps &amp; blind spots</h2>
 <ul>
@@ -133,12 +136,17 @@
 <li>Incompatibilities: old methods removed and replaced with incompatible alternatives.</li>
 </ul>
 </li>
+<li>Assumptions hidden in examples: often tutorials or LLM examples assume a different project layout.</li>
 </ul>
 <h2 id="caveats-workflow-tips">Caveats / Workflow tips</h2>
 <ul>
 <li>Don’t overanalyze error messages; capture them and ask the LLM to propose fixes.</li>
 <li>Recognize impossible tasks early—stop LLM loops.</li>
 <li>Treat your Org file as the single source of truth for properties; easier than chasing plugin defaults.</li>
+<li>Version control is essential: track both Org files and exported Markdown to detect regressions.</li>
+<li>Validate outputs frequently: check Hugo build results, Markdown rendering, and front matter correctness.</li>
+<li>Minimize multi-step dependencies when iterating with LLM: isolate failures to one step at a time.</li>
+<li>Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.</li>
 </ul>
     </div>
     <a href="../posts/challenge-in-vibe-coding/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>

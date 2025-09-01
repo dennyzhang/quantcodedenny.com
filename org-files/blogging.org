@@ -4,6 +4,8 @@
 #+HUGO_TAGS: engineering
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* TODO add llm generated content to your own parts: make it targets, and won't loss your local knowledge :noexport:
+prompt: for vibe-coding, add the common best practice and missing caveats into below, ...
 * prompt - role setup to improve the blog
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-code-role-setup

@@ -1,0 +1,4 @@
+# List of sources to fetch
+wallstreetbets
+stocks
+u/ARKInvest

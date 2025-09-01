@@ -1,4 +1,4 @@
-# docker build -t denny/llm-stock-prompt .
+# docker build -t denny/llm-reddit-sentiment .
 FROM denny/llm-stock-base:latest
 
 # Set working directory
@@ -21,4 +21,4 @@ ENV OPENAI_API_KEY="YOUR_API_KEY_HERE"
 ENV STOCK_TICKER="YOUR_STOCK_TICKER"
 
 # Default command to run script
-CMD ["python", "twitter_sentiment.py"]
+CMD ["python", "reddit_sentiment.py"]

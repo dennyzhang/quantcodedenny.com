@@ -1,0 +1,4 @@
+snscrape
+vaderSentiment
+pandas
+sqlite-utils

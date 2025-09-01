@@ -1,4 +1,4 @@
-QuantCode: The Toolkit for Engineering-Driven Traders.
+[QuantCode](https://quantcodedenny.com): The Toolkit for Engineering-Driven Traders.
 
 This project targets the overlooked, yet lucrative, niche of long-term traders with engineering backgrounds. It provides a transparent, customizable system to move beyond pre-packaged signals and build your own quantitative strategies using the power of large language models (LLMs).
 

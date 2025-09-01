@@ -5,12 +5,13 @@
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * Introduction of myself and this website
-:HUGO_URL: https://quantcodedenny.com/docs/posts/self-intro/
 :PROPERTIES:
 :EXPORT_FILE_NAME: self-intro
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+
+:HUGO_URL: https://quantcodedenny.com/posts/self-intro/
 ** Basic Intro && Set the context for LLM's collobration
 I am an experienced infra engineer (~20 years) with a personal
 project: https://quantcodedenny.com, hosted on GitHub Pages (repo:
@@ -23,7 +24,6 @@ a free, reusable toolkit for engineering-driven indie traders.
 - Indie traders (not large financial institutions)
 - Long-term investors (not day traders)
 - Engineering or technical background
-
 ** Current Progress:
 - Blog hosted on GitHub Pages with an initial feature: stock sentiment analyzer(https://quantcodedenny.com/posts/llm-stock-sentiment/)
 - Targeting long-term tech investors with engineering backgrounds
@@ -31,22 +31,20 @@ a free, reusable toolkit for engineering-driven indie traders.
 You are a world-class entrepreneur, market analyst, and product strategist. Generate 10 specific, creative, and executable startup ideas based on this context.
 
 For each idea, include:
-1. Elevator Pitch (1 sentence) – Clear, concise, value-focused.
+- Elevator Pitch (1 sentence) – Clear, concise, value-focused.
 - Target User / Customer Segment – Who will use it.
 - Key Pain Point Solved – Specific problem addressed.
 - Monetization Method – How this idea could generate revenue.
 - Unique Angle or Moat – Differentiation, defensibility, or competitive advantage.
-
 ** Additional Guidance:
 - Make ideas actionable, not abstract.
 - Ask follow-up questions if needed to refine ideas.
 - Focus on products/tools that fit an engineer-friendly, long-term trading toolkit.
 - Suggest ideas that can be prototyped quickly or published online.
-
+  
 Meta Prompt:
 After generating the 5 ideas, suggest a P0 task I can realistically execute in the next 2 hours to make concrete progress on my project.
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** Personal note
+** Personal note                                                   :noexport:
 Here is a list of features to build for my personal usage.
 
 Please reach out, if you have more to suggest

@@ -6,7 +6,7 @@
     <description>Recent content in Engineering on QuantCode: The Toolkit for Engineering-Driven Traders.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 15:21:22 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 15:27:32 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Challenges in Vibe Coding</title>
@@ -20,14 +20,7 @@
       <link>https://quantcodedenny.com/posts/self-intro/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/self-intro/</guid>
-      <description>&lt;h2 id=&#34;basic-intro&#34;&gt;basic intro&lt;/h2&gt;&#xA;&lt;p&gt;quantcodedenny.com - is a personal project. I have ~20 years experience working in infra engineering. And I like to long-term investment for high tech stocks in US market.&lt;/p&gt;&#xA;&lt;p&gt;I want to exercise using LLM techinques to improve my trading decision quality. And provide a free and reusable toolkit for engineering-driven indie trader.&lt;/p&gt;&#xA;&lt;p&gt;My target audience should be:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;indie trader, not big financial cooperate&lt;/li&gt;&#xA;&lt;li&gt;long-term investor, not for day trader&lt;/li&gt;&#xA;&lt;li&gt;with engineering background&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;current-progress&#34;&gt;current progress&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The blogger is hosted in github pages under this repo &lt;a href=&#34;https://github.com/dennyzhang/quantcodedenny.com/&#34;&gt;https://github.com/dennyzhang/quantcodedenny.com/&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>prompt - Ask LLM to suggest new P0 task to work</title>
-      <link>https://quantcodedenny.com/posts/ask-llm-generate-idea/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/ask-llm-generate-idea/</guid>
-      <description>&lt;h2 id=&#34;prompt-general-setup-for-the-role&#34;&gt;prompt - general setup for the role&lt;/h2&gt;&#xA;&lt;p&gt;Prompt:&lt;/p&gt;&#xA;&lt;p&gt;You are a world-class entrepreneur, market analyst, and product strategist.&#xA;Your task is to generate 10 startup ideas based on my input.&lt;/p&gt;&#xA;&lt;p&gt;For each idea, include:&lt;/p&gt;&#xA;&lt;p&gt;– A 1-sentence elevator pitch&#xA;– Target user or customer segment&#xA;– Key pain point it solves&#xA;– Monetization method&#xA;– Unique angle or moat&lt;/p&gt;&#xA;&lt;p&gt;Make the ideas specific, creative, and executable.&#xA;Ask follow-up questions to refine if needed.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;basic-intro&#34;&gt;Basic intro&lt;/h2&gt;&#xA;&lt;p&gt;quantcodedenny.com - is a personal project. I have ~20 years experience working in infra engineering. And I like to long-term investment for high tech stocks in US market.&lt;/p&gt;&#xA;&lt;p&gt;I want to exercise using LLM techinques to improve my trading decision quality. And provide a free and reusable toolkit for engineering-driven indie trader.&lt;/p&gt;&#xA;&lt;p&gt;My target audience should be:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;indie trader, not big financial cooperate&lt;/li&gt;&#xA;&lt;li&gt;long-term investor, not for day trader&lt;/li&gt;&#xA;&lt;li&gt;with engineering background&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;target-painpoints&#34;&gt;Target painpoints&lt;/h2&gt;&#xA;&lt;p&gt;Here is a list of features to build for my personal usage.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

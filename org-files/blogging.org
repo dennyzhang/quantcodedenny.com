@@ -5,53 +5,58 @@
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * Introduction of myself and this website
+:HUGO_URL: https://quantcodedenny.com/docs/posts/self-intro/
 :PROPERTIES:
 :EXPORT_FILE_NAME: self-intro
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-** basic intro
-quantcodedenny.com - is a personal project. I have ~20 years experience working in infra engineering. And I like to long-term investment for high tech stocks in US market.
+** Basic Intro && Set the context for LLM's collobration
+I am an experienced infra engineer (~20 years) with a personal
+project: https://quantcodedenny.com, hosted on GitHub Pages (repo:
+https://github.com/dennyzhang/quantcodedenny.com/).
 
-I want to exercise using LLM techinques to improve my trading decision quality. And provide a free and reusable toolkit for engineering-driven indie trader.
+I focus on long-term investing in high-tech US stocks. I want to
+explore LLM techniques to improve trading decision quality and provide
+a free, reusable toolkit for engineering-driven indie traders.
+** Target Audience:
+- Indie traders (not large financial institutions)
+- Long-term investors (not day traders)
+- Engineering or technical background
 
-My target audience should be:
-1. indie trader, not big financial cooperate
-2. long-term investor, not for day trader
-3. with engineering background
-
-** current progress
-- The blogger is hosted in github pages under this repo https://github.com/dennyzhang/quantcodedenny.com/.
-- The website url is https://quantcodedenny.com
-
-- Current offering
-  stock_sentiment: https://quantcodedenny.com/posts/llm-stock-sentiment/
-* prompt - Ask LLM to suggest new P0 task to work
-:PROPERTIES:
-:EXPORT_FILE_NAME: ask-llm-generate-idea
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-** prompt - general setup for the role
-Prompt:
-
-You are a world-class entrepreneur, market analyst, and product strategist.
-Your task is to generate 10 startup ideas based on my input.
+** Current Progress:
+- Blog hosted on GitHub Pages with an initial feature: stock sentiment analyzer(https://quantcodedenny.com/posts/llm-stock-sentiment/)
+- Targeting long-term tech investors with engineering backgrounds
+** Task:
+You are a world-class entrepreneur, market analyst, and product strategist. Generate 10 specific, creative, and executable startup ideas based on this context.
 
 For each idea, include:
+1. Elevator Pitch (1 sentence) – Clear, concise, value-focused.
+- Target User / Customer Segment – Who will use it.
+- Key Pain Point Solved – Specific problem addressed.
+- Monetization Method – How this idea could generate revenue.
+- Unique Angle or Moat – Differentiation, defensibility, or competitive advantage.
 
-– A 1-sentence elevator pitch
-– Target user or customer segment
-– Key pain point it solves
-– Monetization method
-– Unique angle or moat
+** Additional Guidance:
+- Make ideas actionable, not abstract.
+- Ask follow-up questions if needed to refine ideas.
+- Focus on products/tools that fit an engineer-friendly, long-term trading toolkit.
+- Suggest ideas that can be prototyped quickly or published online.
 
-Make the ideas specific, creative, and executable.
-Ask follow-up questions to refine if needed.
-** prompt - ask for new idea
-Read through and associated links: https://quantcodedenny.com/posts/self-intro/
+Meta Prompt:
+After generating the 5 ideas, suggest a P0 task I can realistically execute in the next 2 hours to make concrete progress on my project.
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** Personal note                                                   :noexport:
+Here is a list of features to build for my personal usage.
 
-I have 2 hours. Please suggest next P0 task for me to work on
+Please reach out, if you have more to suggest
+
+| Idea               | Explanation                              | Business value | Idea to solve it |
+|--------------------+------------------------------------------+----------------+------------------|
+| Identify new trend | Fast jump of robinhood, Plantir in H1'25 |                |                  |
+| Buy the dip        | Buy RKLB at 14 on June, 2025             |                |                  |
+| Detect bias        | TSLA struggle at 320 in Q3'25            |                |                  |
+
 * TODO add llm generated content to your own parts: make it targets, and won't loss your local knowledge :noexport:
 prompt: for vibe-coding, add the common best practice and missing caveats into below, ...
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:

@@ -6,14 +6,14 @@
     <description>Recent content in Tools on QuantCode: The Toolkit for Engineering-Driven Traders.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Aug 2025 22:25:51 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 31 Aug 2025 23:12:17 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use LLM for stock sentiment</title>
       <link>https://quantcodedenny.com/posts/llm-stock-sentiment/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/llm-stock-sentiment/</guid>
-      <description>&lt;p&gt;This tool empowers engineers to automate stock sentiment analysis with&#xA;precision and speed.&lt;/p&gt;&#xA;&lt;p&gt;It combines two core capabilities: parsing recent&#xA;news headlines to extract market sentiment and insights, and parsing&#xA;SEC filings to surface key financial and risk information. Both&#xA;streams are fed into a configurable LLM pipeline, allowing you to run&#xA;fast local tests with lightweight models or perform high-accuracy&#xA;production analysis. Designed for modularity and reuse, it integrates&#xA;seamlessly into your workflows—turning raw data into actionable&#xA;insights without manual reading.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;0-intro&#34;&gt;0 Intro&lt;/h2&gt;&#xA;&lt;p&gt;This tool empowers engineers to automate stock sentiment analysis with&#xA;precision and speed.&lt;/p&gt;&#xA;&lt;p&gt;It combines two core capabilities: parsing recent&#xA;news headlines to extract market sentiment and insights, and parsing&#xA;SEC filings to surface key financial and risk information. Both&#xA;streams are fed into a configurable LLM pipeline, allowing you to run&#xA;fast local tests with lightweight models or perform high-accuracy&#xA;production analysis. Designed for modularity and reuse, it integrates&#xA;seamlessly into your workflows—turning raw data into actionable&#xA;insights without manual reading.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

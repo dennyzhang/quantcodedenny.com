@@ -3,3 +3,4 @@
 resources/_gen
 content
 __pycache__/
+tools/stock_sentiment/twitter_sentiment/tweets.db

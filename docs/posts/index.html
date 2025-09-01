@@ -48,7 +48,7 @@
 
   <meta itemprop="name" content="Posts">
   <meta itemprop="datePublished" content="2025-08-25T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-08-31T22:43:49-07:00">
+  <meta itemprop="dateModified" content="2025-08-31T23:09:44-07:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
 
@@ -100,24 +100,45 @@
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
       <a href="../posts/challenge-in-vibe-coding/" class="link black dim">
-        challenges in vibing coding
+        Challenges in Vibe Coding
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <ul>
-<li>different versions: functions not defined; certain functions are not supported</li>
-<li>understand the convention: hugo generate files into docs folder</li>
-<li>no defensive coding which makes debugging difficult</li>
-<li>ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property</li>
-<li>For impossible tasks, llm run into a circle instead of admitting a NO.</li>
-</ul>
-<h2 id="gaps">gaps</h2>
+      <h2 id="technical-challenges">Technical challenges</h2>
 <ul>
-<li>works for individual file, not at project structure level</li>
+<li>Multiple versions: functions may be undefined or unsupported across versions.</li>
+<li>Understanding conventions: e.g., Hugo generates files into the `docs` folder, not `content`.</li>
+<li>Lack of defensive coding: errors propagate, making debugging harder.</li>
+<li>ox-hugo 0.12.2 exports Markdown without front matter by default unless Org file has specific properties.</li>
+<li>LLM behavior: when facing impossible tasks, it often loops endlessly instead of admitting &ldquo;No.&rdquo;</li>
 </ul>
-<h2 id="caveats">caveats</h2>
+<h2 id="gaps-and-blind-spots">Gaps &amp; blind spots</h2>
 <ul>
-<li>stop reading the error msg. Just impatient enough, to copy to llm and ask it to fix</li>
+<li>Works well for individual files, but not full project structures.</li>
+<li>[#A] You don’t know what you don’t know—and the LLM may not tell you.</li>
+<li>Component limitations arise from business, capability, or incompatibilities:
+<ul>
+<li>Business: e.g., Twitter free API only allows pulling 100 posts/day.</li>
+<li>Capability: e.g., Emacs plugin (ox-hugo) only supports Markdown blocks in Org files.</li>
+<li>Incompatibilities: old methods removed and replaced with incompatible alternatives.</li>
+</ul>
+</li>
+</ul>
+<h2 id="expert-mindset-for-vibe-coding">Expert mindset for vibe coding</h2>
+<ul>
+<li>Embrace imperfection: treat the LLM as a co-pilot, not a guarantee.</li>
+<li>Iterate fast: copy errors to the LLM and ask for fixes immediately—speed &gt; perfect understanding.</li>
+<li>Meta-awareness: question assumptions about project structure, plugin limitations, or API behavior.</li>
+<li>Build guardrails: small checks, logging, or validation to catch mistakes early.</li>
+<li>Layer knowledge: start with minimal reproducible units (file-level) before scaling to project-level.</li>
+<li>Document gaps: track behaviors, limitations, and “unknown unknowns” to avoid repeating mistakes.</li>
+<li>Tool orchestration: combine LLM, Emacs, Hugo, and API limitations strategically—know which tool to push and where manual intervention is cheaper.</li>
+</ul>
+<h2 id="caveats-workflow-tips">Caveats / Workflow tips</h2>
+<ul>
+<li>Don’t overanalyze error messages; capture them and ask the LLM to propose fixes.</li>
+<li>Recognize impossible tasks early—stop LLM loops.</li>
+<li>Treat your Org file as the single source of truth for properties; easier than chasing plugin defaults.</li>
 </ul>
     </div>
     <a href="../posts/challenge-in-vibe-coding/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>

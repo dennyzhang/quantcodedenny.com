@@ -6,13 +6,12 @@ docker build -t denny/llm-stock-prompt .
 export GEMINI_API_KEYS="sk-xxx"
 # Set stock code to evaluate
 export STOCK_TICKER="RKLB"
-# Use a powerful-yet-expensive model. Default is gemini-1.5-flash
-export GEMINI_MODEL="gemini-2.5-pro"
+# Twitter Bearer Token
+export TWITTER_BEARER_TOKEN="AAAxxx"
 # Run capability via docker
 docker run --rm \
-  -e GEMINI_API_KEYS="$GEMINI_API_KEYS" \
+  -e TWITTER_BEARER_TOKEN="$TWITTER_BEARER_TOKEN" \
   -e STOCK_TICKER="$STOCK_TICKER" \
-  -e GEMINI_MODEL="$GEMINI_MODEL" \
   -v .:/app/ \
   denny/llm-stock-prompt
 ```

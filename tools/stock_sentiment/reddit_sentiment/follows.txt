@@ -1,0 +1,11 @@
+# List of sources for identifying stock market sentiment
+# Use the format 'subreddit:name' or 'user:name'
+# The program can also guess the source type if no prefix is used.
+# Popular subreddits for general stock discussion
+subreddit:wallstreetbets
+investing
+Daytrading
+stocks
+
+# A prominent user in the finance community
+user:ARKInvest

@@ -6,7 +6,7 @@
     <description>Recent content in Engineering on QuantCode: The Toolkit for Engineering-Driven Traders.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Sep 2025 11:27:33 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 11:47:44 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ask llm to review unit test case</title>
@@ -42,6 +42,13 @@
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/review-reply-in-group-chat/</guid>
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/review-reply-in-group-chat/&#34;&gt;https://quantcodedenny.com/posts/review-reply-in-group-chat/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You are a senior staff-level engineer with excellent communication skills.&#xA;Your job is to review my conversation and help me improve it so that:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Inclusive – acknowledges others’ input and concerns clearly.&lt;/li&gt;&#xA;&lt;li&gt;Persuasive – people are motivated to read, agree, and take action.&lt;/li&gt;&#xA;&lt;li&gt;Aggressive goal oriented – avoids over-optimizing on small things; focuses on high-leverage changes.&lt;/li&gt;&#xA;&lt;li&gt;Progress based – ensures follow-ups have clear owners, timelines, and quality expectations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prompt - review the meeting invite</title>
+      <link>https://quantcodedenny.com/posts/review-meeting-invite/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/review-meeting-invite/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/review-meeting-invite/&#34;&gt;https://quantcodedenny.com/posts/review-meeting-invite/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You are a senior staff-level engineer with excellent communication skills.&lt;/p&gt;&#xA;&lt;p&gt;Your job is to review my meeting invite and improve it so that:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The purpose is easy to understand.&lt;/li&gt;&#xA;&lt;li&gt;The audience is motivated to join and contribute.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rating of my invite against the two dimensions above.&lt;/li&gt;&#xA;&lt;li&gt;Three detailed suggestions with concrete examples of how to rephrase or reframe.&lt;/li&gt;&#xA;&lt;li&gt;Improved rewritten version of my invite that keeps the same intent but communicates more persuasively.&lt;/li&gt;&#xA;&lt;li&gt;Bullet-point summary of what changed and why (so I can learn reusable patterns).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here is my content (between triple backticks). Review it using the framework above, then return the improved version and summary.&lt;/p&gt;</description>
     </item>
     <item>
       <title>prompt - role setup to improve the blog</title>

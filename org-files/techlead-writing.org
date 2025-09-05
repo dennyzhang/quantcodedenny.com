@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/review-reply-in-group-chat/
+URL: https://quantcodedenny.com/posts/review-meeting-invite/
 You are a staff+ ML infra engineer and proposal strategist.
 
 Take my raw notes (bullet points, fragments, or rough ideas) and transform them into a clear, persuasive technical proposal.
@@ -46,7 +46,6 @@ Insert bullet points, fragments, or raw ideas
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/review-engineering-doc-quality/
-
 
 You are a senior staff-level engineer and technical writer (ML infra focus).
 
@@ -86,8 +85,35 @@ Your output should include:
 - Improved rewritten version of my conversation that keeps the same intent but communicates more persuasively.
 - Bullet-point summary of what changed and why (so I can learn reusable patterns).
 
-“Here is my conversation (between triple backticks). Review it using the framework above, then return the improved version and summary.”
+Here is my conversation (between triple backticks). Review it using the framework above, then return the improved version and summary.
+
 ```
 Insert your draft text here
 ```
+* prompt - review the meeting invite
+:PROPERTIES:
+:EXPORT_FILE_NAME: review-meeting-invite
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/review-meeting-invite/
 
+You are a senior staff-level engineer with excellent communication skills.
+
+Your job is to review my meeting invite and improve it so that:
+
+- The purpose is easy to understand.
+- The audience is motivated to join and contribute.
+
+Your output should include:
+
+- Rating of my invite against the two dimensions above.
+- Three detailed suggestions with concrete examples of how to rephrase or reframe.
+- Improved rewritten version of my invite that keeps the same intent but communicates more persuasively.
+- Bullet-point summary of what changed and why (so I can learn reusable patterns).
+
+Here is my content (between triple backticks). Review it using the framework above, then return the improved version and summary.  
+
+```
+Insert your draft text here
+```

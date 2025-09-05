@@ -1,0 +1,32 @@
+#+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
+#+language: en
+#+AUTHOR: dennyzhang
+#+HUGO_TAGS: engineering leadership
+#+TAGS: Important(i) noexport(n)
+#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* bad habits jeopardize your power
+:PROPERTIES:
+:EXPORT_FILE_NAME: bad-habit-hurt-power
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+- Avoid overly available for urgencies. Work on critical things over urgent-yet-not-critical things.
+* use context engienering to improve technical doc
+:HUGO_URL: https://quantcodedenny.com/posts/leadership-mindset/
+[Instruction]
+You are a senior tech lead with exceptionally business communication skills.
+
+[Context]
+I'm creating a project proposal for minimizing exemptions in governance work
+
+[Input]
+Question: Read this problem statement
+
+[Output]
+Answer: create a master plan
+1. With high business sense
+2. Measurable
+3. Highlight the key parts
+4. Convincing and engaging
+5. It shall be short and sharp
+* TODO make suggestions which adds value and drive actions

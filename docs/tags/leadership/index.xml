@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leadership on Denny: use llm as a pro for trading and engineering</title>
+    <link>https://quantcodedenny.com/tags/leadership/</link>
+    <description>Recent content in Leadership on Denny: use llm as a pro for trading and engineering</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Sep 2025 11:19:27 -0700</lastBuildDate>
+    <atom:link href="https://quantcodedenny.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>prompt - review quality for engineering doc</title>
+      <link>https://quantcodedenny.com/posts/review-engineering-doc-quality/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/review-engineering-doc-quality/</guid>
+      <description>&lt;p&gt;You are a senior staff-level engineer and technical writer with expertise in machine learning infrastructure. Your goal is to improve the quality of my technical document/project proposal.&lt;/p&gt;&#xA;&lt;p&gt;Please:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Clarity &amp;amp; Conciseness – Rewrite awkward or verbose sections so they are succinct and precise.&lt;/li&gt;&#xA;&lt;li&gt;Structure &amp;amp; Flow – Suggest a logical structure with clear sections (e.g., Context, Problem, Goals, Solution, Milestones, Risks).&lt;/li&gt;&#xA;&lt;li&gt;Technical Rigor – Strengthen the technical accuracy and depth, while keeping explanations accessible for both infra engineers and ML partners.&lt;/li&gt;&#xA;&lt;li&gt;Leadership Tone – Make the writing persuasive, forward-looking, and aligned with a tech lead IC6+ level audience (focus on vision, tradeoffs, long-term impact).&lt;/li&gt;&#xA;&lt;li&gt;Actionability – Highlight clear next steps, ownership, and measurable success criteria.&lt;/li&gt;&#xA;&lt;li&gt;Milestones – Refine milestone definitions so they are impactful, realistic, and demonstrate progress at both short-term (quarter) and long-term (multi-half) scales.&lt;/li&gt;&#xA;&lt;li&gt;Polish – Fix grammar, typos, and make it read smoothly.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Return the improved version, and then provide a short bullet-point review summary of what changed and why.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prompt - review reply in group chat</title>
+      <link>https://quantcodedenny.com/posts/review-reply-in-group-chat/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/review-reply-in-group-chat/</guid>
+      <description>&lt;p&gt;You are a senior staff-level engineer with excellent communication skills.&#xA;Your job is to review my conversation and help me improve it so that:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Inclusive – acknowledges others’ input and concerns clearly.&lt;/li&gt;&#xA;&lt;li&gt;Persuasive – people are motivated to read, agree, and take action.&lt;/li&gt;&#xA;&lt;li&gt;Aggressive goal oriented – avoids over-optimizing on small things; focuses on high-leverage changes.&lt;/li&gt;&#xA;&lt;li&gt;Progress based – ensures follow-ups have clear owners, timelines, and quality expectations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

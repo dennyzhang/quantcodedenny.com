@@ -2,6 +2,7 @@
 #+language: en
 #+AUTHOR: dennyzhang
 #+HUGO_TAGS: engineering
+#+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * challenges in vibing coding                                 
 :PROPERTIES:
@@ -14,3 +15,22 @@
 - no defensive coding which makes debugging difficult
 - ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property
 - For impossible tasks, llm run into a circle instead of admitting a NO.
+* ask llm to review unit test case
+:PROPERTIES:
+:EXPORT_FILE_NAME: review-unit-test
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+
+Find major issues in given unit test code
+
+Find and read both unit test code and implemention code. Common issues include:
+1. Lack of mocking remote calls
+2. Is actually missing async_test annotation. Then a few test cases don't work as expected, essentially got skipped
+3. Missing coverage for critical functions or capabilities
+
+Your answer should:
+1. right to the point
+2. list detail functions which have issues
+
+Evaluate this: https://abc/tests/test_123.py

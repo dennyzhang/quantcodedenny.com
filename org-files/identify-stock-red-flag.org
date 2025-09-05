@@ -1,6 +1,7 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
 #+AUTHOR: dennyzhang
+#+TAGS: Important(i) noexport(n)
 #+HUGO_TAGS: trading
 * prompt - buy the dip for QQQ
 :PROPERTIES:

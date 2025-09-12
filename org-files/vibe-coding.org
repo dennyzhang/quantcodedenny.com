@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
+URL: https://quantcodedenny.com/posts/vibe-coding/
 ** ask llm to review unit test case
 Find major issues in given unit test code
 
@@ -37,7 +37,9 @@ Your output should include:
 - Bullet-point summary of what changed and why (so I can learn reusable patterns).
 
 Here is diff summary to review (between triple backticks)
+
 ```
+insert content
 ```
 * Challenges in Vibe Coding                                        :noexport:
 :PROPERTIES:

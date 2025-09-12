@@ -40,7 +40,7 @@ Here are my notes (between triple backticks):
 
 ```
 
-Insert bullet points, fragments, or raw ideas
+Insert your content here
 
 ```
 ** prompt - review engineering doc

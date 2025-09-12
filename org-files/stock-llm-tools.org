@@ -11,7 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-:HUGO_URL: https://quantcodedenny.com/posts/llm-tools/
+URL: https://quantcodedenny.com/posts/llm-stock-sentiment/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.

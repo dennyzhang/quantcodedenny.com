@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/improve-technical-writing/
+URL: https://quantcodedenny.com/posts/techlead-writing/
 ** prompt - create technical proposal
 You are a staff+ ML infra engineer and proposal strategist.
 

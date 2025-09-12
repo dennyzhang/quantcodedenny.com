@@ -6,35 +6,14 @@
     <description>Recent content in Trading on QuantCode: The Toolkit for Engineering-Driven Traders.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Aug 2025 08:09:12 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 15:05:08 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/trading/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>prompt - buy the dip for QQQ</title>
-      <link>https://quantcodedenny.com/posts/buy-dip-for-qqq/</link>
+      <title>Use LLM for stock sentiment</title>
+      <link>https://quantcodedenny.com/posts/llm-stock-sentiment/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/buy-dip-for-qqq/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Create prompt to identify the dip for QQQ&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>prompt - create latest news</title>
-      <link>https://quantcodedenny.com/posts/stock-create-latest-news/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/stock-create-latest-news/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Given a stock code, find all latest discussion for the past two weeks.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Find information from below sources&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- X&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Facebook&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Reddit groups&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Output:&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Generate a summary for the potential of this stock&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- Highlight the latest news and progress&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>prompt - monitor HIMS stock</title>
-      <link>https://quantcodedenny.com/posts/monitor-hims-stock/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/monitor-hims-stock/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Evaluate the HIMS stock: ongoing trends, evaluations&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>prompt - role setup</title>
-      <link>https://quantcodedenny.com/posts/stock-role-setup/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/stock-role-setup/</guid>
-      <description>&lt;p&gt;You are a stock trading expert, specialized in high technology stocks&lt;/p&gt;</description>
+      <guid>https://quantcodedenny.com/posts/llm-stock-sentiment/</guid>
+      <description>&lt;p&gt;:HUGO_URL: &lt;a href=&#34;https://quantcodedenny.com/posts/llm-tools/&#34;&gt;https://quantcodedenny.com/posts/llm-tools/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;0-intro&#34;&gt;0 Intro&lt;/h2&gt;&#xA;&lt;p&gt;This tool empowers engineers to automate stock sentiment analysis with&#xA;precision and speed.&lt;/p&gt;&#xA;&lt;p&gt;It combines two core capabilities: parsing recent&#xA;news headlines to extract market sentiment and insights, and parsing&#xA;SEC filings to surface key financial and risk information. Both&#xA;streams are fed into a configurable LLM pipeline, allowing you to run&#xA;fast local tests with lightweight models or perform high-accuracy&#xA;production analysis. Designed for modularity and reuse, it integrates&#xA;seamlessly into your workflows—turning raw data into actionable&#xA;insights without manual reading.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

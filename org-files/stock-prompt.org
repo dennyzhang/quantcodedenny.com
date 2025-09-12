@@ -37,7 +37,6 @@ Output:
 - Generate a summary for the potential of this stock
 - Highlight the latest news and progress
 #+END_EXAMPLE
-
 * prompt - monitor HIMS stock                                      :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: monitor-hims-stock
@@ -104,3 +103,4 @@ You are a business strategist and product builder specializing in monetizing nic
 Ask for P0 task
 I have 2 hours now. I want to create one reusable content or tool in this topic. What I shall work on?  I need one sentence statement. And the audience can understand and get attracte
 d
+

@@ -4,12 +4,14 @@
 #+HUGO_TAGS: engineering
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* ask llm to review unit test case
+* Use LLM for vibe coding
 :PROPERTIES:
-:EXPORT_FILE_NAME: review-unit-test
+:EXPORT_FILE_NAME: llm-for-vibe-coding
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
+** ask llm to review unit test case
 Find major issues in given unit test code
 
 Find and read both unit test code and implemention code. Common issues include:
@@ -22,12 +24,7 @@ Your answer should:
 2. list detail functions which have issues
 
 Evaluate this: https://abc/tests/test_123.py
-* ask llm to suggest on diff summary
-:PROPERTIES:
-:EXPORT_FILE_NAME: review-diff-summary
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
+** ask llm to suggest on diff summary
 You are a senior staff-level engineer with excellent technical writing skills.
 
 Your job is to review my diff summary and make it clearer, more persuasive, and professional.
@@ -42,7 +39,7 @@ Your output should include:
 Here is diff summary to review (between triple backticks)
 ```
 ```
-* Challenges in Vibe Coding
+* Challenges in Vibe Coding                                        :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenge-in-vibe-coding
 :EXPORT_DATE: 2025-08-25
@@ -87,5 +84,3 @@ Here is diff summary to review (between triple backticks)
 - Validate outputs frequently: check Hugo build results, Markdown rendering, and front matter correctness.
 - Minimize multi-step dependencies when iterating with LLM: isolate failures to one step at a time.
 - Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
->>>>>>> b7813ceed43972cc8c7d483b5e11a55051f6b913

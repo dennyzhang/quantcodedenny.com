@@ -11,7 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/techlead-writing/
+URL: https://quantcodedenny.com/posts/improve-technical-writing/
 ** prompt - create technical proposal
 You are a staff+ ML infra engineer and proposal strategist.
 

@@ -3,6 +3,41 @@
 #+AUTHOR: dennyzhang
 #+TAGS: Important(i) noexport(n)
 #+HUGO_TAGS: trading
+* Identify stock read flags                                        :noexport:
+** prompt - buy the dip for QQQ                                     :noexport:
+#+BEGIN_EXAMPLE
+Create prompt to identify the dip for QQQ
+#+END_EXAMPLE
+** prompt - monitor HIMS stock                                     :noexport:
+#+BEGIN_EXAMPLE
+Evaluate the HIMS stock: ongoing trends, evaluations
+#+END_EXAMPLE
+** prompt - role setup                                             :noexport:
+:PROPERTIES:
+:EXPORT_FILE_NAME: stock-role-setup
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+You are a stock trading expert, specialized in high technology stocks
+** prompt - create latest news                                     :noexport:
+:PROPERTIES:
+:EXPORT_FILE_NAME: stock-create-latest-news
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+#+BEGIN_EXAMPLE
+Given a stock code, find all latest discussion for the past two weeks.
+
+Find information from below sources
+- X
+- Facebook
+- Reddit groups
+
+Output:
+- Generate a summary for the potential of this stock
+- Highlight the latest news and progress
+#+END_EXAMPLE
+
 * prompt - monitor HIMS stock                                      :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: monitor-hims-stock

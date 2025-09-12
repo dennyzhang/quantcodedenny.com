@@ -11,7 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/improve-technical-writing/
+URL: https://quantcodedenny.com/posts/techlead-writing/
 ** prompt - create technical proposal
 You are a staff+ ML infra engineer and proposal strategist.
 
@@ -59,7 +59,7 @@ Here is my draft (between triple backticks):
 
 ```
 
-Insert your draft text here
+Insert your content here
 
 ```
 ** prompt - review reply in group chat
@@ -84,7 +84,7 @@ My name is Denny in the conversation.
 
 ```
 
-Insert your draft text here
+Insert your content here
 
 ```
 ** prompt - review the meeting invite
@@ -106,7 +106,7 @@ Here is my content (between triple backticks). Review it using the framework abo
 
 ```
 
-Insert your draft text here
+Insert your content here
 
 ```
 

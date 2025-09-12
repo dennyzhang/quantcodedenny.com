@@ -39,7 +39,7 @@ Your output should include:
 Here is diff summary to review (between triple backticks)
 
 ```
-insert content
+Insert your content here
 ```
 * Challenges in Vibe Coding                                        :noexport:
 :PROPERTIES:

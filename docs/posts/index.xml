@@ -6,7 +6,7 @@
     <description>Recent content in Posts on QuantCode: The Toolkit for Engineering-Driven Traders.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 15:14:17 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 15:15:53 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use LLM for stock sentiment</title>
@@ -27,7 +27,7 @@
       <link>https://quantcodedenny.com/posts/improve-technical-writing/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/improve-technical-writing/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/improve-technical-writing/&#34;&gt;https://quantcodedenny.com/posts/improve-technical-writing/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt-create-technical-proposal&#34;&gt;prompt - create technical proposal&lt;/h2&gt;&#xA;&lt;p&gt;You are a staff+ ML infra engineer and proposal strategist.&lt;/p&gt;&#xA;&lt;p&gt;Take my raw notes (bullet points, fragments, or rough ideas) and transform them into a clear, persuasive technical proposal.&lt;/p&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;&#xA;&lt;p&gt;A well-structured proposal draft with the following sections:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Context&lt;/li&gt;&#xA;&lt;li&gt;Problem Statement (offer 2–3 alternative framings)&lt;/li&gt;&#xA;&lt;li&gt;Goals (offer 2–3 alternative framings)&lt;/li&gt;&#xA;&lt;li&gt;Solution Options&lt;/li&gt;&#xA;&lt;li&gt;Trade-offs&lt;/li&gt;&#xA;&lt;li&gt;Milestones (short-term vs. long-term)&lt;/li&gt;&#xA;&lt;li&gt;Risks&lt;/li&gt;&#xA;&lt;li&gt;Success Metrics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Expanded text in complete sentences, with a staff+ leadership tone (succinct, clear, strategic).&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/techlead-writing/&#34;&gt;https://quantcodedenny.com/posts/techlead-writing/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt-create-technical-proposal&#34;&gt;prompt - create technical proposal&lt;/h2&gt;&#xA;&lt;p&gt;You are a staff+ ML infra engineer and proposal strategist.&lt;/p&gt;&#xA;&lt;p&gt;Take my raw notes (bullet points, fragments, or rough ideas) and transform them into a clear, persuasive technical proposal.&lt;/p&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;&#xA;&lt;p&gt;A well-structured proposal draft with the following sections:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Context&lt;/li&gt;&#xA;&lt;li&gt;Problem Statement (offer 2–3 alternative framings)&lt;/li&gt;&#xA;&lt;li&gt;Goals (offer 2–3 alternative framings)&lt;/li&gt;&#xA;&lt;li&gt;Solution Options&lt;/li&gt;&#xA;&lt;li&gt;Trade-offs&lt;/li&gt;&#xA;&lt;li&gt;Milestones (short-term vs. long-term)&lt;/li&gt;&#xA;&lt;li&gt;Risks&lt;/li&gt;&#xA;&lt;li&gt;Success Metrics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Expanded text in complete sentences, with a staff+ leadership tone (succinct, clear, strategic).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

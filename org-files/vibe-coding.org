@@ -4,6 +4,44 @@
 #+HUGO_TAGS: engineering
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* ask llm to review unit test case
+:PROPERTIES:
+:EXPORT_FILE_NAME: review-unit-test
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+Find major issues in given unit test code
+
+Find and read both unit test code and implemention code. Common issues include:
+1. Lack of mocking remote calls
+2. Is actually missing async_test annotation. Then a few test cases don't work as expected, essentially got skipped
+3. Missing coverage for critical functions or capabilities
+
+Your answer should:
+1. right to the point
+2. list detail functions which have issues
+
+Evaluate this: https://abc/tests/test_123.py
+* ask llm to suggest on diff summary
+:PROPERTIES:
+:EXPORT_FILE_NAME: review-diff-summary
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+You are a senior staff-level engineer with excellent technical writing skills.
+
+Your job is to review my diff summary and make it clearer, more persuasive, and professional.
+
+Your output should include:
+
+- Rating of my diff summary (clarity, persuasiveness, readability).
+- Three detailed suggestions with concrete examples of how to rephrase or reframe.
+- Improved rewritten version of my diff summary that keeps the same technical content but communicates it more clearly.
+- Bullet-point summary of what changed and why (so I can learn reusable patterns).
+
+Here is diff summary to review (between triple backticks)
+```
+```
 * Challenges in Vibe Coding
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenge-in-vibe-coding
@@ -51,21 +89,3 @@
 - Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 >>>>>>> b7813ceed43972cc8c7d483b5e11a55051f6b913
-* ask llm to review unit test case
-:PROPERTIES:
-:EXPORT_FILE_NAME: review-unit-test
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-Find major issues in given unit test code
-
-Find and read both unit test code and implemention code. Common issues include:
-1. Lack of mocking remote calls
-2. Is actually missing async_test annotation. Then a few test cases don't work as expected, essentially got skipped
-3. Missing coverage for critical functions or capabilities
-
-Your answer should:
-1. right to the point
-2. list detail functions which have issues
-
-Evaluate this: https://abc/tests/test_123.py

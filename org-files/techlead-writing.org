@@ -4,13 +4,14 @@
 #+HUGO_TAGS: engineering leadership
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* prompt - create technical proposal
+* Improve technical writing as a TL
 :PROPERTIES:
-:EXPORT_FILE_NAME: create-technical-proposal
+:EXPORT_FILE_NAME: improve-technical-writing
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/review-meeting-invite/
+URL: https://quantcodedenny.com/posts/improve-technical-writing/
+** prompt - create technical proposal
 You are a staff+ ML infra engineer and proposal strategist.
 
 Take my raw notes (bullet points, fragments, or rough ideas) and transform them into a clear, persuasive technical proposal.
@@ -39,13 +40,7 @@ Here are my notes (between triple backticks):
 ```
 Insert bullet points, fragments, or raw ideas
 ```
-* prompt - review quality for engineering doc
-:PROPERTIES:
-:EXPORT_FILE_NAME: review-engineering-doc-quality
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-URL: https://quantcodedenny.com/posts/review-engineering-doc-quality/
+** prompt - review quality for engineering doc
 
 You are a senior staff-level engineer and technical writer (ML infra focus).
 
@@ -62,42 +57,30 @@ Here is my draft (between triple backticks):
 ```
 Insert your draft text here
 ```
-* prompt - review reply in group chat
-:PROPERTIES:
-:EXPORT_FILE_NAME: review-reply-in-group-chat
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-URL: https://quantcodedenny.com/posts/review-reply-in-group-chat/
+** prompt - review reply in group chat
 
 You are a senior staff-level engineer with excellent communication skills.
-Your job is to review my conversation and help me improve it so that:
 
-- Inclusive – acknowledges others’ input and concerns clearly.
-- Persuasive – people are motivated to read, agree, and take action.
-- Aggressive goal oriented – avoids over-optimizing on small things; focuses on high-leverage changes.
-- Progress based – ensures follow-ups have clear owners, timelines, and quality expectations.
+Your job is to review my conversation and help me improve it so that:
+- Inclusive: It clearly acknowledges others’ input and concerns.
+- Persuasive: It motivates people to read, agree, and take action.
+- Ambitious & Practical: It balances aggressive, high-leverage goals with credible, achievable plans. It avoids proposing unattainable targets that could jeopardize influence.
+- Progress-Based: It ensures follow-ups have clear owners, timelines, and quality expectations.
 
 Your output should include:
-
-- Rating of my conversation against the 4 dimensions above.
+- A rating of my conversation against the four dimensions above.
 - Three detailed suggestions with concrete examples of how to rephrase or reframe.
-- Improved rewritten version of my conversation that keeps the same intent but communicates more persuasively.
-- Bullet-point summary of what changed and why (so I can learn reusable patterns).
+- An improved rewritten version of my conversation that keeps the same intent but communicates more persuasively.
+- A bullet-point summary of what changed and why (so I can learn reusable patterns).
 
 Here is my conversation (between triple backticks). Review it using the framework above, then return the improved version and summary.
+
+My name is Denny in the conversation.
 
 ```
 Insert your draft text here
 ```
-* prompt - review the meeting invite
-:PROPERTIES:
-:EXPORT_FILE_NAME: review-meeting-invite
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-URL: https://quantcodedenny.com/posts/review-meeting-invite/
-
+** prompt - review the meeting invite
 You are a senior staff-level engineer with excellent communication skills.
 
 Your job is to review my meeting invite and improve it so that:

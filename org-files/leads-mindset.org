@@ -4,10 +4,59 @@
 #+HUGO_TAGS: engineering leadership
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* bad habits jeopardize your power                                 :noexport:
-:PROPERTIES:
-:EXPORT_FILE_NAME: bad-habit-hurt-power
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-- Avoid overly available for urgencies. Work on critical things over urgent-yet-not-critical things.
+* Focus & Prioritization                                           :noexport:
+Invest energy in critical, high-leverage work over urgent-but-low-value tasks.
+
+Avoid over-investing in less critical issues.
+
+Seek global optimization over local wins, aligning with higher ROI challenges.
+* Communication & Discussions                                      :noexport:
+Avoid leaving open-ended threads; drive toward clarity and closure.
+
+Ask framing questions that help the whole team think more broadly.
+
+Ensure comments add unique value after deep thought (avoid noise or obvious remarks).
+
+Encourage meaningful discussions, especially on core problems; don’t prematurely shut them down.
+
+Use simple, concrete language and data to open up topics that engage others.
+
+Deliver hard messages when necessary with clarity and respect.
+* Strategic Thinking                                               :noexport:
+Think and discuss at a director-level perspective.
+
+Navigate and balance conflicting goals effectively.
+
+Aim for sustainable solutions rather than quick fixes.
+
+Recognize and address blind spots in plans or strategies.
+
+Frame problems with incentives and “why it matters” to gain alignment.
+* Leverage & Empowerment                                           :noexport:
+Contribute unique value instead of competing on the same ground as others.
+
+Mobilize the team to increase overall output, not just personal output.
+
+Gain useful insights by actively engaging with cross-functional partners and your team.
+
+Add value without doing all the work yourself (e.g., ask clarifying questions, provide direction).
+
+Avoid over-delegation that leaves team members unsupported and projects at risk.
+
+Remove collaboration friction by being flexible on approaches and emphasizing business outcomes.
+* Influence & Leadership Presence                                  :noexport:
+Grow your influence and power through consistent, value-adding contributions.
+
+Build confidence in the team when facing uncertainty.
+
+Engage actively in discussions to show leadership presence.
+
+Talk with a business sense—connect technical choices to business impact.
+
+Maintain a bias for action to drive progress.
+
+Ensure steady progress forward; momentum builds credibility.
+* casual talk                                                      :noexport:
+Can I ask that you find a time next week for us
+
+I’m not a big fan of them coming in and claiming that XXX solution should be generalized and pushing for long-term ownership, especially since my understanding was that another group was instrumental in contributing to that solution. That’s why I stepped in to reference the earlier discussions.

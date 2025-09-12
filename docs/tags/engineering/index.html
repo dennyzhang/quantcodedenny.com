@@ -48,7 +48,7 @@
 
   <meta itemprop="name" content="Engineering">
   <meta itemprop="datePublished" content="2025-08-25T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-09-05T11:47:44-07:00">
+  <meta itemprop="dateModified" content="2025-09-12T14:48:46-07:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Engineering">
 
@@ -103,24 +103,52 @@
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
-      <a href="../../posts/review-unit-test/" class="link black dim">
-        ask llm to review unit test case
+      <a href="../../posts/review-diff-summary/" class="link black dim">
+        ask llm to suggest on diff summary
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p>Find major issues in given unit test code</p>
-<p>Find and read both unit test code and implemention code. Common issues include:</p>
-<ol>
-<li>Lack of mocking remote calls</li>
-<li>Is actually missing async_test annotation. Then a few test cases don&rsquo;t work as expected, essentially got skipped</li>
-<li>Missing coverage for critical functions or capabilities</li>
-</ol>
-<p>Your answer should:</p>
-<ol>
-<li>right to the point</li>
-<li>list detail functions which have issues</li>
-</ol>
-<p>Evaluate this: <a href="https://abc/tests/test_123.py">https://abc/tests/test_123.py</a></p>
+      <p>You are a senior staff-level engineer with excellent technical writing skills.</p>
+<p>Your job is to review my diff summary and make it clearer, more persuasive, and professional.</p>
+<p>Your output should include:</p>
+<ul>
+<li>Rating of my diff summary (clarity, persuasiveness, readability).</li>
+<li>Three detailed suggestions with concrete examples of how to rephrase or reframe.</li>
+<li>Improved rewritten version of my diff summary that keeps the same technical content but communicates it more clearly.</li>
+<li>Bullet-point summary of what changed and why (so I can learn reusable patterns).</li>
+</ul>
+<p>Here is diff summary to review (between triple backticks)
+```
+```</p>
+    </div>
+    <a href="../../posts/review-diff-summary/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="../../posts/review-unit-test/" class="link black dim">
+        ask llm to suggest on diff summary
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>You are a senior staff-level engineer with excellent technical writing skills.</p>
+<p>Your job is to review my diff summary and make it clearer, more persuasive, and professional.</p>
+<p>Your output should include:</p>
+<ul>
+<li>Rating of my diff summary (clarity, persuasiveness, readability).</li>
+<li>Three detailed suggestions with concrete examples of how to rephrase or reframe.</li>
+<li>Improved rewritten version of my diff summary that keeps the same technical content but communicates it more clearly.</li>
+<li>Bullet-point summary of what changed and why (so I can learn reusable patterns).</li>
+</ul>
+<p>Here is diff summary to review (between triple backticks)
+```
+```</p>
     </div>
     <a href="../../posts/review-unit-test/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
@@ -143,6 +171,40 @@
 </ul>
     </div>
     <a href="../../posts/bad-habit-hurt-power/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="../../posts/improve-technical-writing/" class="link black dim">
+        Improve technical writing as a TL
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>URL: <a href="https://quantcodedenny.com/posts/improve-technical-writing/">https://quantcodedenny.com/posts/improve-technical-writing/</a></p>
+<h2 id="prompt-create-technical-proposal">prompt - create technical proposal</h2>
+<p>You are a staff+ ML infra engineer and proposal strategist.</p>
+<p>Take my raw notes (bullet points, fragments, or rough ideas) and transform them into a clear, persuasive technical proposal.</p>
+<p>Your output should include:</p>
+<p>A well-structured proposal draft with the following sections:</p>
+<ul>
+<li>Context</li>
+<li>Problem Statement (offer 2–3 alternative framings)</li>
+<li>Goals (offer 2–3 alternative framings)</li>
+<li>Solution Options</li>
+<li>Trade-offs</li>
+<li>Milestones (short-term vs. long-term)</li>
+<li>Risks</li>
+<li>Success Metrics</li>
+</ul>
+<p>Expanded text in complete sentences, with a staff+ leadership tone (succinct, clear, strategic).</p>
+    </div>
+    <a href="../../posts/improve-technical-writing/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
 </div>
 
@@ -220,14 +282,14 @@ You are a staff+ ML infra engineer and proposal strategist.</p>
       </a>
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p>URL: <a href="https://quantcodedenny.com/posts/review-reply-in-group-chat/">https://quantcodedenny.com/posts/review-reply-in-group-chat/</a></p>
-<p>You are a senior staff-level engineer with excellent communication skills.
-Your job is to review my conversation and help me improve it so that:</p>
+      <p>URL: <a href="https://quantcodedenny.com/posts/review-meeting-invite/">https://quantcodedenny.com/posts/review-meeting-invite/</a></p>
+<p>You are a senior staff-level engineer with excellent communication skills.</p>
+<p>Your job is to review my conversation and help me improve it so that:</p>
 <ul>
-<li>Inclusive – acknowledges others’ input and concerns clearly.</li>
-<li>Persuasive – people are motivated to read, agree, and take action.</li>
-<li>Aggressive goal oriented – avoids over-optimizing on small things; focuses on high-leverage changes.</li>
-<li>Progress based – ensures follow-ups have clear owners, timelines, and quality expectations.</li>
+<li>Inclusive: It clearly acknowledges others’ input and concerns.</li>
+<li>Persuasive: It motivates people to read, agree, and take action.</li>
+<li>Ambitious &amp; Practical: It balances aggressive, high-leverage goals with credible, achievable plans. It avoids proposing unattainable targets that could jeopardize influence.</li>
+<li>Progress-Based: It ensures follow-ups have clear owners, timelines, and quality expectations.</li>
 </ul>
 <p>Your output should include:</p>
     </div>

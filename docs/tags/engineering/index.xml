@@ -6,14 +6,21 @@
     <description>Recent content in Engineering on QuantCode: The Toolkit for Engineering-Driven Traders.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Sep 2025 11:47:44 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 14:48:46 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ask llm to review unit test case</title>
+      <title>ask llm to suggest on diff summary</title>
+      <link>https://quantcodedenny.com/posts/review-diff-summary/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/review-diff-summary/</guid>
+      <description>&lt;p&gt;You are a senior staff-level engineer with excellent technical writing skills.&lt;/p&gt;&#xA;&lt;p&gt;Your job is to review my diff summary and make it clearer, more persuasive, and professional.&lt;/p&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rating of my diff summary (clarity, persuasiveness, readability).&lt;/li&gt;&#xA;&lt;li&gt;Three detailed suggestions with concrete examples of how to rephrase or reframe.&lt;/li&gt;&#xA;&lt;li&gt;Improved rewritten version of my diff summary that keeps the same technical content but communicates it more clearly.&lt;/li&gt;&#xA;&lt;li&gt;Bullet-point summary of what changed and why (so I can learn reusable patterns).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here is diff summary to review (between triple backticks)&#xA;```&#xA;```&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ask llm to suggest on diff summary</title>
       <link>https://quantcodedenny.com/posts/review-unit-test/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/review-unit-test/</guid>
-      <description>&lt;p&gt;Find major issues in given unit test code&lt;/p&gt;&#xA;&lt;p&gt;Find and read both unit test code and implemention code. Common issues include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Lack of mocking remote calls&lt;/li&gt;&#xA;&lt;li&gt;Is actually missing async_test annotation. Then a few test cases don&amp;rsquo;t work as expected, essentially got skipped&lt;/li&gt;&#xA;&lt;li&gt;Missing coverage for critical functions or capabilities&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Your answer should:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;right to the point&lt;/li&gt;&#xA;&lt;li&gt;list detail functions which have issues&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Evaluate this: &lt;a href=&#34;https://abc/tests/test_123.py&#34;&gt;https://abc/tests/test_123.py&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;You are a senior staff-level engineer with excellent technical writing skills.&lt;/p&gt;&#xA;&lt;p&gt;Your job is to review my diff summary and make it clearer, more persuasive, and professional.&lt;/p&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rating of my diff summary (clarity, persuasiveness, readability).&lt;/li&gt;&#xA;&lt;li&gt;Three detailed suggestions with concrete examples of how to rephrase or reframe.&lt;/li&gt;&#xA;&lt;li&gt;Improved rewritten version of my diff summary that keeps the same technical content but communicates it more clearly.&lt;/li&gt;&#xA;&lt;li&gt;Bullet-point summary of what changed and why (so I can learn reusable patterns).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here is diff summary to review (between triple backticks)&#xA;```&#xA;```&lt;/p&gt;</description>
     </item>
     <item>
       <title>bad habits jeopardize your power</title>
@@ -21,6 +28,13 @@
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/bad-habit-hurt-power/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;Avoid overly available for urgencies. Work on critical things over urgent-yet-not-critical things.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Improve technical writing as a TL</title>
+      <link>https://quantcodedenny.com/posts/improve-technical-writing/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/improve-technical-writing/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/improve-technical-writing/&#34;&gt;https://quantcodedenny.com/posts/improve-technical-writing/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt-create-technical-proposal&#34;&gt;prompt - create technical proposal&lt;/h2&gt;&#xA;&lt;p&gt;You are a staff+ ML infra engineer and proposal strategist.&lt;/p&gt;&#xA;&lt;p&gt;Take my raw notes (bullet points, fragments, or rough ideas) and transform them into a clear, persuasive technical proposal.&lt;/p&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;&#xA;&lt;p&gt;A well-structured proposal draft with the following sections:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Context&lt;/li&gt;&#xA;&lt;li&gt;Problem Statement (offer 2–3 alternative framings)&lt;/li&gt;&#xA;&lt;li&gt;Goals (offer 2–3 alternative framings)&lt;/li&gt;&#xA;&lt;li&gt;Solution Options&lt;/li&gt;&#xA;&lt;li&gt;Trade-offs&lt;/li&gt;&#xA;&lt;li&gt;Milestones (short-term vs. long-term)&lt;/li&gt;&#xA;&lt;li&gt;Risks&lt;/li&gt;&#xA;&lt;li&gt;Success Metrics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Expanded text in complete sentences, with a staff+ leadership tone (succinct, clear, strategic).&lt;/p&gt;</description>
     </item>
     <item>
       <title>prompt - create technical proposal</title>
@@ -41,7 +55,7 @@
       <link>https://quantcodedenny.com/posts/review-reply-in-group-chat/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/review-reply-in-group-chat/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/review-reply-in-group-chat/&#34;&gt;https://quantcodedenny.com/posts/review-reply-in-group-chat/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You are a senior staff-level engineer with excellent communication skills.&#xA;Your job is to review my conversation and help me improve it so that:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Inclusive – acknowledges others’ input and concerns clearly.&lt;/li&gt;&#xA;&lt;li&gt;Persuasive – people are motivated to read, agree, and take action.&lt;/li&gt;&#xA;&lt;li&gt;Aggressive goal oriented – avoids over-optimizing on small things; focuses on high-leverage changes.&lt;/li&gt;&#xA;&lt;li&gt;Progress based – ensures follow-ups have clear owners, timelines, and quality expectations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/review-meeting-invite/&#34;&gt;https://quantcodedenny.com/posts/review-meeting-invite/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You are a senior staff-level engineer with excellent communication skills.&lt;/p&gt;&#xA;&lt;p&gt;Your job is to review my conversation and help me improve it so that:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Inclusive: It clearly acknowledges others’ input and concerns.&lt;/li&gt;&#xA;&lt;li&gt;Persuasive: It motivates people to read, agree, and take action.&lt;/li&gt;&#xA;&lt;li&gt;Ambitious &amp;amp; Practical: It balances aggressive, high-leverage goals with credible, achievable plans. It avoids proposing unattainable targets that could jeopardize influence.&lt;/li&gt;&#xA;&lt;li&gt;Progress-Based: It ensures follow-ups have clear owners, timelines, and quality expectations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;</description>
     </item>
     <item>
       <title>prompt - review the meeting invite</title>

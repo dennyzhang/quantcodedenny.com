@@ -6,15 +6,8 @@
     <description>Recent content in Leadership on QuantCode: The Toolkit for Engineering-Driven Traders.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 14:48:46 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 14:51:25 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Improve technical writing as a TL</title>
-      <link>https://quantcodedenny.com/posts/improve-technical-writing/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/improve-technical-writing/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/improve-technical-writing/&#34;&gt;https://quantcodedenny.com/posts/improve-technical-writing/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt-create-technical-proposal&#34;&gt;prompt - create technical proposal&lt;/h2&gt;&#xA;&lt;p&gt;You are a staff+ ML infra engineer and proposal strategist.&lt;/p&gt;&#xA;&lt;p&gt;Take my raw notes (bullet points, fragments, or rough ideas) and transform them into a clear, persuasive technical proposal.&lt;/p&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;&#xA;&lt;p&gt;A well-structured proposal draft with the following sections:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Context&lt;/li&gt;&#xA;&lt;li&gt;Problem Statement (offer 2–3 alternative framings)&lt;/li&gt;&#xA;&lt;li&gt;Goals (offer 2–3 alternative framings)&lt;/li&gt;&#xA;&lt;li&gt;Solution Options&lt;/li&gt;&#xA;&lt;li&gt;Trade-offs&lt;/li&gt;&#xA;&lt;li&gt;Milestones (short-term vs. long-term)&lt;/li&gt;&#xA;&lt;li&gt;Risks&lt;/li&gt;&#xA;&lt;li&gt;Success Metrics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Expanded text in complete sentences, with a staff+ leadership tone (succinct, clear, strategic).&lt;/p&gt;</description>
-    </item>
     <item>
       <title>prompt - create technical proposal</title>
       <link>https://quantcodedenny.com/posts/create-technical-proposal/</link>
@@ -42,6 +35,13 @@
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/review-meeting-invite/</guid>
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/review-meeting-invite/&#34;&gt;https://quantcodedenny.com/posts/review-meeting-invite/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;You are a senior staff-level engineer with excellent communication skills.&lt;/p&gt;&#xA;&lt;p&gt;Your job is to review my meeting invite and improve it so that:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The purpose is easy to understand.&lt;/li&gt;&#xA;&lt;li&gt;The audience is motivated to join and contribute.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rating of my invite against the two dimensions above.&lt;/li&gt;&#xA;&lt;li&gt;Three detailed suggestions with concrete examples of how to rephrase or reframe.&lt;/li&gt;&#xA;&lt;li&gt;Improved rewritten version of my invite that keeps the same intent but communicates more persuasively.&lt;/li&gt;&#xA;&lt;li&gt;Bullet-point summary of what changed and why (so I can learn reusable patterns).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here is my content (between triple backticks). Review it using the framework above, then return the improved version and summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Use LLM to improve your technical communication in daily work</title>
+      <link>https://quantcodedenny.com/posts/improve-technical-writing/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/improve-technical-writing/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/improve-technical-writing/&#34;&gt;https://quantcodedenny.com/posts/improve-technical-writing/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt-create-technical-proposal&#34;&gt;prompt - create technical proposal&lt;/h2&gt;&#xA;&lt;p&gt;You are a staff+ ML infra engineer and proposal strategist.&lt;/p&gt;&#xA;&lt;p&gt;Take my raw notes (bullet points, fragments, or rough ideas) and transform them into a clear, persuasive technical proposal.&lt;/p&gt;&#xA;&lt;p&gt;Your output should include:&lt;/p&gt;&#xA;&lt;p&gt;A well-structured proposal draft with the following sections:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Context&lt;/li&gt;&#xA;&lt;li&gt;Problem Statement (offer 2–3 alternative framings)&lt;/li&gt;&#xA;&lt;li&gt;Goals (offer 2–3 alternative framings)&lt;/li&gt;&#xA;&lt;li&gt;Solution Options&lt;/li&gt;&#xA;&lt;li&gt;Trade-offs&lt;/li&gt;&#xA;&lt;li&gt;Milestones (short-term vs. long-term)&lt;/li&gt;&#xA;&lt;li&gt;Risks&lt;/li&gt;&#xA;&lt;li&gt;Success Metrics&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Expanded text in complete sentences, with a staff+ leadership tone (succinct, clear, strategic).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

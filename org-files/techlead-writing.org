@@ -4,13 +4,13 @@
 #+HUGO_TAGS: engineering leadership
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Improve technical writing as a TL
+* Use LLM to improve your technical communication in daily work
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-technical-writing
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/techlead-writing/
+URL: https://quantcodedenny.com/posts/improve-technical-writing/
 ** prompt - create technical proposal
 You are a staff+ ML infra engineer and proposal strategist.
 

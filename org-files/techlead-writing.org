@@ -10,6 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+
 URL: https://quantcodedenny.com/posts/improve-technical-writing/
 ** prompt - create technical proposal
 You are a staff+ ML infra engineer and proposal strategist.
@@ -40,7 +41,7 @@ Here are my notes (between triple backticks):
 ```
 Insert bullet points, fragments, or raw ideas
 ```
-** prompt - review quality for engineering doc
+** prompt - review engineering doc
 
 You are a senior staff-level engineer and technical writer (ML infra focus).
 

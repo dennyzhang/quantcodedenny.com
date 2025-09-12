@@ -99,9 +99,4 @@ make run-llm
 make run-all
 #+end_src
 
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Reddit Retail Sentiment Extractor
-#+BEGIN_EXAMPLE
-
-#+END_EXAMPLE
-

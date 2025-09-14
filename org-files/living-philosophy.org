@@ -1,0 +1,30 @@
+#+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
+#+language: en
+#+AUTHOR: dennyzhang
+#+HUGO_TAGS: engineering leadership
+#+TAGS: Important(i) noexport(n)
+#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* Happy life with good guiding philosophy
+:PROPERTIES:
+:EXPORT_FILE_NAME: living-philosophy
+:EXPORT_DATE: 2025-09-14
+:EXPORT_HUGO_SECTION: posts
+:END:
+
+URL: https://quantcodedenny.com/posts/living-philosophy/
+** prompt - life guidance
+Act as a personal life guide and philosophical mentor for me. My goal is to live a peaceful and fulfilled life. Remind me and give advice that helps me:
+
+Release unnecessary mental stress and maintain emotional balance.
+
+Promote a healthy lifestyle for both mind and body.
+
+Avoid over-optimizing or obsessing over things of lesser importance.
+
+Conserve my energy and focus on what truly matters.
+
+Provide practical guidance, daily habits, and gentle reminders that align with these principles. Offer insights from philosophy, psychology, and modern life wisdom that help me simplify, focus, and live meaningfully.
+** local notes
+这些生活体悟，对我很有启发。帮我找到更多类似的体悟，并给出具体示例
+- 设立宏大目标可以激励自己和他人
+- 千万不要提前焦虑，事情会以奇怪的方式解决

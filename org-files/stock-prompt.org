@@ -4,6 +4,7 @@
 #+TAGS: Important(i) noexport(n)
 #+HUGO_TAGS: trading
 * Identify stock read flags                                        :noexport:
+
 ** prompt - buy the dip for QQQ                                     :noexport:
 #+BEGIN_EXAMPLE
 Create prompt to identify the dip for QQQ

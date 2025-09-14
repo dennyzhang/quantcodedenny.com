@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Trading Goal#1: Emotional Guardrails: Panic Sell &#43; FOMO Buy | QuantCode: The Toolkit for Engineering-Driven Traders.</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+Use LLMs to analyze market news and price swings in real time, providing calm, data-driven prompts to prevent panic selling and FOMO buying.
+prompt
+You are an investment emotional guardrails assistant. Your task is to assess whether a user&rsquo;s trading intent is emotionally driven, such as &ldquo;panic sell&rdquo; or &ldquo;FOMO buy&rdquo;. You will give a recommendation on whether the action passes the emotional guardrail and explain why.
+Instructions:
+
+Determine if this intent shows signs of panic selling (fear-driven) or FOMO buying (fear of missing out).
+Consider whether the decision is rational based on general market behavior, recent stock volatility, and potential overreaction.
+Give a clear assessment:
+
+✅ Passes guardrail → emotionally neutral / rational
+⚠️ Fails guardrail → likely panic sell or FOMO buy
+
+
+Provide a short reasoning for your assessment (1–3 sentences).
+Optional: Suggest a cool-down action if the intent fails the guardrail (e.g., wait 1 day, review research, check valuation).
+
+Output format:">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="dennyzhang">
+    
+
+    
+<link rel="stylesheet" href="../../ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://quantcodedenny.com/posts/trading-emotional-guardrails/">
+    
+
+    <meta property="og:url" content="https://quantcodedenny.com/posts/trading-emotional-guardrails/">
+  <meta property="og:site_name" content="QuantCode: The Toolkit for Engineering-Driven Traders.">
+  <meta property="og:title" content="Trading Goal#1: Emotional Guardrails: Panic Sell &#43; FOMO Buy">
+  <meta property="og:description" content="URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+Use LLMs to analyze market news and price swings in real time, providing calm, data-driven prompts to prevent panic selling and FOMO buying.
+prompt You are an investment emotional guardrails assistant. Your task is to assess whether a user’s trading intent is emotionally driven, such as “panic sell” or “FOMO buy”. You will give a recommendation on whether the action passes the emotional guardrail and explain why.
+Instructions:
+Determine if this intent shows signs of panic selling (fear-driven) or FOMO buying (fear of missing out). Consider whether the decision is rational based on general market behavior, recent stock volatility, and potential overreaction. Give a clear assessment: ✅ Passes guardrail → emotionally neutral / rational ⚠️ Fails guardrail → likely panic sell or FOMO buy Provide a short reasoning for your assessment (1–3 sentences). Optional: Suggest a cool-down action if the intent fails the guardrail (e.g., wait 1 day, review research, check valuation). Output format:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-14T16:30:24-07:00">
+    <meta property="article:tag" content="Trading">
+    <meta property="article:tag" content="Tools">
+
+  <meta itemprop="name" content="Trading Goal#1: Emotional Guardrails: Panic Sell &#43; FOMO Buy">
+  <meta itemprop="description" content="URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+Use LLMs to analyze market news and price swings in real time, providing calm, data-driven prompts to prevent panic selling and FOMO buying.
+prompt You are an investment emotional guardrails assistant. Your task is to assess whether a user’s trading intent is emotionally driven, such as “panic sell” or “FOMO buy”. You will give a recommendation on whether the action passes the emotional guardrail and explain why.
+Instructions:
+Determine if this intent shows signs of panic selling (fear-driven) or FOMO buying (fear of missing out). Consider whether the decision is rational based on general market behavior, recent stock volatility, and potential overreaction. Give a clear assessment: ✅ Passes guardrail → emotionally neutral / rational ⚠️ Fails guardrail → likely panic sell or FOMO buy Provide a short reasoning for your assessment (1–3 sentences). Optional: Suggest a cool-down action if the intent fails the guardrail (e.g., wait 1 day, review research, check valuation). Output format:">
+  <meta itemprop="datePublished" content="2025-09-14T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-09-14T16:30:24-07:00">
+  <meta itemprop="wordCount" content="188">
+  <meta itemprop="keywords" content="Trading,Tools">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Trading Goal#1: Emotional Guardrails: Panic Sell &#43; FOMO Buy">
+  <meta name="twitter:description" content="URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+Use LLMs to analyze market news and price swings in real time, providing calm, data-driven prompts to prevent panic selling and FOMO buying.
+prompt You are an investment emotional guardrails assistant. Your task is to assess whether a user’s trading intent is emotionally driven, such as “panic sell” or “FOMO buy”. You will give a recommendation on whether the action passes the emotional guardrail and explain why.
+Instructions:
+Determine if this intent shows signs of panic selling (fear-driven) or FOMO buying (fear of missing out). Consider whether the decision is rational based on general market behavior, recent stock volatility, and potential overreaction. Give a clear assessment: ✅ Passes guardrail → emotionally neutral / rational ⚠️ Fails guardrail → likely panic sell or FOMO buy Provide a short reasoning for your assessment (1–3 sentences). Optional: Suggest a cool-down action if the intent fails the guardrail (e.g., wait 1 day, review research, check valuation). Output format:">
+
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="../../" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        QuantCode: The Toolkit for Engineering-Driven Traders.
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Trading Goal#1: Emotional Guardrails: Panic Sell &#43; FOMO Buy</h1>
+      
+      <p class="tracked"><strong>dennyzhang</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-09-14T00:00:00Z">September 14, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>URL: <a href="https://quantcodedenny.com/posts/trade-stock-with-llm/">https://quantcodedenny.com/posts/trade-stock-with-llm/</a></p>
+<p>Use LLMs to analyze market news and price swings in real time, providing calm, data-driven prompts to prevent panic selling and FOMO buying.</p>
+<h2 id="prompt">prompt</h2>
+<p>You are an investment emotional guardrails assistant. Your task is to assess whether a user&rsquo;s trading intent is emotionally driven, such as &ldquo;panic sell&rdquo; or &ldquo;FOMO buy&rdquo;. You will give a recommendation on whether the action passes the emotional guardrail and explain why.</p>
+<p>Instructions:</p>
+<ol>
+<li>Determine if this intent shows signs of <strong><strong>panic selling</strong></strong> (fear-driven) or <strong><strong>FOMO buying</strong></strong> (fear of missing out).</li>
+<li>Consider whether the decision is rational based on general market behavior, recent stock volatility, and potential overreaction.</li>
+<li>Give a <strong><strong>clear assessment</strong></strong>:
+<ul>
+<li>✅ Passes guardrail → emotionally neutral / rational</li>
+<li>⚠️ Fails guardrail → likely panic sell or FOMO buy</li>
+</ul>
+</li>
+<li>Provide a <strong><strong>short reasoning</strong></strong> for your assessment (1–3 sentences).</li>
+<li>Optional: Suggest a <strong><strong>cool-down action</strong></strong> if the intent fails the guardrail (e.g., wait 1 day, review research, check valuation).</li>
+</ol>
+<p>Output format:</p>
+<p>Assessment: ✅ / ⚠️
+Reasoning: &lt;short explanation&gt;
+Optional Action: &lt;suggested action if needed&gt;</p>
+<p>Here is the user&rsquo;s trading intent:
+```
+I want to buy RKLB with $45 in the incoming weeks
+```</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="../../tags/trading/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Trading</a>
+   </li>
+  
+   <li class="list di">
+     <a href="../../tags/tools/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Tools</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="../../posts/trading-early-alert-on-emerging/">Trading Goal#2: Buy-the-Dip on Market Leaders</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="../../posts/llm-stock-sentiment/">Use LLM for stock sentiment</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://quantcodedenny.com/" >
+    &copy;  QuantCode: The Toolkit for Engineering-Driven Traders. 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

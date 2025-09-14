@@ -11,7 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+URL: https://quantcodedenny.com/posts/trading-emotional-guardrails/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.
@@ -106,13 +106,11 @@ make run-all
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-
-URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+URL: https://quantcodedenny.com/posts/trading-emotional-guardrails/
 
 Use LLMs to analyze market news and price swings in real time, providing calm, data-driven prompts to prevent panic selling and FOMO buying.
 ** prompt
 You are an investment emotional guardrails assistant. Your task is to assess whether a user's trading intent is emotionally driven, such as "panic sell" or "FOMO buy". You will give a recommendation on whether the action passes the emotional guardrail and explain why.  
-
 
 Instructions:  
 1. Determine if this intent shows signs of **panic selling** (fear-driven) or **FOMO buying** (fear of missing out).  
@@ -120,8 +118,9 @@ Instructions:
 3. Give a **clear assessment**:  
    - ✅ Passes guardrail → emotionally neutral / rational  
    - ⚠️ Fails guardrail → likely panic sell or FOMO buy  
-4. Provide a **short reasoning** for your assessment (1–3 sentences).  
-5. Optional: Suggest a **cool-down action** if the intent fails the guardrail (e.g., wait 1 day, review research, check valuation).  
+4. Provide a **short reasoning** for your assessment (1–3 sentences).
+5. Suggest a purchase or sell price based on your research
+6. Optional: Suggest a **cool-down action** if the intent fails the guardrail (e.g., wait 1 day, review research, check valuation).  
 
 Output format:
 
@@ -136,7 +135,7 @@ I want to buy RKLB with $45 in the incoming weeks
 ```
 * Trading Goal#2: Buy-the-Dip on Market Leaders
 :PROPERTIES:
-:EXPORT_FILE_NAME: trading-early-alert-on-emerging
+:EXPORT_FILE_NAME: trade-buy-the-dip
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
@@ -153,7 +152,7 @@ Example: UNH dip opportunity on early aug
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+URL: https://quantcodedenny.com/posts/trading-early-alert-on-emerging/
 
 Use LLMs for trend mining across news, patents, hiring data, and institutional flows to spot companies before they hit mainstream attention.
 

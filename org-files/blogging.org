@@ -12,7 +12,7 @@
 :END:
 
 URL: https://quantcodedenny.com/posts/blogging/
-** Basic Intro && Set the context for LLM's collobration
+** Set context for LLM collobration
 I am an experienced infra engineer (~20 years) with a personal
 project: https://quantcodedenny.com, hosted on GitHub Pages (repo:
 https://github.com/dennyzhang/quantcodedenny.com/).

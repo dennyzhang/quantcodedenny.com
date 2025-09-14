@@ -2,7 +2,12 @@
 COMMIT_MSG := update website
 .PHONY: clean-today dry-run-clean-today nuke-today
 
-push:
+pull:
+	@echo "Pulling latest changes from GitHub..."
+	git pull
+	@echo "Pull completed."
+
+push:pull
 	@echo "Pushing changes to GitHub..."
 	git add .
 	git commit -m "$(COMMIT_MSG)" || echo "No changes to commit."

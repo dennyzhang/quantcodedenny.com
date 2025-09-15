@@ -11,7 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+URL: https://quantcodedenny.com/posts/trading-early-alert-on-emerging/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.
@@ -109,6 +109,7 @@ make run-all
 URL: https://quantcodedenny.com/posts/trading-emotional-guardrails/
 
 Use LLMs to analyze market news and price swings in real time, providing calm, data-driven prompts to prevent panic selling and FOMO buying.
+
 ** prompt
 You are an investment emotional guardrails assistant. Your task is to assess whether a user's trading intent is emotionally driven, such as "panic sell" or "FOMO buy". You will give a recommendation on whether the action passes the emotional guardrail and explain why.  
 
@@ -139,7 +140,6 @@ I want to buy QQQ at $550 in the near future
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-
 URL: https://quantcodedenny.com/posts/trade-buy-the-dip
 ** prompt
 Analyze the following market observation and determine if it represents a Buy-the-Dip opportunity on a market-leading stock. Provide the output in a structured format with:
@@ -166,13 +166,11 @@ Reasoning: UNH is a top healthcare stock; the early August price dip aligns with
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-
 URL: https://quantcodedenny.com/posts/trading-early-alert-on-emerging/
 
 Use LLMs for trend mining across news, patents, hiring data, and institutional flows to spot companies before they hit mainstream attention.
 
 Example: Detect early signals of OpenDoor, Robinhood, Reddit before hype and capital inflows.
-
 * Trading Goal#4: Evaluate a planned purchase
 :PROPERTIES:
 :EXPORT_FILE_NAME: trading-evaluate-order

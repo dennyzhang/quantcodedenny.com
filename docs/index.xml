@@ -6,7 +6,7 @@
     <description>Recent content on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Sep 2025 17:02:18 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 17:40:02 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Happy life with good guiding philosophy</title>
@@ -30,11 +30,11 @@
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/trade-buy-the-dip&#34;&gt;https://quantcodedenny.com/posts/trade-buy-the-dip&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt&#34;&gt;prompt&lt;/h2&gt;&#xA;&lt;p&gt;Analyze the following market observation and determine if it represents a Buy-the-Dip opportunity on a market-leading stock. Provide the output in a structured format with:&lt;/p&gt;&#xA;&lt;p&gt;Buy-the-Dip? — Yes/No&lt;/p&gt;&#xA;&lt;p&gt;Confidence (0-100%) — How confident this is a valid dip on a market leader&lt;/p&gt;&#xA;&lt;p&gt;Reasoning — Brief explanation including market leader status and dip context&lt;/p&gt;&#xA;&lt;p&gt;Example input: UNH dip opportunity in early August&lt;/p&gt;&#xA;&lt;p&gt;Example output:&lt;/p&gt;&#xA;&lt;p&gt;Buy-the-Dip? Yes&lt;/p&gt;&#xA;&lt;p&gt;Confidence: 85%&lt;/p&gt;&#xA;&lt;p&gt;Reasoning: UNH is a top healthcare stock; the early August price dip aligns with short-term market retracement, presenting a potential entry point.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Trading Goal#2: Buy-the-Dip on Market Leaders</title>
+      <title>Trading Goal#3: Early Alerts on Emerging Stocks (6-Month Horizon)</title>
       <link>https://quantcodedenny.com/posts/trading-early-alert-on-emerging/</link>
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/trading-early-alert-on-emerging/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/trade-buy-the-dip&#34;&gt;https://quantcodedenny.com/posts/trade-buy-the-dip&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Maintain a basket of sector leaders (clear moat, dominant position). Use LLMs to monitor valuation and sentiment swings, alerting on attractive pullback entries.&lt;/p&gt;&#xA;&lt;p&gt;Example: UNH dip opportunity on early aug&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/trading-early-alert-on-emerging/&#34;&gt;https://quantcodedenny.com/posts/trading-early-alert-on-emerging/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use LLMs for trend mining across news, patents, hiring data, and institutional flows to spot companies before they hit mainstream attention.&lt;/p&gt;&#xA;&lt;p&gt;Example: Detect early signals of OpenDoor, Robinhood, Reddit before hype and capital inflows.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trading Goal#4: Evaluate a planned purchase</title>

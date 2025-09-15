@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trading-Llm on QuantCode: Use llm to improve your trading quality</title>
+    <link>https://quantcodedenny.com/tags/trading-llm/</link>
+    <description>Recent content in Trading-Llm on QuantCode: Use llm to improve your trading quality</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Sep 2025 17:02:18 -0700</lastBuildDate>
+    <atom:link href="https://quantcodedenny.com/tags/trading-llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trading Goal#2: Buy-the-Dip on Market Leaders</title>
+      <link>https://quantcodedenny.com/posts/trade-buy-the-dip/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/trade-buy-the-dip/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/trade-buy-the-dip&#34;&gt;https://quantcodedenny.com/posts/trade-buy-the-dip&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt&#34;&gt;prompt&lt;/h2&gt;&#xA;&lt;p&gt;Analyze the following market observation and determine if it represents a Buy-the-Dip opportunity on a market-leading stock. Provide the output in a structured format with:&lt;/p&gt;&#xA;&lt;p&gt;Buy-the-Dip? — Yes/No&lt;/p&gt;&#xA;&lt;p&gt;Confidence (0-100%) — How confident this is a valid dip on a market leader&lt;/p&gt;&#xA;&lt;p&gt;Reasoning — Brief explanation including market leader status and dip context&lt;/p&gt;&#xA;&lt;p&gt;Example input: UNH dip opportunity in early August&lt;/p&gt;&#xA;&lt;p&gt;Example output:&lt;/p&gt;&#xA;&lt;p&gt;Buy-the-Dip? Yes&lt;/p&gt;&#xA;&lt;p&gt;Confidence: 85%&lt;/p&gt;&#xA;&lt;p&gt;Reasoning: UNH is a top healthcare stock; the early August price dip aligns with short-term market retracement, presenting a potential entry point.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trading Goal#4: Evaluate a planned purchase</title>
+      <link>https://quantcodedenny.com/posts/trading-evaluate-order/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/trading-evaluate-order/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/trading-evaluate-order/&#34;&gt;https://quantcodedenny.com/posts/trading-evaluate-order/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt&#34;&gt;prompt&lt;/h2&gt;&#xA;&lt;p&gt;I want you to evaluate a planned stock purchase and determine if it aligns with a disciplined, market-informed strategy. Provide the output in a structured format:&lt;/p&gt;&#xA;&lt;p&gt;Buy? — Yes/No&lt;/p&gt;&#xA;&lt;p&gt;Emotional Guardrail Check — Is this purchase driven by FOMO, panic, or impulsive behavior? (Yes/No)&lt;/p&gt;&#xA;&lt;p&gt;Confidence (0-100%) — How confident this is a reasonable and strategic purchase&lt;/p&gt;&#xA;&lt;p&gt;Reasoning — Brief explanation including market context, stock status, and potential risks&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

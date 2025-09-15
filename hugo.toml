@@ -2,7 +2,7 @@ baseURL = 'https://quantcodedenny.com/'
 languageCode = 'en-us'
 relativeURLs = true
 canonifyURLs = true
-title = "QuantCode: The Toolkit for Engineering-Driven Traders."
+title = "QuantCode: Use llm to improve your trading quality"
 theme = "ananke"
 enableRobotsTXT = true
 [pagination]

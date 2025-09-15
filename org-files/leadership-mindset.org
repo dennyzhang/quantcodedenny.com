@@ -39,10 +39,15 @@ My local notes
 - Clarify what the success would look like
 - Understand the opinions and positions for high stakes
 - Be determined and strong for your proposals
-
+- Keep doing the same thing as the same complexity doesn't help you level up
+  
 ```
-** team position is very difficult
-
+** current challenge
+- Leaders will see your work as “busy work” instead of transformative. Your team risks being sidelined for more “high-leverage” projects.
+- Team position is very difficult
+- Foundation work is hard to quantify impact
+** local note
+- align the understanding
 * Strategic Thinking                                               :noexport:
 Think and discuss at a director-level perspective.
 

@@ -4,13 +4,63 @@
 #+HUGO_TAGS: engineering leadership
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Focus & Prioritization                                           :noexport:
+* Thrive in big corporate
+:PROPERTIES:
+:EXPORT_FILE_NAME: thrive-in-big-corporate
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/leadership-mindset/
+** prompt - polish my local notes
+You are a senior staff-level mentor and leadership coach.
+I want to thrive as a team lead in a large, competitive corporate environment.
+
+Here are my raw personal observations and caveats (between triple backticks). Your job is to:
+
+Synthesize & Expand – Turn my notes into polished, actionable leadership principles.
+
+Structure Clearly – Organize into categories such as Impact & Value, Strategy & Alignment, Influence & Persuasion, Execution & Resilience.
+
+Make Practical – For each principle, add a short example or scenario of how it applies in day-to-day leadership.
+
+Highlight Caveats – Show common pitfalls or failure modes if the principle is ignored.
+
+Aspirational but Realistic – Balance ambition with credibility; advice should feel both motivating and grounded in corporate reality.
+
+Output Format – A structured playbook I can review before making proposals or leading discussions.
+
+Here are my raw notes:
+
+```
+
+My local notes
+
+- Need to show delta value. For big system in big coporate, individuals or individual teams may not be sufficient to fully resolve a complex business problems.
+- Clarify what the success would look like
+- Understand the opinions and positions for high stakes
+- Be determined and strong for your proposals
+
+```
+** team position is very difficult
+
+* Strategic Thinking                                               :noexport:
+Think and discuss at a director-level perspective.
+
+Navigate and balance conflicting goals effectively.
+
+Aim for sustainable solutions rather than quick fixes.
+
+Recognize and address blind spots in plans or strategies.
+
+Frame problems with incentives and “why it matters” to gain alignment.
+* learning                                                         :noexport:
+** Focus & Prioritization                                          :noexport:
 Invest energy in critical, high-leverage work over urgent-but-low-value tasks.
 
 Avoid over-investing in less critical issues.
 
 Seek global optimization over local wins, aligning with higher ROI challenges.
-* Communication & Discussions                                      :noexport:
+** Communication & Discussions                                     :noexport:
 Avoid leaving open-ended threads; drive toward clarity and closure.
 
 Ask framing questions that help the whole team think more broadly.
@@ -22,17 +72,7 @@ Encourage meaningful discussions, especially on core problems; don’t premature
 Use simple, concrete language and data to open up topics that engage others.
 
 Deliver hard messages when necessary with clarity and respect.
-* Strategic Thinking                                               :noexport:
-Think and discuss at a director-level perspective.
-
-Navigate and balance conflicting goals effectively.
-
-Aim for sustainable solutions rather than quick fixes.
-
-Recognize and address blind spots in plans or strategies.
-
-Frame problems with incentives and “why it matters” to gain alignment.
-* Leverage & Empowerment                                           :noexport:
+** Leverage & Empowerment                                          :noexport:
 Contribute unique value instead of competing on the same ground as others.
 
 Mobilize the team to increase overall output, not just personal output.
@@ -44,7 +84,7 @@ Add value without doing all the work yourself (e.g., ask clarifying questions, p
 Avoid over-delegation that leaves team members unsupported and projects at risk.
 
 Remove collaboration friction by being flexible on approaches and emphasizing business outcomes.
-* Influence & Leadership Presence                                  :noexport:
+** Influence & Leadership Presence                                 :noexport:
 Grow your influence and power through consistent, value-adding contributions.
 
 Build confidence in the team when facing uncertainty.
@@ -56,29 +96,11 @@ Talk with a business sense—connect technical choices to business impact.
 Maintain a bias for action to drive progress.
 
 Ensure steady progress forward; momentum builds credibility.
-* casual talk                                                      :noexport:
+** casual talk                                                     :noexport:
 Can I ask that you find a time next week for us
 
 I’m not a big fan of them coming in and claiming that XXX solution should be generalized and pushing for long-term ownership, especially since my understanding was that another group was instrumental in contributing to that solution. That’s why I stepped in to reference the earlier discussions.
 
-* bad habits jeopardize your power                                 :noexport:
+** bad habits jeopardize your power                                :noexport:
 - Avoid overly available for urgencies. Work on critical things over urgent-yet-not-critical things.
-* use context engienering to improve technical doc
-:HUGO_URL: https://quantcodedenny.com/posts/leadership-mindset/
-[Instruction]
-You are a senior tech lead with exceptionally business communication skills.
-
-[Context]
-I'm creating a project proposal for minimizing exemptions in governance work
-
-[Input]
-Question: Read this problem statement
-
-[Output]
-Answer: create a master plan
-1. With high business sense
-2. Measurable
-3. Highlight the key parts
-4. Convincing and engaging
-5. It shall be short and sharp
 * TODO make suggestions which adds value and drive actions

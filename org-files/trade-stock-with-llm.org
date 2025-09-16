@@ -1,7 +1,7 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
 #+AUTHOR: dennyzhang
-#+HUGO_TAGS: trading-llm tools
+#+HUGO_TAGS: trading-llm
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * Use LLM for stock sentiment
@@ -11,7 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/trading-early-alert-on-emerging/
+URL: https://quantcodedenny.com/posts/trading-evaluate-order/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.

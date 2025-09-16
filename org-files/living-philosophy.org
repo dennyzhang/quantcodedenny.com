@@ -1,7 +1,7 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
 #+AUTHOR: dennyzhang
-#+HUGO_TAGS: engineering leadership
+#+HUGO_TAGS: leadership life
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * Happy life with good guiding philosophy

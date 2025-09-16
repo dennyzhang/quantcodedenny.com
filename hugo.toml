@@ -17,6 +17,10 @@ enableRobotsTXT = true
     url = "/posts/self-intro/"
     weight = 20
   [[menu.main]]
+    name = "Leadership"
+    url = "/tags/leadership/"
+    weight = 50
+  [[menu.main]]
     name = "Engineering"
     url = "/tags/engineering/"
     weight = 30

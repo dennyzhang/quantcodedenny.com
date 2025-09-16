@@ -1,7 +1,7 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
 #+AUTHOR: dennyzhang
-#+HUGO_TAGS: engineering
+#+HUGO_TAGS: blogging
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * Introduction of myself and this website

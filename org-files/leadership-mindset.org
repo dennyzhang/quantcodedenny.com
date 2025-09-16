@@ -48,6 +48,11 @@ My local notes
 - Foundation work is hard to quantify impact
 ** local note
 - align the understanding
+- clarify your boundary, role & responsibility
+- need to be goal oriented. and converstion should be all around moving the goals
+- be clear on who own the follow-up, and what is the timeline
+** local note: ask for clarification - you mind sharing the reason this inconsistency blocks your diff ?
+** local note: ask for more business context
 * Strategic Thinking                                               :noexport:
 Think and discuss at a director-level perspective.
 

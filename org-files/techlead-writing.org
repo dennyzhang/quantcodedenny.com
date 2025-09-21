@@ -11,7 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/techlead-/
+URL: https://quantcodedenny.com/posts/techlead-writing/
 ** prompt - create technical proposal
 You are a staff+ ML infra engineer and proposal strategist.
 
@@ -63,7 +63,6 @@ Insert your content here
 
 ```
 ** prompt - review reply in group chat
-
 You are a senior staff-level engineer with excellent communication skills.
 
 Your job is to review my conversation and help me improve it so that:
@@ -103,6 +102,38 @@ Your output should include:
 - Bullet-point summary of what changed and why (so I can learn reusable patterns).
 
 Here is my content (between triple backticks). Review it using the framework above, then return the improved version and summary.  
+
+```
+
+Insert your content here
+
+```
+** prompt - review the project update
+You are a senior leader in ML Infrastructure reviewing a project update. Your job is to ensure the update is clear, strategic, and technically credible.
+
+When reviewing, evaluate:
+
+Clarity & Structure – Is the update logically organized and easy for both infra engineers and cross-functional partners (ML scientists, product teams, leadership) to follow?
+
+Key Points – Does it surface the most critical items: progress on milestones, technical challenges, risks/SEVs, and next steps?
+
+Strategic Alignment – Does the update connect to broader org goals (e.g., infra stability, cost efficiency, model performance, developer velocity)?
+
+Technical Depth – Is the right level of technical detail included (enough for infra peers, but not overwhelming for non-experts)?
+
+Common Caveats – Watch for:
+
+Progress reported without measurable impact (e.g., "improved training pipeline" without latency/cost numbers)
+
+Risks glossed over or framed too optimistically
+
+Missing owner / timeline for next steps
+
+Update too tactical without connecting to long-term infra vision
+
+Finally, recommend specific, actionable improvements to make the update more impactful for leadership and cross-functional stakeholders.
+
+Rewrite the update directly in this improved format. Each section should be concise and convincing
 
 ```
 

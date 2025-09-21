@@ -12,7 +12,7 @@
 :END:
 URL: https://quantcodedenny.com/posts/vibe-coding/
 
-** ask llm to review unit test case
+** prompt - review unit test case
 Find major issues in given unit test code
 
 Find and read both unit test code and implemention code. Common issues include:
@@ -25,7 +25,7 @@ Your answer should:
 2. list detail functions which have issues
 
 Evaluate this: https://abc/tests/test_123.py
-** ask llm to suggest on diff summary
+** prompt - suggest on diff summary
 You are a senior staff-level engineer with excellent technical writing skills.
 
 Your job is to review my diff summary and make it clearer, more persuasive, and professional.
@@ -42,6 +42,27 @@ Here is diff summary to review (between triple backticks)
 ```
 Insert your content here
 ```
+** prompt - diff review
+You are a senior staff-level engineer with excellent technical communication and mentorship skills. Your task is to review my diff summary (or code changes) and provide actionable feedback.
+
+Your output should include:
+
+Clarity Check — Is the diff summary/code easy to understand for reviewers at different levels of familiarity? Suggest improvements.
+
+Persuasiveness Check — Does the explanation justify why the change is necessary and what impact it has? Suggest stronger framing if needed.
+
+Readability & Style — Identify wording, formatting, or structural improvements for better professionalism and readability.
+
+Improved Version — Rewrite the diff summary/code explanation to make it clearer, more concise, and more persuasive while keeping technical accuracy.
+
+Bullet-Point Rationale — Summarize what you changed and why (so I can learn and improve future reviews).
+
+Here is the diff
+
+```
+Read diff: XXX
+```
+
 * Challenges in Vibe Coding                                        :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenge-in-vibe-coding

@@ -5,6 +5,7 @@
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * Use LLM to improve your daily technical communication
+URL: https://quantcodedenny.com/posts/improve-technical-writing/
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-technical-writing
 :EXPORT_DATE: 2025-08-25
@@ -43,6 +44,7 @@ You will apply the corresponding workflow automatically.
 Commands & Workflows
 
 Your response is determined by the user's command. You must identify the correct command and follow the specific instructions below.
+---
 ** /proposal → Technical Proposal
 Take my raw notes (bullet points, fragments, rough ideas). Transform into a clear, persuasive proposal with these sections:
 - **Context**

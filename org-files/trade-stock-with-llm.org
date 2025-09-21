@@ -10,8 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
-
+URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.
@@ -100,13 +99,13 @@ make run-llm
 make run-all
 #+end_src
 * Use LLM for trading common scenarios
-URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
-
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-trade-common-scenarios
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
+URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
+
 To use it, copy this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios. Currently 9+ scenarios are supported
 
 Example:
@@ -230,7 +229,6 @@ Reasoning: QQQ tracks leading tech stocks with solid upward trends; $550 nears a
 
 Key Insights: Tie purchases to support/resistance levels for disciplined entries.
 
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Caveats of using LLM for trading                                 :noexport:
 ** 市场不可预测，LLM可能miss黑天鹅

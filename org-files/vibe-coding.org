@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/vibe-coding/
+URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 
 ** prompt - review unit test case
 Find major issues in given unit test code
@@ -69,7 +69,8 @@ Read diff: XXX
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-:HUGO_URL: https://quantcodedenny.com/posts/vibe-coding/
+
+URL: https://quantcodedenny.com/posts/vibe-coding/
 - different versions: functions not defined; certain functions are not supported
 - understand the convention: hugo generate files into docs folder
 - no defensive coding which makes debugging difficult

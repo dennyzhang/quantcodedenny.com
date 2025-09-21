@@ -12,9 +12,8 @@
 :END:
 To use it, copy this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios. Currently 9+ scenarios are supported
 
-Example:
 #+begin_example
-To use this prompt
+# example: To use this prompt
 
 Read https://quantcodedenny.com/posts/improve-technical-writing/
 

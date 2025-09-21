@@ -11,6 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.
@@ -98,9 +99,9 @@ make run-llm
 # Function test: all
 make run-all
 #+end_src
-
 * Use LLM for trading common scenarios
 URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
+
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-trade-common-scenarios
 :EXPORT_DATE: 2025-08-25

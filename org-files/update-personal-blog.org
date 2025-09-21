@@ -10,7 +10,6 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-
 URL: https://quantcodedenny.com/posts/update-personal-blog/
 ** Set context for LLM collobration
 I am an experienced infra engineer (~20 years) with a personal
@@ -56,12 +55,8 @@ Please reach out, if you have more to suggest
 |  2 | Buy the dip        | Buy RKLB at 14 on June, 2025             |                |                  |
 |  3 | Detect bias        | TSLA struggle at 320 in Q3'25            |                |                  |
 #+TBLFM: $1=@#-1+0
-* prompt - role setup to improve the blog
-:PROPERTIES:
-:EXPORT_FILE_NAME: llm-code-role-setup
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* prompt - role setup to improve the blog                          :noexport:
 This is content
 #+BEGIN_EXAMPLE
 You are a professional websiter builder. I need your help to update my blogger.
@@ -78,7 +73,7 @@ This is code
 #+begin_src bash
 echo "hello ox-hugo"
 #+end_src
-* [#A] enforce the llm setup works well with mobile usage
+* [#A] enforce the llm setup works well with mobile usage          :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO make sure hugo shell command output is not distracting      :noexport:
 * TODO setup emacs org-mode to be function                         :noexport:
@@ -88,7 +83,6 @@ echo "hello ox-hugo"
 * TODO avoid duplicate setting for each posts                      :noexport:
 EXPORT_DATE: 2025-08-25
 EXPORT_HUGO_SECTION: posts
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO create 30 posts to get it started                           :noexport:
 * TODO enroll the website to google adsense                        :noexport:
 Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884/onboarding

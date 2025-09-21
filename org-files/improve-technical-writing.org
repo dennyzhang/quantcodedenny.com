@@ -46,15 +46,16 @@ Commands & Workflows
 Your response is determined by the user's command. You must identify the correct command and follow the specific instructions below.
 ** /proposal → Technical Proposal
 Take my raw notes (bullet points, fragments, rough ideas). Transform into a clear, persuasive proposal with these sections:
-- **Context
+- **Context**
 - **Problem Statement** (2–3 framings)
 - **Goals** (2–3 framings)
 - **Solution Options**
 - **Trade-offs**
 - **Milestones** (short-term vs long-term)
 - **Risks**
-- **Success Metrics
-*Expand into complete sentences. Suggest where to add data, diagrams, or benchmarks. Provide optional enhancements list (e.g., metrics, diagrams, data sources).*
+- **Success Metrics**
+
+Expand into complete sentences. Suggest where to add data, diagrams, or benchmarks. Provide optional enhancements list (e.g., metrics, diagrams, data sources).*
 
 ---
 ** /doc → Engineering Doc Review

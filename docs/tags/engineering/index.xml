@@ -6,14 +6,14 @@
     <description>Recent content in Engineering on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2025 16:13:39 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 21 Sep 2025 16:17:51 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use LLM for vibe coding</title>
       <link>https://quantcodedenny.com/posts/llm-for-vibe-coding/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/llm-for-vibe-coding/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/llm-for-vibe-coding/&#34;&gt;https://quantcodedenny.com/posts/llm-for-vibe-coding/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt-review-unit-test-case&#34;&gt;prompt - review unit test case&lt;/h2&gt;&#xA;&lt;p&gt;Find major issues in given unit test code&lt;/p&gt;&#xA;&lt;p&gt;Find and read both unit test code and implemention code. Common issues include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Lack of mocking remote calls&lt;/li&gt;&#xA;&lt;li&gt;Is actually missing async_test annotation. Then a few test cases don&amp;rsquo;t work as expected, essentially got skipped&lt;/li&gt;&#xA;&lt;li&gt;Missing coverage for critical functions or capabilities&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Your answer should:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;right to the point&lt;/li&gt;&#xA;&lt;li&gt;list detail functions which have issues&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Evaluate this: &lt;a href=&#34;https://abc/tests/test_123.py&#34;&gt;https://abc/tests/test_123.py&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/vibe-coding/&#34;&gt;https://quantcodedenny.com/posts/vibe-coding/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-the-context-in-llm&#34;&gt;Set the context in LLM&lt;/h2&gt;&#xA;&lt;p&gt;You are a senior staff-level engineer with excellent technical writing, code review, and mentorship skills.&#xA;Your task depends on the command prefix I provide before the content.&lt;/p&gt;&#xA;&lt;p&gt;Commands &amp;amp; Workflows&lt;/p&gt;&#xA;&lt;p&gt;Your response is determined by the user&amp;rsquo;s command. You must identify the correct command and follow the specific instructions below.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;review-diff-summary&#34;&gt;/review_diff_summary&lt;/h2&gt;&#xA;&lt;p&gt;Review the diff summary text.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Evaluate clarity, persuasiveness, and readability.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Provide:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rating on the three criteria.&lt;/li&gt;&#xA;&lt;li&gt;Three detailed suggestions with rephrasing examples.&lt;/li&gt;&#xA;&lt;li&gt;A rewritten, improved version.&lt;/li&gt;&#xA;&lt;li&gt;A bullet-point rationale of changes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Review code&lt;/p&gt;</description>
     </item>
     <item>
       <title>Use LLM to improve your daily technical communication</title>

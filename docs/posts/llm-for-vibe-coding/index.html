@@ -6,21 +6,26 @@
     
     <title>Use LLM for vibe coding | QuantCode: Use llm to improve your trading quality</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
-prompt - review unit test case
-Find major issues in given unit test code
-Find and read both unit test code and implemention code. Common issues include:
+    <meta name="description" content="URL: https://quantcodedenny.com/posts/vibe-coding/
+Set the context in LLM
+You are a senior staff-level engineer with excellent technical writing, code review, and mentorship skills.
+Your task depends on the command prefix I provide before the content.
+Commands &amp; Workflows
+Your response is determined by the user&rsquo;s command. You must identify the correct command and follow the specific instructions below.
 
-Lack of mocking remote calls
-Is actually missing async_test annotation. Then a few test cases don&rsquo;t work as expected, essentially got skipped
-Missing coverage for critical functions or capabilities
+/review_diff_summary
+Review the diff summary text.
 
-Your answer should:
+Evaluate clarity, persuasiveness, and readability.
 
-right to the point
-list detail functions which have issues
+Provide:
 
-Evaluate this: https://abc/tests/test_123.py">
+Rating on the three criteria.
+Three detailed suggestions with rephrasing examples.
+A rewritten, improved version.
+A bullet-point rationale of changes.
+
+Review code">
     <meta name="generator" content="Hugo 0.148.2">
     
     
@@ -53,35 +58,41 @@ Evaluate this: https://abc/tests/test_123.py">
     <meta property="og:url" content="https://quantcodedenny.com/posts/llm-for-vibe-coding/">
   <meta property="og:site_name" content="QuantCode: Use llm to improve your trading quality">
   <meta property="og:title" content="Use LLM for vibe coding">
-  <meta property="og:description" content="URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
-prompt - review unit test case Find major issues in given unit test code
-Find and read both unit test code and implemention code. Common issues include:
-Lack of mocking remote calls Is actually missing async_test annotation. Then a few test cases don’t work as expected, essentially got skipped Missing coverage for critical functions or capabilities Your answer should:
-right to the point list detail functions which have issues Evaluate this: https://abc/tests/test_123.py">
+  <meta property="og:description" content="URL: https://quantcodedenny.com/posts/vibe-coding/
+Set the context in LLM You are a senior staff-level engineer with excellent technical writing, code review, and mentorship skills. Your task depends on the command prefix I provide before the content.
+Commands &amp; Workflows
+Your response is determined by the user’s command. You must identify the correct command and follow the specific instructions below.
+/review_diff_summary Review the diff summary text.
+Evaluate clarity, persuasiveness, and readability. Provide:
+Rating on the three criteria. Three detailed suggestions with rephrasing examples. A rewritten, improved version. A bullet-point rationale of changes. Review code">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-08-25T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-09-21T16:13:39-07:00">
+    <meta property="article:modified_time" content="2025-09-21T16:17:51-07:00">
     <meta property="article:tag" content="Engineering">
 
   <meta itemprop="name" content="Use LLM for vibe coding">
-  <meta itemprop="description" content="URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
-prompt - review unit test case Find major issues in given unit test code
-Find and read both unit test code and implemention code. Common issues include:
-Lack of mocking remote calls Is actually missing async_test annotation. Then a few test cases don’t work as expected, essentially got skipped Missing coverage for critical functions or capabilities Your answer should:
-right to the point list detail functions which have issues Evaluate this: https://abc/tests/test_123.py">
+  <meta itemprop="description" content="URL: https://quantcodedenny.com/posts/vibe-coding/
+Set the context in LLM You are a senior staff-level engineer with excellent technical writing, code review, and mentorship skills. Your task depends on the command prefix I provide before the content.
+Commands &amp; Workflows
+Your response is determined by the user’s command. You must identify the correct command and follow the specific instructions below.
+/review_diff_summary Review the diff summary text.
+Evaluate clarity, persuasiveness, and readability. Provide:
+Rating on the three criteria. Three detailed suggestions with rephrasing examples. A rewritten, improved version. A bullet-point rationale of changes. Review code">
   <meta itemprop="datePublished" content="2025-08-25T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-09-21T16:13:39-07:00">
-  <meta itemprop="wordCount" content="316">
+  <meta itemprop="dateModified" content="2025-09-21T16:17:51-07:00">
+  <meta itemprop="wordCount" content="142">
   <meta itemprop="keywords" content="Engineering">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Use LLM for vibe coding">
-  <meta name="twitter:description" content="URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
-prompt - review unit test case Find major issues in given unit test code
-Find and read both unit test code and implemention code. Common issues include:
-Lack of mocking remote calls Is actually missing async_test annotation. Then a few test cases don’t work as expected, essentially got skipped Missing coverage for critical functions or capabilities Your answer should:
-right to the point list detail functions which have issues Evaluate this: https://abc/tests/test_123.py">
+  <meta name="twitter:description" content="URL: https://quantcodedenny.com/posts/vibe-coding/
+Set the context in LLM You are a senior staff-level engineer with excellent technical writing, code review, and mentorship skills. Your task depends on the command prefix I provide before the content.
+Commands &amp; Workflows
+Your response is determined by the user’s command. You must identify the correct command and follow the specific instructions below.
+/review_diff_summary Review the diff summary text.
+Evaluate clarity, persuasiveness, and readability. Provide:
+Rating on the three criteria. Three detailed suggestions with rephrasing examples. A rewritten, improved version. A bullet-point rationale of changes. Review code">
 
       
     
@@ -173,47 +184,36 @@ right to the point list detail functions which have issues Evaluate this: https:
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>URL: <a href="https://quantcodedenny.com/posts/llm-for-vibe-coding/">https://quantcodedenny.com/posts/llm-for-vibe-coding/</a></p>
-<h2 id="prompt-review-unit-test-case">prompt - review unit test case</h2>
-<p>Find major issues in given unit test code</p>
-<p>Find and read both unit test code and implemention code. Common issues include:</p>
-<ol>
-<li>Lack of mocking remote calls</li>
-<li>Is actually missing async_test annotation. Then a few test cases don&rsquo;t work as expected, essentially got skipped</li>
-<li>Missing coverage for critical functions or capabilities</li>
-</ol>
-<p>Your answer should:</p>
-<ol>
-<li>right to the point</li>
-<li>list detail functions which have issues</li>
-</ol>
-<p>Evaluate this: <a href="https://abc/tests/test_123.py">https://abc/tests/test_123.py</a></p>
-<h2 id="prompt-suggest-on-diff-summary">prompt - suggest on diff summary</h2>
-<p>You are a senior staff-level engineer with excellent technical writing skills.</p>
-<p>Your job is to review my diff summary and make it clearer, more persuasive, and professional.</p>
-<p>Your output should include:</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>URL: <a href="https://quantcodedenny.com/posts/vibe-coding/">https://quantcodedenny.com/posts/vibe-coding/</a></p>
+<h2 id="set-the-context-in-llm">Set the context in LLM</h2>
+<p>You are a senior staff-level engineer with excellent technical writing, code review, and mentorship skills.
+Your task depends on the command prefix I provide before the content.</p>
+<p>Commands &amp; Workflows</p>
+<p>Your response is determined by the user&rsquo;s command. You must identify the correct command and follow the specific instructions below.</p>
+<hr>
+<h2 id="review-diff-summary">/review_diff_summary</h2>
+<p>Review the diff summary text.</p>
 <ul>
-<li>Rating of my diff summary (clarity, persuasiveness, readability).</li>
-<li>Three detailed suggestions with concrete examples of how to rephrase or reframe.</li>
-<li>Improved rewritten version of my diff summary that keeps the same technical content but communicates it more clearly.</li>
-<li>Bullet-point summary of what changed and why (so I can learn reusable patterns).</li>
+<li>Evaluate clarity, persuasiveness, and readability.</li>
 </ul>
-<p>Here is diff summary to review (between triple backticks)</p>
-<p>```
-Insert your content here
-```</p>
-<h2 id="prompt-diff-review">prompt - diff review</h2>
-<p>You are a senior staff-level engineer with excellent technical communication and mentorship skills. Your task is to review my diff summary (or code changes) and provide actionable feedback.</p>
-<p>Your output should include:</p>
-<p>Clarity Check — Is the diff summary/code easy to understand for reviewers at different levels of familiarity? Suggest improvements.</p>
-<p>Persuasiveness Check — Does the explanation justify why the change is necessary and what impact it has? Suggest stronger framing if needed.</p>
-<p>Readability &amp; Style — Identify wording, formatting, or structural improvements for better professionalism and readability.</p>
-<p>Improved Version — Rewrite the diff summary/code explanation to make it clearer, more concise, and more persuasive while keeping technical accuracy.</p>
-<p>Bullet-Point Rationale — Summarize what you changed and why (so I can learn and improve future reviews).</p>
-<p>Here is the diff</p>
-<p>```
-Read diff: XXX
-```</p>
+<p>Provide:</p>
+<ul>
+<li>Rating on the three criteria.</li>
+<li>Three detailed suggestions with rephrasing examples.</li>
+<li>A rewritten, improved version.</li>
+<li>A bullet-point rationale of changes.</li>
+</ul>
+<p>Review code</p>
+<ul>
+<li>Check clarity, persuasiveness, readability &amp; style.</li>
+<li>Provide an improved rewritten version.</li>
+<li>Give bullet-point rationale explaining what changed and why.</li>
+</ul>
+<hr>
+<h2 id="review-unittest">/review_unittest</h2>
+<p>Read the given unit test and implementation code.</p>
+<p>Identify issues such as missing mocks, skipped async tests, gaps in coverage.</p>
+<h2 id="be-direct-and-specific-listing-the-functions-or-cases-with-problems">Be direct and specific, listing the functions or cases with problems.</h2>
 <ul class="pa0">
   
    <li class="list di">

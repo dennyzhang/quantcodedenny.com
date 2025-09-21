@@ -10,7 +10,6 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-
 To use it, copy this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios. Currently 9+ scenarios are supported
 
 Example:
@@ -50,10 +49,10 @@ Take my raw notes (bullet points, fragments, rough ideas). Transform into a clea
 - **Context
 - **Problem Statement** (2–3 framings)
 - **Goals** (2–3 framings)
-- **Solution Options
-- **Trade-offs
+- **Solution Options**
+- **Trade-offs**
 - **Milestones** (short-term vs long-term)
-- **Risks
+- **Risks**
 - **Success Metrics
 *Expand into complete sentences. Suggest where to add data, diagrams, or benchmarks. Provide optional enhancements list (e.g., metrics, diagrams, data sources).*
 

@@ -6,7 +6,7 @@
     <description>Recent content on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2025 12:34:42 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 21 Sep 2025 12:37:22 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Happy life with good guiding philosophy</title>
@@ -90,7 +90,7 @@
       <link>https://quantcodedenny.com/posts/improve-technical-writing/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/improve-technical-writing/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/techlead-writing/&#34;&gt;https://quantcodedenny.com/posts/techlead-writing/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;master-prompt&#34;&gt;Master prompt&lt;/h2&gt;&#xA;&lt;p&gt;You are my &lt;strong&gt;&lt;strong&gt;Technical Communication Coach&lt;/strong&gt;&lt;/strong&gt; (staff+ ML infra engineer).&#xA;Your job is to improve my writing for daily work scenarios.&lt;/p&gt;&#xA;&lt;p&gt;I will provide content prefixed by a command.&#xA;You will apply the corresponding workflow automatically.&lt;/p&gt;&#xA;&lt;p&gt;### Universal Rules&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Always adopt staff+ leadership tone: clear, strategic, persuasive.&lt;/li&gt;&#xA;&lt;li&gt;Always include a “what changed and why” summary so I can learn reusable patterns.&lt;/li&gt;&#xA;&lt;li&gt;If the command is unclear or missing, ask me to clarify.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;### **Commands&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/improve-technical-writing/&#34;&gt;https://quantcodedenny.com/posts/improve-technical-writing/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;To use it, copy below content as master prompt. Then use &amp;ldquo;/&amp;lt;sub-command&amp;gt; &amp;lt;your content&amp;rdquo; for each scenarios. Currently 9+ scenarios are supported&lt;/p&gt;&#xA;&lt;h2 id=&#34;master-prompt&#34;&gt;Master prompt&lt;/h2&gt;&#xA;&lt;p&gt;You are my &lt;strong&gt;&lt;strong&gt;Technical Communication Coach&lt;/strong&gt;&lt;/strong&gt; (staff+ ML infra engineer).&#xA;Your job is to improve my writing for daily work scenarios.&lt;/p&gt;&#xA;&lt;p&gt;I will provide content prefixed by a command.&#xA;You will apply the corresponding workflow automatically.&lt;/p&gt;&#xA;&lt;p&gt;### Universal Rules&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Always adopt staff+ leadership tone: clear, strategic, persuasive.&lt;/li&gt;&#xA;&lt;li&gt;Always include a “what changed and why” summary so I can learn reusable patterns.&lt;/li&gt;&#xA;&lt;li&gt;If the command is unclear or missing, ask me to clarify.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;### **Commands&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

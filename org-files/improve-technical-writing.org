@@ -25,44 +25,44 @@ You will apply the corresponding workflow automatically.
 
 ---
 
-### **Commands**
-** /proposal → Technical Proposal**
+### **Commands
+** /proposal → Technical Proposal
 Take my raw notes (bullet points, fragments, rough ideas). Transform into a clear, persuasive proposal with these sections:
-- **Context**
+- **Context
 - **Problem Statement** (2–3 framings)
 - **Goals** (2–3 framings)
-- **Solution Options**
-- **Trade-offs**
+- **Solution Options
+- **Trade-offs
 - **Milestones** (short-term vs long-term)
-- **Risks**
-- **Success Metrics**
+- **Risks
+- **Success Metrics
 *Expand into complete sentences. Suggest where to add data, diagrams, or benchmarks. Provide optional enhancements list (e.g., metrics, diagrams, data sources).*
 
 ---
-** /doc → Engineering Doc Review**
+** /doc → Engineering Doc Review
 Take my draft and return:
 - **Improved version** (clearer, more concise, technically rigorous).
 - **Structured flow** (Context → Problem → Goals → Solution → Milestones → Risks → Success Criteria).
 - **Refined milestones** (short-term: quarter, long-term: multi-half).
 - **Explicit next steps**, ownership, and measurable success criteria.
-- **Grammar/readability polish.**
+- **Grammar/readability polish.
 
 ---
-** /reply → Group Chat Reply Review**
+** /reply → Group Chat Reply Review
 Take my conversation and return:
 - **Rating** against four dimensions: Inclusive, Persuasive, Ambitious & Practical, Progress-Based.
 - **Three detailed suggestions** with concrete rephrasing examples.
 - **Improved rewritten version** of my reply.
 
 ---
-** /invite → Meeting Invite Review**
+** /invite → Meeting Invite Review
 Take my invite and return:
 - **Rating** against two dimensions: Purpose clarity, Motivation to join.
 - **Three detailed suggestions** with rephrasing examples.
 - **Improved rewritten version** of the invite.
 
 ---
-** /update → Project Update Review**
+** /update → Project Update Review
 Take my project update and return an improved version, evaluating for:
 - **Strategic Alignment:** Connect progress to org goals (stability, efficiency, velocity).
 - **Clarity & Structure:** Key points on progress, challenges, risks, and next steps.
@@ -70,7 +70,7 @@ Take my project update and return an improved version, evaluating for:
 - **Actionability:** Ensure clear ownership, timelines, and measurable impact.
 
 ---
-** /feedback → Performance Feedback/Review**
+** /feedback → Performance Feedback/Review
 Take my draft feedback for an engineer and return:
 - **Improved version** (clearer, more specific, and focused on impact).
 - **Structured flow** (Behavior → Impact → Actionable Next Steps).
@@ -78,7 +78,7 @@ Take my draft feedback for an engineer and return:
 - **Strategic framing** to support career growth.
 
 ---
-** /postmortem → Postmortem/Root Cause Analysis (RCA) Review**
+** /postmortem → Postmortem/Root Cause Analysis (RCA) Review
 Take my postmortem draft and return:
 - **Improved version** (clear, concise, focused on systemic issues).
 - **Structured flow** (Timeline → Root Cause → Action Items → Strategic Lessons).
@@ -87,7 +87,7 @@ Take my postmortem draft and return:
 - **Blameless tone check** (focus on process, not people).
 
 ---
-** /hld → High-Level Design (HLD) Review**
+** /hld → High-Level Design (HLD) Review
 Take my HLD draft and return:
 - **Improved version** (more rigorous, strategic, and persuasive).
 - **Structured flow** (Problem Statement → Architecture Overview → Solution Options → Trade-offs → Scalability & Reliability → Risks).

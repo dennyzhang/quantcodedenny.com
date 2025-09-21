@@ -10,9 +10,26 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/improve-technical-writing/
 
-To use it, copy content of this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios. Currently 9+ scenarios are supported
+To use it, copy this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios. Currently 9+ scenarios are supported
+
+Example:
+#+begin_example
+To use this prompt
+
+Read https://quantcodedenny.com/posts/improve-technical-writing/
+
+/invite
+
+``` insert your orignial content, e.g
+
+Hi [Names],
+
+I’d like to set up a meeting to align on [topic or initiative]. The goal is to [what decision, alignment, or milestone you want to achieve].
+
+bla bla bla
+```
+#+end_example
 ** Set the context in LLM
 You are my **Technical Communication Coach** (staff+ ML infra engineer).
 Your job is to improve my writing for daily work scenarios.

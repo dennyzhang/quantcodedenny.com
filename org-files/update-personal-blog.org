@@ -11,7 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/blogging/
+URL: https://quantcodedenny.com/posts/update-personal-blog/
 ** Set context for LLM collobration
 I am an experienced infra engineer (~20 years) with a personal
 project: https://quantcodedenny.com, hosted on GitHub Pages (repo:
@@ -78,6 +78,7 @@ This is code
 #+begin_src bash
 echo "hello ox-hugo"
 #+end_src
+* [#A] enforce the llm setup works well with mobile usage
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO make sure hugo shell command output is not distracting      :noexport:
 * TODO setup emacs org-mode to be function                         :noexport:
@@ -191,69 +192,72 @@ CLOSED: [2025-08-24 Sun 16:39]
 ** TODO insert adsense js code
 * TODO create 30 posts to get it started                           :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* DONE avoid duplicate setting for each posts                      :noexport:
+* DONE
+** DONE avoid duplicate setting for each posts                      :noexport:
 CLOSED: [2025-09-01 Mon 16:02]
 EXPORT_DATE: 2025-08-25
 EXPORT_HUGO_SECTION: posts
-* CANCELED export cheatsheet.dennyzhang.com to new website         :noexport:
+** CANCELED export cheatsheet.dennyzhang.com to new website         :noexport:
 CLOSED: [2025-09-01 Mon 16:02]
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* DONE make .py file use python-mode                               :noexport:
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** DONE make .py file use python-mode                               :noexport:
 CLOSED: [2025-08-30 Sat 00:32]
 
-* DONE make sure hugo shell command output is not distracting      :noexport:
+** DONE make sure hugo shell command output is not distracting      :noexport:
 CLOSED: [2025-09-01 Mon 16:02]
-* DONE setup emacs org-mode to be function                         :noexport:
+** DONE setup emacs org-mode to be function                         :noexport:
 CLOSED: [2025-09-01 Mon 16:02]
-** TODO [#A] below shortcut doesn't work
+*** TODO [#A] below shortcut doesn't work
 - <e
 - <s
-* when saving the org-mode, it gets blocked
+** when saving the org-mode, it gets blocked
 
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* TODO should the deployment be serverless or cloud run?           :noexport:
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** TODO should the deployment be serverless or cloud run?           :noexport:
 - For Docker-based Python + Gemini workflows → Cloud Run.
 - For lightweight pure Python → Lambda / Cloud Functions.
-* TODO add llm generated content to your own parts: make it targets, and won't loss your local knowledge :noexport:
+** TODO add llm generated content to your own parts: make it targets, and won't loss your local knowledge :noexport:
 prompt: for vibe-coding, add the common best practice and missing caveats into below, ...
-* TODO enroll the website to google adsense                        :noexport:
+** TODO enroll the website to google adsense                        :noexport:
 Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884/onboarding
-** TODO tools to validate the website is ready for google adsense
+*** TODO tools to validate the website is ready for google adsense
 - https://fixadsense.com/
 - https://www.getthit.com/tools/google-adsense-eligibility-checker
 
-** TODO gpt prompt to validate whether the website is ready for goole adsense
+*** TODO gpt prompt to validate whether the website is ready for goole adsense
 
-** DONE verify site ownership
+*** DONE verify site ownership
 CLOSED: [2025-08-24 Sun 16:39]
 <meta name="google-adsense-account" content="ca-pub-5389711597208884">
+*** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+*** HALF About Us Page Available
+*** HALF Privacy Policy Page Available
+*** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+*** TODO Terms & Conditions Page Available
+*** TODO Contact Us Page Available
+*** TODO Sitemap Page Available
+*** TODO Page Count
+*** TODO Site Availbale On Google Search
+*** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+*** TODO insert adsense js code
+** TODO create 30 posts to get it started                           :noexport:
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** HALF About Us Page Available
-** HALF Privacy Policy Page Available
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** TODO Terms & Conditions Page Available
-** TODO Contact Us Page Available
-** TODO Sitemap Page Available
-** TODO Page Count
-** TODO Site Availbale On Google Search
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** TODO insert adsense js code
-* TODO create 30 posts to get it started                           :noexport:
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* DONE avoid duplicate setting for each posts                      :noexport:
+** DONE avoid duplicate setting for each posts                      :noexport:
 CLOSED: [2025-09-01 Mon 16:02]
 EXPORT_DATE: 2025-08-25
 EXPORT_HUGO_SECTION: posts
-* CANCELED export cheatsheet.dennyzhang.com to new website         :noexport:
+** CANCELED export cheatsheet.dennyzhang.com to new website         :noexport:
 CLOSED: [2025-09-01 Mon 16:02]
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* DONE make .py file use python-mode                               :noexport:
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** DONE make .py file use python-mode                               :noexport:
 CLOSED: [2025-08-30 Sat 00:32]
 
-* DONE make sure hugo shell command output is not distracting      :noexport:
+** DONE make sure hugo shell command output is not distracting      :noexport:
 CLOSED: [2025-09-01 Mon 16:02]
-* DONE setup emacs org-mode to be function                         :noexport:
+** DONE setup emacs org-mode to be function                         :noexport:
 CLOSED: [2025-09-01 Mon 16:02]
-** TODO [#A] below shortcut doesn't work
+*** TODO [#A] below shortcut doesn't work
 - <e
 - <s
+
+

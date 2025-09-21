@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
+URL: https://quantcodedenny.com/posts/llm-stock-sentiment/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.
@@ -290,7 +290,7 @@ You are a business strategist and product builder specializing in monetizing nic
 Ask for P0 task
 I have 2 hours now. I want to create one reusable content or tool in this topic. What I shall work on?  I need one sentence statement. And the audience can understand and get attracted
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Reddit Retail Sentiment Extractor
+* Reddit Retail Sentiment Extractor                                :noexport:
 * local note                                                       :noexport:
 ** note2
 "我是一个llm 的使用者。是一个infra engineer, 同时喜欢股票研究。我想构建ai bot来提高工作效率和股票投资收益
@@ -339,3 +339,4 @@ I have 2 hours now. I want to create one reusable content or tool in this topic.
    - 需要重点关注的财报/事件/数据点
 
 请按照上述结构完整分析，提供尽可能具体的数据和逻辑说明。请在每个部分标明来源或数据年份。"
+

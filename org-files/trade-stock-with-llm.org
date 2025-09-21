@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/llm-stock-sentiment/
+URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.
@@ -104,7 +104,7 @@ make run-all
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
+URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
 
 To use it, copy this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios. Currently 9+ scenarios are supported
 
@@ -147,14 +147,10 @@ Assess a user's trading intent for signs of panic selling or FOMO buying. Provid
 Example Input: I want to buy QQQ at $550 in the near future
 
 Example Output:
-
-Assessment: ✅
-
-Reasoning: QQQ shows stable tech sector support near $550, aligning with rational entry rather than FOMO; no major negative news indicates overreaction.
-
-Suggested Price: $545–$555 based on recent support levels.
-
-Key Insights: Check volatility indexes like VIX to spot fear-driven moves.
+- Assessment: ✅
+- Reasoning: QQQ shows stable tech sector support near $550, aligning with rational entry rather than FOMO; no major negative news indicates overreaction.
+- Suggested Price: $545–$555 based on recent support levels.
+- Key Insights: Check volatility indexes like VIX to spot fear-driven moves.
 
 ---
 ** /buydip → Buy-the-Dip Analysis
@@ -167,68 +163,49 @@ Analyze a market observation for a dip opportunity on a market-leading stock. Pr
 Example Input: UNH dip opportunity in early August
 
 Example Output:
-
-Buy-the-Dip? Yes
-
-Confidence: 85%
-
-Reasoning: UNH leads in healthcare with strong fundamentals; the August dip was a 10% retracement from sector rotation, with quick rebound signals from institutional buying.
-
-Key Insights: Confirm dips with 10–20% pullbacks and positive earnings outlooks.
+- Buy-the-Dip? Yes
+- Confidence: 85%
+- Reasoning: UNH leads in healthcare with strong fundamentals; the August dip was a 10% retracement from sector rotation, with quick rebound signals from institutional buying.
+- Key Insights: Confirm dips with 10–20% pullbacks and positive earnings outlooks.
 
 ---
 ** /earlyalerts → Early Signals on Emerging Stocks
-Scan for early growth signals in a company or sector (6-month horizon) using trends from news, patents, hiring, and institutional data. Provide:
+Scan for early growth signals in a company or sector (6-month horizon) using trends from news, patents, hiring, and institutional data.
 
-Potential Alert?: Yes/No (indicating pre-hype opportunity).
-
-Confidence: 0–100% (based on signal strength).
-
-Reasoning: Brief summary of key signals (e.g., patent filings, hiring spikes, fund inflows).
+Provide:
+- Potential Alert?: Yes/No (indicating pre-hype opportunity).
+- Confidence: 0–100% (based on signal strength).
+- Reasoning: Brief summary of key signals (e.g., patent filings, hiring spikes, fund inflows).
 
 Next Steps: Suggested monitoring actions (e.g., track quarterly filings).
-
 Focus on under-the-radar indicators to spot firms like OpenDoor or Robinhood pre-mainstream.
 
 Example Input: Analyze early signals for Reddit in tech/social sector
 
 Example Output:
-
-Potential Alert? Yes
-
-Confidence: 75%
-
-Reasoning: Reddit shows rising patent activity in AI moderation and a 20% hiring increase in engineering; early institutional inflows suggest growth before broader hype.
-
-Next Steps: Monitor SEC filings and user growth metrics quarterly.
-
-Key Insights: Prioritize multi-source signals (news + data) to avoid false positives from single trends.
+- Potential Alert? Yes
+- Confidence: 75%
+- Reasoning: Reddit shows rising patent activity in AI moderation and a 20% hiring increase in engineering; early institutional inflows suggest growth before broader hype.
+- Next Steps: Monitor SEC filings and user growth metrics quarterly.
+- Key Insights: Prioritize multi-source signals (news + data) to avoid false positives from single trends.
 ---
 ** /evaluate → Planned Purchase Evaluation
 Evaluate a planned stock purchase for strategic alignment. Provide:
 
-Buy?: Yes/No.
-
-Emotional Guardrail Check: Yes (driven by FOMO/panic) or No.
-
-Confidence: 0–100% (on reasonableness).
-
-Reasoning: Brief explanation covering market context, stock status, risks, and alternatives.
+- Buy?: Yes/No.
+- Emotional Guardrail Check: Yes (driven by FOMO/panic) or No.
+- Confidence: 0–100% (on reasonableness).
+- Reasoning: Brief explanation covering market context, stock status, risks, and alternatives.
 
 Example Input: I want to buy QQQ at $550 in the near future
 
 Example Output:
-
-Buy? Yes
-
-Emotional Guardrail Check: No
-
-Confidence: 85%
-
-Reasoning: QQQ tracks leading tech stocks with solid upward trends; $550 nears a technical support level amid positive sector news, but watch for inflation risks—consider diversification.
-
-Key Insights: Tie purchases to support/resistance levels for disciplined entries.
-
+- Buy? Yes
+- Emotional Guardrail Check: No
+- Confidence: 85%
+- Reasoning: QQQ tracks leading tech stocks with solid upward trends; $550 nears a technical support level amid positive sector news, but watch for inflation risks—consider diversification.
+- Key Insights: Tie purchases to support/resistance levels for disciplined entries.
+---
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Caveats of using LLM for trading                                 :noexport:
 ** 市场不可预测，LLM可能miss黑天鹅

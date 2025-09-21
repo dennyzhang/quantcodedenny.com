@@ -56,30 +56,9 @@ Please reach out, if you have more to suggest
 |  3 | Detect bias        | TSLA struggle at 320 in Q3'25            |                |                  |
 #+TBLFM: $1=@#-1+0
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* prompt - role setup to improve the blog                          :noexport:
-This is content
-#+BEGIN_EXAMPLE
-You are a professional websiter builder. I need your help to update my blogger.
-
-The blogger is hosted in github pages under this repo https://github.com/dennyzhang/quantcodedenny.com/.
-The website url is https://quantcodedenny.com
-
-Your change should always obey to below rules:
-- All code you generates should be in english.
-- The content should be short and easy to understand to my audience.
-
-#+END_EXAMPLE
-This is code
-#+begin_src bash
-echo "hello ox-hugo"
-#+end_src
 * [#A] enforce the llm setup works well with mobile usage          :noexport:
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* TODO make sure hugo shell command output is not distracting      :noexport:
+* TODO [#A] the auto-gen url is buggy
 * TODO setup emacs org-mode to be function                         :noexport:
-** TODO [#A] below shortcut doesn't work
-- <e
-- <s
 * TODO avoid duplicate setting for each posts                      :noexport:
 EXPORT_DATE: 2025-08-25
 EXPORT_HUGO_SECTION: posts
@@ -89,9 +68,7 @@ Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884
 ** TODO tools to validate the website is ready for google adsense
 - https://fixadsense.com/
 - https://www.getthit.com/tools/google-adsense-eligibility-checker
-
 ** TODO gpt prompt to validate whether the website is ready for goole adsense
-
 ** DONE verify site ownership
 CLOSED: [2025-08-24 Sun 16:39]
 <meta name="google-adsense-account" content="ca-pub-5389711597208884">
@@ -106,32 +83,8 @@ CLOSED: [2025-08-24 Sun 16:39]
 ** TODO Site Availbale On Google Search
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** TODO insert adsense js code
-* TODO export cheatsheet.dennyzhang.com to new website             :noexport:
 * TODO add llm generated content to your own parts: make it targets, and won't loss your local knowledge :noexport:
 prompt: for vibe-coding, add the common best practice and missing caveats into below, ...
-* TODO enroll the website to google adsense                        :noexport:
-Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884/onboarding
-** TODO tools to validate the website is ready for google adsense
-- https://fixadsense.com/
-- https://www.getthit.com/tools/google-adsense-eligibility-checker
-
-** TODO gpt prompt to validate whether the website is ready for goole adsense
-
-** DONE verify site ownership
-CLOSED: [2025-08-24 Sun 16:39]
-<meta name="google-adsense-account" content="ca-pub-5389711597208884">
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** HALF About Us Page Available
-** HALF Privacy Policy Page Available
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** TODO Terms & Conditions Page Available
-** TODO Contact Us Page Available
-** TODO Sitemap Page Available
-** TODO Page Count
-** TODO Site Availbale On Google Search
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** TODO insert adsense js code
-* TODO create 30 posts to get it started                           :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * DONE
 ** DONE avoid duplicate setting for each posts                      :noexport:
@@ -143,7 +96,6 @@ CLOSED: [2025-09-01 Mon 16:02]
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** DONE make .py file use python-mode                               :noexport:
 CLOSED: [2025-08-30 Sat 00:32]
-
 ** DONE make sure hugo shell command output is not distracting      :noexport:
 CLOSED: [2025-09-01 Mon 16:02]
 ** DONE setup emacs org-mode to be function                         :noexport:
@@ -152,7 +104,6 @@ CLOSED: [2025-09-01 Mon 16:02]
 - <e
 - <s
 ** when saving the org-mode, it gets blocked
-
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** TODO should the deployment be serverless or cloud run?           :noexport:
 - For Docker-based Python + Gemini workflows → Cloud Run.
@@ -164,9 +115,7 @@ Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884
 *** TODO tools to validate the website is ready for google adsense
 - https://fixadsense.com/
 - https://www.getthit.com/tools/google-adsense-eligibility-checker
-
 *** TODO gpt prompt to validate whether the website is ready for goole adsense
-
 *** DONE verify site ownership
 CLOSED: [2025-08-24 Sun 16:39]
 <meta name="google-adsense-account" content="ca-pub-5389711597208884">
@@ -192,7 +141,6 @@ CLOSED: [2025-09-01 Mon 16:02]
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** DONE make .py file use python-mode                               :noexport:
 CLOSED: [2025-08-30 Sat 00:32]
-
 ** DONE make sure hugo shell command output is not distracting      :noexport:
 CLOSED: [2025-09-01 Mon 16:02]
 ** DONE setup emacs org-mode to be function                         :noexport:
@@ -200,5 +148,12 @@ CLOSED: [2025-09-01 Mon 16:02]
 *** TODO [#A] below shortcut doesn't work
 - <e
 - <s
-
+* DONE make sure hugo shell command output is not distracting      :noexport:
+CLOSED: [2025-09-21 Sun 16:56]
+* DONE [#A] below shortcut doesn't work
+CLOSED: [2025-09-21 Sun 16:57]
+- <e
+- <s
+* CANCELED export cheatsheet.dennyzhang.com to new website         :noexport:
+CLOSED: [2025-09-21 Sun 16:57]
 

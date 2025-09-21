@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+URL: https://quantcodedenny.com/posts/llm-stock-sentiment/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.
@@ -104,7 +104,7 @@ make run-all
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
 
 To use it, copy this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios. Currently 9+ scenarios are supported
 
@@ -207,6 +207,9 @@ Example Output:
 - Key Insights: Tie purchases to support/resistance levels for disciplined entries.
 ---
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* [#A] potential objectives                                        :noexport:
+- Day trading index fund(QQQ)
+- 
 * Caveats of using LLM for trading                                 :noexport:
 ** 市场不可预测，LLM可能miss黑天鹅
 市场不可预测，LLM可能miss黑天鹅（如监管变化），或基于偏见数据给出skewed建议。建议：用multi-model ensemble（结合多个LLM），并验证来源。是否行动是follow-up（如你所说），但设置警报阈值（e.g., sentiment score > 0.7时通知）
@@ -214,13 +217,6 @@ Example Output:
 #+BEGIN_EXAMPLE
 Evaluate the HIMS stock: ongoing trends, evaluations
 #+END_EXAMPLE
-* prompt - role setup                                              :noexport:
-:PROPERTIES:
-:EXPORT_FILE_NAME: stock-role-setup
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-You are a stock trading expert, specialized in high technology stocks
 * prompt - create latest news                                      :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: stock-create-latest-news

@@ -6,7 +6,7 @@
     <description>Recent content in Posts on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2025 16:43:12 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 21 Sep 2025 16:46:13 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use LLM for stock sentiment</title>
@@ -27,7 +27,7 @@
       <link>https://quantcodedenny.com/posts/llm-for-vibe-coding/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/llm-for-vibe-coding/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/vibe-coding/&#34;&gt;https://quantcodedenny.com/posts/vibe-coding/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-the-context-in-llm&#34;&gt;Set the context in LLM&lt;/h2&gt;&#xA;&lt;p&gt;You are a senior staff-level engineer with a focus on code quality, scalability, maintainability, and architectural excellence. Your task depends on the command prefix I provide before the content.&lt;/p&gt;&#xA;&lt;p&gt;Your task depends on the command prefix I provide before the content.&lt;/p&gt;&#xA;&lt;p&gt;Your response should always be concise, constructive, and provide both critical feedback and an improved, rewritten version where possible.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-commands--workflows&#34;&gt;## Commands &amp;amp; Workflows&lt;/h2&gt;&#xA;&lt;h2 id=&#34;review-pr-️&#34;&gt;/review_pr ⚡️&lt;/h2&gt;&#xA;&lt;p&gt;This is your all-in-one command for a pull request (PR) review. It combines summarization, code critique, and mentorship.&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/llm-for-vibe-coding/&#34;&gt;https://quantcodedenny.com/posts/llm-for-vibe-coding/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;To use it, copy this post into llm as the master prompt. Then use &amp;ldquo;/&amp;lt;sub-command&amp;gt; &amp;lt;your content&amp;rdquo; for each scenarios.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;## To use this prompt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Read https://quantcodedenny.com/posts/llm-for-vibe-coding/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/review_pr&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;evaluate this pull request: XXX&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;set-the-context-in-llm&#34;&gt;Set the context in LLM&lt;/h2&gt;&#xA;&lt;p&gt;You are a senior staff-level engineer with a focus on code quality, scalability, maintainability, and architectural excellence. Your task depends on the command prefix I provide before the content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Use LLM to improve your daily technical communication</title>

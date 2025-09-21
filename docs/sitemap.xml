@@ -2,39 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://quantcodedenny.com/posts/</loc>
-    <lastmod>2025-09-21T15:56:10-07:00</lastmod>
+    <loc>https://quantcodedenny.com/categories/</loc>
   </url><url>
     <loc>https://quantcodedenny.com/</loc>
-    <lastmod>2025-09-21T15:56:10-07:00</lastmod>
   </url><url>
     <loc>https://quantcodedenny.com/tags/</loc>
-    <lastmod>2025-09-21T15:56:10-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/posts/trading-emotional-guardrails/</loc>
-    <lastmod>2025-09-21T15:35:46-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/tags/trading-llm/</loc>
-    <lastmod>2025-09-21T15:56:10-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/tags/engineering/</loc>
-    <lastmod>2025-09-21T15:54:57-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/tags/leadership/</loc>
-    <lastmod>2025-09-21T15:54:57-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/posts/llm-stock-sentiment/</loc>
-    <lastmod>2025-09-21T15:56:10-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/posts/llm-trade-common-scenario/</loc>
-    <lastmod>2025-09-21T15:34:46-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/posts/llm-trade-common-scenarios/</loc>
-    <lastmod>2025-09-21T15:45:57-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/posts/improve-technical-writing/</loc>
-    <lastmod>2025-09-21T15:54:57-07:00</lastmod>
-  </url><url>
-    <loc>https://quantcodedenny.com/categories/</loc>
   </url>
 </urlset>

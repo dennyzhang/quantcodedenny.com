@@ -6,42 +6,6 @@
     <description>Recent content on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2025 15:56:10 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Trading Goal#1: Emotional Guardrails: Panic Sell &#43; FOMO Buy</title>
-      <link>https://quantcodedenny.com/posts/trading-emotional-guardrails/</link>
-      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/trading-emotional-guardrails/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/trading-emotional-guardrails/&#34;&gt;https://quantcodedenny.com/posts/trading-emotional-guardrails/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Use LLMs to analyze market news and price swings in real time, providing calm, data-driven prompts to prevent panic selling and FOMO buying.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Use LLM for stock sentiment</title>
-      <link>https://quantcodedenny.com/posts/llm-stock-sentiment/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/llm-stock-sentiment/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/trade-stock-with-llm/&#34;&gt;https://quantcodedenny.com/posts/trade-stock-with-llm/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;0-intro&#34;&gt;0 Intro&lt;/h2&gt;&#xA;&lt;p&gt;This tool empowers engineers to automate stock sentiment analysis with&#xA;precision and speed.&lt;/p&gt;&#xA;&lt;p&gt;It combines two core capabilities: parsing recent&#xA;news headlines to extract market sentiment and insights, and parsing&#xA;SEC filings to surface key financial and risk information. Both&#xA;streams are fed into a configurable LLM pipeline, allowing you to run&#xA;fast local tests with lightweight models or perform high-accuracy&#xA;production analysis. Designed for modularity and reuse, it integrates&#xA;seamlessly into your workflows—turning raw data into actionable&#xA;insights without manual reading.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Use LLM for trading common scenarios</title>
-      <link>https://quantcodedenny.com/posts/llm-trade-common-scenario/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/llm-trade-common-scenario/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/llm-stock-sentiment/&#34;&gt;https://quantcodedenny.com/posts/llm-stock-sentiment/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Use LLM for trading common scenarios</title>
-      <link>https://quantcodedenny.com/posts/llm-trade-common-scenarios/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/llm-trade-common-scenarios/</guid>
-      <description>&lt;p&gt;To use it, copy this post into llm as the master prompt. Then use &amp;ldquo;/&amp;lt;sub-command&amp;gt; &amp;lt;your content&amp;rdquo; for each scenarios. Currently 9+ scenarios are supported&lt;/p&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;To use this prompt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Read https://quantcodedenny.com/posts/llm-trade-common-scenarios/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/guardrail&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;```&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;I want to buy RKLB at 50 in the incoming days&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;```&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;set-the-context-in-llm&#34;&gt;Set the context in LLM&lt;/h2&gt;&#xA;&lt;p&gt;Your role is to support disciplined stock trading decisions by analyzing scenarios with data-driven insights, emotional checks, and strategic recommendations. Use real-time market data, news, and trends where applicable (e.g., via web searches for current prices, volatility, or events).&#xA;I will provide content prefixed by a command (e.g., /emotional_guardrail). Apply the corresponding workflow automatically.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Use LLM to improve your daily technical communication</title>
-      <link>https://quantcodedenny.com/posts/improve-technical-writing/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/improve-technical-writing/</guid>
-      <description>&lt;p&gt;To use it, copy this post into llm as the master prompt. Then use &amp;ldquo;/&amp;lt;sub-command&amp;gt; &amp;lt;your content&amp;rdquo; for each scenarios. Currently 9+ scenarios are supported&lt;/p&gt;&#xA;&lt;p&gt;Example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;To use this prompt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Read https://quantcodedenny.com/posts/improve-technical-writing/&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/invite&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;``` insert your orignial content, e.g&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Hi [Names],&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;I’d like to set up a meeting to align on [topic or initiative]. The goal is to [what decision, alignment, or milestone you want to achieve].&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bla bla bla&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;```&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;set-the-context-in-llm&#34;&gt;Set the context in LLM&lt;/h2&gt;&#xA;&lt;p&gt;You are my &lt;strong&gt;&lt;strong&gt;Technical Communication Coach&lt;/strong&gt;&lt;/strong&gt; (staff+ ML infra engineer).&#xA;Your job is to improve my writing for daily work scenarios.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

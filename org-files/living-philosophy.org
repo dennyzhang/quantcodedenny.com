@@ -4,7 +4,7 @@
 #+HUGO_TAGS: leadership life
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Happy life with good guiding philosophy
+* Happy life with good guiding philosophy                          :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: living-philosophy
 :EXPORT_DATE: 2025-09-14
@@ -37,6 +37,7 @@ Here are my notes (between triple backticks):
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
 ```
+* child eduction                                                   :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO mindful living: understand your option and trade-off
 * TODO 生活要做减法

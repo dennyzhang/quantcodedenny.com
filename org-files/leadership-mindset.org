@@ -4,7 +4,7 @@
 #+HUGO_TAGS: engineering leadership
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Thrive in big corporate
+* Thrive in big corporate                                          :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: thrive-in-big-corporate
 :EXPORT_DATE: 2025-08-25

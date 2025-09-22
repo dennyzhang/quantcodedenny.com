@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.
@@ -349,4 +349,5 @@ I have 2 hours now. I want to create one reusable content or tool in this topic.
    - 需要重点关注的财报/事件/数据点
 
 请按照上述结构完整分析，提供尽可能具体的数据和逻辑说明。请在每个部分标明来源或数据年份。"
+
 

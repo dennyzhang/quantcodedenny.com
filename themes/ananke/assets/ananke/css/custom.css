@@ -1,0 +1,57 @@
+/* General table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+}
+
+/* Table header */
+table thead th {
+  background-color: #1f2937; /* dark header */
+  color: #f9fafb;           /* light text */
+  text-align: left;
+  padding: 0.75em 1em;
+  border-bottom: 2px solid #4b5563;
+}
+
+/* Table body */
+table tbody td {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: top;
+}
+
+/* Alternate row coloring */
+table tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Command column highlight */
+table tbody td:first-child {
+  font-weight: 600;
+  color: #111827;
+  white-space: nowrap;
+}
+
+/* Responsive: horizontal scroll on small screens */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+/* Optional: hover highlight for rows */
+table tbody tr:hover {
+  background-color: #e0f2fe;
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+/* Optional: icons in first column if using Font Awesome */
+table tbody td:first-child i {
+  margin-right: 0.5em;
+}

@@ -18,6 +18,7 @@ You are a staff+ engineer leading a cross-functional v-team. Your job is to:
 - Surface constraints and roadblocks.
 - Drive execution while managing bandwidth to avoid over-commitment.
 - Keep the big picture in mind and ensure work aligns with org goals.
+- Adopt a growth-oriented, solution-focused mindset: think strategically, balance ambition with realism, and maintain team trust and energy.
 
 Your response depends on the command prefix:
 - /align → Build shared understanding, frame requests in partner teams’ goals.
@@ -28,37 +29,101 @@ Your response depends on the command prefix:
 ## Core Sub-Commands
 ---
 ** /align → Build Shared Understanding
-
-Map team incentives, constraints, and positions.
-
-Highlight common ground and win–win framing.
-
-Suggest bridge statements for alignment.
+- Map team incentives, constraints, and positions.
+- Highlight common ground and win–win framing.
+- Suggest bridge statements for alignment.
+- Consider team capacity and avoid pushing excessive commitments.
+- Mindset tip: Assume each team wants to succeed; approach with curiosity, not blame.
 ---
 ** /unblock → Remove Roadblocks
-
-Identify root blockers (ownership, resourcing, priorities).
-
-Propose practical next steps or escalation paths.
-
-Reframe blockers as shared risks/opportunities.
+- Identify root blockers (ownership, resourcing, priorities).
+- Propose practical next steps or escalation paths.
+- Reframe blockers as shared risks or opportunities.
+- Ensure solutions respect team bandwidth and prevent overloading contributors.
+- Mindset tip: Focus on solving the system, not assigning fault.
 ---
 ** /execute → Drive Tangible Progress
-
-Suggest quick wins to build momentum.
-
-Propose step-by-step plan with owners & timelines.
-
-Show how progress ties back to org-level goals.
+- Suggest quick wins to build momentum.
+- Propose step-by-step plans with owners, timelines, and realistic workload.
+- Show how progress ties back to org-level goals.
+- Balance urgency with sustainable team execution.
+- Mindset tip: Prioritize impact over activity; progress doesn’t require doing everything at once.
+---
 ** /update → Communicate Progress
-
-Craft clear v-team updates: context → progress → risks → next steps.
-
-Frame updates strategically (impact, alignment, momentum).
-
-Suggest narrative for leadership or broad audience.
+- Craft clear v-team updates: context → progress → risks → next steps.
+- Frame updates strategically: highlight impact, alignment, and momentum.
+- Include realistic workload and capacity constraints.
+- Suggest narrative for leadership or broader audiences.
+- Mindset tip: Communicate confidence and clarity while signaling realistic expectations; transparency builds trust.
 ---
 
+** local note                                                      :noexport:
+There are blindspots from the teams
+What's the ETA
+think from other teams' perspectives
+
+the complain can help
+
+revert...
+* Strategic Thinking In Big Corporate Envs                         :noexport:
+Think and discuss at a director-level perspective.
+
+Navigate and balance conflicting goals effectively.
+
+Aim for sustainable solutions rather than quick fixes.
+
+Recognize and address blind spots in plans or strategies.
+
+Frame problems with incentives and “why it matters” to gain alignment.
+** Focus & Prioritization
+Invest energy in critical, high-leverage work over urgent-but-low-value tasks.
+
+Avoid over-investing in less critical issues.
+
+Seek global optimization over local wins, aligning with higher ROI challenges.
+** Communication & Discussions
+Avoid leaving open-ended threads; drive toward clarity and closure.
+
+Ask framing questions that help the whole team think more broadly.
+
+Ensure comments add unique value after deep thought (avoid noise or obvious remarks).
+
+Encourage meaningful discussions, especially on core problems; don’t prematurely shut them down.
+
+Use simple, concrete language and data to open up topics that engage others.
+
+Deliver hard messages when necessary with clarity and respect.
+** Leverage & Empowerment
+Contribute unique value instead of competing on the same ground as others.
+
+Mobilize the team to increase overall output, not just personal output.
+
+Gain useful insights by actively engaging with cross-functional partners and your team.
+
+Add value without doing all the work yourself (e.g., ask clarifying questions, provide direction).
+
+Avoid over-delegation that leaves team members unsupported and projects at risk.
+
+Remove collaboration friction by being flexible on approaches and emphasizing business outcomes.
+** Influence & Leadership Presence
+Grow your influence and power through consistent, value-adding contributions.
+
+Build confidence in the team when facing uncertainty.
+
+Engage actively in discussions to show leadership presence.
+
+Talk with a business sense—connect technical choices to business impact.
+
+Maintain a bias for action to drive progress.
+
+Ensure steady progress forward; momentum builds credibility.
+** casual talk
+Can I ask that you find a time next week for us
+
+I’m not a big fan of them coming in and claiming that XXX solution should be generalized and pushing for long-term ownership, especially since my understanding was that another group was instrumental in contributing to that solution. That’s why I stepped in to reference the earlier discussions.
+
+** bad habits jeopardize your power
+- Avoid overly available for urgencies. Work on critical things over urgent-yet-not-critical things.
 * Thrive in big corporate                                          :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: thrive-in-big-corporate
@@ -107,64 +172,4 @@ My local notes
 - be clear on who own the follow-up, and what is the timeline
 ** local note: ask for clarification - you mind sharing the reason this inconsistency blocks your diff ?
 ** local note: ask for more business context
-* Strategic Thinking                                               :noexport:
-Think and discuss at a director-level perspective.
-
-Navigate and balance conflicting goals effectively.
-
-Aim for sustainable solutions rather than quick fixes.
-
-Recognize and address blind spots in plans or strategies.
-
-Frame problems with incentives and “why it matters” to gain alignment.
-* learning                                                         :noexport:
-** Focus & Prioritization                                          :noexport:
-Invest energy in critical, high-leverage work over urgent-but-low-value tasks.
-
-Avoid over-investing in less critical issues.
-
-Seek global optimization over local wins, aligning with higher ROI challenges.
-** Communication & Discussions                                     :noexport:
-Avoid leaving open-ended threads; drive toward clarity and closure.
-
-Ask framing questions that help the whole team think more broadly.
-
-Ensure comments add unique value after deep thought (avoid noise or obvious remarks).
-
-Encourage meaningful discussions, especially on core problems; don’t prematurely shut them down.
-
-Use simple, concrete language and data to open up topics that engage others.
-
-Deliver hard messages when necessary with clarity and respect.
-** Leverage & Empowerment                                          :noexport:
-Contribute unique value instead of competing on the same ground as others.
-
-Mobilize the team to increase overall output, not just personal output.
-
-Gain useful insights by actively engaging with cross-functional partners and your team.
-
-Add value without doing all the work yourself (e.g., ask clarifying questions, provide direction).
-
-Avoid over-delegation that leaves team members unsupported and projects at risk.
-
-Remove collaboration friction by being flexible on approaches and emphasizing business outcomes.
-** Influence & Leadership Presence                                 :noexport:
-Grow your influence and power through consistent, value-adding contributions.
-
-Build confidence in the team when facing uncertainty.
-
-Engage actively in discussions to show leadership presence.
-
-Talk with a business sense—connect technical choices to business impact.
-
-Maintain a bias for action to drive progress.
-
-Ensure steady progress forward; momentum builds credibility.
-** casual talk                                                     :noexport:
-Can I ask that you find a time next week for us
-
-I’m not a big fan of them coming in and claiming that XXX solution should be generalized and pushing for long-term ownership, especially since my understanding was that another group was instrumental in contributing to that solution. That’s why I stepped in to reference the earlier discussions.
-
-** bad habits jeopardize your power                                :noexport:
-- Avoid overly available for urgencies. Work on critical things over urgent-yet-not-critical things.
 * TODO make suggestions which adds value and drive actions

@@ -32,7 +32,6 @@ Output Format – A structured playbook I can review before making proposals or 
 Here are my raw notes:
 
 ```
-
 My local notes
 
 - Need to show delta value. For big system in big coporate, individuals or individual teams may not be sufficient to fully resolve a complex business problems.

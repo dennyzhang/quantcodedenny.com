@@ -56,6 +56,8 @@ Please reach out, if you have more to suggest
 |  3 | Detect bias        | TSLA struggle at 320 in Q3'25            |                |                  |
 #+TBLFM: $1=@#-1+0
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* make the exported table easier to follow
+https://quantcodedenny.com/posts/llm-for-vibe-coding/
 * [#A] enforce the llm setup works well with mobile usage          :noexport:
 * TODO [#A] the auto-gen url is buggy
 * TODO setup emacs org-mode to be function                         :noexport:

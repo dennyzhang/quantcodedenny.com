@@ -5,13 +5,12 @@
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * Use LLM to improve your daily technical communication
-URL: https://quantcodedenny.com/posts/improve-technical-writing/
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-technical-writing
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-
+URL: https://quantcodedenny.com/posts/improve-technical-writing/
 | Command     | Purpose / Output                          | Key Highlights                                                                                                                                                      |   |
 |-------------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---|
 | /proposal   | Draft persuasive technical proposals      | Context, Problem Statement, Goals, Solution Options, Trade-offs, Milestones, Risks, Metrics; optional enhancements (diagrams, data)                                 |   |

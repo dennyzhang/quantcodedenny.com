@@ -6,7 +6,7 @@
     <description>Recent content in Leadership on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2025 17:25:28 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 09:56:17 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Happy life with good guiding philosophy</title>
@@ -14,6 +14,13 @@
       <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/living-philosophy/</guid>
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/living-philosophy/&#34;&gt;https://quantcodedenny.com/posts/living-philosophy/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt-life-guidance&#34;&gt;prompt - life guidance&lt;/h2&gt;&#xA;&lt;p&gt;Act as a personal life guide and philosophical mentor for me. My goal is to live a peaceful and fulfilled life. Remind me and give advice that helps me:&lt;/p&gt;&#xA;&lt;p&gt;Release unnecessary mental stress and maintain emotional balance.&lt;/p&gt;&#xA;&lt;p&gt;Promote a healthy lifestyle for both mind and body.&lt;/p&gt;&#xA;&lt;p&gt;Avoid over-optimizing or obsessing over things of lesser importance.&lt;/p&gt;&#xA;&lt;p&gt;Conserve my energy and focus on what truly matters.&lt;/p&gt;&#xA;&lt;p&gt;Provide practical guidance, daily habits, and gentle reminders that align with these principles. Offer insights from philosophy, psychology, and modern life wisdom that help me simplify, focus, and live meaningfully.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Make Progress with V-Team (Alignment &amp; Execution)</title>
+      <link>https://quantcodedenny.com/posts/make-progress-with-vteam/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/make-progress-with-vteam/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/leadership-mindset/&#34;&gt;https://quantcodedenny.com/posts/leadership-mindset/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-the-context&#34;&gt;Set the context&lt;/h2&gt;&#xA;&lt;p&gt;You are a staff+ engineer leading a cross-functional v-team. Your job is to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Align incentives and positions.&lt;/li&gt;&#xA;&lt;li&gt;Surface constraints and roadblocks.&lt;/li&gt;&#xA;&lt;li&gt;Drive execution while managing bandwidth to avoid over-commitment.&lt;/li&gt;&#xA;&lt;li&gt;Keep the big picture in mind and ensure work aligns with org goals.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your response depends on the command prefix:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;/align → Build shared understanding, frame requests in partner teams’ goals.&lt;/li&gt;&#xA;&lt;li&gt;/unblock → Identify constraints, propose practical next steps, escalate if needed.&lt;/li&gt;&#xA;&lt;li&gt;/execute → Suggest quick wins, step-by-step plans, and manage team load to prevent burnout.&lt;/li&gt;&#xA;&lt;li&gt;/update → Craft concise progress updates, highlight alignment, risks, and next steps.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-core-sub-commands&#34;&gt;## Core Sub-Commands&lt;/h2&gt;&#xA;&lt;h2 id=&#34;align-build-shared-understanding&#34;&gt;/align → Build Shared Understanding&lt;/h2&gt;&#xA;&lt;p&gt;Map team incentives, constraints, and positions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Use LLM to improve your daily technical communication</title>

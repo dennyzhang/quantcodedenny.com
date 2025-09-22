@@ -104,7 +104,16 @@ make run-all
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
+URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+
+| Command      | Purpose                              | Key Output                                                             | Example                            |
+|--------------+--------------------------------------+------------------------------------------------------------------------+------------------------------------|
+| /guardrail   | Check if trading intent is emotional | ✅/⚠️, reasoning, suggested price, optional cool-down                  | “I want to buy QQQ at $550”        |
+| /buydip      | Identify dip opportunities           | Yes/No, confidence %, reasoning, target price                          | “MSFT dip opportunity this week”   |
+| /earlyalerts | Spot early growth signals            | Yes/No, confidence %, reasoning, next steps                            | “Analyze early signals for Reddit” |
+| /evaluate    | Assess planned stock purchase        | Buy? Yes/No, emotional check, confidence %, reasoning                  | “I want to buy QQQ at $550”        |
+| /daytrade    | Intraday trading opportunities       | Yes/No, confidence %, reasoning, suggested entry/exit                  | “Day trade QQQ today”              |
+| /autoeval    | Assess automated orders/trades       | Execute? Yes/No, emotional check, confidence %, reasoning, adjustments | “Set auto-buy order QQQ $600”      |
 
 To use it, copy this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios. Currently 9+ scenarios are supported
 
@@ -151,45 +160,22 @@ Example Output:
 - Key Insights: Check volatility indexes like VIX to spot fear-driven moves.
 
 ---
-** /monitored_buydip → Buy-the-Dip for Monitored Stocks
-
-Analyze a dip opportunity for actively tracked stocks.
-
-- Buy-the-Dip?: Yes/No
-- Confidence: 0–100%
-
-Reasoning: Market leader status, pullbacks, institutional signals
-
-Suggested Price: Target buy range
-
-Example Input: MSFT dip opportunity this week
-Example Output:
-
-Buy-the-Dip? Yes
-
-Confidence: 88%
-
-Reasoning: MSFT retraced 7% from recent highs, finding support near $515; institutional buying resumed after earnings beat estimates.
-
-Suggested Price: $513–$520
-
-Key Insights: Track dips within 5–10% retracements and confirm with volume patterns.
----
-
 ** /buydip → Buy-the-Dip Analysis
-Analyze a market observation for a dip opportunity on a market-leading stock. Provide:
+Analyze a dip opportunity for market-leading or monitored stocks.
 
 - Buy-the-Dip?: Yes/No.
 - Confidence: 0–100% (based on leader status, dip depth, and recovery signals).
 - Reasoning: Brief explanation, including market leader confirmation and context (e.g., via sector performance, historical dips).
+- Suggested Price: Target buy range based on recent support levels
 
-Example Input: UNH dip opportunity in early August
+Example Input: MSFT dip opportunity this week
 
 Example Output:
 - Buy-the-Dip? Yes
-- Confidence: 85%
-- Reasoning: UNH leads in healthcare with strong fundamentals; the August dip was a 10% retracement from sector rotation, with quick rebound signals from institutional buying.
-- Key Insights: Confirm dips with 10–20% pullbacks and positive earnings outlooks.
+- Confidence: 88%
+- Reasoning: MSFT retraced 7% from recent highs, finding support near $515; institutional buying resumed after earnings beat estimates.
+- Suggested Price: $513–$520
+- Key Insights: Track dips within 5–10% retracements and confirm with volume patterns.
 
 ---
 ** /earlyalerts → Early Signals on Emerging Stocks
@@ -212,6 +198,20 @@ Example Output:
 - Next Steps: Monitor SEC filings and user growth metrics quarterly.
 - Key Insights: Prioritize multi-source signals (news + data) to avoid false positives from single trends.
 ---
+** /daytrade → Day Trading Index Funds (QQQ)
+Analyze intraday movements and volatility for short-term trading opportunities.
+- Trade Opportunity?: Yes/No
+- Confidence: 0–100%
+- Reasoning: Intraday trends, support/resistance, liquidity
+- Suggested Action: Entry/exit windows, stop-loss ranges
+
+Example Input: Consider day trading QQQ today
+Example Output:
+- Trade Opportunity? Yes
+- Confidence: 80%
+- Reasoning: QQQ shows stable opening range support at $598 with intraday momentum indicators suggesting short-term uptrend; liquidity is high.
+- Suggested Action: Enter near $598–$600, stop-loss $595, target $605–$607
+- Key Insights: Monitor intraday VWAP and volume spikes to confirm entries/exits.
 ** /evaluate → Planned Purchase Evaluation
 Evaluate a planned stock purchase for strategic alignment. Provide:
 
@@ -229,11 +229,24 @@ Example Output:
 - Reasoning: QQQ tracks leading tech stocks with solid upward trends; $550 nears a technical support level amid positive sector news, but watch for inflation risks—consider diversification.
 - Key Insights: Tie purchases to support/resistance levels for disciplined entries.
 ---
+** /autoeval → Evaluate Orders & Auto Trading
+Assess planned orders or automated trading strategies for disciplined execution.
+- Execute?: Yes/No
+- Emotional Guardrail Check: Yes/No
+- Confidence: 0–100%
+- Reasoning: Market context, algorithm parameters, risk
+- Suggested Adjustments: Optional tweaks to order size, timing, stop-loss
+
+Example Input: Set an auto-buy order for QQQ at $600
+Example Output:
+- Execute? Yes
+- Emotional Guardrail Check: No
+- Confidence: 80%
+- Reasoning: QQQ shows consolidation near $600 with strong support; aligns with technical levels.
+- Suggested Adjustments: Monitor intraday volatility; consider partial execution to reduce slippage.
+- Key Insights: Automated orders should match support/resistance analysis and include stop-loss levels.
+
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* [#A] potential objectives                                        :noexport:
-- Day trading index fund(QQQ)
-- Buy the dip for monitored stocks
-- Evaluate order & auto trading
 * Caveats of using LLM for trading                                 :noexport:
 ** 市场不可预测，LLM可能miss黑天鹅
 市场不可预测，LLM可能miss黑天鹅（如监管变化），或基于偏见数据给出skewed建议。建议：用multi-model ensemble（结合多个LLM），并验证来源。是否行动是follow-up（如你所说），但设置警报阈值（e.g., sentiment score > 0.7时通知）

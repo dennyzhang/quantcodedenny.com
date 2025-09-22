@@ -104,8 +104,7 @@ make run-all
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
-
+URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
 | Command      | Purpose                              | Key Output                                                             | Example                            |
 |--------------+--------------------------------------+------------------------------------------------------------------------+------------------------------------|
 | /guardrail   | Check if trading intent is emotional | ✅/⚠️, reasoning, suggested price, optional cool-down                  | “I want to buy QQQ at $550”        |

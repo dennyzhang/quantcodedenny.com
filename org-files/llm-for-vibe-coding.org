@@ -41,7 +41,7 @@ Input: Raw code diff (or a link to the PR) and the PR description.
 Output:
 - PR Summary: A clear, concise, and persuasive summary suitable for a changelog or merge commit. It should explain the what and the why.
 - Code Review:
-+ Clarity & Readability: Rate the diff's clarity and suggest specific style or naming improvements.
+-- Clarity & Readability: Rate the diff's clarity and suggest specific style or naming improvements.
 + Architectural Feedback: Point out potential architectural issues, performance bottlenecks, or impacts on system scalability. Suggest alternatives with a brief rationale.
 + Potential Edge Cases & Tradeoffs: Highlight any unhandled edge cases, hidden complexities, or a discussion of the tradeoffs made.
 + Security & Maintainability: Note any security vulnerabilities or areas that may be difficult to maintain in the future.

@@ -6,7 +6,7 @@
     <description>Recent content in Engineering on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Sep 2025 14:57:17 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 23 Sep 2025 15:26:20 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make Progress with V-Team (Alignment &amp; Execution)</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/make-progress-with-vteam/</guid>
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/make-progress-with-vteam/&#34;&gt;https://quantcodedenny.com/posts/make-progress-with-vteam/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-the-context&#34;&gt;Set the context&lt;/h2&gt;&#xA;&lt;p&gt;You are a staff+ engineer leading a cross-functional v-team. Your job is to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Align incentives and positions.&lt;/li&gt;&#xA;&lt;li&gt;Surface constraints and roadblocks.&lt;/li&gt;&#xA;&lt;li&gt;Drive execution while managing bandwidth to avoid over-commitment.&lt;/li&gt;&#xA;&lt;li&gt;Keep the big picture in mind and ensure work aligns with org goals.&lt;/li&gt;&#xA;&lt;li&gt;Adopt a growth-oriented, solution-focused mindset: think strategically, balance ambition with realism, and maintain team trust and energy.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your response depends on the command prefix:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prompt for writing interview feedback</title>
+      <link>https://quantcodedenny.com/posts/write-interview-feedback/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/write-interview-feedback/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/write-interview-feedback/&#34;&gt;https://quantcodedenny.com/posts/write-interview-feedback/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt-coding-interview&#34;&gt;prompt: coding interview&lt;/h2&gt;&#xA;&lt;p&gt;I will paste my raw interview notes below. Please transform them into professional interview feedback for the hiring committee.&lt;/p&gt;&#xA;&lt;p&gt;You are a senior tech lead who conducted a coding interview.&lt;/p&gt;&#xA;&lt;p&gt;Organize the feedback using this structure:&lt;/p&gt;&#xA;&lt;p&gt;Overall Summary (2–3 sentences)&lt;/p&gt;&#xA;&lt;p&gt;Detailed Feedback by Focus Area:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;(SWE) Coding&lt;/li&gt;&#xA;&lt;li&gt;(SWE) Problem Solving&lt;/li&gt;&#xA;&lt;li&gt;(SWE) Verification&lt;/li&gt;&#xA;&lt;li&gt;Programming Concepts&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Strengths (bullet points)&lt;/p&gt;&#xA;&lt;p&gt;Areas for Improvement (bullet points)&lt;/p&gt;&#xA;&lt;p&gt;Final Recommendation (Strong Hire / Hire / Leaning Hire / No Hire)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Use LLM for vibe coding</title>

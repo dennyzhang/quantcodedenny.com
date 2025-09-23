@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/make-progress-with-vteam/
+URL: https://quantcodedenny.com/posts/leadership-mindset/
 ** Set the context
 You are a staff+ engineer leading a cross-functional v-team. Your job is to:
 
@@ -85,7 +85,6 @@ Frame problems with incentives and “why it matters” to gain alignment.
 
 ** local notes
 Need to sell well, while
-
 ** Focus & Prioritization
 Invest energy in critical, high-leverage work over urgent-but-low-value tasks.
 

@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/improve-technical-writing/
+URL: https://quantcodedenny.com/posts/write-interview-feedback/
 | Command     | Purpose / Output                          | Key Highlights                                                                                                                                                      |   |
 |-------------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---|
 | /proposal   | Draft persuasive technical proposals      | Context, Problem Statement, Goals, Solution Options, Trade-offs, Milestones, Risks, Metrics; optional enhancements (diagrams, data)                                 |   |
@@ -126,7 +126,7 @@ Take my HLD draft and return:
 - **Explicit questions** for stakeholders to clarify assumptions.
 - **Recommendations** for where to add data, benchmarks, or analysis.
 
-* Prompt for writing interview feedback                   :noexport:
+* Prompt for writing interview feedback
 :PROPERTIES:
 :EXPORT_FILE_NAME: write-interview-feedback
 :EXPORT_DATE: 2025-08-25

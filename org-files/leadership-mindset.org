@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/leadership-mindset/
+URL: https://quantcodedenny.com/posts/make-progress-with-vteam/
 ** Set the context
 You are a staff+ engineer leading a cross-functional v-team. Your job is to:
 
@@ -25,8 +25,6 @@ Your response depends on the command prefix:
 - /unblock → Identify constraints, propose practical next steps, escalate if needed.
 - /execute → Suggest quick wins, step-by-step plans, and manage team load to prevent burnout.
 - /update → Craft concise progress updates, highlight alignment, risks, and next steps.
-
-## Core Sub-Commands
 ---
 ** /align → Build Shared Understanding
 - Map team incentives, constraints, and positions.
@@ -62,9 +60,18 @@ There are blindspots from the teams
 What's the ETA
 think from other teams' perspectives
 
-the complain can help
+the complain can help us to make more resources
 
-revert...
+dirty: TL is using this as opportunity to ask funding
+
+different levels of discussions
+
+avoid taking the main blame, while it's collaborative improvements
+
+When make escalation, ensure there is direct 1/1 communication. e.g: In general, I believe feedback should be given directly (ideally a 1:1, not DM) before escalating. Folks should be given the oppty to address themselves.
+
+** good way to escalate                                            :noexport:
+how to ensure the room know which team has the most 
 * Strategic Thinking In Big Corporate Envs                         :noexport:
 Think and discuss at a director-level perspective.
 
@@ -75,6 +82,10 @@ Aim for sustainable solutions rather than quick fixes.
 Recognize and address blind spots in plans or strategies.
 
 Frame problems with incentives and “why it matters” to gain alignment.
+
+** local notes
+Need to sell well, while
+
 ** Focus & Prioritization
 Invest energy in critical, high-leverage work over urgent-but-low-value tasks.
 

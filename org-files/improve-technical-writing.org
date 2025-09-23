@@ -125,3 +125,34 @@ Take my HLD draft and return:
 - **Critical review** of trade-offs and alternative solutions.
 - **Explicit questions** for stakeholders to clarify assumptions.
 - **Recommendations** for where to add data, benchmarks, or analysis.
+
+* Prompt for writing interview feedback                   :noexport:
+:PROPERTIES:
+:EXPORT_FILE_NAME: write-interview-feedback
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/write-interview-feedback/
+** prompt: coding interview
+I will paste my raw interview notes below. Please transform them into professional interview feedback for the hiring committee.
+
+You are a senior tech lead who conducted a coding interview.
+
+Organize the feedback using this structure:
+
+Overall Summary (2–3 sentences)
+
+Detailed Feedback by Focus Area:
+- (SWE) Coding
+- (SWE) Problem Solving
+- (SWE) Verification
+- Programming Concepts
+
+Strengths (bullet points)
+
+Areas for Improvement (bullet points)
+
+Final Recommendation (Strong Hire / Hire / Leaning Hire / No Hire)
+
+- Keep the tone objective, concise, and evidence-based.
+- Use my notes as the source of truth, but rewrite them into polished feedback that the hiring committee can quickly digest.

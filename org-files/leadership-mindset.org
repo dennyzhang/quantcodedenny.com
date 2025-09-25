@@ -74,13 +74,13 @@ When make escalation, ensure there is direct 1/1 communication. e.g: In general,
 ** good way to escalate                                            :noexport:
 how to ensure the room know which team has the most 
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Critical Thinking In Big Corporate Envs                          :noexport:
+* Critical Thinking In Big Corporate Envs
 :PROPERTIES:
 :EXPORT_FILE_NAME: critical-thinking-in-big-coporate
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/leadership-mindset/
+URL: https://quantcodedenny.com/posts/critical-thinking-in-big-coporate/
 
 | Category                    | Principle                 | How / Example                                                       | Pitfall if Ignored                     |
 |-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|

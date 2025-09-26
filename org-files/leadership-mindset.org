@@ -141,6 +141,115 @@ Document and codify best practices (guardrails, playbooks, runbooks).
 
 Mentoring and enabling others multiplies long-term impact.
 
+* Stay energetic at a busy job: common mistakes and good practices
+:PROPERTIES:
+:EXPORT_FILE_NAME: generalize_working_experience
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+
+URL: https://quantcodedenny.com/posts/leadership-mindset/
+** Major Mistakes That Kill Energy
+
+Skipping Rest and Sleep
+
+Thinking “I’ll sleep later” or underestimating sleep needs.
+
+Leads to poor focus, irritability, and lower productivity.
+
+Poor Nutrition Habits
+
+Relying on caffeine, sugar, or fast food for quick energy.
+
+Irregular meals causing energy crashes.
+
+Sitting Too Long / No Movement
+
+Lack of physical activity reduces blood flow, slows metabolism.
+
+Causes fatigue, back pain, and brain fog.
+
+Multitasking Excessively
+
+Constantly switching tasks drains mental energy.
+
+Leads to stress and low cognitive efficiency.
+
+Ignoring Mental Health
+
+Bottling stress, anxiety, or frustration.
+
+Chronic stress significantly depletes energy.
+
+Overcommitting
+
+Saying yes to everything.
+
+Spreads energy too thin, reduces focus and effectiveness.
+
+Not Managing Environment
+
+Working in cluttered, noisy, or poorly lit spaces.
+
+Lowers alertness and motivation.
+
+** Good Practices to Boost Energy
+
+Optimize Sleep
+
+Aim for 7–9 hours consistently.
+
+Short naps (15–20 mins) can recharge without grogginess.
+
+Balanced Nutrition
+
+Eat protein, complex carbs, and healthy fats.
+
+Stay hydrated — dehydration reduces alertness.
+
+Avoid too much sugar/caffeine; they spike and crash energy.
+
+Movement & Exercise
+
+Short walks, stretches, or standing desks.
+
+Regular exercise improves stamina and mood.
+
+Manage Workload
+
+Prioritize tasks using a clear system (Eisenhower Matrix or MITs — Most Important Tasks).
+
+Batch similar tasks to reduce context switching.
+
+Take Microbreaks
+
+5–10 min break every 60–90 mins.
+
+Step away from the screen, do breathing or stretching.
+
+Mindset & Mental Energy
+
+Practice mindfulness, meditation, or journaling.
+
+Reflect on wins to boost motivation.
+
+Environment Optimization
+
+Light, temperature, and workspace organization affect energy.
+
+Consider natural light, standing options, or noise control.
+
+Smart Caffeine Use
+
+Use caffeine strategically (morning or early afternoon).
+
+Avoid relying on it as your only energy source.
+
+Energy Rituals
+
+Morning routines: light, movement, or journaling.
+
+Midday rituals: short walks, social interaction, or power snack.
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Critical Thinking In Big Corporate Envs
 :PROPERTIES:

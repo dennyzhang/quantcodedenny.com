@@ -1,0 +1,52 @@
+#+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
+#+language: en
+#+AUTHOR: dennyzhang
+#+HUGO_TAGS: engineering leadership
+#+TAGS: Important(i) noexport(n)
+#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* General preparation for system design
+:PROPERTIES:
+:EXPORT_FILE_NAME: general-preparation-system-design
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/general-preparation-system-design/
+** IC6 System Design Prep Checklist
+1. Requirements & Clarification
+- Ask: Functional vs. non-functional requirements.
+- Ask: Latency, throughput, scale, SLA/SLO targets.
+- Ask: Ownership boundaries & team responsibilities.
+- Ask: Expected growth & future-proofing needs.
+
+2. High-Level Design
+- Identify major components & interactions.
+- Map data flow (ingestion → processing → serving).
+- Define APIs, interfaces, and abstractions.
+- Highlight cross-team dependencies.
+
+3. Scaling & Reliability
+- Discuss horizontal vs. vertical scaling.
+- Consider caching, sharding, partitioning.
+- Include fault tolerance & retries.
+- Plan for monitoring, alerts, observability.
+
+4. Tradeoffs & Options
+- Evaluate pros/cons of architectural choices.
+- Consider cost vs. performance vs. complexity.
+- Highlight business impact of each option.
+
+5. Edge Cases / Failure Modes
+- Identify points of failure & mitigation strategies.
+- Discuss backpressure, stale data, network issues.
+- Include recovery, retries, and fallback logic.
+
+6. Influence & Communication
+- Summarize decisions for non-technical stakeholders.
+- Highlight tradeoffs explicitly for director/PM understanding.
+- Show strategic impact, not just technical correctness.
+- Prepare concise “elevator pitch” for design rationale.
+
+7. Leadership Presence
+- Lead discussion calmly and confidently.
+- Encourage team input while framing final decisions.
+- Maintain focus on high-leverage improvements.

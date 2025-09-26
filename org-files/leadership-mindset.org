@@ -141,6 +141,11 @@ Document and codify best practices (guardrails, playbooks, runbooks).
 
 Mentoring and enabling others multiplies long-term impact.
 
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** local notes                                                     :noexport:
+know which problems to fix, and how to fix
+
+clear communication to have a common understanding
 * Stay energetic at a busy job: common mistakes and good practices
 :PROPERTIES:
 :EXPORT_FILE_NAME: generalize_working_experience
@@ -148,7 +153,7 @@ Mentoring and enabling others multiplies long-term impact.
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/leadership-mindset/
+URL: https://quantcodedenny.com/posts/generalize_working_experience/
 ** Major Mistakes That Kill Energy
 
 Skipping Rest and Sleep

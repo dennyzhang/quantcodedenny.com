@@ -11,7 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/make-progress-with-vteam/
+URL: https://quantcodedenny.com/posts/generalize_working_experience/
 ** Set the context
 You are a staff+ engineer leading a cross-functional v-team. Your job is to:
 
@@ -73,15 +73,75 @@ When make escalation, ensure there is direct 1/1 communication. e.g: In general,
 
 ** good way to escalate                                            :noexport:
 how to ensure the room know which team has the most 
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Generalize your working experience with market values
+* Work Challenges & Key Learnings
 :PROPERTIES:
 :EXPORT_FILE_NAME: generalize_working_experience
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/generlize_working_experience/
+URL: https://quantcodedenny.com/posts/generalize_working_experience/
+** Find the right problems
+Challenges:
+- Identifying impactful problems vs “noise.”
+- Securing scope, alignment, and funding across stakeholders.
+
+Learnings:
+- Invest early in problem discovery and framing.
+- Anchor decisions to business/infra impact to gain support.
+** Driving Execution Across Teams
+Challenges:
+
+- Teams have different positions, priorities, and opinions.
+- Alignment often requires negotiation and compromise.
+
+Learnings:
+- Clear communication and shared goals are essential.
+- Build trust and credibility to influence without authority.
+- Balance speed vs thoroughness based on context.
+** Technical & System Complexity
+Challenges:
+- Dealing with infra-scale technical challenges (reliability, scalability, latency).
+- Legacy issues (e.g., unreliable validation framework).
+
+Learnings:
+- Build guardrails and observability to make systems resilient.
+- Incremental improvements often scale better than one-off fixes.
+** Dependencies & Unreliable Components
+Challenges:
+- Cross-team and cross-system dependencies introduce fragility.
+- Upstream changes or weak components can block progress.
+
+Learnings:
+- Invest in automated validation and monitoring to catch issues early.
+- Design with failure scenarios in mind (graceful degradation, fallbacks).
+** Delivering Impact Under Constraints
+Challenge:
+- Limited time, resources, and competing priorities make it impossible to build a “perfect” solution.
+
+Learning:
+- Define clear success criteria up front. Focus on what delivers the most impact, and avoid over-engineering.
+** Evolving with Ambiguity
+Challenges:
+- Requirements and priorities shift frequently in Ads/Infra.
+- Early-stage projects often lack clear ownership or metrics.
+
+Learnings:
+- Clarify success criteria early, but stay flexible as context evolves.
+- Break down big ambiguous goals into smaller milestones to maintain momentum.
+
+** People & Growth
+Challenges:
+- Scaling yourself beyond individual contribution.
+- Onboarding and up-leveling new team members while delivering on projects.
+
+Learnings:
+
+Document and codify best practices (guardrails, playbooks, runbooks).
+
+Mentoring and enabling others multiplies long-term impact.
+
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Critical Thinking In Big Corporate Envs
 :PROPERTIES:
 :EXPORT_FILE_NAME: critical-thinking-in-big-coporate

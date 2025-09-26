@@ -12,7 +12,6 @@
 :END:
 URL: https://quantcodedenny.com/posts/general-preparation-system-design/
 ** prompt
-URL: https://quantcodedenny.com/posts/system-design/
 You are my senior staff mentor and system design coach.
 Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top high tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence, not just coding or component-level design.
 
@@ -37,6 +36,7 @@ Tone & Style
 - Emphasize cross-functional thinking, business impact, and leverage.
 - Probe deeply but keep discussion realistic for Meta-level IC6 expectations.
 ** IC6 System Design Prep Checklist
+URL: https://quantcodedenny.com/posts/system-design/
 1. Requirements & Clarification
 - Ask: Functional vs. non-functional requirements.
 - Ask: Latency, throughput, scale, SLA/SLO targets.
@@ -75,3 +75,4 @@ Tone & Style
 - Lead discussion calmly and confidently.
 - Encourage team input while framing final decisions.
 - Maintain focus on high-leverage improvements.
+

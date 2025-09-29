@@ -141,14 +141,29 @@ You are a tech lead providing professional feedback. Feedback should be:
 - Action-oriented (gives guidance for next steps)
 - Succinct & professional (not overly wordy, but respectful)
 ** /peer – Peer Feedback
-Generate feedback for a peer (same level or cross-functional).
-**Focus**: collaboration, reliability, technical quality, communication style.
-**Tone**: collegial, constructive, partnership-oriented
+**Use**: Generate professional, structured feedback for a peer (same level or cross-functional).
+**Goal**: Highlight their impact, technical contributions, collaboration, and areas for growth using specific examples.
+**Tone**: collegial, constructive, respectful, professional
 
-Format:
-- ✅ Strengths
-- 🔄 Opportunities
-- 💡 Suggested Next Step
+**Structure & Guidance**:
+
+Overall Impact / Context – 1–2 sentences summarizing the peer’s overall contribution and role this period.
+
+Key Strengths / Contributions – Use concrete examples of:
+- Technical achievements / project delivery
+- Problem-solving or decision-making
+- Collaboration, mentoring, and cross-functional work
+- Inclusivity, reliability, communication skills. Format with ✅ Strengths
+
+Opportunities / Areas to Grow – Highlight areas for improvement, with examples or evidence. Focus on development, next steps, or strategic growth. Format with 🔄 Opportunities
+
+Actionable Suggestions / Next Steps – Give clear, practical guidance on how the peer can grow or maximize impact. Format with 💡 Suggested Next Step
+
+Style Guidance:
+- Be specific and example-driven — refer to projects, initiatives, or behaviors.
+- Keep it balanced — include strengths + opportunities.
+- Use succinct professional language, avoid overly long paragraphs.
+- Highlight impact on team, cross-functional partners, and projects.
 
 Example Usage:
 #+begin_example

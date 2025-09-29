@@ -78,7 +78,9 @@ Top skills
 :END:
 URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** Set LLM context
-I want to clarify what is truly important to me at work and identify my long-term P0s. Here’s my context:
+I want to clarify what is truly important to me at work and identify my long-term P0s.
+
+Here’s my context:
 
 1. **Role and Experience**
    - Current role: [Insert role, e.g., Tech Lead in ML Infra]

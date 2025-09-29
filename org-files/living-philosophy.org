@@ -10,34 +10,49 @@
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/clarify-and-focus-on-p0s/
+URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
 ** Set LLM context
 You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
 
 The tech lead wants to avoid these common mistakes:
-1. **Incomplete or Narrow Thinking** – focusing too narrowly on immediate tasks or familiar solutions, missing hidden risks and opportunities.  
-2. **Under-Leveraging People and Resources** – solving problems alone without tapping into team knowledge, feedback, or prior experiences.  
-3. **Execution-Focused, Short-Term Mindset** – prioritizing immediate wins or tactical fixes over strategic, long-term impact.  
-4. **Insufficient Reflection and Learning** – not capturing lessons, failing to generalize insights, or missing opportunities to improve thinking and processes.
+1. **Think too narrow** – focusing too narrowly on immediate tasks or familiar solutions, missing hidden risks and opportunities.  
+2. **Try to do it alone** – solving problems alone without tapping into team knowledge, feedback, or prior experiences.  
+3. **Stuck in exeuction mode** – prioritizing immediate wins or tactical fixes over strategic, long-term impact.  
+4. **Not learning from the past** – not capturing lessons, failing to generalize insights, or missing opportunities to improve thinking and processes.
+5. **Overlook dependencies** – overlooking upstream/downstream service risks, team conflicts, or misaligned priorities that block progress.
 
 Provide:
-1. Mindset shifts to overcome these mistakes
-2. Concrete habits or exercises for daily practice
-3. Examples of how the tech lead can apply AI to think faster, learn smarter, and act strategically
-4. Ways to reflect and generalize learnings across projects
+1. **Mindset shifts** to overcome these mistakes
+2. **Concrete habits or exercises** for daily practice
+3. **Examples of how AI can help** the tech lead think faster, learn smarter, and act strategically
+4. **Ways to reflect and generalize learnings** across projects
 
 Respond in an actionable, structured, and role-aware manner, as if coaching a tech lead directly.
-** Weekly workout checklist
-| Mindset Area                         | Weekly Tasks                                                             | AI Leverage                                                           |
-| ------------------------------------ | ------------------------------------------------------------------------ | --------------------------------------------------------------------- |
-| Incomplete/Narrow Thinking           | - Map dependencies, stakeholders, risks, long-term impact (1–2 projects) | Generate unconventional ideas, detect blind spots, simulate scenarios |
-|                                      | - Ask AI for alternative approaches or hidden risks                      |                                                                       |
-| Under-Leveraging People/Resources    | - Hold 1–2 short insight sessions with peers/mentors<br>                 | Consolidate prior knowledge, highlight reusable lessons               |
-|                                      | - Use AI to summarize past project notes, incidents, docs                |                                                                       |
-| Execution-Focused/Short-Term Mindset | - Classify tasks by impact, adjust priorities                            | Simulate outcomes, suggest trade-offs, identify failure modes         |
-|                                      | - Run pre-mortem or scenario planning for upcoming work                  |                                                                       |
-| Insufficient Reflection / Learning   | - Spend 15–20 min documenting what worked, what didn’t, key patterns<br> | Summarize patterns, abstract insights, reinforce learning             |
-|                                      | - Use AI to synthesize weekly learnings and extract principles           |                                                                       |
+** Weekly Accomplishment Checklist
+*** Think Too Narrow
+- [ ] For 1 project, list at least 3 risks and 2 long-term impacts before deciding  
+- [ ] Write down 2 "what if" questions per project to force broader thinking  
+- [ ] Use AI: suggest blind spots, generate alternative scenarios, highlight hidden risks  
+*** Try to Do It Alone
+- [ ] Schedule at least 1 short sync (15–20 min) with a peer/mentor for input  
+- [ ] Share 1 work-in-progress doc with your team and collect at least 2 comments  
+- [ ] Use AI: summarize prior lessons, polish drafts, surface unclear points before sharing  
+
+*** Stuck in Execution Mode
+- [ ] Review your task list and mark 3 tasks as high-impact vs. low-impact  
+- [ ] Run 1 pre-mortem this week (write 3 failure modes + mitigations)  
+- [ ] Use AI: simulate outcomes, suggest trade-offs, stress-test assumptions  
+
+*** Not Learning From the Past
+- [ ] Write a weekly reflection (max 10 sentences): what worked, what failed, lessons  
+- [ ] Share 1 distilled lesson with your team in Slack/email  
+- [ ] Use AI: synthesize reflections into principles, reframe lessons into concise takeaways  
+
+*** Overlook Dependencies
+- [ ] Identify 2 dependencies for your current project; confirm reliability with owners  
+- [ ] Hold 1 alignment check-in (15 min) with a partner team or stakeholder  
+- [ ] Use AI: map upstream/downstream risks, draft alignment agenda/questions  
+
 ** top skills to learn in the AI world                             :noexport:
 I want to identify a list of top skills to learn with the rise of AI.
 
@@ -75,7 +90,6 @@ how to interact in the world
 - 生活要做减法
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
-
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Happy life with good guiding philosophy                          :noexport:
 :PROPERTIES:

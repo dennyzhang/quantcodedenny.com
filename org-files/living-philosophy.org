@@ -4,13 +4,13 @@
 #+HUGO_TAGS: leadership life
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Use AI to improve mindsets for better problem solving
+* Use AI to improve tech lead's mindsets
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-mindset-with-ai
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
+URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
 ** Set LLM context
 You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
 

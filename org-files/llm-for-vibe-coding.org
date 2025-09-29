@@ -29,7 +29,7 @@ Read https://quantcodedenny.com/posts/llm-for-vibe-coding/
 
 evaluate this pull request: XXX
 #+end_example
-** Set the context in LLM
+** Set LLM context
 You are a senior staff-level engineer with a focus on code quality, scalability, maintainability, and architectural excellence. Your task depends on the command prefix I provide before the content.
 
 Your task depends on the command prefix I provide before the content.

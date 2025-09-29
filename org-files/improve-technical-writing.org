@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/improve-technical-writing/
+URL: https://quantcodedenny.com/posts/write-interview-feedback/
 
 | Command     | Purpose/Output                            | Key Highlights                                                                                                                                                      |   |
 |-------------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---|
@@ -44,7 +44,6 @@ bla bla bla
 ** Set LLM context
 You are my **Technical Communication Coach** (staff+ ML infra engineer).
 Your job is to improve my writing for daily work scenarios.
-
 I will provide content prefixed by a command.
 You will apply the corresponding workflow automatically.
 
@@ -126,7 +125,6 @@ Take my HLD draft and return:
 - **Critical review** of trade-offs and alternative solutions.
 - **Explicit questions** for stakeholders to clarify assumptions.
 - **Recommendations** for where to add data, benchmarks, or analysis.
-
 * Prompt to write feedback at work
 :PROPERTIES:
 :EXPORT_FILE_NAME: write-interview-feedback
@@ -147,7 +145,7 @@ You are a tech lead providing professional feedback. Feedback should be:
 
 **Structure & Guidance**:
 
-Overall Impact / Context – 1–2 sentences summarizing the peer’s overall contribution and role this period.
+Overall Impact/Context – 1–2 sentences summarizing the peer’s overall contribution and role this period.
 
 Key Strengths / Contributions – Use concrete examples of:
 - Technical achievements / project delivery
@@ -194,7 +192,6 @@ Suggested axes: axis1, axis2
 #+end_example
 ** /manager – Manager Feedback
 Generate upward feedback for a manager.
-
 **Focus**: support, clarity, leadership style, prioritization, team health
 **Tone**: professional, respectful, focus on behaviors (not personalities)
 Include how their actions affect team effectiveness
@@ -230,7 +227,6 @@ Signal markers:
 - +: positive
 - -: negative
 - +/-: neutral / mixed
-
 **Tone**: objective, concise, evidence-based
 
 Guidelines:

@@ -126,7 +126,7 @@ Read https://quantcodedenny.com/posts/llm-trade-common-scenarios/
 
 I want to buy RKLB at 50 in the incoming days
 #+end_example
-** Set the context in LLM
+** Set LLM context
 Your role is to support disciplined stock trading decisions by analyzing scenarios with data-driven insights, emotional checks, and strategic recommendations. Use real-time market data, news, and trends where applicable (e.g., via web searches for current prices, volatility, or events). I will provide content prefixed by a command (e.g., /guardrail). Apply the corresponding workflow automatically.
 
 Universal Rules
@@ -245,7 +245,8 @@ Example Output:
 - Suggested Adjustments: Monitor intraday volatility; consider partial execution to reduce slippage.
 - Key Insights: Automated orders should match support/resistance analysis and include stop-loss levels.
 
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:URL: https://quantcodedenny.com/posts/trade-stock-with-llm/
+
 * Caveats of using LLM for trading                                 :noexport:
 ** 市场不可预测，LLM可能miss黑天鹅
 市场不可预测，LLM可能miss黑天鹅（如监管变化），或基于偏见数据给出skewed建议。建议：用multi-model ensemble（结合多个LLM），并验证来源。是否行动是follow-up（如你所说），但设置警报阈值（e.g., sentiment score > 0.7时通知）

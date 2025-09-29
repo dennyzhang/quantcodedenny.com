@@ -4,13 +4,13 @@
 #+HUGO_TAGS: leadership life
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Improve tech lead's mindsets for better problem solving
+* Improve the mindsets for tech leads
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-mindset-with-ai
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
+URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
 ** Set LLM context
 You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
 
@@ -28,7 +28,6 @@ Provide:
 4. **Ways to reflect and generalize learnings** across projects
 
 Respond in an actionable, structured, and role-aware manner, as if coaching a tech lead directly.
-
 ** Weekly Accomplishment Checklist
 *** Think Too Narrow
 - [ ] For 1 project, list at least 3 risks and 2 long-term impacts before deciding  
@@ -73,7 +72,7 @@ Top skills
 * Clarify and focus on P0s at work
 :PROPERTIES:
 :EXPORT_FILE_NAME: clarify-p0s-at-work
-:EXPORT_DATE: 2025-09-14
+:EXPORT_DATE: 2025-09-29
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
@@ -98,17 +97,13 @@ Please make the output:
 2. Work should **minimize mental stress**
 
 **Superpowers**
-1. **Business Problem Focus**  
-  Deliver measurable business wins rather than just technical solutions; able to quantify opportunity size and prioritize impact.
+1. **Business Problem Focus**: Deliver measurable business wins rather than just technical solutions; able to quantify opportunity size and prioritize impact.
 
-2. **Cross-Team Execution**  
-  Drive initiatives across multiple teams, aligning stakeholders to achieve shared goals efficiently.
+2. **Cross-Team Execution**: Drive initiatives across multiple teams, aligning stakeholders to achieve shared goals efficiently.
 
-3. **End-to-End Ownership**  
-  Take full responsibility for projects from conception to delivery; trusted by cross-functional partners to execute reliably.
+3. **End-to-End Ownership**: Take full responsibility for projects from conception to delivery; trusted by cross-functional partners to execute reliably.
 
-4. **Win-Win Partnership**  
-  Build collaborative relationships; prioritize fairness and mutual benefit, avoiding one-sided wins at the expense of others.
+4. **Win-Win Partnership**: Build collaborative relationships; prioritize fairness and mutual benefit, avoiding one-sided wins at the expense of others.
 
 **Success stories**
 1. Feature Deprecation & Bad feature governance
@@ -116,7 +111,7 @@ Please make the output:
     - Action: Built a **reliable feature usage lineage table**, automated cleanup, and implemented rapid mitigation plans.
     - Impact: Reduced stale features by X%, minimized downstream errors, and saved engineers’ time.
 
-2. Feature Data Pipeline Push at Scale
+2. Data Pipeline Push at Scale
     - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
     - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
     - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
@@ -172,9 +167,9 @@ Please make the output:
 3. **Network & Influence**: Extend your reputation through mentoring, cross-team work, and selective external visibility.
 ** Mitigation: Lower My Mental Stress at Work
 **Two Directions**
-   1. Systemic Strategies (Change the Way You Work)
+   1. Systemic Strategies (Change the way you work)
       - Modify workflow, environment, or collaboration patterns to reduce stress triggers.
-   2. Personal Strategies (Manage Mind & Energy)
+   2. Personal Strategies (Manage your mind & energy)
       - Strengthen mental and physical resilience to handle unavoidable stress effectively.
 
 **Guiding Principles**

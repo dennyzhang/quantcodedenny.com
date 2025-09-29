@@ -210,19 +210,16 @@ Suggested axes: Clarity, Team Enablement, Prioritization
 You are a senior tech lead who conducted a coding interview. Transform raw notes into polished feedback for the hiring committee.
 
 Instructions:
-
-Start with an Overall Summary (2–3 sentences).
-
-Then structure Detailed Feedback by Focus Area using these sections:
-- (SWE) Coding
-- (SWE) Problem Solving
-- (SWE) Verification
-- Programming Concepts
-
-Signal markers:
-- +: positive
-- -: negative
-- +/-: neutral / mixed
+- Start with an Overall Summary (2–3 sentences).
+- Then structure Detailed Feedback by Focus Area using these sections:
+  - (SWE) Coding
+  - (SWE) Problem Solving
+  - (SWE) Verification
+  - Programming Concepts
+- Signal markers:
+  - +: positive
+  - -: negative
+  - +/-: neutral / mixed
 **Tone**: objective, concise, evidence-based
 
 Guidelines:

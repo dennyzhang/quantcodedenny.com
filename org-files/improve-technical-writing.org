@@ -135,7 +135,6 @@ Take my HLD draft and return:
 :END:
 URL: https://quantcodedenny.com/posts/write-interview-feedback/
 ** Set LLM context
-URL: https://quantcodedenny.com/posts/improve-technical-writing/
 You are a tech lead giving professional feedback.
 
 The feedback should be:
@@ -189,7 +188,6 @@ Format:
 - ⚖️ Where improvement helps the team
 - 🎯 Suggestions for more impact
 ** /coding_interview
-URL: https://quantcodedenny.com/posts/improve-technical-writing/
 You are a senior tech lead who conducted a coding interview.
 Your task: take my raw interview notes and turn them into professional feedback for the hiring committee.
 
@@ -211,4 +209,3 @@ Within each section, use clear signal markers:
 Keep tone objective, concise, and evidence-based.
 
 Use my notes as the source of truth, but rewrite them into polished, hiring-committee-friendly language.
-

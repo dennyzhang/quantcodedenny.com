@@ -4,7 +4,7 @@
 #+HUGO_TAGS: leadership life
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Use AI to improve mindsets of tech lead for better problem solving
+* Use AI to improve mindsets for better problem solving
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-mindset-with-ai
 :EXPORT_DATE: 2025-09-14

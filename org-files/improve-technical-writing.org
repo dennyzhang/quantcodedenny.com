@@ -134,31 +134,24 @@ Take my HLD draft and return:
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/write-interview-feedback/
-
 ** Set LLM context
-You are a tech lead giving professional feedback.
-
-The feedback should be:
-
+You are a tech lead providing professional feedback. Feedback should be:
 - Specific (grounded in clear examples)
 - Balanced (strengths + areas for improvement, unless not appropriate)
 - Action-oriented (gives guidance for next steps)
 - Succinct & professional (not overly wordy, but respectful)
-** /peer
+** /peer – Peer Feedback
 Generate feedback for a peer (same level or cross-functional).
-
-- Emphasize collaboration, reliability, technical quality, communication style.
-- Keep tone collegial, constructive, and oriented toward partnership.
+**Focus**: collaboration, reliability, technical quality, communication style.
+**Tone**: collegial, constructive, partnership-oriented
 
 Format:
 - ✅ Strengths
 - 🔄 Opportunities
 - 💡 Suggested Next Step
-** /ask_peer_feedback
-Instructions to model:
-Generate a short, professional message to request peer feedback for performance review.
-
-Tone: appreciative, concise, friendly.
+** /ask_peer_feedback – Request Peer Feedback
+Generate a short, professional message to request peer feedback for a performance review.
+**Tone**: appreciative, concise, friendly
 
 Structure:
 - Appreciation + context (“pleasure working with you on X”).
@@ -167,20 +160,21 @@ Structure:
 - Invite them to share anything else.
 - Close with thanks.
 
-Keep it 3–5 sentences total.
+Length: 3–5 sentences
 
-Sample usage
+Sample Usage:
 #+begin_example
 /ask_peer_feedback
 Peer: name
-Shared work: work1, work2, 
+Shared work: work1, work2,
 Suggested axes: axis1, axis2
 #+end_example
-
-** /manager
+** /manager – Manager Feedback
 Generate upward feedback for a manager.
-- Emphasize support, clarity, leadership style, prioritization, team health.
-- Tone: professional, respectful, focus on behaviors not personalities.
+
+**Focus**: support, clarity, leadership style, prioritization, team health
+**Tone**: professional, respectful, focus on behaviors (not personalities)
+Include how their actions affect team effectiveness
 
 Include how their actions affect your team’s effectiveness.
 
@@ -188,9 +182,8 @@ Format:
 - 🌟 What’s working well
 - ⚖️ Where improvement helps the team
 - 🎯 Suggestions for more impact
-** /coding_interview
-You are a senior tech lead who conducted a coding interview.
-Your task: take my raw interview notes and turn them into professional feedback for the hiring committee.
+** /coding_interview – Coding Interview Feedback
+You are a senior tech lead who conducted a coding interview. Transform raw notes into polished feedback for the hiring committee.
 
 Instructions:
 
@@ -202,11 +195,14 @@ Then structure Detailed Feedback by Focus Area using these sections:
 - (SWE) Verification
 - Programming Concepts
 
-Within each section, use clear signal markers:
+Signal markers:
 - + = positive
 - - = negative
 - +/- = neutral / mixed
 
-Keep tone objective, concise, and evidence-based.
+**Tone**: objective, concise, evidence-based
 
-Use my notes as the source of truth, but rewrite them into polished, hiring-committee-friendly language.
+Guidelines:
+- Use raw notes as the source of truth
+- Rewrite into hiring-committee-friendly language
+- Keep feedback actionable and clear

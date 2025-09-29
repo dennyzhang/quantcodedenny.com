@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/challenge-in-vibe-coding/
+URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 
 | Command              | Purpose / Output                                   | Key Highlights                                                                                                                                                      |
 |----------------------+----------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,6 @@ Your task depends on the command prefix I provide before the content.
 Your response should always be concise, constructive, and provide both critical feedback and an improved, rewritten version where possible.
 
 ## Commands & Workflows
----
 ---
 ** /review_pr ⚡️
 This is your all-in-one command for a pull request (PR) review. It combines summarization, code critique, and mentorship.
@@ -101,7 +100,7 @@ Output:
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/challenge-in-vibe-coding/
+URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 - different versions: functions not defined; certain functions are not supported
 - understand the convention: hugo generate files into docs folder
 - no defensive coding which makes debugging difficult
@@ -140,4 +139,3 @@ URL: https://quantcodedenny.com/posts/challenge-in-vibe-coding/
 - Validate outputs frequently: check Hugo build results, Markdown rendering, and front matter correctness.
 - Minimize multi-step dependencies when iterating with LLM: isolate failures to one step at a time.
 - Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.
-

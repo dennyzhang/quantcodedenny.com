@@ -64,3 +64,19 @@ Learnings:
 Document and codify best practices (guardrails, playbooks, runbooks).
 
 Mentoring and enabling others multiplies long-term impact.
+* behavior interview                                               :noexport:
+Behavior/Culture → 练 复用故事库，不现编。
+
+Use STAR (Situation, Task, Action, Result) or PAR (Problem, Action, Result).
+
+Keep answers 2–3 minutes, not 10. Concise shows thoughtfulness.
+
+Don’t drown in context — focus on what you did and why.
+
+Every behavioral answer should hit this mental checklist:
+
+Did I show clarity → ownership → impact → reflection → alignment with culture?
+** STAR: situation, task, action, result
+** PAR: problem, action, result
+* Solve a big problem quickly                                      :noexport:
+** strong exeuction

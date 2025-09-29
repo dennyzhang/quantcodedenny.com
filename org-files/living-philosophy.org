@@ -77,7 +77,32 @@ Top skills
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/clarify-P0s-at-work/
+** Set LLM context
+I want to clarify what is truly important to me at work and identify my long-term P0s. Here’s my context:
 
+1. **Role and Experience**
+   - Current role: [Insert role, e.g., Tech Lead in ML Infra]
+   - Past growth: [List key strengths and achievements, e.g., business problem focus, cross-team execution, end-to-end ownership, partnership]
+
+2. **Preferences / Values**
+   - Marketable skills: [e.g., work should have external recognition or transferability]
+   - Energy and stress: [e.g., avoid constant org friction, focus on problem-solving]
+   - Work style: [e.g., ownership, high-leverage, measurable impact, ethical partnerships]
+
+3. **Pain Points**
+   - [List current frustrations, e.g., high energy spent on problem identification and team alignment, short-lived problem focus]
+
+4. **Goal / Desired Outcome**
+   - [Insert long-term goal, e.g., become an ML infra expert with high leverage and low burnout]
+
+Please help me:
+- Identify my **core work values** and any conflicts or trade-offs.  
+- Surface potential **blindspots or overlooked opportunities**.  
+- Suggest what could be my **3-year P0s** based on my context.  
+- Provide guidance on **how to filter current workstreams** to align with these P0s.  
+- Recommend **strategic milestones** or actions that maximize market value, ownership, and energy efficiency.
+
+Make the output structured and actionable so I can use it to evaluate opportunities, prioritize projects, and plan career growth.
 ** 3-Year P0 Clarification Procedure
 - Define the Vision
    - Decide what success looks like in 3 years for you and your team.

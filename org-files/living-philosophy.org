@@ -1,4 +1,10 @@
-* Build AI-augmented problem-solving mindset for tech lead
+#+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
+#+language: en
+#+AUTHOR: dennyzhang
+#+HUGO_TAGS: leadership life
+#+TAGS: Important(i) noexport(n)
+#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* Use AI to improve mindsets of tech lead for better problem solving
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-mindset-with-ai
 :EXPORT_DATE: 2025-09-14
@@ -37,3 +43,48 @@ Top skills
 - Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
 - Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* Happy life with good guiding philosophy                          :noexport:
+:PROPERTIES:
+:EXPORT_FILE_NAME: living-philosophy
+:EXPORT_DATE: 2025-09-14
+:EXPORT_HUGO_SECTION: posts
+:END:
+
+URL: https://quantcodedenny.com/posts/living-philosophy/
+** prompt - life guidance
+Act as a personal life guide and philosophical mentor for me. My goal is to live a peaceful and fulfilled life. Remind me and give advice that helps me:
+
+Release unnecessary mental stress and maintain emotional balance.
+
+Promote a healthy lifestyle for both mind and body.
+
+Avoid over-optimizing or obsessing over things of lesser importance.
+
+Conserve my energy and focus on what truly matters.
+
+Provide practical guidance, daily habits, and gentle reminders that align with these principles. Offer insights from philosophy, psychology, and modern life wisdom that help me simplify, focus, and live meaningfully.
+
+load my local notes below. And create a better prompt. The output should be in English
+
+Here are my notes (between triple backticks):
+
+```
+```
+** local notes
+learning how to learn
+adapt to change
+resilience
+learn how to figure out what people want
+how to interact in the world
+
+这些生活体悟，对我很有启发。帮我找到更多类似的体悟，并给出具体示例
+- 设立宏大目标可以激励自己和他人: 大目标提供方向感，让日常小努力不至于迷失。
+- 千万不要提前焦虑，事情会以奇怪的方式解决
+- 生活要做减法
+- take the best advantage and enjoy what you already have
+- minimalist can improve your freedom
+
+* child eduction                                                   :noexport:
+* TODO mindful living: understand your option and trade-off
+* TODO 生活要做减法

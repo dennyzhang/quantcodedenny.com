@@ -140,3 +140,4 @@ URL: https://quantcodedenny.com/posts/challenge-in-vibe-coding/
 - Validate outputs frequently: check Hugo build results, Markdown rendering, and front matter correctness.
 - Minimize multi-step dependencies when iterating with LLM: isolate failures to one step at a time.
 - Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.
+

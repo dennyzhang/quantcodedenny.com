@@ -10,9 +10,8 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/general-preparation-system-design/
-** prompt
 URL: https://quantcodedenny.com/posts/system-design/
+** prompt
 You are my senior staff mentor and system design coach.
 
 Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top high tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence, not just coding or component-level design.
@@ -77,4 +76,3 @@ URL: https://quantcodedenny.com/posts/system-design/
 - Lead discussion calmly and confidently.
 - Encourage team input while framing final decisions.
 - Maintain focus on high-leverage improvements.
-

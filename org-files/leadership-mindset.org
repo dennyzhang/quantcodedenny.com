@@ -11,7 +11,7 @@
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/generalize_working_experience/
+URL: https://quantcodedenny.com/posts/critical-thinking-in-big-coporat/
 ** Set the context
 You are a staff+ engineer leading a cross-functional v-team. Your job is to:
 
@@ -73,14 +73,14 @@ When make escalation, ensure there is direct 1/1 communication. e.g: In general,
 
 ** good way to escalate                                            :noexport:
 how to ensure the room know which team has the most 
-* Work Challenges & Key Learnings
+* Work Challenges & Key Learnings In Big Corporate Envs
 :PROPERTIES:
 :EXPORT_FILE_NAME: generalize_working_experience
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
 
-URL: https://quantcodedenny.com/posts/generalize_working_experience/
+URL: https://quantcodedenny.com/posts/generalize_working_experiene/
 ** Find the right problems
 Challenges:
 - Identifying impactful problems vs “noise.”
@@ -146,6 +146,69 @@ Mentoring and enabling others multiplies long-term impact.
 know which problems to fix, and how to fix
 
 clear communication to have a common understanding
+
+lack of domain knowledge: model/feature usage table
+
+focus the discussion on the important things
+| Category                    | Principle                 | How / Example                                                       | Pitfall if Ignored                     |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Impact & Value              | Show delta value          | Tie infra work to visible business outcomes (“caching = +50ms CTR”) | Seen as busy work, sidelined           |
+|                             | Clarify success upfront   | Define measurable “done”                                            | Moving goalposts, lost credibility     |
+|                             | Storytell foundation work | Connect invisible work to org priorities                            | Looks like low-impact maintenance      |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Strategy & Alignment        | Frame with incentives     | Link to director/org goals                                          | Tech debt talk = no traction           |
+|                             | Preempt tradeoffs         | Offer options + recs                                                | Leaders lose trust in surprises        |
+|                             | Clarify ownership         | Define role, follow-ups, timeline                                   | Over-commitment, free work             |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Influence & Persuasion      | Credible input            | Synthesize before commenting                                        | Shallow remarks dilute influence       |
+|                             | Manage up with foresight  | Anticipate director’s mix of tech + people                          | Seen as execution-only                 |
+|                             | Lead with presence        | Summarize tensions, propose balance                                 | Silent = invisible; dominate = blocker |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Execution & Resilience      | Prioritize leverage       | Focus on high-value over urgencies                                  | Stuck in ops, not strategy             |
+|                             | Push through chaos        | Persistent follow-ups until resolved                                | Priorities die quietly                 |
+|                             | Stay calm in conflict     | Facts + tone + clarity in SEVs                                      | Emotional escalation breaks trust      |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Collaboration & Empowerment | Helpful, not free         | Clarify, connect, unblock — don’t do all                            | Burnout, undervalued time              |
+|                             | Multiply team output      | Remove friction, standardize runbooks                               | Compete vs. empower = limited scale    |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Growth & Presence           | Reflect & learn           | Postmortem own leadership moves                                     | Repeat same mistakes                   |
+|                             | Focus big wins            | Champion 1–2 org-level bets                                         | Spread thin, unfocused                 |
+|                             | Build presence gradually  | Calm energy + clarity + visible progress                            | Talk a lot, impact little              |
+** prompt
+Master Prompt: Critical Thinking for Big Corporate Leadership
+
+You are my senior staff+ mentor and leadership coach.
+Context: I am aiming to thrive as an Uber Tech Lead (IC6/IC7) in a large, competitive corporate environment. My key challenge is to improve critical thinking and strategic decision-making so I can scale my influence, navigate complex politics, and drive high-leverage outcomes.
+
+Your role: Help me analyze problems, sharpen judgment, and elevate thinking beyond execution.
+
+What I Want From You
+1. Structured Thinking Partner – Break down messy, ambiguous situations into clear frameworks (impact, tradeoffs, stakeholders, incentives).
+- Strategic Lens – Reframe my problems from a director/VP perspective (business impact, long-term sustainability, alignment).
+- Critical Questioning – Push me with tough, clarifying questions that reveal blind spots and force deeper reasoning.
+- Scenario Testing – Stress-test my assumptions by presenting alternative perspectives or unintended consequences.
+- Practical Playbook – Offer actionable steps I can use in meetings, proposals, or influencing discussions.
+
+Output Format
+1. Reframe: Restate the issue in strategic/critical terms.
+- Key Dimensions: List angles I should evaluate (e.g., incentives, risks, org politics, ROI).
+- Critical Questions: What I should ask myself/others to sharpen judgment.
+- Options & Tradeoffs: Possible paths with pros/cons.
+- Recommendation: Balanced, pragmatic advice for a senior IC.
+
+Tone & Style
+- spirational but grounded in corporate reality.
+- Concise and structured (executive-style thinking).
+
+Probing and challenging, not just agreeable.
+
+Always tie technical choices to business outcomes and influence building.
+** local notes
+what work you want to say yes, what work you want to say no
+
+increase your team's strategic values
+
+make unfixable issues fixable: identify and fix the bottleneck
 * Stay energetic at a busy job: common mistakes and good practices
 :PROPERTIES:
 :EXPORT_FILE_NAME: generalize_working_experience
@@ -256,69 +319,8 @@ Morning routines: light, movement, or journaling.
 
 Midday rituals: short walks, social interaction, or power snack.
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Critical Thinking In Big Corporate Envs
-:PROPERTIES:
-:EXPORT_FILE_NAME: critical-thinking-in-big-coporate
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-URL: https://quantcodedenny.com/posts/critical-thinking-in-big-coporate/
-
-| Category                    | Principle                 | How / Example                                                       | Pitfall if Ignored                     |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Impact & Value              | Show delta value          | Tie infra work to visible business outcomes (“caching = +50ms CTR”) | Seen as busy work, sidelined           |
-|                             | Clarify success upfront   | Define measurable “done”                                            | Moving goalposts, lost credibility     |
-|                             | Storytell foundation work | Connect invisible work to org priorities                            | Looks like low-impact maintenance      |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Strategy & Alignment        | Frame with incentives     | Link to director/org goals                                          | Tech debt talk = no traction           |
-|                             | Preempt tradeoffs         | Offer options + recs                                                | Leaders lose trust in surprises        |
-|                             | Clarify ownership         | Define role, follow-ups, timeline                                   | Over-commitment, free work             |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Influence & Persuasion      | Credible input            | Synthesize before commenting                                        | Shallow remarks dilute influence       |
-|                             | Manage up with foresight  | Anticipate director’s mix of tech + people                          | Seen as execution-only                 |
-|                             | Lead with presence        | Summarize tensions, propose balance                                 | Silent = invisible; dominate = blocker |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Execution & Resilience      | Prioritize leverage       | Focus on high-value over urgencies                                  | Stuck in ops, not strategy             |
-|                             | Push through chaos        | Persistent follow-ups until resolved                                | Priorities die quietly                 |
-|                             | Stay calm in conflict     | Facts + tone + clarity in SEVs                                      | Emotional escalation breaks trust      |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Collaboration & Empowerment | Helpful, not free         | Clarify, connect, unblock — don’t do all                            | Burnout, undervalued time              |
-|                             | Multiply team output      | Remove friction, standardize runbooks                               | Compete vs. empower = limited scale    |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Growth & Presence           | Reflect & learn           | Postmortem own leadership moves                                     | Repeat same mistakes                   |
-|                             | Focus big wins            | Champion 1–2 org-level bets                                         | Spread thin, unfocused                 |
-|                             | Build presence gradually  | Calm energy + clarity + visible progress                            | Talk a lot, impact little              |
-** prompt
-Master Prompt: Critical Thinking for Big Corporate Leadership
-
-You are my senior staff+ mentor and leadership coach.
-Context: I am aiming to thrive as an Uber Tech Lead (IC6/IC7) in a large, competitive corporate environment. My key challenge is to improve critical thinking and strategic decision-making so I can scale my influence, navigate complex politics, and drive high-leverage outcomes.
-
-Your role: Help me analyze problems, sharpen judgment, and elevate thinking beyond execution.
-
-What I Want From You
-1. Structured Thinking Partner – Break down messy, ambiguous situations into clear frameworks (impact, tradeoffs, stakeholders, incentives).
-- Strategic Lens – Reframe my problems from a director/VP perspective (business impact, long-term sustainability, alignment).
-- Critical Questioning – Push me with tough, clarifying questions that reveal blind spots and force deeper reasoning.
-- Scenario Testing – Stress-test my assumptions by presenting alternative perspectives or unintended consequences.
-- Practical Playbook – Offer actionable steps I can use in meetings, proposals, or influencing discussions.
-
-Output Format
-1. Reframe: Restate the issue in strategic/critical terms.
-- Key Dimensions: List angles I should evaluate (e.g., incentives, risks, org politics, ROI).
-- Critical Questions: What I should ask myself/others to sharpen judgment.
-- Options & Tradeoffs: Possible paths with pros/cons.
-- Recommendation: Balanced, pragmatic advice for a senior IC.
-
-Tone & Style
-- spirational but grounded in corporate reality.
-- Concise and structured (executive-style thinking).
-
-Probing and challenging, not just agreeable.
-
-Always tie technical choices to business outcomes and influence building.
 * Identify your next big goal                                      :noexport:
 ** what's your strength
 ** what's your 
-
-* TODO make suggestions which adds value and drive actions
+*URL: https://quantcodedenny.com/posts/leadership-mindset/
+ TODO make suggestions which adds value and drive actions

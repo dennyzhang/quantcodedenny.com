@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/update-personal-blog/
+URL: https://quantcodedenny.com/posts/self-intro/
 ** Set context for LLM collobration
 I am an experienced infra engineer (~20 years) with a personal
 project: https://quantcodedenny.com, hosted on GitHub Pages (repo:
@@ -56,13 +56,16 @@ Please reach out, if you have more to suggest
 |  3 | Detect bias        | TSLA struggle at 320 in Q3'25            |                |                  |
 #+TBLFM: $1=@#-1+0
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO [#A] the auto-gen url is buggy
+* emacs org-mode shift org-mod entry doesn't work
+* [#B] website doesn't show all the post                           :noexport:
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * create sub-bulletin points for org-mode file
+URL: https://quantcodedenny.com/posts/update-personal-blog/
 https://quantcodedenny.com/posts/write-interview-feedback/
 * make the exported table easier to follow
 https://quantcodedenny.com/posts/llm-for-vibe-coding/
 * [#A] enforce the llm setup works well with mobile usage          :noexport:
-* TODO [#A] the auto-gen url is buggy
-* TODO setup emacs org-mode to be function                         :noexport:
 * TODO avoid duplicate setting for each posts                      :noexport:
 EXPORT_DATE: 2025-08-25
 EXPORT_HUGO_SECTION: posts
@@ -159,5 +162,7 @@ CLOSED: [2025-09-21 Sun 16:57]
 - <e
 - <s
 * CANCELED export cheatsheet.dennyzhang.com to new website         :noexport:
+URL: https://quantcodedenny.com/posts/update-personal-blog/
 CLOSED: [2025-09-21 Sun 16:57]
+
 

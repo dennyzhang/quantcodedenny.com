@@ -111,7 +111,7 @@ Please make the output:
   Build collaborative relationships; prioritize fairness and mutual benefit, avoiding one-sided wins at the expense of others.
 
 **Success stories**
-1. Feature Deprecation & Cleanup
+1. Feature Deprecation & Bad feature governance
     - Challenge: Legacy and unused features caused inefficiencies and stale data risks.
     - Action: Built a **reliable feature usage lineage table**, automated cleanup, and implemented rapid mitigation plans.
     - Impact: Reduced stale features by X%, minimized downstream errors, and saved engineers’ time.

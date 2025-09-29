@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
+URL: https://quantcodedenny.com/posts/clarify-P0s-at-work/
 ** Set LLM context
 You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
 
@@ -76,7 +76,22 @@ Top skills
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/clarify-P0s-at-wok/
+URL: https://quantcodedenny.com/posts/clarify-P0s-at-work/
+** 3-Year P0 Clarification Procedure
+- Define the Vision
+   - Decide what success looks like in 3 years for you and your team.
+   - Focus on outcomes, not tasks.
+- Identify Levers
+   - Find areas where focused effort now gives the biggest long-term impact.
+- Set P0 Criteria
+   - Define what counts as a true long-term P0 to filter initiatives consistently.
+- Filter Workstreams
+   - Keep only initiatives that meet your P0 criteria.
+   - Delegate, pause, or deprioritize the rest.
+- Build the Roadmap
+   - Break each P0 into multi-year milestones for strategic execution.
+- Checkpoints
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** Set LLM context
 ** what makes your happy
 ** what makes you unhappy

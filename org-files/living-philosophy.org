@@ -77,6 +77,7 @@ Top skills
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/clarify-P0s-at-work/
+
 ** 3-Year P0 Clarification Procedure
 - Define the Vision
    - Decide what success looks like in 3 years for you and your team.

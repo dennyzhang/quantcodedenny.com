@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
+URL: https://quantcodedenny.com/posts/clarify-and-focus-on-p0s/
 ** Set LLM context
 You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
 
@@ -62,6 +62,19 @@ Top skills
 :END:
 URL: https://quantcodedenny.com/posts/clarify-and-focus-on-p0s/
 ** Set LLM context
+** local notes                                                     :noexport:
+learning how to learn
+adapt to change
+resilience
+learn how to figure out what people want
+how to interact in the world
+
+这些生活体悟，对我很有启发。帮我找到更多类似的体悟，并给出具体示例
+- 设立宏大目标可以激励自己和他人: 大目标提供方向感，让日常小努力不至于迷失。
+- 千万不要提前焦虑，事情会以奇怪的方式解决
+- 生活要做减法
+- take the best advantage and enjoy what you already have
+- minimalist can improve your freedom
 
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Happy life with good guiding philosophy                          :noexport:

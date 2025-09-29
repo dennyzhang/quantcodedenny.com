@@ -1,24 +1,14 @@
-# Recursive Make Helper
-# Usage: make run TARGET=push
+# Makefile in child folder
 
-.PHONY: run
+.PHONY: push pull clean all
 
-# Default: run the target passed in via TARGET
-run:
-	@if [ -z "$(TARGET)" ]; then \
-		echo "Usage: make run TARGET=<target>"; \
-		exit 1; \
-	fi
-	@echo "Trying target '$(TARGET)' in $(CURDIR)"
-	@set -e; \
-	MAKE_OUTPUT=$$(make -s $(TARGET) 2>&1 || true); \
-	if echo "$$MAKE_OUTPUT" | grep -q "No rule to make target"; then \
-		echo "Target '$(TARGET)' not found in $(CURDIR), going to parent..."; \
-		cd ..; \
-		make run TARGET=$(TARGET); \
-		cd - > /dev/null; \
-	else \
-	        # the actual make output if it succeeded or failed for other reasons
-		echo "$$MAKE_OUTPUT"; \
-		if echo "$$MAKE_OUTPUT" | grep -q "Error"; then exit 1; fi; \
-	fi
+# Detect parent folder
+PARENT_DIR := ..
+
+# Default COMMIT_MSG if not provided
+COMMIT_MSG ?= update content in org-file
+
+# Default target: forward everything to parent
+push pull clean:
+	@echo "Forwarding target '$@' to parent folder..."
+	@$(MAKE) -C $(PARENT_DIR) $@ COMMIT_MSG="$(COMMIT_MSG)"

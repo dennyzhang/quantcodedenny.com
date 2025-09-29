@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/clarify-P0s-at-work/
+URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** Set LLM context
 You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
 
@@ -72,11 +72,11 @@ Top skills
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
 * Clarify and focus on P0s at work
 :PROPERTIES:
-:EXPORT_FILE_NAME: clarify-P0s-at-work
+:EXPORT_FILE_NAME: clarify-p0s-at-work
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/clarify-P0s-at-work/
+URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** Set LLM context
 I want to clarify what is truly important to me at work and identify my long-term P0s. Here’s my context:
 

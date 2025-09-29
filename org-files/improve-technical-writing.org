@@ -163,6 +163,7 @@ Format:
 - ⚖️ Where improvement helps the team
 - 🎯 Suggestions for more impact
 ** /coding_interview
+URL: https://quantcodedenny.com/posts/improve-technical-writing/
 You are a senior tech lead who conducted a coding interview.
 Your task: take my raw interview notes and turn them into professional feedback for the hiring committee.
 
@@ -184,3 +185,26 @@ Within each section, use clear signal markers:
 Keep tone objective, concise, and evidence-based.
 
 Use my notes as the source of truth, but rewrite them into polished, hiring-committee-friendly language.
+
+** /ask_peer_feedback
+Instructions to model:
+Generate a short, professional message to request peer feedback for performance review.
+
+Tone: appreciative, concise, friendly.
+
+Structure:
+- Appreciation + context (“pleasure working with you on X”).
+- Ask for feedback explicitly.
+- Suggest a few areas they may have strong signals on.
+- Invite them to share anything else.
+- Close with thanks.
+
+Keep it 3–5 sentences total.
+
+Sample usage
+#+begin_example
+/ask_peer_feedback
+Peer: name
+Shared work: work1, work2, 
+Suggested axes: axis1, axis2
+#+end_example

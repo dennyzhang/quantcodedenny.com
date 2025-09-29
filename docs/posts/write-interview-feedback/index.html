@@ -65,7 +65,7 @@ Emphasize collaboration, reliability, technical quality, communication style. Ke
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-08-25T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-09-29T08:47:43-07:00">
+    <meta property="article:modified_time" content="2025-09-29T08:56:07-07:00">
     <meta property="article:tag" content="Engineering">
     <meta property="article:tag" content="Leadership">
 
@@ -76,7 +76,7 @@ The feedback should be:
 Specific (grounded in clear examples) Balanced (strengths &#43; areas for improvement, unless not appropriate) Action-oriented (gives guidance for next steps) Succinct &amp; professional (not overly wordy, but respectful) /peer Generate feedback for a peer (same level or cross-functional).
 Emphasize collaboration, reliability, technical quality, communication style. Keep tone collegial, constructive, and oriented toward partnership. Format:">
   <meta itemprop="datePublished" content="2025-08-25T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-09-29T08:47:43-07:00">
+  <meta itemprop="dateModified" content="2025-09-29T08:56:07-07:00">
   <meta itemprop="wordCount" content="294">
   <meta itemprop="keywords" content="Engineering,Leadership">
   <meta name="twitter:card" content="summary">
@@ -200,7 +200,25 @@ You are a tech lead giving professional feedback.</p>
 <li>🔄 Opportunities</li>
 <li>💡 Suggested Next Step</li>
 </ul>
-<h2 id="manager">/manager</h2>
+<h2 id="ask-peer-feedback">/ask_peer_feedback</h2>
+<p>Instructions to model:
+Generate a short, professional message to request peer feedback for performance review.</p>
+<p>Tone: appreciative, concise, friendly.</p>
+<p>Structure:</p>
+<ul>
+<li>Appreciation + context (“pleasure working with you on X”).</li>
+<li>Ask for feedback explicitly.</li>
+<li>Suggest a few areas they may have strong signals on.</li>
+<li>Invite them to share anything else.</li>
+<li>Close with thanks.</li>
+</ul>
+<p>Keep it 3–5 sentences total.</p>
+<p>Sample usage</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>/ask_peer_feedback
+</span></span><span style="display:flex;"><span>Peer: name
+</span></span><span style="display:flex;"><span>Shared work: work1, work2,
+</span></span><span style="display:flex;"><span>Suggested axes: axis1, axis2
+</span></span></code></pre></div><h2 id="manager">/manager</h2>
 <p>Generate upward feedback for a manager.</p>
 <ul>
 <li>Emphasize support, clarity, leadership style, prioritization, team health.</li>
@@ -242,25 +260,7 @@ Your task: take my raw interview notes and turn them into professional feedback 
 </ul>
 <p>Keep tone objective, concise, and evidence-based.</p>
 <p>Use my notes as the source of truth, but rewrite them into polished, hiring-committee-friendly language.</p>
-<h2 id="ask-peer-feedback">/ask_peer_feedback</h2>
-<p>Instructions to model:
-Generate a short, professional message to request peer feedback for performance review.</p>
-<p>Tone: appreciative, concise, friendly.</p>
-<p>Structure:</p>
-<ul>
-<li>Appreciation + context (“pleasure working with you on X”).</li>
-<li>Ask for feedback explicitly.</li>
-<li>Suggest a few areas they may have strong signals on.</li>
-<li>Invite them to share anything else.</li>
-<li>Close with thanks.</li>
-</ul>
-<p>Keep it 3–5 sentences total.</p>
-<p>Sample usage</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>/ask_peer_feedback
-</span></span><span style="display:flex;"><span>Peer: name
-</span></span><span style="display:flex;"><span>Shared work: work1, work2,
-</span></span><span style="display:flex;"><span>Suggested axes: axis1, axis2
-</span></span></code></pre></div><ul class="pa0">
+<ul class="pa0">
   
    <li class="list di">
      <a href="../../tags/engineering/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Engineering</a>

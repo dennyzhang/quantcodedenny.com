@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
+URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** Set LLM context
 You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
 
@@ -78,33 +78,112 @@ Top skills
 :END:
 URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** Set LLM context
-I want to clarify what is truly important to me at work and identify my long-term P0s.
+I want to clarify what is truly important to me at work and identify my 3-year P0s. Here’s my context:
 
-Here’s my context:
-
-1. **Role and Experience**
-   - Current role: [Insert role, e.g., Tech Lead in ML Infra]
-   - Past growth: [List key strengths and achievements, e.g., business problem focus, cross-team execution, end-to-end ownership, partnership]
+1. **Current Role and Experience**
+   - Role: Tech Lead in ML Infra
+   - Past growth:
+     - Focused on business problems: delivered measurable business wins, quantified opportunity sizes
+     - Execution across multiple teams: aligned stakeholders to drive common goals
+     - End-to-end ownership: trusted by cross-functional partners
+     - Partnership: prefer fair, win-win collaborations
 
 2. **Preferences / Values**
-   - Marketable skills: [e.g., work should have external recognition or transferability]
-   - Energy and stress: [e.g., avoid constant org friction, focus on problem-solving]
-   - Work style: [e.g., ownership, high-leverage, measurable impact, ethical partnerships]
+   - Work should have **market value** — skills and outcomes are recognized externally for future career mobility
+   - Work should **minimize mental stress**
+     - Main pain points: 
+       1. High energy spent on problem identification and establishing team roles in a competing environment
+       2. Problem ownership is often disrupted by organizational changes after initial resolution
+   - Desire **high-leverage, ownership-driven work** with measurable impact
 
-3. **Pain Points**
-   - [List current frustrations, e.g., high energy spent on problem identification and team alignment, short-lived problem focus]
+3. **Blindspots / Potential Risks**
+   - May lack deep technical recognition outside current business-focused role
+   - Market value of work may not be fully understood
+   - Over-investing in personal ownership could reduce bandwidth for high-leverage strategic work
 
 4. **Goal / Desired Outcome**
-   - [Insert long-term goal, e.g., become an ML infra expert with high leverage and low burnout]
+   - Become a recognized ML infra expert (“infra extra”) with high leverage and sustainable energy
+   - Focus on work that produces measurable, transferable impact
 
 Please help me:
-- Identify my **core work values** and any conflicts or trade-offs.  
-- Surface potential **blindspots or overlooked opportunities**.  
-- Suggest what could be my **3-year P0s** based on my context.  
-- Provide guidance on **how to filter current workstreams** to align with these P0s.  
-- Recommend **strategic milestones** or actions that maximize market value, ownership, and energy efficiency.
+- Identify **core work values** and any conflicts or trade-offs
+- Surface **blindspots or overlooked opportunities**
+- Suggest what could be my **3-year P0s** based on this context
+- Provide guidance on **how to filter current workstreams** to align with these P0s
+- Recommend **strategic milestones** or actions to maximize market value, ownership, and energy efficiency
 
-Make the output structured and actionable so I can use it to evaluate opportunities, prioritize projects, and plan career growth.
+Make the output structured, actionable, and suitable for use in **Org-mode or as a personal roadmap**.
+** My Goals
+- Work should have **market value** — skills and outcomes are recognized externally for future career mobility
+- Work should **minimize mental stress**
+** My Superpowers
+1. **Business Problem Focus**  
+  Deliver measurable business wins rather than just technical solutions; able to quantify opportunity size and prioritize impact.
+
+2. **Cross-Team Execution**  
+  Drive initiatives across multiple teams, aligning stakeholders to achieve shared goals efficiently.
+
+3. **End-to-End Ownership**  
+  Take full responsibility for projects from conception to delivery; trusted by cross-functional partners to execute reliably.
+
+4. **Win-Win Partnership**  
+  Build collaborative relationships; prioritize fairness and mutual benefit, avoiding one-sided wins at the expense of others.
+** My success stories
+**Context**: Driving scalable, reliable, and measurable feature infrastructure across feature gneratinon and model serving.
+
+**Summary / Marketable Takeaways**
+   - Delivered **end-to-end ownership** of high-leverage ML infra projects with measurable results.
+   - Demonstrated ability to **design scalable systems, automate workflows, and improve reliability**.
+   - Built infrastructure that **reduces manual work, improves model performance, and accelerates feature delivery**.
+   - Showcases **transferable skills**: ML infra design, feature management, automation, reliability engineering, and cross-team execution.
+**Key Projects & Achievements**
+
+- Feature Deprecation & Cleanup
+    - Challenge: Legacy and unused features caused inefficiencies and stale data risks.
+    - Action: Built a **reliable feature usage lineage table**, automated cleanup, and implemented rapid mitigation plans.
+    - Impact: Reduced stale features by X%, minimized downstream errors, and saved engineers’ time.
+
+- Feature Data Pipeline Push at Scale
+    - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
+    - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
+    - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
+
+- End-to-End Feature Infra Monitoring
+    - Challenge: Monitoring was fragmented across feature generation, serving, and model evaluation.
+    - Action: Designed and implemented a **comprehensive monitoring framework** covering generating, serving, and model sides.
+    - Impact: Enabled early detection of issues, reducing pipeline downtime and improving overall feature reliability.
+
+- Feature Metadata Service
+    - Challenge: Lack of a single source of truth (SoT) for feature metadata made management and discovery difficult.
+    - Action: Built a **centralized feature metadata service** covering both static and runtime metadata.
+    - Impact: Enabled consistent feature management, improved discoverability, and reduced errors in feature usage across multiple ML teams.
+** Key learnings
+- **Be more confident and assertive in requests**  
+  - Observation: Often acted as a supportive role with XFN teams, accepting the status quo when requests were deprioritized.  
+  - Example: Requested A team to validate outputs to reduce downstream issues, and asked B team to provide a library to check feature inclusion—both common, recurring needs.  
+  - Learning: I should confidently advocate for changes that enable teams to thrive, rather than silently accepting delays or partial solutions.
+
+- **Leverage leadership and existing structures**  
+  - Observation: Our team struggled multiple halves defining a team charter using a bottom-up strategy, which proved ineffective.  
+  - Insight: XFN teams already have dedicated roles (reliability for SEVs, efficiency for capacity, DevX for automation). Bottom-up attempts were redundant.  
+  - Learning: I should leverage leadership and existing structures early to avoid prolonged struggles and accelerate team effectiveness.
+
+- **Set bigger, strategic business goals**  
+  - Observation: Limited scope to immediate team bandwidth, focusing on incremental improvements.  
+  - Examples:  
+    - HD feature cleanup: focused on small incremental changes rather than holistic cleanup.  
+    - Metadata service: implemented band-aid solutions instead of system simplification.  
+  - Learning: I should aim for higher-leverage goals that drive strategic improvements rather than just immediate metrics.
+
+- **Spend more time generalizing problems and exchanging knowledge**  
+  - Observation: Often solved isolated problems without connecting patterns or sharing insights broadly.  
+  - Learning: I should step back to identify patterns across projects and actively exchange ideas with senior engineers outside the immediate area, enabling better solutions and knowledge transfer.
+
+- **Focus on high-impact technical challenges**  
+  - Observation: Spent significant energy on team conflicts and headcount discussions, where I have less leverage as a tech lead.  
+  - Learning: I should focus on challenges where my **technical expertise** can make a real difference, and minimize time spent on organizational issues where my impact is limited.
+** My growth areas
+
 ** 3-Year P0 Clarification Procedure
 - Define the Vision
    - Decide what success looks like in 3 years for you and your team.
@@ -119,10 +198,8 @@ Make the output structured and actionable so I can use it to evaluate opportunit
 - Build the Roadmap
    - Break each P0 into multi-year milestones for strategic execution.
 - Checkpoints
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** Set LLM context
-** what makes your happy
-** what makes you unhappy
+** Lower my mental stress at work
+- Identify low value or non-important tasks or conversations
 ** local notes                                                     :noexport:
 learning how to learn
 adapt to change

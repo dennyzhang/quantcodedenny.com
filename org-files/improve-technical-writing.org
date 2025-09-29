@@ -140,8 +140,11 @@ You are a tech lead providing professional feedback. Feedback should be:
 - Succinct & professional (not overly wordy, but respectful)
 ** /peer – Peer Feedback
 **Use**: Generate professional, structured feedback for a peer (same level or cross-functional).
+
 **Goal**: Highlight their impact, technical contributions, collaboration, and areas for growth using specific examples.
+
 **Tone**: collegial, constructive, respectful, professional
+
 **Structure & Guidance**:
 
 - Overall Impact/Context – 1–2 sentences summarizing the peer’s overall contribution and role this period.

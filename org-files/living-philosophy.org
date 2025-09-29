@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
+URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
 ** Set LLM context
 You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
 
@@ -116,7 +116,8 @@ Make the output structured, actionable, and suitable for use in **Org-mode or as
 ** My Goals
 - Work should have **market value** — skills and outcomes are recognized externally for future career mobility
 - Work should **minimize mental stress**
-** My Superpowers
+** My situation
+*** My Superpowers
 1. **Business Problem Focus**  
   Deliver measurable business wins rather than just technical solutions; able to quantify opportunity size and prioritize impact.
 
@@ -128,7 +129,7 @@ Make the output structured, actionable, and suitable for use in **Org-mode or as
 
 4. **Win-Win Partnership**  
   Build collaborative relationships; prioritize fairness and mutual benefit, avoiding one-sided wins at the expense of others.
-** My success stories
+*** My success stories
 **Context**: Driving scalable, reliable, and measurable feature infrastructure across feature gneratinon and model serving.
 
 **Summary / Marketable Takeaways**
@@ -157,7 +158,7 @@ Make the output structured, actionable, and suitable for use in **Org-mode or as
     - Challenge: Lack of a single source of truth (SoT) for feature metadata made management and discovery difficult.
     - Action: Built a **centralized feature metadata service** covering both static and runtime metadata.
     - Impact: Enabled consistent feature management, improved discoverability, and reduced errors in feature usage across multiple ML teams.
-** Key learnings
+*** Key learnings
 - **Be more confident and assertive in requests**  
   - Observation: Often acted as a supportive role with XFN teams, accepting the status quo when requests were deprioritized.  
   - Example: Requested A team to validate outputs to reduce downstream issues, and asked B team to provide a library to check feature inclusion—both common, recurring needs.  
@@ -182,9 +183,12 @@ Make the output structured, actionable, and suitable for use in **Org-mode or as
 - **Focus on high-impact technical challenges**  
   - Observation: Spent significant energy on team conflicts and headcount discussions, where I have less leverage as a tech lead.  
   - Learning: I should focus on challenges where my **technical expertise** can make a real difference, and minimize time spent on organizational issues where my impact is limited.
-** My growth areas
+*** My growth areas
 
-** 3-Year P0 Clarification Procedure
+** Organically improve market value
+** 5 Lower my mental stress at work
+- Identify low value or non-important tasks or conversations
+** 3-Year P0 Clarification Procedure                               :noexport:
 - Define the Vision
    - Decide what success looks like in 3 years for you and your team.
    - Focus on outcomes, not tasks.
@@ -198,8 +202,6 @@ Make the output structured, actionable, and suitable for use in **Org-mode or as
 - Build the Roadmap
    - Break each P0 into multi-year milestones for strategic execution.
 - Checkpoints
-** Lower my mental stress at work
-- Identify low value or non-important tasks or conversations
 ** local notes                                                     :noexport:
 learning how to learn
 adapt to change

@@ -145,23 +145,19 @@ You are a tech lead providing professional feedback. Feedback should be:
 
 **Structure & Guidance**:
 
-Overall Impact/Context – 1–2 sentences summarizing the peer’s overall contribution and role this period.
-
-Key Strengths / Contributions – Use concrete examples of:
-- Technical achievements / project delivery
-- Problem-solving or decision-making
-- Collaboration, mentoring, and cross-functional work
-- Inclusivity, reliability, communication skills. Format with ✅ Strengths
-
-Opportunities / Areas to Grow – Highlight areas for improvement, with examples or evidence. Focus on development, next steps, or strategic growth. Format with 🔄 Opportunities
-
-Actionable Suggestions / Next Steps – Give clear, practical guidance on how the peer can grow or maximize impact. Format with 💡 Suggested Next Step
-
-Style Guidance:
-- Be specific and example-driven — refer to projects, initiatives, or behaviors.
-- Keep it balanced — include strengths + opportunities.
-- Use succinct professional language, avoid overly long paragraphs.
-- Highlight impact on team, cross-functional partners, and projects.
+- Overall Impact/Context – 1–2 sentences summarizing the peer’s overall contribution and role this period.
+- Key Strengths / Contributions – Use concrete examples of:
+  - Technical achievements / project delivery
+  - Problem-solving or decision-making
+  - Collaboration, mentoring, and cross-functional work
+  - Inclusivity, reliability, communication skills. Format with ✅ Strengths
+- Opportunities / Areas to Grow – Highlight areas for improvement, with examples or evidence. Focus on development, next steps, or strategic growth. Format with 🔄 Opportunities
+- Actionable Suggestions / Next Steps – Give clear, practical guidance on how the peer can grow or maximize impact. Format with 💡 Suggested Next Step
+- Style Guidance:
+  - Be specific and example-driven — refer to projects, initiatives, or behaviors.
+  - Keep it balanced — include strengths + opportunities.
+  - Use succinct professional language, avoid overly long paragraphs.
+  - Highlight impact on team, cross-functional partners, and projects.
 
 Example Usage:
 #+begin_example

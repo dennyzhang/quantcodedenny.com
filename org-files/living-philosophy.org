@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
+URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** Set LLM context
 You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
 
@@ -154,11 +154,11 @@ Please make the output:
 
 **My growth areas**
 
-** key principles to navigate corporates
-1. Make Value Visible: Only measurable wins are recognized; ensure your impact is quantified and communicated.
-2. Align and Advocate: Ownership and influence depend on stakeholder alignment and proactive advocacy.
-3. Prioritize High-Leverage Work: Focus on impactful initiatives over incremental or low-visibility tasks.
-4. Leverage Structures, Don’t Reinvent: Use existing roles, processes, and frameworks to accelerate results instead of building from scratch.   
+** Key principles to navigate corporates
+1. **Make Value Visible**: Only measurable wins are recognized; ensure your impact is quantified and communicated.
+2. **Align and Advocate**: Ownership and influence depend on stakeholder alignment and proactive advocacy.
+3. **Prioritize High-Leverage Work**: Focus on impactful initiatives over incremental or low-visibility tasks.
+4. **Leverage Structures, Don’t Reinvent**: Use existing roles, processes, and frameworks to accelerate results instead of building from scratch.   
 ** Mitigation: Organically improve market value
 3 Pillars of Organic Market Value
 

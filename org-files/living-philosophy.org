@@ -28,6 +28,7 @@ Provide:
 4. **Ways to reflect and generalize learnings** across projects
 
 Respond in an actionable, structured, and role-aware manner, as if coaching a tech lead directly.
+
 ** Weekly Accomplishment Checklist
 *** Think Too Narrow
 - [ ] For 1 project, list at least 3 risks and 2 long-term impacts before deciding  
@@ -69,14 +70,16 @@ Top skills
 - Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
 - Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
-* Clarify and focus on P0s
+* Clarify and focus on P0s at work
 :PROPERTIES:
-:EXPORT_FILE_NAME: clarify-and-focus-on-p0s
+:EXPORT_FILE_NAME: clarify-P0s-at-work
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/clarify-and-focus-on-p0s/
+URL: https://quantcodedenny.com/posts/clarify-P0s-at-wok/
 ** Set LLM context
+** what makes your happy
+** what makes you unhappy
 ** local notes                                                     :noexport:
 learning how to learn
 adapt to change

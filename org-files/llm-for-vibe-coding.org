@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
+URL: https://quantcodedenny.com/posts/challenge-in-vibe-coding/
 
 | Command              | Purpose / Output                                   | Key Highlights                                                                                                                                                      |
 |----------------------+----------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -139,3 +139,5 @@ URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 - Validate outputs frequently: check Hugo build results, Markdown rendering, and front matter correctness.
 - Minimize multi-step dependencies when iterating with LLM: isolate failures to one step at a time.
 - Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.
+** edge scenarios where common practice doesn't work well
+

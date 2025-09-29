@@ -59,6 +59,7 @@ Please reach out, if you have more to suggest
 * TODO [#A] the auto-gen url is buggy
 * emacs org-mode shift org-mod entry doesn't work
 * [#B] website doesn't show all the post                           :noexport:
+* better format the output: https://quantcodedenny.com/posts/write-interview-feedback/
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * create sub-bulletin points for org-mode file
 URL: https://quantcodedenny.com/posts/update-personal-blog/

@@ -58,7 +58,7 @@ Specific (grounded in clear examples) Balanced (strengths &#43; areas for improv
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-08-25T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-09-29T09:27:09-07:00">
+    <meta property="article:modified_time" content="2025-09-29T09:29:44-07:00">
     <meta property="article:tag" content="Engineering">
     <meta property="article:tag" content="Leadership">
 
@@ -67,8 +67,8 @@ Specific (grounded in clear examples) Balanced (strengths &#43; areas for improv
 Set LLM context You are a tech lead providing professional feedback. Feedback should be:
 Specific (grounded in clear examples) Balanced (strengths &#43; areas for improvement, unless not appropriate) Action-oriented (gives guidance for next steps) Succinct &amp; professional (not overly wordy, but respectful) /peer – Peer Feedback Use: Generate professional, structured feedback for a peer (same level or cross-functional). Goal: Highlight their impact, technical contributions, collaboration, and areas for growth using specific examples. Tone: collegial, constructive, respectful, professional">
   <meta itemprop="datePublished" content="2025-08-25T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-09-29T09:27:09-07:00">
-  <meta itemprop="wordCount" content="506">
+  <meta itemprop="dateModified" content="2025-09-29T09:29:44-07:00">
+  <meta itemprop="wordCount" content="505">
   <meta itemprop="keywords" content="Engineering,Leadership">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Prompt to write feedback at work">
@@ -202,7 +202,7 @@ Specific (grounded in clear examples) Balanced (strengths &#43; areas for improv
 </span></span><span style="display:flex;"><span>Peer: John
 </span></span><span style="display:flex;"><span>Shared work: reduce bad prod workfload, exiting AI tool war room, stopping the bleed
 </span></span><span style="display:flex;"><span>Suggested axes: Axis1, Axis2
-</span></span></code></pre></div><h2 id="ask-peer-feedback-request-peer-feedback">/ask_peer_feedback – Request Peer Feedback</h2>
+</span></span></code></pre></div><h2 id="ask-feedback-request-peer-feedback">/ask_feedback – Request Peer Feedback</h2>
 <p>Generate a short, professional message to request peer feedback for a performance review.
 <strong><strong>Tone</strong></strong>: appreciative, concise, friendly</p>
 <p>Structure:</p>
@@ -215,7 +215,7 @@ Specific (grounded in clear examples) Balanced (strengths &#43; areas for improv
 </ul>
 <p>Length: 3–5 sentences</p>
 <p>Example Usage:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>/ask_peer_feedback
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>/ask_feedback
 </span></span><span style="display:flex;"><span>Peer: name
 </span></span><span style="display:flex;"><span>Shared work: work1, work2,
 </span></span><span style="display:flex;"><span>Suggested axes: axis1, axis2
@@ -249,17 +249,9 @@ Include how their actions affect team effectiveness</p>
 </ul>
 <p>Signal markers:</p>
 <ul>
-<li>
-<ul>
-<li>= positive</li>
-</ul>
-</li>
-<li>
-<ul>
-<li>= negative</li>
-</ul>
-</li>
-<li>+/- = neutral / mixed</li>
+<li>+: positive</li>
+<li>-: negative</li>
+<li>+/-: neutral / mixed</li>
 </ul>
 <p><strong><strong>Tone</strong></strong>: objective, concise, evidence-based</p>
 <p>Guidelines:</p>

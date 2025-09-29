@@ -172,7 +172,7 @@ Peer: John
 Shared work: reduce bad prod workfload, exiting AI tool war room, stopping the bleed
 Suggested axes: Axis1, Axis2
 #+end_example
-** /ask_peer_feedback – Request Peer Feedback
+** /ask_feedback – Request Peer Feedback
 Generate a short, professional message to request peer feedback for a performance review.
 **Tone**: appreciative, concise, friendly
 
@@ -187,7 +187,7 @@ Length: 3–5 sentences
 
 Example Usage:
 #+begin_example
-/ask_peer_feedback
+/ask_feedback
 Peer: name
 Shared work: work1, work2,
 Suggested axes: axis1, axis2
@@ -227,9 +227,9 @@ Then structure Detailed Feedback by Focus Area using these sections:
 - Programming Concepts
 
 Signal markers:
-- + = positive
-- - = negative
-- +/- = neutral / mixed
+- +: positive
+- -: negative
+- +/-: neutral / mixed
 
 **Tone**: objective, concise, evidence-based
 

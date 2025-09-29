@@ -27,7 +27,7 @@ Provide:
 4. Ways to reflect and generalize learnings across projects
 
 Respond in an actionable, structured, and role-aware manner, as if coaching a tech lead directly.
-** top skills to learn in the AI world
+** top skills to learn in the AI world                             :noexport:
 I want to identify a list of top skills to learn with the rise of AI.
 
 Mindset

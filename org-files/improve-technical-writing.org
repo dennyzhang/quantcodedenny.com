@@ -149,6 +149,14 @@ Format:
 - ✅ Strengths
 - 🔄 Opportunities
 - 💡 Suggested Next Step
+
+Example Usage:
+#+begin_example
+/peer
+Peer: John
+Shared work: reduce bad prod workfload, exiting AI tool war room, stopping the bleed
+Suggested axes: Axis1, Axis2
+#+end_example
 ** /ask_peer_feedback – Request Peer Feedback
 Generate a short, professional message to request peer feedback for a performance review.
 **Tone**: appreciative, concise, friendly
@@ -162,7 +170,7 @@ Structure:
 
 Length: 3–5 sentences
 
-Sample Usage:
+Example Usage:
 #+begin_example
 /ask_peer_feedback
 Peer: name
@@ -182,6 +190,14 @@ Format:
 - 🌟 What’s working well
 - ⚖️ Where improvement helps the team
 - 🎯 Suggestions for more impact
+
+Example Usage
+#+begin_example
+/manager
+Manager: Alice
+Shared work: Q3 roadmap planning, cross-team alignment, SEV reviews
+Suggested axes: Clarity, Team Enablement, Prioritization
+#+end_example
 ** /coding_interview – Coding Interview Feedback
 You are a senior tech lead who conducted a coding interview. Transform raw notes into polished feedback for the hiring committee.
 
@@ -206,3 +222,13 @@ Guidelines:
 - Use raw notes as the source of truth
 - Rewrite into hiring-committee-friendly language
 - Keep feedback actionable and clear
+
+Example Usage:
+#+begin_example
+/coding_interview
+Candidate: Bob
+Raw notes:
+- Took too long to fix problem #1, did not attempt problem #2
+- Code readable, asked clarifying questions
+- Good understanding of basic data structures
+#+end_example

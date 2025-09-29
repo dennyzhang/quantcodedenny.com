@@ -27,6 +27,17 @@ Provide:
 4. Ways to reflect and generalize learnings across projects
 
 Respond in an actionable, structured, and role-aware manner, as if coaching a tech lead directly.
+** Weekly workout checklist
+| Mindset Area                         | Weekly Tasks                                                             | AI Leverage                                                           |
+| ------------------------------------ | ------------------------------------------------------------------------ | --------------------------------------------------------------------- |
+| Incomplete/Narrow Thinking           | - Map dependencies, stakeholders, risks, long-term impact (1–2 projects) | Generate unconventional ideas, detect blind spots, simulate scenarios |
+|                                      | - Ask AI for alternative approaches or hidden risks                      |                                                                       |
+| Under-Leveraging People/Resources    | - Hold 1–2 short insight sessions with peers/mentors<br>                 | Consolidate prior knowledge, highlight reusable lessons               |
+|                                      | - Use AI to summarize past project notes, incidents, docs                |                                                                       |
+| Execution-Focused/Short-Term Mindset | - Classify tasks by impact, adjust priorities                            | Simulate outcomes, suggest trade-offs, identify failure modes         |
+|                                      | - Run pre-mortem or scenario planning for upcoming work                  |                                                                       |
+| Insufficient Reflection / Learning   | - Spend 15–20 min documenting what worked, what didn’t, key patterns<br> | Summarize patterns, abstract insights, reinforce learning             |
+|                                      | - Use AI to synthesize weekly learnings and extract principles           |                                                                       |
 ** top skills to learn in the AI world                             :noexport:
 I want to identify a list of top skills to learn with the rise of AI.
 
@@ -43,6 +54,15 @@ Top skills
 - Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
 - Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
+* Clarify and focus on P0s
+:PROPERTIES:
+:EXPORT_FILE_NAME: clarify-and-focus-on-p0s
+:EXPORT_DATE: 2025-09-14
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/clarify-and-focus-on-p0s/
+** Set LLM context
+
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Happy life with good guiding philosophy                          :noexport:
 :PROPERTIES:

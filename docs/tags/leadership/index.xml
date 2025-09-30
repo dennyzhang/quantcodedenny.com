@@ -6,7 +6,7 @@
     <description>Recent content in Leadership on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Sep 2025 11:17:56 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 11:22:53 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connect Better At Work</title>
@@ -77,6 +77,13 @@
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/write-interview-feedback/</guid>
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/write-interview-feedback/&#34;&gt;https://quantcodedenny.com/posts/write-interview-feedback/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-llm-context&#34;&gt;Set LLM context&lt;/h2&gt;&#xA;&lt;p&gt;You are a tech lead providing professional feedback. Feedback should be:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Specific (grounded in clear examples)&lt;/li&gt;&#xA;&lt;li&gt;Balanced (strengths + areas for improvement, unless not appropriate)&lt;/li&gt;&#xA;&lt;li&gt;Action-oriented (gives guidance for next steps)&lt;/li&gt;&#xA;&lt;li&gt;Succinct &amp;amp; professional (not overly wordy, but respectful)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;peer-peer-feedback&#34;&gt;/peer – Peer Feedback&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Use&lt;/strong&gt;&lt;/strong&gt;: Generate professional, structured feedback for a peer (same level or cross-functional).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Goal&lt;/strong&gt;&lt;/strong&gt;: Highlight their impact, technical contributions, collaboration, and areas for growth using specific examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Use LLM for vibe coding</title>
+      <link>https://quantcodedenny.com/posts/llm-for-vibe-coding/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/llm-for-vibe-coding/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/challenge-in-vibe-coding/&#34;&gt;https://quantcodedenny.com/posts/challenge-in-vibe-coding/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Command&lt;/th&gt;&#xA;          &lt;th&gt;Purpose / Output&lt;/th&gt;&#xA;          &lt;th&gt;Key Highlights&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;/review_pr ⚡️&lt;/td&gt;&#xA;          &lt;td&gt;Full PR review: summary, code critique, mentorship&lt;/td&gt;&#xA;          &lt;td&gt;PR summary (what &amp;amp; why), clarity/readability, architectural feedback, edge cases/trade-offs, security &amp;amp; maintainability, bullet-point rationale, rewritten snippets&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;/explain_code 🧠&lt;/td&gt;&#xA;          &lt;td&gt;Code understanding / high-level explanation&lt;/td&gt;&#xA;          &lt;td&gt;High-level summary, line-by-line breakdown, system impact &amp;amp; context&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;/review_unit_test 🧪&lt;/td&gt;&#xA;          &lt;td&gt;Unit test quality review&lt;/td&gt;&#xA;          &lt;td&gt;Completeness, reliability, best practices, risk/coverage gaps, missing test stubs&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;/design_feedback 🏗️&lt;/td&gt;&#xA;          &lt;td&gt;Early-stage design/architecture feedback&lt;/td&gt;&#xA;          &lt;td&gt;Strengths/weaknesses, bottlenecks, alternatives with pros/cons, clarifying questions&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;To use it, copy this post into llm as the master prompt. Then use &amp;ldquo;/&amp;lt;sub-command&amp;gt; &amp;lt;your content&amp;rdquo; for each scenarios.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Work Challenges &amp; Key Learnings In Big Corporate Envs</title>

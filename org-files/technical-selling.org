@@ -131,7 +131,6 @@ how to interact in the world
 - 生活要做减法
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Look Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better
@@ -150,12 +149,12 @@ Looking better at work is not self-promotion. It’s about making your real cont
 - **Make Your Impact Visible**
   - What it Means: Leaders care about outcomes, not effort.
   - How to Apply / Examples: Quantify results (dollars, time saved, efficiency), link to KPIs, compare before/after.
-    *Example:* “Our work avoided $2M in lost revenue during peak traffic.”
+  - *Example:* “Our work avoided $2M in lost revenue during peak traffic.”
 
 - **Highlight Complexity & Learning**
   - What it Means: Show hidden challenges and what you learned.
   - How to Apply / Examples: Explain hurdles, new methods, tools, or skills.
-    *Example:* “Cut model training costs by 30% by debugging fragmented pipelines; built reusable monitoring tools for the org.”
+  - *Example:* “Cut model training costs by 30% by debugging fragmented pipelines; built reusable monitoring tools for the org.”
 
 - **Leverage Others & Build Credibility**
   - What it Means: Feedback from peers is more credible than self-promotion.
@@ -164,19 +163,19 @@ Looking better at work is not self-promotion. It’s about making your real cont
 For each project update, ask yourself:
 
 - Challenges & Hurdles
-  [ ] Highlight major obstacles, including technical, organizational, or cross-team difficulties
-  [ ] Explain how you solved them or mitigated risks
+  - [ ] Highlight major obstacles, including technical, organizational, or cross-team difficulties
+  - [ ] Explain how you solved them or mitigated risks
 
 - Learning & Innovation
-  [ ] Capture new skills, methods, frameworks, or tools you used or developed
-  [ ] Show how these can benefit future projects or others
+  - [ ] Capture new skills, methods, frameworks, or tools you used or developed
+  - [ ] Show how these can benefit future projects or others
 
 - Dependencies & Coordination
-  [ ] Describe key dependencies on systems, teams, or processes
-  [ ] Explain how you managed them to achieve success
+  - [ ] Describe key dependencies on systems, teams, or processes
+  - [ ] Explain how you managed them to achieve success
 
 - Impact Beyond the Obvious
-  [ ] Highlight outcomes beyond immediate metrics (secondary benefits, efficiency gains, knowledge transfer)
+  - [ ] Highlight outcomes beyond immediate metrics (secondary benefits, efficiency gains, knowledge transfer)
 ** Regular Runbook
 - **Quick Daily Routine**
   - Morning (5 min): Check what you worked on yesterday → pick one update to share that shows impact + learning.
@@ -294,7 +293,8 @@ For each interaction, ask yourself:
 Connecting better at work is a deliberate practice. It’s about **building trust**, **engaging meaningfully**, and **adding value consistently**.
 
 At the end of every week, pause and ask: **Who did I understand better, help, or stay connected with, and how can I make next week even stronger?**
-* EQ management                                                    :noexport:
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* EQ management & handle difficult conversations                   :noexport:
 * Improve tech lead mindsets
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-mindset-with-ai
@@ -356,3 +356,4 @@ Top skills
 - Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
 - Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
+

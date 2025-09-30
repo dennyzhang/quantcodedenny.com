@@ -131,7 +131,7 @@ how to interact in the world
 - 生活要做减法
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
-* Look Better At Work: Daily Habit Runbook
+* Look Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better-daily
 :EXPORT_DATE: 2025-09-30
@@ -204,7 +204,7 @@ Looking better at work is **not superficial** — it’s telling the full story 
 3. Who do I need to involve or inform to **build credibility**?
 
 By following this **checklist + templates**, I make my work **visible, valued, and remembered** without overthinking.
-* Connect Better At Work: Daily Habit Runbook
+* Connect Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better
 :EXPORT_DATE: 2025-09-30
@@ -270,7 +270,7 @@ Use this as a quick habit tracker:
 Connecting better at work is a **skill and a habit**. Make it automatic with small, daily micro-actions: **notice, follow through, and add value**. 
 
 At the end of each week, reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
-* Stress Less, Lead Better: A Tech Lead’s EQ Playbook
+* EQ management: Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook
 :EXPORT_DATE: 2025-09-30

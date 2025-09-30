@@ -147,18 +147,78 @@ Looking better at work is not self-promotion. It’s about making your real cont
 1. **Business Value** – What tangible impact did your work have?
 - **Complexity & Learning** – What challenges did you overcome, and what did you learn?
 
+* Look Better At Work: Weekly Runbook
+:PROPERTIES:
+:EXPORT_FILE_NAME: look-better
+:EXPORT_DATE: 2025-09-30
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/look-better/
+
+** Introduction
+Working hard alone isn’t enough. Leaders and decision-makers are busy — if they don’t see your impact, it might as well not exist.
+
+Looking better at work is not self-promotion. It’s about making your real contributions visible, credible, and trusted. Focus on:
+
+- **Business Value** – What tangible impact did your work have?
+- **Complexity & Learning** – What challenges did you overcome, and what did you learn?
+
 ** Core Principles of Looking Better
-| Principle                                  | What It Means                                             | How to Apply / Examples                                                                                                                                                      |
-| ------------------------------------------ | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Make Your Impact Visible**            | Leaders care about outcomes, not effort.                  | Quantify results (dollars, time saved, efficiency), link to KPIs, compare before/after. *Example:* “Our work avoided $2M in lost revenue during peak traffic.”               |
-| **2. Highlight Complexity & Learning**     | Show hidden challenges and what you learned.              | Explain hurdles, new methods, tools, or skills. *Example:* “Cut model training costs by 30% by debugging fragmented pipelines; built reusable monitoring tools for the org.” |
-| **3. Leverage Others & Build Credibility** | Feedback from peers is more credible than self-promotion. | Share updates, recognize others, encourage allies to amplify your impact. Focus on consistent results over time.                                                             |
-** Weekly Runbook
-| Principle                                  | Daily / Weekly Actions                                                                                                                                                                 | Quick Tips                                                             |
-| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| **1. Make Your Impact Visible**            | - Reframe your latest project in **business terms**.<br>- Quantify results (dollars, time saved, efficiency).<br>- Connect outcomes to team/company KPIs.                              | Share short updates in team forums. Always link work to priorities.    |
-| **2. Highlight Complexity & Learning**     | - Note 1–2 hidden challenges or obstacles from your last project.<br>- Capture key learnings or new skills.<br>- Think about what lessons others could reuse.                          | Keep a personal log; use examples when sharing in meetings or updates. |
-| **3. Leverage Others & Build Credibility** | - Identify 1–2 allies who can amplify your work.<br>- Recognize contributions of others.<br>- Encourage peers to share positive feedback.<br>- Consistently deliver results over time. | Focus on sustained excellence, not one-off polish. Small wins matter.  |
+- **Make Your Impact Visible**
+  - What it Means: Leaders care about outcomes, not effort.
+  - How to Apply / Examples: Quantify results (dollars, time saved, efficiency), link to KPIs, compare before/after.
+    *Example:* “Our work avoided $2M in lost revenue during peak traffic.”
+
+- **Highlight Complexity & Learning**
+  - What it Means: Show hidden challenges and what you learned.
+  - How to Apply / Examples: Explain hurdles, new methods, tools, or skills.
+    *Example:* “Cut model training costs by 30% by debugging fragmented pipelines; built reusable monitoring tools for the org.”
+
+- **Leverage Others & Build Credibility**
+  - What it Means: Feedback from peers is more credible than self-promotion.
+  - How to Apply / Examples: Share updates, recognize others, encourage allies to amplify your impact. Focus on consistent results over time.
+** Project Complexity Checklist
+For each project update, ask yourself:
+
+- Challenges & Hurdles
+  [ ] Highlight major obstacles, including technical, organizational, or cross-team difficulties
+  [ ] Explain how you solved them or mitigated risks
+
+- Learning & Innovation
+  [ ] Capture new skills, methods, frameworks, or tools you used or developed
+  [ ] Show how these can benefit future projects or others
+
+- Dependencies & Coordination
+  [ ] Describe key dependencies on systems, teams, or processes
+  [ ] Explain how you managed them to achieve success
+
+- Impact Beyond the Obvious
+  [ ] Highlight outcomes beyond immediate metrics (secondary benefits, efficiency gains, knowledge transfer)
+** Regular Runbook
+- **Quick Daily Routine**
+  - Morning (5 min): Check what you worked on yesterday → pick one update to share that shows impact + learning.
+  - During the Day: Document hidden challenges, lessons learned, or ideas for improvement.
+  - End of Week (10–15 min): Identify allies, update your project impact in business terms, and plan one visible update for next week.
+
+- **Weekly Actions**
+  - Make Your Impact Visible
+    - Reframe your latest project in **business terms**
+    - Quantify results (dollars, time saved, efficiency)
+    - Connect outcomes to team/company KPIs
+    - Quick Tip: Share short updates in team forums. Always link work to priorities.
+    
+  - Highlight Complexity & Learning
+    - Note 1–2 hidden challenges or obstacles from your last project
+    - Capture key learnings or new skills
+    - Think about what lessons others could reuse
+    - Quick Tip: Keep a personal log; use examples when sharing in meetings or updates.
+    
+  - Leverage Others & Build Credibility
+    - Identify 1–2 allies who can amplify your work
+    - Recognize contributions of others
+    - Encourage peers to share positive feedback
+    - Consistently deliver results over time
+    - Quick Tip: Focus on sustained excellence, not one-off polish. Small wins matter.
 ** Common Pitfalls
 - Overdoing self-promotion can damage trust.
 - Not surfacing **business value** makes your project look like “just execution.”

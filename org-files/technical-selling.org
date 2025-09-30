@@ -138,6 +138,7 @@ how to interact in the world
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/look-better/
+
 ** Introduction
 Working hard alone isn’t enough. Leaders and decision-makers are busy — if they don’t see my impact, it might as well not exist.
 
@@ -516,6 +517,7 @@ Top skills
 - Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
 - Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
+
 
 
 

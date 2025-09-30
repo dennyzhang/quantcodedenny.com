@@ -132,29 +132,13 @@ how to interact in the world
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Look Better At Work: Weekly Runbook
+* Look Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better
 :EXPORT_DATE: 2025-09-30
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/look-better/
-** Introduction
-Working hard alone isn’t enough. Leaders and decision-makers are busy — if they don’t see your impact, it might as well not exist.
-
-Looking better at work is not self-promotion. It’s about making your real contributions visible, credible, and trusted. Focus on:
-
-1. **Business Value** – What tangible impact did your work have?
-- **Complexity & Learning** – What challenges did you overcome, and what did you learn?
-
-* Look Better At Work: Weekly Runbook
-:PROPERTIES:
-:EXPORT_FILE_NAME: look-better
-:EXPORT_DATE: 2025-09-30
-:EXPORT_HUGO_SECTION: posts
-:END:
-URL: https://quantcodedenny.com/posts/look-better/
-
 ** Introduction
 Working hard alone isn’t enough. Leaders and decision-makers are busy — if they don’t see your impact, it might as well not exist.
 
@@ -162,7 +146,6 @@ Looking better at work is not self-promotion. It’s about making your real cont
 
 - **Business Value** – What tangible impact did your work have?
 - **Complexity & Learning** – What challenges did you overcome, and what did you learn?
-
 ** Core Principles of Looking Better
 - **Make Your Impact Visible**
   - What it Means: Leaders care about outcomes, not effort.
@@ -206,13 +189,13 @@ For each project update, ask yourself:
     - Quantify results (dollars, time saved, efficiency)
     - Connect outcomes to team/company KPIs
     - Quick Tip: Share short updates in team forums. Always link work to priorities.
-    
+
   - Highlight Complexity & Learning
     - Note 1–2 hidden challenges or obstacles from your last project
     - Capture key learnings or new skills
     - Think about what lessons others could reuse
     - Quick Tip: Keep a personal log; use examples when sharing in meetings or updates.
-    
+
   - Leverage Others & Build Credibility
     - Identify 1–2 allies who can amplify your work
     - Recognize contributions of others
@@ -229,7 +212,7 @@ For each project update, ask yourself:
 Looking better at work is not superficial. It’s about telling the full story of your contributions. Use the techniques to make your **business value** and **complexity & learning** clear.
 
 At the end of every project, pause and ask: **Who needs to see this, and how can I frame it so the real impact is clear?**
-* Connect Better At Work: A Practical Runbook
+* Connect Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better
 :EXPORT_DATE: 2025-09-30

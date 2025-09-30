@@ -4,7 +4,7 @@
 #+HUGO_TAGS: engineering leadership selling
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Clarify and focus on my P0 at work
+* Focus on P0 at work
 :PROPERTIES:
 :EXPORT_FILE_NAME: clarify-p0s-at-work
 :EXPORT_DATE: 2025-09-29
@@ -131,6 +131,87 @@ how to interact in the world
 - 生活要做减法
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* Look Better At Work: Weekly Runbook
+:PROPERTIES:
+:EXPORT_FILE_NAME: look-better
+:EXPORT_DATE: 2025-09-30
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/look-better/
+** Introduction
+Working hard alone isn’t enough. Leaders and decision-makers are busy — if they don’t see your impact, it might as well not exist.
+
+Looking better at work is not self-promotion. It’s about making your real contributions visible, credible, and trusted. Focus on:
+
+1. **Business Value** – What tangible impact did your work have?
+- **Complexity & Learning** – What challenges did you overcome, and what did you learn?
+
+** Core Principles of Looking Better
+| Principle                                  | What It Means                                             | How to Apply / Examples                                                                                                                                                      |
+| ------------------------------------------ | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Make Your Impact Visible**            | Leaders care about outcomes, not effort.                  | Quantify results (dollars, time saved, efficiency), link to KPIs, compare before/after. *Example:* “Our work avoided $2M in lost revenue during peak traffic.”               |
+| **2. Highlight Complexity & Learning**     | Show hidden challenges and what you learned.              | Explain hurdles, new methods, tools, or skills. *Example:* “Cut model training costs by 30% by debugging fragmented pipelines; built reusable monitoring tools for the org.” |
+| **3. Leverage Others & Build Credibility** | Feedback from peers is more credible than self-promotion. | Share updates, recognize others, encourage allies to amplify your impact. Focus on consistent results over time.                                                             |
+** Weekly Runbook
+| Principle                                  | Daily / Weekly Actions                                                                                                                                                                 | Quick Tips                                                             |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **1. Make Your Impact Visible**            | - Reframe your latest project in **business terms**.<br>- Quantify results (dollars, time saved, efficiency).<br>- Connect outcomes to team/company KPIs.                              | Share short updates in team forums. Always link work to priorities.    |
+| **2. Highlight Complexity & Learning**     | - Note 1–2 hidden challenges or obstacles from your last project.<br>- Capture key learnings or new skills.<br>- Think about what lessons others could reuse.                          | Keep a personal log; use examples when sharing in meetings or updates. |
+| **3. Leverage Others & Build Credibility** | - Identify 1–2 allies who can amplify your work.<br>- Recognize contributions of others.<br>- Encourage peers to share positive feedback.<br>- Consistently deliver results over time. | Focus on sustained excellence, not one-off polish. Small wins matter.  |
+** Common Pitfalls
+- Overdoing self-promotion can damage trust.
+- Not surfacing **business value** makes your project look like “just execution.”
+- Not surfacing **complexity & learning** makes effort undervalued.
+- Staying invisible leads to missed recognition and opportunities.
+- Focusing on busyness instead of business impact dilutes your reputation.
+** Conclusion
+Looking better at work is not superficial. It’s about telling the full story of your contributions. Use the techniques to make your **business value** and **complexity & learning** clear.
+
+At the end of every project, pause and ask: **Who needs to see this, and how can I frame it so the real impact is clear?**
+* Connect Better At Work: A Practical Runbook
+:PROPERTIES:
+:EXPORT_FILE_NAME: connect-better
+:EXPORT_DATE: 2025-09-30
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/connect-better/
+
+Building strong, meaningful connections at work and in life is one of the most underrated skills for success. While technical expertise and performance matter, your ability to connect often determines how far your ideas travel and how much influence you have. Here’s a practical guide to "connect better," distilled into actionable steps.
+** 1. Start with Genuine Interest
+- **Listen actively**: Focus on understanding, not just replying. Ask clarifying questions, nod, and paraphrase to show attention.
+- **Notice what matters to others**: Remember small details—project priorities, personal interests, or challenges.
+- **Show curiosity**: Ask questions that invite stories rather than just facts. Example: instead of “Did the project launch?” ask “What was the most surprising challenge in the launch?”
+
+** 2. Make Your Presence Felt Positively
+- **Be approachable**: Smile, use open body language, and maintain eye contact.
+- **Communicate clearly**: Share your thoughts concisely; avoid jargon unless necessary.
+- **Be consistent**: Follow up on commitments. Reliability strengthens relationships.
+
+** 3. Create Value for Others
+- **Offer help proactively**: Look for opportunities to solve problems, share insights, or connect people.
+- **Celebrate others’ wins**: Congratulate achievements and acknowledge contributions.
+- **Share useful resources**: Articles, frameworks, or introductions that help someone grow professionally or personally.
+
+** 4. Build a Network, Not Just Contacts
+- **Focus on depth**: Prioritize meaningful relationships over the sheer number of connections.
+- **Keep in touch regularly**: Short check-ins, sharing useful updates, or asking for advice keeps the connection alive.
+- **Leverage different contexts**: Connect through work, social events, mentoring, or online communities.
+
+** 5. Reflect and Iterate
+- **Review your interactions**: After meetings or events, note what went well and what could improve.
+- **Seek feedback**: Ask trusted colleagues or friends how you come across in conversations.
+- **Adjust your approach**: Refine your style based on what resonates with others and what feels authentic.
+
+** Quick Tips
+- Remember names and use them—people love being remembered.
+- Be mindful of others’ time; keep conversations concise when appropriate.
+- Be authentic; forced connections rarely last.
+
+** Summary
+Connecting better is less about charm and more about intention. By genuinely engaging, showing value, and nurturing relationships, you amplify your influence and make your personal and professional life more rewarding. Treat connecting as a skill to practice, measure your impact, and iterate.
+
+* EQ management                                                    :noexport:
 * Improve tech lead mindsets
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-mindset-with-ai
@@ -192,127 +273,3 @@ Top skills
 - Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
 - Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
-* Look Better at Work: Make Your Impact Visible
-:PROPERTIES:
-:EXPORT_FILE_NAME: look-better
-:EXPORT_DATE: 2025-09-30
-:EXPORT_HUGO_SECTION: posts
-:END:
-URL: https://quantcodedenny.com/posts/look-better/
-** Introduction
-In most workplaces, working hard alone isn’t enough. Leaders and decision-makers are busy, and if they don’t see your impact, it’s almost as if it never happened.
-
-Patty Azzarello, in her book *Rise*, emphasizes the idea of “Look Better.” It’s not about bragging or playing politics. It’s about making sure your real contributions are visible, credible, and trusted.
-
-Two things often get lost unless you explain them:
-- **Business Value**: The tangible impact of your project on the organization.
-- **Complexity & Learning**: The challenges you overcame and skills developed.
-
-In this post, we’ll also cover practical techniques for explaining both clearly.
-** Core Principles of Looking Better
-**1. Manage Your Reputation Like a Project**
-- Your reputation is the story people tell about you when you’re not in the room.
-- Ask yourself: What three words do I want people to associate with me?
-- Make sure your daily actions reinforce that story.
-
-Example: If you want to be known as “reliable under pressure,” communicate progress early, highlight risks, and show calm problem-solving when issues arise.
-
-**2. Show Business Value, Not Just Effort**
-
-- Leaders care about outcomes, not effort.
-- Instead of: “We reduced server downtime by 10%.”
-- Say: “Our work avoided $2M in lost revenue by keeping the site up during peak traffic.”
-
-**Techniques to Explain Business Value**
-- Quantify results in dollars, time saved, or efficiency improvements.
-- Link project outcomes to company objectives or KPIs.
-- Compare current vs. previous state to illustrate impact.
-- Highlight who benefits (customers, team, or organization) and how.
-
-**3. Highlight Project Complexity & Learning**
-- Impact is often underestimated if you don’t reveal the hidden challenges.
-- Share major obstacles you overcame.
-- Emphasize new skills, frameworks, or approaches.
-- Highlight lessons learned that reduce future risks or benefit others.
-**Techniques to Explain Complexity & Learning**
-- Outline challenges that were not obvious to others.
-- Explain technical or organizational hurdles and how you solved them.
-- Share new methodologies, frameworks, or tools you developed.
-- Emphasize knowledge transfer or reuse for future projects.
-
-Example: “We cut model training costs by 30%. What’s less visible is that this required debugging fragmented pipelines across three systems. Along the way, we developed new monitoring tools that the whole org can reuse.”
-
-**4. Borrow Other People’s Voices**
-- When others talk positively about you, it carries more weight than when you do.
-- Build trust with peers and cross-functional partners.
-- Ask for feedback and encourage them to share it upward.
-- Recognize others first; reciprocity often follows.
-**5. Visibility ≠ Self-Promotion**
-- Ensure the right people understand what you’re working on and why it matters.
-- Practical habits:
-  * Share short progress updates in team forums.
-  * Connect your work to company or team priorities.
-  * Present both wins and lessons learned to build credibility.
-**6. Build Long-Term Credibility**
-
-- Credibility compounds over time.
-- Consistently deliver results paired with thoughtful communication.
-- Focus on sustained excellence, not one-off polish.
-** Common Pitfalls
-- Overdoing self-promotion can damage trust.
-- Not surfacing **business value** makes your project look like “just execution.”
-- Not surfacing **complexity & learning** makes effort undervalued.
-- Staying invisible leads to missed recognition and opportunities.
-- Focusing on busyness instead of business impact dilutes your reputation.
-** Action Steps / Checklist
-- Define 3 words you want colleagues to associate with you.
-- Reframe your latest project in **business terms** using the techniques above.
-- Write down 1–2 hidden challenges or key learnings from your last project using the **complexity & learning** techniques.
-- Identify 1–2 allies who can amplify your work.
-- Share one visible update this week that highlights both **impact** and **learning**.
-** Conclusion
-Looking better at work is not superficial. It’s about telling the full story of your contributions. Use the techniques to make your **business value** and **complexity & learning** clear.
-
-At the end of every project, pause and ask: **Who needs to see this, and how can I frame it so the real impact is clear?**
-
-* How to Connect Better: A Practical Runbook
-:PROPERTIES:
-:EXPORT_FILE_NAME: connect-better
-:EXPORT_DATE: 2025-09-30
-:EXPORT_HUGO_SECTION: posts
-:END:
-URL: https://quantcodedenny.com/posts/connect-better/
-
-Building strong, meaningful connections at work and in life is one of the most underrated skills for success. While technical expertise and performance matter, your ability to connect often determines how far your ideas travel and how much influence you have. Here’s a practical guide to "connect better," distilled into actionable steps.
-** 1. Start with Genuine Interest
-- **Listen actively**: Focus on understanding, not just replying. Ask clarifying questions, nod, and paraphrase to show attention.
-- **Notice what matters to others**: Remember small details—project priorities, personal interests, or challenges.
-- **Show curiosity**: Ask questions that invite stories rather than just facts. Example: instead of “Did the project launch?” ask “What was the most surprising challenge in the launch?”
-
-** 2. Make Your Presence Felt Positively
-- **Be approachable**: Smile, use open body language, and maintain eye contact.
-- **Communicate clearly**: Share your thoughts concisely; avoid jargon unless necessary.
-- **Be consistent**: Follow up on commitments. Reliability strengthens relationships.
-
-** 3. Create Value for Others
-- **Offer help proactively**: Look for opportunities to solve problems, share insights, or connect people.
-- **Celebrate others’ wins**: Congratulate achievements and acknowledge contributions.
-- **Share useful resources**: Articles, frameworks, or introductions that help someone grow professionally or personally.
-
-** 4. Build a Network, Not Just Contacts
-- **Focus on depth**: Prioritize meaningful relationships over the sheer number of connections.
-- **Keep in touch regularly**: Short check-ins, sharing useful updates, or asking for advice keeps the connection alive.
-- **Leverage different contexts**: Connect through work, social events, mentoring, or online communities.
-
-** 5. Reflect and Iterate
-- **Review your interactions**: After meetings or events, note what went well and what could improve.
-- **Seek feedback**: Ask trusted colleagues or friends how you come across in conversations.
-- **Adjust your approach**: Refine your style based on what resonates with others and what feels authentic.
-
-** Quick Tips
-- Remember names and use them—people love being remembered.
-- Be mindful of others’ time; keep conversations concise when appropriate.
-- Be authentic; forced connections rarely last.
-
-** Summary
-Connecting better is less about charm and more about intention. By genuinely engaging, showing value, and nurturing relationships, you amplify your influence and make your personal and professional life more rewarding. Treat connecting as a skill to practice, measure your impact, and iterate.

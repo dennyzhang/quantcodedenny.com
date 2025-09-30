@@ -275,7 +275,6 @@ Looking better at work is not superficial. It’s about telling the full story o
 
 At the end of every project, pause and ask: **Who needs to see this, and how can I frame it so the real impact is clear?**
 
-
 * How to Connect Better: A Practical Runbook
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better

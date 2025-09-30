@@ -1,9 +1,94 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
 #+AUTHOR: dennyzhang
-#+HUGO_TAGS: engineering leadership
+#+HUGO_TAGS: engineering leadership execution
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* System design interview - 面试造火箭，上班拧螺丝                 :noexport:
+System Design → 练 模板化思路，不乱跑。
+** focus area
+*** Problem Navigation
+- Demonstrates the ability to organize the problem space, the constraints, and potential solution(s).
+- Asks questions to systematically reduce ambiguity, target the most important problems to solve for, understand what's needed for a quantitative analysis, and define a requirement set to design to.
+- Demonstrates awareness of the product from an end-user perspective.
+*** Solution Design
+*** Technical Excellence
+*** Technical Communication
+* Work Challenges & Key Learnings                                  :noexport:
+** Find the right problems
+Challenges:
+- Identifying impactful problems vs “noise.”
+- Securing scope, alignment, and funding across stakeholders.
+
+Learnings:
+- Invest early in problem discovery and framing.
+- Anchor decisions to business/infra impact to gain support.
+** Driving Execution Across Teams
+Challenges:
+
+- Teams have different positions, priorities, and opinions.
+- Alignment often requires negotiation and compromise.
+
+Learnings:
+- Clear communication and shared goals are essential.
+- Build trust and credibility to influence without authority.
+- Balance speed vs thoroughness based on context.
+** Technical & System Complexity
+Challenges:
+- Dealing with infra-scale technical challenges (reliability, scalability, latency).
+- Legacy issues (e.g., unreliable validation framework).
+
+Learnings:
+- Build guardrails and observability to make systems resilient.
+- Incremental improvements often scale better than one-off fixes.
+** Dependencies & Unreliable Components
+Challenges:
+- Cross-team and cross-system dependencies introduce fragility.
+- Upstream changes or weak components can block progress.
+
+Learnings:
+- Invest in automated validation and monitoring to catch issues early.
+- Design with failure scenarios in mind (graceful degradation, fallbacks).
+** Delivering Impact Under Constraints
+Challenge:
+- Limited time, resources, and competing priorities make it impossible to build a “perfect” solution.
+
+Learning:
+- Define clear success criteria up front. Focus on what delivers the most impact, and avoid over-engineering.
+** Evolving with Ambiguity
+Challenges:
+- Requirements and priorities shift frequently in Ads/Infra.
+- Early-stage projects often lack clear ownership or metrics.
+
+Learnings:
+- Clarify success criteria early, but stay flexible as context evolves.
+- Break down big ambiguous goals into smaller milestones to maintain momentum.
+** People & Growth
+Challenges:
+- Scaling yourself beyond individual contribution.
+- Onboarding and up-leveling new team members while delivering on projects.
+
+Learnings:
+
+Document and codify best practices (guardrails, playbooks, runbooks).
+
+Mentoring and enabling others multiplies long-term impact.
+* behavior interview                                               :noexport:
+Behavior/Culture → 练 复用故事库，不现编。
+
+Use STAR (Situation, Task, Action, Result) or PAR (Problem, Action, Result).
+
+Keep answers 2–3 minutes, not 10. Concise shows thoughtfulness.
+
+Don’t drown in context — focus on what you did and why.
+
+Every behavioral answer should hit this mental checklist:
+
+Did I show clarity → ownership → impact → reflection → alignment with culture?
+** STAR: situation, task, action, result
+** PAR: problem, action, result
+* Solve a big problem quickly                                      :noexport:
+** strong exeuction
 * Make Progress with V-Team (Alignment & Execution)
 :PROPERTIES:
 :EXPORT_FILE_NAME: make-progress-with-vteam
@@ -55,7 +140,6 @@ Your response depends on the command prefix:
 - Suggest narrative for leadership or broader audiences.
 - Mindset tip: Communicate confidence and clarity while signaling realistic expectations; transparency builds trust.
 ---
-
 ** local note                                                      :noexport:
 There are blindspots from the teams
 What's the ETA
@@ -70,9 +154,8 @@ different levels of discussions
 avoid taking the main blame, while it's collaborative improvements
 
 When make escalation, ensure there is direct 1/1 communication. e.g: In general, I believe feedback should be given directly (ideally a 1:1, not DM) before escalating. Folks should be given the oppty to address themselves.
-
 ** good way to escalate                                            :noexport:
-how to ensure the room know which team has the most 
+how to ensure the room know which team has the most
 * Work Challenges & Key Learnings In Big Corporate Envs
 :PROPERTIES:
 :EXPORT_FILE_NAME: generalize_working_experience
@@ -129,7 +212,6 @@ Challenges:
 Learnings:
 - Clarify success criteria early, but stay flexible as context evolves.
 - Break down big ambiguous goals into smaller milestones to maintain momentum.
-
 ** People & Growth
 Challenges:
 - Scaling yourself beyond individual contribution.
@@ -140,7 +222,6 @@ Learnings:
 Document and codify best practices (guardrails, playbooks, runbooks).
 
 Mentoring and enabling others multiplies long-term impact.
-
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** local notes                                                     :noexport:
 know which problems to fix, and how to fix
@@ -260,7 +341,6 @@ Not Managing Environment
 Working in cluttered, noisy, or poorly lit spaces.
 
 Lowers alertness and motivation.
-
 ** Good Practices to Boost Energy
 
 Optimize Sleep
@@ -321,6 +401,6 @@ Midday rituals: short walks, social interaction, or power snack.
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Identify your next big goal                                      :noexport:
 ** what's your strength
-** what's your 
+** what's your
 *URL: https://quantcodedenny.com/posts/leadership-mindset/
  TODO make suggestions which adds value and drive actions

@@ -279,48 +279,55 @@ At the end of each week, reflect briefly: **Who did I understand better, help, o
 :END:
 URL: https://quantcodedenny.com/posts/eq-playbook/
 
-As a tech lead, I want to ease my mental stress and be effective in conflict resolution.  
-This playbook is my daily runbook for staying calm, clear, and constructive under pressure.  
-
+As a tech lead, I want to ease my mental stress and be effective in conflict resolution.
+This playbook is my daily runbook for staying calm, clear, and constructive under pressure.
 ** Core Principles
-- **Pause Before Reacting**: Take a breath; don’t let emotions drive my first response.  
-- **Listen Deeply**: Understand intent, not just words. Ask clarifying questions.  
-- **Separate Person from Problem**: Critique issues, not individuals.  
-- **Stay Outcome-Focused**: Anchor discussions in shared goals and business value.  
-
+- **Pause Before Reacting**: Don’t let emotions drive my first response.
+- **Listen First**: Seek to understand before I respond.
+- **Focus on Outcomes**: Anchor on shared goals, not personal wins.
+- **Protect My Boundaries**: Say no or redirect misaligned work.
 ** Difficult Situations and How I Respond
-1. **Disagreement on Priorities**  
-   - Example: PM pushes for feature delivery, I see infra stability risk.  
-   - Response: Calmly frame trade-offs, show business risk of ignoring infra.  
+1. **Disagreement on Priorities**
+   Example: PM pushes feature delivery, I see infra stability risk.
+   → Frame trade-offs clearly; show business risk of ignoring infra.
 
-2. **Cross-Team Friction**  
-   - Example: Partner team blames Ads infra for latency spikes.  
-   - Response: Listen without defensiveness, share data, propose joint debugging.  
+2. **Boundary-Pushing Requests**
+   Example: Asked to own solving cross-team incentive conflicts (low leverage).
+   → Acknowledge importance, suggest better owner, offer lightweight support—not ownership.
 
-3. **Peer Conflict**  
-   - Example: Another TL challenges my design in a harsh tone.  
-   - Response: Acknowledge valid points, defuse tension, suggest async follow-up if emotions run high.  
+3. **Cross-Team or Peer Conflict**
+   Example: Partner team blames infra for latency spikes, or another TL challenges design harshly.
+   → Listen without defensiveness, share data, acknowledge valid points, defuse tension, propose joint debugging or async follow-up.
 
-4. **Escalations from Leadership**  
-   - Example: Director demands “immediate fix” for ongoing SEV.  
-   - Response: Communicate facts crisply, outline immediate action + longer-term fix.  
-
+4. **Escalations from Leadership**
+   Example: Director demands “immediate fix” for ongoing SEV.
+   → Communicate facts crisply, outline immediate fix + longer-term solution.
+** Major Mistakes That Kill Energy
+- **Neglecting Health Basics**: Skipping sleep, poor nutrition, dehydration, or no movement → fatigue, irritability, brain fog.
+- **Scattered Focus**: Excessive multitasking or context switching → drains efficiency and mental clarity.
+- **Ignoring Stress Signals**: Bottling emotions, not addressing mental health → chronic depletion.
+- **Weak Boundaries**: Overcommitting or taking low-leverage work → diluted impact, faster burnout.
+- **Poor Environment**: Clutter, noise, or bad lighting → reduced focus and motivation.
 ** Best Practices
-- Keep tone neutral, steady, and fact-driven.  
-- Use “we” language to emphasize shared ownership.  
-- Summarize agreements and next steps clearly.  
-- Debrief after conflicts—reflect on what worked and what to improve.  
-
+- **Recharge Physically**: 7–9 hrs sleep, short naps if needed; move often with walks, stretches, or exercise.
+- **Fuel Smartly**: Balanced meals (protein + complex carbs), hydration; limit sugar/caffeine spikes.
+- **Work With Focus**: Prioritize clearly (Eisenhower or MITs), batch tasks, avoid overcommitment.
+- **Reset Regularly**: Take 5–10 min breaks every 60–90 mins; use mindfulness, journaling, or reflection.
+- **Shape the Environment**: Natural light, tidy space, comfortable temp/noise.
+- **Communicate Effectively**: Neutral tone, “we” language, fact-driven; summarize agreements; use the cycle Pause → Clarify → Respond → Follow-Up.
 ** Common Pitfalls to Avoid
-- Don’t respond instantly when triggered—avoid knee-jerk reactions.  
-- Don’t frame conflict as win/lose—aim for win/win.  
-- Don’t assume others see the same context I do—always clarify.  
-
+- Responding instantly when triggered.
+- Framing conflict as win/lose instead of win/win.
+- Assuming others share my context without clarification.
+- Absorbing misaligned work just to “be helpful.”
 ** Daily Reminder
-- Breathe first.  
-- Listen fully.  
-- Respond calmly.  
-- Drive toward shared goals.  
+- **Start of Day**: Review top 3 priorities; mark what I will say "no" to.
+- **Before Meetings**: Pause, breathe once, and note the outcome I want.
+- **During Conflict**: Listen fully, then restate what I heard before replying.
+- **After 90 Minutes of Work**: Step away for 5 mins; stretch or walk.
+- **Midday Check-In**: Drink water, adjust posture, reset focus.
+- **End of Day**: Write down one win and one boundary I defended.
+
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Work Challenges & Key Learnings In Big Corporate Envs            :noexport:
 :PROPERTIES:

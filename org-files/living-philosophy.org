@@ -19,10 +19,9 @@ My role: tech lead for ML infra
 2. Work should **minimize mental stress** for well-being
 
 **Core Strengths**
-1. **Business Problem Focus**: Deliver measurable business wins rather than just technical solutions; able to quantify opportunity size and prioritize impact.
-2. **Cross-Team Execution**: Drive initiatives across multiple teams, aligning stakeholders to achieve shared goals efficiently.
-3. **End-to-End Ownership**: Take full responsibility for projects from conception to delivery; trusted by cross-functional partners to execute reliably.
-4. **Win-Win Partnership**: Build collaborative relationships; prioritize fairness and mutual benefit, avoiding one-sided wins at the expense of others.
+1. **Business Impact Focus**: Deliver measurable business wins rather than just technical solutions; able to quantify opportunity size and prioritize impact.
+2. **End-to-End Ownership & Cross-Team Influence**: Take full responsibility for projects from conception to delivery; Align and drive multiple teams efficiently to achieve shared goals.
+3. **Collaborative & Fair Partnership**: Build strong, trust-based relationships; Influence without creating friction, ensuring mutually beneficial outcomes.
 
 **Success Stories**
 1. **Feature Deprecation & Bad feature governance**

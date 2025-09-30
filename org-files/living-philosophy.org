@@ -25,21 +25,25 @@ My role: tech lead for ML infra
 
 **Success Stories**
 1. **Feature Deprecation & Bad feature governance**
+    - Core Strength Demonstrated: Business Problem Focus
     - Challenge: Legacy and unused features caused inefficiencies and stale data risks.
     - Action: Built a reliable feature usage lineage table, automated cleanup, and implemented rapid mitigation plans.
     - Impact: Reduced stale features by X%, minimized downstream errors, and saved engineers’ time.
 
 2. **Feature Metadata Service**
+    - Core Strength Demonstrated: End-to-End Ownership & Cross-Team Influence
     - Challenge: Lack of a single source of truth (SoT) for feature metadata made management and discovery difficult.
     - Action: Built a centralized feature metadata service covering both static and runtime metadata.
     - Impact: Enabled consistent feature management, improved discoverability, and reduced errors in feature usage across multiple ML teams.
 
 3. **End-to-End Feature Infra Monitoring**
+    - Core Strength Demonstrated: End-to-End Ownership & Cross-Team Influence
     - Challenge: Monitoring was fragmented across feature generation, serving, and model evaluation.
     - Action: Designed and implemented a comprehensive monitoring framework covering generating, serving, and model sides.
     - Impact: Enabled early detection of issues, reducing pipeline downtime and improving overall feature reliability.
 
 4. **Data Pipeline Push at Scale**
+    - Core Strength Demonstrated: Collaborative & Fair Partnership
     - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
     - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
     - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.

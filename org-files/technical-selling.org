@@ -14,7 +14,7 @@ URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** My Goal
 I establish myself as a tech lead in ML infra with two main goals:
 1. Work with **market value** — skills and outcomes recognized externally for career mobility.
-2. Minimize **mental stress** — maintain well-being while delivering impact.
+2. Minimize **mental stress** — maintain well-being while delivering impact. More reading: [[https://quantcodedenny.com/posts/eq-playbook/][stress less, lead better]].
 ** My Core Strengths
 1. **Focus On Business Impact**: Deliver measurable business wins; prioritize high-impact opportunities.
 2. **Strong Ownership**: Own projects end-to-end and drive outcomes across teams.
@@ -252,7 +252,7 @@ Each day, I focus on **one key action**:
 Connecting better at work is both a **skill and a habit**. I make it automatic with **one simple action per day**: **notice, add value, or follow through**.  
 
 At the end of each week, I reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
-* EQ management: Stress Less, Lead Better
+* EQ Management: Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook
 :EXPORT_DATE: 2025-09-30

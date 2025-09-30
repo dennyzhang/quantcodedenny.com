@@ -133,7 +133,7 @@ how to interact in the world
 - minimalist can improve your freedom
 * Look Better At Work
 :PROPERTIES:
-:EXPORT_FILE_NAME: look-better-daily
+:EXPORT_FILE_NAME: look-better
 :EXPORT_DATE: 2025-09-30
 :EXPORT_HUGO_SECTION: posts
 :END:

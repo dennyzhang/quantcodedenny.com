@@ -159,7 +159,57 @@ how to interact in the world
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/look-better/
+** Introduction
+In most workplaces, working hard alone isn’t enough. Leaders and decision-makers are busy,
+and if they don’t see your impact, it’s almost as if it never happened.
 
+This is why Patty Azzarello, in her book *Rise*, emphasizes the idea of “Look Better.”
+It’s not about bragging or playing politics. It’s about making sure your real contributions
+are visible, credible, and trusted.
+** Core Principles of Looking Better
+** Manage Your Reputation Like a Project
+Your reputation is the story people tell about you when you’re not in the room.
+Don’t leave it to chance.
+- Ask yourself: What three words do I want people to associate with me?
+- Make sure your daily actions reinforce that story.
+
+Example: If you want to be known as “reliable under pressure,” communicate progress early,
+highlight risks, and show calm problem-solving when issues arise.
+** Show Business Value, Not Just Effort
+Leaders care about outcomes, not effort.
+- Instead of: “We reduced server downtime by 10%.”
+- Say: “Our work avoided $2M in lost revenue by keeping the site up during peak traffic.”
+
+The same work—framed differently—can shift how people perceive your value.
+** Borrow Other People’s Voices
+When others talk positively about you, it carries more weight than when you do.
+- Build trust with peers and cross-functional partners.
+- Ask for feedback and encourage them to share it upward.
+- Recognize others first; reciprocity often follows.
+** Visibility ≠ Self-Promotion
+Visibility means ensuring the right people understand what you’re working on and why it matters.
+Practical habits:
+- Share short progress updates in team forums.
+- Connect your work to company or team priorities.
+- Present both wins and lessons learned to build credibility.
+** Build Long-Term Credibility
+Credibility compounds over time. People trust and invest in those who deliver consistently.
+This is not about one-off polish but about years of reliable delivery paired with thoughtful communication.
+** Common Pitfalls
+- Overdoing self-promotion can damage trust.
+- Staying invisible leads to missed recognition and opportunities.
+- Focusing on busyness instead of business impact dilutes your reputation.
+** Action Steps / Checklist
+- Define 3 words you want colleagues to associate with you.
+- Reframe your latest project in business terms.
+- Identify 1–2 allies who can amplify your work.
+- Share one visible update this week that ties your work to larger goals.
+** Conclusion
+Looking better at work is not superficial. It’s about making sure your hard work
+shines through the noise of a busy workplace.
+
+At the end of every project, pause and ask:
+*Who needs to see this, and how can I frame it so the real impact is clear?*
 * Improve tech lead mindsets
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-mindset-with-ai

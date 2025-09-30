@@ -147,18 +147,15 @@ Looking better at work is not self-promotion. It’s about making your real cont
 - **Complexity & Learning** – What challenges did you overcome, and what did you learn?
 ** Core Principles of Looking Better
 - **Make Your Impact Visible**
-  - What it Means: Leaders care about outcomes, not effort.
-  - How to Apply / Examples: Quantify results (dollars, time saved, efficiency), link to KPIs, compare before/after.
+  - Focus on outcomes, not effort. Quantify results in dollars, time, or efficiency and link to KPIs.
   - *Example:* “Our work avoided $2M in lost revenue during peak traffic.”
 
 - **Highlight Complexity & Learning**
-  - What it Means: Show hidden challenges and what you learned.
-  - How to Apply / Examples: Explain hurdles, new methods, tools, or skills.
+  - Show the challenges you overcame and what you learned. Emphasize new skills, methods, or tools that improve future work.
   - *Example:* “Cut model training costs by 30% by debugging fragmented pipelines; built reusable monitoring tools for the org.”
 
 - **Leverage Others & Build Credibility**
-  - What it Means: Feedback from peers is more credible than self-promotion.
-  - How to Apply / Examples: Share updates, recognize others, encourage allies to amplify your impact. Focus on consistent results over time.
+  - Feedback from peers is more credible than self-promotion. Share updates, recognize others, and encourage allies to amplify your impact. Consistency over time builds lasting credibility.
 ** Project Complexity Checklist
 For each project update, ask yourself:
 
@@ -356,4 +353,5 @@ Top skills
 - Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
 - Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
+
 

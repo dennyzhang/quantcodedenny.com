@@ -76,6 +76,7 @@ My role: tech lead for ML infra
 2. Avoid Unconscious Overcommitment
 3. Focus on High-Leverage Work
 4. Generalize and Share Knowledge
+5. Collaborate wth different types of people effectively
 ** Key principles to navigate corporates
 1. **Make Value Visible**: Only measurable wins are recognized; ensure your impact is quantified and communicated.
 2. **Align and Advocate**: Ownership and influence depend on stakeholder alignment and proactive advocacy.

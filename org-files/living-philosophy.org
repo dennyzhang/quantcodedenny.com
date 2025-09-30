@@ -16,15 +16,15 @@ My role: tech lead for ML infra
 
 **Goals**
 1. Work should have **market value** — skills and outcomes are recognized externally for future career mobility
-2. Work should **minimize mental stress** for well-being
+2. Work should minimize **mental stress** for well-being
 
 **Core Strengths**
 1. **Business Impact Focus**: Deliver measurable business wins rather than just technical solutions; able to quantify opportunity size and prioritize impact.
-2. **End-to-End Ownership & Cross-Team Influence**: Take full responsibility for projects from conception to delivery; Align and drive multiple teams efficiently to achieve shared goals.
-3. **Collaborative & Fair Partnership**: Build strong, trust-based relationships; Influence without creating friction, ensuring mutually beneficial outcomes.
+2. **Execution Ownership**: Take full responsibility for projects and driving outcomes.
+3. **Collaborative Influence**: Builds trust-based relationships, aligns stakeholders, and ensures mutually beneficial outcomes without creating friction.
 
 **Success Stories**
-1. **Feature Deprecation & Bad feature governance**
+1. **Feature Cleanup & Bad Feature Governance**
     - Core Strength Demonstrated: Business Problem Focus
     - Challenge: Legacy and unused features caused inefficiencies and stale data risks.
     - Action: Built a reliable feature usage lineage table, automated cleanup, and implemented rapid mitigation plans.
@@ -76,45 +76,44 @@ My role: tech lead for ML infra
 
 **Growth Areas**
 1. **Communicate Clearly & Persuasively**: Align teams on goals and expectations; Summarize my work’s problem, solution, and impact concisely for directors, while keeping technical credibility for peers.
-2. **Prioritize High-Leverage Work**: Focus on initiatives where my technical expertise drives measurable impact; Avoid overcommitment to low-value tasks; delegate or decline politely.
+2. **Prioritize High-Leverage Work**: Focus my technical expertise on initiatives that drive measurable impact; delegate or decline low-value work
+3. **Collaborate Effectively with Diverse Stakeholders**: Adapt communication style for different roles and personalities; Build alignment and influence without creating friction.
 4. **Generalize, Share, & Mentor**: Capture patterns across my projects and share insights to scale impact; Mentor peers and document lessons learned for team adoption.
-5. **Collaborate Effectively with Diverse Stakeholders**: Adapt communication style for different roles and personalities; Build alignment and influence without creating friction.
 ** Mitigation: Key principles to navigate corporates
-1. **Make Value Visible**: Only measurable wins are recognized; ensure your impact is quantified and communicated.
+1. **Make Value Visible**: Only measurable wins are recognized; ensure my impact is quantified and communicated.
 2. **Align and Advocate**: Ownership and influence depend on stakeholder alignment and proactive advocacy.
-3. **Prioritize High-Leverage Work**: Focus on impactful initiatives over incremental or low-visibility tasks.
-4. **Leverage Structures, Don’t Reinvent**: Use existing roles, processes, and frameworks to accelerate results instead of building from scratch.
+3. **Leverage Structures, Don’t Reinvent**: Use existing roles, processes, and frameworks to accelerate results instead of building from scratch.
 ** Mitigation: Organically improve market value
 Major pillars:
 1. **Skill Leverage**: Work on rare, transferable, high-impact skills.
 2. **Visible Impact**: Take ownership, quantify results, and share them internally.
-3. **Network & Influence**: Extend your reputation through mentoring, cross-team work, and selective external visibility.
+3. **Network & Influence**: Extend my reputation through mentoring, cross-team work, and selective external visibility.
 ** Mitigation: Lower My Mental Stress at Work
 **Two Directions**
    1. Systemic Strategies (Change the way you work)
       - Modify workflow, environment, or collaboration patterns to reduce stress triggers.
-   2. Personal Strategies (Manage your mind & energy)
+   2. Personal Strategies (Manage my mind & energy)
       - Strengthen mental and physical resilience to handle unavoidable stress effectively.
 **Guiding Principles**
-1. Focus on What Matters (Systemic)
+1. **Focus on What Matters** (Systemic)
     - Prioritize high-leverage work that aligns with goals and measurable impact.
     - Limit low-value tasks; delegate or say no where possible.
-    - Daily Check: Identify 1–3 MITs (Most Important Tasks) each week/day.
+    - **Weekly Check**: Identify 1–3 Most Important Tasks
 
-2. Protect Your Time & Energy (Systemic + Personal)
+2. **Protect My Time & Energy** (Systemic + Personal)
     - Schedule deep-work blocks and micro-breaks; batch similar tasks.
     - Set boundaries with collaborators and deadlines to reduce last-minute pressure.
-    - Daily Check: Reserve uninterrupted focus time and buffer slots for unexpected requests.
+    - **Weekly Check**: Reserve uninterrupted focus time and buffer slots for unexpected requests.
 
-3. Make Work Predictable (Systemic)
+3. **Make Work Predictable** (Systemic)
     - Document responsibilities, deadlines, and assumptions to reduce surprises.
     - Confirm expectations with stakeholders; plan for sudden changes.
-    - Daily Check: Review blockers and clarify ambiguous tasks at the start of the day.
+    - **Weekly Check**: Review blockers and clarify ambiguous tasks at the start of the day.
 
-4. Recharge Your Mind & Body (Personal)
+4. **Recharge My Mind & Body** (Personal)
     - Sleep, hydrate, eat well, and exercise to maintain baseline energy.
     - Use mental resets: short walks, breathing exercises, or journaling.
-    - Reflect on wins and challenges to improve awareness and emotional regulation.
+    - **Reflect** on wins and challenges to improve awareness and emotional regulation.
 ** Set LLM context
 I want to clarify what is truly important to me at work and identify my 3-year P0 priorities. Below is my current context.
 
@@ -132,14 +131,14 @@ Please make the output:
 - Include examples of **practical steps, metrics, or checkpoints** for each milestone
 ** 3-Year P0 Clarification Procedure                               :noexport:
 - Define the Vision
-   - Decide what success looks like in 3 years for you and your team.
+   - Decide what success looks like in 3 years for me and my team.
    - Focus on outcomes, not tasks.
 - Identify Levers
    - Find areas where focused effort now gives the biggest long-term impact.
 - Set P0 Criteria
    - Define what counts as a true long-term P0 to filter initiatives consistently.
 - Filter Workstreams
-   - Keep only initiatives that meet your P0 criteria.
+   - Keep only initiatives that meet my P0 criteria.
    - Delegate, pause, or deprioritize the rest.
 - Build the Roadmap
    - Break each P0 into multi-year milestones for strategic execution.

@@ -270,8 +270,98 @@ Use this as a quick habit tracker:
 Connecting better at work is a **skill and a habit**. Make it automatic with small, daily micro-actions: **notice, follow through, and add value**. 
 
 At the end of each week, reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
+* Stress Less, Lead Better: A Tech Lead’s EQ Playbook
+:PROPERTIES:
+:EXPORT_FILE_NAME: eq-playbook
+:EXPORT_DATE: 2025-09-30
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/eq-playbook/
+
+Reduce my mental stress while being effective in conflict resolution and influence as a tech lead. I treat this as a daily guide to improve my emotional intelligence (EQ) in interactions.
+** Morning Prep: Start Calm, Self-Aware
+*** Objective
+Set the tone for my day and recognize my emotional state.
+*** Actions
+- Take 3–5 minutes to reflect: "What situations today might trigger stress or frustration?"
+- Rate my energy/stress level from 1–10.
+- Pick one small EQ focus for the day (e.g., patience, listening, managing reaction).
+*** LLM Reinforcement
+- Quickly journal reflections via a prompt like:
+  "I feel [emotion] this morning. Today, I will practice [EQ skill] in these situations: …"
+- I can use LLM to summarize and remind me of my focus mid-day.
+** Self-Regulation During Work
+*** Objective
+Avoid reactive responses and maintain composure in meetings or discussions.
+*** Actions
+- Pause before responding: count 3–5 breaths.
+- Mentally separate facts from emotions:
+  - Facts = observable data, decisions, behaviors
+  - Emotions = my reaction, others’ inferred feelings
+- Use neutral language when replying to challenging messages or threads.
+*** LLM Reinforcement
+- Draft replies to sensitive messages in LLM first. Check for tone, clarity, and emotional neutrality.
+*** Best Practice
+Neutral, factual framing reduces escalation.
+*** Caveat
+Over-relying on drafting via LLM can feel inauthentic. I use it as a guide, not a crutch.
+** Active Listening & Empathy
+*** Objective
+Understand perspectives of peers, ICs, or managers without judgment.
+*** Actions
+- In discussions, ask clarifying questions:
+  - "Can you walk me through your thinking?"
+  - "What’s your main concern here?"
+- Repeat back or summarize to confirm understanding.
+*** LLM Reinforcement
+- After meetings, jot key perspectives into LLM:
+  "Summarize the concerns of team members in today’s discussion."
+- Identify hidden pain points or misalignments.
+*** Best Practice
+Listening first builds trust and reduces friction.
+*** Caveat
+I don’t over-analyze; I trust my instinct after hearing key points.
+** Handling Difficult Situations
+*** Objective
+Resolve conflicts without escalating stress or damaging relationships.
+*** Step-by-Step Daily Framework
+1. Pause & Assess — recognize emotions in myself and others.
+2. Clarify Facts — separate actual issues from assumptions.
+3. Respond Strategically — focus on solutions, not blame.
+4. Follow-Up — confirm understanding, reinforce agreements.
+*** LLM Reinforcement
+- I can practice scenario-based rehearsal with LLM:
+  "How would I respond to a peer who missed a deadline, keeping calm and constructive?"
+- I review my phrasing or approach before sending critical messages.
+*** Best Practice
+Focus on desired outcomes, not past mistakes.
+*** Caveat
+Avoid over-preparing; some real-time adaptation is inevitable.
+** End-of-Day Reflection
+*** Objective
+Learn from the day, reinforce my EQ growth.
+*** Actions
+- Spend 5 minutes noting:
+  - One moment I handled well
+  - One moment I could improve
+  - One concrete action for tomorrow
+- Rate my stress and confidence level compared to morning.
+*** LLM Reinforcement
+- Ask LLM to summarize:
+  "Given my reflections, what small adjustments can I make for tomorrow to reduce stress and improve conflict handling?"
+*** Best Practice
+Daily reflection creates incremental improvement.
+*** Caveat
+I avoid over-judgment—focus on patterns, not perfection.
+** Key Principles to Remember
+1. Pause, then act: reaction ≠ response.
+2. Focus on influence, not authority: I lead by example.
+3. Empathy first: understanding others reduces stress and conflict.
+4. Micro-practice works: small daily actions compound over time.
+5. Use LLM as coach, not replacement: helps reinforce clarity and EQ habits.
+** Summary
+This runbook makes EQ management practical and low-effort. I integrate it seamlessly into my day. Over time, my stress reduces, conflict handling improves, and my influence grows—even without formal managerial authority.
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* EQ management & handle difficult conversations                   :noexport:
 * Work Challenges & Key Learnings In Big Corporate Envs            :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: generalize_working_experience

@@ -230,35 +230,35 @@ Connecting better at work is not networking for appearances. It’s about **buil
 - **Be Intentional in Interactions**
   - What it Means: Every conversation is an opportunity to understand, help, or influence.
   - How to Apply / Examples: Ask open-ended questions, listen actively, remember details.
-    *Example:* “Noticed you struggled with X last week—how did the fix go?”
+  - *Example:* “Noticed you struggled with X last week—how did the fix go?”
 
 - **Build Trust Through Reliability**
   - What it Means: Follow through on commitments; be consistent and dependable.
   - How to Apply / Examples: Share realistic timelines, deliver on promises, admit mistakes when needed.
-    *Example:* “I’ll help test the new pipeline by Friday—if there’s a change, I’ll update you early.”
+  - *Example:* “I’ll help test the new pipeline by Friday—if there’s a change, I’ll update you early.”
 
 - **Create Value for Others**
   - What it Means: Relationships deepen when you help others succeed.
   - How to Apply / Examples: Offer insights, make introductions, celebrate successes, share resources.
-    *Example:* “I saw an article on performance tuning that might help your model—thought you’d find it useful.”
+  - *Example:* “I saw an article on performance tuning that might help your model—thought you’d find it useful.”
 ** Relationship Checklist
 For each interaction, ask yourself:
 
 - Engagement & Understanding
-  [ ] Did I listen actively and ask thoughtful questions?
-  [ ] Did I learn something about their priorities or challenges?
+  - [ ] Did I listen actively and ask thoughtful questions?
+  - [ ] Did I learn something about their priorities or challenges?
 
 - Trust & Reliability
-  [ ] Did I follow through on commitments?
-  [ ] Was I transparent about what I could realistically deliver?
+  - [ ] Did I follow through on commitments?
+  - [ ] Was I transparent about what I could realistically deliver?
 
 - Value Creation
-  [ ] Did I share resources, ideas, or introductions that help them?
-  [ ] Did I recognize or celebrate their achievements?
+  - [ ] Did I share resources, ideas, or introductions that help them?
+  - [ ] Did I recognize or celebrate their achievements?
 
 - Depth & Continuity
-  [ ] Am I maintaining regular touchpoints (not just one-off meetings)?
-  [ ] Did I document key insights for follow-up next week?
+  - [ ] Am I maintaining regular touchpoints (not just one-off meetings)?
+  - [ ] Did I document key insights for follow-up next week?
 ** Regular Runbook
 - **Quick Daily Routine**
   - Morning (5 min): Identify one person to check in with or offer help.

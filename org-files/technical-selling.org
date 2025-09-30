@@ -142,17 +142,17 @@ URL: https://quantcodedenny.com/posts/look-better/
 ** Introduction
 Working hard alone isn’t enough. Leaders and decision-makers are busy — if they don’t see my impact, it might as well not exist.
 
-Looking better at work is not self-promotion. It’s about making my contributions **visible, credible, and trusted**. I focus on:
+Looking better at work is not self-promotion. It’s about making my contributions **visible, credible, and trusted**. I focus on three things:
 
-- **Business Impact** – What tangible results did my work achieve?  
+- **Business Impact** – What tangible results did I achieve?  
 - **Complexity & Learning** – What challenges did I overcome, and what did I learn?  
 - **Credibility** – Did the right people notice my work, and did I involve or acknowledge others?
 
-This post provides a **daily-ready framework** so I can apply these principles with minimal thinking.
+This post gives me a **daily-ready framework** to apply these principles with minimal thinking.
 
-** Core Principles (The 3-Minute Shortcut)
+** Core Principles (3-Minute Shortcut)
 - **Impact First**
-  - I share results, not effort. I quantify outcomes (dollars, time, efficiency) and link to team or company goals.
+  - I focus on results, not effort. I quantify outcomes (dollars, time, efficiency) and link them to team or company goals.
   - *Template:* “By doing X, I [saved $Y / improved efficiency by Z% / avoided a risk].”
 
 - **Complexity & Learning**
@@ -163,38 +163,38 @@ This post provides a **daily-ready framework** so I can apply these principles w
   - Feedback from peers is more credible than self-promotion. I share updates, recognize others, and ensure the right people see my work.
   - *Template:* “Thanks to [ally/team], I achieved this result. I shared the approach with [stakeholders].”
 
-** Project Complexity Checklist (Condensed)
+** Project Complexity Checklist
 - **Challenges & Hurdles**
-  - [ ] I highlight major obstacles (technical, organizational, cross-team)
-  - [ ] I explain how I solved them or mitigated risks
+  - [ ] I highlight major obstacles (technical, organizational, cross-team)  
+  - [ ] I explain how I solved them or mitigated risks  
 
 - **Learning & Innovation**
-  - [ ] I capture new skills, methods, frameworks, or tools
-  - [ ] I show how they benefit future projects or others
+  - [ ] I capture new skills, methods, frameworks, or tools  
+  - [ ] I show how they benefit future projects or others  
 
 - **Dependencies & Coordination**
-  - [ ] I note key dependencies and how I managed them
+  - [ ] I note key dependencies and how I managed them  
 
 - **Secondary Impact**
-  - [ ] I highlight outcomes beyond immediate metrics (efficiency gains, knowledge transfer)
+  - [ ] I highlight outcomes beyond immediate metrics (efficiency gains, knowledge transfer)  
 
 ** Daily & Weekly Runbook
 - **Daily (2–5 min)**
-  - I pick yesterday’s work. I apply the **Impact → Complexity → Credibility** flow.  
-  - I fill the templates with minimal thinking.  
+  - I pick yesterday’s work and apply the **Impact → Complexity → Credibility** flow.  
+  - I fill the templates quickly.  
   - Optional: I note challenges or insights in a personal log.
 
 - **Weekly (10–15 min)**
-  - I review my log. I pick 1–2 visible achievements.  
+  - I review my log and pick 1–2 visible achievements.  
   - I share a structured update using templates with my manager, team, or cross-functional stakeholders.  
   - I identify allies who can amplify my impact.
 
 ** Common Pitfalls
-- Overdoing self-promotion damages trust.
-- Not surfacing **business value** makes my work look like mere execution.
-- Not surfacing **complexity & learning** undervalues effort.
-- Staying invisible leads to missed recognition and opportunities.
-- Focusing on busyness instead of impact dilutes my reputation.
+- Overdoing self-promotion damages trust.  
+- Not surfacing **business value** makes my work look like mere execution.  
+- Not surfacing **complexity & learning** undervalues my effort.  
+- Staying invisible leads to missed recognition and opportunities.  
+- Focusing on busyness instead of impact dilutes my reputation.  
 
 ** Conclusion
 Looking better at work is **not superficial** — it’s telling the full story of my contributions.  
@@ -205,6 +205,7 @@ Looking better at work is **not superficial** — it’s telling the full story 
 3. Who do I need to involve or inform to **build credibility**?
 
 By following this **checklist + templates**, I make my work **visible, valued, and remembered** without overthinking.
+
 * Connect Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better
@@ -213,16 +214,16 @@ By following this **checklist + templates**, I make my work **visible, valued, a
 :END:
 URL: https://quantcodedenny.com/posts/connect-better/
 ** Introduction
-Doing great work is only part of success. Your influence grows when others know, trust, and rely on you. 
+Doing great work is only part of success. My influence grows when others know, trust, and rely on me. 
 
-Connecting better at work becomes powerful when it’s a **daily habit** — small, consistent actions that build trust, relationships, and impact automatically. Focus on:
+Connecting better at work is most powerful when it becomes a **daily habit** — small, consistent actions that naturally build trust, relationships, and impact. I focus on:
 
 - **Notice & Ask** – Understand others’ priorities and challenges.
 - **Follow Through** – Be reliable; keep commitments and communicate proactively.
 - **Add Value** – Offer help, share resources, or recognize achievements.
 
 ** Daily Habits for Connecting Better
-These micro-actions can be applied in any conversation or interaction:
+I can apply these micro-actions in any conversation or interaction:
 
 - **Notice & Ask**
   - Ask one thoughtful, open-ended question per interaction.
@@ -237,7 +238,7 @@ These micro-actions can be applied in any conversation or interaction:
   - Celebrate one person’s achievement or contribution.
 
 ** Daily Connection Checklist
-Use this as a quick habit tracker:
+I use this as a quick habit tracker:
 
 - [ ] Asked at least one thoughtful question today
 - [ ] Followed through on at least one commitment
@@ -255,8 +256,8 @@ Use this as a quick habit tracker:
 - Plan 1–2 simple connection actions for next week
 
 ** Quick Tips for Habits
-- Notice small things about colleagues’ work — even a minor update counts.
-- Keep all notes in one place (digital or notebook) for easy follow-up.
+- Notice small things about colleagues’ work — even minor updates count.
+- Keep notes in one place (digital or notebook) for easy follow-up.
 - Short, consistent actions beat rare grand gestures.
 - Focus on **helping others achieve their goals**, not just visibility.
 
@@ -268,9 +269,9 @@ Use this as a quick habit tracker:
 - Maintaining only surface-level relationships limits long-term impact.
 
 ** Conclusion
-Connecting better at work is a **skill and a habit**. Make it automatic with small, daily micro-actions: **notice, follow through, and add value**. 
+Connecting better at work is both a **skill and a habit**. I make it automatic with small, daily micro-actions: **notice, follow through, and add value**. 
 
-At the end of each week, reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
+At the end of each week, I reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
 * EQ management: Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook

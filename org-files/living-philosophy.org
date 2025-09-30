@@ -4,92 +4,24 @@
 #+HUGO_TAGS: leadership life
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Improve tech lead mindsets
-:PROPERTIES:
-:EXPORT_FILE_NAME: improve-mindset-with-ai
-:EXPORT_DATE: 2025-09-14
-:EXPORT_HUGO_SECTION: posts
-:END:
-URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
-** Set LLM context
-You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
-
-The tech lead wants to avoid these common mistakes:
-1. **Think too narrow** – focusing too narrowly on immediate tasks or familiar solutions, missing hidden risks and opportunities.  
-2. **Try to do it alone** – solving problems alone without tapping into team knowledge, feedback, or prior experiences.  
-3. **Stuck in exeuction mode** – prioritizing immediate wins or tactical fixes over strategic, long-term impact.  
-4. **Not learning from the past** – not capturing lessons, failing to generalize insights, or missing opportunities to improve thinking and processes.
-5. **Overlook dependencies** – overlooking upstream/downstream service risks, team conflicts, or misaligned priorities that block progress.
-
-Provide:
-1. **Mindset shifts** to overcome these mistakes
-2. **Concrete habits or exercises** for daily practice
-3. **Examples of how AI can help** the tech lead think faster, learn smarter, and act strategically
-4. **Ways to reflect and generalize learnings** across projects
-
-Respond in an actionable, structured, and role-aware manner, as if coaching a tech lead directly.
-** Weekly Accomplishment Checklist
-*** Think Too Narrow
-- [ ] For 1 project, list at least 3 risks and 2 long-term impacts before deciding  
-- [ ] Write down 2 "what if" questions per project to force broader thinking  
-- [ ] Use AI: suggest blind spots, generate alternative scenarios, highlight hidden risks  
-*** Try to Do It Alone
-- [ ] Schedule at least 1 short sync (15–20 min) with a peer/mentor for input  
-- [ ] Share 1 work-in-progress doc with your team and collect at least 2 comments  
-- [ ] Use AI: summarize prior lessons, polish drafts, surface unclear points before sharing  
-
-*** Stuck in Execution Mode
-- [ ] Review your task list and mark 3 tasks as high-impact vs. low-impact  
-- [ ] Run 1 pre-mortem this week (write 3 failure modes + mitigations)  
-- [ ] Use AI: simulate outcomes, suggest trade-offs, stress-test assumptions  
-
-*** Not Learning From the Past
-- [ ] Write a weekly reflection (max 10 sentences): what worked, what failed, lessons  
-- [ ] Share 1 distilled lesson with your team in Slack/email  
-- [ ] Use AI: synthesize reflections into principles, reframe lessons into concise takeaways  
-
-*** Overlook Dependencies
-- [ ] Identify 2 dependencies for your current project; confirm reliability with owners  
-- [ ] Hold 1 alignment check-in (15 min) with a partner team or stakeholder  
-- [ ] Use AI: map upstream/downstream risks, draft alignment agenda/questions  
-
-** top skills to learn in the AI world                             :noexport:
-I want to identify a list of top skills to learn with the rise of AI.
-
-Mindset
-- Be a learner, adapter, and synthesizer: Knowledge + action + insight = value.
-- Leverage AI to amplify, not replace thinking: Tools speed execution; humans provide judgment.
-- Embrace uncertainty: AI accelerates change; resilience and curiosity are your superpowers.
-
-Top skills
-
-- Learning How to Learn (Meta-Learning): AI evolves fast; new tools, models, and frameworks appear constantly.
-- Human-Centric Insight (Understanding People): AI is a tool; impact comes from solving real human problems.
-- Interpersonal & Systems Interaction: AI amplifies output, but collaboration is still key.
-- Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
-- Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
-- Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
 * Clarify and focus on P0s at work
 :PROPERTIES:
 :EXPORT_FILE_NAME: clarify-p0s-at-work
 :EXPORT_DATE: 2025-09-29
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
+URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
 ** My Situation
 My role: tech lead for ML infra
 
 **Goals**
 1. Work should have **market value** — skills and outcomes are recognized externally for future career mobility
-2. Work should **minimize mental stress**
+2. Work should **minimize mental stress** for well-being
 
 **Core Strengths**
 1. **Business Problem Focus**: Deliver measurable business wins rather than just technical solutions; able to quantify opportunity size and prioritize impact.
-
 2. **Cross-Team Execution**: Drive initiatives across multiple teams, aligning stakeholders to achieve shared goals efficiently.
-
 3. **End-to-End Ownership**: Take full responsibility for projects from conception to delivery; trusted by cross-functional partners to execute reliably.
-
 4. **Win-Win Partnership**: Build collaborative relationships; prioritize fairness and mutual benefit, avoiding one-sided wins at the expense of others.
 
 **Success stories**
@@ -114,30 +46,30 @@ My role: tech lead for ML infra
     - Impact: Enabled consistent feature management, improved discoverability, and reduced errors in feature usage across multiple ML teams.
 
 **Key learnings**
-1. **Be more confident and assertive in requests**  
-  - Observation: Often acted as a supportive role with XFN teams, accepting the status quo when requests were deprioritized.  
-  - Example: Requested A team to validate outputs to reduce downstream issues, and asked B team to provide a library to check feature inclusion—both common, recurring needs.  
-  - Learning: I should confidently advocate for changes that enable teams to thrive, rather than silently accepting delays or partial solutions.
-
-2. **Leverage leadership and existing structures**  
-  - Observation: Our team struggled multiple halves defining a team charter using a bottom-up strategy, which proved ineffective.  
-  - Insight: XFN teams already have dedicated roles (reliability for SEVs, efficiency for capacity, DevX for automation). Bottom-up attempts were redundant.  
+1. **Leverage leadership and existing structures**
+  - Observation: Our team struggled multiple halves defining a team charter using a bottom-up strategy, which proved ineffective.
+  - Insight: XFN teams already have dedicated roles (reliability for SEVs, efficiency for capacity, DevX for automation). Bottom-up attempts were redundant.
   - Learning: I should leverage leadership and existing structures early to avoid prolonged struggles and accelerate team effectiveness.
 
-3. **Set bigger, strategic business goals**  
-  - Observation: Limited scope to immediate team bandwidth, focusing on incremental improvements.  
-  - Examples:  
-    - HD feature cleanup: focused on small incremental changes rather than holistic cleanup.  
-    - Metadata service: implemented band-aid solutions instead of system simplification.  
+2. **Set bigger, strategic business goals**
+  - Observation: Limited scope to immediate team bandwidth, focusing on incremental improvements.
+  - Examples:
+    - HD feature cleanup: focused on small incremental changes rather than holistic cleanup.
+    - Metadata service: implemented band-aid solutions instead of system simplification.
   - Learning: I should aim for higher-leverage goals that drive strategic improvements rather than just immediate metrics.
 
-4. **Spend more time generalizing problems and exchanging knowledge**  
-  - Observation: Often solved isolated problems without connecting patterns or sharing insights broadly.  
-  - Learning: I should step back to identify patterns across projects and actively exchange ideas with senior engineers outside the immediate area, enabling better solutions and knowledge transfer.
-
-5. **Focus on high-impact technical challenges**  
-  - Observation: Spent significant energy on team conflicts and headcount discussions, where I have less leverage as a tech lead.  
+3. **Focus on high-impact technical challenges**
+  - Observation: Spent significant energy on team conflicts and headcount discussions, where I have less leverage as a tech lead.
   - Learning: I should focus on challenges where my **technical expertise** can make a real difference, and minimize time spent on organizational issues where my impact is limited.
+
+4. **Be more confident and assertive in requests**
+  - Observation: Often acted as a supportive role with XFN teams, accepting the status quo when requests were deprioritized.
+  - Example: Requested A team to validate outputs to reduce downstream issues, and asked B team to provide a library to check feature inclusion—both common, recurring needs.
+  - Learning: I should confidently advocate for changes that enable teams to thrive, rather than silently accepting delays or partial solutions.
+
+5. **Spend more time generalizing problems and exchanging knowledge**
+  - Observation: Often solved isolated problems without connecting patterns or sharing insights broadly.
+  - Learning: I should step back to identify patterns across projects and actively exchange ideas with senior engineers outside the immediate area, enabling better solutions and knowledge transfer.
 
 **My growth areas**
 1. Communicate Vision and Expectations Clearly
@@ -148,7 +80,7 @@ My role: tech lead for ML infra
 1. **Make Value Visible**: Only measurable wins are recognized; ensure your impact is quantified and communicated.
 2. **Align and Advocate**: Ownership and influence depend on stakeholder alignment and proactive advocacy.
 3. **Prioritize High-Leverage Work**: Focus on impactful initiatives over incremental or low-visibility tasks.
-4. **Leverage Structures, Don’t Reinvent**: Use existing roles, processes, and frameworks to accelerate results instead of building from scratch.   
+4. **Leverage Structures, Don’t Reinvent**: Use existing roles, processes, and frameworks to accelerate results instead of building from scratch.
 ** Mitigation: Organically improve market value
 Major pillars:
 1. **Skill Leverage**: Work on rare, transferable, high-impact skills.
@@ -160,7 +92,6 @@ Major pillars:
       - Modify workflow, environment, or collaboration patterns to reduce stress triggers.
    2. Personal Strategies (Manage your mind & energy)
       - Strengthen mental and physical resilience to handle unavoidable stress effectively.
-
 **Guiding Principles**
 1. Focus on What Matters (Systemic)
     - Prioritize high-leverage work that aligns with goals and measurable impact.
@@ -223,6 +154,67 @@ how to interact in the world
 - 生活要做减法
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
+* Improve tech lead mindsets
+:PROPERTIES:
+:EXPORT_FILE_NAME: improve-mindset-with-ai
+:EXPORT_DATE: 2025-09-14
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
+** Set LLM context
+You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
+
+The tech lead wants to avoid these common mistakes:
+1. **Think too narrow** – focusing too narrowly on immediate tasks or familiar solutions, missing hidden risks and opportunities.
+2. **Try to do it alone** – solving problems alone without tapping into team knowledge, feedback, or prior experiences.
+3. **Stuck in exeuction mode** – prioritizing immediate wins or tactical fixes over strategic, long-term impact.
+4. **Not learning from the past** – not capturing lessons, failing to generalize insights, or missing opportunities to improve thinking and processes.
+5. **Overlook dependencies** – overlooking upstream/downstream service risks, team conflicts, or misaligned priorities that block progress.
+
+Provide:
+1. **Mindset shifts** to overcome these mistakes
+2. **Concrete habits or exercises** for daily practice
+3. **Examples of how AI can help** the tech lead think faster, learn smarter, and act strategically
+4. **Ways to reflect and generalize learnings** across projects
+
+Respond in an actionable, structured, and role-aware manner, as if coaching a tech lead directly.
+** Weekly Accomplishment Checklist
+*** Think Too Narrow
+- [ ] For 1 project, list at least 3 risks and 2 long-term impacts before deciding
+- [ ] Write down 2 "what if" questions per project to force broader thinking
+- [ ] Use AI: suggest blind spots, generate alternative scenarios, highlight hidden risks
+*** Try to Do It Alone
+- [ ] Schedule at least 1 short sync (15–20 min) with a peer/mentor for input
+- [ ] Share 1 work-in-progress doc with your team and collect at least 2 comments
+- [ ] Use AI: summarize prior lessons, polish drafts, surface unclear points before sharing
+*** Stuck in Execution Mode
+- [ ] Review your task list and mark 3 tasks as high-impact vs. low-impact
+- [ ] Run 1 pre-mortem this week (write 3 failure modes + mitigations)
+- [ ] Use AI: simulate outcomes, suggest trade-offs, stress-test assumptions
+*** Not Learning From the Past
+- [ ] Write a weekly reflection (max 10 sentences): what worked, what failed, lessons
+- [ ] Share 1 distilled lesson with your team in Slack/email
+- [ ] Use AI: synthesize reflections into principles, reframe lessons into concise takeaways
+*** Overlook Dependencies
+- [ ] Identify 2 dependencies for your current project; confirm reliability with owners
+- [ ] Hold 1 alignment check-in (15 min) with a partner team or stakeholder
+- [ ] Use AI: map upstream/downstream risks, draft alignment agenda/questions
+** top skills to learn in the AI world                             :noexport:
+I want to identify a list of top skills to learn with the rise of AI.
+
+Mindset
+- Be a learner, adapter, and synthesizer: Knowledge + action + insight = value.
+- Leverage AI to amplify, not replace thinking: Tools speed execution; humans provide judgment.
+- Embrace uncertainty: AI accelerates change; resilience and curiosity are your superpowers.
+
+Top skills
+
+- Learning How to Learn (Meta-Learning): AI evolves fast; new tools, models, and frameworks appear constantly.
+- Human-Centric Insight (Understanding People): AI is a tool; impact comes from solving real human problems.
+- Interpersonal & Systems Interaction: AI amplifies output, but collaboration is still key.
+- Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
+- Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
+- Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Happy life with good guiding philosophy                          :noexport:
 :PROPERTIES:
@@ -264,7 +256,6 @@ how to interact in the world
 - 生活要做减法
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
-
 * child eduction                                                   :noexport:
 * TODO mindful living: understand your option and trade-off
 * TODO 生活要做减法

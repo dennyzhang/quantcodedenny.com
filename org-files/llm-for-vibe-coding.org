@@ -116,7 +116,7 @@ URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 - Continuous learning: refine your workflow based on past errors and successful patterns.
 - Plan for LLM limitations: predefine expected outputs, constraints, and acceptable fallbacks.
 
-** Technical challenges
+*** Technical challenges
 - Multiple versions: functions may be undefined or unsupported across versions.
 - Understanding conventions: e.g., Hugo generates files into the `docs` folder, not `content`.
 - Lack of defensive coding: errors propagate, making debugging harder.
@@ -140,4 +140,5 @@ URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 - Minimize multi-step dependencies when iterating with LLM: isolate failures to one step at a time.
 - Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.
 ** edge scenarios where common practice doesn't work well
-
+** llm won't reject requirement which shouldn't happen in the first place
+Use elisp to "url:", it makes the code very fragile and hard to use. The development time is wasted

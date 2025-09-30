@@ -12,9 +12,7 @@
 :END:
 URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** My Goal
-My role: tech lead for ML infra
-
-**Goals**
+I establish myself as a tech lead for ML infra with below main goals:
 1. Work with **market value** — skills and outcomes recognized externally for career mobility.
 2. Minimize **mental stress** — maintain well-being while delivering impact.
 ** My Core Strengths
@@ -155,7 +153,7 @@ how to interact in the world
 * Look Better at Work: Make Your Impact Visible
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better
-:EXPORT_DATE: 2025-09-14
+:EXPORT_DATE: 2025-09-30
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/look-better/

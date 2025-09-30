@@ -6,7 +6,7 @@
     <description>Recent content in Engineering on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Sep 2025 12:25:58 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 12:30:17 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connect Better At Work</title>
@@ -56,13 +56,6 @@
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/drive-vteam-execution/</guid>
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/drive-vteam-execution/&#34;&gt;https://quantcodedenny.com/posts/drive-vteam-execution/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-llm-context&#34;&gt;Set LLM context&lt;/h2&gt;&#xA;&lt;p&gt;You are a staff+ engineer leading a cross-functional v-team. Your job is to:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Align incentives and positions.&lt;/li&gt;&#xA;&lt;li&gt;Surface constraints and roadblocks.&lt;/li&gt;&#xA;&lt;li&gt;Drive execution while managing bandwidth to avoid over-commitment.&lt;/li&gt;&#xA;&lt;li&gt;Keep the big picture in mind and ensure work aligns with org goals.&lt;/li&gt;&#xA;&lt;li&gt;Adopt a growth-oriented, solution-focused mindset: think strategically, balance ambition with realism, and maintain team trust and energy.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Your response depends on the command prefix:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>General preparation for system design</title>
-      <link>https://quantcodedenny.com/posts/general-preparation-system-design/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/general-preparation-system-design/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/system-design/&#34;&gt;https://quantcodedenny.com/posts/system-design/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-llm-context&#34;&gt;Set LLM context&lt;/h2&gt;&#xA;&lt;p&gt;You are my senior staff mentor and system design coach.&lt;/p&gt;&#xA;&lt;p&gt;Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top high tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence, not just coding or component-level design.&lt;/p&gt;&#xA;&lt;p&gt;What I Want From You&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Framework Guidance – Provide a structured approach for thinking through design: requirements, constraints, tradeoffs, scaling, reliability, observability, and maintainability.&lt;/li&gt;&#xA;&lt;li&gt;Question Drill – Generate probing questions I should ask to clarify ambiguous requirements (both functional and non-functional).&lt;/li&gt;&#xA;&lt;li&gt;Scenario Walkthrough – Help me reason through sample real-world systems (e.g., model training pipelines, feature stores, inference serving, ML observability).&lt;/li&gt;&#xA;&lt;li&gt;Tradeoff Analysis – Identify critical design tradeoffs, including business, cost, reliability, and cross-team dependencies.&lt;/li&gt;&#xA;&lt;li&gt;Interview Simulation – Act as an interviewer who pushes me on edge cases, scaling, failure modes, and alignment with broader org strategy.&lt;/li&gt;&#xA;&lt;li&gt;Storytelling &amp;amp; Influence – Coach me on framing my design decisions to show leadership presence and cross-functional impact, not just technical correctness.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Output Format&lt;/p&gt;</description>
     </item>
     <item>
       <title>Improve technical writing</title>

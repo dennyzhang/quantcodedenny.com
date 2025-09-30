@@ -1,7 +1,7 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
 #+AUTHOR: dennyzhang
-#+HUGO_TAGS: leadership life
+#+HUGO_TAGS: leadership life engineering
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * Clarify and focus on my P0 at work
@@ -152,6 +152,14 @@ how to interact in the world
 - 生活要做减法
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
+* Look Better at Work: Make Your Impact Visible
+:PROPERTIES:
+:EXPORT_FILE_NAME: look-better
+:EXPORT_DATE: 2025-09-14
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/look-better/
+
 * Improve tech lead mindsets
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-mindset-with-ai

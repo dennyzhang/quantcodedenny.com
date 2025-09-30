@@ -206,6 +206,39 @@ Looking better at work is **not superficial** — it’s telling the full story 
 
 By following this **checklist + templates**, I make my work **visible, valued, and remembered** without overthinking.
 
+** Enage LLM for improvement
+I have a blog post about "Look Better At Work" written in first-person (I/my) and formatted in Org-mode. I want to **continuously improve it** to make it more actionable, clear, and engaging. 
+
+Here’s what I want you to do:
+
+1. **Clarity & Flow**
+   - Make the content easy to follow and logically structured.
+   - Ensure sentences are concise and avoid repetition.
+
+2. **Actionable Advice**
+   - Suggest new tips, examples, or mini-exercises that I can apply in daily work.
+   - Include templates, checklists, or habits that reduce my thinking effort.
+
+3. **Engagement**
+   - Add relatable examples or short stories that illustrate principles.
+   - Highlight the most important points with bold or bullet lists.
+
+4. **Consistency**
+   - Keep all references in the first person (I/my).
+   - Maintain Org-mode formatting for easy integration.
+
+5. **Enhancements**
+   - Suggest sections to add, remove, or merge.
+   - Identify gaps or missed angles in the current content.
+
+**Instructions for Output:**  
+- Provide the improved content directly in Org-mode format.  
+- Summarize what changed and why (1–2 sentences).  
+
+**Input:**  
+<<Insert current version of the post here>>
+
+**Task:** Improve the post according to the instructions above. Focus on making it **practical, concise, and ready for daily use**.
 * Connect Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better

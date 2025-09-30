@@ -24,7 +24,7 @@ I establish myself as a tech lead in ML infra with two main goals:
 2. **Prioritize High-Leverage Work**: Focus my technical expertise on initiatives that drive measurable impact; delegate or decline low-value work
 3. **Collaborate Effectively with Diverse Stakeholders**: Adapt communication style for different roles and personalities; Build alignment and influence without creating friction.
 4. **Generalize, Share, & Mentor**: Capture patterns across my projects and share insights to scale impact; Mentor peers and document lessons learned for team adoption.
-** My Key Learnings
+** Recent Key Learnings
 1. **Leverage leadership and structures**
    - Tried bottom-up charter building, but XFN teams already had dedicated roles (reliability, efficiency, DevX).  
    - Learning: Tap leadership and structures early to avoid prolonged struggles.  
@@ -51,7 +51,6 @@ I establish myself as a tech lead in ML infra with two main goals:
 2. **Align and Advocate**: Influence grows with alignment and proactive advocacy.
 3. **Leverage, Don’t Reinvent**: Use existing processes and roles to accelerate outcomes. 
 ** Mitigation: Organically improve market value
-Major pillars:
 1. **Skill Leverage**: Work on rare, transferable, high-impact skills.
 2. **Visible Impact**: Quantify and share results internally.
 3. **Network & Influence**: Expand reputation via mentorship, XFN projects, and selective external visibility.
@@ -140,56 +139,78 @@ how to interact in the world
 :END:
 URL: https://quantcodedenny.com/posts/look-better/
 ** Introduction
-In most workplaces, working hard alone isn’t enough. Leaders and decision-makers are busy,
-and if they don’t see your impact, it’s almost as if it never happened.
+In most workplaces, working hard alone isn’t enough. Leaders and decision-makers are busy, and if they don’t see your impact, it’s almost as if it never happened.
 
-This is why Patty Azzarello, in her book *Rise*, emphasizes the idea of “Look Better.”
-It’s not about bragging or playing politics. It’s about making sure your real contributions
-are visible, credible, and trusted.
+Patty Azzarello, in her book *Rise*, emphasizes the idea of “Look Better.” It’s not about bragging or playing politics. It’s about making sure your real contributions are visible, credible, and trusted.
+
+Two things often get lost unless you explain them:
+- **Business Value**: The tangible impact of your project on the organization.
+- **Complexity & Learning**: The challenges you overcame and skills developed.
+
+In this post, we’ll also cover practical techniques for explaining both clearly.
 ** Core Principles of Looking Better
-** Manage Your Reputation Like a Project
-Your reputation is the story people tell about you when you’re not in the room.
-Don’t leave it to chance.
+**1. Manage Your Reputation Like a Project**
+- Your reputation is the story people tell about you when you’re not in the room.
 - Ask yourself: What three words do I want people to associate with me?
 - Make sure your daily actions reinforce that story.
 
-Example: If you want to be known as “reliable under pressure,” communicate progress early,
-highlight risks, and show calm problem-solving when issues arise.
-** Show Business Value, Not Just Effort
-Leaders care about outcomes, not effort.
+Example: If you want to be known as “reliable under pressure,” communicate progress early, highlight risks, and show calm problem-solving when issues arise.
+**2. Show Business Value, Not Just Effort**
+
+- Leaders care about outcomes, not effort.
 - Instead of: “We reduced server downtime by 10%.”
 - Say: “Our work avoided $2M in lost revenue by keeping the site up during peak traffic.”
+**Techniques to Explain Business Value**
+- Quantify results in dollars, time saved, or efficiency improvements.
+- Link project outcomes to company objectives or KPIs.
+- Compare current vs. previous state to illustrate impact.
+- Highlight who benefits (customers, team, or organization) and how.
+**3. Highlight Project Complexity & Learning**
+- Impact is often underestimated if you don’t reveal the hidden challenges.
+- Share major obstacles you overcame.
+- Emphasize new skills, frameworks, or approaches.
+- Highlight lessons learned that reduce future risks or benefit others.
+**Techniques to Explain Complexity & Learning**
+- Outline challenges that were not obvious to others.
+- Explain technical or organizational hurdles and how you solved them.
+- Share new methodologies, frameworks, or tools you developed.
+- Emphasize knowledge transfer or reuse for future projects.
 
-The same work—framed differently—can shift how people perceive your value.
-** Borrow Other People’s Voices
-When others talk positively about you, it carries more weight than when you do.
+Example: “We cut model training costs by 30%. What’s less visible is that this required debugging fragmented pipelines across three systems. Along the way, we developed new monitoring tools that the whole org can reuse.”
+**4. Borrow Other People’s Voices**
+- When others talk positively about you, it carries more weight than when you do.
 - Build trust with peers and cross-functional partners.
 - Ask for feedback and encourage them to share it upward.
 - Recognize others first; reciprocity often follows.
-** Visibility ≠ Self-Promotion
-Visibility means ensuring the right people understand what you’re working on and why it matters.
-Practical habits:
-- Share short progress updates in team forums.
-- Connect your work to company or team priorities.
-- Present both wins and lessons learned to build credibility.
-** Build Long-Term Credibility
-Credibility compounds over time. People trust and invest in those who deliver consistently.
-This is not about one-off polish but about years of reliable delivery paired with thoughtful communication.
+**5. Visibility ≠ Self-Promotion**
+- Ensure the right people understand what you’re working on and why it matters.
+- Practical habits:
+  * Share short progress updates in team forums.
+  * Connect your work to company or team priorities.
+  * Present both wins and lessons learned to build credibility.
+**6. Build Long-Term Credibility**
+
+- Credibility compounds over time.
+- Consistently deliver results paired with thoughtful communication.
+- Focus on sustained excellence, not one-off polish.
 ** Common Pitfalls
+
 - Overdoing self-promotion can damage trust.
+- Not surfacing **business value** makes your project look like “just execution.”
+- Not surfacing **complexity & learning** makes effort undervalued.
 - Staying invisible leads to missed recognition and opportunities.
 - Focusing on busyness instead of business impact dilutes your reputation.
 ** Action Steps / Checklist
 - Define 3 words you want colleagues to associate with you.
-- Reframe your latest project in business terms.
+- Reframe your latest project in **business terms** using the techniques above.
+- Write down 1–2 hidden challenges or key learnings from your last project using the **complexity & learning** techniques.
 - Identify 1–2 allies who can amplify your work.
-- Share one visible update this week that ties your work to larger goals.
+- Share one visible update this week that highlights both **impact** and **learning**.
 ** Conclusion
-Looking better at work is not superficial. It’s about making sure your hard work
-shines through the noise of a busy workplace.
+Looking better at work is not superficial. It’s about telling the full story of your contributions. Use the techniques to make your **business value** and **complexity & learning** clear.
 
-At the end of every project, pause and ask:
-*Who needs to see this, and how can I frame it so the real impact is clear?*
+At the end of every project, pause and ask: **Who needs to see this, and how can I frame it so the real impact is clear?**
+
 * Improve tech lead mindsets
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-mindset-with-ai

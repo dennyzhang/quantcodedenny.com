@@ -131,84 +131,80 @@ how to interact in the world
 - 生活要做减法
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
-* Look Better At Work
+* Look Better At Work: Daily Habit Runbook
 :PROPERTIES:
-:EXPORT_FILE_NAME: look-better
+:EXPORT_FILE_NAME: look-better-daily
 :EXPORT_DATE: 2025-09-30
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/look-better/
 ** Introduction
-Working hard alone isn’t enough. Leaders and decision-makers are busy — if they don’t see your impact, it might as well not exist.
+Working hard alone isn’t enough. Leaders and decision-makers are busy — if they don’t see my impact, it might as well not exist.
 
-Looking better at work is not self-promotion. It’s about making your real contributions visible, credible, and trusted. Focus on:
+Looking better at work is not self-promotion. It’s about making my contributions **visible, credible, and trusted**. I focus on:
 
-- **Business Value** – What tangible impact did your work have?
-- **Complexity & Learning** – What challenges did you overcome, and what did you learn?
-** Core Principles of Looking Better
-- **Make Your Impact Visible**
-  - Focus on outcomes, not effort. Quantify results in dollars, time, or efficiency and link to KPIs.
-  - *Example:* “Our work avoided $2M in lost revenue during peak traffic.”
+- **Business Impact** – What tangible results did my work achieve?  
+- **Complexity & Learning** – What challenges did I overcome, and what did I learn?  
+- **Credibility** – Did the right people notice my work, and did I involve or acknowledge others?
 
-- **Highlight Complexity & Learning**
-  - Show the challenges you overcame and what you learned. Emphasize new skills, methods, or tools that improve future work.
-  - *Example:* “Cut model training costs by 30% by debugging fragmented pipelines; built reusable monitoring tools for the org.”
+This post provides a **daily-ready framework** so I can apply these principles with minimal thinking.
 
-- **Leverage Others & Build Credibility**
-  - Feedback from peers is more credible than self-promotion. Share updates, recognize others, and encourage allies to amplify your impact. Consistency over time builds lasting credibility.
-** Project Complexity Checklist
-For each project update, ask yourself:
+** Core Principles (The 3-Minute Shortcut)
+- **Impact First**
+  - I share results, not effort. I quantify outcomes (dollars, time, efficiency) and link to team or company goals.
+  - *Template:* “By doing X, I [saved $Y / improved efficiency by Z% / avoided a risk].”
 
-- Challenges & Hurdles
-  - [ ] Highlight major obstacles, including technical, organizational, or cross-team difficulties
-  - [ ] Explain how you solved them or mitigated risks
+- **Complexity & Learning**
+  - I make hidden challenges and lessons visible. I highlight new skills, methods, or tools that improve future work.
+  - *Template:* “This was challenging because [obstacle], and I solved it by [approach]. Learned: [key insight].”
 
-- Learning & Innovation
-  - [ ] Capture new skills, methods, frameworks, or tools you used or developed
-  - [ ] Show how these can benefit future projects or others
+- **Credibility**
+  - Feedback from peers is more credible than self-promotion. I share updates, recognize others, and ensure the right people see my work.
+  - *Template:* “Thanks to [ally/team], I achieved this result. I shared the approach with [stakeholders].”
 
-- Dependencies & Coordination
-  - [ ] Describe key dependencies on systems, teams, or processes
-  - [ ] Explain how you managed them to achieve success
+** Project Complexity Checklist (Condensed)
+- **Challenges & Hurdles**
+  - [ ] I highlight major obstacles (technical, organizational, cross-team)
+  - [ ] I explain how I solved them or mitigated risks
 
-- Impact Beyond the Obvious
-  - [ ] Highlight outcomes beyond immediate metrics (secondary benefits, efficiency gains, knowledge transfer)
-** Regular Runbook
-- **Quick Daily Routine**
-  - Morning (5 min): Check what you worked on yesterday → pick one update to share that shows impact + learning.
-  - During the Day: Document hidden challenges, lessons learned, or ideas for improvement.
-  - End of Week (10–15 min): Identify allies, update your project impact in business terms, and plan one visible update for next week.
+- **Learning & Innovation**
+  - [ ] I capture new skills, methods, frameworks, or tools
+  - [ ] I show how they benefit future projects or others
 
-- **Weekly Actions**
-  - Make Your Impact Visible
-    - Reframe your latest project in **business terms**
-    - Quantify results (dollars, time saved, efficiency)
-    - Connect outcomes to team/company KPIs
-    - Quick Tip: Share short updates in team forums. Always link work to priorities.
+- **Dependencies & Coordination**
+  - [ ] I note key dependencies and how I managed them
 
-  - Highlight Complexity & Learning
-    - Note 1–2 hidden challenges or obstacles from your last project
-    - Capture key learnings or new skills
-    - Think about what lessons others could reuse
-    - Quick Tip: Keep a personal log; use examples when sharing in meetings or updates.
+- **Secondary Impact**
+  - [ ] I highlight outcomes beyond immediate metrics (efficiency gains, knowledge transfer)
 
-  - Leverage Others & Build Credibility
-    - Identify 1–2 allies who can amplify your work
-    - Recognize contributions of others
-    - Encourage peers to share positive feedback
-    - Consistently deliver results over time
-    - Quick Tip: Focus on sustained excellence, not one-off polish. Small wins matter.
+** Daily & Weekly Runbook
+- **Daily (2–5 min)**
+  - I pick yesterday’s work. I apply the **Impact → Complexity → Credibility** flow.  
+  - I fill the templates with minimal thinking.  
+  - Optional: I note challenges or insights in a personal log.
+
+- **Weekly (10–15 min)**
+  - I review my log. I pick 1–2 visible achievements.  
+  - I share a structured update using templates with my manager, team, or cross-functional stakeholders.  
+  - I identify allies who can amplify my impact.
+
 ** Common Pitfalls
-- Overdoing self-promotion can damage trust.
-- Not surfacing **business value** makes your project look like “just execution.”
-- Not surfacing **complexity & learning** makes effort undervalued.
+- Overdoing self-promotion damages trust.
+- Not surfacing **business value** makes my work look like mere execution.
+- Not surfacing **complexity & learning** undervalues effort.
 - Staying invisible leads to missed recognition and opportunities.
-- Focusing on busyness instead of business impact dilutes your reputation.
-** Conclusion
-Looking better at work is not superficial. It’s about telling the full story of your contributions. Use the techniques to make your **business value** and **complexity & learning** clear.
+- Focusing on busyness instead of impact dilutes my reputation.
 
-At the end of every project, pause and ask: **Who needs to see this, and how can I frame it so the real impact is clear?**
-* Connect Better At Work
+** Conclusion
+Looking better at work is **not superficial** — it’s telling the full story of my contributions.  
+
+**Daily Habit:** Every day, I ask myself:  
+1. What **impact** can I highlight?  
+2. What **complexity & learning** did I uncover?  
+3. Who do I need to involve or inform to **build credibility**?
+
+By following this **checklist + templates**, I make my work **visible, valued, and remembered** without overthinking.
+* Connect Better At Work: Daily Habit Runbook
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better
 :EXPORT_DATE: 2025-09-30
@@ -216,81 +212,199 @@ At the end of every project, pause and ask: **Who needs to see this, and how can
 :END:
 URL: https://quantcodedenny.com/posts/connect-better/
 ** Introduction
-Doing great work is only part of success. Your influence grows when others know, trust, and rely on you.
+Doing great work is only part of success. Your influence grows when others know, trust, and rely on you. 
 
-Connecting better at work is not networking for appearances. It’s about **building authentic relationships**, **adding value**, and **amplifying impact**. Focus on:
+Connecting better at work becomes powerful when it’s a **daily habit** — small, consistent actions that build trust, relationships, and impact automatically. Focus on:
 
-- **Genuine Engagement** – Understanding and supporting others’ priorities.
-- **Trust & Reliability** – Being someone others can count on.
-- **Reciprocal Value** – Creating mutually beneficial interactions.
-** Core Principles of Connecting Better
-- **Be Intentional in Interactions**
-  - What it Means: Every conversation is an opportunity to understand, help, or influence.
-  - How to Apply / Examples: Ask open-ended questions, listen actively, remember details.
-  - *Example:* “Noticed you struggled with X last week—how did the fix go?”
+- **Notice & Ask** – Understand others’ priorities and challenges.
+- **Follow Through** – Be reliable; keep commitments and communicate proactively.
+- **Add Value** – Offer help, share resources, or recognize achievements.
 
-- **Build Trust Through Reliability**
-  - What it Means: Follow through on commitments; be consistent and dependable.
-  - How to Apply / Examples: Share realistic timelines, deliver on promises, admit mistakes when needed.
-  - *Example:* “I’ll help test the new pipeline by Friday—if there’s a change, I’ll update you early.”
+** Daily Habits for Connecting Better
+These micro-actions can be applied in any conversation or interaction:
 
-- **Create Value for Others**
-  - What it Means: Relationships deepen when you help others succeed.
-  - How to Apply / Examples: Offer insights, make introductions, celebrate successes, share resources.
-  - *Example:* “I saw an article on performance tuning that might help your model—thought you’d find it useful.”
-** Relationship Checklist
-For each interaction, ask yourself:
+- **Notice & Ask**
+  - Ask one thoughtful, open-ended question per interaction.
+  - Listen actively and note key insights for follow-up.
 
-- Engagement & Understanding
-  - [ ] Did I listen actively and ask thoughtful questions?
-  - [ ] Did I learn something about their priorities or challenges?
+- **Follow Through**
+  - Complete at least one commitment each day or update proactively.
+  - Admit uncertainties or mistakes openly.
 
-- Trust & Reliability
-  - [ ] Did I follow through on commitments?
-  - [ ] Was I transparent about what I could realistically deliver?
+- **Add Value**
+  - Share one helpful resource, tip, introduction, or recognition.
+  - Celebrate one person’s achievement or contribution.
 
-- Value Creation
-  - [ ] Did I share resources, ideas, or introductions that help them?
-  - [ ] Did I recognize or celebrate their achievements?
+** Daily Connection Checklist
+Use this as a quick habit tracker:
 
-- Depth & Continuity
-  - [ ] Am I maintaining regular touchpoints (not just one-off meetings)?
-  - [ ] Did I document key insights for follow-up next week?
-** Regular Runbook
-- **Quick Daily Routine**
-  - Morning (5 min): Identify one person to check in with or offer help.
-  - During the Day: Note key insights from conversations; record opportunities to add value.
-  - End of Week (10–15 min): Reflect on connections made, review trust-building actions, plan next week’s follow-ups.
+- [ ] Asked at least one thoughtful question today
+- [ ] Followed through on at least one commitment
+- [ ] Shared one useful resource, insight, or recognition
+- [ ] Logged key insight or follow-up for next interaction
 
-- **Weekly Actions**
-  - Be Intentional in Interactions
-    - Schedule meaningful 1:1s or check-ins
-    - Prepare open-ended questions
-    - Listen more than you talk
-    - Quick Tip: Keep a “connection log” with topics discussed and follow-ups.
+** Daily Runbook
+- **Morning (2–3 min)**: Pick one person to check in with or help today
+- **During Day**: Apply Daily Connection Checklist micro-actions naturally
+- **End of Day (2–3 min)**: Log insights, note follow-ups, and send one brief thank-you or recognition
 
-  - Build Trust Through Reliability
-    - Track commitments and deadlines
-    - Communicate proactively if things change
-    - Admit mistakes or uncertainties openly
-    - Quick Tip: Small consistent actions matter more than grand gestures.
+** Weekly Reflection (5–10 min)
+- Who did I meaningfully connect with this week? [Name(s)]
+- What one helpful action did I take for each person?
+- Plan 1–2 simple connection actions for next week
 
-  - Create Value for Others
-    - Identify 1–2 ways to help colleagues (advice, resources, introductions)
-    - Celebrate wins and recognize contributions publicly
-    - Share insights that are relevant to their work
-    - Quick Tip: Focus on helping others achieve their goals, not just visibility.
+** Quick Tips for Habits
+- Notice small things about colleagues’ work — even a minor update counts.
+- Keep all notes in one place (digital or notebook) for easy follow-up.
+- Short, consistent actions beat rare grand gestures.
+- Focus on **helping others achieve their goals**, not just visibility.
+
 ** Common Pitfalls
-- Focusing only on networking for personal gain feels transactional.
-- Forgetting follow-ups leads to lost trust and missed opportunities.
-- Overloading others with “help” they didn’t ask for can backfire.
-- Interactions without empathy or listening reduce your influence.
-- Neglecting depth (keeping only surface-level relationships) limits long-term impact.
-** Conclusion
-Connecting better at work is a deliberate practice. It’s about **building trust**, **engaging meaningfully**, and **adding value consistently**.
+- Focusing on networking for personal gain feels transactional.
+- Skipping follow-ups reduces trust.
+- Offering help unnecessarily can backfire.
+- Ignoring listening or empathy weakens connections.
+- Maintaining only surface-level relationships limits long-term impact.
 
-At the end of every week, pause and ask: **Who did I understand better, help, or stay connected with, and how can I make next week even stronger?**
+** Conclusion
+Connecting better at work is a **skill and a habit**. Make it automatic with small, daily micro-actions: **notice, follow through, and add value**. 
+
+At the end of each week, reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* Work Challenges & Key Learnings In Big Corporate Envs
+:PROPERTIES:
+:EXPORT_FILE_NAME: generalize_working_experience
+:EXPORT_DATE: 2025-08-25
+:EXPORT_HUGO_SECTION: posts
+:END:
+
+URL: https://quantcodedenny.com/posts/generalize_working_experiene/
+** Find the right problems
+Challenges:
+- Identifying impactful problems vs “noise.”
+- Securing scope, alignment, and funding across stakeholders.
+
+Learnings:
+- Invest early in problem discovery and framing.
+- Anchor decisions to business/infra impact to gain support.
+** Driving Execution Across Teams
+Challenges:
+
+- Teams have different positions, priorities, and opinions.
+- Alignment often requires negotiation and compromise.
+
+Learnings:
+- Clear communication and shared goals are essential.
+- Build trust and credibility to influence without authority.
+- Balance speed vs thoroughness based on context.
+** Technical & System Complexity
+Challenges:
+- Dealing with infra-scale technical challenges (reliability, scalability, latency).
+- Legacy issues (e.g., unreliable validation framework).
+
+Learnings:
+- Build guardrails and observability to make systems resilient.
+- Incremental improvements often scale better than one-off fixes.
+** Dependencies & Unreliable Components
+Challenges:
+- Cross-team and cross-system dependencies introduce fragility.
+- Upstream changes or weak components can block progress.
+
+Learnings:
+- Invest in automated validation and monitoring to catch issues early.
+- Design with failure scenarios in mind (graceful degradation, fallbacks).
+** Delivering Impact Under Constraints
+Challenge:
+- Limited time, resources, and competing priorities make it impossible to build a “perfect” solution.
+
+Learning:
+- Define clear success criteria up front. Focus on what delivers the most impact, and avoid over-engineering.
+** Evolving with Ambiguity
+Challenges:
+- Requirements and priorities shift frequently in Ads/Infra.
+- Early-stage projects often lack clear ownership or metrics.
+
+Learnings:
+- Clarify success criteria early, but stay flexible as context evolves.
+- Break down big ambiguous goals into smaller milestones to maintain momentum.
+** People & Growth
+Challenges:
+- Scaling yourself beyond individual contribution.
+- Onboarding and up-leveling new team members while delivering on projects.
+
+Learnings:
+
+Document and codify best practices (guardrails, playbooks, runbooks).
+
+Mentoring and enabling others multiplies long-term impact.
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** local notes                                                     :noexport:
+know which problems to fix, and how to fix
+
+clear communication to have a common understanding
+
+lack of domain knowledge: model/feature usage table
+
+focus the discussion on the important things
+| Category                    | Principle                 | How / Example                                                       | Pitfall if Ignored                     |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Impact & Value              | Show delta value          | Tie infra work to visible business outcomes (“caching = +50ms CTR”) | Seen as busy work, sidelined           |
+|                             | Clarify success upfront   | Define measurable “done”                                            | Moving goalposts, lost credibility     |
+|                             | Storytell foundation work | Connect invisible work to org priorities                            | Looks like low-impact maintenance      |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Strategy & Alignment        | Frame with incentives     | Link to director/org goals                                          | Tech debt talk = no traction           |
+|                             | Preempt tradeoffs         | Offer options + recs                                                | Leaders lose trust in surprises        |
+|                             | Clarify ownership         | Define role, follow-ups, timeline                                   | Over-commitment, free work             |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Influence & Persuasion      | Credible input            | Synthesize before commenting                                        | Shallow remarks dilute influence       |
+|                             | Manage up with foresight  | Anticipate director’s mix of tech + people                          | Seen as execution-only                 |
+|                             | Lead with presence        | Summarize tensions, propose balance                                 | Silent = invisible; dominate = blocker |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Execution & Resilience      | Prioritize leverage       | Focus on high-value over urgencies                                  | Stuck in ops, not strategy             |
+|                             | Push through chaos        | Persistent follow-ups until resolved                                | Priorities die quietly                 |
+|                             | Stay calm in conflict     | Facts + tone + clarity in SEVs                                      | Emotional escalation breaks trust      |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Collaboration & Empowerment | Helpful, not free         | Clarify, connect, unblock — don’t do all                            | Burnout, undervalued time              |
+|                             | Multiply team output      | Remove friction, standardize runbooks                               | Compete vs. empower = limited scale    |
+|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
+| Growth & Presence           | Reflect & learn           | Postmortem own leadership moves                                     | Repeat same mistakes                   |
+|                             | Focus big wins            | Champion 1–2 org-level bets                                         | Spread thin, unfocused                 |
+|                             | Build presence gradually  | Calm energy + clarity + visible progress                            | Talk a lot, impact little              |
+** prompt
+Master Prompt: Critical Thinking for Big Corporate Leadership
+
+You are my senior staff+ mentor and leadership coach.
+Context: I am aiming to thrive as an Uber Tech Lead (IC6/IC7) in a large, competitive corporate environment. My key challenge is to improve critical thinking and strategic decision-making so I can scale my influence, navigate complex politics, and drive high-leverage outcomes.
+
+Your role: Help me analyze problems, sharpen judgment, and elevate thinking beyond execution.
+
+What I Want From You
+1. Structured Thinking Partner – Break down messy, ambiguous situations into clear frameworks (impact, tradeoffs, stakeholders, incentives).
+- Strategic Lens – Reframe my problems from a director/VP perspective (business impact, long-term sustainability, alignment).
+- Critical Questioning – Push me with tough, clarifying questions that reveal blind spots and force deeper reasoning.
+- Scenario Testing – Stress-test my assumptions by presenting alternative perspectives or unintended consequences.
+- Practical Playbook – Offer actionable steps I can use in meetings, proposals, or influencing discussions.
+
+Output Format
+1. Reframe: Restate the issue in strategic/critical terms.
+- Key Dimensions: List angles I should evaluate (e.g., incentives, risks, org politics, ROI).
+- Critical Questions: What I should ask myself/others to sharpen judgment.
+- Options & Tradeoffs: Possible paths with pros/cons.
+- Recommendation: Balanced, pragmatic advice for a senior IC.
+
+Tone & Style
+- spirational but grounded in corporate reality.
+- Concise and structured (executive-style thinking).
+
+Probing and challenging, not just agreeable.
+
+Always tie technical choices to business outcomes and influence building.
+** local notes
+what work you want to say yes, what work you want to say no
+
+increase your team's strategic values
+
+make unfixable issues fixable: identify and fix the bottleneck
 * EQ management & handle difficult conversations                   :noexport:
 * Improve tech lead mindsets
 :PROPERTIES:
@@ -353,5 +467,6 @@ Top skills
 - Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
 - Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
+
 
 

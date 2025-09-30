@@ -12,77 +12,59 @@
 :END:
 URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** My Goal
-I establish myself as a tech lead for ML infra with below main goals:
+I establish myself as a tech lead in ML infra with two main goals:
 1. Work with **market value** — skills and outcomes recognized externally for career mobility.
 2. Minimize **mental stress** — maintain well-being while delivering impact.
 ** My Core Strengths
 1. **Focus On Business Impact**: Deliver measurable business wins; prioritize high-impact opportunities.
 2. **Strong Ownership**: Own projects end-to-end and drive outcomes across teams.
-3. **Collaboration Skill**: align stakeholders for mutually beneficial outcomes and build trust through collaboration
+3. **Collaboration & Trust**: Align stakeholders, resolve conflicts fairly, and build long-term partnerships.  
 ** My Growth Areas
 1. **Communicate Clearly & Persuasively**: Align teams on goals and expectations; Summarize my work’s problem, solution, and impact concisely for directors, while keeping technical credibility for peers.
 2. **Prioritize High-Leverage Work**: Focus my technical expertise on initiatives that drive measurable impact; delegate or decline low-value work
 3. **Collaborate Effectively with Diverse Stakeholders**: Adapt communication style for different roles and personalities; Build alignment and influence without creating friction.
 4. **Generalize, Share, & Mentor**: Capture patterns across my projects and share insights to scale impact; Mentor peers and document lessons learned for team adoption.
 ** My Key Learnings
-1. **Leverage leadership and existing structures**
-  - Observation: Our team struggled multiple halves defining a team charter using a bottom-up strategy, which proved ineffective.
-  - Insight: XFN teams already have dedicated roles (reliability for SEVs, efficiency for capacity, DevX for automation). Bottom-up attempts were redundant.
-  - Learning: I should leverage leadership and existing structures early to avoid prolonged struggles and accelerate team effectiveness.
+1. **Leverage leadership and structures**
+   - Tried bottom-up charter building, but XFN teams already had dedicated roles (reliability, efficiency, DevX).  
+   - Learning: Tap leadership and structures early to avoid prolonged struggles.  
 
 2. **Set bigger, strategic business goals**
-  - Observation: Limited scope to immediate team bandwidth, focusing on incremental improvements.
-  - Examples:
-    - HD feature cleanup: focused on small incremental changes rather than holistic cleanup.
-    - Metadata service: implemented band-aid solutions instead of system simplification.
-  - Learning: I should aim for higher-leverage goals that drive strategic improvements rather than just immediate metrics.
+   - Focused too narrowly on immediate team bandwidth.  
+   - Example: HD feature cleanup → incremental changes vs. holistic cleanup.  
+   - Learning: Aim for system-level impact, not just local optimizations.  
 
 3. **Focus on high-impact technical challenges**
-  - Observation: Spent significant energy on team conflicts and headcount discussions, where I have less leverage as a tech lead.
-  - Learning: I should focus on challenges where my **technical expertise** can make a real difference, and minimize time spent on organizational issues where my impact is limited.
+   - Spent energy on headcount and conflicts where leverage was low.  
+   - Learning: Invest where technical expertise makes the most difference.  
 
 4. **Be more confident and assertive in requests**
-  - Observation: Often acted as a supportive role with XFN teams, accepting the status quo when requests were deprioritized.
-  - Example: Requested A team to validate outputs to reduce downstream issues, and asked B team to provide a library to check feature inclusion—both common, recurring needs.
-  - Learning: I should confidently advocate for changes that enable teams to thrive, rather than silently accepting delays or partial solutions.
+   - Often accepted XFN deprioritization of my asks.  
+   - Example: Needed output validation (compilation) and feature checks (serving).  
+   - Learning: Advocate confidently for necessary changes, not just support passively.  
 
 5. **Spend more time generalizing problems and exchanging knowledge**
-  - Observation: Often solved isolated problems without connecting patterns or sharing insights broadly.
-  - Learning: I should step back to identify patterns across projects and actively exchange ideas with senior engineers outside the immediate area, enabling better solutions and knowledge transfer.
-** Mitigation: Key principles to navigate corporates
-1. **Make Value Visible**: Only measurable wins are recognized; ensure my impact is quantified and communicated.
-2. **Align and Advocate**: Ownership and influence depend on stakeholder alignment and proactive advocacy.
-3. **Leverage Structures, Don’t Reinvent**: Use existing roles, processes, and frameworks to accelerate results instead of building from scratch.
+   - Solved problems in isolation, missed patterns and broader exchanges.  
+   - Learning: Step back, find repeatable insights, and share across teams.  
+** Mitigation: Navigate Corporate Environment
+1. **Make Value Visible**: Impact only counts if it’s measured and communicated.
+2. **Align and Advocate**: Influence grows with alignment and proactive advocacy.
+3. **Leverage, Don’t Reinvent**: Use existing processes and roles to accelerate outcomes. 
 ** Mitigation: Organically improve market value
 Major pillars:
 1. **Skill Leverage**: Work on rare, transferable, high-impact skills.
-2. **Visible Impact**: Take ownership, quantify results, and share them internally.
-3. **Network & Influence**: Extend my reputation through mentoring, cross-team work, and selective external visibility.
-** Mitigation: Lower My Mental Stress at Work
-**Two Directions**
-   1. **Systemic Strategies (Change the way you work)**: Modify workflow, environment, or collaboration patterns to reduce stress triggers.
-   2. **Personal Strategies (Manage my mind & energy)**: Strengthen mental and physical resilience to handle unavoidable stress effectively.
-
-**Guiding Principles**
-1. **Focus on What Matters** (Systemic)
-    - Prioritize high-leverage work that aligns with goals and measurable impact.
-    - Limit low-value tasks; delegate or say no where possible.
-    - **Weekly Check**: Identify 1–3 Most Important Tasks
-
-2. **Protect My Time & Energy** (Systemic + Personal)
-    - Schedule deep-work blocks and micro-breaks; batch similar tasks.
-    - Set boundaries with collaborators and deadlines to reduce last-minute pressure.
-    - **Weekly Check**: Reserve uninterrupted focus time and buffer slots for unexpected requests.
-
-3. **Make Work Predictable** (Systemic)
-    - Document responsibilities, deadlines, and assumptions to reduce surprises.
-    - Confirm expectations with stakeholders; plan for sudden changes.
-    - **Weekly Check**: Review blockers and clarify ambiguous tasks at the start of the day.
-
-4. **Recharge My Mind & Body** (Personal)
-    - Sleep, hydrate, eat well, and exercise to maintain baseline energy.
-    - Use mental resets: short walks, breathing exercises, or journaling.
-    - **Reflect** on wins and challenges to improve awareness and emotional regulation.
+2. **Visible Impact**: Quantify and share results internally.
+3. **Network & Influence**: Expand reputation via mentorship, XFN projects, and selective external visibility.
+** Mitigation: Lower Mental Stress at Work
+1. **Systemic Strategies (Change how I work)**: Adjust workflow, environment, and collaboration to minimize recurring stressors.
+    - Focus on problems where my technical expertise creates the most leverage; spend less time on areas outside my control (e.g., headcount, politics).
+    - Proactively prioritize high-impact technical challenges instead of reacting to every request.
+    - Build guardrails and scalable solutions to reduce firefighting.
+    - Set clear boundaries: avoid over-committing and delegate or decline tasks others can own.
+2. **Personal Strategies (Manage my mind & energy)**: Strengthen resilience to handle unavoidable stress.
+    - Develop habits to stay focused and centered under pressure.
+    - Protect time and energy for deep work and recovery.
+    - Maintain clarity: sustained impact comes from resilience and focus, not from spreading myself thin.
 ** Success Stories
 1. **Feature Cleanup & Bad Feature Governance**
     - Core Strength Demonstrated: Business Problem Focus

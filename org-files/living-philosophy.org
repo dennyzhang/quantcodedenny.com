@@ -15,13 +15,13 @@ URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 My role: tech lead for ML infra
 
 **Goals**
-1. Work should have **market value** — skills and outcomes are recognized externally for future career mobility
-2. Work should minimize **mental stress** for well-being
+1. Work with **market value** — skills and outcomes recognized externally for career mobility.
+2. Minimize **mental stress** — maintain well-being while delivering impact.
 
 **Core Strengths**
-1. **Business Impact Focus**: Deliver measurable business wins rather than just technical solutions; able to quantify opportunity size and prioritize impact.
-2. **Execution Ownership**: Take full responsibility for projects and driving outcomes.
-3. **Collaborative Influence**: Builds trust-based relationships, aligns stakeholders, and ensures mutually beneficial outcomes without creating friction.
+1. **Business Impact Focus**: Deliver measurable business wins; prioritize high-impact opportunities.
+2. **Execution Ownership**: Own projects end-to-end and drive outcomes across teams.
+3. **Collaborative Influence**: Build trust-based relationships; align stakeholders for mutually beneficial outcomes without friction.
 
 **Success Stories**
 1. **Feature Cleanup & Bad Feature Governance**

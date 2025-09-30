@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-09-29
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
+URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** My Situation
 My role: tech lead for ML infra
 

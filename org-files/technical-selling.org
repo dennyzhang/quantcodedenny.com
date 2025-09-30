@@ -504,11 +504,11 @@ Document and codify best practices (guardrails, playbooks, runbooks).
 Mentoring and enabling others multiplies long-term impact.
 * Improve tech lead mindsets                                       :noexport:
 :PROPERTIES:
-:EXPORT_FILE_NAME: improve-mindset-with-ai
+:EXPORT_FILE_NAME: improve-techlead-mindset
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/improve-mindset-with-ai/
+URL: https://quantcodedenny.com/posts/improve-techlead-mindset/
 ** Set LLM context
 You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
 
@@ -573,4 +573,4 @@ Top skills
 - stay too long in a bad setup
 - pick a wrong problem & direction
 - not utilize your network
-
+- lack structure thinking/framing

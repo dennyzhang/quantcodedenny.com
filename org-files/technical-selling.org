@@ -271,7 +271,8 @@ Connecting better at work is a **skill and a habit**. Make it automatic with sma
 
 At the end of each week, reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Work Challenges & Key Learnings In Big Corporate Envs
+* EQ management & handle difficult conversations                   :noexport:
+* Work Challenges & Key Learnings In Big Corporate Envs            :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: generalize_working_experience
 :EXPORT_DATE: 2025-08-25
@@ -405,8 +406,7 @@ what work you want to say yes, what work you want to say no
 increase your team's strategic values
 
 make unfixable issues fixable: identify and fix the bottleneck
-* EQ management & handle difficult conversations                   :noexport:
-* Improve tech lead mindsets
+* Improve tech lead mindsets                                       :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-mindset-with-ai
 :EXPORT_DATE: 2025-09-14
@@ -467,6 +467,7 @@ Top skills
 - Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
 - Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
+
 
 
 

@@ -24,7 +24,7 @@ My role: tech lead for ML infra
 3. **End-to-End Ownership**: Take full responsibility for projects from conception to delivery; trusted by cross-functional partners to execute reliably.
 4. **Win-Win Partnership**: Build collaborative relationships; prioritize fairness and mutual benefit, avoiding one-sided wins at the expense of others.
 
-**Success stories**
+**Success Stories**
 1. **Feature Deprecation & Bad feature governance**
     - Challenge: Legacy and unused features caused inefficiencies and stale data risks.
     - Action: Built a reliable feature usage lineage table, automated cleanup, and implemented rapid mitigation plans.
@@ -45,7 +45,7 @@ My role: tech lead for ML infra
     - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
     - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
 
-**Key learnings**
+**Key Learnings**
 1. **Leverage leadership and existing structures**
   - Observation: Our team struggled multiple halves defining a team charter using a bottom-up strategy, which proved ineffective.
   - Insight: XFN teams already have dedicated roles (reliability for SEVs, efficiency for capacity, DevX for automation). Bottom-up attempts were redundant.
@@ -71,13 +71,12 @@ My role: tech lead for ML infra
   - Observation: Often solved isolated problems without connecting patterns or sharing insights broadly.
   - Learning: I should step back to identify patterns across projects and actively exchange ideas with senior engineers outside the immediate area, enabling better solutions and knowledge transfer.
 
-**My growth areas**
-1. Communicate Vision and Expectations Clearly
-2. Avoid Unconscious Overcommitment
-3. Focus on High-Leverage Work
-4. Generalize and Share Knowledge
-5. Collaborate wth different types of people effectively
-** Key principles to navigate corporates
+**Growth Areas**
+1. **Communicate Clearly & Persuasively**: Align teams on goals and expectations; Summarize my work’s problem, solution, and impact concisely for directors, while keeping technical credibility for peers.
+2. **Prioritize High-Leverage Work**: Focus on initiatives where my technical expertise drives measurable impact; Avoid overcommitment to low-value tasks; delegate or decline politely.
+4. **Generalize, Share, & Mentor**: Capture patterns across my projects and share insights to scale impact; Mentor peers and document lessons learned for team adoption.
+5. **Collaborate Effectively with Diverse Stakeholders**: Adapt communication style for different roles and personalities; Build alignment and influence without creating friction.
+** Mitigation: Key principles to navigate corporates
 1. **Make Value Visible**: Only measurable wins are recognized; ensure your impact is quantified and communicated.
 2. **Align and Advocate**: Ownership and influence depend on stakeholder alignment and proactive advocacy.
 3. **Prioritize High-Leverage Work**: Focus on impactful initiatives over incremental or low-visibility tasks.

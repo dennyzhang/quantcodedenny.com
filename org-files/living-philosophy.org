@@ -76,12 +76,14 @@ Top skills
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
-** My content
+** My Situation
+My role: tech lead for ML infra
+
 **Goals**
 1. Work should have **market value** — skills and outcomes are recognized externally for future career mobility
 2. Work should **minimize mental stress**
 
-**Strength**
+**Core Strengths**
 1. **Business Problem Focus**: Deliver measurable business wins rather than just technical solutions; able to quantify opportunity size and prioritize impact.
 
 2. **Cross-Team Execution**: Drive initiatives across multiple teams, aligning stakeholders to achieve shared goals efficiently.

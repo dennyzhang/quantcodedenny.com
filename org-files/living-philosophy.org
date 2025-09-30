@@ -4,7 +4,7 @@
 #+HUGO_TAGS: leadership life
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Clarify and focus on P0s at work
+* Clarify and focus on my P0 at work
 :PROPERTIES:
 :EXPORT_FILE_NAME: clarify-p0s-at-work
 :EXPORT_DATE: 2025-09-29
@@ -30,20 +30,20 @@ My role: tech lead for ML infra
     - Action: Built a reliable feature usage lineage table, automated cleanup, and implemented rapid mitigation plans.
     - Impact: Reduced stale features by X%, minimized downstream errors, and saved engineers’ time.
 
-2. **Data Pipeline Push at Scale**
-    - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
-    - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
-    - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
+2. **Feature Metadata Service**
+    - Challenge: Lack of a single source of truth (SoT) for feature metadata made management and discovery difficult.
+    - Action: Built a centralized feature metadata service covering both static and runtime metadata.
+    - Impact: Enabled consistent feature management, improved discoverability, and reduced errors in feature usage across multiple ML teams.
 
 3. **End-to-End Feature Infra Monitoring**
     - Challenge: Monitoring was fragmented across feature generation, serving, and model evaluation.
     - Action: Designed and implemented a comprehensive monitoring framework covering generating, serving, and model sides.
     - Impact: Enabled early detection of issues, reducing pipeline downtime and improving overall feature reliability.
 
-4. **Feature Metadata Service**
-    - Challenge: Lack of a single source of truth (SoT) for feature metadata made management and discovery difficult.
-    - Action: Built a centralized feature metadata service covering both static and runtime metadata.
-    - Impact: Enabled consistent feature management, improved discoverability, and reduced errors in feature usage across multiple ML teams.
+4. **Data Pipeline Push at Scale**
+    - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
+    - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
+    - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
 
 **Key learnings**
 1. **Leverage leadership and existing structures**

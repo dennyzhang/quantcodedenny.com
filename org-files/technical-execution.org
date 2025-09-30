@@ -4,7 +4,7 @@
 #+HUGO_TAGS: engineering leadership execution
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Improve technical writing
+* Improve Technical Writing
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-technical-writing
 :EXPORT_DATE: 2025-08-25
@@ -125,7 +125,7 @@ Take my HLD draft and return:
 - **Critical review** of trade-offs and alternative solutions.
 - **Explicit questions** for stakeholders to clarify assumptions.
 - **Recommendations** for where to add data, benchmarks, or analysis.
-* Write feedback at work
+* Write Feedback At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: write-interview-feedback
 :EXPORT_DATE: 2025-08-25
@@ -239,7 +239,7 @@ Raw notes:
 - Good understanding of basic data structures
 #+end_example
 
-* Drive v-team execution
+* Drive V-Team Execution
 :PROPERTIES:
 :EXPORT_FILE_NAME: drive-vteam-execution
 :EXPORT_DATE: 2025-08-25
@@ -306,7 +306,7 @@ avoid taking the main blame, while it's collaborative improvements
 When make escalation, ensure there is direct 1/1 communication. e.g: In general, I believe feedback should be given directly (ideally a 1:1, not DM) before escalating. Folks should be given the oppty to address themselves.
 ** good way to escalate                                            :noexport:
 how to ensure the room know which team has the most
-* Use LLM for vibe coding
+* Use LLM For Vibe Coding
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-for-vibe-coding
 :EXPORT_DATE: 2025-08-25
@@ -397,232 +397,7 @@ Output:
 - Questions & Clarifications: A list of key questions for the designer to answer to clarify the design's intent or explore hidden complexities.
 ---
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Challenges in Vibe Coding                                        :noexport:
-:PROPERTIES:
-:EXPORT_FILE_NAME: challenge-in-vibe-coding
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
-- different versions: functions not defined; certain functions are not supported
-- understand the convention: hugo generate files into docs folder
-- no defensive coding which makes debugging difficult
-- ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property
-- For impossible tasks, llm run into a circle instead of admitting a NO.
-** Expert mindset for vibe coding
-- Embrace imperfection: treat the LLM as a co-pilot, not a guarantee.
-- Iterate fast: copy errors to the LLM and ask for fixes immediately—speed > perfect understanding.
-- Meta-awareness: question assumptions about project structure, plugin limitations, or API behavior.
-- Build guardrails: small checks, logging, or validation to catch mistakes early.
-- Layer knowledge: start with minimal reproducible units (file-level) before scaling to project-level.
-- Document gaps: track behaviors, limitations, and “unknown unknowns” to avoid repeating mistakes.
-- Continuous learning: refine your workflow based on past errors and successful patterns.
-- Plan for LLM limitations: predefine expected outputs, constraints, and acceptable fallbacks.
-
-*** Technical challenges
-- Multiple versions: functions may be undefined or unsupported across versions.
-- Understanding conventions: e.g., Hugo generates files into the `docs` folder, not `content`.
-- Lack of defensive coding: errors propagate, making debugging harder.
-- ox-hugo 0.12.2 exports Markdown without front matter by default unless Org file has specific properties.
-- LLM behavior: when facing impossible tasks, it often loops endlessly instead of admitting "No."
-- Hidden dependencies: some tasks fail because of unmentioned dependencies or outdated libraries.
-- Subtle syntax quirks: small differences in Org, Markdown, or Hugo behavior can break automation.
-** Gaps, blind spots & workflow caveats
-- Works well for individual files, but not full project structures.
-- [#A] You don’t know what you don’t know—and the LLM may not tell you.
-- Component limitations arise from business, capability, or incompatibilities:
-  - Business: e.g., Twitter free API only allows pulling 100 posts/day.
-  - Capability: e.g., Emacs plugin (ox-hugo) only supports Markdown blocks in Org files.
-  - Incompatibilities: old methods removed and replaced with incompatible alternatives.
-- Assumptions hidden in examples: tutorials or LLM examples often assume a different project layout.
-- Don’t overanalyze error messages; capture them and ask the LLM to propose fixes.
-- Recognize impossible tasks early—stop LLM loops.
-- Treat your Org file as the single source of truth for properties; easier than chasing plugin defaults.
-- Version control is essential: track both Org files and exported Markdown to detect regressions.
-- Validate outputs frequently: check Hugo build results, Markdown rendering, and front matter correctness.
-- Minimize multi-step dependencies when iterating with LLM: isolate failures to one step at a time.
-- Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.
-** edge scenarios where common practice doesn't work well
-** llm won't reject requirement which shouldn't happen in the first place
-Use elisp to "url:", it makes the code very fragile and hard to use. The development time is wasted
-* Stay energetic at a busy job: common mistakes and good practices
-:PROPERTIES:
-:EXPORT_FILE_NAME: generalize_working_experience
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-
-URL: https://quantcodedenny.com/posts/generalize_working_experience/
-** Major Mistakes That Kill Energy
-
-Skipping Rest and Sleep
-
-Thinking “I’ll sleep later” or underestimating sleep needs.
-
-Leads to poor focus, irritability, and lower productivity.
-
-Poor Nutrition Habits
-
-Relying on caffeine, sugar, or fast food for quick energy.
-
-Irregular meals causing energy crashes.
-
-Sitting Too Long / No Movement
-
-Lack of physical activity reduces blood flow, slows metabolism.
-
-Causes fatigue, back pain, and brain fog.
-
-Multitasking Excessively
-
-Constantly switching tasks drains mental energy.
-
-Leads to stress and low cognitive efficiency.
-
-Ignoring Mental Health
-
-Bottling stress, anxiety, or frustration.
-
-Chronic stress significantly depletes energy.
-
-Overcommitting
-
-Saying yes to everything.
-
-Spreads energy too thin, reduces focus and effectiveness.
-
-Not Managing Environment
-
-Working in cluttered, noisy, or poorly lit spaces.
-
-Lowers alertness and motivation.
-** Good Practices to Boost Energy
-
-Optimize Sleep
-
-Aim for 7–9 hours consistently.
-
-Short naps (15–20 mins) can recharge without grogginess.
-
-Balanced Nutrition
-
-Eat protein, complex carbs, and healthy fats.
-
-Stay hydrated — dehydration reduces alertness.
-
-Avoid too much sugar/caffeine; they spike and crash energy.
-
-Movement & Exercise
-
-Short walks, stretches, or standing desks.
-
-Regular exercise improves stamina and mood.
-
-Manage Workload
-
-Prioritize tasks using a clear system (Eisenhower Matrix or MITs — Most Important Tasks).
-
-Batch similar tasks to reduce context switching.
-
-Take Microbreaks
-
-5–10 min break every 60–90 mins.
-
-Step away from the screen, do breathing or stretching.
-
-Mindset & Mental Energy
-
-Practice mindfulness, meditation, or journaling.
-
-Reflect on wins to boost motivation.
-
-Environment Optimization
-
-Light, temperature, and workspace organization affect energy.
-
-Consider natural light, standing options, or noise control.
-
-Smart Caffeine Use
-
-Use caffeine strategically (morning or early afternoon).
-
-Avoid relying on it as your only energy source.
-
-Energy Rituals
-
-Morning routines: light, movement, or journaling.
-
-Midday rituals: short walks, social interaction, or power snack.
-* System design interview - 面试造火箭，上班拧螺丝                 :noexport:
-System Design → 练 模板化思路，不乱跑。
-** focus area
-*** Problem Navigation
-- Demonstrates the ability to organize the problem space, the constraints, and potential solution(s).
-- Asks questions to systematically reduce ambiguity, target the most important problems to solve for, understand what's needed for a quantitative analysis, and define a requirement set to design to.
-- Demonstrates awareness of the product from an end-user perspective.
-*** Solution Design
-*** Technical Excellence
-*** Technical Communication
-* Work Challenges & Key Learnings                                  :noexport:
-** Find the right problems
-Challenges:
-- Identifying impactful problems vs “noise.”
-- Securing scope, alignment, and funding across stakeholders.
-
-Learnings:
-- Invest early in problem discovery and framing.
-- Anchor decisions to business/infra impact to gain support.
-** Driving Execution Across Teams
-Challenges:
-
-- Teams have different positions, priorities, and opinions.
-- Alignment often requires negotiation and compromise.
-
-Learnings:
-- Clear communication and shared goals are essential.
-- Build trust and credibility to influence without authority.
-- Balance speed vs thoroughness based on context.
-** Technical & System Complexity
-Challenges:
-- Dealing with infra-scale technical challenges (reliability, scalability, latency).
-- Legacy issues (e.g., unreliable validation framework).
-
-Learnings:
-- Build guardrails and observability to make systems resilient.
-- Incremental improvements often scale better than one-off fixes.
-** Dependencies & Unreliable Components
-Challenges:
-- Cross-team and cross-system dependencies introduce fragility.
-- Upstream changes or weak components can block progress.
-
-Learnings:
-- Invest in automated validation and monitoring to catch issues early.
-- Design with failure scenarios in mind (graceful degradation, fallbacks).
-** Delivering Impact Under Constraints
-Challenge:
-- Limited time, resources, and competing priorities make it impossible to build a “perfect” solution.
-
-Learning:
-- Define clear success criteria up front. Focus on what delivers the most impact, and avoid over-engineering.
-** Evolving with Ambiguity
-Challenges:
-- Requirements and priorities shift frequently in Ads/Infra.
-- Early-stage projects often lack clear ownership or metrics.
-
-Learnings:
-- Clarify success criteria early, but stay flexible as context evolves.
-- Break down big ambiguous goals into smaller milestones to maintain momentum.
-** People & Growth
-Challenges:
-- Scaling yourself beyond individual contribution.
-- Onboarding and up-leveling new team members while delivering on projects.
-
-Learnings:
-
-Document and codify best practices (guardrails, playbooks, runbooks).
-
-Mentoring and enabling others multiplies long-term impact.
-* behavior interview                                               :noexport:
+* Behavior Interview                                               :noexport:
 Behavior/Culture → 练 复用故事库，不现编。
 
 Use STAR (Situation, Task, Action, Result) or PAR (Problem, Action, Result).
@@ -636,15 +411,3 @@ Every behavioral answer should hit this mental checklist:
 Did I show clarity → ownership → impact → reflection → alignment with culture?
 ** STAR: situation, task, action, result
 ** PAR: problem, action, result
-* Solve a big problem quickly                                      :noexport:
-** strong exeuction
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Identify your next big goal                                      :noexport:
-** what's your strength
-** what's your
-*URL: https://quantcodedenny.com/posts/leadership-mindset/
- TODO make suggestions which adds value and drive actions
-
-
-
-

@@ -216,16 +216,19 @@ In this post, we’ll also cover practical techniques for explaining both clearl
 - Make sure your daily actions reinforce that story.
 
 Example: If you want to be known as “reliable under pressure,” communicate progress early, highlight risks, and show calm problem-solving when issues arise.
+
 **2. Show Business Value, Not Just Effort**
 
 - Leaders care about outcomes, not effort.
 - Instead of: “We reduced server downtime by 10%.”
 - Say: “Our work avoided $2M in lost revenue by keeping the site up during peak traffic.”
+
 **Techniques to Explain Business Value**
 - Quantify results in dollars, time saved, or efficiency improvements.
 - Link project outcomes to company objectives or KPIs.
 - Compare current vs. previous state to illustrate impact.
 - Highlight who benefits (customers, team, or organization) and how.
+
 **3. Highlight Project Complexity & Learning**
 - Impact is often underestimated if you don’t reveal the hidden challenges.
 - Share major obstacles you overcame.
@@ -271,3 +274,46 @@ Example: “We cut model training costs by 30%. What’s less visible is that th
 Looking better at work is not superficial. It’s about telling the full story of your contributions. Use the techniques to make your **business value** and **complexity & learning** clear.
 
 At the end of every project, pause and ask: **Who needs to see this, and how can I frame it so the real impact is clear?**
+
+
+* How to Connect Better: A Practical Runbook
+:PROPERTIES:
+:EXPORT_FILE_NAME: connect-better
+:EXPORT_DATE: 2025-09-30
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/connect-better/
+
+Building strong, meaningful connections at work and in life is one of the most underrated skills for success. While technical expertise and performance matter, your ability to connect often determines how far your ideas travel and how much influence you have. Here’s a practical guide to "connect better," distilled into actionable steps.
+** 1. Start with Genuine Interest
+- **Listen actively**: Focus on understanding, not just replying. Ask clarifying questions, nod, and paraphrase to show attention.
+- **Notice what matters to others**: Remember small details—project priorities, personal interests, or challenges.
+- **Show curiosity**: Ask questions that invite stories rather than just facts. Example: instead of “Did the project launch?” ask “What was the most surprising challenge in the launch?”
+
+** 2. Make Your Presence Felt Positively
+- **Be approachable**: Smile, use open body language, and maintain eye contact.
+- **Communicate clearly**: Share your thoughts concisely; avoid jargon unless necessary.
+- **Be consistent**: Follow up on commitments. Reliability strengthens relationships.
+
+** 3. Create Value for Others
+- **Offer help proactively**: Look for opportunities to solve problems, share insights, or connect people.
+- **Celebrate others’ wins**: Congratulate achievements and acknowledge contributions.
+- **Share useful resources**: Articles, frameworks, or introductions that help someone grow professionally or personally.
+
+** 4. Build a Network, Not Just Contacts
+- **Focus on depth**: Prioritize meaningful relationships over the sheer number of connections.
+- **Keep in touch regularly**: Short check-ins, sharing useful updates, or asking for advice keeps the connection alive.
+- **Leverage different contexts**: Connect through work, social events, mentoring, or online communities.
+
+** 5. Reflect and Iterate
+- **Review your interactions**: After meetings or events, note what went well and what could improve.
+- **Seek feedback**: Ask trusted colleagues or friends how you come across in conversations.
+- **Adjust your approach**: Refine your style based on what resonates with others and what feels authentic.
+
+** Quick Tips
+- Remember names and use them—people love being remembered.
+- Be mindful of others’ time; keep conversations concise when appropriate.
+- Be authentic; forced connections rarely last.
+
+** Summary
+Connecting better is less about charm and more about intention. By genuinely engaging, showing value, and nurturing relationships, you amplify your influence and make your personal and professional life more rewarding. Treat connecting as a skill to practice, measure your impact, and iterate.

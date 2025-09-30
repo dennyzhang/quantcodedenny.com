@@ -25,6 +25,6 @@ enableRobotsTXT = true
     url = "/tags/engineering/"
     weight = 30
   [[menu.main]]
-    name = "Trade with LLM"
+    name = "AI Trading"
     url = "/tags/trading-llm/"
     weight = 40

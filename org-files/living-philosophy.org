@@ -1,7 +1,7 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
 #+AUTHOR: dennyzhang
-#+HUGO_TAGS: leadership life engineering
+#+HUGO_TAGS: leadership life
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
@@ -11,7 +11,6 @@
 :EXPORT_DATE: 2025-09-14
 :EXPORT_HUGO_SECTION: posts
 :END:
-
 URL: https://quantcodedenny.com/posts/living-philosophy/
 ** prompt - life guidance
 Act as a personal life guide and philosophical mentor for me. My goal is to live a peaceful and fulfilled life. Remind me and give advice that helps me:

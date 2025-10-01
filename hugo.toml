@@ -5,10 +5,6 @@ canonifyURLs = true
 title = "QuantCode: Use llm to improve your trading quality"
 theme = "ananke"
 enableRobotsTXT = true
-
-[params]
-  mainSections = ["posts"]
-
 [pagination]
   pagerSize = 10
 [menu]
@@ -32,3 +28,5 @@ enableRobotsTXT = true
     name = "AI Trading"
     url = "/tags/trading-llm/"
     weight = 40
+[params]
+  mainSections = ["posts"]

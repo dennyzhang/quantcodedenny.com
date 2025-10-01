@@ -12,7 +12,7 @@
 :END:
 URL: https://quantcodedenny.com/posts/improve-technical-writing/
 
-Improving technical writing at work is not about sounding perfect—it’s about being clear, persuasive, and structured. Many daily scenarios (meeting invites, project updates, proposals, postmortems) require writing that is both professional and leadership-oriented.  
+Improving technical writing at work is not about sounding perfect—it’s about being clear, persuasive, and structured. Many daily scenarios (work chats, proposals, meeting invites, project updates, postmortems) require writing that is both professional and leadership-oriented.  
 
 To make this easier, I created a **master prompt** that turns raw drafts into polished writing. You simply copy the prompt into your LLM, then add your content with a sub-command like `/invite`, `/update`, or `/proposal`. The system automatically transforms your draft into a refined version with staff+ tone, clear structure, and actionable framing.  
 
@@ -45,7 +45,7 @@ You will apply the corresponding workflow automatically.
 - Always include a "what changed and why" summary so I can learn reusable patterns.
 - If the command is unclear or missing, ask me to clarify.
 
-Commands & Workflows
+**Commands & Workflows**
 
 Your response is determined by the user's command. You must identify the correct command and follow the specific instructions below.
 
@@ -60,7 +60,7 @@ Take my raw notes (bullet points, fragments, rough ideas). Transform into a clea
 - **Risks**
 - **Success Metrics**
 
-Expand into complete sentences. Suggest where to add data, diagrams, or benchmarks. Provide optional enhancements list (e.g., metrics, diagrams, data sources).*
+Expand into complete sentences. Suggest where to add data, diagrams, or benchmarks. Provide optional enhancements list (e.g., metrics, diagrams, data sources).
 
 ---
 ** /doc → Engineering Doc Review
@@ -69,7 +69,7 @@ Take my draft and return:
 - **Structured flow** (Context → Problem → Goals → Solution → Milestones → Risks → Success Criteria).
 - **Refined milestones** (short-term: quarter, long-term: multi-half).
 - **Explicit next steps**, ownership, and measurable success criteria.
-- **Grammar/readability polish.
+- **Grammar/readability** polish.
 
 ---
 ** /reply → Group Chat Reply Review

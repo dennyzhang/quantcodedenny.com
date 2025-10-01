@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/write-interview-feedback/
+URL: https://quantcodedenny.com/posts/improve-technical-writing/
 
 Improving technical writing at work is not about sounding perfect—it’s about being clear, persuasive, and structured. Many daily scenarios (meeting invites, project updates, proposals, postmortems) require writing that is both professional and leadership-oriented.  
 

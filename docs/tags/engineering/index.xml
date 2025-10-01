@@ -6,7 +6,7 @@
     <description>Recent content in Engineering on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Oct 2025 07:39:22 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Oct 2025 07:39:41 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connect Better At Work</title>
@@ -62,7 +62,7 @@
       <link>https://quantcodedenny.com/posts/improve-technical-writing/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/improve-technical-writing/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/write-interview-feedback/&#34;&gt;https://quantcodedenny.com/posts/write-interview-feedback/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Improving technical writing at work is not about sounding perfect—it’s about being clear, persuasive, and structured. Many daily scenarios (meeting invites, project updates, proposals, postmortems) require writing that is both professional and leadership-oriented.&lt;/p&gt;&#xA;&lt;p&gt;To make this easier, I created a &lt;strong&gt;&lt;strong&gt;master prompt&lt;/strong&gt;&lt;/strong&gt; that turns raw drafts into polished writing. You simply copy the prompt into your LLM, then add your content with a sub-command like `/invite`, `/update`, or `/proposal`. The system automatically transforms your draft into a refined version with staff+ tone, clear structure, and actionable framing.&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/improve-technical-writing/&#34;&gt;https://quantcodedenny.com/posts/improve-technical-writing/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Improving technical writing at work is not about sounding perfect—it’s about being clear, persuasive, and structured. Many daily scenarios (meeting invites, project updates, proposals, postmortems) require writing that is both professional and leadership-oriented.&lt;/p&gt;&#xA;&lt;p&gt;To make this easier, I created a &lt;strong&gt;&lt;strong&gt;master prompt&lt;/strong&gt;&lt;/strong&gt; that turns raw drafts into polished writing. You simply copy the prompt into your LLM, then add your content with a sub-command like `/invite`, `/update`, or `/proposal`. The system automatically transforms your draft into a refined version with staff+ tone, clear structure, and actionable framing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Use LLM For Vibe Coding</title>

@@ -131,25 +131,19 @@ how to interact in the world
 - 生活要做减法
 - take the best advantage and enjoy what you already have
 - minimalist can improve your freedom
-* Scope better At Work
+* Scope Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: scope-better
 :EXPORT_DATE: 2025-09-30
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/scope-better/
-#+TITLE: Scoping Better: A Tech Lead’s Journey
-#+DATE: 2025-09-30
-#+AUTHOR: Denny Zhang
-#+EXPORT_FILE_NAME: scoping-better
-#+EXPORT_HUGO_SECTION: posts
 ** Introduction
-For a successful tech lead, it usually has four steps: scope better -> do better -> look better -> connect better.
+For a successful tech lead, it usually has four steps: [[https://quantcodedenny.com/posts/scope-better/][scope better]] -> do better -> [[https://quantcodedenny.com/posts/look-better/][look better]] -> [[https://quantcodedenny.com/posts/connect-better/][connect better]].
 
 One of the hardest skills to master as a tech lead is *scoping*—understanding the right problems to solve, sizing them correctly, and aligning them with team capacity and organizational priorities. Poor scoping leads to wasted effort, missed deadlines, or over-committing your team. On the other hand, good scoping sets the foundation for execution, influence, and impact.
 
 This blog post is my personal journal on learning to *scope better*. I plan to keep updating it with new experiences, reflections, and frameworks as I encounter different challenges.
-
 ** Why Scoping Matters
 Scoping is more than estimating timelines. It’s about:
 
@@ -190,7 +184,8 @@ A critical part of scoping is *finding good problems to tackle*. Some ways I app
 
 ** Next Steps
 I will continue experimenting with different scoping strategies and documenting outcomes. Over time, I hope this post will become a living guide for myself and others on how to *scope better* as a tech lead.
-** Enage LLM for improvement* Look Better At Work
+** Enage LLM for improvement
+* Look Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better
 :EXPORT_DATE: 2025-09-30
@@ -198,6 +193,8 @@ I will continue experimenting with different scoping strategies and documenting 
 :END:
 URL: https://quantcodedenny.com/posts/look-better/
 ** Introduction
+For a successful tech lead, it usually has four steps: [[https://quantcodedenny.com/posts/scope-better/][scope better]] -> do better -> [[https://quantcodedenny.com/posts/look-better/][look better]] -> [[https://quantcodedenny.com/posts/connect-better/][connect better]].
+
 Working hard alone isn’t enough. Leaders and decision-makers are busy — if they don’t see my impact, it might as well not exist.
 
 Looking better at work is not self-promotion. It’s about making my contributions **visible, credible, and trusted**. I focus on three things:
@@ -307,6 +304,8 @@ Here’s what I want you to do:
 :END:
 URL: https://quantcodedenny.com/posts/connect-better/
 ** Introduction
+For a successful tech lead, it usually has four steps: [[https://quantcodedenny.com/posts/scope-better/][scope better]] -> do better -> [[https://quantcodedenny.com/posts/look-better/][look better]] -> [[https://quantcodedenny.com/posts/connect-better/][connect better]].
+
 Doing great work is only part of success. My influence grows when others know, trust, and rely on me.
 
 Connecting better at work is most powerful when it becomes a **small daily habit** — one or two simple actions that naturally build trust, relationships, and impact.

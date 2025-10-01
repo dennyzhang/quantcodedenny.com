@@ -28,3 +28,5 @@ enableRobotsTXT = true
     name = "AI Trading"
     url = "/tags/trading-llm/"
     weight = 40
+[params]
+  mainSections = ["posts"]

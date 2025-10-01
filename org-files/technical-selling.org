@@ -16,9 +16,10 @@ I establish myself as a tech lead in ML infra with two main goals:
 1. Work with **market value** — skills and outcomes recognized externally for career mobility.
 2. Minimize **mental stress** — maintain well-being while delivering impact. More reading: [[https://quantcodedenny.com/posts/eq-playbook/][stress less, lead better]].
 ** My Core Strengths
-1. **Focus On Business Impact**: Deliver measurable business wins; prioritize high-impact opportunities.
-2. **Strong Ownership**: Own projects end-to-end and drive outcomes across teams.
-3. **Collaboration & Trust**: Align stakeholders, resolve conflicts fairly, and build long-term partnerships.  
+1. **Self-Accountability**: Take full responsibility for both the work I commit to and the choices I decline, ensuring clarity and ownership in outcomes.  
+2. **Resiliency**: Maintain determination and focus in the face of obstacles, adapting strategies while keeping long-term goals intact.  
+3. **Impact-Driven Execution**: Prioritize opportunities that create measurable business wins, balancing scope with available bandwidth.  
+4. **Collaborative Partnership (Light)**: Work effectively with peers and cross-functional teams by aligning on shared goals and resolving conflicts constructively.  
 ** My Growth Areas
 1. **Communicate Clearly & Persuasively**: Align teams on goals and expectations; Summarize my work’s problem, solution, and impact concisely for directors, while keeping technical credibility for peers.
 2. **Prioritize High-Leverage Work**: Focus my technical expertise on initiatives that drive measurable impact; delegate or decline low-value work
@@ -309,39 +310,33 @@ For a successful tech lead, it usually has four steps: [[https://quantcodedenny.
 Doing great work is only part of success. My influence grows when others know, trust, and rely on me.
 
 Connecting better at work is most powerful when it becomes a **small daily habit** — one or two simple actions that naturally build trust, relationships, and impact.
-
 ** Core Daily Habit
 Each day, I focus on **one key action**:
 
-- **Notice & Add Value** – Do at least one of these per day:  
-  - Ask a thoughtful question to understand someone’s priorities or challenges.  
+- **Notice & Add Value** – Do at least one of these per day:
+  - Ask a thoughtful question to understand someone’s priorities or challenges.
   - Share a useful resource, tip, introduction, or recognition.
 
-- **Follow Through** – Complete or update one commitment each day.  
+- **Follow Through** – Complete or update one commitment each day.
   - If I can’t complete it, I proactively communicate the update.
-
 ** Daily Routine (2–3 min each)**
-- **Morning:** Pick one person to check in with or help today.  
-- **During Day:** Apply **one core daily habit** naturally.  
+- **Morning:** Pick one person to check in with or help today.
+- **During Day:** Apply **one core daily habit** naturally.
 - **End of Day:** Log one insight or follow-up for tomorrow; optionally send a quick thank-you or recognition.
-
 ** Weekly Reflection (5 min)**
-- Who did I meaningfully connect with this week?  
-- What one helpful action did I take for each person?  
+- Who did I meaningfully connect with this week?
+- What one helpful action did I take for each person?
 - Plan one simple connection action for next week.
-
 ** Quick Tips
-- Small, consistent actions beat rare grand gestures.  
-- Focus on **helping others achieve their goals**, not just visibility.  
+- Small, consistent actions beat rare grand gestures.
+- Focus on **helping others achieve their goals**, not just visibility.
 - Keep notes in one place for easy follow-up.
-
 ** Common Pitfalls
-- Focusing only on networking for personal gain feels transactional.  
-- Skipping follow-ups reduces trust.  
+- Focusing only on networking for personal gain feels transactional.
+- Skipping follow-ups reduces trust.
 - Ignoring listening or empathy weakens connections.
-
 ** Conclusion
-Connecting better at work is both a **skill and a habit**. I make it automatic with **one simple action per day**: **notice, add value, or follow through**.  
+Connecting better at work is both a **skill and a habit**. I make it automatic with **one simple action per day**: **notice, add value, or follow through**.
 
 At the end of each week, I reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
 ** Enage LLM for improvement
@@ -354,25 +349,20 @@ I have a draft blog post in org-mode about "Connect Better at Work." I want to *
 4. Structured and scannable for readers.
 
 Please act as my co-author and do the following:
-
 **Step 1: Analyze**
 - Identify overlapping sections, unclear sentences, or redundant points.
 - Highlight areas where content could be more practical or actionable.
 - Suggest any missing elements that would make it more helpful (e.g., examples, micro-actions, reflections).
-
 **Step 2: Improve**
 - Rewrite sentences or sections for clarity and flow.
 - Make it more “I”-focused (first-person) if needed.
 - Condense overly long sections while keeping essential content.
 - Suggest ways to add new, high-value content (tips, mini-case studies, or scenarios).
-
 **Step 3: Expand**
 - Add optional content that could enhance the post without overloading the reader (bonus tips, habit variations, illustrative examples).
-
 **Step 4: Present**
 - Return the improved blog post in **org-mode format**, ready to copy and paste.
 - Include a short note explaining what was changed or added.
-
 **Constraints**
 - Keep the post frictionless and practical — readers should be able to apply it daily.
 - Avoid making the post too long or complex; prioritize usability over completeness.

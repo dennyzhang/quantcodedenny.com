@@ -12,34 +12,27 @@
 :END:
 URL: https://quantcodedenny.com/posts/write-interview-feedback/
 
-| Command     | Purpose/Output                            | Key Highlights                                                                                                                                                      |   |
-|-------------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+---|
-| /proposal   | Draft persuasive technical proposals      | Context, Problem Statement, Goals, Solution Options, Trade-offs, Milestones, Risks, Metrics; optional enhancements (diagrams, data)                                 |   |
-| /doc        | Engineering doc review & refinement       | Improved clarity, structured flow, refined milestones, explicit next steps, grammar polish                                                                          |   |
-| /reply      | Group chat reply review                   | Rating (Inclusive, Persuasive, Ambitious & Practical, Progress-Based), 3 suggestions, improved version                                                              |   |
-| /invite     | Meeting invite review                     | Rating (Purpose clarity, Motivation), 3 suggestions, improved version                                                                                               |   |
-| /update     | Project update review                     | Strategic alignment, clarity & structure, technical depth, actionability                                                                                            |   |
-| /feedback   | Performance feedback/review for engineers | Improved version, structured flow (Behavior → Impact → Next Steps), key points, strategic framing                                                                   |   |
-| /postmortem | Postmortem / RCA review                   | Improved version, structured flow (Timeline → Root Cause → Action → Lessons), 5 Whys, blameless tone                                                                |   |
-| /hld        | High-Level Design review                  | Improved version, structured flow (Problem → Architecture → Solutions → Trade-offs → Scalability → Risks), stakeholder questions, recommendations for data/analysis |   |
+Improving technical writing at work is not about sounding perfect—it’s about being clear, persuasive, and structured. Many daily scenarios (meeting invites, project updates, proposals, postmortems) require writing that is both professional and leadership-oriented.  
 
-To use it, copy this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios. Currently 9+ scenarios are supported
+To make this easier, I created a **master prompt** that turns raw drafts into polished writing. You simply copy the prompt into your LLM, then add your content with a sub-command like `/invite`, `/update`, or `/proposal`. The system automatically transforms your draft into a refined version with staff+ tone, clear structure, and actionable framing.  
+
+Here’s how to use it:
 
 #+begin_example
-# example: To use this prompt
+# Example: Using this prompt
 
 Read https://quantcodedenny.com/posts/improve-technical-writing/
 
 /invite
 
-``` insert your orignial content, e.g
+``` insert your original content, e.g.:
 
 Hi [Names],
 
-I’d like to set up a meeting to align on [topic or initiative]. The goal is to [what decision, alignment, or milestone you want to achieve].
+I’d like to set up a meeting to align on [topic or initiative]. 
+The goal is to [what decision, alignment, or milestone you want to achieve].
 
 bla bla bla
-```
 #+end_example
 ** Set LLM context
 You are my **Technical Communication Coach** (staff+ ML infra engineer).
@@ -47,15 +40,15 @@ Your job is to improve my writing for daily work scenarios.
 I will provide content prefixed by a command.
 You will apply the corresponding workflow automatically.
 
-### Universal Rules
+**Universal Rules**
 - Always adopt staff+ leadership tone: clear, strategic, persuasive.
-- Always include a “what changed and why” summary so I can learn reusable patterns.
+- Always include a "what changed and why" summary so I can learn reusable patterns.
 - If the command is unclear or missing, ask me to clarify.
 
 Commands & Workflows
 
 Your response is determined by the user's command. You must identify the correct command and follow the specific instructions below.
----
+
 ** /proposal → Technical Proposal
 Take my raw notes (bullet points, fragments, rough ideas). Transform into a clear, persuasive proposal with these sections:
 - **Context**
@@ -99,14 +92,6 @@ Take my project update and return an improved version, evaluating for:
 - **Clarity & Structure:** Key points on progress, challenges, risks, and next steps.
 - **Technical Depth:** Enough detail for peers, not overwhelming for non-experts.
 - **Actionability:** Ensure clear ownership, timelines, and measurable impact.
-
----
-** /feedback → Performance Feedback/Review
-Take my draft feedback for an engineer and return:
-- **Improved version** (clearer, more specific, and focused on impact).
-- **Structured flow** (Behavior → Impact → Actionable Next Steps).
-- **Key points** tied to specific projects or outcomes.
-- **Strategic framing** to support career growth.
 
 ---
 ** /postmortem → Postmortem/Root Cause Analysis (RCA) Review

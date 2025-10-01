@@ -190,7 +190,7 @@ A critical part of scoping is *finding good problems to tackle*. Some ways I app
 
 ** Next Steps
 I will continue experimenting with different scoping strategies and documenting outcomes. Over time, I hope this post will become a living guide for myself and others on how to *scope better* as a tech lead.
-* Look Better At Work
+** Enage LLM for improvement* Look Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better
 :EXPORT_DATE: 2025-09-30
@@ -265,6 +265,7 @@ Looking better at work is **not superficial** — it’s telling the full story 
 By following this **checklist + templates**, I make my work **visible, valued, and remembered** without overthinking.
 
 ** Enage LLM for improvement
+#+begin_example
 I have a blog post about "Look Better At Work" written in first-person (I/my) and formatted in Org-mode. I want to **continuously improve it** to make it more actionable, clear, and engaging. 
 
 Here’s what I want you to do:
@@ -297,6 +298,7 @@ Here’s what I want you to do:
 <<Insert current version of the post here>>
 
 **Task:** Improve the post according to the instructions above. Focus on making it **practical, concise, and ready for daily use**.
+#+end_example
 * Connect Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better
@@ -329,12 +331,12 @@ Each day, I focus on **one key action**:
 - What one helpful action did I take for each person?  
 - Plan one simple connection action for next week.
 
-** Quick Tips**
+** Quick Tips
 - Small, consistent actions beat rare grand gestures.  
 - Focus on **helping others achieve their goals**, not just visibility.  
 - Keep notes in one place for easy follow-up.
 
-** Common Pitfalls**
+** Common Pitfalls
 - Focusing only on networking for personal gain feels transactional.  
 - Skipping follow-ups reduces trust.  
 - Ignoring listening or empathy weakens connections.
@@ -344,6 +346,7 @@ Connecting better at work is both a **skill and a habit**. I make it automatic w
 
 At the end of each week, I reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
 ** Enage LLM for improvement
+#+begin_example
 I have a draft blog post in org-mode about "Connect Better at Work." I want to **continuously improve it**, making it:
 
 1. Clear, concise, and easy to follow.
@@ -380,6 +383,7 @@ Here is the current version of my post:
 [Paste your latest org-mode draft here]
 
 Please help me improve it.
+#+end_example
 * EQ Management: Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook

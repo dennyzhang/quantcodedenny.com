@@ -10,7 +10,7 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     name = "Home"
-    url = "/"
+    url = "/posts"
     weight = 10
   [[menu.main]]
     name = "About"

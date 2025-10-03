@@ -294,7 +294,7 @@ how to ensure the room know which team has the most
 
 use escalation, only after giving individual feedback and it doesn't work
 *** XFN meeting got distracted by talkative individuals
-* Use LLM For Vibe Coding
+* Vibe Coding
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-for-vibe-coding
 :EXPORT_DATE: 2025-08-25
@@ -384,20 +384,14 @@ Output:
 - Alternatives: Propose one or two alternative approaches and briefly explain their pros and cons.
 - Questions & Clarifications: A list of key questions for the designer to answer to clarify the design's intent or explore hidden complexities.
 ---
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Challenges In Vibe Coding                                        :noexport:
-:PROPERTIES:
-:EXPORT_FILE_NAME: challenge-in-vibe-coding
-:EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
-:END:
-URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** Challenges In Vibe Coding                                        :noexport:
 - different versions: functions not defined; certain functions are not supported
 - understand the convention: hugo generate files into docs folder
 - no defensive coding which makes debugging difficult
 - ox-hugo 0.12.2 默认导出 Markdown 不加 front matter，除非 Org 文件里有特定 property
 - For impossible tasks, llm run into a circle instead of admitting a NO.
-** Expert mindset for vibe coding
+*** Expert mindset for vibe coding
 - Embrace imperfection: treat the LLM as a co-pilot, not a guarantee.
 - Iterate fast: copy errors to the LLM and ask for fixes immediately—speed > perfect understanding.
 - Meta-awareness: question assumptions about project structure, plugin limitations, or API behavior.
@@ -407,7 +401,7 @@ URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 - Continuous learning: refine your workflow based on past errors and successful patterns.
 - Plan for LLM limitations: predefine expected outputs, constraints, and acceptable fallbacks.
 
-*** Technical challenges
+**** Technical challenges
 - Multiple versions: functions may be undefined or unsupported across versions.
 - Understanding conventions: e.g., Hugo generates files into the `docs` folder, not `content`.
 - Lack of defensive coding: errors propagate, making debugging harder.
@@ -415,7 +409,7 @@ URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 - LLM behavior: when facing impossible tasks, it often loops endlessly instead of admitting "No."
 - Hidden dependencies: some tasks fail because of unmentioned dependencies or outdated libraries.
 - Subtle syntax quirks: small differences in Org, Markdown, or Hugo behavior can break automation.
-** Gaps, blind spots & workflow caveats
+*** Gaps, blind spots & workflow caveats
 - Works well for individual files, but not full project structures.
 - [#A] You don’t know what you don’t know—and the LLM may not tell you.
 - Component limitations arise from business, capability, or incompatibilities:
@@ -430,7 +424,9 @@ URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 - Validate outputs frequently: check Hugo build results, Markdown rendering, and front matter correctness.
 - Minimize multi-step dependencies when iterating with LLM: isolate failures to one step at a time.
 - Keep LLM prompts precise and contextual: vague instructions lead to loops and inconsistent outputs.
-** edge scenarios where common practice doesn't work well
-** llm won't reject requirement which shouldn't happen in the first place
+*** edge scenarios where common practice doesn't work well
+*** llm won't reject requirement which shouldn't happen in the first place
 Use elisp to "url:", it makes the code very fragile and hard to use. The development time is wasted
+
+
 

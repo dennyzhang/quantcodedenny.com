@@ -6,7 +6,7 @@
     <description>Recent content in Posts on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 11:29:49 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 11:30:51 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connect Better At Work</title>
@@ -86,7 +86,7 @@
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/llm-trade-common-scenarios/&#34;&gt;https://quantcodedenny.com/posts/llm-trade-common-scenarios/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Command&lt;/th&gt;&#xA;          &lt;th&gt;Purpose&lt;/th&gt;&#xA;          &lt;th&gt;Key Output&lt;/th&gt;&#xA;          &lt;th&gt;Example&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;/guardrail&lt;/td&gt;&#xA;          &lt;td&gt;Check if trading intent is emotional&lt;/td&gt;&#xA;          &lt;td&gt;✅/⚠️, reasoning, suggested price, optional cool-down&lt;/td&gt;&#xA;          &lt;td&gt;“I want to buy QQQ at $550”&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;/buydip&lt;/td&gt;&#xA;          &lt;td&gt;Identify dip opportunities&lt;/td&gt;&#xA;          &lt;td&gt;Yes/No, confidence %, reasoning, target price&lt;/td&gt;&#xA;          &lt;td&gt;“MSFT dip opportunity this week”&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;/earlyalerts&lt;/td&gt;&#xA;          &lt;td&gt;Spot early growth signals&lt;/td&gt;&#xA;          &lt;td&gt;Yes/No, confidence %, reasoning, next steps&lt;/td&gt;&#xA;          &lt;td&gt;“Analyze early signals for Reddit”&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;/evaluate&lt;/td&gt;&#xA;          &lt;td&gt;Assess planned stock purchase&lt;/td&gt;&#xA;          &lt;td&gt;Buy? Yes/No, emotional check, confidence %, reasoning&lt;/td&gt;&#xA;          &lt;td&gt;“I want to buy QQQ at $550”&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;/daytrade&lt;/td&gt;&#xA;          &lt;td&gt;Intraday trading opportunities&lt;/td&gt;&#xA;          &lt;td&gt;Yes/No, confidence %, reasoning, suggested entry/exit&lt;/td&gt;&#xA;          &lt;td&gt;“Day trade QQQ today”&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;/autoeval&lt;/td&gt;&#xA;          &lt;td&gt;Assess automated orders/trades&lt;/td&gt;&#xA;          &lt;td&gt;Execute? Yes/No, emotional check, confidence %, reasoning, adjustments&lt;/td&gt;&#xA;          &lt;td&gt;“Set auto-buy order QQQ $600”&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;To use it, copy this post into llm as the master prompt. Then use &amp;ldquo;/&amp;lt;sub-command&amp;gt; &amp;lt;your content&amp;rdquo; for each scenarios. Currently 9+ scenarios are supported&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Use LLM For Vibe Coding</title>
+      <title>Vibe Coding</title>
       <link>https://quantcodedenny.com/posts/llm-for-vibe-coding/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/llm-for-vibe-coding/</guid>

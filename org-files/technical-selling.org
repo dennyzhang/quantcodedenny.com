@@ -447,7 +447,9 @@ URL: https://quantcodedenny.com/posts/suggest-without-context/
 
 A living runbook for learning from and giving suggestions to other teams
 
-Cross-team collaboration is a critical part of tech lead work, yet you are often asked to provide input on projects where you don’t have full visibility. Offering poorly framed suggestions in these situations can easily create friction, reduce trust, or block progress. Conversely, well-crafted suggestions, grounded in understanding and context, can amplify impact, build credibility, and accelerate learning for both teams. This runbook is designed to help you navigate the delicate balance of learning from other teams, providing actionable advice, and influencing outcomes effectively even when you don’t know all the details.
+Cross-team collaboration is a critical part of tech lead work, yet you are often asked to provide input on projects where you don’t have full visibility.
+
+Offering poorly framed suggestions in these situations can easily create friction, reduce trust, or block progress. Conversely, well-crafted suggestions, grounded in understanding and context, can amplify impact, build credibility, and accelerate learning for both teams.
 ** 1 Core Principles
 1. Understand Before Suggesting
    - Do the deep dive yourself.

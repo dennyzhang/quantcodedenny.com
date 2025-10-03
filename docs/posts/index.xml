@@ -6,7 +6,7 @@
     <description>Recent content in Posts on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 11:28:05 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 11:29:49 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connect Better At Work</title>
@@ -41,7 +41,7 @@
       <link>https://quantcodedenny.com/posts/suggest-without-context/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/suggest-without-context/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/suggest-without-context/&#34;&gt;https://quantcodedenny.com/posts/suggest-without-context/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;A living runbook for learning from and giving suggestions to other teams&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Why This Matters&lt;/strong&gt;&lt;/strong&gt;: Cross-team collaboration is a critical part of tech lead work, yet you are often asked to provide input on projects where you don’t have full visibility.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Well-crafted suggestions, grounded in understanding and context, can amplify impact, build credibility, and accelerate learning for both teams.&lt;/li&gt;&#xA;&lt;li&gt;Poorly framed suggestions can create friction, reduce trust, or block progress.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;core-principles&#34;&gt;Core Principles&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Understand Before Suggesting&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/suggest-without-context/&#34;&gt;https://quantcodedenny.com/posts/suggest-without-context/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;A living runbook for learning from and giving suggestions to other teams&#xA;&lt;strong&gt;&lt;strong&gt;Why This Matters&lt;/strong&gt;&lt;/strong&gt;: Cross-team collaboration is a critical part of tech lead work, yet you are often asked to provide input on projects where you don’t have full visibility.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Well-crafted suggestions, grounded in understanding and context, can amplify impact, build credibility, and accelerate learning for both teams.&lt;/li&gt;&#xA;&lt;li&gt;Poorly framed suggestions can create friction, reduce trust, or block progress.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;core-principles&#34;&gt;Core Principles&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Understand Before Suggesting&lt;/p&gt;</description>
     </item>
     <item>
       <title>Focus On P0 At Work</title>
@@ -58,6 +58,13 @@
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/self-intro/&#34;&gt;https://quantcodedenny.com/posts/self-intro/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-context-for-llm-collobration&#34;&gt;Set context for LLM collobration&lt;/h2&gt;&#xA;&lt;p&gt;I am an experienced infra engineer (~20 years) with a personal&#xA;project: &lt;a href=&#34;https://quantcodedenny.com&#34;&gt;https://quantcodedenny.com&lt;/a&gt;, hosted on GitHub Pages (repo:&#xA;&lt;a href=&#34;https://github.com/dennyzhang/quantcodedenny.com/&#34;&gt;https://github.com/dennyzhang/quantcodedenny.com/&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;I focus on long-term investing in high-tech US stocks. I want to&#xA;explore LLM techniques to improve trading decision quality and provide&#xA;a free, reusable toolkit for engineering-driven indie traders.&lt;/p&gt;&#xA;&lt;h2 id=&#34;target-audience&#34;&gt;Target Audience&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Indie traders (not large financial institutions)&lt;/li&gt;&#xA;&lt;li&gt;Long-term investors (not day traders)&lt;/li&gt;&#xA;&lt;li&gt;Engineering or technical background&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;current-progress&#34;&gt;Current Progress&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Blog hosted on GitHub Pages with an initial feature: stock sentiment analyzer(&lt;a href=&#34;https://quantcodedenny.com/posts/llm-stock-sentiment/&#34;&gt;https://quantcodedenny.com/posts/llm-stock-sentiment/&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Targeting long-term tech investors with engineering backgrounds&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;task&#34;&gt;Task&lt;/h2&gt;&#xA;&lt;p&gt;You are a world-class entrepreneur, market analyst, and product strategist. Generate 10 specific, creative, and executable startup ideas based on this context.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Check Stock Sentiment With AI</title>
+      <link>https://quantcodedenny.com/posts/llm-stock-sentiment/</link>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/llm-stock-sentiment/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/llm-trade-common-scenarios/&#34;&gt;https://quantcodedenny.com/posts/llm-trade-common-scenarios/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;0-intro&#34;&gt;0 Intro&lt;/h2&gt;&#xA;&lt;p&gt;This tool empowers engineers to automate stock sentiment analysis with&#xA;precision and speed.&lt;/p&gt;&#xA;&lt;p&gt;It combines two core capabilities: parsing recent&#xA;news headlines to extract market sentiment and insights, and parsing&#xA;SEC filings to surface key financial and risk information. Both&#xA;streams are fed into a configurable LLM pipeline, allowing you to run&#xA;fast local tests with lightweight models or perform high-accuracy&#xA;production analysis. Designed for modularity and reuse, it integrates&#xA;seamlessly into your workflows—turning raw data into actionable&#xA;insights without manual reading.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Drive V-Team Execution</title>
       <link>https://quantcodedenny.com/posts/drive-vteam-execution/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
@@ -72,14 +79,7 @@
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/improve-technical-writing/&#34;&gt;https://quantcodedenny.com/posts/improve-technical-writing/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Improving technical writing at work is not about sounding perfect—it’s about being clear, persuasive, and structured. Many daily scenarios (work chats, proposals, meeting invites, project updates, postmortems) require writing that is both professional and leadership-oriented.&lt;/p&gt;&#xA;&lt;p&gt;To make this easier, I created a &lt;strong&gt;&lt;strong&gt;master prompt&lt;/strong&gt;&lt;/strong&gt; that turns raw drafts into polished writing. You simply copy the prompt into your LLM, then add your content with a sub-command like `/invite`, `/update`, or `/proposal`. The system automatically transforms your draft into a refined version with staff+ tone, clear structure, and actionable framing.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Use LLM for stock sentiment</title>
-      <link>https://quantcodedenny.com/posts/llm-stock-sentiment/</link>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/llm-stock-sentiment/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/llm-trade-common-scenarios/&#34;&gt;https://quantcodedenny.com/posts/llm-trade-common-scenarios/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;0-intro&#34;&gt;0 Intro&lt;/h2&gt;&#xA;&lt;p&gt;This tool empowers engineers to automate stock sentiment analysis with&#xA;precision and speed.&lt;/p&gt;&#xA;&lt;p&gt;It combines two core capabilities: parsing recent&#xA;news headlines to extract market sentiment and insights, and parsing&#xA;SEC filings to surface key financial and risk information. Both&#xA;streams are fed into a configurable LLM pipeline, allowing you to run&#xA;fast local tests with lightweight models or perform high-accuracy&#xA;production analysis. Designed for modularity and reuse, it integrates&#xA;seamlessly into your workflows—turning raw data into actionable&#xA;insights without manual reading.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Use LLM for trading common scenarios</title>
+      <title>Improve Trading Quality With AI</title>
       <link>https://quantcodedenny.com/posts/llm-trade-common-scenarios/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/llm-trade-common-scenarios/</guid>

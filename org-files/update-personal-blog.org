@@ -155,17 +155,15 @@ CLOSED: [2025-09-01 Mon 16:02]
 *** TODO [#A] below shortcut doesn't work
 - <e
 - <s
-* DONE make sure hugo shell command output is not distracting      :noexport:
+** DONE make sure hugo shell command output is not distracting     :noexport:
 CLOSED: [2025-09-21 Sun 16:56]
-* DONE [#A] below shortcut doesn't work
+** DONE [#A] below shortcut doesn't work
 CLOSED: [2025-09-21 Sun 16:57]
 - <e
 - <s
-* CANCELED export cheatsheet.dennyzhang.com to new website         :noexport:
+** CANCELED export cheatsheet.dennyzhang.com to new website        :noexport:
 URL: https://quantcodedenny.com/posts/update-personal-blog/
 CLOSED: [2025-09-21 Sun 16:57]
-
-
-
-* DONE better format the output                                    :noexport:
+** DONE better format the output                                   :noexport:
 CLOSED: [2025-09-29 Mon 14:34]
+

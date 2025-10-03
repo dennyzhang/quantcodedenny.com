@@ -448,7 +448,7 @@ URL: https://quantcodedenny.com/posts/suggest-without-context/
 A living runbook for learning from and giving suggestions to other teams
 
 Cross-team collaboration is a critical part of tech lead work, yet you are often asked to provide input on projects where you don’t have full visibility. Offering poorly framed suggestions in these situations can easily create friction, reduce trust, or block progress. Conversely, well-crafted suggestions, grounded in understanding and context, can amplify impact, build credibility, and accelerate learning for both teams. This runbook is designed to help you navigate the delicate balance of learning from other teams, providing actionable advice, and influencing outcomes effectively even when you don’t know all the details.
-** Core Principles
+** 1 Core Principles
 1. Understand Before Suggesting
    - Do the deep dive yourself.
    - Validate information; it may be incomplete or inaccurate.
@@ -465,34 +465,37 @@ Cross-team collaboration is a critical part of tech lead work, yet you are often
    - Frame suggestions as options, not orders.
    - Offer help or co-ownership to ensure ideas turn into action.
    - Maintain reciprocity: share lessons as you learn.
-** Typical Scenarios & How to Engage
-*Postmortems*
-- Learning: Dive deep yourself; don’t rely on others to explain everything.
-- Suggesting: Share patterns tied to their goals (e.g., MTTR reduction).
-- Pitfalls: Mindset pushback is normal; avoid dismissing existing practices.
-*Design Reviews*
-- Learning: Ask high-level tradeoff questions; juniors may provide too many low-level details.
-- Suggesting: Connect proposals to metrics they care about (latency, availability, cost).
-- Pitfalls: Not all advice applies; context matters.
-*Process Sharing*
-- Learning: Look for workflows that could inspire your team.
-- Suggesting: Position as mutual benefit; keep info actionable.
-- Pitfalls: Don’t overwhelm with details; clarity is key.
-*Roadmap Syncs*
-- Learning: Understand priorities, constraints, and success metrics.
-- Suggesting: Align efforts; identify overlaps and opportunities for coordination.
-- Pitfalls: Avoid derailing their plans with unrelated proposals.
-*Tooling/Infra Requests*
-- Learning: Clarify real pain points; validate needs.
-- Suggesting: Offer layered solutions; co-own integration or follow-up.
-- Pitfalls: One-size-fits-all solutions rarely work; match context.
-** Checklist Before Giving Suggestions
+** 2 Typical Scenarios & How to Engage
+1. *Postmortems*
+  - Learning: Dive deep yourself; don’t rely on others to explain everything.
+  - Suggesting: Share patterns tied to their goals (e.g., MTTR reduction).
+  - Pitfalls: Mindset pushback is normal; avoid dismissing existing practices.
+
+- *Design Reviews*
+  - Learning: Ask high-level tradeoff questions; juniors may provide too many low-level details.
+  - Suggesting: Connect proposals to metrics they care about (latency, availability, cost).
+  - Pitfalls: Not all advice applies; context matters.
+
+- *Process Sharing*
+  - Learning: Look for workflows that could inspire your team.
+  - Suggesting: Position as mutual benefit; keep info actionable.
+  - Pitfalls: Don’t overwhelm with details; clarity is key.
+
+- *Roadmap Syncs*
+  - Learning: Understand priorities, constraints, and success metrics.
+  - Suggesting: Align efforts; identify overlaps and opportunities for coordination.
+  - Pitfalls: Avoid derailing their plans with unrelated proposals.
+- *Tooling/Infra Requests*
+  - Learning: Clarify real pain points; validate needs.
+  - Suggesting: Offer layered solutions; co-own integration or follow-up.
+  - Pitfalls: One-size-fits-all solutions rarely work; match context.
+** 3 Checklist Before Giving Suggestions
 - Do I understand their goal ("what") even if I don’t know all the details?
 - Did I acknowledge their effort first?
 - Are my suggestions simple, actionable, and relevant?
 - Have I defined who owns follow-up actions?
 - Am I ready to co-own implementation or provide support if needed?
-** Evolving This Runbook & LLM Prompt
+** 4 Evolving This Doc With LLM
 - This is a living reference. Keep adding examples from: SEVs, design reviews, process improvements, roadmap syncs, and infra collaboration.
 *** LLM Prompt for Future Updates
 #+BEGIN_SRC

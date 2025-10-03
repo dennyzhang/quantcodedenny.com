@@ -504,7 +504,7 @@ Here are my raw notes in org-mode format:
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value
-:EXPORT_DATE: 2025-09-30
+:EXPORT_DATE: 2025-10-03
 :END:
 URL: https://quantcodedenny.com/posts/improve-market-value/
 

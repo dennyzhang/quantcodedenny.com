@@ -503,13 +503,13 @@ Here are my raw notes in org-mode format:
 #+end_example
 * Improve Market Value
 :PROPERTIES:
-:EXPORT_FILE_NAME:
-:EXPORT_DATE: 2025-10-03
+:EXPORT_FILE_NAME: suggest-without-context
+:EXPORT_DATE: 2025-09-30
 :END:
 URL: https://quantcodedenny.com/posts/improve-market-value/
 
 Improving the market value generates fullfillment and confidence.
-
+** context
 what are the common caveats: less about local problems
 shift the focus
 

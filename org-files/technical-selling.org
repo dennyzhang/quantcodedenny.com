@@ -373,7 +373,7 @@ Here is the current version of my post:
 
 Please help me improve it.
 #+end_example
-* EQ Management: Stress Less, Lead Better
+* Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook
 :EXPORT_DATE: 2025-09-30
@@ -448,8 +448,8 @@ URL: https://quantcodedenny.com/posts/suggest-without-context/
 A living runbook for learning from and giving suggestions to other teams
 
 **Why This Matters**: Cross-team collaboration is a critical part of tech lead work, yet you are often asked to provide input on projects where you don’t have full visibility.
-- Poorly framed suggestions can create friction, reduce trust, or block progress.
 - Well-crafted suggestions, grounded in understanding and context, can amplify impact, build credibility, and accelerate learning for both teams.
+- Poorly framed suggestions can create friction, reduce trust, or block progress.
 
 ** Core Principles
 1. Understand Before Suggesting

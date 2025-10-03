@@ -508,17 +508,51 @@ Here are my raw notes in org-mode format:
 :END:
 URL: https://quantcodedenny.com/posts/improve-market-value/
 
-Improving the market value generates fullfillment and confidence.
-** context
-what are the common caveats: less about local problems
+Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel *too narrow* — you solve critical problems, but your broader market value may not fully reflect your capabilities. This post is a living document to help tech leads *organically increase market value*, stay visible, and continuously improve.
 
-shift the focus
+** 1. Guiding Principles
+- Think End-to-End
+  + Always maintain a mental map of the full system — data flows, dependencies, upstream/downstream impacts, and business objectives.
+  + Avoid getting trapped in local optimization that doesn’t move the business needle.
+- Translate Impact into Language the Market Understands
+  + Frame accomplishments in terms of revenue, cost savings, reliability, or scale.
+  + Example: “Reduced ad delivery latency by 15%” → “Improved ad revenue predictability by X%”.
+- Balance Depth with Breadth
+  + Deep technical mastery is necessary, but *marketable leaders understand context and patterns beyond their domain*.
+  + Learn industry-standard practices in system design, reliability, and observability — even if you don’t apply them directly every day.
+- Document and Share Your Thinking
+  + Writing blog posts, notes, or internal wikis shows both clarity of thought and knowledge-sharing ability.
+  + Enables future opportunities to easily identify your impact.
+- Leverage Cross-Team Learning
+  + Seek input from other teams to understand tradeoffs, common pitfalls, and best practices.
+  + Increases visibility and broadens your domain expertise.
 
-In daily work, establishing team charter might be the focus; In market, solving business problems with highest RoI solution is the focus
+** 2. Good Practices
+| Practice | Why it Works | Example |
+|----------+-------------+---------|
+| Framing a P0 incident with root cause & business impact | Shows problem-solving and business acumen | “Ad infra SEV reduced ads served by 10%; we implemented a cache strategy that restored 100% within 3 hours.” |
+| Designing scalable systems with foresight | Highlights technical leadership | Using sharded pipelines anticipating 10x growth in queries. |
+| Sharing reusable learnings | Demonstrates influence | Internal blog posts or shared runbooks that prevent repeated mistakes across teams. |
+| Asking strategic questions before designing | Shows judgment beyond execution | “If we scale 5x, how will this design handle eventual consistency and data staleness?” |
 
-system design is critcal: problem navigation, solution design, technical excellence, technical communication
+** 3. Bad Practices
+| Practice | Why it Hurts | Example |
+|----------+-------------+---------|
+| Focusing only on local optimization | Can obscure marketable impact | Fixing a single API latency without quantifying broader effect. |
+| Not documenting decisions | Reduces visibility & credibility | Team forgets key design choices; knowledge is siloed. |
+| Avoiding ambiguous problems | Signals lack of leadership | Ignoring a system-level problem because “it’s not my area.” |
+| Over-reliance on specific tech | Limits future mobility | Mastering internal infra tools without understanding underlying principles. |
 
-You always have a choice; don't be forced to do what you don't believe
+** 4. Daily Runbook Approach
+1. Daily Reflection: Capture what you learned, decisions made, and tradeoffs considered.
+2. Weekly Market Mapping: Identify external relevance — could your work be applied elsewhere? How would you explain it in industry terms?
+3. Monthly Patterns Review: Aggregate recurring issues, solutions, and lessons learned.
+4. Quarterly LLM Update: Use an LLM to summarize, reframe, and extract marketable insights.
+
+** 5. LLM Prompt Template for Continuous Improvement
+#+BEGIN_SRC text
+Context:
+I am a tech lead working in Meta Ads
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Improve tech lead mindsets                                       :noexport:
 :PROPERTIES:

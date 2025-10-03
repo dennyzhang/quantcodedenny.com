@@ -4,7 +4,7 @@
 #+HUGO_TAGS: blogging
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Introduction of myself and this website
+* About Me And This Blog
 :PROPERTIES:
 :EXPORT_FILE_NAME: self-intro
 :EXPORT_DATE: 2025-08-25

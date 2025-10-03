@@ -301,24 +301,6 @@ use escalation, only after giving individual feedback and it doesn't work
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
-
-| Command              | Purpose / Output                                   | Key Highlights                                                                                                                                                      |
-|----------------------+----------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| /review_pr ⚡️        | Full PR review: summary, code critique, mentorship | PR summary (what & why), clarity/readability, architectural feedback, edge cases/trade-offs, security & maintainability, bullet-point rationale, rewritten snippets |
-| /explain_code 🧠     | Code understanding / high-level explanation        | High-level summary, line-by-line breakdown, system impact & context                                                                                                 |
-| /review_unit_test 🧪 | Unit test quality review                           | Completeness, reliability, best practices, risk/coverage gaps, missing test stubs                                                                                   |
-| /design_feedback 🏗️  | Early-stage design/architecture feedback           | Strengths/weaknesses, bottlenecks, alternatives with pros/cons, clarifying questions                                                                                |
-
-To use it, copy this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios.
-#+begin_example
-## To use this prompt
-
-Read https://quantcodedenny.com/posts/llm-for-vibe-coding/
-
-/review_pr
-
-evaluate this pull request: XXX
-#+end_example
 ** Set LLM context
 You are a senior staff-level engineer with a focus on code quality, scalability, maintainability, and architectural excellence. Your task depends on the command prefix I provide before the content.
 

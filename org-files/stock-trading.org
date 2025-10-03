@@ -10,7 +10,7 @@
 :EXPORT_DATE: 2025-08-25
 :EXPORT_HUGO_SECTION: posts
 :END:
-URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
+URL: https://quantcodedenny.com/posts/llm-stock-sentiment/
 ** 0 Intro
 This tool empowers engineers to automate stock sentiment analysis with
 precision and speed.
@@ -105,27 +105,6 @@ make run-all
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
-| Command      | Purpose                              | Key Output                                                             | Example                            |
-|--------------+--------------------------------------+------------------------------------------------------------------------+------------------------------------|
-| /guardrail   | Check if trading intent is emotional | ✅/⚠️, reasoning, suggested price, optional cool-down                  | “I want to buy QQQ at $550”        |
-| /buydip      | Identify dip opportunities           | Yes/No, confidence %, reasoning, target price                          | “MSFT dip opportunity this week”   |
-| /earlyalerts | Spot early growth signals            | Yes/No, confidence %, reasoning, next steps                            | “Analyze early signals for Reddit” |
-| /evaluate    | Assess planned stock purchase        | Buy? Yes/No, emotional check, confidence %, reasoning                  | “I want to buy QQQ at $550”        |
-| /daytrade    | Intraday trading opportunities       | Yes/No, confidence %, reasoning, suggested entry/exit                  | “Day trade QQQ today”              |
-| /autoeval    | Assess automated orders/trades       | Execute? Yes/No, emotional check, confidence %, reasoning, adjustments | “Set auto-buy order QQQ $600”      |
-
-To use it, copy this post into llm as the master prompt. Then use "/<sub-command> <your content" for each scenarios. Currently 9+ scenarios are supported
-
-Example:
-#+begin_example
-## To use this prompt
-
-Read https://quantcodedenny.com/posts/llm-trade-common-scenarios/
-
-/guardrail
-
-I want to buy RKLB at 50 in the incoming days
-#+end_example
 ** Set LLM context
 Your role is to support disciplined stock trading decisions by analyzing scenarios with data-driven insights, emotional checks, and strategic recommendations. Use real-time market data, news, and trends where applicable (e.g., via web searches for current prices, volatility, or events). I will provide content prefixed by a command (e.g., /guardrail). Apply the corresponding workflow automatically.
 

@@ -509,58 +509,71 @@ Here are my raw notes in org-mode format:
 URL: https://quantcodedenny.com/posts/improve-market-value/
 
 Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel *too narrow* — you solve critical problems, but your broader market value may not fully reflect your capabilities. This post is a living document to help tech leads *organically increase market value*, stay visible, and continuously improve.
+Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel *too narrow* — you solve critical problems, but your broader market value may not fully reflect your capabilities. Often, the challenge isn’t lack of knowledge; it’s being too busy with daily work, leaving no time for high-impact but non-urgent improvements or blindspots. This post is a living document to help tech leads *organically increase market value*, stay visible, and continuously improve.
 
 ** 1. Guiding Principles
-- Think End-to-End
-  + Always maintain a mental map of the full system — data flows, dependencies, upstream/downstream impacts, and business objectives.
-  + Avoid getting trapped in local optimization that doesn’t move the business needle.
-- Translate Impact into Language the Market Understands
-  + Frame accomplishments in terms of revenue, cost savings, reliability, or scale.
-  + Example: "Reduced ad delivery latency by 15%" → "Improved ad revenue predictability by X%".
-- Balance Depth with Breadth
-  + Deep technical mastery is necessary, but *marketable leaders understand context and patterns beyond their domain*.
-  + Learn industry-standard practices in system design, reliability, and observability — even if you don’t apply them directly every day.
-- Document and Share Your Thinking
-  + Writing blog posts, notes, or internal wikis shows both clarity of thought and knowledge-sharing ability.
-  + Enables future opportunities to easily identify your impact.
-- Leverage Cross-Team Learning
-  + Seek input from other teams to understand tradeoffs, common pitfalls, and best practices.
-  + Increases visibility and broadens your domain expertise.
+- Think End-to-End and Prioritize Impact
+  + Keep a mental map of the full system — data flows, dependencies, upstream/downstream impacts, and business objectives.
+  + Ask daily: "How does this change affect other teams, user experience, and business metrics?"
+- Focus on Important but Not Urgent Work
+  + Identify blindspots: recurring issues, cross-team dependencies, systemic technical debt.
+  + Block weekly time for reflection, documentation, and proactive improvement.
+- Translate Work into Marketable Achievements
+  + Frame accomplishments in revenue, cost savings, reliability, or scale.
+  + Capture not just *what* was fixed, but *why it mattered*: “Reduced ad delivery latency by 15%, improving ad revenue predictability by X%.”
+- Document, Share, and Learn Across Teams
+  + Maintain daily notes or internal posts capturing problem, options, tradeoffs, and decisions.
+  + Summarize patterns weekly to increase visibility and influence.
 
 ** 2. Good Practices
-| Practice                                                | Why it Works                              | Example                                                                                                      |
-|---------------------------------------------------------+-------------------------------------------+--------------------------------------------------------------------------------------------------------------|
-| Framing a P0 incident with root cause & business impact | Shows problem-solving and business acumen | "Ad infra SEV reduced ads served by 10%; we implemented a cache strategy that restored 100% within 3 hours." |
-| Designing scalable systems with foresight               | Highlights technical leadership           | Using sharded pipelines anticipating 10x growth in queries.                                                  |
-| Sharing reusable learnings                              | Demonstrates influence                    | Internal blog posts or shared runbooks that prevent repeated mistakes across teams.                          |
-| Asking strategic questions before designing             | Shows judgment beyond execution           | "If we scale 5x, how will this design handle eventual consistency and data staleness?"                       |
+- **Frame P0/SEV incidents with business impact**
+  + Log root cause, mitigation, and downstream effect.
+  + Highlight prevented losses or restored capacity in marketable terms.
+- **Design for scale and reliability**
+  + Ask: "If traffic/data grows 5–10x, will this design hold?"
+  + Document assumptions, constraints, and failure modes.
+- **Share reusable learnings**
+  + Daily: note patterns, gotchas, scripts that saved time.
+  + Weekly: summarize in central doc or chat to benefit team.
+- **Ask strategic, end-to-end questions**
+  + Before implementation, ask about downstream impact or hidden dependencies.
+  + Capture tradeoffs even if the decision is local.
+- **Allocate deliberate focus time**
+  + Weekly: protect 1–2 hours for reflection, blindspot review, systemic improvements, or skill expansion.
 
 ** 3. Bad Practices
-| Practice                            | Why it Hurts                     | Example                                                                     |
-|-------------------------------------+----------------------------------+-----------------------------------------------------------------------------|
-| Focusing only on local optimization | Can obscure marketable impact    | Fixing a single API latency without quantifying broader effect.             |
-| Not documenting decisions           | Reduces visibility & credibility | Team forgets key design choices; knowledge is siloed.                       |
-| Avoiding ambiguous problems         | Signals lack of leadership       | Ignoring a system-level problem because "it’s not my area."                 |
-| Over-reliance on specific tech      | Limits future mobility           | Mastering internal infra tools without understanding underlying principles. |
+- **Local optimization without context**
+  + Fixing minor metrics without measuring system-wide or business impact.
+  + Mitigation: document downstream consequences.
+- **Not documenting decisions**
+  + Knowledge gets siloed; team forgets key context.
+  + Mitigation: 3 bullets per decision — problem, options, chosen path, rationale.
+- **Avoiding ambiguous or cross-team problems**
+  + Appears reactive or narrow.
+  + Mitigation: log ambiguous issues and track next steps.
+- **Over-reliance on internal tech**
+  + Limits marketable skillset.
+  + Mitigation: note underlying principles, patterns, and reasoning for tech choices.
 
 ** 4. Daily Runbook Approach
-1. Daily Reflection: Capture what you learned, decisions made, and tradeoffs considered.
-2. Weekly Market Mapping: Identify external relevance — could your work be applied elsewhere? How would you explain it in industry terms?
-3. Monthly Patterns Review: Aggregate recurring issues, solutions, and lessons learned.
-4. Quarterly LLM Update: Use an LLM to summarize, reframe, and extract marketable insights.
+1. **Daily Reflection**: Capture what you learned, decisions made, tradeoffs, and why they matter.
+2. **Weekly Focus Block**: 1–2 hours for important but non-urgent work (blindspots, systemic improvements, cross-team learning).
+3. **Weekly Market Mapping**: Reframe work in industry terms; highlight transferable impact.
+4. **Monthly Patterns Review**: Aggregate recurring issues, lessons, systemic improvements.
+5. **Quarterly LLM Update**: Use an LLM to summarize, reframe, and extract marketable insights.
 
 ** 5. LLM Prompt Template for Continuous Improvement
 #+BEGIN_SRC text
 Context:
 I am a tech lead working in Meta Ads Infra. 
-I am maintaining a runbook of learnings, decisions, and tradeoffs.
+I maintain a runbook of learnings, decisions, tradeoffs, and weekly focus work on blindspots and non-urgent improvements.
 
 Task:
-1. Summarize the key patterns and decisions from the following notes.
-2. Highlight marketable achievements in a way understandable outside my company.
-3. Identify gaps in breadth or end-to-end thinking that could increase my market value.
-4. Suggest improvements or principles I should focus on next.
-5. The output should be in org-mode format
+1. Summarize key patterns and decisions from the notes.
+2. Highlight marketable achievements understandable outside my company.
+3. Identify gaps in breadth, end-to-end thinking, or neglected blindspots that could increase market value.
+4. Suggest improvements or principles to focus on next.
+5. Output in org-mode format with actionable bullets suitable for daily practice.
 
 Notes:
 [PASTE YOUR RUNBOOK OR WEEKLY NOTES HERE]

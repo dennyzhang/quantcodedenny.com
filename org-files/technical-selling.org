@@ -447,7 +447,7 @@ URL: https://quantcodedenny.com/posts/suggest-without-context/
 
 A living runbook for learning from and giving suggestions to other teams
 ** Why This Matters
-- Cross-team collaboration is a core part of infra and PE work.
+Cross-team collaboration is a core part of tech lead work.
 - Often, you’re asked to weigh in on projects where you don’t know all the details.
 - Poorly framed suggestions can block discussions, create friction, or reduce trust.
 - Well-framed suggestions can amplify impact, build credibility, and accelerate learning for both sides.
@@ -500,7 +500,7 @@ A living runbook for learning from and giving suggestions to other teams
 - This is a living reference. Keep adding examples from: SEVs, design reviews, process improvements, roadmap syncs, and infra collaboration.
 *** LLM Prompt for Future Updates
 #+BEGIN_SRC
-I’m updating my “Art of Suggesting Without Full Context” runbook.
+I’m updating my "Suggest Without Full Context" runbook.
 Here are my raw notes:
 <PASTE NOTES>
 
@@ -508,6 +508,7 @@ Please:
 1. Incorporate them into the blog structure (principles, scenarios, checklist).
 2. Smooth the flow for readability.
 3. Highlight new insights and actionable points.
+4. Use org-mode format for output
 #+END_SRC
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Organically improve your market value

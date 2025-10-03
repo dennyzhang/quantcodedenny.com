@@ -16,10 +16,10 @@ I establish myself as a tech lead in ML infra with two main goals:
 1. Work with **market value** — skills and outcomes recognized externally for career mobility.
 2. Minimize **mental stress** — maintain well-being while delivering impact. More reading: [[https://quantcodedenny.com/posts/eq-playbook/][stress less, lead better]].
 ** My Core Strengths
-1. **Self-Accountability**: Take full responsibility for both the work I commit to and the choices I decline, ensuring clarity and ownership in outcomes.  
-2. **Resiliency**: Maintain determination and focus in the face of obstacles, adapting strategies while keeping long-term goals intact.  
-3. **Impact-Driven Execution**: Prioritize opportunities that create measurable business wins, balancing scope with available bandwidth.  
-4. **Collaborative Partnership (Light)**: Work effectively with peers and cross-functional teams by aligning on shared goals and resolving conflicts constructively.  
+1. **Self-Accountability**: Take full responsibility for both the work I commit to and the choices I decline, ensuring clarity and ownership in outcomes.
+2. **Resiliency**: Maintain determination and focus in the face of obstacles, adapting strategies while keeping long-term goals intact.
+3. **Impact-Driven Execution**: Prioritize opportunities that create measurable business wins, balancing scope with available bandwidth.
+4. **Collaborative Partnership (Light)**: Work effectively with peers and cross-functional teams by aligning on shared goals and resolving conflicts constructively.
 ** My Growth Areas
 1. **Communicate Clearly & Persuasively**: Align teams on goals and expectations; Summarize my work’s problem, solution, and impact concisely for directors, while keeping technical credibility for peers.
 2. **Prioritize High-Leverage Work**: Focus my technical expertise on initiatives that drive measurable impact; delegate or decline low-value work
@@ -27,30 +27,30 @@ I establish myself as a tech lead in ML infra with two main goals:
 4. **Generalize, Share, & Mentor**: Capture patterns across my projects and share insights to scale impact; Mentor peers and document lessons learned for team adoption.
 ** Recent Key Learnings
 1. **Leverage leadership and structures**
-   - Tried bottom-up charter building, but XFN teams already had dedicated roles (reliability, efficiency, DevX).  
-   - Learning: Tap leadership and structures early to avoid prolonged struggles.  
+   - Tried bottom-up charter building, but XFN teams already had dedicated roles (reliability, efficiency, DevX).
+   - Learning: Tap leadership and structures early to avoid prolonged struggles.
 
 2. **Set bigger, strategic business goals**
-   - Focused too narrowly on immediate team bandwidth.  
-   - Example: HD feature cleanup → incremental changes vs. holistic cleanup.  
-   - Learning: Aim for system-level impact, not just local optimizations.  
+   - Focused too narrowly on immediate team bandwidth.
+   - Example: HD feature cleanup → incremental changes vs. holistic cleanup.
+   - Learning: Aim for system-level impact, not just local optimizations.
 
 3. **Focus on high-impact technical challenges**
-   - Spent energy on headcount and conflicts where leverage was low.  
-   - Learning: Invest where technical expertise makes the most difference.  
+   - Spent energy on headcount and conflicts where leverage was low.
+   - Learning: Invest where technical expertise makes the most difference.
 
 4. **Be more confident and assertive in requests**
-   - Often accepted XFN deprioritization of my asks.  
-   - Example: Needed output validation (compilation) and feature checks (serving).  
-   - Learning: Advocate confidently for necessary changes, not just support passively.  
+   - Often accepted XFN deprioritization of my asks.
+   - Example: Needed output validation (compilation) and feature checks (serving).
+   - Learning: Advocate confidently for necessary changes, not just support passively.
 
 5. **Spend more time generalizing problems and exchanging knowledge**
-   - Solved problems in isolation, missed patterns and broader exchanges.  
-   - Learning: Step back, find repeatable insights, and share across teams.  
+   - Solved problems in isolation, missed patterns and broader exchanges.
+   - Learning: Step back, find repeatable insights, and share across teams.
 ** Mitigation: Navigate Corporate Environment
 1. **Make Value Visible**: Impact only counts if it’s measured and communicated.
 2. **Align and Advocate**: Influence grows with alignment and proactive advocacy.
-3. **Leverage, Don’t Reinvent**: Use existing processes and roles to accelerate outcomes. 
+3. **Leverage, Don’t Reinvent**: Use existing processes and roles to accelerate outcomes.
 ** Mitigation: Organically improve market value
 1. **Skill Leverage**: Work on rare, transferable, high-impact skills.
 2. **Visible Impact**: Quantify and share results internally.
@@ -89,7 +89,6 @@ I establish myself as a tech lead in ML infra with two main goals:
     - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
     - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
     - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
-
 ** Set LLM context
 I want to clarify what is truly important to me at work and identify my 3-year P0 priorities. Below is my current context.
 
@@ -152,7 +151,6 @@ Scoping is more than estimating timelines. It’s about:
 - Defining clear boundaries – Avoid scope creep and ensure deliverables are realistic.
 - Aligning expectations – Make sure stakeholders, peers, and the team understand the “what” and “why.”
 - Maximizing leverage – Prioritize work that scales or unlocks further opportunities.
-
 ** My Approach to Scoping
 I’ve found a few practical techniques that help me scope better:
 
@@ -166,7 +164,6 @@ I’ve found a few practical techniques that help me scope better:
   - Clearly identify the highest priority work versus nice-to-have work.
 - Learn from past projects.
   - Keep track of what was over- or under-scoped and adjust future estimates.
-
 ** Finding Good Problems to Solve
 A critical part of scoping is *finding good problems to tackle*. Some ways I approach this:
 
@@ -174,7 +171,6 @@ A critical part of scoping is *finding good problems to tackle*. Some ways I app
 - Focus on repetitive pain points that slow down the org or team.
 - Seek ambiguous challenges where clarity and leadership can make a difference.
 - Align with org goals to ensure impact is recognized and resources are available.
-
 ** Lessons Learned
 - It’s iterative.
   - Scoping is rarely perfect the first time. Adjust as new information arrives.
@@ -182,7 +178,6 @@ A critical part of scoping is *finding good problems to tackle*. Some ways I app
   - A well-scoped project is useless if the team and stakeholders don’t understand it.
 - Balance ambition and realism.
   - Stretch goals are fine, but over-promising hurts credibility.
-
 ** Next Steps
 I will continue experimenting with different scoping strategies and documenting outcomes. Over time, I hope this post will become a living guide for myself and others on how to *scope better* as a tech lead.
 ** Enage LLM for improvement
@@ -215,12 +210,11 @@ Working hard alone isn’t enough. Leaders and decision-makers are busy — if t
 
 Looking better at work is not self-promotion. It’s about making my contributions **visible, credible, and trusted**. I focus on three things:
 
-- **Business Impact** – What tangible results did I achieve?  
-- **Complexity & Learning** – What challenges did I overcome, and what did I learn?  
+- **Business Impact** – What tangible results did I achieve?
+- **Complexity & Learning** – What challenges did I overcome, and what did I learn?
 - **Credibility** – Did the right people notice my work, and did I involve or acknowledge others?
 
 This post gives me a **daily-ready framework** to apply these principles with minimal thinking.
-
 ** Core Principles (3-Minute Shortcut)
 - **Impact First**
   - I focus on results, not effort. I quantify outcomes (dollars, time, efficiency) and link them to team or company goals.
@@ -233,53 +227,47 @@ This post gives me a **daily-ready framework** to apply these principles with mi
 - **Credibility**
   - Feedback from peers is more credible than self-promotion. I share updates, recognize others, and ensure the right people see my work.
   - *Template:* “Thanks to [ally/team], I achieved this result. I shared the approach with [stakeholders].”
-
 ** Project Complexity Checklist
 - **Challenges & Hurdles**
-  - [ ] I highlight major obstacles (technical, organizational, cross-team)  
-  - [ ] I explain how I solved them or mitigated risks  
+  - [ ] I highlight major obstacles (technical, organizational, cross-team)
+  - [ ] I explain how I solved them or mitigated risks
 
 - **Learning & Innovation**
-  - [ ] I capture new skills, methods, frameworks, or tools  
-  - [ ] I show how they benefit future projects or others  
+  - [ ] I capture new skills, methods, frameworks, or tools
+  - [ ] I show how they benefit future projects or others
 
 - **Dependencies & Coordination**
-  - [ ] I note key dependencies and how I managed them  
+  - [ ] I note key dependencies and how I managed them
 
 - **Secondary Impact**
-  - [ ] I highlight outcomes beyond immediate metrics (efficiency gains, knowledge transfer)  
-
+  - [ ] I highlight outcomes beyond immediate metrics (efficiency gains, knowledge transfer)
 ** Daily & Weekly Runbook
 - **Daily (2–5 min)**
-  - I pick yesterday’s work and apply the **Impact → Complexity → Credibility** flow.  
-  - I fill the templates quickly.  
+  - I pick yesterday’s work and apply the **Impact → Complexity → Credibility** flow.
+  - I fill the templates quickly.
   - Optional: I note challenges or insights in a personal log.
 
 - **Weekly (10–15 min)**
-  - I review my log and pick 1–2 visible achievements.  
-  - I share a structured update using templates with my manager, team, or cross-functional stakeholders.  
+  - I review my log and pick 1–2 visible achievements.
+  - I share a structured update using templates with my manager, team, or cross-functional stakeholders.
   - I identify allies who can amplify my impact.
-
 ** Common Pitfalls
-- Overdoing self-promotion damages trust.  
-- Not surfacing **business value** makes my work look like mere execution.  
-- Not surfacing **complexity & learning** undervalues my effort.  
-- Staying invisible leads to missed recognition and opportunities.  
-- Focusing on busyness instead of impact dilutes my reputation.  
-
+- Overdoing self-promotion damages trust.
+- Not surfacing **business value** makes my work look like mere execution.
+- Not surfacing **complexity & learning** undervalues my effort.
+- Staying invisible leads to missed recognition and opportunities.
+- Focusing on busyness instead of impact dilutes my reputation.
 ** Conclusion
-Looking better at work is **not superficial** — it’s telling the full story of my contributions.  
-
-**Daily Habit:** Every day, I ask myself:  
-1. What **impact** can I highlight?  
-2. What **complexity & learning** did I uncover?  
+Looking better at work is **not superficial** — it’s telling the full story of my contributions.
+**Daily Habit:** Every day, I ask myself:
+1. What **impact** can I highlight?
+2. What **complexity & learning** did I uncover?
 3. Who do I need to involve or inform to **build credibility**?
 
 By following this **checklist + templates**, I make my work **visible, valued, and remembered** without overthinking.
-
 ** Enage LLM for improvement
 #+begin_example
-I have a blog post about "Look Better At Work" written in first-person (I/my) and formatted in Org-mode. I want to **continuously improve it** to make it more actionable, clear, and engaging. 
+I have a blog post about "Look Better At Work" written in first-person (I/my) and formatted in Org-mode. I want to **continuously improve it** to make it more actionable, clear, and engaging.
 
 Here’s what I want you to do:
 
@@ -302,14 +290,11 @@ Here’s what I want you to do:
 5. **Enhancements**
    - Suggest sections to add, remove, or merge.
    - Identify gaps or missed angles in the current content.
-
-**Instructions for Output:**  
-- Provide the improved content directly in Org-mode format.  
-- Summarize what changed and why (1–2 sentences).  
-
-**Input:**  
+**Instructions for Output:**
+- Provide the improved content directly in Org-mode format.
+- Summarize what changed and why (1–2 sentences).
+**Input:**
 <<Insert current version of the post here>>
-
 **Task:** Improve the post according to the instructions above. Focus on making it **practical, concise, and ready for daily use**.
 #+end_example
 * Connect Better At Work
@@ -444,7 +429,6 @@ This playbook is my daily runbook for staying calm, clear, and constructive unde
 - **After 90 Minutes of Work**: Step away for 5 mins; stretch or walk.
 - **Midday Check-In**: Drink water, adjust posture, reset focus.
 - **End of Day**: Write down one win and one boundary I defended.
-
 ** local notes                                                     :noexport:
 *** avoid over-delegation and no boundary
 weekly audit report: TPM don't want to own it
@@ -453,10 +437,82 @@ As discussed, it would be more effective, if you(or/and XXX) can take it from th
 
 I don't believe that is the right model though. There should be an E2E owner w/ help needed as is. Let's discuss in the meeting.
 #+end_example
+* Suggest Without Full Context
+:PROPERTIES:
+:EXPORT_FILE_NAME: suggest-without-context
+:EXPORT_DATE: 2025-09-30
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/suggest-without-context/
+
+A living runbook for learning from and giving suggestions to other teams
+** Why This Matters
+- Cross-team collaboration is a core part of infra and PE work.
+- Often, you’re asked to weigh in on projects where you don’t know all the details.
+- Poorly framed suggestions can block discussions, create friction, or reduce trust.
+- Well-framed suggestions can amplify impact, build credibility, and accelerate learning for both sides.
+- This runbook helps you navigate learning, suggesting, and influencing across teams effectively.
+** Core Principles (Sticky 3–4)
+1. Understand Before Suggesting
+   - Do the deep dive yourself.
+   - Validate information; it may be incomplete or inaccurate.
+   - Focus on *what* (the goal) rather than *how*.
+2. Respect People and Context
+   - Acknowledge effort before giving input.
+   - Match the discussion level (process vs details).
+   - Expect pushback as a signal, not a blocker.
+3. Keep It Simple and Actionable
+   - Avoid information overload that distracts or blocks discussions.
+   - Tie suggestions to clear metrics and outcomes.
+   - Define which team/org owns follow-up actions.
+4. Share and Co-Own (Optional)
+   - Frame suggestions as options, not orders.
+   - Offer help or co-ownership to ensure ideas turn into action.
+   - Maintain reciprocity: share lessons as you learn.
+** Typical Scenarios & How to Engage
+*** Postmortems
+- Learning: Dive deep yourself; don’t rely on others to explain everything.
+- Suggesting: Share patterns tied to their goals (e.g., MTTR reduction).
+- Pitfalls: Mindset pushback is normal; avoid dismissing existing practices.
+*** Design Reviews
+- Learning: Ask high-level tradeoff questions; juniors may provide too many low-level details.
+- Suggesting: Connect proposals to metrics they care about (latency, availability, cost).
+- Pitfalls: Not all advice applies; context matters.
+*** Process Sharing
+- Learning: Look for workflows that could inspire your team.
+- Suggesting: Position as mutual benefit; keep info actionable.
+- Pitfalls: Don’t overwhelm with details; clarity is key.
+*** Roadmap Syncs
+- Learning: Understand priorities, constraints, and success metrics.
+- Suggesting: Align efforts; identify overlaps and opportunities for coordination.
+- Pitfalls: Avoid derailing their plans with unrelated proposals.
+*** Tooling/Infra Requests
+- Learning: Clarify real pain points; validate needs.
+- Suggesting: Offer layered solutions; co-own integration or follow-up.
+- Pitfalls: One-size-fits-all solutions rarely work; match context.
+** Checklist Before Giving Suggestions
+- Do I understand their goal ("what") even if I don’t know all the details?
+- Did I acknowledge their effort first?
+- Are my suggestions simple, actionable, and relevant?
+- Have I defined who owns follow-up actions?
+- Am I ready to co-own implementation or provide support if needed?
+** Evolving This Runbook & LLM Prompt
+- This is a living reference. Keep adding examples from: SEVs, design reviews, process improvements, roadmap syncs, and infra collaboration.
+*** LLM Prompt for Future Updates
+#+BEGIN_SRC
+I’m updating my “Art of Suggesting Without Full Context” runbook.
+Here are my raw notes:
+<PASTE NOTES>
+
+Please:
+1. Incorporate them into the blog structure (principles, scenarios, checklist).
+2. Smooth the flow for readability.
+3. Highlight new insights and actionable points.
+#+END_SRC
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Organically improve your market value
 :PROPERTIES:
-:EXPORT_FILE_NAME: 
+:EXPORT_FILE_NAME:
 :EXPORT_DATE: 2025-09-30
 :EXPORT_HUGO_SECTION: posts
 :END:
@@ -533,11 +589,6 @@ Top skills
 - Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
 - Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
 - Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
-
-
-
-
-
 ** local notes
 - stay too long in a bad setup
 - pick a wrong problem & direction

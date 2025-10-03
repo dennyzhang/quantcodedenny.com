@@ -385,20 +385,6 @@ Output:
 - Questions & Clarifications: A list of key questions for the designer to answer to clarify the design's intent or explore hidden complexities.
 ---
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Behavior Interview                                               :noexport:
-Behavior/Culture → 练 复用故事库，不现编。
-
-Use STAR (Situation, Task, Action, Result) or PAR (Problem, Action, Result).
-
-Keep answers 2–3 minutes, not 10. Concise shows thoughtfulness.
-
-Don’t drown in context — focus on what you did and why.
-
-Every behavioral answer should hit this mental checklist:
-
-Did I show clarity → ownership → impact → reflection → alignment with culture?
-** STAR: situation, task, action, result
-** PAR: problem, action, result
 * Challenges In Vibe Coding                                        :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenge-in-vibe-coding
@@ -447,6 +433,4 @@ URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 ** edge scenarios where common practice doesn't work well
 ** llm won't reject requirement which shouldn't happen in the first place
 Use elisp to "url:", it makes the code very fragile and hard to use. The development time is wasted
-
-
 

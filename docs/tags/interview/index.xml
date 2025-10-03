@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interview on QuantCode: Use llm to improve your trading quality</title>
+    <link>https://quantcodedenny.com/tags/interview/</link>
+    <description>Recent content in Interview on QuantCode: Use llm to improve your trading quality</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Oct 2025 12:29:53 -0700</lastBuildDate>
+    <atom:link href="https://quantcodedenny.com/tags/interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improve Market Value</title>
+      <link>https://quantcodedenny.com/posts/improve-market-value/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/improve-market-value/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/improve-market-value/&#34;&gt;https://quantcodedenny.com/posts/improve-market-value/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel &lt;strong&gt;too narrow&lt;/strong&gt; — you solve critical problems, but your broader market value may not fully reflect your capabilities. Often, the challenge isn’t lack of knowledge; it’s being too busy with daily work, leaving no time for high-impact but non-urgent improvements or blindspots.&lt;/p&gt;&#xA;&lt;p&gt;This post is a living document to help tech leads &lt;strong&gt;organically increase market value&lt;/strong&gt;, stay visible, and continuously improve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Preapare System Design</title>
+      <link>https://quantcodedenny.com/posts/prepare-system-interview/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/prepare-system-interview/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/prepare-system-interview/&#34;&gt;https://quantcodedenny.com/posts/prepare-system-interview/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;System design interviews test not just technical knowledge, but strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.&#xA;This post consolidates my learnings from system design prep, especially for ML Infra contexts, and includes actionable steps to keep improving.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

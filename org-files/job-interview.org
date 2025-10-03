@@ -92,7 +92,7 @@ URL: https://quantcodedenny.com/posts/prepare-system-interview/
 
 System design interviews test not just technical knowledge, but strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.
 This post consolidates my learnings from system design prep, especially for ML Infra contexts, and includes actionable steps to keep improving.
-* SWE System Design Leveling
+* SWE System Design Leveling - 35 mins
 ** IC5
 - Independently chooses components to tell a coherent story.
 - Covers end-to-end design with no significant gaps.

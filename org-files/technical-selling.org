@@ -508,7 +508,6 @@ Here are my raw notes in org-mode format:
 :END:
 URL: https://quantcodedenny.com/posts/improve-market-value/
 
-Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel *too narrow* — you solve critical problems, but your broader market value may not fully reflect your capabilities. This post is a living document to help tech leads *organically increase market value*, stay visible, and continuously improve.
 Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel *too narrow* — you solve critical problems, but your broader market value may not fully reflect your capabilities. Often, the challenge isn’t lack of knowledge; it’s being too busy with daily work, leaving no time for high-impact but non-urgent improvements or blindspots. This post is a living document to help tech leads *organically increase market value*, stay visible, and continuously improve.
 
 ** 1. Guiding Principles

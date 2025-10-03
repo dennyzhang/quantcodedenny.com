@@ -467,30 +467,33 @@ Offering poorly framed suggestions in these situations can easily create frictio
    - Frame suggestions as options, not orders.
    - Offer help or co-ownership to ensure ideas turn into action.
    - Maintain reciprocity: share lessons as you learn.
-** 2 Typical Scenarios & How to Engage
-1. *Postmortems*
-  - Learning: Dive deep yourself; don’t rely on others to explain everything.
-  - Suggesting: Share patterns tied to their goals (e.g., MTTR reduction).
-  - Pitfalls: Mindset pushback is normal; avoid dismissing existing practices.
+** 2 Scenario: High-Pressure, Short-Context Scenarios
+(Few minutes to give input, limited context, e.g., design reviews, SEV reviews, emergency triage)
 
-- *Design Reviews*
-  - Learning: Ask high-level tradeoff questions; juniors may provide too many low-level details.
-  - Suggesting: Connect proposals to metrics they care about (latency, availability, cost).
-  - Pitfalls: Not all advice applies; context matters.
+- Approach:
+  - Focus on the goal or desired outcome.
+  - Ask high-leverage, pattern-based questions.
+  - Prioritize comments that are high-impact and low-risk.
+  - Signal limited context but contribute thoughtfully.
+  - Clarify follow-up / ownership if action is triggered.
 
-- *Process Sharing*
-  - Learning: Look for workflows that could inspire your team.
-  - Suggesting: Position as mutual benefit; keep info actionable.
-  - Pitfalls: Don’t overwhelm with details; clarity is key.
+- Examples:
+  - SEV postmortem review
+  - Rapid design review
+  - Urgent cross-team triage
+** 3 Scenario: Standard Context Scenarios
+(More time to explore context, e.g., process sharing, roadmap syncs, tooling adoption)
 
-- *Roadmap Syncs*
-  - Learning: Understand priorities, constraints, and success metrics.
-  - Suggesting: Align efforts; identify overlaps and opportunities for coordination.
-  - Pitfalls: Avoid derailing their plans with unrelated proposals.
-- *Tooling/Infra Requests*
-  - Learning: Clarify real pain points; validate needs.
-  - Suggesting: Offer layered solutions; co-own integration or follow-up.
-  - Pitfalls: One-size-fits-all solutions rarely work; match context.
+- Approach:
+  1. Deep dive into details if needed.
+  - Understand tradeoffs and context fully.
+  - Offer concrete suggestions with examples from prior experience.
+  - Frame suggestions in alignment with team goals.
+
+- Examples:
+  - Process improvement sharing
+  - Quarterly roadmap sync
+  - Tooling/infra collaboration
 ** 3 Checklist Before Giving Suggestions
 - Do I understand their goal ("what") even if I don’t know all the details?
 - Did I acknowledge their effort first?
@@ -511,6 +514,7 @@ Please:
 3. Highlight new insights and actionable points.
 4. Use org-mode format for output
 #+END_SRC
+
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Organically improve your market value
 :PROPERTIES:

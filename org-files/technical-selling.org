@@ -509,18 +509,17 @@ Here are my raw notes in org-mode format:
 URL: https://quantcodedenny.com/posts/improve-market-value/
 
 Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel *too narrow* — you solve critical problems, but your broader market value may not fully reflect your capabilities. Often, the challenge isn’t lack of knowledge; it’s being too busy with daily work, leaving no time for high-impact but non-urgent improvements or blindspots. This post is a living document to help tech leads *organically increase market value*, stay visible, and continuously improve.
-
 ** 1. Guiding Principles
-- Think End-to-End and Prioritize Impact
+- **Think End-to-End and Prioritize Impact**
   + Keep a mental map of the full system — data flows, dependencies, upstream/downstream impacts, and business objectives.
   + Ask daily: "How does this change affect other teams, user experience, and business metrics?"
-- Focus on Important but Not Urgent Work
+- **Focus on Important but Not Urgent Work**
   + Identify blindspots: recurring issues, cross-team dependencies, systemic technical debt.
   + Block weekly time for reflection, documentation, and proactive improvement.
-- Translate Work into Marketable Achievements
+- **Translate Work into Marketable Achievements**
   + Frame accomplishments in revenue, cost savings, reliability, or scale.
   + Capture not just *what* was fixed, but *why it mattered*: “Reduced ad delivery latency by 15%, improving ad revenue predictability by X%.”
-- Document, Share, and Learn Across Teams
+- **Document, Share, and Learn Across Teams**
   + Maintain daily notes or internal posts capturing problem, options, tradeoffs, and decisions.
   + Summarize patterns weekly to increase visibility and influence.
 

@@ -8,7 +8,6 @@
 :PROPERTIES:
 :EXPORT_FILE_NAME: clarify-p0s-at-work
 :EXPORT_DATE: 2025-09-29
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** My Goal
@@ -135,7 +134,6 @@ how to interact in the world
 :PROPERTIES:
 :EXPORT_FILE_NAME: scope-better
 :EXPORT_DATE: 2025-09-30
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/scope-better/
 ** Introduction
@@ -200,7 +198,6 @@ Work on ML infra reliability, what are the top challenges
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better
 :EXPORT_DATE: 2025-09-30
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/look-better/
 ** Introduction
@@ -301,7 +298,6 @@ Here’s what I want you to do:
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better
 :EXPORT_DATE: 2025-09-30
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/connect-better/
 ** Introduction
@@ -377,7 +373,6 @@ Please help me improve it.
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook
 :EXPORT_DATE: 2025-09-30
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/eq-playbook/
 
@@ -441,7 +436,6 @@ I don't believe that is the right model though. There should be an E2E owner w/ 
 :PROPERTIES:
 :EXPORT_FILE_NAME: suggest-without-context
 :EXPORT_DATE: 2025-09-30
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/suggest-without-context/
 
@@ -507,17 +501,15 @@ Please:
 Here are my raw notes in org-mode format:
 <PASTE NOTES>
 #+end_example
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Organically improve your market value
+* Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME:
-:EXPORT_DATE: 2025-09-30
-:EXPORT_HUGO_SECTION: posts
+:EXPORT_DATE: 2025-10-03
 :END:
 URL: https://quantcodedenny.com/posts/improve-market-value/
 
 Improving the market value generates fullfillment and confidence.
-** local notes                                                     :noexport:
+
 what are the common caveats: less about local problems
 shift the focus
 
@@ -526,11 +518,11 @@ In daily work, establishing team charter might be the focus; In market, solving 
 system design is critcal: problem navigation, solution design, technical excellence, technical communication
 
 You always have a choice; don't be forced to do what you don't believe
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Improve tech lead mindsets                                       :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-techlead-mindset
 :EXPORT_DATE: 2025-09-14
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/improve-techlead-mindset/
 ** Set LLM context
@@ -596,7 +588,6 @@ Top skills
 :PROPERTIES:
 :EXPORT_FILE_NAME: generalize_working_experience
 :EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
 :END:
 
 URL: https://quantcodedenny.com/posts/generalize_working_experiene/

@@ -8,7 +8,6 @@
 :PROPERTIES:
 :EXPORT_FILE_NAME: self-intro
 :EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/self-intro/
 ** Set context for LLM collobration

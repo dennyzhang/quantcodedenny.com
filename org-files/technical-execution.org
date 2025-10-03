@@ -1,14 +1,13 @@
 #+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
 #+language: en
 #+AUTHOR: dennyzhang
-#+HUGO_TAGS: engineering leadership execution
+#+HUGO_TAGS: engineering execution
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
 * Improve Technical Writing
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-technical-writing
 :EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/improve-technical-writing/
 
@@ -114,7 +113,6 @@ Take my HLD draft and return:
 :PROPERTIES:
 :EXPORT_FILE_NAME: write-interview-feedback
 :EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/write-feedback/
 ** Set LLM context
@@ -228,7 +226,6 @@ Raw notes:
 :PROPERTIES:
 :EXPORT_FILE_NAME: drive-vteam-execution
 :EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
 :END:
 
 URL: https://quantcodedenny.com/posts/drive-vteam-execution/
@@ -298,7 +295,6 @@ use escalation, only after giving individual feedback and it doesn't work
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-for-vibe-coding
 :EXPORT_DATE: 2025-08-25
-:EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/llm-for-vibe-coding/
 ** Set LLM context

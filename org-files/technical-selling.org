@@ -263,7 +263,7 @@ Looking better at work is **not superficial** — it’s telling the full story 
 
 By following this **checklist + templates**, I make my work **visible, valued, and remembered** without overthinking.
 ** Enage LLM for improvement
-#+begin_example
+#+BEGIN_SRC text
 I have a blog post about "Look Better At Work" written in first-person (I/my) and formatted in Org-mode. I want to **continuously improve it** to make it more actionable, clear, and engaging.
 
 Here’s what I want you to do:
@@ -293,7 +293,7 @@ Here’s what I want you to do:
 **Input:**
 <<Insert current version of the post here>>
 **Task:** Improve the post according to the instructions above. Focus on making it **practical, concise, and ready for daily use**.
-#+end_example
+#+END_SRC
 * Connect Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better
@@ -336,7 +336,7 @@ Connecting better at work is both a **skill and a habit**. I make it automatic w
 
 At the end of each week, I reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
 ** Enage LLM for improvement
-#+begin_example
+#+BEGIN_SRC text
 I have a draft blog post in org-mode about "Connect Better at Work." I want to **continuously improve it**, making it:
 
 1. Clear, concise, and easy to follow.
@@ -368,7 +368,7 @@ Here is the current version of my post:
 [Paste your latest org-mode draft here]
 
 Please help me improve it.
-#+end_example
+#+END_SRC
 * Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook
@@ -427,11 +427,11 @@ This playbook is my daily runbook for staying calm, clear, and constructive unde
 ** local notes                                                     :noexport:
 *** avoid over-delegation and no boundary
 weekly audit report: TPM don't want to own it
-#+begin_example
+#+BEGIN_SRC text
 As discussed, it would be more effective, if you(or/and XXX) can take it from this point and become POC to run the follow-up conversations.
 
 I don't believe that is the right model though. There should be an E2E owner w/ help needed as is. Let's discuss in the meeting.
-#+end_example
+#+END_SRC
 * Suggest Without Full Context
 :PROPERTIES:
 :EXPORT_FILE_NAME: suggest-without-context
@@ -488,8 +488,8 @@ A living runbook for learning from and giving suggestions to other teams
   - Process improvement sharing
   - Quarterly roadmap sync
   - Tooling/infra collaboration
-** Evolving This Doc With LLM
-#+begin_example
+** LLM Prompt Template for Continuous Improvement
+#+BEGIN_SRC text
 I’m updating my "Suggest Without Full Context" runbook.
 
 Please:
@@ -500,7 +500,7 @@ Please:
 
 Here are my raw notes in org-mode format:
 <PASTE NOTES>
-#+end_example
+#+END_SRC
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value
@@ -552,7 +552,19 @@ Working deeply in a specialized area like Meta or Google ML infra can easily mak
 ** 5. LLM Prompt Template for Continuous Improvement
 #+BEGIN_SRC text
 Context:
-I am a tech lead working in Meta Ads
+I am a tech lead working in Meta Ads Infra. 
+I am maintaining a runbook of learnings, decisions, and tradeoffs.
+
+Task:
+1. Summarize the key patterns and decisions from the following notes.
+2. Highlight marketable achievements in a way understandable outside my company.
+3. Identify gaps in breadth or end-to-end thinking that could increase my market value.
+4. Suggest improvements or principles I should focus on next.
+5. The output should be in org-mode format
+
+Notes:
+[PASTE YOUR RUNBOOK OR WEEKLY NOTES HERE]
+#+END_SRC
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Improve tech lead mindsets                                       :noexport:
 :PROPERTIES:

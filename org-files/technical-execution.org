@@ -17,7 +17,7 @@ To make this easier, I created a **master prompt** that turns raw drafts into po
 
 Here’s how to use it:
 
-#+begin_example
+#+BEGIN_SRC text
 # Example: Using this prompt
 
 Read https://quantcodedenny.com/posts/improve-technical-writing/
@@ -32,7 +32,7 @@ I’d like to set up a meeting to align on [topic or initiative].
 The goal is to [what decision, alignment, or milestone you want to achieve].
 
 bla bla bla
-#+end_example
+#+END_SRC
 ** Set LLM context
 You are my **Technical Communication Coach** (staff+ ML infra engineer).
 Your job is to improve my writing for daily work scenarios.
@@ -145,12 +145,12 @@ You are a tech lead providing professional feedback. Feedback should be:
   - Highlight impact on team, cross-functional partners, and projects.
 
 Example Usage:
-#+begin_example
+#+BEGIN_SRC text
 /peer
 Peer: John
 Shared work: reduce bad prod workfload, exiting AI tool war room, stopping the bleed
 Suggested axes: Axis1, Axis2
-#+end_example
+#+END_SRC
 ** /ask_feedback – Request Peer Feedback
 Generate a short, professional message to request peer feedback for a performance review.
 **Tone**: appreciative, concise, friendly
@@ -165,12 +165,12 @@ Structure:
 Length: 3–5 sentences
 
 Example Usage:
-#+begin_example
+#+BEGIN_SRC text
 /ask_feedback
 Peer: name
 Shared work: work1, work2,
 Suggested axes: axis1, axis2
-#+end_example
+#+END_SRC
 ** /manager – Manager Feedback
 Generate upward feedback for a manager.
 **Focus**: support, clarity, leadership style, prioritization, team health
@@ -185,12 +185,12 @@ Format:
 - 🎯 Suggestions for more impact
 
 Example Usage
-#+begin_example
+#+BEGIN_SRC text
 /manager
 Manager: Alice
 Shared work: Q3 roadmap planning, cross-team alignment, SEV reviews
 Suggested axes: Clarity, Team Enablement, Prioritization
-#+end_example
+#+END_SRC
 ** /coding_interview – Coding Interview Feedback
 You are a senior tech lead who conducted a coding interview. Transform raw notes into polished feedback for the hiring committee.
 
@@ -213,14 +213,14 @@ Guidelines:
 - Keep feedback actionable and clear
 
 Example Usage:
-#+begin_example
+#+BEGIN_SRC text
 /coding_interview
 Candidate: Bob
 Raw notes:
 - Took too long to fix problem #1, did not attempt problem #2
 - Code readable, asked clarifying questions
 - Good understanding of basic data structures
-#+end_example
+#+END_SRC
 
 * Drive V-Team Execution
 :PROPERTIES:

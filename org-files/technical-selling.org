@@ -495,7 +495,6 @@ A living runbook for learning from and giving suggestions to other teams
   - Quarterly roadmap sync
   - Tooling/infra collaboration
 ** Evolving This Doc With LLM
-*** LLM Prompt for Future Updates
 #+begin_example
 I’m updating my "Suggest Without Full Context" runbook.
 

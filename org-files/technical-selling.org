@@ -576,7 +576,6 @@ Here is the current version of my post:
 
 Please help me improve it.
 #+END_SRC
-* #  --8<-------------------------- separator ------------------------>8--
 * Using LLMs to Boost Infra IC6 Impact
 :PROPERTIES:
 :EXPORT_FILE_NAME: ic6-use-llm
@@ -704,3 +703,4 @@ LLMs act as a *force multiplier* — helping you:
 - Reflect and learn continuously
 
 Applying this condensed framework ensures high-leverage focus and scalable impact across systems and teams.
+

@@ -7,23 +7,114 @@
     <title>Preapare System Design | QuantCode: Use llm to improve your trading quality</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="URL: https://quantcodedenny.com/posts/prepare-system-interview/
-System design interviews test not just technical knowledge, but strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.
-This post consolidates my learnings from system design prep, especially for ML Infra contexts, and includes actionable steps to keep improving.
-Continuous Improvement LLM Prompt
-Use this prompt to iteratively improve your blog or prep notes:
-You are my senior staff mentor and system design coach.
+System design interviews test not only technical skills but also strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.
+As a high-end IC6 (between IC6 and IC7), my goal is to bridge execution with strategic design thinking. This blog post consolidates my learnings from system design prep, especially for ML Infra contexts, and is designed to evolve as I add new insights.
+SWE System Design Leveling – 35 mins
+IC5
 
-Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence.
+Independently chooses components to tell a coherent story.
+Covers end-to-end design with no significant gaps.
+Discusses tradeoffs and user impact, with prompting.
 
-Task:
-- Review the content for clarity, completeness, and IC6→IC7 relevance.
-- Suggest improvements in requirements clarification, design patterns, scaling, reliability, trade-offs, edge cases, and influence.
-- Highlight missing advanced insights or high-leverage discussion points.
-- Provide rewritten or refined sections where needed.
+IC6
 
-Content:
-[INSERT BLOG CONTENT HERE]
-">
+Creates effective designs addressing multiple critical aspects.
+Anticipates problems, including maintainability and organizational challenges.
+Speaks thoroughly on tradeoffs, bottlenecks, and user impact with minimal prompting.
+
+IC7
+
+Builds sophisticated designs addressing all stated and implicit parts of a problem.
+Proactively considers alternative solutions, immediate vs. long-term issues, and business needs.
+Covers all tradeoffs: technical, user impact, team dynamics, reliability, and sustainability.
+
+Core Principles for System Design
+1. Problem Structuring
+
+Clarify requirements and constraints (functional &amp; non-functional, SLAs, ownership boundaries, future growth).
+Identify critical paths, unknowns, and dependencies.
+Use a structured approach to map problem → components → interactions.
+
+2. Trade-Off Awareness
+
+Recognize and quantify trade-offs: latency vs. throughput, consistency vs. availability, cost vs. reliability.
+Include business, operational, and cross-team implications.
+IC7-level thinking anticipates tangential trade-offs proactively.
+
+3. Known Patterns &amp; Abstractions
+
+Apply reusable patterns: caching, sharding, load balancing, replication, event-driven architectures.
+Avoid reinventing solutions; justify deviations clearly.
+
+4. Scalability &amp; Reliability
+
+Horizontal vs. vertical scaling.
+Fault tolerance, retries, backpressure handling, recovery strategies.
+Monitoring, alerts, and observability planning.
+Consider future-proofing and maintainability.
+
+5. Communication &amp; Influence
+
+Present a structured narrative: context → problem → options → trade-offs → recommendation.
+Highlight strategic impact, not just technical correctness.
+Prepare concise “elevator pitches” for directors, PMs, and cross-functional teams.
+
+IC6 System Design Practice Checklist
+Requirements &amp; Clarification
+
+Functional vs. non-functional requirements.
+Latency, throughput, SLAs/SLOs.
+Ownership boundaries &amp; team responsibilities.
+Expected growth &amp; future-proofing needs.
+
+High-Level Design
+
+Identify major components &amp; interactions.
+Map data flow (ingestion → processing → serving).
+Define APIs, interfaces, and abstractions.
+Highlight cross-team dependencies.
+
+Scaling &amp; Reliability
+
+Horizontal vs. vertical scaling.
+Caching, sharding, partitioning.
+Fault tolerance &amp; retries.
+Observability: monitoring, alerting, metrics.
+
+Tradeoffs &amp; Options
+
+Pros/cons of architectural choices.
+Cost vs. performance vs. complexity.
+Business impact of each option.
+
+Edge Cases / Failure Modes
+
+Identify points of failure and mitigation strategies.
+Discuss backpressure, stale data, network issues.
+Recovery, retries, fallback logic.
+
+Influence &amp; Communication
+
+Summarize decisions for non-technical stakeholders.
+Highlight trade-offs explicitly.
+Show strategic impact and maintain leadership presence.
+
+Leadership Presence
+
+Lead calmly and confidently.
+Encourage team input while framing final decisions.
+Maintain focus on high-leverage improvements.
+
+Lessons Learned from Practice
+
+Quick diagramming of key points improves clarity and retention.
+Unknown problem spaces are common; approach them systematically.
+High-impact areas: latency, bottlenecks, single points of failure.
+Iterate rapidly: draft → validate → refine.
+Post-mortem past interviews to note good and bad reasoning.
+
+Continuous Learning
+This section is designed to integrate future learnings:">
     <meta name="generator" content="Hugo 0.148.2">
     
     
@@ -57,32 +148,32 @@ Content:
   <meta property="og:site_name" content="QuantCode: Use llm to improve your trading quality">
   <meta property="og:title" content="Preapare System Design">
   <meta property="og:description" content="URL: https://quantcodedenny.com/posts/prepare-system-interview/
-System design interviews test not just technical knowledge, but strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence. This post consolidates my learnings from system design prep, especially for ML Infra contexts, and includes actionable steps to keep improving.
-Continuous Improvement LLM Prompt Use this prompt to iteratively improve your blog or prep notes:
-You are my senior staff mentor and system design coach. Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence. Task: - Review the content for clarity, completeness, and IC6→IC7 relevance. - Suggest improvements in requirements clarification, design patterns, scaling, reliability, trade-offs, edge cases, and influence. - Highlight missing advanced insights or high-leverage discussion points. - Provide rewritten or refined sections where needed. Content: [INSERT BLOG CONTENT HERE]">
+System design interviews test not only technical skills but also strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.
+As a high-end IC6 (between IC6 and IC7), my goal is to bridge execution with strategic design thinking. This blog post consolidates my learnings from system design prep, especially for ML Infra contexts, and is designed to evolve as I add new insights.
+SWE System Design Leveling – 35 mins IC5 Independently chooses components to tell a coherent story. Covers end-to-end design with no significant gaps. Discusses tradeoffs and user impact, with prompting. IC6 Creates effective designs addressing multiple critical aspects. Anticipates problems, including maintainability and organizational challenges. Speaks thoroughly on tradeoffs, bottlenecks, and user impact with minimal prompting. IC7 Builds sophisticated designs addressing all stated and implicit parts of a problem. Proactively considers alternative solutions, immediate vs. long-term issues, and business needs. Covers all tradeoffs: technical, user impact, team dynamics, reliability, and sustainability. Core Principles for System Design 1. Problem Structuring Clarify requirements and constraints (functional &amp; non-functional, SLAs, ownership boundaries, future growth). Identify critical paths, unknowns, and dependencies. Use a structured approach to map problem → components → interactions. 2. Trade-Off Awareness Recognize and quantify trade-offs: latency vs. throughput, consistency vs. availability, cost vs. reliability. Include business, operational, and cross-team implications. IC7-level thinking anticipates tangential trade-offs proactively. 3. Known Patterns &amp; Abstractions Apply reusable patterns: caching, sharding, load balancing, replication, event-driven architectures. Avoid reinventing solutions; justify deviations clearly. 4. Scalability &amp; Reliability Horizontal vs. vertical scaling. Fault tolerance, retries, backpressure handling, recovery strategies. Monitoring, alerts, and observability planning. Consider future-proofing and maintainability. 5. Communication &amp; Influence Present a structured narrative: context → problem → options → trade-offs → recommendation. Highlight strategic impact, not just technical correctness. Prepare concise “elevator pitches” for directors, PMs, and cross-functional teams. IC6 System Design Practice Checklist Requirements &amp; Clarification Functional vs. non-functional requirements. Latency, throughput, SLAs/SLOs. Ownership boundaries &amp; team responsibilities. Expected growth &amp; future-proofing needs. High-Level Design Identify major components &amp; interactions. Map data flow (ingestion → processing → serving). Define APIs, interfaces, and abstractions. Highlight cross-team dependencies. Scaling &amp; Reliability Horizontal vs. vertical scaling. Caching, sharding, partitioning. Fault tolerance &amp; retries. Observability: monitoring, alerting, metrics. Tradeoffs &amp; Options Pros/cons of architectural choices. Cost vs. performance vs. complexity. Business impact of each option. Edge Cases / Failure Modes Identify points of failure and mitigation strategies. Discuss backpressure, stale data, network issues. Recovery, retries, fallback logic. Influence &amp; Communication Summarize decisions for non-technical stakeholders. Highlight trade-offs explicitly. Show strategic impact and maintain leadership presence. Leadership Presence Lead calmly and confidently. Encourage team input while framing final decisions. Maintain focus on high-leverage improvements. Lessons Learned from Practice Quick diagramming of key points improves clarity and retention. Unknown problem spaces are common; approach them systematically. High-impact areas: latency, bottlenecks, single points of failure. Iterate rapidly: draft → validate → refine. Post-mortem past interviews to note good and bad reasoning. Continuous Learning This section is designed to integrate future learnings:">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-10-03T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-10-05T10:25:17-07:00">
+    <meta property="article:modified_time" content="2025-10-05T11:37:31-07:00">
     <meta property="article:tag" content="Engineering">
     <meta property="article:tag" content="Interview">
 
   <meta itemprop="name" content="Preapare System Design">
   <meta itemprop="description" content="URL: https://quantcodedenny.com/posts/prepare-system-interview/
-System design interviews test not just technical knowledge, but strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence. This post consolidates my learnings from system design prep, especially for ML Infra contexts, and includes actionable steps to keep improving.
-Continuous Improvement LLM Prompt Use this prompt to iteratively improve your blog or prep notes:
-You are my senior staff mentor and system design coach. Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence. Task: - Review the content for clarity, completeness, and IC6→IC7 relevance. - Suggest improvements in requirements clarification, design patterns, scaling, reliability, trade-offs, edge cases, and influence. - Highlight missing advanced insights or high-leverage discussion points. - Provide rewritten or refined sections where needed. Content: [INSERT BLOG CONTENT HERE]">
+System design interviews test not only technical skills but also strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.
+As a high-end IC6 (between IC6 and IC7), my goal is to bridge execution with strategic design thinking. This blog post consolidates my learnings from system design prep, especially for ML Infra contexts, and is designed to evolve as I add new insights.
+SWE System Design Leveling – 35 mins IC5 Independently chooses components to tell a coherent story. Covers end-to-end design with no significant gaps. Discusses tradeoffs and user impact, with prompting. IC6 Creates effective designs addressing multiple critical aspects. Anticipates problems, including maintainability and organizational challenges. Speaks thoroughly on tradeoffs, bottlenecks, and user impact with minimal prompting. IC7 Builds sophisticated designs addressing all stated and implicit parts of a problem. Proactively considers alternative solutions, immediate vs. long-term issues, and business needs. Covers all tradeoffs: technical, user impact, team dynamics, reliability, and sustainability. Core Principles for System Design 1. Problem Structuring Clarify requirements and constraints (functional &amp; non-functional, SLAs, ownership boundaries, future growth). Identify critical paths, unknowns, and dependencies. Use a structured approach to map problem → components → interactions. 2. Trade-Off Awareness Recognize and quantify trade-offs: latency vs. throughput, consistency vs. availability, cost vs. reliability. Include business, operational, and cross-team implications. IC7-level thinking anticipates tangential trade-offs proactively. 3. Known Patterns &amp; Abstractions Apply reusable patterns: caching, sharding, load balancing, replication, event-driven architectures. Avoid reinventing solutions; justify deviations clearly. 4. Scalability &amp; Reliability Horizontal vs. vertical scaling. Fault tolerance, retries, backpressure handling, recovery strategies. Monitoring, alerts, and observability planning. Consider future-proofing and maintainability. 5. Communication &amp; Influence Present a structured narrative: context → problem → options → trade-offs → recommendation. Highlight strategic impact, not just technical correctness. Prepare concise “elevator pitches” for directors, PMs, and cross-functional teams. IC6 System Design Practice Checklist Requirements &amp; Clarification Functional vs. non-functional requirements. Latency, throughput, SLAs/SLOs. Ownership boundaries &amp; team responsibilities. Expected growth &amp; future-proofing needs. High-Level Design Identify major components &amp; interactions. Map data flow (ingestion → processing → serving). Define APIs, interfaces, and abstractions. Highlight cross-team dependencies. Scaling &amp; Reliability Horizontal vs. vertical scaling. Caching, sharding, partitioning. Fault tolerance &amp; retries. Observability: monitoring, alerting, metrics. Tradeoffs &amp; Options Pros/cons of architectural choices. Cost vs. performance vs. complexity. Business impact of each option. Edge Cases / Failure Modes Identify points of failure and mitigation strategies. Discuss backpressure, stale data, network issues. Recovery, retries, fallback logic. Influence &amp; Communication Summarize decisions for non-technical stakeholders. Highlight trade-offs explicitly. Show strategic impact and maintain leadership presence. Leadership Presence Lead calmly and confidently. Encourage team input while framing final decisions. Maintain focus on high-leverage improvements. Lessons Learned from Practice Quick diagramming of key points improves clarity and retention. Unknown problem spaces are common; approach them systematically. High-impact areas: latency, bottlenecks, single points of failure. Iterate rapidly: draft → validate → refine. Post-mortem past interviews to note good and bad reasoning. Continuous Learning This section is designed to integrate future learnings:">
   <meta itemprop="datePublished" content="2025-10-03T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-10-05T10:25:17-07:00">
-  <meta itemprop="wordCount" content="149">
+  <meta itemprop="dateModified" content="2025-10-05T11:37:31-07:00">
+  <meta itemprop="wordCount" content="637">
   <meta itemprop="keywords" content="Engineering,Interview">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Preapare System Design">
   <meta name="twitter:description" content="URL: https://quantcodedenny.com/posts/prepare-system-interview/
-System design interviews test not just technical knowledge, but strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence. This post consolidates my learnings from system design prep, especially for ML Infra contexts, and includes actionable steps to keep improving.
-Continuous Improvement LLM Prompt Use this prompt to iteratively improve your blog or prep notes:
-You are my senior staff mentor and system design coach. Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence. Task: - Review the content for clarity, completeness, and IC6→IC7 relevance. - Suggest improvements in requirements clarification, design patterns, scaling, reliability, trade-offs, edge cases, and influence. - Highlight missing advanced insights or high-leverage discussion points. - Provide rewritten or refined sections where needed. Content: [INSERT BLOG CONTENT HERE]">
+System design interviews test not only technical skills but also strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.
+As a high-end IC6 (between IC6 and IC7), my goal is to bridge execution with strategic design thinking. This blog post consolidates my learnings from system design prep, especially for ML Infra contexts, and is designed to evolve as I add new insights.
+SWE System Design Leveling – 35 mins IC5 Independently chooses components to tell a coherent story. Covers end-to-end design with no significant gaps. Discusses tradeoffs and user impact, with prompting. IC6 Creates effective designs addressing multiple critical aspects. Anticipates problems, including maintainability and organizational challenges. Speaks thoroughly on tradeoffs, bottlenecks, and user impact with minimal prompting. IC7 Builds sophisticated designs addressing all stated and implicit parts of a problem. Proactively considers alternative solutions, immediate vs. long-term issues, and business needs. Covers all tradeoffs: technical, user impact, team dynamics, reliability, and sustainability. Core Principles for System Design 1. Problem Structuring Clarify requirements and constraints (functional &amp; non-functional, SLAs, ownership boundaries, future growth). Identify critical paths, unknowns, and dependencies. Use a structured approach to map problem → components → interactions. 2. Trade-Off Awareness Recognize and quantify trade-offs: latency vs. throughput, consistency vs. availability, cost vs. reliability. Include business, operational, and cross-team implications. IC7-level thinking anticipates tangential trade-offs proactively. 3. Known Patterns &amp; Abstractions Apply reusable patterns: caching, sharding, load balancing, replication, event-driven architectures. Avoid reinventing solutions; justify deviations clearly. 4. Scalability &amp; Reliability Horizontal vs. vertical scaling. Fault tolerance, retries, backpressure handling, recovery strategies. Monitoring, alerts, and observability planning. Consider future-proofing and maintainability. 5. Communication &amp; Influence Present a structured narrative: context → problem → options → trade-offs → recommendation. Highlight strategic impact, not just technical correctness. Prepare concise “elevator pitches” for directors, PMs, and cross-functional teams. IC6 System Design Practice Checklist Requirements &amp; Clarification Functional vs. non-functional requirements. Latency, throughput, SLAs/SLOs. Ownership boundaries &amp; team responsibilities. Expected growth &amp; future-proofing needs. High-Level Design Identify major components &amp; interactions. Map data flow (ingestion → processing → serving). Define APIs, interfaces, and abstractions. Highlight cross-team dependencies. Scaling &amp; Reliability Horizontal vs. vertical scaling. Caching, sharding, partitioning. Fault tolerance &amp; retries. Observability: monitoring, alerting, metrics. Tradeoffs &amp; Options Pros/cons of architectural choices. Cost vs. performance vs. complexity. Business impact of each option. Edge Cases / Failure Modes Identify points of failure and mitigation strategies. Discuss backpressure, stale data, network issues. Recovery, retries, fallback logic. Influence &amp; Communication Summarize decisions for non-technical stakeholders. Highlight trade-offs explicitly. Show strategic impact and maintain leadership presence. Leadership Presence Lead calmly and confidently. Encourage team input while framing final decisions. Maintain focus on high-leverage improvements. Lessons Learned from Practice Quick diagramming of key points improves clarity and retention. Unknown problem spaces are common; approach them systematically. High-impact areas: latency, bottlenecks, single points of failure. Iterate rapidly: draft → validate → refine. Post-mortem past interviews to note good and bad reasoning. Continuous Learning This section is designed to integrate future learnings:">
 
       
     
@@ -175,10 +266,121 @@ You are my senior staff mentor and system design coach. Context: I am preparing 
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>URL: <a href="https://quantcodedenny.com/posts/prepare-system-interview/">https://quantcodedenny.com/posts/prepare-system-interview/</a></p>
-<p>System design interviews test not just technical knowledge, but strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.
-This post consolidates my learnings from system design prep, especially for ML Infra contexts, and includes actionable steps to keep improving.</p>
-<h2 id="continuous-improvement-llm-prompt">Continuous Improvement LLM Prompt</h2>
-<p>Use this prompt to iteratively improve your blog or prep notes:</p>
+<p>System design interviews test not only technical skills but also strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.</p>
+<p>As a high-end IC6 (between IC6 and IC7), my goal is to bridge execution with strategic design thinking. This blog post consolidates my learnings from system design prep, especially for ML Infra contexts, and is designed to <strong><strong>evolve as I add new insights</strong></strong>.</p>
+<h2 id="swe-system-design-leveling-35-mins">SWE System Design Leveling – 35 mins</h2>
+<h3 id="ic5">IC5</h3>
+<ul>
+<li>Independently chooses components to tell a coherent story.</li>
+<li>Covers end-to-end design with no significant gaps.</li>
+<li>Discusses tradeoffs and user impact, with prompting.</li>
+</ul>
+<h3 id="ic6">IC6</h3>
+<ul>
+<li>Creates effective designs addressing multiple critical aspects.</li>
+<li>Anticipates problems, including maintainability and organizational challenges.</li>
+<li>Speaks thoroughly on tradeoffs, bottlenecks, and user impact with minimal prompting.</li>
+</ul>
+<h3 id="ic7">IC7</h3>
+<ul>
+<li>Builds sophisticated designs addressing all stated and implicit parts of a problem.</li>
+<li>Proactively considers alternative solutions, immediate vs. long-term issues, and business needs.</li>
+<li>Covers all tradeoffs: technical, user impact, team dynamics, reliability, and sustainability.</li>
+</ul>
+<h2 id="core-principles-for-system-design">Core Principles for System Design</h2>
+<h3 id="1-dot-problem-structuring">1. Problem Structuring</h3>
+<ul>
+<li>Clarify requirements and constraints (functional &amp; non-functional, SLAs, ownership boundaries, future growth).</li>
+<li>Identify critical paths, unknowns, and dependencies.</li>
+<li>Use a structured approach to map problem → components → interactions.</li>
+</ul>
+<h3 id="2-dot-trade-off-awareness">2. Trade-Off Awareness</h3>
+<ul>
+<li>Recognize and quantify trade-offs: latency vs. throughput, consistency vs. availability, cost vs. reliability.</li>
+<li>Include business, operational, and cross-team implications.</li>
+<li>IC7-level thinking anticipates tangential trade-offs proactively.</li>
+</ul>
+<h3 id="3-dot-known-patterns-and-abstractions">3. Known Patterns &amp; Abstractions</h3>
+<ul>
+<li>Apply reusable patterns: caching, sharding, load balancing, replication, event-driven architectures.</li>
+<li>Avoid reinventing solutions; justify deviations clearly.</li>
+</ul>
+<h3 id="4-dot-scalability-and-reliability">4. Scalability &amp; Reliability</h3>
+<ul>
+<li>Horizontal vs. vertical scaling.</li>
+<li>Fault tolerance, retries, backpressure handling, recovery strategies.</li>
+<li>Monitoring, alerts, and observability planning.</li>
+<li>Consider future-proofing and maintainability.</li>
+</ul>
+<h3 id="5-dot-communication-and-influence">5. Communication &amp; Influence</h3>
+<ul>
+<li>Present a structured narrative: context → problem → options → trade-offs → recommendation.</li>
+<li>Highlight strategic impact, not just technical correctness.</li>
+<li>Prepare concise “elevator pitches” for directors, PMs, and cross-functional teams.</li>
+</ul>
+<h2 id="ic6-system-design-practice-checklist">IC6 System Design Practice Checklist</h2>
+<h3 id="requirements-and-clarification">Requirements &amp; Clarification</h3>
+<ul>
+<li>Functional vs. non-functional requirements.</li>
+<li>Latency, throughput, SLAs/SLOs.</li>
+<li>Ownership boundaries &amp; team responsibilities.</li>
+<li>Expected growth &amp; future-proofing needs.</li>
+</ul>
+<h3 id="high-level-design">High-Level Design</h3>
+<ul>
+<li>Identify major components &amp; interactions.</li>
+<li>Map data flow (ingestion → processing → serving).</li>
+<li>Define APIs, interfaces, and abstractions.</li>
+<li>Highlight cross-team dependencies.</li>
+</ul>
+<h3 id="scaling-and-reliability">Scaling &amp; Reliability</h3>
+<ul>
+<li>Horizontal vs. vertical scaling.</li>
+<li>Caching, sharding, partitioning.</li>
+<li>Fault tolerance &amp; retries.</li>
+<li>Observability: monitoring, alerting, metrics.</li>
+</ul>
+<h3 id="tradeoffs-and-options">Tradeoffs &amp; Options</h3>
+<ul>
+<li>Pros/cons of architectural choices.</li>
+<li>Cost vs. performance vs. complexity.</li>
+<li>Business impact of each option.</li>
+</ul>
+<h3 id="edge-cases-failure-modes">Edge Cases / Failure Modes</h3>
+<ul>
+<li>Identify points of failure and mitigation strategies.</li>
+<li>Discuss backpressure, stale data, network issues.</li>
+<li>Recovery, retries, fallback logic.</li>
+</ul>
+<h3 id="influence-and-communication">Influence &amp; Communication</h3>
+<ul>
+<li>Summarize decisions for non-technical stakeholders.</li>
+<li>Highlight trade-offs explicitly.</li>
+<li>Show strategic impact and maintain leadership presence.</li>
+</ul>
+<h3 id="leadership-presence">Leadership Presence</h3>
+<ul>
+<li>Lead calmly and confidently.</li>
+<li>Encourage team input while framing final decisions.</li>
+<li>Maintain focus on high-leverage improvements.</li>
+</ul>
+<h2 id="lessons-learned-from-practice">Lessons Learned from Practice</h2>
+<ul>
+<li>Quick diagramming of key points improves clarity and retention.</li>
+<li>Unknown problem spaces are common; approach them systematically.</li>
+<li>High-impact areas: latency, bottlenecks, single points of failure.</li>
+<li>Iterate rapidly: draft → validate → refine.</li>
+<li>Post-mortem past interviews to note good and bad reasoning.</li>
+</ul>
+<h2 id="continuous-learning">Continuous Learning</h2>
+<p>This section is designed to <strong><strong>integrate future learnings</strong></strong>:</p>
+<ul>
+<li>Add new frameworks, patterns, trade-offs, or ML Infra-specific examples here.</li>
+<li>Include any updated IC6/IC7 distinctions or nuances observed in real interviews.</li>
+<li>Track insights from post-mortems, peer feedback, or LLM simulations.</li>
+</ul>
+<h2 id="llm-prompt-for-iterative-improvement">LLM Prompt for Iterative Improvement</h2>
+<p>Use the following prompt to refine this blog or future system design prep content:</p>
 <pre tabindex="0"><code class="language-nil" data-lang="nil">You are my senior staff mentor and system design coach.
 
 Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence.

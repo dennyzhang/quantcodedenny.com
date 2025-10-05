@@ -608,7 +608,7 @@ Find the right problems, understand constraints, and align work with org priorit
 - Summarize org strategy documents and leadership updates
 - Highlight blind spots, alternative scenarios, or potential misalignments
 - Map upstream/downstream dependencies and risks
-*** Example Prompts
+*** LLM Prompts
 #+BEGIN_SRC
 Summarize key priorities from the last 3 leadership updates. Highlight potential conflicts or dependencies for the model serving infra project.
 Compare three ML infra designs. List both technical and organizational trade-offs, including team dependencies and approval requirements.
@@ -660,7 +660,7 @@ Adapt faster than evolving systems and org priorities.
 - Synthesize reflections into principles or concise takeaways
 - Generate reflection prompts to improve decision-making
 - Highlight recurring gaps in personal or team processes
-*** Example Prompts
+*** LLM Prompts
 #+BEGIN_SRC
 Analyze my last 3 SEVs and identify patterns I tend to overlook.
 Based on recent design reviews, highlight recurring gaps and suggest learning exercises.
@@ -703,4 +703,5 @@ LLMs act as a *force multiplier* — helping you:
 - Reflect and learn continuously
 
 Applying this condensed framework ensures high-leverage focus and scalable impact across systems and teams.
+
 

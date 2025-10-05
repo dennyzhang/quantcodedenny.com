@@ -6,8 +6,15 @@
     <description>Recent content in Posts on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 13:01:26 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 11:35:06 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using LLMs to Boost Infra IC6 Impact</title>
+      <link>https://quantcodedenny.com/posts/ic6-use-llm/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/ic6-use-llm/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/ic6-use-llm/&#34;&gt;https://quantcodedenny.com/posts/ic6-use-llm/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-dot-introduction-and-common-pitfalls&#34;&gt;1. Introduction &amp;amp; Common Pitfalls&lt;/h2&gt;&#xA;&lt;p&gt;Being an IC6 Infra Engineer in a large corporate environment isn’t just about writing code.&#xA;It’s about &lt;strong&gt;driving systemic impact&lt;/strong&gt;, ensuring reliability, and influencing across teams.&lt;/p&gt;&#xA;&lt;p&gt;Common pitfalls IC6s face:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Staying too long in a bad setup&lt;/li&gt;&#xA;&lt;li&gt;Picking the wrong problem or direction&lt;/li&gt;&#xA;&lt;li&gt;Not leveraging your network&lt;/li&gt;&#xA;&lt;li&gt;Lacking structured thinking and clear framing&lt;/li&gt;&#xA;&lt;li&gt;Execution-only mindset without strategic reflection&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;LLMs can amplify thinking, communication, and operational impact — but only if used strategically.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Improve Market Value</title>
       <link>https://quantcodedenny.com/posts/improve-market-value/</link>
@@ -20,7 +27,7 @@
       <link>https://quantcodedenny.com/posts/prepare-system-interview/</link>
       <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/prepare-system-interview/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/prepare-system-interview/&#34;&gt;https://quantcodedenny.com/posts/prepare-system-interview/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;System design interviews test not just technical knowledge, but strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.&#xA;This post consolidates my learnings from system design prep, especially for ML Infra contexts, and includes actionable steps to keep improving.&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/prepare-system-interview/&#34;&gt;https://quantcodedenny.com/posts/prepare-system-interview/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;System design interviews test not just technical knowledge, but strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.&#xA;This post consolidates my learnings from system design prep, especially for ML Infra contexts, and includes actionable steps to keep improving.&lt;/p&gt;&#xA;&lt;h2 id=&#34;continuous-improvement-llm-prompt&#34;&gt;Continuous Improvement LLM Prompt&lt;/h2&gt;&#xA;&lt;p&gt;Use this prompt to iteratively improve your blog or prep notes:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-nil&#34; data-lang=&#34;nil&#34;&gt;You are my senior staff mentor and system design coach.&#xA;&#xA;Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence.&#xA;&#xA;Task:&#xA;- Review the content for clarity, completeness, and IC6→IC7 relevance.&#xA;- Suggest improvements in requirements clarification, design patterns, scaling, reliability, trade-offs, edge cases, and influence.&#xA;- Highlight missing advanced insights or high-leverage discussion points.&#xA;- Provide rewritten or refined sections where needed.&#xA;&#xA;Content:&#xA;[INSERT BLOG CONTENT HERE]&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Connect Better At Work</title>

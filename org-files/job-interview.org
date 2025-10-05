@@ -4,85 +4,6 @@
 #+HUGO_TAGS: engineering interview
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
-* Improve Market Value
-:PROPERTIES:
-:EXPORT_FILE_NAME: improve-market-value
-:EXPORT_DATE: 2025-10-03
-:END:
-URL: https://quantcodedenny.com/posts/improve-market-value/
-
-Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel *too narrow* — you solve critical problems, but your broader market value may not fully reflect your capabilities. Often, the challenge isn’t lack of knowledge; it’s being too busy with daily work, leaving no time for high-impact but non-urgent improvements or blindspots.
-
-This post is a living document to help tech leads *organically increase market value*, stay visible, and continuously improve.
-** 1. Guiding Principles
-- **Think End-to-End and Prioritize Impact**
-  + Keep a mental map of the full system — data flows, dependencies, upstream/downstream impacts, and business objectives.
-  + Ask daily: "How does this change affect other teams, user experience, and business metrics?"
-- **Focus on Important but Not Urgent Work**
-  + Identify blindspots: recurring issues, cross-team dependencies, systemic technical debt.
-  + Block weekly time for reflection, documentation, and proactive improvement.
-- **Translate Work into Marketable Achievements**
-  + Frame accomplishments in revenue, cost savings, reliability, or scale.
-  + Capture not just *what* was fixed, but *why it mattered*: “Reduced ad delivery latency by 15%, improving ad revenue predictability by X%.”
-- **Document, Share, and Learn Across Teams**
-  + Maintain daily notes or internal posts capturing problem, options, tradeoffs, and decisions.
-  + Summarize patterns weekly to increase visibility and influence.
-
-** 2. Good Practices
-- **Frame P0/SEV incidents with business impact**
-  + Log root cause, mitigation, and downstream effect.
-  + Highlight prevented losses or restored capacity in marketable terms.
-- **Design for scale and reliability**
-  + Ask: "If traffic/data grows 5–10x, will this design hold?"
-  + Document assumptions, constraints, and failure modes.
-- **Share reusable learnings**
-  + Daily: note patterns, gotchas, scripts that saved time.
-  + Weekly: summarize in central doc or chat to benefit team.
-- **Ask strategic, end-to-end questions**
-  + Before implementation, ask about downstream impact or hidden dependencies.
-  + Capture tradeoffs even if the decision is local.
-- **Allocate deliberate focus time**
-  + Weekly: protect 1–2 hours for reflection, blindspot review, systemic improvements, or skill expansion.
-
-** 3. Bad Practices
-- **Local optimization without context**
-  + Fixing minor metrics without measuring system-wide or business impact.
-  + Mitigation: document downstream consequences.
-- **Not documenting decisions**
-  + Knowledge gets siloed; team forgets key context.
-  + Mitigation: 3 bullets per decision — problem, options, chosen path, rationale.
-- **Avoiding ambiguous or cross-team problems**
-  + Appears reactive or narrow.
-  + Mitigation: log ambiguous issues and track next steps.
-- **Over-reliance on internal tech**
-  + Limits marketable skillset.
-  + Mitigation: note underlying principles, patterns, and reasoning for tech choices.
-
-** 4. Daily Runbook Approach
-1. **Daily Reflection**: Capture what you learned, decisions made, tradeoffs, and why they matter.
-2. **Weekly Focus Block**: 1–2 hours for important but non-urgent work (blindspots, systemic improvements, cross-team learning).
-3. **Weekly Market Mapping**: Reframe work in industry terms; highlight transferable impact.
-4. **Monthly Patterns Review**: Aggregate recurring issues, lessons, systemic improvements.
-5. **Quarterly LLM Update**: Use an LLM to summarize, reframe, and extract marketable insights.
-
-** 5. LLM Prompt Template for Continuous Improvement
-#+BEGIN_SRC text
-Context:
-I am a tech lead working in Meta Ads Infra. 
-I maintain a runbook of learnings, decisions, tradeoffs, and weekly focus work on blindspots and non-urgent improvements.
-
-Task:
-1. Summarize key patterns and decisions from the notes.
-2. Highlight marketable achievements understandable outside my company.
-3. Identify gaps in breadth, end-to-end thinking, or neglected blindspots that could increase market value.
-4. Suggest improvements or principles to focus on next.
-5. Output in org-mode format with actionable bullets suitable for daily practice.
-
-Notes:
-[PASTE YOUR RUNBOOK OR WEEKLY NOTES HERE]
-#+END_SRC
-** local notes                                                     :noexport:
-*** over-simplify will remove critical contexts, make the discusion conceptual
 * Preapare System Design
 :PROPERTIES:
 :EXPORT_FILE_NAME: prepare-system-interview
@@ -92,6 +13,23 @@ URL: https://quantcodedenny.com/posts/prepare-system-interview/
 
 System design interviews test not just technical knowledge, but strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.
 This post consolidates my learnings from system design prep, especially for ML Infra contexts, and includes actionable steps to keep improving.
+** Continuous Improvement LLM Prompt
+Use this prompt to iteratively improve your blog or prep notes:
+
+#+BEGIN_SRC
+You are my senior staff mentor and system design coach.
+
+Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence.
+
+Task:
+- Review the content for clarity, completeness, and IC6→IC7 relevance.
+- Suggest improvements in requirements clarification, design patterns, scaling, reliability, trade-offs, edge cases, and influence.
+- Highlight missing advanced insights or high-leverage discussion points.
+- Provide rewritten or refined sections where needed.
+
+Content:
+[INSERT BLOG CONTENT HERE]
+#+END_SRC
 * SWE System Design Leveling - 35 mins
 ** IC5
 - Independently chooses components to tell a coherent story.
@@ -164,23 +102,6 @@ This post consolidates my learnings from system design prep, especially for ML I
 - High-impact areas: latency, bottlenecks, single points of failure.
 - Iterate rapidly: draft → validate → refine.
 - Post-mortem past interviews to note good and bad reasoning.
-* Continuous Improvement LLM Prompt
-Use this prompt to iteratively improve your blog or prep notes:
-
-#+BEGIN_SRC
-You are my senior staff mentor and system design coach.
-
-Context: I am preparing for IC6-level system design interviews (or real-world design discussions) at top tech companies, focusing on ML Infra. My goal is to demonstrate strategic thinking, end-to-end ownership, scalability awareness, and cross-functional influence.
-
-Task:
-- Review the content for clarity, completeness, and IC6→IC7 relevance.
-- Suggest improvements in requirements clarification, design patterns, scaling, reliability, trade-offs, edge cases, and influence.
-- Highlight missing advanced insights or high-leverage discussion points.
-- Provide rewritten or refined sections where needed.
-
-Content:
-[INSERT BLOG CONTENT HERE]
-#+END_SRC
 * Prepare Behavior Interview                                       :noexport:
 Behavior/Culture → 练 复用故事库，不现编。
 

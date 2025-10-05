@@ -55,19 +55,10 @@ Please reach out, if you have more to suggest
 |  3 | Detect bias        | TSLA struggle at 320 in Q3'25            |                |                  |
 #+TBLFM: $1=@#-1+0
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* [#B] website doesn't show all the post                           :noexport:
 * TODO [#A] the auto-gen url is buggy: don't insert to the sub-entry, don't use the wrong url
 * emacs org-mode shift org-mod entry doesn't work
-* [#B] website doesn't show all the post                           :noexport:
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* create sub-bulletin points for org-mode file
-URL: https://quantcodedenny.com/posts/update-personal-blog/
-https://quantcodedenny.com/posts/write-interview-feedback/
-* make the exported table easier to follow
-https://quantcodedenny.com/posts/llm-for-vibe-coding/
 * [#A] enforce the llm setup works well with mobile usage          :noexport:
-* TODO avoid duplicate setting for each posts                      :noexport:
-EXPORT_DATE: 2025-08-25
-EXPORT_HUGO_SECTION: posts
 * TODO create 30 posts to get it started                           :noexport:
 * TODO enroll the website to google adsense                        :noexport:
 Google adsense link: https://adsense.google.com/adsense/u/0/pub-5389711597208884/onboarding
@@ -89,8 +80,6 @@ CLOSED: [2025-08-24 Sun 16:39]
 ** TODO Site Availbale On Google Search
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** TODO insert adsense js code
-* TODO add llm generated content to your own parts: make it targets, and won't loss your local knowledge :noexport:
-prompt: for vibe-coding, add the common best practice and missing caveats into below, ...
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * DONE
 ** DONE avoid duplicate setting for each posts                      :noexport:
@@ -165,4 +154,19 @@ URL: https://quantcodedenny.com/posts/update-personal-blog/
 CLOSED: [2025-09-21 Sun 16:57]
 ** DONE better format the output                                   :noexport:
 CLOSED: [2025-09-29 Mon 14:34]
+** DONE add llm generated content to your own parts: make it targets, and won't loss your local knowledge :noexport:
+CLOSED: [2025-10-05 Sun 10:52]
+prompt: for vibe-coding, add the common best practice and missing caveats into below, ...
+** DONE create sub-bulletin points for org-mode file
+CLOSED: [2025-10-05 Sun 10:52]
+URL: https://quantcodedenny.com/posts/update-personal-blog/
+https://quantcodedenny.com/posts/write-interview-feedback/
 
+** CANCELED avoid duplicate setting for each posts                 :noexport:
+CLOSED: [2025-10-05 Sun 10:52]
+EXPORT_DATE: 2025-08-25
+EXPORT_HUGO_SECTION: posts
+
+** CANCELED make the exported table easier to follow
+CLOSED: [2025-10-05 Sun 10:53]
+https://quantcodedenny.com/posts/llm-for-vibe-coding/

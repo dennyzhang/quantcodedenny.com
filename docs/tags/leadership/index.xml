@@ -6,8 +6,22 @@
     <description>Recent content in Leadership on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 12:24:57 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 05 Oct 2025 11:35:06 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using LLMs to Boost Infra IC6 Impact</title>
+      <link>https://quantcodedenny.com/posts/ic6-use-llm/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/ic6-use-llm/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/ic6-use-llm/&#34;&gt;https://quantcodedenny.com/posts/ic6-use-llm/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-dot-introduction-and-common-pitfalls&#34;&gt;1. Introduction &amp;amp; Common Pitfalls&lt;/h2&gt;&#xA;&lt;p&gt;Being an IC6 Infra Engineer in a large corporate environment isn’t just about writing code.&#xA;It’s about &lt;strong&gt;driving systemic impact&lt;/strong&gt;, ensuring reliability, and influencing across teams.&lt;/p&gt;&#xA;&lt;p&gt;Common pitfalls IC6s face:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Staying too long in a bad setup&lt;/li&gt;&#xA;&lt;li&gt;Picking the wrong problem or direction&lt;/li&gt;&#xA;&lt;li&gt;Not leveraging your network&lt;/li&gt;&#xA;&lt;li&gt;Lacking structured thinking and clear framing&lt;/li&gt;&#xA;&lt;li&gt;Execution-only mindset without strategic reflection&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;LLMs can amplify thinking, communication, and operational impact — but only if used strategically.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Improve Market Value</title>
+      <link>https://quantcodedenny.com/posts/improve-market-value/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://quantcodedenny.com/posts/improve-market-value/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/improve-market-value/&#34;&gt;https://quantcodedenny.com/posts/improve-market-value/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel &lt;strong&gt;too narrow&lt;/strong&gt; — you solve critical problems, but your broader market value may not fully reflect your capabilities. Often, the challenge isn’t lack of knowledge; it’s being too busy with daily work, leaving no time for high-impact but non-urgent improvements or blindspots.&lt;/p&gt;&#xA;&lt;p&gt;This post is a living document to help tech leads &lt;strong&gt;organically increase market value&lt;/strong&gt;, stay visible, and continuously improve.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Connect Better At Work</title>
       <link>https://quantcodedenny.com/posts/connect-better/</link>
@@ -35,13 +49,6 @@
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/eq-playbook/</guid>
       <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/eq-playbook/&#34;&gt;https://quantcodedenny.com/posts/eq-playbook/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;As a tech lead, I want to ease my mental stress and be effective in conflict resolution.&#xA;This playbook is my daily runbook for staying calm, clear, and constructive under pressure.&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-principles&#34;&gt;Core Principles&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Pause Before Reacting&lt;/strong&gt;&lt;/strong&gt;: Don’t let emotions drive my first response.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Listen First&lt;/strong&gt;&lt;/strong&gt;: Seek to understand before I respond.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Focus on Outcomes&lt;/strong&gt;&lt;/strong&gt;: Anchor on shared goals, not personal wins.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Protect My Boundaries&lt;/strong&gt;&lt;/strong&gt;: Say no or redirect misaligned work.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;difficult-situations-and-how-i-respond&#34;&gt;Difficult Situations and How I Respond&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Disagreement on Priorities&lt;/strong&gt;&lt;/strong&gt;&#xA;Example: PM pushes feature delivery, I see infra stability risk.&#xA;→ Frame trade-offs clearly; show business risk of ignoring infra.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Suggest Without Full Context</title>
-      <link>https://quantcodedenny.com/posts/suggest-without-context/</link>
-      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/suggest-without-context/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/suggest-without-context/&#34;&gt;https://quantcodedenny.com/posts/suggest-without-context/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;A living runbook for learning from and giving suggestions to other teams&#xA;&lt;strong&gt;&lt;strong&gt;Why This Matters&lt;/strong&gt;&lt;/strong&gt;: Cross-team collaboration is a critical part of tech lead work, yet you are often asked to provide input on projects where you don’t have full visibility.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Well-crafted suggestions, grounded in understanding and context, can amplify impact, build credibility, and accelerate learning for both teams.&lt;/li&gt;&#xA;&lt;li&gt;Poorly framed suggestions can create friction, reduce trust, or block progress.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;core-principles&#34;&gt;Core Principles&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Understand Before Suggesting&lt;/p&gt;</description>
     </item>
     <item>
       <title>Focus On P0 At Work</title>

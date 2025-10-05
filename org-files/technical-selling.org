@@ -4,6 +4,149 @@
 #+HUGO_TAGS: engineering leadership selling
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* Improve Market Value
+:PROPERTIES:
+:EXPORT_FILE_NAME: improve-market-value
+:EXPORT_DATE: 2025-10-03
+:END:
+URL: https://quantcodedenny.com/posts/improve-market-value/
+
+Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel *too narrow* — you solve critical problems, but your broader market value may not fully reflect your capabilities. Often, the challenge isn’t lack of knowledge; it’s being too busy with daily work, leaving no time for high-impact but non-urgent improvements or blindspots.
+
+This post is a living document to help tech leads *organically increase market value*, stay visible, and continuously improve.
+** 1. Guiding Principles
+- **Think End-to-End and Prioritize Impact**
+  + Keep a mental map of the full system — data flows, dependencies, upstream/downstream impacts, and business objectives.
+  + Ask daily: "How does this change affect other teams, user experience, and business metrics?"
+- **Focus on Important but Not Urgent Work**
+  + Identify blindspots: recurring issues, cross-team dependencies, systemic technical debt.
+  + Block weekly time for reflection, documentation, and proactive improvement.
+- **Translate Work into Marketable Achievements**
+  + Frame accomplishments in revenue, cost savings, reliability, or scale.
+  + Capture not just *what* was fixed, but *why it mattered*: “Reduced ad delivery latency by 15%, improving ad revenue predictability by X%.”
+- **Document, Share, and Learn Across Teams**
+  + Maintain daily notes or internal posts capturing problem, options, tradeoffs, and decisions.
+  + Summarize patterns weekly to increase visibility and influence.
+
+** 2. Good Practices
+- **Frame P0/SEV incidents with business impact**
+  + Log root cause, mitigation, and downstream effect.
+  + Highlight prevented losses or restored capacity in marketable terms.
+- **Design for scale and reliability**
+  + Ask: "If traffic/data grows 5–10x, will this design hold?"
+  + Document assumptions, constraints, and failure modes.
+- **Share reusable learnings**
+  + Daily: note patterns, gotchas, scripts that saved time.
+  + Weekly: summarize in central doc or chat to benefit team.
+- **Ask strategic, end-to-end questions**
+  + Before implementation, ask about downstream impact or hidden dependencies.
+  + Capture tradeoffs even if the decision is local.
+- **Allocate deliberate focus time**
+  + Weekly: protect 1–2 hours for reflection, blindspot review, systemic improvements, or skill expansion.
+
+** 3. Bad Practices
+- **Local optimization without context**
+  + Fixing minor metrics without measuring system-wide or business impact.
+  + Mitigation: document downstream consequences.
+- **Not documenting decisions**
+  + Knowledge gets siloed; team forgets key context.
+  + Mitigation: 3 bullets per decision — problem, options, chosen path, rationale.
+- **Avoiding ambiguous or cross-team problems**
+  + Appears reactive or narrow.
+  + Mitigation: log ambiguous issues and track next steps.
+- **Over-reliance on internal tech**
+  + Limits marketable skillset.
+  + Mitigation: note underlying principles, patterns, and reasoning for tech choices.
+
+** 4. Daily Runbook Approach
+1. **Daily Reflection**: Capture what you learned, decisions made, tradeoffs, and why they matter.
+2. **Weekly Focus Block**: 1–2 hours for important but non-urgent work (blindspots, systemic improvements, cross-team learning).
+3. **Weekly Market Mapping**: Reframe work in industry terms; highlight transferable impact.
+4. **Monthly Patterns Review**: Aggregate recurring issues, lessons, systemic improvements.
+5. **Quarterly LLM Update**: Use an LLM to summarize, reframe, and extract marketable insights.
+
+** 5. LLM Prompt Template for Continuous Improvement
+#+BEGIN_SRC text
+Context:
+I am a tech lead working in Meta Ads Infra. 
+I maintain a runbook of learnings, decisions, tradeoffs, and weekly focus work on blindspots and non-urgent improvements.
+
+Task:
+1. Summarize key patterns and decisions from the notes.
+2. Highlight marketable achievements understandable outside my company.
+3. Identify gaps in breadth, end-to-end thinking, or neglected blindspots that could increase market value.
+4. Suggest improvements or principles to focus on next.
+5. Output in org-mode format with actionable bullets suitable for daily practice.
+
+Notes:
+[PASTE YOUR RUNBOOK OR WEEKLY NOTES HERE]
+#+END_SRC
+** local notes                                                     :noexport:
+*** over-simplify will remove critical contexts, make the discusion conceptual
+* Stress Less, Lead Better
+:PROPERTIES:
+:EXPORT_FILE_NAME: eq-playbook
+:EXPORT_DATE: 2025-09-30
+:END:
+URL: https://quantcodedenny.com/posts/eq-playbook/
+
+As a tech lead, I want to ease my mental stress and be effective in conflict resolution.
+This playbook is my daily runbook for staying calm, clear, and constructive under pressure.
+** Core Principles
+- **Pause Before Reacting**: Don’t let emotions drive my first response.
+- **Listen First**: Seek to understand before I respond.
+- **Focus on Outcomes**: Anchor on shared goals, not personal wins.
+- **Protect My Boundaries**: Say no or redirect misaligned work.
+** Difficult Situations and How I Respond
+1. **Disagreement on Priorities**
+   Example: PM pushes feature delivery, I see infra stability risk.
+   → Frame trade-offs clearly; show business risk of ignoring infra.
+
+2. **Boundary-Pushing Requests**
+   Example: Asked to own solving cross-team incentive conflicts (low leverage).
+   → Acknowledge importance, suggest better owner, offer lightweight support—not ownership.
+
+3. **Cross-Team or Peer Conflict**
+   Example: Partner team blames infra for latency spikes, or another TL challenges design harshly.
+   → Listen without defensiveness, share data, acknowledge valid points, defuse tension, propose joint debugging or async follow-up.
+
+4. **Escalations from Leadership**
+   Example: Director demands “immediate fix” for ongoing SEV.
+   → Communicate facts crisply, outline immediate fix + longer-term solution.
+** Major Mistakes That Kill Energy
+- **Neglecting Health Basics**: Skipping sleep, poor nutrition, dehydration, or no movement → fatigue, irritability, brain fog.
+- **Scattered Focus**: Excessive multitasking or context switching → drains efficiency and mental clarity.
+- **Ignoring Stress Signals**: Bottling emotions, not addressing mental health → chronic depletion.
+- **Weak Boundaries**: Overcommitting or taking low-leverage work → diluted impact, faster burnout.
+- **Poor Environment**: Clutter, noise, or bad lighting → reduced focus and motivation.
+** Best Practices
+- **Recharge Physically**: 7–9 hrs sleep, short naps if needed; move often with walks, stretches, or exercise.
+- **Fuel Smartly**: Balanced meals (protein + complex carbs), hydration; limit sugar/caffeine spikes.
+- **Work With Focus**: Prioritize clearly (Eisenhower or MITs), batch tasks, avoid overcommitment.
+- **Reset Regularly**: Take 5–10 min breaks every 60–90 mins; use mindfulness, journaling, or reflection.
+- **Shape the Environment**: Natural light, tidy space, comfortable temp/noise.
+- **Communicate Effectively**: Neutral tone, “we” language, fact-driven; summarize agreements; use the cycle Pause → Clarify → Respond → Follow-Up.
+** Common Pitfalls to Avoid
+- Responding instantly when triggered.
+- Framing conflict as win/lose instead of win/win.
+- Assuming others share my context without clarification.
+- Absorbing misaligned work just to “be helpful.”
+** Daily Reminder
+- **Start of Day**: Review top 3 priorities; mark what I will say "no" to.
+- **Before Meetings**: Pause, breathe once, and note the outcome I want.
+- **During Conflict**: Listen fully, then restate what I heard before replying.
+- **After 90 Minutes of Work**: Step away for 5 mins; stretch or walk.
+- **Midday Check-In**: Drink water, adjust posture, reset focus.
+- **End of Day**: Write down one win and one boundary I defended.
+** local notes                                                     :noexport:
+*** avoid over-delegation and no boundary
+weekly audit report: TPM don't want to own it
+#+BEGIN_SRC text
+As discussed, it would be more effective, if you(or/and XXX) can take it from this point and become POC to run the follow-up conversations.
+
+I don't believe that is the right model though. There should be an E2E owner w/ help needed as is. Let's discuss in the meeting.
+#+END_SRC
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Focus On P0 At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: clarify-p0s-at-work
@@ -88,7 +231,42 @@ I establish myself as a tech lead in ML infra with two main goals:
     - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
     - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
     - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
-** Set LLM context
+** Enage LLM for improvement
+Please create a prompt which can take my new learning and integrate into existing blog post
+#+begin_src text
+You are helping me continuously improve my Org-mode blog post titled “Clarify and Focus on My P0 at Work”.
+
+Here’s how you should handle my new input:
+
+1. **Goal**
+   - Integrate my new learning, reflection, or example naturally into the existing blog post.
+   - Ensure the update strengthens the post’s logic and reinforces my 3-year P0 priorities.
+
+2. **Tone & Style**
+   - Write in first person (“I”, “my”).
+   - Keep the tone reflective, pragmatic, and authentic — grounded in experience.
+   - Use concise, clear sentences; prefer active voice.
+   - Maintain Org-mode formatting consistency (headings, lists, indentation).
+
+3. **Integration Rules**
+   - Place the new insight under the most relevant section (e.g., *Recent Key Learnings*, *Growth Areas*, or *Mitigation*).
+   - If the new learning adds a pattern or shift in thinking, summarize the key takeaway in 1–2 lines and give a concrete example.
+   - If the learning changes a previous view, update the old section instead of duplicating content.
+   - Keep the overall flow coherent — every section should build toward my main goal: focusing on P0s that maximize **market value**, **ownership**, and **mental clarity**.
+
+4. **Output**
+   - Return the updated Org-mode text with my new content merged.
+   - At the end, summarize briefly what was changed or where the new insight was integrated.
+
+Here’s the current post:
+
+[Paste current Org-mode blog post here]
+
+Here’s my new learning:
+
+[Paste your new learning or experience here]
+#+end_src
+** Set LLM context                                                 :noexport:
 I want to clarify what is truly important to me at work and identify my 3-year P0 priorities. Below is my current context.
 
 Please help me:
@@ -179,6 +357,33 @@ A critical part of scoping is *finding good problems to tackle*. Some ways I app
 ** Next Steps
 I will continue experimenting with different scoping strategies and documenting outcomes. Over time, I hope this post will become a living guide for myself and others on how to *scope better* as a tech lead.
 ** Enage LLM for improvement
+Please create a prompt which can take my new learning and integrate into existing blog post
+#+BEGIN_SRC text
+You are helping me continuously improve my Org-mode blog post titled "Scoping Better: A Tech Lead’s Journey".
+
+Here’s how I want you to handle my new input:
+
+1. **Goal:** Integrate my new learning or example into the existing blog post naturally, without breaking flow.
+2. **Style:**
+   - Keep the tone reflective, pragmatic, and written in first-person.
+   - Use concise and clear sentences.
+   - Use Org-mode formatting consistently (headings, bullet points, etc.).
+3. **Structure:**
+   - If my new learning fits an existing section (like “My Approach to Scoping” or “Lessons Learned”), integrate it there.
+   - If it introduces a new theme, create a new Org-mode section or subsection.
+   - Always preserve the rest of the document and ensure logical flow between sections.
+4. **Output:**
+   - Return the full updated Org-mode content.
+   - Clearly mark which part was newly added with a comment line: `#+BEGIN_COMMENT Updated` … `#+END_COMMENT`.
+
+Here’s the current post:
+
+[Paste current Org-mode blog post here]
+
+Here’s my new learning:
+
+[Paste your new learning or experience here]
+#+END_SRC
 ** local notes                                                     :noexport:
 *** [#A] didn't think big enough or run out of ideas: other teams want to help, but there are no work items
 *** Some problems are doom to hard to fix.
@@ -263,37 +468,39 @@ Looking better at work is **not superficial** — it’s telling the full story 
 
 By following this **checklist + templates**, I make my work **visible, valued, and remembered** without overthinking.
 ** Enage LLM for improvement
+Please create a prompt which can take my new learning and integrate into existing blog post
 #+BEGIN_SRC text
-I have a blog post about "Look Better At Work" written in first-person (I/my) and formatted in Org-mode. I want to **continuously improve it** to make it more actionable, clear, and engaging.
+I want to update my Org-mode blog post titled “Look Better at Work.”
 
-Here’s what I want you to do:
+Goal: Continuously improve it by integrating my new learnings while keeping it clear, actionable, and first-person.
 
-1. **Clarity & Flow**
-   - Make the content easy to follow and logically structured.
-   - Ensure sentences are concise and avoid repetition.
+Instructions:
 
-2. **Actionable Advice**
-   - Suggest new tips, examples, or mini-exercises that I can apply in daily work.
-   - Include templates, checklists, or habits that reduce my thinking effort.
+1. Read both the existing post and my new learning carefully.
+2. Integrate the new ideas naturally into the post. You may add, merge, or rephrase sections.
+3. Make the writing easy to follow and concise — remove any repetition.
+4. Keep the tone first-person (“I/my”) and professional but relatable.
+5. Add practical structure: short examples, checklists, or mini-habits that make it easier to apply in daily work.
+6. Highlight key ideas with bold or bullets for readability.
+7. Output the final blog post in Org-mode format, ready to publish.
+8. At the end, include a short summary of what changed and why (1–2 sentences).
 
-3. **Engagement**
-   - Add relatable examples or short stories that illustrate principles.
-   - Highlight the most important points with bold or bullet lists.
+Existing post:
 
-4. **Consistency**
-   - Keep all references in the first person (I/my).
-   - Maintain Org-mode formatting for easy integration.
+[paste your current Look Better at Work post here]
 
-5. **Enhancements**
-   - Suggest sections to add, remove, or merge.
-   - Identify gaps or missed angles in the current content.
-**Instructions for Output:**
-- Provide the improved content directly in Org-mode format.
-- Summarize what changed and why (1–2 sentences).
-**Input:**
-<<Insert current version of the post here>>
-**Task:** Improve the post according to the instructions above. Focus on making it **practical, concise, and ready for daily use**.
+
+New learning or content to integrate:
+
+[paste your new insight, story, or principle here]
 #+END_SRC
+** local notes
+Get Allies to Say It, Not Just You. Partner orgs (ML, Ads Infra, SRE) should echo the message: “Without PE continuing, we can’t meet reliability/scaling goals.”
+
+Learn turn delivery into lasting ownership
+- Make Success Tangible in Business Terms
+- Start with Charter, Not Just Project: Deliverable is framed as a first milestone of ownership, not a one-off task.
+- Write a Living Charter Document
 * Connect Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better
@@ -369,360 +576,131 @@ Here is the current version of my post:
 
 Please help me improve it.
 #+END_SRC
-* Stress Less, Lead Better
-:PROPERTIES:
-:EXPORT_FILE_NAME: eq-playbook
-:EXPORT_DATE: 2025-09-30
-:END:
-URL: https://quantcodedenny.com/posts/eq-playbook/
-
-As a tech lead, I want to ease my mental stress and be effective in conflict resolution.
-This playbook is my daily runbook for staying calm, clear, and constructive under pressure.
-** Core Principles
-- **Pause Before Reacting**: Don’t let emotions drive my first response.
-- **Listen First**: Seek to understand before I respond.
-- **Focus on Outcomes**: Anchor on shared goals, not personal wins.
-- **Protect My Boundaries**: Say no or redirect misaligned work.
-** Difficult Situations and How I Respond
-1. **Disagreement on Priorities**
-   Example: PM pushes feature delivery, I see infra stability risk.
-   → Frame trade-offs clearly; show business risk of ignoring infra.
-
-2. **Boundary-Pushing Requests**
-   Example: Asked to own solving cross-team incentive conflicts (low leverage).
-   → Acknowledge importance, suggest better owner, offer lightweight support—not ownership.
-
-3. **Cross-Team or Peer Conflict**
-   Example: Partner team blames infra for latency spikes, or another TL challenges design harshly.
-   → Listen without defensiveness, share data, acknowledge valid points, defuse tension, propose joint debugging or async follow-up.
-
-4. **Escalations from Leadership**
-   Example: Director demands “immediate fix” for ongoing SEV.
-   → Communicate facts crisply, outline immediate fix + longer-term solution.
-** Major Mistakes That Kill Energy
-- **Neglecting Health Basics**: Skipping sleep, poor nutrition, dehydration, or no movement → fatigue, irritability, brain fog.
-- **Scattered Focus**: Excessive multitasking or context switching → drains efficiency and mental clarity.
-- **Ignoring Stress Signals**: Bottling emotions, not addressing mental health → chronic depletion.
-- **Weak Boundaries**: Overcommitting or taking low-leverage work → diluted impact, faster burnout.
-- **Poor Environment**: Clutter, noise, or bad lighting → reduced focus and motivation.
-** Best Practices
-- **Recharge Physically**: 7–9 hrs sleep, short naps if needed; move often with walks, stretches, or exercise.
-- **Fuel Smartly**: Balanced meals (protein + complex carbs), hydration; limit sugar/caffeine spikes.
-- **Work With Focus**: Prioritize clearly (Eisenhower or MITs), batch tasks, avoid overcommitment.
-- **Reset Regularly**: Take 5–10 min breaks every 60–90 mins; use mindfulness, journaling, or reflection.
-- **Shape the Environment**: Natural light, tidy space, comfortable temp/noise.
-- **Communicate Effectively**: Neutral tone, “we” language, fact-driven; summarize agreements; use the cycle Pause → Clarify → Respond → Follow-Up.
-** Common Pitfalls to Avoid
-- Responding instantly when triggered.
-- Framing conflict as win/lose instead of win/win.
-- Assuming others share my context without clarification.
-- Absorbing misaligned work just to “be helpful.”
-** Daily Reminder
-- **Start of Day**: Review top 3 priorities; mark what I will say "no" to.
-- **Before Meetings**: Pause, breathe once, and note the outcome I want.
-- **During Conflict**: Listen fully, then restate what I heard before replying.
-- **After 90 Minutes of Work**: Step away for 5 mins; stretch or walk.
-- **Midday Check-In**: Drink water, adjust posture, reset focus.
-- **End of Day**: Write down one win and one boundary I defended.
-** local notes                                                     :noexport:
-*** avoid over-delegation and no boundary
-weekly audit report: TPM don't want to own it
-#+BEGIN_SRC text
-As discussed, it would be more effective, if you(or/and XXX) can take it from this point and become POC to run the follow-up conversations.
-
-I don't believe that is the right model though. There should be an E2E owner w/ help needed as is. Let's discuss in the meeting.
-#+END_SRC
-* Suggest Without Full Context
-:PROPERTIES:
-:EXPORT_FILE_NAME: suggest-without-context
-:EXPORT_DATE: 2025-09-30
-:END:
-URL: https://quantcodedenny.com/posts/suggest-without-context/
-
-A living runbook for learning from and giving suggestions to other teams
-**Why This Matters**: Cross-team collaboration is a critical part of tech lead work, yet you are often asked to provide input on projects where you don’t have full visibility.
-- Well-crafted suggestions, grounded in understanding and context, can amplify impact, build credibility, and accelerate learning for both teams.
-- Poorly framed suggestions can create friction, reduce trust, or block progress.
-** Core Principles
-1. Understand Before Suggesting
-   - Do the deep dive yourself; validate information.
-   - Focus on *what* (goal/outcome), not *how*.
-   - Check: Do I understand their goal even with limited context?
-
-2. Respect People and Context
-   - Acknowledge effort before giving input.
-   - Match discussion level (process vs details).
-   - Expect pushback as feedback, not resistance.
-
-3. Keep It Simple and Actionable
-   - Avoid information overload.
-   - Tie suggestions to metrics and outcomes they care about.
-   - Clarify who owns follow-up actions.
-   - Check: Are my suggestions relevant, concise, and actionable?
-
-4. Share and Co-Own (Optional)
-   - Frame suggestions as options, not orders.
-   - Offer help or co-ownership to turn ideas into action.
-   - Check: Am I ready to co-own implementation or provide support if needed?
-** Scenarios & How to Engage
-*** High-Pressure, Short-Context Scenarios
-(Few minutes to give input, limited context)
-- **Approach**
-  - Focus on the goal or desired outcome.
-  - Ask high-leverage, pattern-based questions.
-  - Prioritize comments that are high-impact and low-risk.
-  - Signal limited context but contribute thoughtfully.
-  - Clarify follow-up / ownership if action is triggered.
-- **Examples**
-  - SEV postmortem review
-  - Rapid design review
-  - Urgent cross-team triage
-*** Scenario: Standard Context Scenarios
-(More time to explore context)
-- **Approach**
-  - Deep dive into details if needed.
-  - Understand tradeoffs and context fully.
-  - Offer concrete suggestions with examples from prior experience.
-  - Frame suggestions in alignment with team goals.
-- **Examples**
-  - Process improvement sharing
-  - Quarterly roadmap sync
-  - Tooling/infra collaboration
-** LLM Prompt Template for Continuous Improvement
-#+BEGIN_SRC text
-I’m updating my "Suggest Without Full Context" runbook.
-
-Please:
-1. Incorporate them into the blog structure (principles, scenarios, checklist).
-2. Smooth the flow for readability.
-3. Highlight new insights and actionable points.
-4. Use org-mode format for output
-
-Here are my raw notes in org-mode format:
-<PASTE NOTES>
-#+END_SRC
 * #  --8<-------------------------- separator ------------------------>8--
-* Improve tech lead mindsets                                       :noexport:
+* Using LLMs to Boost Infra IC6 Impact
 :PROPERTIES:
-:EXPORT_FILE_NAME: improve-techlead-mindset
-:EXPORT_DATE: 2025-09-14
+:EXPORT_FILE_NAME: ic6-use-llm
+:EXPORT_DATE: 2025-10-05
 :END:
-URL: https://quantcodedenny.com/posts/improve-techlead-mindset/
-** Set LLM context
-You are a mentor and coach for a tech lead aiming to develop a mega-learning mindset and improve general problem-solving.
+URL: https://quantcodedenny.com/posts/ic6-use-llm/
 
-The tech lead wants to avoid these common mistakes:
-1. **Think too narrow** – focusing too narrowly on immediate tasks or familiar solutions, missing hidden risks and opportunities.
-2. **Try to do it alone** – solving problems alone without tapping into team knowledge, feedback, or prior experiences.
-3. **Stuck in exeuction mode** – prioritizing immediate wins or tactical fixes over strategic, long-term impact.
-4. **Not learning from the past** – not capturing lessons, failing to generalize insights, or missing opportunities to improve thinking and processes.
-5. **Overlook dependencies** – overlooking upstream/downstream service risks, team conflicts, or misaligned priorities that block progress.
+** 1. Introduction & Common Pitfalls
+Being an IC6 Infra Engineer in a large corporate environment isn’t just about writing code.
+It’s about *driving systemic impact*, ensuring reliability, and influencing across teams.
 
-Provide:
-1. **Mindset shifts** to overcome these mistakes
-2. **Concrete habits or exercises** for daily practice
-3. **Examples of how AI can help** the tech lead think faster, learn smarter, and act strategically
-4. **Ways to reflect and generalize learnings** across projects
+Common pitfalls IC6s face:
+- Staying too long in a bad setup
+- Picking the wrong problem or direction
+- Not leveraging your network
+- Lacking structured thinking and clear framing
+- Execution-only mindset without strategic reflection
 
-Respond in an actionable, structured, and role-aware manner, as if coaching a tech lead directly.
-** Weekly Accomplishment Checklist
-*** Think Too Narrow
-- [ ] For 1 project, list at least 3 risks and 2 long-term impacts before deciding
-- [ ] Write down 2 "what if" questions per project to force broader thinking
-- [ ] Use AI: suggest blind spots, generate alternative scenarios, highlight hidden risks
-*** Try to Do It Alone
-- [ ] Schedule at least 1 short sync (15–20 min) with a peer/mentor for input
-- [ ] Share 1 work-in-progress doc with your team and collect at least 2 comments
-- [ ] Use AI: summarize prior lessons, polish drafts, surface unclear points before sharing
-*** Stuck in Execution Mode
-- [ ] Review your task list and mark 3 tasks as high-impact vs. low-impact
-- [ ] Run 1 pre-mortem this week (write 3 failure modes + mitigations)
-- [ ] Use AI: simulate outcomes, suggest trade-offs, stress-test assumptions
-*** Not Learning From the Past
-- [ ] Write a weekly reflection (max 10 sentences): what worked, what failed, lessons
-- [ ] Share 1 distilled lesson with your team in Slack/email
-- [ ] Use AI: synthesize reflections into principles, reframe lessons into concise takeaways
-*** Overlook Dependencies
-- [ ] Identify 2 dependencies for your current project; confirm reliability with owners
-- [ ] Hold 1 alignment check-in (15 min) with a partner team or stakeholder
-- [ ] Use AI: map upstream/downstream risks, draft alignment agenda/questions
-** top skills to learn in the AI world                             :noexport:
-I want to identify a list of top skills to learn with the rise of AI.
-
-Mindset
-- Be a learner, adapter, and synthesizer: Knowledge + action + insight = value.
-- Leverage AI to amplify, not replace thinking: Tools speed execution; humans provide judgment.
-- Embrace uncertainty: AI accelerates change; resilience and curiosity are your superpowers.
-
-Top skills
-
-- Learning How to Learn (Meta-Learning): AI evolves fast; new tools, models, and frameworks appear constantly.
-- Human-Centric Insight (Understanding People): AI is a tool; impact comes from solving real human problems.
-- Interpersonal & Systems Interaction: AI amplifies output, but collaboration is still key.
-- Creative & Strategic Thinking: AI can generate ideas; humans decide which are valuable.
-- Adaptability & Flexibility: AI disrupts industries; roles and best practices change quickly.
-- Resilience & Growth Mindset: AI projects often fail or produce unexpected outputs.
-** local notes
-- stay too long in a bad setup
-- pick a wrong problem & direction
-- not utilize your network
-- lack structure thinking/framing
-* Challenges For Working In Big Corporates                         :noexport:
-:PROPERTIES:
-:EXPORT_FILE_NAME: generalize_working_experience
-:EXPORT_DATE: 2025-08-25
-:END:
-
-URL: https://quantcodedenny.com/posts/generalize_working_experiene/
-** Find the right problems
-Challenges:
-- Identifying impactful problems vs “noise.”
-- Securing scope, alignment, and funding across stakeholders.
-
-Learnings:
-- Invest early in problem discovery and framing.
-- Anchor decisions to business/infra impact to gain support.
-** Driving Execution Across Teams
-Challenges:
-
-- Teams have different positions, priorities, and opinions.
-- Alignment often requires negotiation and compromise.
-
-Learnings:
-- Clear communication and shared goals are essential.
-- Build trust and credibility to influence without authority.
-- Balance speed vs thoroughness based on context.
-** Technical & System Complexity
-Challenges:
-- Dealing with infra-scale technical challenges (reliability, scalability, latency).
-- Legacy issues (e.g., unreliable validation framework).
-
-Learnings:
-- Build guardrails and observability to make systems resilient.
-- Incremental improvements often scale better than one-off fixes.
-** Delivering Impact Under Constraints
-Challenge:
-- Limited time, resources, and competing priorities make it impossible to build a “perfect” solution.
-
-Learning:
-- Define clear success criteria up front. Focus on what delivers the most impact, and avoid over-engineering.
-** Evolving with Ambiguity
-Challenges:
-- Requirements and priorities shift frequently in Ads/Infra.
-- Early-stage projects often lack clear ownership or metrics.
-
-Learnings:
-- Clarify success criteria early, but stay flexible as context evolves.
-- Break down big ambiguous goals into smaller milestones to maintain momentum.
-** People & Growth
-Challenges:
-- Scaling yourself beyond individual contribution.
-- Onboarding and up-leveling new team members while delivering on projects.
-
-Learnings:
-
-Document and codify best practices (guardrails, playbooks, runbooks).
-
-Mentoring and enabling others multiplies long-term impact.
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** prompt                                                          :noexport:
-Master Prompt: Critical Thinking for Big Corporate Leadership
-
+LLMs can amplify thinking, communication, and operational impact — but only if used strategically.
+** 2. Strategic Thinking & Problem Framing
+*** Goal
+Find the right problems, understand constraints, and align work with org priorities.
+*** Key IC6 Tasks
+- Identify impactful problems vs “noise” early
+- Map stakeholders, incentives, and org-level priorities
+- Anchor decisions to business/infra impact to gain support
+- Preempt trade-offs, clarify ownership, and define measurable success
+- Understand dependencies and design systems for resilience
+*** LLM Leverage
+- Summarize org strategy documents and leadership updates
+- Highlight blind spots, alternative scenarios, or potential misalignments
+- Map upstream/downstream dependencies and risks
+*** Example Prompts
+#+BEGIN_SRC
+Summarize key priorities from the last 3 leadership updates. Highlight potential conflicts or dependencies for the model serving infra project.
+Compare three ML infra designs. List both technical and organizational trade-offs, including team dependencies and approval requirements.
+#+END_SRC
+** 3. Driving Execution & Operational Excellence
+*** Goal
+Deliver high-impact outcomes while managing complexity, reliability, and constraints.
+*** Key IC6 Tasks
+- Lead SEV triage, postmortems, and pre-mortems (3 failure modes + mitigations)
+- Build guardrails, observability, and incremental improvements
+- Identify bottlenecks and make unfixable issues fixable
+- Prioritize high-impact tasks over low-leverage urgencies
+- Balance speed vs thoroughness based on context
+*** LLM Leverage
+- Summarize SEV logs and recurring failure patterns
+- Generate checklists or scripts to reduce manual effort
+- Stress-test assumptions and simulate outcomes
+*** Example Prompt
+#+BEGIN_SRC
+Analyze the last 3 SEVs and summarize recurring failure patterns. Suggest automated mitigation strategies.
+Simulate outcomes for project trade-offs and highlight hidden risks.
+#+END_SRC
+** 4. Influence, Mentorship & Collaboration
+*** Goal
+Multiply impact beyond individual contribution through clear communication, mentorship, and collaboration.
+*** Key IC6 Tasks
+- Mentor IC5s and IC4s; document best practices
+- Share work-in-progress documents and collect feedback
+- Lead without authority: build trust and credibility
+- Focus discussions on important issues, avoid distractions
+- Synthesize before commenting; anticipate director-level perspective
+*** LLM Leverage
+- Generate mock scenarios for training or design review exercises
+- Polish drafts, surface unclear points, summarize patterns and lessons
+*** Example Prompt
+#+BEGIN_SRC
+Create a mock SEV scenario for an IC5 on model serving infra, highlighting operational risks and trade-offs.
+Draft a proposal explaining why a new caching pattern reduces errors and aligns with org reliability goals.
+#+END_SRC
+** 5. Continuous Learning & Reflection
+*** Goal
+Adapt faster than evolving systems and org priorities.
+*** Key IC6 Tasks
+- Write weekly reflections: what worked, what failed, lessons learned
+- Share distilled lessons with team via Slack/email
+- Document playbooks, runbooks, and guardrails
+- Analyze recurring blind spots from SEVs and design reviews
+*** LLM Leverage
+- Synthesize reflections into principles or concise takeaways
+- Generate reflection prompts to improve decision-making
+- Highlight recurring gaps in personal or team processes
+*** Example Prompts
+#+BEGIN_SRC
+Analyze my last 3 SEVs and identify patterns I tend to overlook.
+Based on recent design reviews, highlight recurring gaps and suggest learning exercises.
+#+END_SRC
+** 6. Mastering AI/LLM for IC6 Impact
+*** Goal
+Use AI as a force multiplier to improve quality, speed, and strategic insight.
+*** Mindset
+- Be a learner, adapter, synthesizer: knowledge + action + insight = value
+- Leverage AI to amplify, not replace thinking
+- Embrace uncertainty: resilience and curiosity are superpowers
+*** Top Skills
+- Meta-learning: adapt to new tools, models, frameworks
+- Human-centric insight: understand real problems
+- Interpersonal & systems interaction: collaborate effectively
+- Creative & strategic thinking: evaluate ideas and trade-offs
+- Adaptability & flexibility: pivot as org and tech evolve
+- Resilience & growth mindset: embrace failures and learn
+*** LLM Master Prompt
+#+BEGIN_SRC
 You are my senior staff+ mentor and leadership coach.
-Context: I am aiming to thrive as an Uber Tech Lead (IC6/IC7) in a large, competitive corporate environment. My key challenge is to improve critical thinking and strategic decision-making so I can scale my influence, navigate complex politics, and drive high-leverage outcomes.
+Help me analyze ambiguous problems, sharpen judgment, and elevate thinking beyond execution.
 
-Your role: Help me analyze problems, sharpen judgment, and elevate thinking beyond execution.
+Output:
+- Reframe: strategic restatement of issue
+- Key Dimensions: incentives, risks, org politics, ROI
+- Critical Questions: sharpen judgment
+- Options & Tradeoffs: possible paths with pros/cons
+- Recommendation: pragmatic advice
 
-What I Want From You
-1. Structured Thinking Partner – Break down messy, ambiguous situations into clear frameworks (impact, tradeoffs, stakeholders, incentives).
-- Strategic Lens – Reframe my problems from a director/VP perspective (business impact, long-term sustainability, alignment).
-- Critical Questioning – Push me with tough, clarifying questions that reveal blind spots and force deeper reasoning.
-- Scenario Testing – Stress-test my assumptions by presenting alternative perspectives or unintended consequences.
-- Practical Playbook – Offer actionable steps I can use in meetings, proposals, or influencing discussions.
+Use in meetings, proposals, or influencing discussions.
+#+END_SRC
+** 7. Conclusion
+IC6 Infra success is about *systemic impact, reliability, and influence*, not just coding.
 
-Output Format
-1. Reframe: Restate the issue in strategic/critical terms.
-- Key Dimensions: List angles I should evaluate (e.g., incentives, risks, org politics, ROI).
-- Critical Questions: What I should ask myself/others to sharpen judgment.
-- Options & Tradeoffs: Possible paths with pros/cons.
-- Recommendation: Balanced, pragmatic advice for a senior IC.
+LLMs act as a *force multiplier* — helping you:
+- Understand incentives and org priorities
+- Map constraints and trade-offs
+- Build durable levers and guardrails
+- Reflect and learn continuously
 
-Tone & Style
-- spirational but grounded in corporate reality.
-- Concise and structured (executive-style thinking).
-
-Probing and challenging, not just agreeable.
-
-Always tie technical choices to business outcomes and influence building.
-** Driving Execution Across Teams                                  :noexport:
-Challenges:
-
-- Teams have different positions, priorities, and opinions.
-- Alignment often requires negotiation and compromise.
-
-Learnings:
-- Clear communication and shared goals are essential.
-- Build trust and credibility to influence without authority.
-- Balance speed vs thoroughness based on context.
-** local notes                                                     :noexport:
-what work you want to say yes, what work you want to say no
-
-increase your team's strategic values
-
-make unfixable issues fixable: identify and fix the bottleneck
-*** Scope fight
-*** Find the right problems & set the right goals
-Challenges:
-- Identifying impactful problems vs “noise.”
-- Securing scope, alignment, and funding across stakeholders.
-
-Learnings:
-- Invest early in problem discovery and framing.
-- Anchor decisions to business/infra impact to gain support.
-*** See the big picture, in order to focus on import problem
-*** Dependencies & Unreliable Components
-Challenges:
-- Cross-team and cross-system dependencies introduce fragility.
-- Upstream changes or weak components can block progress.
-
-Learnings:
-- Invest in automated validation and monitoring to catch issues early.
-- Design with failure scenarios in mind (graceful degradation, fallbacks).
-
-know which problems to fix, and how to fix
-
-clear communication to have a common understanding
-
-lack of domain knowledge: model/feature usage table
-
-focus the discussion on the important things
-| Category                    | Principle                 | How / Example                                                       | Pitfall if Ignored                     |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Impact & Value              | Show delta value          | Tie infra work to visible business outcomes (“caching = +50ms CTR”) | Seen as busy work, sidelined           |
-|                             | Clarify success upfront   | Define measurable “done”                                            | Moving goalposts, lost credibility     |
-|                             | Storytell foundation work | Connect invisible work to org priorities                            | Looks like low-impact maintenance      |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Strategy & Alignment        | Frame with incentives     | Link to director/org goals                                          | Tech debt talk = no traction           |
-|                             | Preempt tradeoffs         | Offer options + recs                                                | Leaders lose trust in surprises        |
-|                             | Clarify ownership         | Define role, follow-ups, timeline                                   | Over-commitment, free work             |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Influence & Persuasion      | Credible input            | Synthesize before commenting                                        | Shallow remarks dilute influence       |
-|                             | Manage up with foresight  | Anticipate director’s mix of tech + people                          | Seen as execution-only                 |
-|                             | Lead with presence        | Summarize tensions, propose balance                                 | Silent = invisible; dominate = blocker |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Execution & Resilience      | Prioritize leverage       | Focus on high-value over urgencies                                  | Stuck in ops, not strategy             |
-|                             | Push through chaos        | Persistent follow-ups until resolved                                | Priorities die quietly                 |
-|                             | Stay calm in conflict     | Facts + tone + clarity in SEVs                                      | Emotional escalation breaks trust      |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Collaboration & Empowerment | Helpful, not free         | Clarify, connect, unblock — don’t do all                            | Burnout, undervalued time              |
-|                             | Multiply team output      | Remove friction, standardize runbooks                               | Compete vs. empower = limited scale    |
-|-----------------------------+---------------------------+---------------------------------------------------------------------+----------------------------------------|
-| Growth & Presence           | Reflect & learn           | Postmortem own leadership moves                                     | Repeat same mistakes                   |
-|                             | Focus big wins            | Champion 1–2 org-level bets                                         | Spread thin, unfocused                 |
-|                             | Build presence gradually  | Calm energy + clarity + visible progress                            | Talk a lot, impact little              |
-*** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** patterns of issues
-*** People: build procedure, instead of solution
-** good principles
-*** build common tooling is generally good for all teams
-*** counterarugment metrics can avoid over-optimize the solution in only one angle
+Applying this condensed framework ensures high-leverage focus and scalable impact across systems and teams.

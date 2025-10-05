@@ -4,6 +4,76 @@
 #+HUGO_TAGS: engineering execution
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* Suggest Without Full Context
+:PROPERTIES:
+:EXPORT_FILE_NAME: suggest-without-context
+:EXPORT_DATE: 2025-09-30
+:END:
+URL: https://quantcodedenny.com/posts/suggest-without-context/
+
+A living runbook for learning from and giving suggestions to other teams
+**Why This Matters**: Cross-team collaboration is a critical part of tech lead work, yet you are often asked to provide input on projects where you don’t have full visibility.
+- Well-crafted suggestions, grounded in understanding and context, can amplify impact, build credibility, and accelerate learning for both teams.
+- Poorly framed suggestions can create friction, reduce trust, or block progress.
+** Core Principles
+1. Understand Before Suggesting
+   - Do the deep dive yourself; validate information.
+   - Focus on *what* (goal/outcome), not *how*.
+   - Check: Do I understand their goal even with limited context?
+
+2. Respect People and Context
+   - Acknowledge effort before giving input.
+   - Match discussion level (process vs details).
+   - Expect pushback as feedback, not resistance.
+
+3. Keep It Simple and Actionable
+   - Avoid information overload.
+   - Tie suggestions to metrics and outcomes they care about.
+   - Clarify who owns follow-up actions.
+   - Check: Are my suggestions relevant, concise, and actionable?
+
+4. Share and Co-Own (Optional)
+   - Frame suggestions as options, not orders.
+   - Offer help or co-ownership to turn ideas into action.
+   - Check: Am I ready to co-own implementation or provide support if needed?
+** Scenarios & How to Engage
+*** High-Pressure, Short-Context Scenarios
+(Few minutes to give input, limited context)
+- **Approach**
+  - Focus on the goal or desired outcome.
+  - Ask high-leverage, pattern-based questions.
+  - Prioritize comments that are high-impact and low-risk.
+  - Signal limited context but contribute thoughtfully.
+  - Clarify follow-up / ownership if action is triggered.
+- **Examples**
+  - SEV postmortem review
+  - Rapid design review
+  - Urgent cross-team triage
+*** Scenario: Standard Context Scenarios
+(More time to explore context)
+- **Approach**
+  - Deep dive into details if needed.
+  - Understand tradeoffs and context fully.
+  - Offer concrete suggestions with examples from prior experience.
+  - Frame suggestions in alignment with team goals.
+- **Examples**
+  - Process improvement sharing
+  - Quarterly roadmap sync
+  - Tooling/infra collaboration
+** Enage LLM for improvement
+Please create a prompt which can take my new learning and integrate into existing blog post
+#+BEGIN_SRC text
+I’m updating my "Suggest Without Full Context" runbook.
+
+Please:
+1. Incorporate them into the blog structure (principles, scenarios, checklist).
+2. Smooth the flow for readability.
+3. Highlight new insights and actionable points.
+4. Use org-mode format for output
+
+Here are my raw notes in org-mode format:
+<PASTE NOTES>
+#+END_SRC
 * Improve Technical Writing
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-technical-writing
@@ -405,6 +475,3 @@ Output:
 *** edge scenarios where common practice doesn't work well
 *** llm won't reject requirement which shouldn't happen in the first place
 Use elisp to "url:", it makes the code very fragile and hard to use. The development time is wasted
-
-
-

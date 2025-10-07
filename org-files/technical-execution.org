@@ -12,30 +12,42 @@
 URL: https://quantcodedenny.com/posts/suggest-without-context/
 
 A living runbook for learning from and giving suggestions to other teams
-**Why This Matters**: Cross-team collaboration is a critical part of tech lead work, yet you are often asked to provide input on projects where you don’t have full visibility.
-- Well-crafted suggestions, grounded in understanding and context, can amplify impact, build credibility, and accelerate learning for both teams.
-- Poorly framed suggestions can create friction, reduce trust, or block progress.
+**Why This Matters**: 
+Cross-team collaboration is a critical part of tech lead work, yet you’re often asked to give feedback on efforts you don’t fully own or understand.  
+
+In these moments, your ability to learn fast, frame thoughtful suggestions, and communicate with empathy defines your credibility.
+
+Good suggestions create momentum and build bridges. Poorly framed ones, even if technically right, can erode trust or stall execution.
+
 ** Core Principles
 1. Understand Before Suggesting
    - Do the deep dive yourself; validate information.
    - Focus on *what* (goal/outcome), not *how*.
    - Check: Do I understand their goal even with limited context?
+   - If not sure, signal limited context upfront: *“I may be missing some context, but…”*
 
 2. Respect People and Context
    - Acknowledge effort before giving input.
    - Match discussion level (process vs details).
-   - Expect pushback as feedback, not resistance.
+   - Treat pushback as a sign of ownership, not resistance.
+   - When you disagree, start from curiosity: *“Can you help me understand why this direction works better?”*
 
 3. Keep It Simple and Actionable
    - Avoid information overload.
    - Tie suggestions to metrics and outcomes they care about.
    - Clarify who owns follow-up actions.
    - Check: Are my suggestions relevant, concise, and actionable?
+   - Use soft framing to reduce friction:
+     - *“One idea to consider…”*
+     - *“You might explore…”*
+     - *“Here’s what worked for us before — not sure if it applies here.”*
 
 4. Share and Co-Own (Optional)
-   - Frame suggestions as options, not orders.
+   - Frame input as collaboration, not correction.
    - Offer help or co-ownership to turn ideas into action.
    - Check: Am I ready to co-own implementation or provide support if needed?
+   - Ask permission before diving too deep: *“Would you like thoughts on this tradeoff?”*
+   - Build safety for iteration — your goal is to unlock better thinking, not to win arguments.
 ** Scenarios & How to Engage
 *** High-Pressure, Short-Context Scenarios
 (Few minutes to give input, limited context)
@@ -45,6 +57,8 @@ A living runbook for learning from and giving suggestions to other teams
   - Prioritize comments that are high-impact and low-risk.
   - Signal limited context but contribute thoughtfully.
   - Clarify follow-up / ownership if action is triggered.
+  - Don’t try to cover everything — aim for clarity, not completeness.
+
 - **Examples**
   - SEV postmortem review
   - Rapid design review
@@ -70,10 +84,12 @@ Please:
 2. Smooth the flow for readability.
 3. Highlight new insights and actionable points.
 4. Use org-mode format for output
+5. highlight the changed content with prefix of >>
 
 Here are my raw notes in org-mode format:
 <PASTE NOTES>
 #+END_SRC
+** local notes                                                     :noexport:
 * Improve Technical Writing
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-technical-writing
@@ -179,6 +195,17 @@ Take my HLD draft and return:
 - **Critical review** of trade-offs and alternative solutions.
 - **Explicit questions** for stakeholders to clarify assumptions.
 - **Recommendations** for where to add data, benchmarks, or analysis.
+** local notes                                                     :noexport:
+*** write project update - organize team weekly update
+prompt for the problem statement
+
+I have a team of 4. I need to write quarterly team lookback
+
+We have a team weekly update doc. I want to know how to write the lookback quickly with a high quality.
+
+The weekly doc has highlights and lowlights which is good. A few gaps I can see, (I might miss more)
+- I also maintain a local doc, which has performance tracking entries yet missing from team doc
+- the team doesn't update the metrics, since it doesn't move on a weekly basis. and this is important for leadership communication in the lookback
 * Write Feedback At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: write-interview-feedback
@@ -292,6 +319,7 @@ Raw notes:
 - Good understanding of basic data structures
 #+END_SRC
 
+** local notes                                                     :noexport:
 * Drive V-Team Execution
 :PROPERTIES:
 :EXPORT_FILE_NAME: drive-vteam-execution
@@ -361,6 +389,8 @@ how to ensure the room know which team has the most
 
 use escalation, only after giving individual feedback and it doesn't work
 *** XFN meeting got distracted by talkative individuals
+*** avoid pushing for things people are not interested
+Push from IC5 to 6 when they are not ready doesn't help for both sides
 * Vibe Coding
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-for-vibe-coding
@@ -433,7 +463,7 @@ Output:
 - Questions & Clarifications: A list of key questions for the designer to answer to clarify the design's intent or explore hidden complexities.
 ---
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** Challenges In Vibe Coding                                        :noexport:
+** local notes                                                     :noexport:
 - different versions: functions not defined; certain functions are not supported
 - understand the convention: hugo generate files into docs folder
 - no defensive coding which makes debugging difficult

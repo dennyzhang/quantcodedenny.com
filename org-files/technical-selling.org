@@ -83,6 +83,8 @@ Notes:
 #+END_SRC
 ** local notes                                                     :noexport:
 *** over-simplify will remove critical contexts, make the discusion conceptual
+*** it's a good practice to enroll bootcamp and technical talks in the company or industry
+*** it's common to have 3+ inhouse solutions for the same purpose, and they are always in migration path
 * Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook
@@ -113,6 +115,21 @@ This playbook is my daily runbook for staying calm, clear, and constructive unde
 4. **Escalations from Leadership**
    Example: Director demands “immediate fix” for ongoing SEV.
    → Communicate facts crisply, outline immediate fix + longer-term solution.
+** Show Calm Through Signals
+Taking care of my appearance is a quiet way of showing confidence and control — both to myself and to my team.  
+It reminds me that leadership isn’t just about solving problems; it’s also about projecting stability.  
+When I look composed, it signals that I can handle uncertainty and that the team can trust my direction.
+
+I’ve learned that communication works the same way. The way I speak, pause, and frame ideas all send subtle signals of leadership.
+
+- I speak calmly, even under stress — because my tone sets the emotional baseline for the team.  
+- I pause before responding. Silence shows confidence and makes my words more intentional.  
+- I start with the point, not the background — clear framing builds trust and focus.  
+- I use ownership language: “I’ll handle this,” instead of “Someone should.”  
+- I stay curious, not judgmental. Asking “Can you walk me through your thinking?” keeps discussions open and productive.  
+- I reframe issues positively: “This surfaced a gap we can fix early,” instead of “This broke again.”
+
+These small communication habits reinforce a quiet message — I’m calm, I’m in control, and we’ve got this.
 ** Major Mistakes That Kill Energy
 - **Neglecting Health Basics**: Skipping sleep, poor nutrition, dehydration, or no movement → fatigue, irritability, brain fog.
 - **Scattered Focus**: Excessive multitasking or context switching → drains efficiency and mental clarity.
@@ -139,6 +156,12 @@ This playbook is my daily runbook for staying calm, clear, and constructive unde
 - **Midday Check-In**: Drink water, adjust posture, reset focus.
 - **End of Day**: Write down one win and one boundary I defended.
 ** local notes                                                     :noexport:
+*** Taking care of your appearance is a quiet way of showing confidence and control — both to yourself and to your team
+*** [#A] avoid procrastination: no phone - go directly to the bed or wake up to walk
+*** [#A] You become more valuable, when you learn how to solve the problem in a better way. Solving the same problem in the same way for 100 times doesn't count
+write a report
+create a project proposal
+design a technical solution
 *** avoid over-delegation and no boundary
 weekly audit report: TPM don't want to own it
 #+BEGIN_SRC text
@@ -146,6 +169,11 @@ As discussed, it would be more effective, if you(or/and XXX) can take it from th
 
 I don't believe that is the right model though. There should be an E2E owner w/ help needed as is. Let's discuss in the meeting.
 #+END_SRC
+*** You don't want to own the "executive summary" for weekly audit report. With TPM push, you find no alternative.
+
+*** avoid over-read: when friday, someone comment in a lead doc, saying: Please complete by Mon.
+The comment applies to everyone. Not for you only.
+*** For other teams' job, if you have difficulties to sell, leverage owning team instead
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Focus On P0 At Work
 :PROPERTIES:
@@ -231,41 +259,44 @@ I establish myself as a tech lead in ML infra with two main goals:
     - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
     - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
     - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
+
 ** Enage LLM for improvement
 Please create a prompt which can take my new learning and integrate into existing blog post
 #+begin_src text
-You are helping me continuously improve my Org-mode blog post titled “Clarify and Focus on My P0 at Work”.
+  You are helping me continuously improve my Org-mode blog post titled “Clarify and Focus on My P0 at Work”.
 
-Here’s how you should handle my new input:
+  Here’s how you should handle my new input:
 
-1. **Goal**
-   - Integrate my new learning, reflection, or example naturally into the existing blog post.
-   - Ensure the update strengthens the post’s logic and reinforces my 3-year P0 priorities.
+  1. **Goal**
+     - Integrate my new learning, reflection, or example naturally into the existing blog post.
+     - Ensure the update strengthens the post’s logic and reinforces my 3-year P0 priorities.
 
-2. **Tone & Style**
-   - Write in first person (“I”, “my”).
-   - Keep the tone reflective, pragmatic, and authentic — grounded in experience.
-   - Use concise, clear sentences; prefer active voice.
-   - Maintain Org-mode formatting consistency (headings, lists, indentation).
+  2. **Tone & Style**
+     - Write in first person (“I”, “my”).
+     - Keep the tone reflective, pragmatic, and authentic — grounded in experience.
+     - Use concise, clear sentences; prefer active voice.
+     - Maintain Org-mode formatting consistency (headings, lists, indentation).
 
-3. **Integration Rules**
-   - Place the new insight under the most relevant section (e.g., *Recent Key Learnings*, *Growth Areas*, or *Mitigation*).
-   - If the new learning adds a pattern or shift in thinking, summarize the key takeaway in 1–2 lines and give a concrete example.
-   - If the learning changes a previous view, update the old section instead of duplicating content.
-   - Keep the overall flow coherent — every section should build toward my main goal: focusing on P0s that maximize **market value**, **ownership**, and **mental clarity**.
+  3. **Integration Rules**
+     - Place the new insight under the most relevant section (e.g., *Recent Key Learnings*, *Growth Areas*, or *Mitigation*).
+     - If the new learning adds a pattern or shift in thinking, summarize the key takeaway in 1–2 lines and give a concrete example.
+     - If the learning changes a previous view, update the old section instead of duplicating content.
+     - Keep the overall flow coherent — every section should build toward my main goal: focusing on P0s that maximize **market value**, **ownership**, and **mental clarity**.
 
-4. **Output**
-   - Return the updated Org-mode text with my new content merged.
-   - At the end, summarize briefly what was changed or where the new insight was integrated.
+  4. **Output**
+     - Return the updated Org-mode text with my new content merged.
+     - At the end, summarize briefly what was changed or where the new insight was integrated.
+     - Highlight the changed content with prefix of >>
 
-Here’s the current post:
+  Here’s the current post:
 
-[Paste current Org-mode blog post here]
+  [Paste current Org-mode blog post here]
 
-Here’s my new learning:
+  Here’s my new learning:
 
-[Paste your new learning or experience here]
+  [Paste your new learning or experience here]
 #+end_src
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** Set LLM context                                                 :noexport:
 I want to clarify what is truly important to me at work and identify my 3-year P0 priorities. Below is my current context.
 
@@ -359,31 +390,37 @@ I will continue experimenting with different scoping strategies and documenting 
 ** Enage LLM for improvement
 Please create a prompt which can take my new learning and integrate into existing blog post
 #+BEGIN_SRC text
-You are helping me continuously improve my Org-mode blog post titled "Scoping Better: A Tech Lead’s Journey".
+  You are helping me continuously improve my Org-mode blog post titled "Scoping Better: A Tech Lead’s Journey".
 
-Here’s how I want you to handle my new input:
+  Here’s how I want you to handle my new input:
 
-1. **Goal:** Integrate my new learning or example into the existing blog post naturally, without breaking flow.
-2. **Style:**
-   - Keep the tone reflective, pragmatic, and written in first-person.
-   - Use concise and clear sentences.
-   - Use Org-mode formatting consistently (headings, bullet points, etc.).
-3. **Structure:**
-   - If my new learning fits an existing section (like “My Approach to Scoping” or “Lessons Learned”), integrate it there.
-   - If it introduces a new theme, create a new Org-mode section or subsection.
-   - Always preserve the rest of the document and ensure logical flow between sections.
-4. **Output:**
-   - Return the full updated Org-mode content.
-   - Clearly mark which part was newly added with a comment line: `#+BEGIN_COMMENT Updated` … `#+END_COMMENT`.
+  1. **Goal:** Integrate my new learning or example into the existing blog post naturally, without breaking flow.
+  2. **Style:**
+     - Keep the tone reflective, pragmatic, and written in first-person.
+     - Use concise and clear sentences.
+     - Use Org-mode formatting consistently (headings, bullet points, etc.).
+  3. **Structure:**
+     - If my new learning fits an existing section (like “My Approach to Scoping” or “Lessons Learned”), integrate it there.
+     - If it introduces a new theme, create a new Org-mode section or subsection.
+     - Always preserve the rest of the document and ensure logical flow between sections.
+  4. **Output:**
+     - Return the full updated Org-mode content.
+     - Clearly mark which part was newly added with a comment line: `#+BEGIN_COMMENT Updated` … `#+END_COMMENT`.
+     - Highlight the changed content with prefix of >>
 
-Here’s the current post:
+  Here’s the current post:
 
-[Paste current Org-mode blog post here]
+  [Paste current Org-mode blog post here]
 
-Here’s my new learning:
+  Here’s my new learning:
 
-[Paste your new learning or experience here]
+  [Paste your new learning or experience here]
 #+END_SRC
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** llm prompt to improve market value                              :noexport:
+I work on machine learning infra area. I want to pick problems strategically, so that I can build expertise in this area and bring market value.
+
+Work on ML infra reliability, what are the top challenges
 ** local notes                                                     :noexport:
 *** [#A] didn't think big enough or run out of ideas: other teams want to help, but there are no work items
 *** Some problems are doom to hard to fix.
@@ -395,10 +432,6 @@ Similar for feature metadata management
 *** [#A] difficult to manage the complexity and articulate it well for the audience to comment
 *** target on the most important problems, instead of less critical ones; but within you realm
 *** SWE always have more shining projects
-** llm prompt to improve market value                              :noexport:
-I work on machine learning infra area. I want to pick problems strategically, so that I can build expertise in this area and bring market value.
-
-Work on ML infra reliability, what are the top challenges
 * Look Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better
@@ -484,6 +517,7 @@ Instructions:
 6. Highlight key ideas with bold or bullets for readability.
 7. Output the final blog post in Org-mode format, ready to publish.
 8. At the end, include a short summary of what changed and why (1–2 sentences).
+9. Highlight the changed content with prefix of >>
 
 Existing post:
 
@@ -494,13 +528,16 @@ New learning or content to integrate:
 
 [paste your new insight, story, or principle here]
 #+END_SRC
-** local notes
+** local notes                                                     :noexport:
 Get Allies to Say It, Not Just You. Partner orgs (ML, Ads Infra, SRE) should echo the message: “Without PE continuing, we can’t meet reliability/scaling goals.”
 
 Learn turn delivery into lasting ownership
 - Make Success Tangible in Business Terms
 - Start with Charter, Not Just Project: Deliverable is framed as a first milestone of ownership, not a one-off task.
 - Write a Living Charter Document
+*** don't kill your new hire - if you keep saying understaff, there is no miss in the team loobkack. the leads won't take it as a P0 ask
+*** avoid always look behind
+
 * Connect Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better
@@ -570,12 +607,15 @@ Please act as my co-author and do the following:
 - Keep the post frictionless and practical — readers should be able to apply it daily.
 - Avoid making the post too long or complex; prioritize usability over completeness.
 - Preserve the original structure where possible (Introduction, Daily Habits, Routine, Reflection, Tips, Common Pitfalls, Conclusion).
+- Highlight the changed content with prefix of >>
+- Use org-mode format for output
 
 Here is the current version of my post:
 [Paste your latest org-mode draft here]
 
 Please help me improve it.
 #+END_SRC
+** local notes                                                     :noexport:
 * Using LLMs to Boost Infra IC6 Impact
 :PROPERTIES:
 :EXPORT_FILE_NAME: ic6-use-llm
@@ -704,4 +744,5 @@ LLMs act as a *force multiplier* — helping you:
 
 Applying this condensed framework ensures high-leverage focus and scalable impact across systems and teams.
 
-
+** local note                                                      :noexport:
+*** doing a task(not chore): think and generalize in a prompt -> do it -> discuss with LLM for this task

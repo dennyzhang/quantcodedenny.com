@@ -145,16 +145,10 @@ As a high-end IC6 (between IC6 and IC7), my goal is to bridge execution with str
 - Summarize decisions for non-technical stakeholders.
 - Highlight trade-offs explicitly.
 - Show strategic impact and maintain leadership presence.
-*** Leadership Presence
+** Leadership Presence
 - Lead calmly and confidently.
 - Encourage team input while framing final decisions.
 - Maintain focus on high-leverage improvements.
-** Lessons Learned from Practice
-- Quick diagramming of key points improves clarity and retention.
-- Unknown problem spaces are common; approach them systematically.
-- High-impact areas: latency, bottlenecks, single points of failure.
-- Iterate rapidly: draft → validate → refine.
-- Post-mortem past interviews to note good and bad reasoning.
 ** LLM Prompt for Iterative Improvement                            :noexport:
 Use the following prompt to refine this blog or future system design prep content:
 
@@ -168,6 +162,7 @@ Task:
 - Suggest improvements in requirements clarification, design patterns, scaling, reliability, trade-offs, edge cases, and influence.
 - Highlight missing advanced insights or high-leverage discussion points.
 - Provide rewritten or refined sections where needed.
+- Output in org-mode format, and highlight your changes with >>
 
 Content:
 [INSERT BLOG CONTENT HERE]

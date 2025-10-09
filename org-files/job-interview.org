@@ -27,6 +27,75 @@ As a high-end IC6 (between IC6 and IC7), my goal is to bridge execution with str
 - Builds sophisticated designs addressing all stated and implicit parts of a problem.
 - Proactively considers alternative solutions, immediate vs. long-term issues, and business needs.
 - Covers all tradeoffs: technical, user impact, team dynamics, reliability, and sustainability.
+** IC6 System Design Interview Framework
+*** 1. Problem Navigation & Clarification
+- "Just to confirm, we need a system for X with Y latency and Z throughput, correct?"
+- "What is the expected scale: daily active users, requests per second, or data volume?"
+- "Do we need strong consistency, or is eventual consistency sufficient?"
+- "Are there privacy or compliance constraints we need to consider?"
+- "Let’s break the problem into three main components: ingestion, processing, serving."
+- "I want to highlight dependencies and areas that might require cross-team coordination."
+*** 2. High-Level Solution Design
+- "At a high level, the system would look like this: [describe layers or components]."
+- "Data flows from ingestion → processing → storage → serving."
+- "Each component is decoupled so that changes in one layer don’t impact others."
+- "Let’s deep dive into the processing layer; we could use batch or stream depending on latency requirements."
+- "Caching frequently requested data improves latency but introduces invalidation challenges."
+- "We should plan for spikes using queues, retries, and circuit breakers."
+- "We can segment functionality so individual components can be updated without impacting the system."
+*** 3. Trade-offs & Technical Excellence
+- "We could optimize for latency, but it would increase operational cost."
+- "Sharding improves throughput but complicates cross-partition queries."
+- "Eventual consistency reduces latency but requires careful handling of edge cases."
+- "Using framework X provides distributed fault tolerance; framework Y has lower latency but higher complexity."
+- "Multi-region replication improves availability but introduces latency trade-offs."
+- "Subtle risks include version-to-version schema changes; we can handle them via backward-compatible migrations."
+*** 4. Communication & Influence
+- "To summarize, here’s why I made each decision and the trade-offs involved."
+- "From a user perspective, this design ensures low latency for the majority of requests."
+- "I want to check if my assumptions about scale and growth align with your expectations."
+- "I hear your concern; here’s how I’d adjust the design."
+- "Let’s revisit the key bottlenecks and ensure the architecture addresses them."
+- "For future extensions, modular components can accommodate new requirements without major changes."
+** Common trade-off
+| Trade-off                                 | What it Means                                                                                                                  | Key Considerations / Questions to Ask Yourself                                                                            |
+|-------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------|
+| Latency vs Throughput                     | Optimizing for faster responses may reduce total system throughput, and vice versa                                             | How fast must requests complete? Can we batch or async some work? Can we precompute results?                              |
+| Consistency vs Availability               | Strong consistency may slow responses or reduce availability; eventual consistency improves availability but allows stale data | Does the user expect immediate read-your-writes consistency? Which parts of the system can tolerate eventual consistency? |
+| Freshness vs Compute / Cost               | Frequent updates improve freshness but increase CPU, I/O, or memory usage                                                      | How often do users need updated data? Can some updates be async or cached?                                                |
+| Complexity vs Extensibility               | Simple designs are easier to implement, but flexible/modular designs are easier to evolve                                      | Will the system need new features in the future? How can we make it modular without overengineering?                      |
+| Storage vs Query Performance              | Precomputing or denormalizing improves read performance but increases storage cost                                             | Which data should be materialized? Can we compute some things on demand?                                                  |
+| Generalization vs Edge-Case Optimization  | Optimizing for the common case may hurt edge cases; handling every edge case can increase complexity                           | What’s the typical user scenario? Are there extreme cases that need special handling?                                     |
+| Observability vs Performance              | Metrics, logs, and dashboards aid monitoring but can add latency or storage overhead                                           | What key metrics/SLOs are critical? Can monitoring be async?                                                              |
+| Scalability vs Simplicity                 | Designs that scale to millions/billions often require sharding, async pipelines, and caches, which increase system complexity  | What is the expected growth? Can we start simple and evolve, or must it scale from day one?                               |
+| Security / Privacy vs Usability           | Strong security or privacy measures may slow performance or complicate user experience                                         | What are compliance or privacy requirements? How does this affect API design or latency?                                  |
+| Consistency / Correctness vs Cost / Speed | Guaranteeing exact correctness may increase cost or reduce speed                                                               | Can approximate results suffice? Which operations require strong guarantees?                                              |
+** Common techniques
+| Technique                                               | What it does                                        | When to mention                                         |
+|---------------------------------------------------------+-----------------------------------------------------+---------------------------------------------------------|
+| Push + Pull hybrid                                      | Combines fan-out and fan-in based on follower count | If asked about celebrities or skewed followers          |
+| Precomputed feed cache                                  | Stores top N posts for a user                       | Helps meet strict read latency (P95 < 300 ms)           |
+| Sharded queues                                          | Each user’s feed is partitioned                     | To scale for millions of users                          |
+| Asynchronous write pipelines (Kafka, stream processing) | Fan-out writes done asynchronously                  | Improves throughput and reduces write blocking          |
+| Local re-ranking                                        | Lightweight ranking at Serving layer                | Adjust freshness, unseen content, or last-second boosts |
+** Known patterns
+| Pattern                        | Description / Purpose                               | Pros                                        | Cons / Trade-offs                                      | Typical Use Cases                                |
+|--------------------------------|----------------------------------------------------|--------------------------------------------|-------------------------------------------------------|-------------------------------------------------|
+| Client-Server                   | Clients send requests, server responds            | Simple, clear separation                    | Can be bottlenecked at server                          | Web apps, APIs, mobile backends                 |
+| Load Balancing / Horizontal Scaling | Distribute requests across multiple servers     | High availability, fault tolerance          | Complexity in routing, sticky sessions                | High-traffic APIs, web services                |
+| Caching                         | Store frequently accessed data                     | Reduces latency, lowers DB load             | Cache invalidation complexity, stale data             | DB queries, API responses, CDN content         |
+| Sharding / Partitioning         | Split data across nodes                            | Scales reads/writes                          | Harder joins, uneven load                              | Large user datasets, multi-tenant DBs          |
+| Replication                     | Maintain multiple copies of data                   | High availability, disaster recovery        | Consistency trade-offs                                  | Multi-region DBs, fault-tolerant systems      |
+| Event-Driven / Messaging        | Asynchronous communication via messages/events   | Decoupled, scalable                          | Message ordering, duplication issues                   | Logging, feature pipelines, order processing  |
+| Microservices / SOA             | Decompose monolith into independent services      | Independent deployability, scalable per service | Service communication, data consistency             | Large apps, ML pipelines, modular backend     |
+| Queueing & Backpressure         | Smooth spikes, decouple producer/consumer         | Handles high load reliably                   | Requires monitoring, retry & dead-letter handling     | Task queues, ingestion pipelines               |
+| Rate Limiting / Throttling      | Control request rates                              | Protects backend resources                  | Can block valid requests if too aggressive            | APIs, microservices                             |
+| Proxy / Gateway                 | Intermediary for routing, caching, auth          | Centralizes cross-cutting concerns          | Single point of failure if not highly available       | API gateway, reverse proxy, authentication    |
+| Leader Election / Consensus     | Distributed coordination, single source of truth  | Ensures consistency, coordination           | Complexity in distributed systems                      | Distributed locks, master selection, config   |
+| Observability                   | Logging, metrics, tracing                          | Easier debugging and monitoring             | Adds overhead, requires discipline                     | ML infra, microservices, pipelines            |
+| Circuit Breaker / Retry         | Protect services from cascading failures          | Increases system resiliency                  | Misconfigured thresholds can block traffic unnecessarily | Microservices, external APIs                  |
+| Batch vs. Stream Processing     | Process data in chunks vs. continuously           | Batch: efficient, stream: low-latency       | Batch: latency, Stream: complex error handling         | ETL jobs, ML feature store updates, analytics |
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** Core Principles for System Design
 *** 1. Problem Structuring
 - Clarify requirements and constraints (functional & non-functional, SLAs, ownership boundaries, future growth).
@@ -86,12 +155,7 @@ As a high-end IC6 (between IC6 and IC7), my goal is to bridge execution with str
 - High-impact areas: latency, bottlenecks, single points of failure.
 - Iterate rapidly: draft → validate → refine.
 - Post-mortem past interviews to note good and bad reasoning.
-** Continuous Learning
-This section is designed to **integrate future learnings**:
-- Add new frameworks, patterns, trade-offs, or ML Infra-specific examples here.
-- Include any updated IC6/IC7 distinctions or nuances observed in real interviews.
-- Track insights from post-mortems, peer feedback, or LLM simulations.
-** LLM Prompt for Iterative Improvement
+** LLM Prompt for Iterative Improvement                            :noexport:
 Use the following prompt to refine this blog or future system design prep content:
 
 #+BEGIN_SRC
@@ -108,6 +172,8 @@ Task:
 Content:
 [INSERT BLOG CONTENT HERE]
 #+END_SRC
+
+
 * Prepare Behavior Interview                                       :noexport:
 Behavior/Culture → 练 复用故事库，不现编。
 

@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-10-09 Thu 08:51 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="dennyzhang" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgb6e291f">1. Preapare System Design</a>
+<ul>
+<li><a href="#orgb1b7f17">1.1. System Design Leveling – 35 mins</a>
+<ul>
+<li><a href="#orgb0ef348">1.1.1. IC5</a></li>
+<li><a href="#orgcb439cd">1.1.2. IC6</a></li>
+<li><a href="#orgd4407e1">1.1.3. IC7</a></li>
+</ul>
+</li>
+<li><a href="#org57e1029">1.2. Common trade-off</a></li>
+<li><a href="#org82b2acb">1.3. Common techniques</a></li>
+<li><a href="#org80a8adf">1.4. Known patterns</a></li>
+<li><a href="#org67abb67">1.5. Core Principles for System Design</a>
+<ul>
+<li><a href="#org5488a29">1.5.1. 1. Problem Structuring</a></li>
+<li><a href="#org59843a0">1.5.2. 2. Trade-Off Awareness</a></li>
+<li><a href="#org7ea8d95">1.5.3. 3. Known Patterns &amp; Abstractions</a></li>
+<li><a href="#orgb404f07">1.5.4. 4. Scalability &amp; Reliability</a></li>
+<li><a href="#org154fd5b">1.5.5. 5. Communication &amp; Influence</a></li>
+</ul>
+</li>
+<li><a href="#org51bceb5">1.6. IC6 System Design Practice Checklist</a>
+<ul>
+<li><a href="#org1434a53">1.6.1. Requirements &amp; Clarification</a></li>
+<li><a href="#org5db5aa8">1.6.2. High-Level Design</a></li>
+<li><a href="#org6d9f71d">1.6.3. Scaling &amp; Reliability</a></li>
+<li><a href="#org3ada474">1.6.4. Tradeoffs &amp; Options</a></li>
+<li><a href="#org8f074bf">1.6.5. Edge Cases / Failure Modes</a></li>
+<li><a href="#org7d41bc2">1.6.6. Influence &amp; Communication</a></li>
+<li><a href="#org3c31e06">1.6.7. Leadership Presence</a></li>
+</ul>
+</li>
+<li><a href="#orgfbb5e73">1.7. Lessons Learned from Practice</a></li>
+<li><a href="#orgd8805e6">1.8. Continuous Learning</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb6e291f" class="outline-2">
+<h2 id="orgb6e291f"><span class="section-number-2">1.</span> Preapare System Design</h2>
+<div class="outline-text-2" id="text-1">
+
+URL: <a href="https://quantcodedenny.com/posts/prepare-system-interview/">https://quantcodedenny.com/posts/prepare-system-interview/</a>
+
+
+System design interviews test not only technical skills but also strategic thinking, end-to-end ownership, scalability awareness, and cross-team influence.
+
+
+As a high-end IC6 (between IC6 and IC7), my goal is to bridge execution with strategic design thinking. This blog post consolidates my learnings from system design prep, especially for ML Infra contexts, and is designed to <b><b>evolve as I add new insights</b></b>.
+</div>
+<div id="outline-container-orgb1b7f17" class="outline-3">
+<h3 id="orgb1b7f17"><span class="section-number-3">1.1.</span> System Design Leveling – 35 mins</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-orgb0ef348" class="outline-4">
+<h4 id="orgb0ef348"><span class="section-number-4">1.1.1.</span> IC5</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<ul class="org-ul">
+<li>Independently chooses components to tell a coherent story.</li>
+<li>Covers end-to-end design with no significant gaps.</li>
+<li>Discusses tradeoffs and user impact, with prompting.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcb439cd" class="outline-4">
+<h4 id="orgcb439cd"><span class="section-number-4">1.1.2.</span> IC6</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<ul class="org-ul">
+<li>Creates effective designs addressing multiple critical aspects.</li>
+<li>Anticipates problems, including maintainability and organizational challenges.</li>
+<li>Speaks thoroughly on tradeoffs, bottlenecks, and user impact with minimal prompting.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd4407e1" class="outline-4">
+<h4 id="orgd4407e1"><span class="section-number-4">1.1.3.</span> IC7</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<ul class="org-ul">
+<li>Builds sophisticated designs addressing all stated and implicit parts of a problem.</li>
+<li>Proactively considers alternative solutions, immediate vs. long-term issues, and business needs.</li>
+<li>Covers all tradeoffs: technical, user impact, team dynamics, reliability, and sustainability.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org57e1029" class="outline-3">
+<h3 id="org57e1029"><span class="section-number-3">1.2.</span> Common trade-off</h3>
+<div class="outline-text-3" id="text-1-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Trade-off</th>
+<th scope="col" class="org-left">What it Means</th>
+<th scope="col" class="org-left">Key Considerations / Questions to Ask Yourself</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Latency vs Throughput</td>
+<td class="org-left">Optimizing for faster responses may reduce total system throughput, and vice versa</td>
+<td class="org-left">How fast must requests complete? Can we batch or async some work? Can we precompute results?</td>
+</tr>
+
+<tr>
+<td class="org-left">Consistency vs Availability</td>
+<td class="org-left">Strong consistency may slow responses or reduce availability; eventual consistency improves availability but allows stale data</td>
+<td class="org-left">Does the user expect immediate read-your-writes consistency? Which parts of the system can tolerate eventual consistency?</td>
+</tr>
+
+<tr>
+<td class="org-left">Freshness vs Compute / Cost</td>
+<td class="org-left">Frequent updates improve freshness but increase CPU, I/O, or memory usage</td>
+<td class="org-left">How often do users need updated data? Can some updates be async or cached?</td>
+</tr>
+
+<tr>
+<td class="org-left">Complexity vs Extensibility</td>
+<td class="org-left">Simple designs are easier to implement, but flexible/modular designs are easier to evolve</td>
+<td class="org-left">Will the system need new features in the future? How can we make it modular without overengineering?</td>
+</tr>
+
+<tr>
+<td class="org-left">Storage vs Query Performance</td>
+<td class="org-left">Precomputing or denormalizing improves read performance but increases storage cost</td>
+<td class="org-left">Which data should be materialized? Can we compute some things on demand?</td>
+</tr>
+
+<tr>
+<td class="org-left">Generalization vs Edge-Case Optimization</td>
+<td class="org-left">Optimizing for the common case may hurt edge cases; handling every edge case can increase complexity</td>
+<td class="org-left">What’s the typical user scenario? Are there extreme cases that need special handling?</td>
+</tr>
+
+<tr>
+<td class="org-left">Observability vs Performance</td>
+<td class="org-left">Metrics, logs, and dashboards aid monitoring but can add latency or storage overhead</td>
+<td class="org-left">What key metrics/SLOs are critical? Can monitoring be async?</td>
+</tr>
+
+<tr>
+<td class="org-left">Scalability vs Simplicity</td>
+<td class="org-left">Designs that scale to millions/billions often require sharding, async pipelines, and caches, which increase system complexity</td>
+<td class="org-left">What is the expected growth? Can we start simple and evolve, or must it scale from day one?</td>
+</tr>
+
+<tr>
+<td class="org-left">Security / Privacy vs Usability</td>
+<td class="org-left">Strong security or privacy measures may slow performance or complicate user experience</td>
+<td class="org-left">What are compliance or privacy requirements? How does this affect API design or latency?</td>
+</tr>
+
+<tr>
+<td class="org-left">Consistency / Correctness vs Cost / Speed</td>
+<td class="org-left">Guaranteeing exact correctness may increase cost or reduce speed</td>
+<td class="org-left">Can approximate results suffice? Which operations require strong guarantees?</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org82b2acb" class="outline-3">
+<h3 id="org82b2acb"><span class="section-number-3">1.3.</span> Common techniques</h3>
+<div class="outline-text-3" id="text-1-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Technique</th>
+<th scope="col" class="org-left">What it does</th>
+<th scope="col" class="org-left">When to mention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Push + Pull hybrid</td>
+<td class="org-left">Combines fan-out and fan-in based on follower count</td>
+<td class="org-left">If asked about celebrities or skewed followers</td>
+</tr>
+
+<tr>
+<td class="org-left">Precomputed feed cache</td>
+<td class="org-left">Stores top N posts for a user</td>
+<td class="org-left">Helps meet strict read latency (P95 &lt; 300 ms)</td>
+</tr>
+
+<tr>
+<td class="org-left">Sharded queues</td>
+<td class="org-left">Each user’s feed is partitioned</td>
+<td class="org-left">To scale for millions of users</td>
+</tr>
+
+<tr>
+<td class="org-left">Asynchronous write pipelines (Kafka, stream processing)</td>
+<td class="org-left">Fan-out writes done asynchronously</td>
+<td class="org-left">Improves throughput and reduces write blocking</td>
+</tr>
+
+<tr>
+<td class="org-left">Local re-ranking</td>
+<td class="org-left">Lightweight ranking at Serving layer</td>
+<td class="org-left">Adjust freshness, unseen content, or last-second boosts</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org80a8adf" class="outline-3">
+<h3 id="org80a8adf"><span class="section-number-3">1.4.</span> Known patterns</h3>
+<div class="outline-text-3" id="text-1-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Pattern</th>
+<th scope="col" class="org-left">Description / Purpose</th>
+<th scope="col" class="org-left">Pros</th>
+<th scope="col" class="org-left">Cons / Trade-offs</th>
+<th scope="col" class="org-left">Typical Use Cases</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Client-Server</td>
+<td class="org-left">Clients send requests, server responds</td>
+<td class="org-left">Simple, clear separation</td>
+<td class="org-left">Can be bottlenecked at server</td>
+<td class="org-left">Web apps, APIs, mobile backends</td>
+</tr>
+
+<tr>
+<td class="org-left">Load Balancing / Horizontal Scaling</td>
+<td class="org-left">Distribute requests across multiple servers</td>
+<td class="org-left">High availability, fault tolerance</td>
+<td class="org-left">Complexity in routing, sticky sessions</td>
+<td class="org-left">High-traffic APIs, web services</td>
+</tr>
+
+<tr>
+<td class="org-left">Caching</td>
+<td class="org-left">Store frequently accessed data</td>
+<td class="org-left">Reduces latency, lowers DB load</td>
+<td class="org-left">Cache invalidation complexity, stale data</td>
+<td class="org-left">DB queries, API responses, CDN content</td>
+</tr>
+
+<tr>
+<td class="org-left">Sharding / Partitioning</td>
+<td class="org-left">Split data across nodes</td>
+<td class="org-left">Scales reads/writes</td>
+<td class="org-left">Harder joins, uneven load</td>
+<td class="org-left">Large user datasets, multi-tenant DBs</td>
+</tr>
+
+<tr>
+<td class="org-left">Replication</td>
+<td class="org-left">Maintain multiple copies of data</td>
+<td class="org-left">High availability, disaster recovery</td>
+<td class="org-left">Consistency trade-offs</td>
+<td class="org-left">Multi-region DBs, fault-tolerant systems</td>
+</tr>
+
+<tr>
+<td class="org-left">Event-Driven / Messaging</td>
+<td class="org-left">Asynchronous communication via messages/events</td>
+<td class="org-left">Decoupled, scalable</td>
+<td class="org-left">Message ordering, duplication issues</td>
+<td class="org-left">Logging, feature pipelines, order processing</td>
+</tr>
+
+<tr>
+<td class="org-left">Microservices / SOA</td>
+<td class="org-left">Decompose monolith into independent services</td>
+<td class="org-left">Independent deployability, scalable per service</td>
+<td class="org-left">Service communication, data consistency</td>
+<td class="org-left">Large apps, ML pipelines, modular backend</td>
+</tr>
+
+<tr>
+<td class="org-left">Queueing &amp; Backpressure</td>
+<td class="org-left">Smooth spikes, decouple producer/consumer</td>
+<td class="org-left">Handles high load reliably</td>
+<td class="org-left">Requires monitoring, retry &amp; dead-letter handling</td>
+<td class="org-left">Task queues, ingestion pipelines</td>
+</tr>
+
+<tr>
+<td class="org-left">Rate Limiting / Throttling</td>
+<td class="org-left">Control request rates</td>
+<td class="org-left">Protects backend resources</td>
+<td class="org-left">Can block valid requests if too aggressive</td>
+<td class="org-left">APIs, microservices</td>
+</tr>
+
+<tr>
+<td class="org-left">Proxy / Gateway</td>
+<td class="org-left">Intermediary for routing, caching, auth</td>
+<td class="org-left">Centralizes cross-cutting concerns</td>
+<td class="org-left">Single point of failure if not highly available</td>
+<td class="org-left">API gateway, reverse proxy, authentication</td>
+</tr>
+
+<tr>
+<td class="org-left">Leader Election / Consensus</td>
+<td class="org-left">Distributed coordination, single source of truth</td>
+<td class="org-left">Ensures consistency, coordination</td>
+<td class="org-left">Complexity in distributed systems</td>
+<td class="org-left">Distributed locks, master selection, config</td>
+</tr>
+
+<tr>
+<td class="org-left">Observability</td>
+<td class="org-left">Logging, metrics, tracing</td>
+<td class="org-left">Easier debugging and monitoring</td>
+<td class="org-left">Adds overhead, requires discipline</td>
+<td class="org-left">ML infra, microservices, pipelines</td>
+</tr>
+
+<tr>
+<td class="org-left">Circuit Breaker / Retry</td>
+<td class="org-left">Protect services from cascading failures</td>
+<td class="org-left">Increases system resiliency</td>
+<td class="org-left">Misconfigured thresholds can block traffic unnecessarily</td>
+<td class="org-left">Microservices, external APIs</td>
+</tr>
+
+<tr>
+<td class="org-left">Batch vs. Stream Processing</td>
+<td class="org-left">Process data in chunks vs. continuously</td>
+<td class="org-left">Batch: efficient, stream: low-latency</td>
+<td class="org-left">Batch: latency, Stream: complex error handling</td>
+<td class="org-left">ETL jobs, ML feature store updates, analytics</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org67abb67" class="outline-3">
+<h3 id="org67abb67"><span class="section-number-3">1.5.</span> Core Principles for System Design</h3>
+<div class="outline-text-3" id="text-1-5">
+</div>
+<div id="outline-container-org5488a29" class="outline-4">
+<h4 id="org5488a29"><span class="section-number-4">1.5.1.</span> 1. Problem Structuring</h4>
+<div class="outline-text-4" id="text-1-5-1">
+<ul class="org-ul">
+<li>Clarify requirements and constraints (functional &amp; non-functional, SLAs, ownership boundaries, future growth).</li>
+<li>Identify critical paths, unknowns, and dependencies.</li>
+<li>Use a structured approach to map problem → components → interactions.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org59843a0" class="outline-4">
+<h4 id="org59843a0"><span class="section-number-4">1.5.2.</span> 2. Trade-Off Awareness</h4>
+<div class="outline-text-4" id="text-1-5-2">
+<ul class="org-ul">
+<li>Recognize and quantify trade-offs: latency vs. throughput, consistency vs. availability, cost vs. reliability.</li>
+<li>Include business, operational, and cross-team implications.</li>
+<li>IC7-level thinking anticipates tangential trade-offs proactively.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7ea8d95" class="outline-4">
+<h4 id="org7ea8d95"><span class="section-number-4">1.5.3.</span> 3. Known Patterns &amp; Abstractions</h4>
+<div class="outline-text-4" id="text-1-5-3">
+<ul class="org-ul">
+<li>Apply reusable patterns: caching, sharding, load balancing, replication, event-driven architectures.</li>
+<li>Avoid reinventing solutions; justify deviations clearly.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb404f07" class="outline-4">
+<h4 id="orgb404f07"><span class="section-number-4">1.5.4.</span> 4. Scalability &amp; Reliability</h4>
+<div class="outline-text-4" id="text-1-5-4">
+<ul class="org-ul">
+<li>Horizontal vs. vertical scaling.</li>
+<li>Fault tolerance, retries, backpressure handling, recovery strategies.</li>
+<li>Monitoring, alerts, and observability planning.</li>
+<li>Consider future-proofing and maintainability.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org154fd5b" class="outline-4">
+<h4 id="org154fd5b"><span class="section-number-4">1.5.5.</span> 5. Communication &amp; Influence</h4>
+<div class="outline-text-4" id="text-1-5-5">
+<ul class="org-ul">
+<li>Present a structured narrative: context → problem → options → trade-offs → recommendation.</li>
+<li>Highlight strategic impact, not just technical correctness.</li>
+<li>Prepare concise “elevator pitches” for directors, PMs, and cross-functional teams.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org51bceb5" class="outline-3">
+<h3 id="org51bceb5"><span class="section-number-3">1.6.</span> IC6 System Design Practice Checklist</h3>
+<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-org1434a53" class="outline-4">
+<h4 id="org1434a53"><span class="section-number-4">1.6.1.</span> Requirements &amp; Clarification</h4>
+<div class="outline-text-4" id="text-1-6-1">
+<ul class="org-ul">
+<li>Functional vs. non-functional requirements.</li>
+<li>Latency, throughput, SLAs/SLOs.</li>
+<li>Ownership boundaries &amp; team responsibilities.</li>
+<li>Expected growth &amp; future-proofing needs.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5db5aa8" class="outline-4">
+<h4 id="org5db5aa8"><span class="section-number-4">1.6.2.</span> High-Level Design</h4>
+<div class="outline-text-4" id="text-1-6-2">
+<ul class="org-ul">
+<li>Identify major components &amp; interactions.</li>
+<li>Map data flow (ingestion → processing → serving).</li>
+<li>Define APIs, interfaces, and abstractions.</li>
+<li>Highlight cross-team dependencies.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6d9f71d" class="outline-4">
+<h4 id="org6d9f71d"><span class="section-number-4">1.6.3.</span> Scaling &amp; Reliability</h4>
+<div class="outline-text-4" id="text-1-6-3">
+<ul class="org-ul">
+<li>Horizontal vs. vertical scaling.</li>
+<li>Caching, sharding, partitioning.</li>
+<li>Fault tolerance &amp; retries.</li>
+<li>Observability: monitoring, alerting, metrics.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3ada474" class="outline-4">
+<h4 id="org3ada474"><span class="section-number-4">1.6.4.</span> Tradeoffs &amp; Options</h4>
+<div class="outline-text-4" id="text-1-6-4">
+<ul class="org-ul">
+<li>Pros/cons of architectural choices.</li>
+<li>Cost vs. performance vs. complexity.</li>
+<li>Business impact of each option.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8f074bf" class="outline-4">
+<h4 id="org8f074bf"><span class="section-number-4">1.6.5.</span> Edge Cases / Failure Modes</h4>
+<div class="outline-text-4" id="text-1-6-5">
+<ul class="org-ul">
+<li>Identify points of failure and mitigation strategies.</li>
+<li>Discuss backpressure, stale data, network issues.</li>
+<li>Recovery, retries, fallback logic.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7d41bc2" class="outline-4">
+<h4 id="org7d41bc2"><span class="section-number-4">1.6.6.</span> Influence &amp; Communication</h4>
+<div class="outline-text-4" id="text-1-6-6">
+<ul class="org-ul">
+<li>Summarize decisions for non-technical stakeholders.</li>
+<li>Highlight trade-offs explicitly.</li>
+<li>Show strategic impact and maintain leadership presence.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3c31e06" class="outline-4">
+<h4 id="org3c31e06"><span class="section-number-4">1.6.7.</span> Leadership Presence</h4>
+<div class="outline-text-4" id="text-1-6-7">
+<ul class="org-ul">
+<li>Lead calmly and confidently.</li>
+<li>Encourage team input while framing final decisions.</li>
+<li>Maintain focus on high-leverage improvements.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfbb5e73" class="outline-3">
+<h3 id="orgfbb5e73"><span class="section-number-3">1.7.</span> Lessons Learned from Practice</h3>
+<div class="outline-text-3" id="text-1-7">
+<ul class="org-ul">
+<li>Quick diagramming of key points improves clarity and retention.</li>
+<li>Unknown problem spaces are common; approach them systematically.</li>
+<li>High-impact areas: latency, bottlenecks, single points of failure.</li>
+<li>Iterate rapidly: draft → validate → refine.</li>
+<li>Post-mortem past interviews to note good and bad reasoning.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd8805e6" class="outline-3">
+<h3 id="orgd8805e6"><span class="section-number-3">1.8.</span> Continuous Learning</h3>
+<div class="outline-text-3" id="text-1-8">
+
+This section is designed to <b><b>integrate future learnings</b></b>:
+<ul class="org-ul">
+<li>Add new frameworks, patterns, trade-offs, or ML Infra-specific examples here.</li>
+<li>Include any updated IC6/IC7 distinctions or nuances observed in real interviews.</li>
+<li>Track insights from post-mortems, peer feedback, or LLM simulations.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: dennyzhang</p>
+<p class="date">Created: 2025-10-09 Thu 08:51</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

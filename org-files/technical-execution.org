@@ -4,6 +4,40 @@
 #+HUGO_TAGS: engineering execution
 #+TAGS: Important(i) noexport(n)
 #+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* Enage LLM for improvement                                        :noexport:
+I have a draft blog post in org-mode. I want to **continuously improve it**, making it:
+
+1. Clear, concise, and easy to follow.
+2. Practical and habit-focused (small, daily actions that are easy to do).
+3. Engaging, with examples, tips, or relatable scenarios.
+4. Structured and scannable for readers.
+
+Please act as my co-author and do the following:
+**Step 1: Analyze**
+- Identify overlapping sections, unclear sentences, or redundant points.
+- Highlight areas where content could be more practical or actionable.
+- Suggest any missing elements that would make it more helpful (e.g., examples, micro-actions, reflections).
+**Step 2: Improve**
+- Rewrite sentences or sections for clarity and flow.
+- Make it more “I”-focused (first-person) if needed.
+- Condense overly long sections while keeping essential content.
+- Suggest ways to add new, high-value content (tips, mini-case studies, or scenarios).
+**Step 3: Expand**
+- Add optional content that could enhance the post without overloading the reader (bonus tips, habit variations, illustrative examples).
+**Step 4: Present**
+- Return the improved blog post in **org-mode format**, ready to copy and paste.
+- Include a short note explaining what was changed or added.
+**Constraints**
+- Keep the post frictionless and practical — readers should be able to apply it daily.
+- Avoid making the post too long or complex; prioritize usability over completeness.
+- Preserve the original structure where possible (Introduction, Daily Habits, Routine, Reflection, Tips, Common Pitfalls, Conclusion).
+- Highlight the changed content with prefix of >>
+- Use org-mode format for output
+
+Please help me improve it.
+
+Here is the current version of my post:
+[Paste your latest org-mode draft here]
 * Suggest Without Full Context
 :PROPERTIES:
 :EXPORT_FILE_NAME: suggest-without-context
@@ -74,21 +108,7 @@ Good suggestions create momentum and build bridges. Poorly framed ones, even if 
   - Process improvement sharing
   - Quarterly roadmap sync
   - Tooling/infra collaboration
-** Enage LLM for improvement
-Please create a prompt which can take my new learning and integrate into existing blog post
-#+BEGIN_SRC text
-I’m updating my "Suggest Without Full Context" runbook.
 
-Please:
-1. Incorporate them into the blog structure (principles, scenarios, checklist).
-2. Smooth the flow for readability.
-3. Highlight new insights and actionable points.
-4. Use org-mode format for output
-5. highlight the changed content with prefix of >>
-
-Here are my raw notes in org-mode format:
-<PASTE NOTES>
-#+END_SRC
 ** local notes                                                     :noexport:
 * Improve Technical Writing
 :PROPERTIES:
@@ -206,6 +226,7 @@ We have a team weekly update doc. I want to know how to write the lookback quick
 The weekly doc has highlights and lowlights which is good. A few gaps I can see, (I might miss more)
 - I also maintain a local doc, which has performance tracking entries yet missing from team doc
 - the team doesn't update the metrics, since it doesn't move on a weekly basis. and this is important for leadership communication in the lookback
+*** simplify paragraph for leads communication
 * Write Feedback At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: write-interview-feedback
@@ -388,9 +409,15 @@ When make escalation, ensure there is direct 1/1 communication. e.g: In general,
 how to ensure the room know which team has the most
 
 use escalation, only after giving individual feedback and it doesn't work
+
+*** TODO bring clarify to make untangible problems tangible
 *** XFN meeting got distracted by talkative individuals
 *** avoid pushing for things people are not interested
 Push from IC5 to 6 when they are not ready doesn't help for both sides
+
+*** use company standard to set expectation: use STO to make project review
+*** inconsistent assements for the work dependency, which introduces delays
+*** align on the interface
 * Vibe Coding
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-for-vibe-coding
@@ -505,4 +532,6 @@ Output:
 *** edge scenarios where common practice doesn't work well
 *** llm won't reject requirement which shouldn't happen in the first place
 Use elisp to "url:", it makes the code very fragile and hard to use. The development time is wasted
+
+
 

@@ -48,7 +48,7 @@
 
   <meta itemprop="name" content="QuantCode: Use llm to improve your trading quality">
   <meta itemprop="datePublished" content="2025-10-05T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-10-07T07:59:51-07:00">
+  <meta itemprop="dateModified" content="2025-10-09T08:55:50-07:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="QuantCode: Use llm to improve your trading quality">
 
@@ -238,6 +238,255 @@ It’s about <strong>driving systemic impact</strong>, ensuring reliability, and
 <li>Proactively considers alternative solutions, immediate vs. long-term issues, and business needs.</li>
 <li>Covers all tradeoffs: technical, user impact, team dynamics, reliability, and sustainability.</li>
 </ul>
+<h2 id="ic6-system-design-interview-framework">IC6 System Design Interview Framework</h2>
+<h3 id="1-dot-problem-navigation-and-clarification">1. Problem Navigation &amp; Clarification</h3>
+<ul>
+<li>&ldquo;Just to confirm, we need a system for X with Y latency and Z throughput, correct?&rdquo;</li>
+<li>&ldquo;What is the expected scale: daily active users, requests per second, or data volume?&rdquo;</li>
+<li>&ldquo;Do we need strong consistency, or is eventual consistency sufficient?&rdquo;</li>
+<li>&ldquo;Are there privacy or compliance constraints we need to consider?&rdquo;</li>
+<li>&ldquo;Let’s break the problem into three main components: ingestion, processing, serving.&rdquo;</li>
+<li>&ldquo;I want to highlight dependencies and areas that might require cross-team coordination.&rdquo;</li>
+</ul>
+<h3 id="2-dot-high-level-solution-design">2. High-Level Solution Design</h3>
+<ul>
+<li>&ldquo;At a high level, the system would look like this: [describe layers or components].&rdquo;</li>
+<li>&ldquo;Data flows from ingestion → processing → storage → serving.&rdquo;</li>
+<li>&ldquo;Each component is decoupled so that changes in one layer don’t impact others.&rdquo;</li>
+<li>&ldquo;Let’s deep dive into the processing layer; we could use batch or stream depending on latency requirements.&rdquo;</li>
+<li>&ldquo;Caching frequently requested data improves latency but introduces invalidation challenges.&rdquo;</li>
+<li>&ldquo;We should plan for spikes using queues, retries, and circuit breakers.&rdquo;</li>
+<li>&ldquo;We can segment functionality so individual components can be updated without impacting the system.&rdquo;</li>
+</ul>
+<h3 id="3-dot-trade-offs-and-technical-excellence">3. Trade-offs &amp; Technical Excellence</h3>
+<ul>
+<li>&ldquo;We could optimize for latency, but it would increase operational cost.&rdquo;</li>
+<li>&ldquo;Sharding improves throughput but complicates cross-partition queries.&rdquo;</li>
+<li>&ldquo;Eventual consistency reduces latency but requires careful handling of edge cases.&rdquo;</li>
+<li>&ldquo;Using framework X provides distributed fault tolerance; framework Y has lower latency but higher complexity.&rdquo;</li>
+<li>&ldquo;Multi-region replication improves availability but introduces latency trade-offs.&rdquo;</li>
+<li>&ldquo;Subtle risks include version-to-version schema changes; we can handle them via backward-compatible migrations.&rdquo;</li>
+</ul>
+<h3 id="4-dot-communication-and-influence">4. Communication &amp; Influence</h3>
+<ul>
+<li>&ldquo;To summarize, here’s why I made each decision and the trade-offs involved.&rdquo;</li>
+<li>&ldquo;From a user perspective, this design ensures low latency for the majority of requests.&rdquo;</li>
+<li>&ldquo;I want to check if my assumptions about scale and growth align with your expectations.&rdquo;</li>
+<li>&ldquo;I hear your concern; here’s how I’d adjust the design.&rdquo;</li>
+<li>&ldquo;Let’s revisit the key bottlenecks and ensure the architecture addresses them.&rdquo;</li>
+<li>&ldquo;For future extensions, modular components can accommodate new requirements without major changes.&rdquo;</li>
+</ul>
+<h2 id="common-trade-off">Common trade-off</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Trade-off</th>
+          <th>What it Means</th>
+          <th>Key Considerations / Questions to Ask Yourself</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Latency vs Throughput</td>
+          <td>Optimizing for faster responses may reduce total system throughput, and vice versa</td>
+          <td>How fast must requests complete? Can we batch or async some work? Can we precompute results?</td>
+      </tr>
+      <tr>
+          <td>Consistency vs Availability</td>
+          <td>Strong consistency may slow responses or reduce availability; eventual consistency improves availability but allows stale data</td>
+          <td>Does the user expect immediate read-your-writes consistency? Which parts of the system can tolerate eventual consistency?</td>
+      </tr>
+      <tr>
+          <td>Freshness vs Compute / Cost</td>
+          <td>Frequent updates improve freshness but increase CPU, I/O, or memory usage</td>
+          <td>How often do users need updated data? Can some updates be async or cached?</td>
+      </tr>
+      <tr>
+          <td>Complexity vs Extensibility</td>
+          <td>Simple designs are easier to implement, but flexible/modular designs are easier to evolve</td>
+          <td>Will the system need new features in the future? How can we make it modular without overengineering?</td>
+      </tr>
+      <tr>
+          <td>Storage vs Query Performance</td>
+          <td>Precomputing or denormalizing improves read performance but increases storage cost</td>
+          <td>Which data should be materialized? Can we compute some things on demand?</td>
+      </tr>
+      <tr>
+          <td>Generalization vs Edge-Case Optimization</td>
+          <td>Optimizing for the common case may hurt edge cases; handling every edge case can increase complexity</td>
+          <td>What’s the typical user scenario? Are there extreme cases that need special handling?</td>
+      </tr>
+      <tr>
+          <td>Observability vs Performance</td>
+          <td>Metrics, logs, and dashboards aid monitoring but can add latency or storage overhead</td>
+          <td>What key metrics/SLOs are critical? Can monitoring be async?</td>
+      </tr>
+      <tr>
+          <td>Scalability vs Simplicity</td>
+          <td>Designs that scale to millions/billions often require sharding, async pipelines, and caches, which increase system complexity</td>
+          <td>What is the expected growth? Can we start simple and evolve, or must it scale from day one?</td>
+      </tr>
+      <tr>
+          <td>Security / Privacy vs Usability</td>
+          <td>Strong security or privacy measures may slow performance or complicate user experience</td>
+          <td>What are compliance or privacy requirements? How does this affect API design or latency?</td>
+      </tr>
+      <tr>
+          <td>Consistency / Correctness vs Cost / Speed</td>
+          <td>Guaranteeing exact correctness may increase cost or reduce speed</td>
+          <td>Can approximate results suffice? Which operations require strong guarantees?</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="common-techniques">Common techniques</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Technique</th>
+          <th>What it does</th>
+          <th>When to mention</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Push + Pull hybrid</td>
+          <td>Combines fan-out and fan-in based on follower count</td>
+          <td>If asked about celebrities or skewed followers</td>
+      </tr>
+      <tr>
+          <td>Precomputed feed cache</td>
+          <td>Stores top N posts for a user</td>
+          <td>Helps meet strict read latency (P95 &lt; 300 ms)</td>
+      </tr>
+      <tr>
+          <td>Sharded queues</td>
+          <td>Each user’s feed is partitioned</td>
+          <td>To scale for millions of users</td>
+      </tr>
+      <tr>
+          <td>Asynchronous write pipelines (Kafka, stream processing)</td>
+          <td>Fan-out writes done asynchronously</td>
+          <td>Improves throughput and reduces write blocking</td>
+      </tr>
+      <tr>
+          <td>Local re-ranking</td>
+          <td>Lightweight ranking at Serving layer</td>
+          <td>Adjust freshness, unseen content, or last-second boosts</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="known-patterns">Known patterns</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Pattern</th>
+          <th>Description / Purpose</th>
+          <th>Pros</th>
+          <th>Cons / Trade-offs</th>
+          <th>Typical Use Cases</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Client-Server</td>
+          <td>Clients send requests, server responds</td>
+          <td>Simple, clear separation</td>
+          <td>Can be bottlenecked at server</td>
+          <td>Web apps, APIs, mobile backends</td>
+      </tr>
+      <tr>
+          <td>Load Balancing / Horizontal Scaling</td>
+          <td>Distribute requests across multiple servers</td>
+          <td>High availability, fault tolerance</td>
+          <td>Complexity in routing, sticky sessions</td>
+          <td>High-traffic APIs, web services</td>
+      </tr>
+      <tr>
+          <td>Caching</td>
+          <td>Store frequently accessed data</td>
+          <td>Reduces latency, lowers DB load</td>
+          <td>Cache invalidation complexity, stale data</td>
+          <td>DB queries, API responses, CDN content</td>
+      </tr>
+      <tr>
+          <td>Sharding / Partitioning</td>
+          <td>Split data across nodes</td>
+          <td>Scales reads/writes</td>
+          <td>Harder joins, uneven load</td>
+          <td>Large user datasets, multi-tenant DBs</td>
+      </tr>
+      <tr>
+          <td>Replication</td>
+          <td>Maintain multiple copies of data</td>
+          <td>High availability, disaster recovery</td>
+          <td>Consistency trade-offs</td>
+          <td>Multi-region DBs, fault-tolerant systems</td>
+      </tr>
+      <tr>
+          <td>Event-Driven / Messaging</td>
+          <td>Asynchronous communication via messages/events</td>
+          <td>Decoupled, scalable</td>
+          <td>Message ordering, duplication issues</td>
+          <td>Logging, feature pipelines, order processing</td>
+      </tr>
+      <tr>
+          <td>Microservices / SOA</td>
+          <td>Decompose monolith into independent services</td>
+          <td>Independent deployability, scalable per service</td>
+          <td>Service communication, data consistency</td>
+          <td>Large apps, ML pipelines, modular backend</td>
+      </tr>
+      <tr>
+          <td>Queueing &amp; Backpressure</td>
+          <td>Smooth spikes, decouple producer/consumer</td>
+          <td>Handles high load reliably</td>
+          <td>Requires monitoring, retry &amp; dead-letter handling</td>
+          <td>Task queues, ingestion pipelines</td>
+      </tr>
+      <tr>
+          <td>Rate Limiting / Throttling</td>
+          <td>Control request rates</td>
+          <td>Protects backend resources</td>
+          <td>Can block valid requests if too aggressive</td>
+          <td>APIs, microservices</td>
+      </tr>
+      <tr>
+          <td>Proxy / Gateway</td>
+          <td>Intermediary for routing, caching, auth</td>
+          <td>Centralizes cross-cutting concerns</td>
+          <td>Single point of failure if not highly available</td>
+          <td>API gateway, reverse proxy, authentication</td>
+      </tr>
+      <tr>
+          <td>Leader Election / Consensus</td>
+          <td>Distributed coordination, single source of truth</td>
+          <td>Ensures consistency, coordination</td>
+          <td>Complexity in distributed systems</td>
+          <td>Distributed locks, master selection, config</td>
+      </tr>
+      <tr>
+          <td>Observability</td>
+          <td>Logging, metrics, tracing</td>
+          <td>Easier debugging and monitoring</td>
+          <td>Adds overhead, requires discipline</td>
+          <td>ML infra, microservices, pipelines</td>
+      </tr>
+      <tr>
+          <td>Circuit Breaker / Retry</td>
+          <td>Protect services from cascading failures</td>
+          <td>Increases system resiliency</td>
+          <td>Misconfigured thresholds can block traffic unnecessarily</td>
+          <td>Microservices, external APIs</td>
+      </tr>
+      <tr>
+          <td>Batch vs. Stream Processing</td>
+          <td>Process data in chunks vs. continuously</td>
+          <td>Batch: efficient, stream: low-latency</td>
+          <td>Batch: latency, Stream: complex error handling</td>
+          <td>ETL jobs, ML feature store updates, analytics</td>
+      </tr>
+  </tbody>
+</table>
 <h2 id="core-principles-for-system-design">Core Principles for System Design</h2>
 <h3 id="1-dot-problem-structuring">1. Problem Structuring</h3>
 <ul>
@@ -323,8 +572,6 @@ It’s about <strong>driving systemic impact</strong>, ensuring reliability, and
 <li>Iterate rapidly: draft → validate → refine.</li>
 <li>Post-mortem past interviews to note good and bad reasoning.</li>
 </ul>
-<h2 id="continuous-learning">Continuous Learning</h2>
-<p>This section is designed to <strong><strong>integrate future learnings</strong></strong>:</p>
         </div>
         
           <p class="f6 lh-copy mv0">By [dennyzhang]</p><a href="./posts/prepare-system-interview/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>

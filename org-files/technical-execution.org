@@ -418,6 +418,7 @@ Push from IC5 to 6 when they are not ready doesn't help for both sides
 *** use company standard to set expectation: use STO to make project review
 *** inconsistent assements for the work dependency, which introduces delays
 *** align on the interface
+*** leaders bring clarify/make decision, then make untangible problems tangible
 * Vibe Coding
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-for-vibe-coding

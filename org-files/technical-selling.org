@@ -123,6 +123,38 @@ Notes:
 *** over-simplify will remove critical contexts, make the discusion conceptual
 *** it's a good practice to enroll bootcamp and technical talks in the company or industry
 *** it's common to have 3+ inhouse solutions for the same purpose, and they are always in migration path
+*** be helpful and deep for your problem space
+*** know your extended areas
+*** how to enage and effective in leads discussion
+I think it's a reasonable assumption - XXX
+
+For XXX, I think this is an open area
+
+there is also a disconnection betwen XXX and XXX
+
+make sense. If I can jump ...
+
+It's about xxx. I think we should push for xxx.
+
+build a story and connect to the audience's mental models
+
+say no to some work - this is a critical skill
+- avoid overcommit
+- align on goal(what), instead of how
+
+look at the big picture - don't talk about nonsense
+- do we align on them
+
+the roi in my minds is not clear
+
+as leader, you need to help the team
+*** how to sit in the leads meeting and learn?
+*** TODO how to create a collaboration where leads and senios can help your?
+
+
+
+*** TODO how to set a tone(send a signal) for the team, yet don't have to say it explictly
+*** [#A] how to provide values as IC6
 * Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook

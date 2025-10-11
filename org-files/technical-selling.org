@@ -48,7 +48,7 @@ URL: https://quantcodedenny.com/posts/improve-market-value/
 Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel *too narrow* — you solve critical problems, but your broader market value may not fully reflect your capabilities. Often, the challenge isn’t lack of knowledge; it’s being too busy with daily work, leaving no time for high-impact but non-urgent improvements or blindspots.
 
 This post is a living document to help tech leads *organically increase market value*, stay visible, and continuously improve.
-** 1. Guiding Principles
+** Guiding Principles
 - **Think End-to-End and Prioritize Impact**
   + Keep a mental map of the full system — data flows, dependencies, upstream/downstream impacts, and business objectives.
   + Ask daily: "How does this change affect other teams, user experience, and business metrics?"
@@ -61,8 +61,28 @@ This post is a living document to help tech leads *organically increase market v
 - **Document, Share, and Learn Across Teams**
   + Maintain daily notes or internal posts capturing problem, options, tradeoffs, and decisions.
   + Summarize patterns weekly to increase visibility and influence.
-
-** 2. Good Practices
+** My Core Market-Value Routine
+*** Weekly Habits
+- [ ] **Learn broadly** → Attend 1 SEV review or design review
+  - Goal: See real reliability/design problems and sharpen system judgment.
+- [ ] **Connect cross-functionally** → 1 focused chat with an XFN lead
+  - Goal: Understand their priorities and think beyond team scope.
+- [ ] **Reflect & share** → Write 3–5 sentence summary of 1 key learning
+  - Goal: Strengthen communication clarity and external legibility.
+*** Monthly Habits
+- [ ] **Host & lead** → Run 1 design or postmortem discussion
+  - Goal: Practice influence, articulation, and technical leadership presence.
+- [ ] **Mentor intentionally** → Coach 1–2 engineers on real problems
+  - Goal: Scale impact through others and demonstrate multiplier behavior.
+*** Quarterly Habits
+- [ ] **Ship one improvement** → Deliver 1 measurable, end-to-end technical enhancement
+  - Goal: Prove ownership and reliability through visible results.
+- [ ] **Show the data** → Summarize wins in metrics or story form
+  - Goal: Convert outcomes into portable, external-facing career signals.
+*** Reflection Prompts
+- Weekly: “Did I learn, connect, and share this week?”
+- Quarterly: “What did I ship that improved the system and told my story?”
+** Good Practices
 - **Frame P0/SEV incidents with business impact**
   + Log root cause, mitigation, and downstream effect.
   + Highlight prevented losses or restored capacity in marketable terms.
@@ -77,8 +97,7 @@ This post is a living document to help tech leads *organically increase market v
   + Capture tradeoffs even if the decision is local.
 - **Allocate deliberate focus time**
   + Weekly: protect 1–2 hours for reflection, blindspot review, systemic improvements, or skill expansion.
-
-** 3. Bad Practices
+** Bad Practices
 - **Local optimization without context**
   + Fixing minor metrics without measuring system-wide or business impact.
   + Mitigation: document downstream consequences.
@@ -91,18 +110,16 @@ This post is a living document to help tech leads *organically increase market v
 - **Over-reliance on internal tech**
   + Limits marketable skillset.
   + Mitigation: note underlying principles, patterns, and reasoning for tech choices.
-
-** 4. Daily Runbook Approach
+** Daily Runbook Approach
 1. **Daily Reflection**: Capture what you learned, decisions made, tradeoffs, and why they matter.
 2. **Weekly Focus Block**: 1–2 hours for important but non-urgent work (blindspots, systemic improvements, cross-team learning).
 3. **Weekly Market Mapping**: Reframe work in industry terms; highlight transferable impact.
 4. **Monthly Patterns Review**: Aggregate recurring issues, lessons, systemic improvements.
 5. **Quarterly LLM Update**: Use an LLM to summarize, reframe, and extract marketable insights.
-
-** 5. LLM Prompt Template for Continuous Improvement
+** LLM Prompt Template for Continuous Improvement
 #+BEGIN_SRC text
 Context:
-I am a tech lead working in Meta Ads Infra. 
+I am a tech lead working in Meta Ads Infra.
 I maintain a runbook of learnings, decisions, tradeoffs, and weekly focus work on blindspots and non-urgent improvements.
 
 Task:
@@ -150,9 +167,6 @@ the roi in my minds is not clear
 as leader, you need to help the team
 *** how to sit in the leads meeting and learn?
 *** TODO how to create a collaboration where leads and senios can help your?
-
-
-
 *** TODO how to set a tone(send a signal) for the team, yet don't have to say it explictly
 *** [#A] how to provide values as IC6
 * Stress Less, Lead Better

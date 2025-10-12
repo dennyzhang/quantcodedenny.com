@@ -122,10 +122,11 @@ as leader, you need to help the team
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/leadership-presence/
+
 ** Introduction
 As an IC6 ML Infra Tech Lead, technical expertise alone is not enough. I need to be seen as a **leader** — someone who drives impact, earns trust, and inspires confidence across teams.
 
-Leadership presence is about **how I show up, influence decisions, and make work visible**, especially under pressure. This post gives me a **daily-ready framework** to strengthen my leadership presence, including verbal and non-verbal communication.
+Leadership presence is about **how I show up, influence decisions, and make work visible**, especially under pressure. This post gives me a **daily-ready framework** to strengthen my leadership presence, including verbal, non-verbal, and mindset practices.
 
 ---
 ** Core Principles
@@ -134,7 +135,7 @@ Leadership presence is about **how I show up, influence decisions, and make work
   - I focus on facts and root causes, avoiding blame.
   - I summarize chaos into actionable next steps.
   - I model humility: “I don’t know yet, but I’ll find out.”
-  - I protect the psychological safety of others in high-pressure moments.
+  - I protect the psychological safety of others.
 
 - **Be Visible Without Boasting**
   - I share results and challenges concisely.
@@ -162,6 +163,19 @@ Leadership presence is about **how I show up, influence decisions, and make work
   - I use steady, clear, and well-paced voice; avoid filler words.
   - I practice pauses to let key points sink in.
   - *Mini Exercise:* Record 1–2 minutes of daily updates or rehearsal and self-review body language and tone.
+
+---
+** Senior leads Mindset
+- **Think Strategically & Prioritize Impact**
+  - I focus on long-term value and measurable outcomes, not just tasks.
+- **Make Invisible Work Visible**
+  - I surface hidden complexity, risk, and effort, translating it into clear business or operational value.
+- **Empower & Elevate the Team**
+  - I enable others to succeed, recognize contributions, and ensure collective ownership.
+- **Turn Delivery into Lasting Ownership**
+  - I document charters, processes, and systems so projects have ongoing impact.
+- **Build Calm Credibility & Influence**
+  - I stay composed under pressure, guide decisions, and proactively engage allies to amplify impact.
 
 ---
 ** Daily Habits for Leadership Presence
@@ -196,6 +210,27 @@ Leadership presence is about **how I show up, influence decisions, and make work
   > “By [action], I [impact] despite [challenge], and [ally/team] is aware.”
 
 - **Decision-Focused Update:**
+  > “Key takeaway: [message]. Next step: [action]. Impact: [metric].”
+
+---
+** Common Pitfalls
+- Overdoing self-promotion damages trust.
+- Not surfacing **business value** makes work look like mere execution.
+- Not surfacing **complexity & learning** undervalues effort.
+- Staying invisible leads to missed recognition and opportunities.
+- Focusing on busyness instead of impact dilutes reputation.
+
+---
+** Conclusion
+Leadership presence is **not superficial** — it’s how I show up, influence, and make work visible while empowering others.  
+
+**Daily Habit:** Every day, I ask myself:
+1. What **impact** can I highlight?
+2. What **complexity & learning** did I uncover?
+3. Who do I need to involve or inform to **build credibility**?
+
+By following this **framework + mindset + daily habits**, I make my leadership **visible, trusted, and lasting**, while reducing overthinking.
+
 * Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook
@@ -247,6 +282,7 @@ This is my daily runbook for calm, clear, and high-leverage leadership.
 - Treating conflict as win/lose.
 - Assuming shared context.
 - Taking low-leverage work just to be helpful.
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** local notes                                                     :noexport:
 *** Taking care of your appearance is a quiet way of showing confidence and control — both to yourself and to your team
 *** [#A] avoid procrastination: no phone - go directly to the bed or wake up to walk
@@ -275,6 +311,7 @@ The comment applies to everyone. Not for you only.
     - Develop habits to stay focused and centered under pressure.
     - Protect time and energy for deep work and recovery.
     - Maintain clarity: sustained impact comes from resilience and focus, not from spreading myself thin.
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Scope Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: scope-better
@@ -288,7 +325,7 @@ Scoping work effectively is one of the hardest skills I’ve learned as a tech l
 1. Identifying high-leverage problems.
 2. Setting boundaries and protecting focus.
 3. Aligning stakeholders and expectations.
-4. Maximizing impact while minimizing stress.
+4. Align early, iterate fast.
 
 ** Using LLMs To Scope Better
 I use LLMs to address each core challenge efficiently:
@@ -305,9 +342,9 @@ I use LLMs to address each core challenge efficiently:
   - **LLM Use:** Summarize recurring failures, generate checklists, simulate outcomes, propose mitigations.
   - **Sample Prompt:** "Analyze the last 3 SEVs, summarize recurring failure patterns, and suggest automated mitigation strategies."
 
-- **Challenge #4: Scaling influence and knowledge**
+- **Challenge #4: Scaling influence and aligning early**
   - **LLM Use:** Draft proposals, mock scenarios, polish communications, extract repeatable lessons.
-  - **Sample Prompt:** "Create a mock SEV scenario for IC5, highlighting operational risks. Draft a proposal showing why a new caching pattern reduces errors."
+  - **Sample Prompt:** "Create a mock SEV scenario for IC5, highlighting operational risks. Draft a proposal showing why early alignment and iterative experiments reduce delivery risks."
 
 ** Core Challenge #1: Identifying High-Leverage Problems
 - **Problem:** It’s easy to spend time on low-impact tasks or local optimizations.
@@ -327,11 +364,11 @@ I use LLMs to address each core challenge efficiently:
 - **Principle:** Ensure everyone understands “what” and “why,” and map dependencies proactively.
 - **How I Address It:** Use concise one-pagers, map trade-offs, preempt conflicts, tap existing leadership structures, and seek authentic feedback from stakeholders.
 
-** Core Challenge #4: Maximizing Impact & Minimizing Stress
-- **Problem:** Over-commitment or focusing on doomed-to-fail problems increases stress and reduces effectiveness.
-- **Bottlenecks:** Pressure to deliver fast, overconfidence in assumptions, fragmented focus.
-- **Principle:** Prioritize tasks where technical expertise has maximum leverage; skip low-value work.
-- **How I Address It:** Build guardrails, automate recurring tasks, maintain weekly reflection, protect time for deep work.
+** Core Challenge #4: Align Early, Iterate Fast
+- **Problem:** Delays or misaligned work occur when assumptions go untested or communication is late.
+- **Bottlenecks:** Pressure to deliver fast, unclear expectations, fragmented focus.
+- **Principle:** Align early on assumptions and goals; iterate quickly based on feedback.
+- **How I Address It:** Summarize assumptions in one-pagers, run lightweight experiments, seek early feedback from stakeholders, adjust course weekly.
 
 ** Principles for Scoping Better
 Protect my time and focus on what truly matters:

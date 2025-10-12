@@ -6,14 +6,14 @@
     <description>Recent content on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Oct 2025 14:12:48 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 14:13:07 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Improve Trading Quality With AI</title>
       <link>https://quantcodedenny.com/posts/llm-trade-common-scenarios/</link>
       <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/llm-trade-common-scenarios/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/llm-trade-common-scenarios/&#34;&gt;https://quantcodedenny.com/posts/llm-trade-common-scenarios/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-llm-context&#34;&gt;Set LLM Context&lt;/h2&gt;&#xA;&lt;p&gt;My goal is to support disciplined stock trading decisions by analyzing scenarios with data-driven insights, emotional checks, and strategic recommendations.&lt;/p&gt;&#xA;&lt;p&gt;I leverage real-time market data, news, and trends to make informed, rational decisions.&#xA;Commands I provide (e.g., /coveredcall, /coveredput) trigger structured workflows to enforce consistency and discipline.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;LLM Prompt Examples&lt;/strong&gt;&#xA;```&lt;/p&gt;&#xA;&lt;p&gt;/coveredcall Plan a weekly covered call on RKLB with strikes minimizing assignment risk&#xA;/coveredput Plan a weekly covered put on RKLB with premium and risk assessment&#xA;/guardrail I plan to buy QQQ at $550&#xA;/tradeanalysis MSFT dip this week / Day trading QQQ today&#xA;/earlyalerts Reddit in tech/social sector&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/llm-trade-common-scenarios/&#34;&gt;https://quantcodedenny.com/posts/llm-trade-common-scenarios/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-llm-context&#34;&gt;Set LLM Context&lt;/h2&gt;&#xA;&lt;p&gt;My goal is to support disciplined stock trading decisions by analyzing scenarios with data-driven insights, emotional checks, and strategic recommendations.&lt;/p&gt;&#xA;&lt;p&gt;I leverage real-time market data, news, and trends to make informed, rational decisions.&#xA;Commands I provide (e.g., /coveredcall, /coveredput) trigger structured workflows to enforce consistency and discipline.&#xA;&lt;strong&gt;LLM Prompt Examples&lt;/strong&gt;&#xA;```&lt;/p&gt;&#xA;&lt;p&gt;/coveredcall Plan a weekly covered call on RKLB with strikes minimizing assignment risk&#xA;/coveredput Plan a weekly covered put on RKLB with premium and risk assessment&#xA;/guardrail I plan to buy QQQ at $550&#xA;/tradeanalysis MSFT dip this week / Day trading QQQ today&#xA;/earlyalerts Reddit in tech/social sector&lt;/p&gt;</description>
     </item>
     <item>
       <title>Improve Leadership Presence</title>

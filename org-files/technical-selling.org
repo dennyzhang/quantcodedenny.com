@@ -45,93 +45,42 @@ Here is the current version of my post:
 :END:
 URL: https://quantcodedenny.com/posts/improve-market-value/
 
-Working deeply in a specialized area like Meta or Google ML infra can easily make your expertise feel *too narrow* — you solve critical problems, but your broader market value may not fully reflect your capabilities. Often, the challenge isn’t lack of knowledge; it’s being too busy with daily work, leaving no time for high-impact but non-urgent improvements or blindspots.
-
-This post is a living document to help tech leads *organically increase market value*, stay visible, and continuously improve.
-** Guiding Principles
-- **Think End-to-End and Prioritize Impact**
-  + Keep a mental map of the full system — data flows, dependencies, upstream/downstream impacts, and business objectives.
-  + Ask daily: "How does this change affect other teams, user experience, and business metrics?"
-- **Focus on Important but Not Urgent Work**
-  + Identify blindspots: recurring issues, cross-team dependencies, systemic technical debt.
-  + Block weekly time for reflection, documentation, and proactive improvement.
-- **Translate Work into Marketable Achievements**
-  + Frame accomplishments in revenue, cost savings, reliability, or scale.
-  + Capture not just *what* was fixed, but *why it mattered*: “Reduced ad delivery latency by 15%, improving ad revenue predictability by X%.”
-- **Document, Share, and Learn Across Teams**
-  + Maintain daily notes or internal posts capturing problem, options, tradeoffs, and decisions.
-  + Summarize patterns weekly to increase visibility and influence.
-** My Core Market-Value Routine
+Working deeply in ML Infra (like Meta or Google) can make your skills feel too specialized. You solve critical problems — but the broader market may not see your full capability.
+The key is to **grow visibility and generalize impact organically**, through habits you already do daily.
+** Core Principles
+- **Think End-to-End** → Connect your work to business goals, reliability, and system health.
+- **Focus on Non-Urgent Impact** → Block time weekly to fix recurring pain or document key learnings.
+- **Translate to Market Value** → Frame results in measurable terms (revenue, cost, scale, reliability).
+- **Learn and Share** → Write short notes or posts to spread knowledge and show thought leadership.
+** Market-Value Action Routine
 *** Weekly Habits
-- [ ] **Learn broadly** → Attend 1 SEV review or design review
-  - Goal: See real reliability/design problems and sharpen system judgment.
-- [ ] **Connect cross-functionally** → 1 focused chat with an XFN lead
-  - Goal: Understand their priorities and think beyond team scope.
-- [ ] **Reflect & share** → Write 3–5 sentence summary of 1 key learning
-  - Goal: Strengthen communication clarity and external legibility.
+- [ ] **Learn broadly** → Attend 1 SEV or design review; observe recurring problems and system tradeoffs.
+- [ ] **Connect cross-functionally** → Chat with 1 XFN lead to understand context and dependencies.
+- [ ] **Reflect & share** → Write 1–3 bullet summary of key learning; note patterns, scripts, or principles.
 *** Monthly Habits
-- [ ] **Host & lead** → Run 1 design or postmortem discussion
-  - Goal: Practice influence, articulation, and technical leadership presence.
-- [ ] **Mentor intentionally** → Coach 1–2 engineers on real problems
-  - Goal: Scale impact through others and demonstrate multiplier behavior.
+- [ ] **Host & lead** → Run 1 design or postmortem discussion; practice influence, articulation, and framing decisions.
+- [ ] **Mentor** → Coach 1–2 engineers; amplify impact and demonstrate multiplier behavior.
 *** Quarterly Habits
-- [ ] **Ship one improvement** → Deliver 1 measurable, end-to-end technical enhancement
-  - Goal: Prove ownership and reliability through visible results.
-- [ ] **Show the data** → Summarize wins in metrics or story form
-  - Goal: Convert outcomes into portable, external-facing career signals.
-*** Reflection Prompts
-- Weekly: “Did I learn, connect, and share this week?”
-- Quarterly: “What did I ship that improved the system and told my story?”
-** Good Practices
-- **Frame P0/SEV incidents with business impact**
-  + Log root cause, mitigation, and downstream effect.
-  + Highlight prevented losses or restored capacity in marketable terms.
-- **Design for scale and reliability**
-  + Ask: "If traffic/data grows 5–10x, will this design hold?"
-  + Document assumptions, constraints, and failure modes.
-- **Share reusable learnings**
-  + Daily: note patterns, gotchas, scripts that saved time.
-  + Weekly: summarize in central doc or chat to benefit team.
-- **Ask strategic, end-to-end questions**
-  + Before implementation, ask about downstream impact or hidden dependencies.
-  + Capture tradeoffs even if the decision is local.
-- **Allocate deliberate focus time**
-  + Weekly: protect 1–2 hours for reflection, blindspot review, systemic improvements, or skill expansion.
-** Bad Practices
-- **Local optimization without context**
-  + Fixing minor metrics without measuring system-wide or business impact.
-  + Mitigation: document downstream consequences.
-- **Not documenting decisions**
-  + Knowledge gets siloed; team forgets key context.
-  + Mitigation: 3 bullets per decision — problem, options, chosen path, rationale.
-- **Avoiding ambiguous or cross-team problems**
-  + Appears reactive or narrow.
-  + Mitigation: log ambiguous issues and track next steps.
-- **Over-reliance on internal tech**
-  + Limits marketable skillset.
-  + Mitigation: note underlying principles, patterns, and reasoning for tech choices.
-** Daily Runbook Approach
-1. **Daily Reflection**: Capture what you learned, decisions made, tradeoffs, and why they matter.
-2. **Weekly Focus Block**: 1–2 hours for important but non-urgent work (blindspots, systemic improvements, cross-team learning).
-3. **Weekly Market Mapping**: Reframe work in industry terms; highlight transferable impact.
-4. **Monthly Patterns Review**: Aggregate recurring issues, lessons, systemic improvements.
-5. **Quarterly LLM Update**: Use an LLM to summarize, reframe, and extract marketable insights.
-** LLM Prompt Template for Continuous Improvement
-#+BEGIN_SRC text
-Context:
-I am a tech lead working in Meta Ads Infra.
-I maintain a runbook of learnings, decisions, tradeoffs, and weekly focus work on blindspots and non-urgent improvements.
-
-Task:
-1. Summarize key patterns and decisions from the notes.
-2. Highlight marketable achievements understandable outside my company.
-3. Identify gaps in breadth, end-to-end thinking, or neglected blindspots that could increase market value.
-4. Suggest improvements or principles to focus on next.
-5. Output in org-mode format with actionable bullets suitable for daily practice.
-
-Notes:
-[PASTE YOUR RUNBOOK OR WEEKLY NOTES HERE]
-#+END_SRC
+- [ ] **Ship a measurable improvement** → Deliver 1 end-to-end enhancement; design for scale, reliability, and visibility.
+- [ ] **Summarize impact** → Convert results into metrics or story for internal/external visibility.
+*** Focus Blocks & Best Practices
+- Protect 1–2 hours weekly for **important but non-urgent work**: blindspot review, systemic improvements, or skill expansion.
+- Frame all incidents/projects with **business impact**: root cause, mitigation, downstream effect, prevented loss or restored capacity.
+- Ask **system-level questions** before implementation: downstream effects, hidden dependencies, assumptions, failure modes.
+- **Document & share patterns** weekly: recurring issues, scripts, or solutions that others can reuse.
+- Use external framing: translate internal improvements into **transferable, marketable impact**.
+** Leadership Presence
+Behaviors that make an engineer calm, credible, and trusted under pressure:
+- Speak clearly and stay calm during crises.
+- Focus on facts and root causes; avoid blame.
+- Summarize chaos into clear next steps.
+- Model humility: “I don’t know yet, but I’ll find out.”
+- Protect psychological safety of others in high-pressure moments.
+** Watch Out For
+- Local optimizations without system or business context.
+- Not documenting key decisions.
+- Avoiding cross-team or ambiguous problems.
+- Over-relying on internal tech; always extract general principles.
 ** local notes                                                     :noexport:
 *** comfortable to lead different teams and different probjects, as you have general skills
 #+BEGIN_EXAMPLE
@@ -200,17 +149,17 @@ This playbook is my daily runbook for staying calm, clear, and constructive unde
    Example: Director demands “immediate fix” for ongoing SEV.
    → Communicate facts crisply, outline immediate fix + longer-term solution.
 ** Show Calm Through Signals
-Taking care of my appearance is a quiet way of showing confidence and control — both to myself and to my team.  
-It reminds me that leadership isn’t just about solving problems; it’s also about projecting stability.  
+Taking care of my appearance is a quiet way of showing confidence and control — both to myself and to my team.
+It reminds me that leadership isn’t just about solving problems; it’s also about projecting stability.
 When I look composed, it signals that I can handle uncertainty and that the team can trust my direction.
 
 I’ve learned that communication works the same way. The way I speak, pause, and frame ideas all send subtle signals of leadership.
 
-- I speak calmly, even under stress — because my tone sets the emotional baseline for the team.  
-- I pause before responding. Silence shows confidence and makes my words more intentional.  
-- I start with the point, not the background — clear framing builds trust and focus.  
-- I use ownership language: “I’ll handle this,” instead of “Someone should.”  
-- I stay curious, not judgmental. Asking “Can you walk me through your thinking?” keeps discussions open and productive.  
+- I speak calmly, even under stress — because my tone sets the emotional baseline for the team.
+- I pause before responding. Silence shows confidence and makes my words more intentional.
+- I start with the point, not the background — clear framing builds trust and focus.
+- I use ownership language: “I’ll handle this,” instead of “Someone should.”
+- I stay curious, not judgmental. Asking “Can you walk me through your thinking?” keeps discussions open and productive.
 - I reframe issues positively: “This surfaced a gap we can fix early,” instead of “This broke again.”
 
 These small communication habits reinforce a quiet message — I’m calm, I’m in control, and we’ve got this.
@@ -254,7 +203,6 @@ As discussed, it would be more effective, if you(or/and XXX) can take it from th
 I don't believe that is the right model though. There should be an E2E owner w/ help needed as is. Let's discuss in the meeting.
 #+END_SRC
 *** You don't want to own the "executive summary" for weekly audit report. With TPM push, you find no alternative.
-
 *** avoid over-read: when friday, someone comment in a lead doc, saying: Please complete by Mon.
 The comment applies to everyone. Not for you only.
 *** For other teams' job, if you have difficulties to sell, leverage owning team instead
@@ -343,7 +291,6 @@ I establish myself as a tech lead in ML infra with two main goals:
     - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
     - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
     - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
-
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** Set LLM context                                                 :noexport:
 I want to clarify what is truly important to me at work and identify my 3-year P0 priorities. Below is my current context.
@@ -530,7 +477,6 @@ Learn turn delivery into lasting ownership
 - Write a Living Charter Document
 *** don't kill your new hire - if you keep saying understaff, there is no miss in the team loobkack. the leads won't take it as a P0 ask
 *** avoid always look behind
-
 *** avoid caveat: voice is too low or talk too fast
 *** avoid caveat: talk too details which generates confusions
 * Connect Better At Work
@@ -581,7 +527,6 @@ At the end of each week, I reflect briefly: **Who did I understand better, help,
 :EXPORT_DATE: 2025-10-05
 :END:
 URL: https://quantcodedenny.com/posts/ic6-use-llm/
-
 ** 1. Introduction & Common Pitfalls
 Being an IC6 Infra Engineer in a large corporate environment isn’t just about writing code.
 It’s about *driving systemic impact*, ensuring reliability, and influencing across teams.
@@ -702,7 +647,6 @@ LLMs act as a *force multiplier* — helping you:
 - Reflect and learn continuously
 
 Applying this condensed framework ensures high-leverage focus and scalable impact across systems and teams.
-
 ** local note                                                      :noexport:
 *** doing a task(not chore): think and generalize in a prompt -> do it -> discuss with LLM for this task
 *** guiding questions

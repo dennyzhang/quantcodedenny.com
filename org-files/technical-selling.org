@@ -69,13 +69,6 @@ The key is to **grow visibility and generalize impact organically**, through hab
 - Ask **system-level questions** before implementation: downstream effects, hidden dependencies, assumptions, failure modes.
 - **Document & share patterns** weekly: recurring issues, scripts, or solutions that others can reuse.
 - Use external framing: translate internal improvements into **transferable, marketable impact**.
-** Leadership Presence
-Behaviors that make an engineer calm, credible, and trusted under pressure:
-- Speak clearly and stay calm during crises.
-- Focus on facts and root causes; avoid blame.
-- Summarize chaos into clear next steps.
-- Model humility: “I don’t know yet, but I’ll find out.”
-- Protect psychological safety of others in high-pressure moments.
 ** Watch Out For
 - Local optimizations without system or business context.
 - Not documenting key decisions.
@@ -118,6 +111,77 @@ as leader, you need to help the team
 *** TODO how to create a collaboration where leads and senios can help your?
 *** TODO how to set a tone(send a signal) for the team, yet don't have to say it explictly
 *** [#A] how to provide values as IC6
+* Improve Leadership Presence
+:PROPERTIES:
+:EXPORT_FILE_NAME: leadership-presence
+:EXPORT_DATE: 2025-10-11
+:EXPORT_HUGO_SECTION: posts
+:END:
+URL: https://quantcodedenny.com/posts/leadership-presence/
+** Introduction
+As an IC6 ML Infra Tech Lead, technical expertise alone is not enough. I need to be seen as a **leader** — someone who drives impact, earns trust, and inspires confidence across teams.
+
+Leadership presence is about **how I show up, influence decisions, and make work visible**, especially under pressure. This post gives me a **daily-ready framework** to strengthen my leadership presence.
+
+---
+** Core Principles
+- **Be Calm and Clear Under Pressure**
+  - I speak clearly and stay composed during crises.
+  - I focus on facts and root causes, avoiding blame.
+  - I summarize chaos into actionable next steps.
+  - I model humility: “I don’t know yet, but I’ll find out.”
+  - I protect the psychological safety of others in high-pressure moments.
+
+- **Be Visible Without Boasting**
+  - I share results and challenges concisely.
+  - I focus on impact, not activity.
+  - *Mini Habit:* Daily 1-sentence log of the day’s key contribution.
+
+- **Frame Complexity as Leadership**
+  - I highlight difficult trade-offs I managed and decisions I influenced.
+  - *Template:* “This was challenging because [obstacle]. I enabled [team/org] to succeed by [action].”
+
+- **Influence Through Credibility**
+  - I let allies and cross-functional partners reinforce my contributions.
+  - I actively recognize others and connect my work to organizational priorities.
+
+- **Guide Decisions, Don’t Just Report**
+  - I focus on outcomes and next steps, not every detail.
+  - *Template:* “The key takeaway is [message]. I propose [next step]. Impact: [metric].”
+
+- **Consistently Deliver and Communicate**
+  - I pair execution with visibility.
+  - I regularly summarize progress for managers, peers, and stakeholders.
+
+---
+** Daily Habits for Leadership Presence
+- **Morning (5 min)**
+  - Review yesterday’s work.
+  - Identify **one key contribution or decision** to highlight.
+  - Decide if any **ally or stakeholder** should be informed.
+
+- **During Work**
+  - Capture **complexity, blockers, and learning** in a personal log.
+  - When making design or system decisions, note **why the decision matters** for team/org goals.
+  - Apply calm, credible behavior during crises: focus on facts, summarize chaos, protect others psychologically.
+
+- **End of Day (5 min)**
+  - Fill in the **impact → complexity → credibility** flow:
+    1. What impact did I create?
+    2. What complexity or trade-offs did I handle?
+    3. Who should be aware or can amplify this work?
+
+- **Weekly (10–15 min)**
+  - Summarize top 1–2 achievements.
+  - Share structured updates with manager or cross-functional stakeholders.
+  - Identify allies who can **echo your contributions**.
+
+---
+** Practical Templates
+- **1-Sentence Daily Log:**
+  > “By [action], I [impact] despite [challenge], and [ally/team] is aware.”
+
+- **Decision-Focused Update:**
 * Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook
@@ -125,69 +189,50 @@ as leader, you need to help the team
 :END:
 URL: https://quantcodedenny.com/posts/eq-playbook/
 
-As a tech lead, I want to ease my mental stress and be effective in conflict resolution.
-This playbook is my daily runbook for staying calm, clear, and constructive under pressure.
-** Core Principles
-- **Pause Before Reacting**: Don’t let emotions drive my first response.
-- **Listen First**: Seek to understand before I respond.
-- **Focus on Outcomes**: Anchor on shared goals, not personal wins.
-- **Protect My Boundaries**: Say no or redirect misaligned work.
-** Difficult Situations and How I Respond
-1. **Disagreement on Priorities**
-   Example: PM pushes feature delivery, I see infra stability risk.
-   → Frame trade-offs clearly; show business risk of ignoring infra.
-
-2. **Boundary-Pushing Requests**
-   Example: Asked to own solving cross-team incentive conflicts (low leverage).
-   → Acknowledge importance, suggest better owner, offer lightweight support—not ownership.
-
-3. **Cross-Team or Peer Conflict**
-   Example: Partner team blames infra for latency spikes, or another TL challenges design harshly.
-   → Listen without defensiveness, share data, acknowledge valid points, defuse tension, propose joint debugging or async follow-up.
-
-4. **Escalations from Leadership**
-   Example: Director demands “immediate fix” for ongoing SEV.
-   → Communicate facts crisply, outline immediate fix + longer-term solution.
+As a tech lead, I want to ease mental stress and handle conflicts effectively.
+This is my daily runbook for calm, clear, and high-leverage leadership.
+** Core Principles (Memorable)
+- **Pause Before Reacting**: Avoid knee-jerk responses.
+- **Listen First**: Understand before responding.
+- **Focus on Outcomes**: Prioritize shared goals, not ego.
+- **Protect Boundaries**: Say no or redirect low-leverage work.
+** Daily Action Routine
+- **Morning (Start of Day)**: Review top 3 priorities; decide what to say "no" to.
+- **Pre-Meeting**: Pause, breathe, note intended outcome.
+- **During Conflict**: Listen fully; restate understanding before replying.
+- **Work Blocks (≈90 mins)**: Take 5 min stretch/walk break.
+- **Midday**: Hydrate, check posture, reset focus.
+- **End of Day**: Log one win and one boundary I defended.
+** Difficult Situations & Quick Actions
+- **Disagreement on Priorities**: Frame trade-offs; explain business impact.
+- **Boundary-Pushing Requests**: Acknowledge importance; suggest better owner; offer light support.
+- **Cross-Team / Peer Conflict**: Listen, validate points, defuse tension, propose joint follow-up.
+- **Escalations from Leadership**: Communicate facts clearly; outline immediate + long-term fix.
 ** Show Calm Through Signals
-Taking care of my appearance is a quiet way of showing confidence and control — both to myself and to my team.
-It reminds me that leadership isn’t just about solving problems; it’s also about projecting stability.
-When I look composed, it signals that I can handle uncertainty and that the team can trust my direction.
-
-I’ve learned that communication works the same way. The way I speak, pause, and frame ideas all send subtle signals of leadership.
-
-- I speak calmly, even under stress — because my tone sets the emotional baseline for the team.
-- I pause before responding. Silence shows confidence and makes my words more intentional.
-- I start with the point, not the background — clear framing builds trust and focus.
-- I use ownership language: “I’ll handle this,” instead of “Someone should.”
-- I stay curious, not judgmental. Asking “Can you walk me through your thinking?” keeps discussions open and productive.
-- I reframe issues positively: “This surfaced a gap we can fix early,” instead of “This broke again.”
-
-These small communication habits reinforce a quiet message — I’m calm, I’m in control, and we’ve got this.
-** Major Mistakes That Kill Energy
-- **Neglecting Health Basics**: Skipping sleep, poor nutrition, dehydration, or no movement → fatigue, irritability, brain fog.
-- **Scattered Focus**: Excessive multitasking or context switching → drains efficiency and mental clarity.
-- **Ignoring Stress Signals**: Bottling emotions, not addressing mental health → chronic depletion.
-- **Weak Boundaries**: Overcommitting or taking low-leverage work → diluted impact, faster burnout.
-- **Poor Environment**: Clutter, noise, or bad lighting → reduced focus and motivation.
-** Best Practices
-- **Recharge Physically**: 7–9 hrs sleep, short naps if needed; move often with walks, stretches, or exercise.
-- **Fuel Smartly**: Balanced meals (protein + complex carbs), hydration; limit sugar/caffeine spikes.
-- **Work With Focus**: Prioritize clearly (Eisenhower or MITs), batch tasks, avoid overcommitment.
-- **Reset Regularly**: Take 5–10 min breaks every 60–90 mins; use mindfulness, journaling, or reflection.
-- **Shape the Environment**: Natural light, tidy space, comfortable temp/noise.
-- **Communicate Effectively**: Neutral tone, “we” language, fact-driven; summarize agreements; use the cycle Pause → Clarify → Respond → Follow-Up.
-** Common Pitfalls to Avoid
-- Responding instantly when triggered.
-- Framing conflict as win/lose instead of win/win.
-- Assuming others share my context without clarification.
-- Absorbing misaligned work just to “be helpful.”
-** Daily Reminder
-- **Start of Day**: Review top 3 priorities; mark what I will say "no" to.
-- **Before Meetings**: Pause, breathe once, and note the outcome I want.
-- **During Conflict**: Listen fully, then restate what I heard before replying.
-- **After 90 Minutes of Work**: Step away for 5 mins; stretch or walk.
-- **Midday Check-In**: Drink water, adjust posture, reset focus.
-- **End of Day**: Write down one win and one boundary I defended.
+- Speak calmly; tone sets team baseline.
+- Pause before responding; silence = confidence.
+- Start with the point; avoid long background.
+- Use ownership language: “I’ll handle this.”
+- Ask curious, open questions: “Can you walk me through your thinking?”
+- Reframe issues positively: “We can fix this early.”
+** Energy & Focus Killers (Clustered)
+- **Health Basics**: Poor sleep, nutrition, hydration, or movement → fatigue & brain fog.
+- **Scattered Focus**: Multitasking & context switching → low efficiency.
+- **Stress Ignored**: Bottling emotions → chronic depletion.
+- **Weak Boundaries**: Overcommitting → diluted impact, burnout.
+- **Environment**: Clutter, noise, bad lighting → lower alertness.
+** Best Practices (Actionable)
+- **Sleep & Move**: 7–9 hrs sleep; walk/stretch/exercise.
+- **Eat & Hydrate**: Balanced meals; avoid sugar spikes; drink water.
+- **Prioritize & Batch**: MITs / Eisenhower; avoid overcommitment.
+- **Take Microbreaks**: 5–10 mins every 60–90 mins; reflect or journal.
+- **Optimize Environment**: Light, tidy, comfortable.
+- **Communicate Effectively**: Neutral, “we” language, summarize agreements, use Pause → Clarify → Respond → Follow-Up.
+** Common Pitfalls
+- Reacting instantly under stress.
+- Treating conflict as win/lose.
+- Assuming shared context.
+- Taking low-leverage work just to be helpful.
 ** local notes                                                     :noexport:
 *** Taking care of your appearance is a quiet way of showing confidence and control — both to yourself and to your team
 *** [#A] avoid procrastination: no phone - go directly to the bed or wake up to walk

@@ -419,6 +419,9 @@ Push from IC5 to 6 when they are not ready doesn't help for both sides
 *** inconsistent assements for the work dependency, which introduces delays
 *** align on the interface
 *** leaders bring clarify/make decision, then make untangible problems tangible
+*** feedback
+TL: walk through the flow and identify the issues
+EM: roles and responsilibty of teams and components; 
 * Vibe Coding
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-for-vibe-coding

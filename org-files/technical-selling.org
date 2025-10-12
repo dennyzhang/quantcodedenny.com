@@ -498,99 +498,6 @@ how to interact in the world
 *** guide attention to the right problems
 *** Using tension as signal for missing clarity, not personal attack.
 *** Don’t use AI to automate — use it to amplify thinking.
-* Scope Better At Work
-:PROPERTIES:
-:EXPORT_FILE_NAME: scope-better
-:EXPORT_DATE: 2025-11-10
-:END:
-URL: https://quantcodedenny.com/posts/scope-better/
-
-For a successful tech lead, it usually has four steps: **scope better → do better → look better → connect better.**
-
-This post focuses on the first step — **scoping better**, the foundation of high-leverage impact.
----
-** 1️⃣ Why Scoping Matters
-Good scoping defines where you play and what you ignore.
-A bad scope drains energy; a good scope compounds momentum.
-
-- Scoping well means finding *leverage* — problems that are painful, systemic, and aligned with org priorities.
-- As an IC6, your job is not to do more. It’s to identify *which problem* matters most and ensure it gets solved, even if not by you.
-- A well-scoped problem makes execution calm, credible, and measurable.
-
----
-** 2️⃣ Start From Self: My Context and Strengths
-> The best scoping starts from self-awareness. You can’t choose the right battles if you don’t know your strengths or goals.
-
-- **My Strengths:** I’m systematic, calm under pressure, and good at connecting technical depth to reliability outcomes.
-  → So I should scope problems that require pattern recognition and systemic fixes, not just reactive firefighting.
-- **My Weakness:** I tend to over-invest in execution once scoped — so I need to *rescope regularly* and delegate earlier.
-- **My Long-term Goal:** Become a staff+ engineer who drives reliability and leverage across Ads ML Infra.
-  → This means picking problems that *shape systems and culture*, not just short-term delivery wins.
-- **My Personal Constraint:** Limited bandwidth — I can only own 1–2 P0s at a time.
-  → So I must be ruthless about focus and say “no” more often.
-
-Scoping from self-awareness helps me find **aligned problems** — where my strengths, ambitions, and team goals intersect.
-
----
-** 3️⃣ Scoping Mindset
-- Ask: “If we fix this, what gets unblocked for others?”
-- Focus on *business leverage*, not technical elegance.
-- Anchor success to observable, measurable outcomes.
-- Simplify scope until it feels almost boring — that’s when clarity emerges.
-- Good scoping creates *calm alignment*, not more meetings.
-
----
-** 4️⃣ Focus On P0 At Work
-> Practical lessons that help me stay centered and effective in noisy environments.
-
-- Always clarify the **real P0** — the one thing that truly moves the metric that matters.
-- **Say no early.** Protect focus. Every “yes” adds cognitive debt.
-- **Don’t rush to execution.** Step back to see system-level issues first.
-- **Ask two key questions:**
-  - “Which of these problems will still matter next half?”
-  - “If I fix this, what downstream pain disappears?”
-- **Protect mental space.** Calm reflection often reveals the real root cause faster than any debug session.
-- **Treat scoping as a repeatable skill.** After each project, I write a 3-line reflection on what was scoped well vs. poorly — this builds intuition over time.
-
-#+BEGIN_COMMENT Updated
-**Recent Key Learnings**
-> A few reflections from recent halfs that changed how I scope.
-
-- *Turn delivery into ownership.*
-  Write a **living charter** for each project — purpose, boundaries, metrics, and long-term owner.
-- *Make success tangible.*
-  Express impact in **business or system reliability terms**, not just completion.
-- *Start with charter, not project.*
-  Define “why this matters” before defining milestones.
-- *Re-scope continuously.*
-  Every quarter, check if the problem still matches current org priorities.
-- *Ask better questions.*
-  “Who benefits?” “What pain disappears?” “Is this worth owning next half?”
-#+END_COMMENT
-
----
-** 5️⃣ How I Scope in Practice
-- Review SEVs and postmortems → find recurring root causes.
-- Observe where teams spend time firefighting → those are leverage points.
-- Use LLMs to summarize org updates → spot alignment and gaps.
-- Reframe “what’s broken” into “what’s worth fixing.”
-- Pick 1–2 themes per half — anything beyond that is distraction.
-- Validate early with your manager or cross-functional leads before investing deeply.
-
----
-** 6️⃣ My Weekly Scoping Routine
-- 🧠 Each Friday: write top 3 high-impact problems I’ve noticed.
-- 📊 Rank by **impact × feasibility × alignment**.
-- 🤝 Share one scoping note with my manager for calibration.
-- 🔁 End of month: reflect on what was scoped well or drifted.
-
----
-** 7️⃣ Outcome
-When I scope better:
-- I work on fewer but more meaningful problems.
-- I feel calmer and less reactive under pressure.
-- I create compounding value through reusable frameworks, not just one-off wins.
-- I grow trust as someone who can *see clearly and lead calmly.*
 * Focus On P0 At Work                                              :noexport:
 URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** My Goal
@@ -629,3 +536,71 @@ I establish myself as a tech lead in ML infra with two main goals:
 5. **Spend more time generalizing problems and exchanging knowledge**
    - Solved problems in isolation, missed patterns and broader exchanges.
    - Learning: Step back, find repeatable insights, and share across teams.
+* Scope Better At Work
+:PROPERTIES:
+:EXPORT_FILE_NAME: scope-better
+:EXPORT_DATE: 2025-10-05
+:END:
+URL: https://quantcodedenny.com/posts/scope-better/
+
+For a successful tech lead, it usually has four steps: **scope better → do better → look better → connect better.**
+
+This post focuses on the first step — **scoping better**, the foundation of high-leverage impact.
+
+---
+** Start From Self: My Context and Strengths
+> The best scoping starts from self-awareness. You can’t choose the right battles if you don’t know your strengths or goals.
+
+- **My Strengths:** Systematic, calm under pressure, and able to connect technical depth to reliability outcomes.
+  → Scope problems requiring pattern recognition and systemic fixes.
+- **My Weakness:** Tend to over-invest in execution once scoped — need to *rescope regularly* and delegate earlier.
+- **My Long-term Goal:** Become a staff+ engineer driving reliability and leverage across Ads ML Infra.
+  → Pick problems that *shape systems and culture*, not just short-term wins.
+- **My Personal Constraint:** Limited bandwidth — can only own 1–2 P0s at a time.
+  → Be ruthless about focus and say “no” often.
+
+---
+** Focus On P0 At Work
+> Practical lessons that help me stay centered and effective in noisy environments.
+
+- Clarify the **real P0** — the one thing that truly moves the metric that matters.
+- **Say no early.** Protect focus. Every “yes” adds cognitive debt.
+- **Don’t rush to execution.** Step back to see system-level issues first.
+- **Ask two key questions:**
+  - “Which of these problems will still matter next half?”
+  - “If I fix this, what downstream pain disappears?”
+- **Protect mental space.** Calm reflection often reveals the real root cause faster than any debug session.
+- **Treat scoping as a repeatable skill.** After each project, write a 3-line reflection on what was scoped well vs. poorly.
+** Recent Key Learnings
+- Turn delivery into ownership: living charter with purpose, boundaries, metrics, owner.
+- Make success tangible: express impact in business or system reliability terms.
+- Start with charter, not project: define “why this matters” first.
+- Re-scope continuously: every quarter, check alignment with org priorities.
+- Ask better questions: “Who benefits?” “What pain disappears?” “Is this worth owning next half?”
+
+---
+** How I Scope in Practice
+- Review SEVs and postmortems → find recurring root causes.
+- Observe where teams spend time firefighting → leverage points.
+- Use LLMs to summarize org updates → spot alignment and gaps.
+- Reframe “what’s broken” into “what’s worth fixing.”
+- Pick 1–2 themes per half — anything beyond that is distraction.
+- Validate early with manager or XFN leads before investing deeply.
+
+---
+** My Weekly Scoping Routine
+- 🧠 Each Friday: write top 3 high-impact problems noticed.
+- 📊 Rank by **impact × feasibility × alignment**.
+- 🤝 Share one scoping note with manager for calibration.
+- 🔁 End of month: reflect on what was scoped well or drifted.
+
+---
+** Outcome & Why Scoping Matters
+Scoping well compounds momentum and reduces wasted effort:
+
+- Focus on fewer but **high-leverage problems**.
+- Make execution calm, credible, and measurable.
+- Solve problems that unlock system-level improvements and benefit multiple teams.
+- Communicate clearly so stakeholders, peers, and the team understand the “what” and “why.”
+- Balance ambition with realism — stretch goals without over-promising.
+- Grow trust as someone who *sees clearly and leads calmly.*

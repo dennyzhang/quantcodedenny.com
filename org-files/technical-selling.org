@@ -111,6 +111,10 @@ as leader, you need to help the team
 *** TODO how to create a collaboration where leads and senios can help your?
 *** TODO how to set a tone(send a signal) for the team, yet don't have to say it explictly
 *** [#A] how to provide values as IC6
+** Mitigation: Organically improve market value                    :noexport:
+1. **Skill Leverage**: Work on rare, transferable, high-impact skills.
+2. **Visible Impact**: Quantify and share results internally.
+3. **Network & Influence**: Expand reputation via mentorship, XFN projects, and selective external visibility.
 * Improve Leadership Presence
 :PROPERTIES:
 :EXPORT_FILE_NAME: leadership-presence
@@ -121,7 +125,7 @@ URL: https://quantcodedenny.com/posts/leadership-presence/
 ** Introduction
 As an IC6 ML Infra Tech Lead, technical expertise alone is not enough. I need to be seen as a **leader** — someone who drives impact, earns trust, and inspires confidence across teams.
 
-Leadership presence is about **how I show up, influence decisions, and make work visible**, especially under pressure. This post gives me a **daily-ready framework** to strengthen my leadership presence.
+Leadership presence is about **how I show up, influence decisions, and make work visible**, especially under pressure. This post gives me a **daily-ready framework** to strengthen my leadership presence, including verbal and non-verbal communication.
 
 ---
 ** Core Principles
@@ -153,28 +157,38 @@ Leadership presence is about **how I show up, influence decisions, and make work
   - I pair execution with visibility.
   - I regularly summarize progress for managers, peers, and stakeholders.
 
+- **Enhance Non-Verbal Presence**
+  - I maintain open posture and relaxed gestures to signal confidence.
+  - I use steady, clear, and well-paced voice; avoid filler words.
+  - I practice pauses to let key points sink in.
+  - *Mini Exercise:* Record 1–2 minutes of daily updates or rehearsal and self-review body language and tone.
+
 ---
 ** Daily Habits for Leadership Presence
 - **Morning (5 min)**
   - Review yesterday’s work.
   - Identify **one key contribution or decision** to highlight.
   - Decide if any **ally or stakeholder** should be informed.
+  - Quick body/voice warm-up: posture check, 1-minute clear articulation of top message.
 
 - **During Work**
   - Capture **complexity, blockers, and learning** in a personal log.
   - When making design or system decisions, note **why the decision matters** for team/org goals.
   - Apply calm, credible behavior during crises: focus on facts, summarize chaos, protect others psychologically.
+  - Use controlled gestures and deliberate pacing in meetings or calls.
 
 - **End of Day (5 min)**
   - Fill in the **impact → complexity → credibility** flow:
     1. What impact did I create?
     2. What complexity or trade-offs did I handle?
     3. Who should be aware or can amplify this work?
+  - Optional: 1-minute voice/body reflection or recording to self-calibrate.
 
 - **Weekly (10–15 min)**
   - Summarize top 1–2 achievements.
   - Share structured updates with manager or cross-functional stakeholders.
   - Identify allies who can **echo your contributions**.
+  - Practice 5–10 minutes of voice/body exercises: posture, tone, pacing, hand gestures.
 
 ---
 ** Practical Templates
@@ -251,58 +265,7 @@ I don't believe that is the right model though. There should be an E2E owner w/ 
 *** avoid over-read: when friday, someone comment in a lead doc, saying: Please complete by Mon.
 The comment applies to everyone. Not for you only.
 *** For other teams' job, if you have difficulties to sell, leverage owning team instead
-* #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Focus On P0 At Work
-:PROPERTIES:
-:EXPORT_FILE_NAME: clarify-p0s-at-work
-:EXPORT_DATE: 2025-09-29
-:END:
-URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
-** My Goal
-I establish myself as a tech lead in ML infra with two main goals:
-1. Work with **market value** — skills and outcomes recognized externally for career mobility.
-2. Minimize **mental stress** — maintain well-being while delivering impact. More reading: [[https://quantcodedenny.com/posts/eq-playbook/][stress less, lead better]].
-** My Core Strengths
-1. **Self-Accountability**: Take full responsibility for both the work I commit to and the choices I decline, ensuring clarity and ownership in outcomes.
-2. **Resiliency**: Maintain determination and focus in the face of obstacles, adapting strategies while keeping long-term goals intact.
-3. **Impact-Driven Execution**: Prioritize opportunities that create measurable business wins, balancing scope with available bandwidth.
-4. **Collaborative Partnership (Light)**: Work effectively with peers and cross-functional teams by aligning on shared goals and resolving conflicts constructively.
-** My Growth Areas
-1. **Communicate Clearly & Persuasively**: Align teams on goals and expectations; Summarize my work’s problem, solution, and impact concisely for directors, while keeping technical credibility for peers.
-2. **Prioritize High-Leverage Work**: Focus my technical expertise on initiatives that drive measurable impact; delegate or decline low-value work
-3. **Collaborate Effectively with Diverse Stakeholders**: Adapt communication style for different roles and personalities; Build alignment and influence without creating friction.
-4. **Generalize, Share, & Mentor**: Capture patterns across my projects and share insights to scale impact; Mentor peers and document lessons learned for team adoption.
-** Recent Key Learnings
-1. **Leverage leadership and structures**
-   - Tried bottom-up charter building, but XFN teams already had dedicated roles (reliability, efficiency, DevX).
-   - Learning: Tap leadership and structures early to avoid prolonged struggles.
-
-2. **Set bigger, strategic business goals**
-   - Focused too narrowly on immediate team bandwidth.
-   - Example: HD feature cleanup → incremental changes vs. holistic cleanup.
-   - Learning: Aim for system-level impact, not just local optimizations.
-
-3. **Focus on high-impact technical challenges**
-   - Spent energy on headcount and conflicts where leverage was low.
-   - Learning: Invest where technical expertise makes the most difference.
-
-4. **Be more confident and assertive in requests**
-   - Often accepted XFN deprioritization of my asks.
-   - Example: Needed output validation (compilation) and feature checks (serving).
-   - Learning: Advocate confidently for necessary changes, not just support passively.
-
-5. **Spend more time generalizing problems and exchanging knowledge**
-   - Solved problems in isolation, missed patterns and broader exchanges.
-   - Learning: Step back, find repeatable insights, and share across teams.
-** Mitigation: Navigate Corporate Environment
-1. **Make Value Visible**: Impact only counts if it’s measured and communicated.
-2. **Align and Advocate**: Influence grows with alignment and proactive advocacy.
-3. **Leverage, Don’t Reinvent**: Use existing processes and roles to accelerate outcomes.
-** Mitigation: Organically improve market value
-1. **Skill Leverage**: Work on rare, transferable, high-impact skills.
-2. **Visible Impact**: Quantify and share results internally.
-3. **Network & Influence**: Expand reputation via mentorship, XFN projects, and selective external visibility.
-** Mitigation: Lower Mental Stress at Work
+** Mitigation: Lower Mental Stress at Work                         :noexport:
 1. **Systemic Strategies (Change how I work)**: Adjust workflow, environment, and collaboration to minimize recurring stressors.
     - Focus on problems where my technical expertise creates the most leverage; spend less time on areas outside my control (e.g., headcount, politics).
     - Proactively prioritize high-impact technical challenges instead of reacting to every request.
@@ -312,139 +275,6 @@ I establish myself as a tech lead in ML infra with two main goals:
     - Develop habits to stay focused and centered under pressure.
     - Protect time and energy for deep work and recovery.
     - Maintain clarity: sustained impact comes from resilience and focus, not from spreading myself thin.
-** Success Stories
-1. **Feature Cleanup & Bad Feature Governance**
-    - Core Strength Demonstrated: Business Problem Focus
-    - Challenge: Legacy and unused features caused inefficiencies and stale data risks.
-    - Action: Built a reliable feature usage lineage table, automated cleanup, and implemented rapid mitigation plans.
-    - Impact: Reduced stale features by X%, minimized downstream errors, and saved engineers’ time.
-
-2. **Feature Metadata Service**
-    - Core Strength Demonstrated: End-to-End Ownership & Cross-Team Influence
-    - Challenge: Lack of a single source of truth (SoT) for feature metadata made management and discovery difficult.
-    - Action: Built a centralized feature metadata service covering both static and runtime metadata.
-    - Impact: Enabled consistent feature management, improved discoverability, and reduced errors in feature usage across multiple ML teams.
-
-3. **End-to-End Feature Infra Monitoring**
-    - Core Strength Demonstrated: End-to-End Ownership & Cross-Team Influence
-    - Challenge: Monitoring was fragmented across feature generation, serving, and model evaluation.
-    - Action: Designed and implemented a comprehensive monitoring framework covering generating, serving, and model sides.
-    - Impact: Enabled early detection of issues, reducing pipeline downtime and improving overall feature reliability.
-
-4. **Data Pipeline Push at Scale**
-    - Core Strength Demonstrated: Collaborative & Fair Partnership
-    - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
-    - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
-    - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** Set LLM context                                                 :noexport:
-I want to clarify what is truly important to me at work and identify my 3-year P0 priorities. Below is my current context.
-
-Please help me:
-- Identify **core work values** and any conflicts or trade-offs
-- Surface **blindspots or overlooked opportunities** in my current approach.
-- Suggest what could be my **3-year P0s** based on this context
-- Provide guidance on **filtering and prioritizing current workstreams** to align with these P0s.
-- Recommend **strategic milestones** or actions to maximize market value, ownership, and energy efficiency
-
-Please make the output:
-
-- **Structured and actionable**
-- **Compatible with Org-mode**, so I can copy it directly as a personal roadmap
-- Include examples of **practical steps, metrics, or checkpoints** for each milestone
-** 3-Year P0 Clarification Procedure                               :noexport:
-- Define the Vision
-   - Decide what success looks like in 3 years for me and my team.
-   - Focus on outcomes, not tasks.
-- Identify Levers
-   - Find areas where focused effort now gives the biggest long-term impact.
-- Set P0 Criteria
-   - Define what counts as a true long-term P0 to filter initiatives consistently.
-- Filter Workstreams
-   - Keep only initiatives that meet my P0 criteria.
-   - Delegate, pause, or deprioritize the rest.
-- Build the Roadmap
-   - Break each P0 into multi-year milestones for strategic execution.
-- Checkpoints
-** local notes                                                     :noexport:
-learning how to learn
-adapt to change
-resilience
-learn how to figure out what people want
-how to interact in the world
-
-这些生活体悟，对我很有启发。帮我找到更多类似的体悟，并给出具体示例
-- 设立宏大目标可以激励自己和他人: 大目标提供方向感，让日常小努力不至于迷失。
-- 千万不要提前焦虑，事情会以奇怪的方式解决
-- 生活要做减法
-- take the best advantage and enjoy what you already have
-- minimalist can improve your freedom
-* Scope Better At Work
-:PROPERTIES:
-:EXPORT_FILE_NAME: scope-better
-:EXPORT_DATE: 2025-09-30
-:END:
-URL: https://quantcodedenny.com/posts/scope-better/
-** Introduction
-For a successful tech lead, it usually has four steps: [[https://quantcodedenny.com/posts/scope-better/][scope better]] -> do better -> [[https://quantcodedenny.com/posts/look-better/][look better]] -> [[https://quantcodedenny.com/posts/connect-better/][connect better]].
-
-One of the hardest skills to master as a tech lead is *scoping*—understanding the right problems to solve, sizing them correctly, and aligning them with team capacity and organizational priorities. Poor scoping leads to wasted effort, missed deadlines, or over-committing your team. On the other hand, good scoping sets the foundation for execution, influence, and impact.
-
-This blog post is my personal journal on learning to *scope better*. I plan to keep updating it with new experiences, reflections, and frameworks as I encounter different challenges.
-** Why Scoping Matters
-Scoping is more than estimating timelines. It’s about:
-
-- Choosing the right problems – Focus on work that delivers meaningful impact.
-- Defining clear boundaries – Avoid scope creep and ensure deliverables are realistic.
-- Aligning expectations – Make sure stakeholders, peers, and the team understand the “what” and “why.”
-- Maximizing leverage – Prioritize work that scales or unlocks further opportunities.
-** My Approach to Scoping
-I’ve found a few practical techniques that help me scope better:
-
-- Start with the problem, not the solution.
-  - Ask: "What’s the problem we are really trying to solve?"
-- Break work into milestones.
-  - Large projects can be intimidating; splitting them into digestible chunks helps estimate more accurately.
-- Validate assumptions early.
-  - Run experiments, talk to users, or gather data to avoid over-committing to uncertain work.
-- Use a "P0-P1-P2" framework.
-  - Clearly identify the highest priority work versus nice-to-have work.
-- Learn from past projects.
-  - Keep track of what was over- or under-scoped and adjust future estimates.
-** Finding Good Problems to Solve
-A critical part of scoping is *finding good problems to tackle*. Some ways I approach this:
-
-- Look for problems with high leverage—fixes or features that benefit multiple teams or users.
-- Focus on repetitive pain points that slow down the org or team.
-- Seek ambiguous challenges where clarity and leadership can make a difference.
-- Align with org goals to ensure impact is recognized and resources are available.
-** Lessons Learned
-- It’s iterative.
-  - Scoping is rarely perfect the first time. Adjust as new information arrives.
-- Communication is key.
-  - A well-scoped project is useless if the team and stakeholders don’t understand it.
-- Balance ambition and realism.
-  - Stretch goals are fine, but over-promising hurts credibility.
-** Next Steps
-I will continue experimenting with different scoping strategies and documenting outcomes. Over time, I hope this post will become a living guide for myself and others on how to *scope better* as a tech lead.
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** llm prompt to improve market value                              :noexport:
-I work on machine learning infra area. I want to pick problems strategically, so that I can build expertise in this area and bring market value.
-
-Work on ML infra reliability, what are the top challenges
-** local notes                                                     :noexport:
-*** [#A] didn't think big enough or run out of ideas: other teams want to help, but there are no work items
-*** Some problems are doom to hard to fix.
-e.g: ops heavy - trunk health, metadata, etc.
-*** slow to go the details
-For HD feature management, I know all the context. But takes quite a while to create a one-pager for group discussions.
-
-Similar for feature metadata management
-*** [#A] difficult to manage the complexity and articulate it well for the audience to comment
-*** target on the most important problems, instead of less critical ones; but within you realm
-*** SWE always have more shining projects
-*** avoid being scared, then play safe
-*** [#A] skip the non-critical problems/questions
 * Look Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better
@@ -566,133 +396,101 @@ Connecting better at work is both a **skill and a habit**. I make it automatic w
 
 At the end of each week, I reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
 ** local notes                                                     :noexport:
-* Using LLMs to Boost Infra IC6 Impact
-:PROPERTIES:
-:EXPORT_FILE_NAME: ic6-use-llm
-:EXPORT_DATE: 2025-10-05
-:END:
-URL: https://quantcodedenny.com/posts/ic6-use-llm/
-** 1. Introduction & Common Pitfalls
-Being an IC6 Infra Engineer in a large corporate environment isn’t just about writing code.
-It’s about *driving systemic impact*, ensuring reliability, and influencing across teams.
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* Scope Better At Work                                             :noexport:
+URL: https://quantcodedenny.com/posts/scope-better/
+** Introduction
+For a successful tech lead, it usually has four steps: [[https://quantcodedenny.com/posts/scope-better/][scope better]] -> do better -> [[https://quantcodedenny.com/posts/look-better/][look better]] -> [[https://quantcodedenny.com/posts/connect-better/][connect better]].
 
-Common pitfalls IC6s face:
-- Staying too long in a bad setup
-- Picking the wrong problem or direction
-- Not leveraging your network
-- Lacking structured thinking and clear framing
-- Execution-only mindset without strategic reflection
+One of the hardest skills to master as a tech lead is *scoping*—understanding the right problems to solve, sizing them correctly, and aligning them with team capacity and organizational priorities. Poor scoping leads to wasted effort, missed deadlines, or over-committing your team. On the other hand, good scoping sets the foundation for execution, influence, and impact.
 
-LLMs can amplify thinking, communication, and operational impact — but only if used strategically.
-** 2. Strategic Thinking & Problem Framing
-*** Goal
-Find the right problems, understand constraints, and align work with org priorities.
-*** Key IC6 Tasks
-- Identify impactful problems vs “noise” early
-- Map stakeholders, incentives, and org-level priorities
-- Anchor decisions to business/infra impact to gain support
-- Preempt trade-offs, clarify ownership, and define measurable success
-- Understand dependencies and design systems for resilience
-*** LLM Leverage
-- Summarize org strategy documents and leadership updates
-- Highlight blind spots, alternative scenarios, or potential misalignments
-- Map upstream/downstream dependencies and risks
-*** LLM Prompts
-#+BEGIN_SRC
-Summarize key priorities from the last 3 leadership updates. Highlight potential conflicts or dependencies for the model serving infra project.
-Compare three ML infra designs. List both technical and organizational trade-offs, including team dependencies and approval requirements.
-#+END_SRC
-** 3. Driving Execution & Operational Excellence
-*** Goal
-Deliver high-impact outcomes while managing complexity, reliability, and constraints.
-*** Key IC6 Tasks
-- Lead SEV triage, postmortems, and pre-mortems (3 failure modes + mitigations)
-- Build guardrails, observability, and incremental improvements
-- Identify bottlenecks and make unfixable issues fixable
-- Prioritize high-impact tasks over low-leverage urgencies
-- Balance speed vs thoroughness based on context
-*** LLM Leverage
-- Summarize SEV logs and recurring failure patterns
-- Generate checklists or scripts to reduce manual effort
-- Stress-test assumptions and simulate outcomes
-*** Example Prompt
-#+BEGIN_SRC
-Analyze the last 3 SEVs and summarize recurring failure patterns. Suggest automated mitigation strategies.
-Simulate outcomes for project trade-offs and highlight hidden risks.
-#+END_SRC
-** 4. Influence, Mentorship & Collaboration
-*** Goal
-Multiply impact beyond individual contribution through clear communication, mentorship, and collaboration.
-*** Key IC6 Tasks
-- Mentor IC5s and IC4s; document best practices
-- Share work-in-progress documents and collect feedback
-- Lead without authority: build trust and credibility
-- Focus discussions on important issues, avoid distractions
-- Synthesize before commenting; anticipate director-level perspective
-*** LLM Leverage
-- Generate mock scenarios for training or design review exercises
-- Polish drafts, surface unclear points, summarize patterns and lessons
-*** Example Prompt
-#+BEGIN_SRC
-Create a mock SEV scenario for an IC5 on model serving infra, highlighting operational risks and trade-offs.
-Draft a proposal explaining why a new caching pattern reduces errors and aligns with org reliability goals.
-#+END_SRC
-** 5. Continuous Learning & Reflection
-*** Goal
-Adapt faster than evolving systems and org priorities.
-*** Key IC6 Tasks
-- Write weekly reflections: what worked, what failed, lessons learned
-- Share distilled lessons with team via Slack/email
-- Document playbooks, runbooks, and guardrails
-- Analyze recurring blind spots from SEVs and design reviews
-*** LLM Leverage
-- Synthesize reflections into principles or concise takeaways
-- Generate reflection prompts to improve decision-making
-- Highlight recurring gaps in personal or team processes
-*** LLM Prompts
-#+BEGIN_SRC
-Analyze my last 3 SEVs and identify patterns I tend to overlook.
-Based on recent design reviews, highlight recurring gaps and suggest learning exercises.
-#+END_SRC
-** 6. Mastering AI/LLM for IC6 Impact
-*** Goal
-Use AI as a force multiplier to improve quality, speed, and strategic insight.
-*** Mindset
-- Be a learner, adapter, synthesizer: knowledge + action + insight = value
-- Leverage AI to amplify, not replace thinking
-- Embrace uncertainty: resilience and curiosity are superpowers
-*** Top Skills
-- Meta-learning: adapt to new tools, models, frameworks
-- Human-centric insight: understand real problems
-- Interpersonal & systems interaction: collaborate effectively
-- Creative & strategic thinking: evaluate ideas and trade-offs
-- Adaptability & flexibility: pivot as org and tech evolve
-- Resilience & growth mindset: embrace failures and learn
-*** LLM Master Prompt
-#+BEGIN_SRC
-You are my senior staff+ mentor and leadership coach.
-Help me analyze ambiguous problems, sharpen judgment, and elevate thinking beyond execution.
+This blog post is my personal journal on learning to *scope better*. I plan to keep updating it with new experiences, reflections, and frameworks as I encounter different challenges.
+** Why Scoping Matters
+Scoping is more than estimating timelines. It’s about:
 
-Output:
-- Reframe: strategic restatement of issue
-- Key Dimensions: incentives, risks, org politics, ROI
-- Critical Questions: sharpen judgment
-- Options & Tradeoffs: possible paths with pros/cons
-- Recommendation: pragmatic advice
+- Choosing the right problems – Focus on work that delivers meaningful impact.
+- Defining clear boundaries – Avoid scope creep and ensure deliverables are realistic.
+- Aligning expectations – Make sure stakeholders, peers, and the team understand the “what” and “why.”
+- Maximizing leverage – Prioritize work that scales or unlocks further opportunities.
+** My Approach to Scoping
+I’ve found a few practical techniques that help me scope better:
 
-Use in meetings, proposals, or influencing discussions.
-#+END_SRC
-** 7. Conclusion
-IC6 Infra success is about *systemic impact, reliability, and influence*, not just coding.
+- Start with the problem, not the solution.
+  - Ask: "What’s the problem we are really trying to solve?"
+- Break work into milestones.
+  - Large projects can be intimidating; splitting them into digestible chunks helps estimate more accurately.
+- Validate assumptions early.
+  - Run experiments, talk to users, or gather data to avoid over-committing to uncertain work.
+- Use a "P0-P1-P2" framework.
+  - Clearly identify the highest priority work versus nice-to-have work.
+- Learn from past projects.
+  - Keep track of what was over- or under-scoped and adjust future estimates.
+** Finding Good Problems to Solve
+A critical part of scoping is *finding good problems to tackle*. Some ways I approach this:
 
-LLMs act as a *force multiplier* — helping you:
-- Understand incentives and org priorities
-- Map constraints and trade-offs
-- Build durable levers and guardrails
-- Reflect and learn continuously
+- Look for problems with high leverage—fixes or features that benefit multiple teams or users.
+- Focus on repetitive pain points that slow down the org or team.
+- Seek ambiguous challenges where clarity and leadership can make a difference.
+- Align with org goals to ensure impact is recognized and resources are available.
+** Lessons Learned
+- It’s iterative.
+  - Scoping is rarely perfect the first time. Adjust as new information arrives.
+- Communication is key.
+  - A well-scoped project is useless if the team and stakeholders don’t understand it.
+- Balance ambition and realism.
+  - Stretch goals are fine, but over-promising hurts credibility.
+** Next Steps
+I will continue experimenting with different scoping strategies and documenting outcomes. Over time, I hope this post will become a living guide for myself and others on how to *scope better* as a tech lead.
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** Success Stories                                                 :noexport:
+1. **Feature Cleanup & Bad Feature Governance**
+    - Core Strength Demonstrated: Business Problem Focus
+    - Challenge: Legacy and unused features caused inefficiencies and stale data risks.
+    - Action: Built a reliable feature usage lineage table, automated cleanup, and implemented rapid mitigation plans.
+    - Impact: Reduced stale features by X%, minimized downstream errors, and saved engineers’ time.
 
-Applying this condensed framework ensures high-leverage focus and scalable impact across systems and teams.
-** local note                                                      :noexport:
+2. **Feature Metadata Service**
+    - Core Strength Demonstrated: End-to-End Ownership & Cross-Team Influence
+    - Challenge: Lack of a single source of truth (SoT) for feature metadata made management and discovery difficult.
+    - Action: Built a centralized feature metadata service covering both static and runtime metadata.
+    - Impact: Enabled consistent feature management, improved discoverability, and reduced errors in feature usage across multiple ML teams.
+
+3. **End-to-End Feature Infra Monitoring**
+    - Core Strength Demonstrated: End-to-End Ownership & Cross-Team Influence
+    - Challenge: Monitoring was fragmented across feature generation, serving, and model evaluation.
+    - Action: Designed and implemented a comprehensive monitoring framework covering generating, serving, and model sides.
+    - Impact: Enabled early detection of issues, reducing pipeline downtime and improving overall feature reliability.
+
+4. **Data Pipeline Push at Scale**
+    - Core Strength Demonstrated: Collaborative & Fair Partnership
+    - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
+    - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
+    - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
+** local notes                                                     :noexport:
+*** [#A] didn't think big enough or run out of ideas: other teams want to help, but there are no work items
+*** Some problems are doom to hard to fix.
+e.g: ops heavy - trunk health, metadata, etc.
+*** slow to go the details
+For HD feature management, I know all the context. But takes quite a while to create a one-pager for group discussions.
+
+Similar for feature metadata management
+*** [#A] difficult to manage the complexity and articulate it well for the audience to comment
+*** target on the most important problems, instead of less critical ones; but within you realm
+*** SWE always have more shining projects
+*** avoid being scared, then play safe
+*** [#A] skip the non-critical problems/questions
+learning how to learn
+adapt to change
+resilience
+learn how to figure out what people want
+how to interact in the world
+
+这些生活体悟，对我很有启发。帮我找到更多类似的体悟，并给出具体示例
+- 设立宏大目标可以激励自己和他人: 大目标提供方向感，让日常小努力不至于迷失。
+- 千万不要提前焦虑，事情会以奇怪的方式解决
+- 生活要做减法
+- take the best advantage and enjoy what you already have
+- minimalist can improve your freedom
 *** doing a task(not chore): think and generalize in a prompt -> do it -> discuss with LLM for this task
 *** guiding questions
 - If this problem disappears, who benefits?
@@ -700,3 +498,134 @@ Applying this condensed framework ensures high-leverage focus and scalable impac
 *** guide attention to the right problems
 *** Using tension as signal for missing clarity, not personal attack.
 *** Don’t use AI to automate — use it to amplify thinking.
+* Scope Better At Work
+:PROPERTIES:
+:EXPORT_FILE_NAME: scope-better
+:EXPORT_DATE: 2025-11-10
+:END:
+URL: https://quantcodedenny.com/posts/scope-better/
+
+For a successful tech lead, it usually has four steps: **scope better → do better → look better → connect better.**
+
+This post focuses on the first step — **scoping better**, the foundation of high-leverage impact.
+---
+** 1️⃣ Why Scoping Matters
+Good scoping defines where you play and what you ignore.
+A bad scope drains energy; a good scope compounds momentum.
+
+- Scoping well means finding *leverage* — problems that are painful, systemic, and aligned with org priorities.
+- As an IC6, your job is not to do more. It’s to identify *which problem* matters most and ensure it gets solved, even if not by you.
+- A well-scoped problem makes execution calm, credible, and measurable.
+
+---
+** 2️⃣ Start From Self: My Context and Strengths
+> The best scoping starts from self-awareness. You can’t choose the right battles if you don’t know your strengths or goals.
+
+- **My Strengths:** I’m systematic, calm under pressure, and good at connecting technical depth to reliability outcomes.
+  → So I should scope problems that require pattern recognition and systemic fixes, not just reactive firefighting.
+- **My Weakness:** I tend to over-invest in execution once scoped — so I need to *rescope regularly* and delegate earlier.
+- **My Long-term Goal:** Become a staff+ engineer who drives reliability and leverage across Ads ML Infra.
+  → This means picking problems that *shape systems and culture*, not just short-term delivery wins.
+- **My Personal Constraint:** Limited bandwidth — I can only own 1–2 P0s at a time.
+  → So I must be ruthless about focus and say “no” more often.
+
+Scoping from self-awareness helps me find **aligned problems** — where my strengths, ambitions, and team goals intersect.
+
+---
+** 3️⃣ Scoping Mindset
+- Ask: “If we fix this, what gets unblocked for others?”
+- Focus on *business leverage*, not technical elegance.
+- Anchor success to observable, measurable outcomes.
+- Simplify scope until it feels almost boring — that’s when clarity emerges.
+- Good scoping creates *calm alignment*, not more meetings.
+
+---
+** 4️⃣ Focus On P0 At Work
+> Practical lessons that help me stay centered and effective in noisy environments.
+
+- Always clarify the **real P0** — the one thing that truly moves the metric that matters.
+- **Say no early.** Protect focus. Every “yes” adds cognitive debt.
+- **Don’t rush to execution.** Step back to see system-level issues first.
+- **Ask two key questions:**
+  - “Which of these problems will still matter next half?”
+  - “If I fix this, what downstream pain disappears?”
+- **Protect mental space.** Calm reflection often reveals the real root cause faster than any debug session.
+- **Treat scoping as a repeatable skill.** After each project, I write a 3-line reflection on what was scoped well vs. poorly — this builds intuition over time.
+
+#+BEGIN_COMMENT Updated
+**Recent Key Learnings**
+> A few reflections from recent halfs that changed how I scope.
+
+- *Turn delivery into ownership.*
+  Write a **living charter** for each project — purpose, boundaries, metrics, and long-term owner.
+- *Make success tangible.*
+  Express impact in **business or system reliability terms**, not just completion.
+- *Start with charter, not project.*
+  Define “why this matters” before defining milestones.
+- *Re-scope continuously.*
+  Every quarter, check if the problem still matches current org priorities.
+- *Ask better questions.*
+  “Who benefits?” “What pain disappears?” “Is this worth owning next half?”
+#+END_COMMENT
+
+---
+** 5️⃣ How I Scope in Practice
+- Review SEVs and postmortems → find recurring root causes.
+- Observe where teams spend time firefighting → those are leverage points.
+- Use LLMs to summarize org updates → spot alignment and gaps.
+- Reframe “what’s broken” into “what’s worth fixing.”
+- Pick 1–2 themes per half — anything beyond that is distraction.
+- Validate early with your manager or cross-functional leads before investing deeply.
+
+---
+** 6️⃣ My Weekly Scoping Routine
+- 🧠 Each Friday: write top 3 high-impact problems I’ve noticed.
+- 📊 Rank by **impact × feasibility × alignment**.
+- 🤝 Share one scoping note with my manager for calibration.
+- 🔁 End of month: reflect on what was scoped well or drifted.
+
+---
+** 7️⃣ Outcome
+When I scope better:
+- I work on fewer but more meaningful problems.
+- I feel calmer and less reactive under pressure.
+- I create compounding value through reusable frameworks, not just one-off wins.
+- I grow trust as someone who can *see clearly and lead calmly.*
+* Focus On P0 At Work                                              :noexport:
+URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
+** My Goal
+I establish myself as a tech lead in ML infra with two main goals:
+1. Work with **market value** — skills and outcomes recognized externally for career mobility.
+2. Minimize **mental stress** — maintain well-being while delivering impact. More reading: [[https://quantcodedenny.com/posts/eq-playbook/][stress less, lead better]].
+** My Core Strengths
+1. **Self-Accountability**: Take full responsibility for both the work I commit to and the choices I decline, ensuring clarity and ownership in outcomes.
+2. **Resiliency**: Maintain determination and focus in the face of obstacles, adapting strategies while keeping long-term goals intact.
+3. **Impact-Driven Execution**: Prioritize opportunities that create measurable business wins, balancing scope with available bandwidth.
+4. **Collaborative Partnership (Light)**: Work effectively with peers and cross-functional teams by aligning on shared goals and resolving conflicts constructively.
+** My Growth Areas
+1. **Communicate Clearly & Persuasively**: Align teams on goals and expectations; Summarize my work’s problem, solution, and impact concisely for directors, while keeping technical credibility for peers.
+2. **Prioritize High-Leverage Work**: Focus my technical expertise on initiatives that drive measurable impact; delegate or decline low-value work
+3. **Collaborate Effectively with Diverse Stakeholders**: Adapt communication style for different roles and personalities; Build alignment and influence without creating friction.
+4. **Generalize, Share, & Mentor**: Capture patterns across my projects and share insights to scale impact; Mentor peers and document lessons learned for team adoption.
+** Recent Key Learnings
+1. **Leverage leadership and structures**
+   - Tried bottom-up charter building, but XFN teams already had dedicated roles (reliability, efficiency, DevX).
+   - Learning: Tap leadership and structures early to avoid prolonged struggles.
+
+2. **Set bigger, strategic business goals**
+   - Focused too narrowly on immediate team bandwidth.
+   - Example: HD feature cleanup → incremental changes vs. holistic cleanup.
+   - Learning: Aim for system-level impact, not just local optimizations.
+
+3. **Focus on high-impact technical challenges**
+   - Spent energy on headcount and conflicts where leverage was low.
+   - Learning: Invest where technical expertise makes the most difference.
+
+4. **Be more confident and assertive in requests**
+   - Often accepted XFN deprioritization of my asks.
+   - Example: Needed output validation (compilation) and feature checks (serving).
+   - Learning: Advocate confidently for necessary changes, not just support passively.
+
+5. **Spend more time generalizing problems and exchanging knowledge**
+   - Solved problems in isolation, missed patterns and broader exchanges.
+   - Learning: Step back, find repeatable insights, and share across teams.

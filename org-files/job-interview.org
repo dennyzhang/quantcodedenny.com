@@ -168,7 +168,10 @@ Content:
 [INSERT BLOG CONTENT HERE]
 #+END_SRC
 
-
+* grow system design capability organically
+** [#A] hold project design review, and iterate the design
+** talk with peer TLs to understand and learn
+** [#A] SEV review - understand the problem and discuss improvement plan
 * Prepare Behavior Interview                                       :noexport:
 Behavior/Culture → 练 复用故事库，不现编。
 

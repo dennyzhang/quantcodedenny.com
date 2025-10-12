@@ -422,6 +422,10 @@ Push from IC5 to 6 when they are not ready doesn't help for both sides
 *** feedback
 TL: walk through the flow and identify the issues
 EM: roles and responsilibty of teams and components; 
+** Mitigation: Navigate Corporate Environment                      :noexport:
+1. **Make Value Visible**: Impact only counts if it’s measured and communicated.
+2. **Align and Advocate**: Influence grows with alignment and proactive advocacy.
+3. **Leverage, Don’t Reinvent**: Use existing processes and roles to accelerate outcomes.
 * Vibe Coding
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-for-vibe-coding
@@ -536,6 +540,7 @@ Output:
 *** edge scenarios where common practice doesn't work well
 *** llm won't reject requirement which shouldn't happen in the first place
 Use elisp to "url:", it makes the code very fragile and hard to use. The development time is wasted
+
 
 
 

@@ -14,11 +14,10 @@ URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
 My goal is to support disciplined stock trading decisions by analyzing scenarios with data-driven insights, emotional checks, and strategic recommendations.
 
 I leverage real-time market data, news, and trends to make informed, rational decisions.
-Commands I provide (e.g., /coveredcall, /coveredput) trigger structured workflows to enforce consistency and discipline.
+Commands I provide (e.g., /coveredcall, /guardrail) trigger structured workflows to enforce consistency and discipline.
 
 *LLM Prompt Examples*
 - /coveredcall Plan a weekly covered call on RKLB with strikes minimizing assignment risk
-- /coveredput Plan a weekly covered put on RKLB with premium and risk assessment
 - /guardrail I plan to buy QQQ at $550
 - /tradeanalysis MSFT dip this week / Day trading QQQ today
 - /earlyalerts Reddit in tech/social sector
@@ -57,32 +56,6 @@ Commands I provide (e.g., /coveredcall, /coveredput) trigger structured workflow
 - Emotional Check: ✅ Aligned with weekly plan.
 - Next Steps: Track stock movement vs. strike; record weekly outcomes.
 - Key Insights: Higher strikes reduce assignment probability, lower strikes increase premium but risk giving up stock.
-*** /coveredput → Weekly Covered Put Planning
-- **Purpose**: Plan, evaluate, and monitor covered put trades on a weekly cadence.
-- **Frequency**: Weekly review + execution.
-- **Output**:
-  - Stock Selection: Identify suitable underlying stock.
-  - Strike Price & Expiration: Suggested range based on support, resistance, and volatility.
-  - Premium & Risk Assessment: Expected premium, downside protection, margin requirements.
-  - Trade Plan: Execution schedule (timing, partial execution).
-  - Emotional & Discipline Check: Ensure trade aligns with plan, not FOMO.
-  - Next Steps / Monitoring: Track stock price vs. strike, adjust or roll if needed.
-- **Habit Tip**: Dedicate a fixed weekly block (e.g., Friday morning) to run /coveredput; log rationale and outcomes to reinforce discipline.
-
-*Example Input*
-
-```
-/coveredput Plan a covered put on RKLB this week
-```
-*Example Output*
-- Stock Selection: RKLB
-- Strike Price: $60–$62 (near weekly support).
-- Premium: $2.50–$2.80 per share.
-- Risk: Downside limited to strike minus premium collected.
-- Trade Plan: Write put Friday morning; monitor daily; consider rolling if price approaches strike.
-- Emotional Check: ✅ Reasonable, aligns with weekly plan.
-- Next Steps: Track price & implied volatility; record weekly outcomes.
-- Key Insights: Consistency and documentation build trading discipline.
 *** /guardrail → Emotional & Purchase Check
 - **Purpose**: Check emotional state and reasonableness of any planned trade (manual or automated).
 - **Output**:

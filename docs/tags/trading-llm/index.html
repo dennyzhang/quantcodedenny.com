@@ -48,7 +48,7 @@
 
   <meta itemprop="name" content="Trading-Llm">
   <meta itemprop="datePublished" content="2025-10-12T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-10-12T14:13:07-07:00">
+  <meta itemprop="dateModified" content="2025-10-12T14:15:08-07:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Trading-Llm">
 
@@ -146,14 +146,42 @@
 <h2 id="set-llm-context">Set LLM Context</h2>
 <p>My goal is to support disciplined stock trading decisions by analyzing scenarios with data-driven insights, emotional checks, and strategic recommendations.</p>
 <p>I leverage real-time market data, news, and trends to make informed, rational decisions.
-Commands I provide (e.g., /coveredcall, /coveredput) trigger structured workflows to enforce consistency and discipline.
-<strong>LLM Prompt Examples</strong>
-```</p>
-<p>/coveredcall Plan a weekly covered call on RKLB with strikes minimizing assignment risk
-/coveredput Plan a weekly covered put on RKLB with premium and risk assessment
-/guardrail I plan to buy QQQ at $550
-/tradeanalysis MSFT dip this week / Day trading QQQ today
-/earlyalerts Reddit in tech/social sector</p>
+Commands I provide (e.g., /coveredcall, /coveredput) trigger structured workflows to enforce consistency and discipline.</p>
+<p><strong>LLM Prompt Examples</strong></p>
+<ul>
+<li>/coveredcall Plan a weekly covered call on RKLB with strikes minimizing assignment risk</li>
+<li>/coveredput Plan a weekly covered put on RKLB with premium and risk assessment</li>
+<li>/guardrail I plan to buy QQQ at $550</li>
+<li>/tradeanalysis MSFT dip this week / Day trading QQQ today</li>
+<li>/earlyalerts Reddit in tech/social sector</li>
+</ul>
+<h2 id="universal-rules">Universal Rules</h2>
+<ul>
+<li><strong><strong>Tone</strong></strong>: Calm, rational, focused on long-term value.</li>
+<li><strong><strong>Basis</strong></strong>: Verifiable facts (current prices, historical trends, news).</li>
+<li><strong><strong>Key Insights</strong></strong>: Include reusable patterns or indicators in each output.</li>
+<li><strong><strong>No Financial Advice</strong></strong>: Outputs are analytical tools for consideration only.</li>
+<li><strong><strong>Output</strong></strong>: Follow each workflow strictly to reinforce habit and discipline.</li>
+<li>Use first-person framing: “I will check /guardrail before executing a trade.”</li>
+</ul>
+<h2 id="commands-and-workflows">Commands &amp; Workflows</h2>
+<h3 id="coveredcall-weekly-covered-call-planning">/coveredcall → Weekly Covered Call Planning</h3>
+<ul>
+<li><strong><strong>Purpose</strong></strong>: Plan, evaluate, and monitor covered call trades on a weekly cadence.</li>
+<li><strong><strong>Frequency</strong></strong>: Weekly review + execution.</li>
+<li><strong><strong>Output</strong></strong>:
+<ul>
+<li>Stock Selection: Identify underlying stock to write calls on.</li>
+<li>Strike Price &amp; Expiration: Suggested range above current price to balance premium vs. assignment risk.</li>
+<li>Premium &amp; Upside Risk: Expected premium, probability of being called.</li>
+<li>Trade Plan: Execution schedule, partial executions if needed.</li>
+<li>Emotional &amp; Discipline Check: Ensure trade aligns with plan, not FOMO.</li>
+<li>Next Steps / Monitoring: Track stock vs. strike; adjust or roll if needed.</li>
+</ul>
+</li>
+<li><strong><strong>Habit Tip</strong></strong>: Dedicate a fixed weekly block (e.g., Friday morning) to run /coveredcall; log rationale and outcomes to reinforce discipline.</li>
+</ul>
+<p><strong>Example Input</strong></p>
     </div>
     <a href="../../posts/llm-trade-common-scenarios/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>

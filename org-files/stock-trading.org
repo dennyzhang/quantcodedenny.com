@@ -10,119 +10,137 @@
 :EXPORT_DATE: 2025-10-12
 :END:
 URL: https://quantcodedenny.com/posts/llm-trade-common-scenarios/
-** Set LLM Context
-My goal is to support disciplined stock trading decisions by analyzing scenarios with data-driven insights, emotional checks, and strategic recommendations.
 
-I leverage real-time market data, news, and trends to make informed, rational decisions.
-Commands I provide (e.g., /coveredcall, /guardrail) trigger structured workflows to enforce consistency and discipline.
+Use AI to plan smarter trading decisions — systematically, calmly, and without emotional bias.
 
-*LLM Prompt Examples*
+This post shows structured prompts to improve weekly options strategies, day trading checks, and long-term signal monitoring.
+- /cashsecuredput Plan a weekly cash-secured put on RKLB with strikes balancing premium and assignment risk
 - /coveredcall Plan a weekly covered call on RKLB with strikes minimizing assignment risk
 - /guardrail I plan to buy QQQ at $550
 - /tradeanalysis MSFT dip this week / Day trading QQQ today
 - /earlyalerts Reddit in tech/social sector
-** Universal Rules
-- **Tone**: Calm, rational, focused on long-term value.
-- **Basis**: Verifiable facts (current prices, historical trends, news).
-- **Key Insights**: Include reusable patterns or indicators in each output.
-- **No Financial Advice**: Outputs are analytical tools for consideration only.
-- **Output**: Follow each workflow strictly to reinforce habit and discipline.
-- Use first-person framing: “I will check /guardrail before executing a trade.”
 ** Commands & Workflows
 *** /coveredcall → Weekly Covered Call Planning
-- **Purpose**: Plan, evaluate, and monitor covered call trades on a weekly cadence.
-- **Frequency**: Weekly review + execution.
-- **Output**:
-  - Stock Selection: Identify underlying stock to write calls on.
-  - Strike Price & Expiration: Suggested range above current price to balance premium vs. assignment risk.
-  - Premium & Upside Risk: Expected premium, probability of being called.
-  - Trade Plan: Execution schedule, partial executions if needed.
-  - Emotional & Discipline Check: Ensure trade aligns with plan, not FOMO.
-  - Next Steps / Monitoring: Track stock vs. strike; adjust or roll if needed.
-- **Habit Tip**: Dedicate a fixed weekly block (e.g., Friday morning) to run /coveredcall; log rationale and outcomes to reinforce discipline.
+Plan a weekly covered call to generate income while controlling assignment risk.
 
-*Example Input*
-
-```
+Example prompt:
+#+begin_example
 /coveredcall Plan a weekly covered call on RKLB with strikes minimizing assignment risk
-```
+#+end_example
 
-*Example Output*
-- Stock Selection: RKLB
-- Strike Price: $65–$68 (comfortably above current price $64.26 to reduce assignment probability)
-- Premium: $1.80–$2.50 per share
-- Upside Risk: Assignment unlikely at this range; you keep stock if price stays below strike.
-- Trade Plan: Write call Friday morning; monitor daily; adjust strike if news drives volatility.
-- Emotional Check: ✅ Aligned with weekly plan.
-- Next Steps: Track stock movement vs. strike; record weekly outcomes.
-- Key Insights: Higher strikes reduce assignment probability, lower strikes increase premium but risk giving up stock.
-*** /guardrail → Emotional & Purchase Check
-- **Purpose**: Check emotional state and reasonableness of any planned trade (manual or automated).
-- **Output**:
-  - Assessment: ✅ (emotionally neutral) or ⚠️ (likely emotional).
-  - Buy? / Execute?: Yes/No.
-  - Confidence: 0–100%.
-  - Reasoning: Market context, stock status, risk considerations.
-  - Suggested Price / Execution Adjustments.
-- **Habit Tip**: Run /guardrail first before any trade; pause if flagged.
+LLM checklist:
+- Recommend strike above current market price based on volatility and chart resistance.
+- Estimate probability of being called and premium yield.
+- Suggest rolling/exit triggers if price approaches strike.
+- Confirm rationale aligns with holding vs. selling preference.
 
-*Example Input*
-```
+Quick Decision Checklist:
+- [ ] Stock not in breakout mode.
+- [ ] IV rank > 25% (higher IV = higher premium).
+- [ ] Strike 5–10% above current price for low assignment risk.
+- [ ] Weekly premium > 0.8% of stock price if possible.
+- [ ] Defined plan for rolling or accepting assignment.
+*** /cashsecuredput → Weekly Cash-Secured Put Planning
+Plan a weekly cash-secured put to accumulate shares at a discount while collecting premium.
+
+Example prompt:
+#+begin_example
+/cashsecuredput Plan a weekly cash-secured put on RKLB with strikes balancing premium and assignment risk
+#+end_example
+
+LLM checklist:
+- Suggest strike & expiry balancing yield and assignment probability.
+- Estimate premium and probability of assignment.
+- Flag event risk (earnings, tariffs, large announcements).
+- Remind of capital lockup and required cash to cover assignment.
+
+Quick Decision Checklist:
+- [ ] Stock stable or in uptrend.
+- [ ] IV rank > 30% (prefer higher IV for better premium).
+- [ ] Strike 5–10% below current price.
+- [ ] Target 0.8–1.5% weekly ROI (adjust to risk tolerance).
+- [ ] No major event risk this week.
+*** /earlyalerts → Emerging Signals (6-month horizon)
+Scan for early signals in companies/sectors using hiring, patents, filings, and fund flows.
+
+Example prompt:
+#+begin_example
+/earlyalerts Analyze early signals for Reddit in tech/social sector
+#+end_example
+
+LLM checklist:
+- Synthesize signals: hiring spikes, patent filings, executive hires, fund inflows.
+- Estimate confidence level and suggested monitoring cadence.
+- Suggest concrete next steps: filings to watch, KPIs (DAU, revenue indicators).
+
+Quick Decision Checklist:
+- [ ] Multiple independent signals (news + hiring + filings).
+- [ ] No single-source hype (avoid false positives).
+- [ ] Monitoring plan: what to check weekly/monthly.
+*** /guardrail → Emotional & Purchase Check (Always run before trades)
+Check for FOMO/panic and validate trade reasonableness.
+
+Example prompt:
+#+begin_example
 /guardrail I want to buy QQQ at $550
-```
-*Example Output*
-- Assessment: ✅
-- Buy?: Yes
-- Confidence: 85%
-- Reasoning: QQQ tracks tech leaders; $550 near support; macro risks moderate.
-- Suggested Price: $545–$555.
-- Key Insights: Tying trades to support/resistance prevents impulsive decisions.
+#+end_example
+
+LLM output structure:
+- Assessment: ✅ (neutral) / ⚠️ (emotional)
+- Buy? / Execute?: Yes / No
+- Confidence: 0–100%
+- Reasoning: Market context, catalysts, volatility, risk factors
+- Suggested Price / Execution Adjustments
+- Quick Habit: If flagged ⚠️, wait 24 hours or reduce order size / split execution.
+
+Mini Checklist:
+- [ ] Is this trade plan-based or reactionary?
+- [ ] Are technical or fundamental reasons documented?
+- [ ] Is position sizing aligned with risk rules?
 *** /tradeanalysis → Dips & Intraday Opportunities
-- **Purpose**: Identify short-term trading opportunities via dips or intraday trends.
-- **Output**:
-  - Trade Opportunity?: Yes/No.
-  - Confidence: 0–100%.
-  - Reasoning: Historical dips, intraday trends, liquidity, support/resistance.
-  - Suggested Entry/Exit: Buy range, stop-loss, target price.
-- **Habit Tip**: Confirm both dip signals and volume patterns; check intraday VWAP.
+Identify short-term dip buys or intraday setups (QQQ, sector ETFs, or leaders).
 
-*Example Input*
-```
-/tradeanalysis MSFT dip this week / Day trading QQQ today
-```
-*Example Output*
-- Trade Opportunity? Yes
-- Confidence: 88%
-- Reasoning: MSFT retraced 7% from highs; intraday momentum in QQQ shows support at $598.
-- Suggested Entry: MSFT $513–$520; QQQ $598–$600.
-- Stop-Loss: MSFT $510; QQQ $595.
-- Target: MSFT $525; QQQ $605–$607.
-- Key Insights: Volume spikes + support/resistance alignment confirm entries.
-*** /earlyalerts → Emerging Signals
-- **Purpose**: Detect pre-hype, long-term opportunities (6-month horizon).
-- **Output**:
-  - Potential Alert?: Yes/No.
-  - Confidence: 0–100%.
-  - Reasoning: Signals from patents, hiring, fund flows, or news trends.
-  - Next Steps: Monitor filings, metrics, or institutional activity.
-- **Habit Tip**: Review emerging signals weekly to stay ahead of trends.
+Example prompt:
+#+begin_example
+/tradeanalysis MSFT dip this week
+/tradeanalysis Day trading QQQ today
+#+end_example
 
-*Example Input*
-```
-/earlyalerts Reddit in tech/social sector
-```
-*Example Output*
-- Potential Alert? Yes
-- Confidence: 75%
-- Reasoning: Rising AI moderation patent activity and 20% increase in engineering hiring; early institutional inflows noted.
-- Next Steps: Track SEC filings and user growth metrics quarterly.
-- Key Insights: Use multiple data sources to avoid false positives.
-** Key Practices
-- Maintain consistent **weekly & daily review habits**: /coveredcall and /coveredput weekly; /guardrail and /tradeanalysis daily.
-- Always **document rationale** for each trade to reinforce discipline.
-- Use **first-person framing**: “I will check /guardrail before buying.”
-- Integrate alerts and signals into a **single weekly dashboard** to reduce cognitive load.
-- Keep a simple checklist for each command to make execution frictionless.
+LLM checklist:
+- Confirm dip depth vs. recent ranges (5–10% typical dip band).
+- Check volume, VWAP, and liquidity for execution feasibility.
+- Provide suggested entry range, stop-loss, and profit target.
+- Note market-open / close behavior or news events that affect intraday flow.
+
+Quick Decision Checklist:
+- [ ] Volume supports the move (no thin liquidity).
+- [ ] Entry near support/VWAP with stop below clear level.
+- [ ] Reward:risk meets minimum threshold (e.g., 2:1).
+- [ ] No conflicting macro/news in the session.
+** Weekly & Daily Routine
+- Monday: Run `/cashsecuredput` to plan cash-secured puts for the week.
+- Thursday/Friday: Run `/coveredcall` to harvest premium if holding shares.
+- Daily before trading: Run `/guardrail` for any planned trades; run `/tradeanalysis` for intraday opportunities.
+- Weekly: Run `/earlyalerts` to refresh long-term watchlist and re-prioritize ideas.
+- Logging: Record rationale, strikes, premiums, outcomes in a simple weekly journal.
+** Reflection Prompts (Weekly)
+- Did AI help me avoid emotional trades this week?
+- Were strike selections consistent with my risk profile?
+- What trade(s) deviated from plan and why?
+** Universal Rules
+- **Tone:** Calm, rational, focused on long-term value.
+- **Basis:** Verifiable facts (current prices, historical trends, news).
+- **Key Insights:** Include reusable patterns or indicators in each output.
+- **No Financial Advice:** Outputs are analytical tools for consideration only.
+- **Output Discipline:** Follow each workflow to reinforce habit and consistency.
+- Use first-person framing: “I will check /guardrail before executing a trade.”
+** Common Pitfalls
+- Selling puts on clear downtrends without a trend-reversal thesis.
+- Writing calls too close to resistance when you want to keep the stock.
+- Ignoring assignment cash requirements for cash-secured puts.
+- Trading through major events (earnings, tariffs) without adjustments.
+** Key Takeaway
+AI enforces structured thinking and consistent habits. Use the commands to run repeatable checks, document decisions, and improve trading quality over time.
 * Check Stock Sentiment With AI
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-stock-sentiment

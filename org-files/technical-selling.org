@@ -52,7 +52,7 @@ The key is to **grow visibility and generalize impact organically**, through hab
 - **Focus on Non-Urgent Impact** → Block time weekly to fix recurring pain or document key learnings.
 - **Translate to Market Value** → Frame results in measurable terms (revenue, cost, scale, reliability).
 - **Learn and Share** → Write short notes or posts to spread knowledge and show thought leadership.
-** Market-Value Action Routine
+** Regular Routine
 *** Weekly Habits
 - [ ] **Learn broadly** → Attend 1 SEV or design review; observe recurring problems and system tradeoffs.
 - [ ] **Connect cross-functionally** → Chat with 1 XFN lead to understand context and dependencies.

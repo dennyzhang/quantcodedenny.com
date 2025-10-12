@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-10-11 Sat 22:04 -->
+<!-- 2025-10-11 Sat 22:20 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -200,146 +200,233 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orge0cec97">1. Scope Better At Work</a>
+<li><a href="#org3e8fb8e">1. Scope Better At Work</a>
 <ul>
-<li><a href="#orgd60c341">1.1. Start From Self: My Context and Strengths</a></li>
-<li><a href="#org47fe7f6">1.2. Focus On P0 At Work</a></li>
-<li><a href="#orgafb93cd">1.3. Recent Key Learnings</a></li>
-<li><a href="#org87d1e88">1.4. How I Scope in Practice</a></li>
-<li><a href="#orgff14065">1.5. My Weekly Scoping Routine</a></li>
-<li><a href="#org5616d5a">1.6. Outcome &amp; Why Scoping Matters</a></li>
+<li><a href="#org4241efb">1.1. Introduction</a></li>
+<li><a href="#org4ae53b5">1.2. My Desire &amp; Strength</a></li>
+<li><a href="#org06831e0">1.3. Recent Key Learnings</a></li>
+<li><a href="#org572deb1">1.4. Focus On P0 At Work</a></li>
+<li><a href="#org85a3d20">1.5. Using LLMs to Boost Infra IC6 Impact</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge0cec97" class="outline-2">
-<h2 id="orge0cec97"><span class="section-number-2">1.</span> Scope Better At Work</h2>
+<div id="outline-container-org3e8fb8e" class="outline-2">
+<h2 id="org3e8fb8e"><span class="section-number-2">1.</span> Scope Better At Work</h2>
 <div class="outline-text-2" id="text-1">
 
 URL: <a href="https://quantcodedenny.com/posts/scope-better/">https://quantcodedenny.com/posts/scope-better/</a>
-
-
-For a successful tech lead, it usually has four steps: <b><b>scope better → do better → look better → connect better.</b></b>
-
-
-This post focuses on the first step — <b><b>scoping better</b></b>, the foundation of high-leverage impact.
-
-
----
 </div>
-
-<div id="outline-container-orgd60c341" class="outline-3">
-<h3 id="orgd60c341"><span class="section-number-3">1.1.</span> Start From Self: My Context and Strengths</h3>
+<div id="outline-container-org4241efb" class="outline-3">
+<h3 id="org4241efb"><span class="section-number-3">1.1.</span> Introduction</h3>
 <div class="outline-text-3" id="text-1-1">
 
-&gt; The best scoping starts from self-awareness. You can’t choose the right battles if you don’t know your strengths or goals.
-
-<ul class="org-ul">
-<li><b><b>My Strengths:</b></b> Systematic, calm under pressure, and able to connect technical depth to reliability outcomes.  
-→ Scope problems requiring pattern recognition and systemic fixes.</li>
-<li><b><b>My Weakness:</b></b> Tend to over-invest in execution once scoped — need to <b>rescope regularly</b> and delegate earlier.</li>
-<li><b><b>My Long-term Goal:</b></b> Become a staff+ engineer driving reliability and leverage across Ads ML Infra.  
-→ Pick problems that <b>shape systems and culture</b>, not just short-term wins.</li>
-<li><b><b>My Personal Constraint:</b></b> Limited bandwidth — can only own 1–2 P0s at a time.  
-→ Be ruthless about focus and say “no” often.</li>
-</ul>
+For a successful tech lead, there are four steps: <a href="https://quantcodedenny.com/posts/scope-better/">scope better</a> -&gt; do better -&gt; <a href="https://quantcodedenny.com/posts/look-better/">look better</a> -&gt; <a href="https://quantcodedenny.com/posts/connect-better/">connect better</a>.
 
 
----
+One of the hardest skills I’ve learned as a tech lead is <b>scoping</b>:
+<ol class="org-ol">
+<li>Choosing the right problems that deliver meaningful impact.</li>
+<li>Defining clear boundaries to avoid scope creep.</li>
+<li>Aligning expectations across stakeholders, peers, and my team.</li>
+<li>Maximizing leverage by prioritizing work that scales or unlocks future opportunities.</li>
+</ol>
 </div>
 </div>
 
-<div id="outline-container-org47fe7f6" class="outline-3">
-<h3 id="org47fe7f6"><span class="section-number-3">1.2.</span> Focus On P0 At Work</h3>
+<div id="outline-container-org4ae53b5" class="outline-3">
+<h3 id="org4ae53b5"><span class="section-number-3">1.2.</span> My Desire &amp; Strength</h3>
 <div class="outline-text-3" id="text-1-2">
 
-&gt; Practical lessons that help me stay centered and effective in noisy environments.
+<b><b>My Desire</b></b>: I aim to establish myself as a tech lead in ML infra with two main objectives:
+<ul class="org-ul">
+<li>Work with <b><b>market value</b></b>: focus on skills and outcomes recognized externally.</li>
+<li>Minimize <b><b>mental stress</b></b>: maintain well-being while delivering high impact.</li>
+</ul>
 
+
+<b><b>My Core Strengths</b></b>
 <ul class="org-ul">
-<li>Clarify the <b><b>real P0</b></b> — the one thing that truly moves the metric that matters.</li>
-<li><b><b>Say no early.</b></b> Protect focus. Every “yes” adds cognitive debt.</li>
-<li><b><b>Don’t rush to execution.</b></b> Step back to see system-level issues first.</li>
-<li><b><b>Ask two key questions:</b></b>  
-<ul class="org-ul">
-<li>“Which of these problems will still matter next half?”</li>
-<li>“If I fix this, what downstream pain disappears?”</li>
-</ul></li>
-<li><b><b>Protect mental space.</b></b> Calm reflection often reveals the real root cause faster than any debug session.</li>
-<li><b><b>Treat scoping as a repeatable skill.</b></b> After each project, write a 3-line reflection on what was scoped well vs. poorly.</li>
+<li><b><b>Self-Accountability</b></b>: Own work and choices, ensuring clarity in outcomes.</li>
+<li><b><b>Resiliency</b></b>: Adapt strategies and maintain focus under obstacles.</li>
+<li><b><b>Impact-Driven Execution</b></b>: Prioritize opportunities with measurable business wins.</li>
+<li><b><b>Collaborative Partnership</b></b>: Align with peers and cross-functional teams effectively.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgafb93cd" class="outline-3">
-<h3 id="orgafb93cd"><span class="section-number-3">1.3.</span> Recent Key Learnings</h3>
+<div id="outline-container-org06831e0" class="outline-3">
+<h3 id="org06831e0"><span class="section-number-3">1.3.</span> Recent Key Learnings</h3>
 <div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
-<li>Turn delivery into ownership: living charter with purpose, boundaries, metrics, owner.</li>
-<li>Make success tangible: express impact in business or system reliability terms.</li>
-<li>Start with charter, not project: define “why this matters” first.</li>
-<li>Re-scope continuously: every quarter, check alignment with org priorities.</li>
-<li>Ask better questions: “Who benefits?” “What pain disappears?” “Is this worth owning next half?”</li>
+<li><b><b>Leverage leadership and structures</b></b>
+<ul class="org-ul">
+<li>Scenario: Attempted bottom-up charter building, but XFN teams had dedicated roles (reliability, efficiency, DevX).</li>
+<li>Learning: Tap existing leadership and structures early to avoid prolonged struggles.</li>
+</ul></li>
+
+<li><b><b>Set bigger, strategic goals</b></b>
+<ul class="org-ul">
+<li>Scenario: Focused on incremental HD feature cleanup instead of holistic improvements.</li>
+<li>Learning: Aim for system-level impact over local optimizations.</li>
+</ul></li>
+
+<li><b><b>Focus on high-impact technical challenges</b></b>
+<ul class="org-ul">
+<li>Scenario: Spent energy on low-leverage issues like headcount conflicts.</li>
+<li>Learning: Invest where technical expertise creates the most difference.</li>
+</ul></li>
+
+<li><b><b>Be confident and assertive in requests</b></b>
+<ul class="org-ul">
+<li>Scenario: Accepted deprioritization of output validation and serving checks.</li>
+<li>Learning: Advocate confidently for necessary changes.</li>
+</ul></li>
+
+<li><b><b>Generalize problems and share knowledge</b></b>
+<ul class="org-ul">
+<li>Scenario: Solved problems in isolation, missing patterns across teams.</li>
+<li>Learning: Step back, identify repeatable insights, and share broadly.</li>
+</ul></li>
+
+<li><b><b>Avoid getting stuck on low-leverage problems</b></b>
+<ul class="org-ul">
+<li>Scenario: Ops-heavy problems like trunk health, metadata management, or minor feature inefficiencies.</li>
+<li>Learning: Focus energy where my expertise creates leverage; skip low-impact or doomed-to-fail problems.</li>
+</ul></li>
+
+<li><b><b>Clarify complex problems for others</b></b>
+<ul class="org-ul">
+<li>Scenario: HD feature management or feature metadata documentation.</li>
+<li>Learning: Create concise one-pagers to enable efficient group discussion and feedback.</li>
+</ul></li>
+
+<li><b><b>Set ambitious but clear goals</b></b>
+<ul class="org-ul">
+<li>Scenario: Daily or weekly tasks can feel lost without direction.</li>
+<li>Learning: Big goals provide focus and motivation; help align small efforts with meaningful impact.</li>
+</ul></li>
+
+<li><b><b>Use tension as a signal, not stress</b></b>
+<ul class="org-ul">
+<li>Scenario: Disagreements or unclear expectations.</li>
+<li>Learning: Treat discomfort as a sign that clarity is missing; seek clarification rather than reacting personally.</li>
+</ul></li>
+
+<li><b><b>Leverage AI/LLMs to amplify thinking</b></b>
+<ul class="org-ul">
+<li>Scenario: Repetitive analysis, pattern recognition, or decision framing.</li>
+<li>Learning: Use AI to speed up synthesis, not to automate thinking; combine insights with judgment.</li>
+</ul></li>
+
+<li><b><b>Practice minimalism and focus</b></b>
+<ul class="org-ul">
+<li>Scenario: Daily workload feels scattered or overwhelming.</li>
+<li>Learning: Reduce distractions, enjoy what I already have, and focus on high-impact tasks.</li>
+</ul></li>
 </ul>
-
-
----
 </div>
 </div>
 
-<div id="outline-container-org87d1e88" class="outline-3">
-<h3 id="org87d1e88"><span class="section-number-3">1.4.</span> How I Scope in Practice</h3>
+<div id="outline-container-org572deb1" class="outline-3">
+<h3 id="org572deb1"><span class="section-number-3">1.4.</span> Focus On P0 At Work</h3>
 <div class="outline-text-3" id="text-1-4">
+
+Protect my time and focus on what truly matters, leveraging strengths and minimizing stress.
+
 <ul class="org-ul">
-<li>Review SEVs and postmortems → find recurring root causes.</li>
-<li>Observe where teams spend time firefighting → leverage points.</li>
-<li>Use LLMs to summarize org updates → spot alignment and gaps.</li>
-<li>Reframe “what’s broken” into “what’s worth fixing.”</li>
-<li>Pick 1–2 themes per half — anything beyond that is distraction.</li>
-<li>Validate early with manager or XFN leads before investing deeply.</li>
+<li><b><b>Clarify and limit P0s</b></b>
+<ul class="org-ul">
+<li>Scenario: Choosing between system-level vs. local improvements, prioritizing multi-team features.</li>
+<li>Bottlenecks: Estimating impact, stakeholder pressure, fear of missing smaller opportunities.</li>
+<li>How: Score P0 candidates by org-wide impact, scalability, and personal leverage; confirm alignment; revisit quarterly.</li>
+</ul></li>
+
+<li><b><b>Say no strategically</b></b>
+<ul class="org-ul">
+<li>Scenario: Requests outside my domain, minor performance tweaks, firefighting, conflicting stakeholder requests.</li>
+<li>Bottlenecks: Social pressure, judging relative importance, risk of appearing uncooperative.</li>
+<li>How: Communicate P0 alignment, delegate/defer/simplify requests, document boundaries.</li>
+</ul></li>
+
+<li><b><b>Validate early and iterate</b></b>
+<ul class="org-ul">
+<li>Scenario: Ambiguous feature proposals, unclear data requests, untested process changes, or missed deadlines due to over-scoping.</li>
+<li>Bottlenecks: Uncertainty of feasibility, pressure to deliver fast, overconfidence in assumptions, lack of reflection time.</li>
+<li>How: Summarize assumptions and expected impact in a one-pager, run lightweight experiments, align with stakeholders early, and do weekly reflection capturing successes, bottlenecks, missed P0s; adjust focus and communicate updates.</li>
+</ul></li>
 </ul>
-
-
----
 </div>
 </div>
 
-<div id="outline-container-orgff14065" class="outline-3">
-<h3 id="orgff14065"><span class="section-number-3">1.5.</span> My Weekly Scoping Routine</h3>
+<div id="outline-container-org85a3d20" class="outline-3">
+<h3 id="org85a3d20"><span class="section-number-3">1.5.</span> Using LLMs to Boost Infra IC6 Impact</h3>
 <div class="outline-text-3" id="text-1-5">
-<ul class="org-ul">
-<li>🧠 Each Friday: write top 3 high-impact problems noticed.</li>
-<li>📊 Rank by <b><b>impact × feasibility × alignment</b></b>.</li>
-<li>🤝 Share one scoping note with manager for calibration.</li>
-<li>🔁 End of month: reflect on what was scoped well or drifted.</li>
-</ul>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
----
-</div>
-</div>
+<colgroup>
+<col  class="org-left" />
 
-<div id="outline-container-org5616d5a" class="outline-3">
-<h3 id="org5616d5a"><span class="section-number-3">1.6.</span> Outcome &amp; Why Scoping Matters</h3>
-<div class="outline-text-3" id="text-1-6">
+<col  class="org-left" />
 
-Scoping well compounds momentum and reduces wasted effort:
+<col  class="org-left" />
 
-<ul class="org-ul">
-<li>Focus on fewer but <b><b>high-leverage problems</b></b>.</li>
-<li>Make execution calm, credible, and measurable.</li>
-<li>Solve problems that unlock system-level improvements and benefit multiple teams.</li>
-<li>Communicate clearly so stakeholders, peers, and the team understand the “what” and “why.”</li>
-<li>Balance ambition with realism — stretch goals without over-promising.</li>
-<li>Grow trust as someone who <b>sees clearly and leads calmly.</b></li>
-</ul>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Area</th>
+<th scope="col" class="org-left">Key Tasks</th>
+<th scope="col" class="org-left">How I Leverage LLMs</th>
+<th scope="col" class="org-left">Example Prompt</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Strategic Thinking &amp; Problem Framing</td>
+<td class="org-left">Identify impactful problems, map stakeholders, clarify ownership, design resilient systems</td>
+<td class="org-left">Summarize strategy docs, highlight blind spots, map dependencies</td>
+<td class="org-left">Summarize key priorities from last 3 leadership updates. Highlight conflicts/dependencies. Compare 3 ML infra designs with trade-offs and team dependencies.</td>
+</tr>
+
+<tr>
+<td class="org-left">Execution &amp; Operational Excellence</td>
+<td class="org-left">Lead SEV triage, build guardrails, identify bottlenecks, prioritize high-leverage tasks</td>
+<td class="org-left">Summarize SEV logs, generate scripts/checklists, simulate outcomes</td>
+<td class="org-left">Analyze last 3 SEVs, summarize recurring failure patterns, suggest automated mitigation strategies. Simulate outcomes for project trade-offs.</td>
+</tr>
+
+<tr>
+<td class="org-left">Influence, Mentorship &amp; Collaboration</td>
+<td class="org-left">Mentor IC5/IC4, document best practices, share progress, lead without authority, focus discussions</td>
+<td class="org-left">Mock scenarios for training, polish drafts, summarize lessons</td>
+<td class="org-left">Create mock SEV scenario for IC5, highlight operational risks. Draft proposal explaining why caching pattern reduces errors.</td>
+</tr>
+
+<tr>
+<td class="org-left">Continuous Learning &amp; Reflection</td>
+<td class="org-left">Weekly reflections, share lessons, document playbooks/runbooks, analyze recurring blind spots</td>
+<td class="org-left">Synthesize reflections, generate prompts, highlight gaps</td>
+<td class="org-left">Analyze last 3 SEVs, identify patterns I overlook. Highlight recurring gaps from design reviews, suggest learning exercises.</td>
+</tr>
+
+<tr>
+<td class="org-left">Mastering AI/LLM</td>
+<td class="org-left">Leverage AI to amplify thinking, embrace uncertainty, combine knowledge + action + insight</td>
+<td class="org-left">Apply meta-learning, strategic thinking, adaptability, resilience</td>
+<td class="org-left">Use LLM as senior staff+ mentor: reframe issues, identify incentives/risks, sharpen judgment, explore options/trade-offs, provide pragmatic recommendations.</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: dennyzhang</p>
-<p class="date">Created: 2025-10-11 Sat 22:04</p>
+<p class="date">Created: 2025-10-11 Sat 22:20</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

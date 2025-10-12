@@ -438,79 +438,72 @@ I establish myself as a tech lead in ML infra with two main goals:
 * Scope Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: scope-better
-:EXPORT_DATE: 2025-10-05
+:EXPORT_DATE: 2025-10-11
 :END:
 
 URL: https://quantcodedenny.com/posts/scope-better/
-** Introduction
+
 For a successful tech lead, there are four steps: [[https://quantcodedenny.com/posts/scope-better/][scope better]] -> do better -> [[https://quantcodedenny.com/posts/look-better/][look better]] -> [[https://quantcodedenny.com/posts/connect-better/][connect better]].
 
-One of the hardest skills I’ve learned as a tech lead is *scoping*: understanding the right problems to solve, sizing them correctly, and aligning them with my team’s capacity and organizational priorities. Good scoping sets the foundation for execution, influence, and impact. Poor scoping leads to wasted effort, missed deadlines, or over-committing the team.
+As a tech lead, I’ve found that scoping work effectively is one of the hardest skills to master.
 
-Scoping for me means:
-- Choosing the right problems that deliver meaningful impact.
-- Defining clear boundaries to avoid scope creep.
-- Aligning expectations across stakeholders, peers, and my team.
-- Maximizing leverage by prioritizing work that scales or unlocks future opportunities.
+I frame scoping around four core challenges:
+1. Choosing the right problems with high leverage.
+2. Setting clear boundaries to avoid over-commitment.
+3. Aligning stakeholders and expectations.
+4. Maximizing impact while minimizing mental stress.
+** Using LLMs To Scope Better In Daily Work
+I leverage LLMs to address the major scoping and execution challenges I face as an IC6 Infra engineer:
 
-** My Goal
-I aim to establish myself as a tech lead in ML infra with two main objectives:
-- Work with **market value**: focus on skills and outcomes recognized externally.
-- Minimize **mental stress**: maintain well-being while delivering high impact.
+- **Challenge: Identifying high-leverage problems**
+  - **LLM Use:** Summarize strategy documents, leadership updates, and past project data to highlight gaps or opportunities.
+  - **Sample LLM Prompt:** "Summarize key priorities from the last 3 leadership updates and highlight conflicts or dependencies for model serving infra."
 
-** My Core Strengths
-- **Self-Accountability**: Own work and choices, ensuring clarity in outcomes.
-- **Resiliency**: Adapt strategies and maintain focus under obstacles.
-- **Impact-Driven Execution**: Prioritize opportunities with measurable business wins.
-- **Collaborative Partnership**: Align with peers and cross-functional teams effectively.
+- **Challenge: Aligning stakeholders and clarifying ownership**
+  - **LLM Use:** Map dependencies, trade-offs, and responsibilities across teams.
+  - **Sample LLM Prompt:** "Compare three ML infra designs and list both technical and organizational trade-offs, including team dependencies and approval requirements."
 
-** Recent Key Learnings
-- **Leverage leadership and structures**
-  - Scenario: Attempted bottom-up charter building, but XFN teams had dedicated roles (reliability, efficiency, DevX).
-  - Learning: Tap existing leadership and structures early to avoid prolonged struggles.
+- **Challenge: Managing execution complexity**
+  - **LLM Use:** Summarize recurring failures, generate checklists, simulate outcomes, and propose mitigation strategies.
+  - **Sample LLM Prompt:** "Analyze the last 3 SEVs, summarize recurring failure patterns, and suggest automated mitigation strategies."
 
-- **Set bigger, strategic goals**
-  - Scenario: Focused on incremental HD feature cleanup instead of holistic improvements.
-  - Learning: Aim for system-level impact over local optimizations.
+- **Challenge: Scaling influence and knowledge**
+  - **LLM Use:** Draft proposals, mock scenarios, polish communications, and extract repeatable lessons.
+  - **Sample LLM Prompt:** "Create a mock SEV scenario for IC5, highlighting operational risks. Draft a proposal showing why a new caching pattern reduces errors."
 
-- **Focus on high-impact technical challenges**
-  - Scenario: Spent energy on low-leverage issues like headcount conflicts.
-  - Learning: Invest where technical expertise creates the most difference.
+- **Challenge: Continuous learning and reflection**
+  - **LLM Use:** Synthesize lessons from past incidents, generate prompts for reflection, identify recurring gaps.
+  - **Sample LLM Prompt:** "Analyze the last 3 SEVs and design reviews, highlight recurring gaps, and suggest learning exercises."
 
-- **Be confident and assertive in requests**
-  - Scenario: Accepted deprioritization of output validation and serving checks.
-  - Learning: Advocate confidently for necessary changes.
+- **Challenge: Strategic thinking under uncertainty**
+  - **LLM Use:** Reframe ambiguous problems, outline incentives/risks, evaluate options, recommend pragmatic approaches.
+  - **Sample LLM Prompt:** "Use LLM as senior staff+ mentor to reframe issues, identify incentives/risks, explore options/trade-offs, and provide pragmatic recommendations."
+** Core Challenge #1: Identifying High-Leverage Problems
+- **Problem:** It’s easy to spend time on low-impact tasks or local optimizations.
+- **Bottlenecks:** Difficulty assessing org-wide impact, repetitive small pain points, ambiguous opportunities.
+- **Principle:** Focus on system-level, multi-team, or multi-user problems where my expertise creates leverage.
+- **How I Address It:** Score candidate work by scalability, visibility, and alignment with org goals; validate assumptions early; use lightweight experiments.
 
-- **Generalize problems and share knowledge**
-  - Scenario: Solved problems in isolation, missing patterns across teams.
-  - Learning: Step back, identify repeatable insights, and share broadly.
+** Core Challenge #2: Setting Boundaries & Protecting Focus
+- **Problem:** Workload grows faster than capacity; distractions from minor requests or low-leverage tasks.
+- **Bottlenecks:** Social pressure, fear of missing opportunities, unclear prioritization.
+- **Principle:** Clarify P0s, say no strategically, and avoid firefighting on unimportant tasks.
+- **How I Address It:** Explicitly define P0s, communicate priorities, delegate or defer non-critical requests, revisit alignment quarterly.
 
-- **Avoid getting stuck on low-leverage problems**
-  - Scenario: Ops-heavy problems like trunk health, metadata management, or minor feature inefficiencies.
-  - Learning: Focus energy where my expertise creates leverage; skip low-impact or doomed-to-fail problems.
+** Core Challenge #3: Aligning Stakeholders & Expectations
+- **Problem:** Misalignment leads to wasted effort, repeated clarifications, and delays.
+- **Bottlenecks:** Complex org structures, unclear ownership, conflicting incentives.
+- **Principle:** Ensure everyone understands “what” and “why,” and map dependencies proactively.
+- **How I Address It:** Use concise one-pagers, map trade-offs, preempt conflicts, and leverage existing leadership and structures.
 
-- **Clarify complex problems for others**
-  - Scenario: HD feature management or feature metadata documentation.
-  - Learning: Create concise one-pagers to enable efficient group discussion and feedback.
+** Core Challenge #4: Maximizing Impact & Minimizing Stress
+- **Problem:** Over-commitment or focusing on doomed-to-fail problems increases stress and reduces effectiveness.
+- **Bottlenecks:** Pressure to deliver fast, overconfidence in assumptions, fragmented focus.
+- **Principle:** Prioritize tasks where technical expertise has maximum leverage; skip low-value work.
+- **How I Address It:** Build guardrails, automate recurring tasks, maintain weekly reflection, protect time for deep work.
 
-- **Set ambitious but clear goals**
-  - Scenario: Daily or weekly tasks can feel lost without direction.
-  - Learning: Big goals provide focus and motivation; help align small efforts with meaningful impact.
-
-- **Use tension as a signal, not stress**
-  - Scenario: Disagreements or unclear expectations.
-  - Learning: Treat discomfort as a sign that clarity is missing; seek clarification rather than reacting personally.
-
-- **Leverage AI/LLMs to amplify thinking**
-  - Scenario: Repetitive analysis, pattern recognition, or decision framing.
-  - Learning: Use AI to speed up synthesis, not to automate thinking; combine insights with judgment.
-
-- **Practice minimalism and focus**
-  - Scenario: Daily workload feels scattered or overwhelming.
-  - Learning: Reduce distractions, enjoy what I already have, and focus on high-impact tasks.
-
-** Focus On P0 At Work
-> Protect my time and focus on what truly matters, leveraging strengths and minimizing stress.
+** Principles for scope better
+Protect my time and focus on what truly matters, leveraging strengths and minimizing stress:
 
 - **Clarify and limit P0s**
   - Scenario: Choosing between system-level vs. local improvements, prioritizing multi-team features.
@@ -526,12 +519,54 @@ I aim to establish myself as a tech lead in ML infra with two main objectives:
   - Scenario: Ambiguous feature proposals, unclear data requests, untested process changes, or missed deadlines due to over-scoping.
   - Bottlenecks: Uncertainty of feasibility, pressure to deliver fast, overconfidence in assumptions, lack of reflection time.
   - How: Summarize assumptions and expected impact in a one-pager, run lightweight experiments, align with stakeholders early, and do weekly reflection capturing successes, bottlenecks, missed P0s; adjust focus and communicate updates.
+** My Desire & Strength
+**My Desire**
+I aim to establish myself as a tech lead in ML infra with two main objectives:
+- Work with **market value**: focus on skills and outcomes recognized externally.
+- Minimize **mental stress**: maintain well-being while delivering high impact.
 
-** Using LLMs to Boost Infra IC6 Impact
-| Area | Key Tasks | How I Leverage LLMs | Example Prompt |
-|------|-----------|-------------------|----------------|
-| Strategic Thinking & Problem Framing | Identify impactful problems, map stakeholders, clarify ownership, design resilient systems | Summarize strategy docs, highlight blind spots, map dependencies | Summarize key priorities from last 3 leadership updates. Highlight conflicts/dependencies. Compare 3 ML infra designs with trade-offs and team dependencies. |
-| Execution & Operational Excellence | Lead SEV triage, build guardrails, identify bottlenecks, prioritize high-leverage tasks | Summarize SEV logs, generate scripts/checklists, simulate outcomes | Analyze last 3 SEVs, summarize recurring failure patterns, suggest automated mitigation strategies. Simulate outcomes for project trade-offs. |
-| Influence, Mentorship & Collaboration | Mentor IC5/IC4, document best practices, share progress, lead without authority, focus discussions | Mock scenarios for training, polish drafts, summarize lessons | Create mock SEV scenario for IC5, highlight operational risks. Draft proposal explaining why caching pattern reduces errors. |
-| Continuous Learning & Reflection | Weekly reflections, share lessons, document playbooks/runbooks, analyze recurring blind spots | Synthesize reflections, generate prompts, highlight gaps | Analyze last 3 SEVs, identify patterns I overlook. Highlight recurring gaps from design reviews, suggest learning exercises. |
-| Mastering AI/LLM | Leverage AI to amplify thinking, embrace uncertainty, combine knowledge + action + insight | Apply meta-learning, strategic thinking, adaptability, resilience | Use LLM as senior staff+ mentor: reframe issues, identify incentives/risks, sharpen judgment, explore options/trade-offs, provide pragmatic recommendations. |
+**My Core Strengths**
+- **Self-Accountability**: Own work and choices, ensuring clarity in outcomes.
+- **Resiliency**: Adapt strategies and maintain focus under obstacles.
+- **Impact-Driven Execution**: Prioritize opportunities with measurable business wins.
+- **Collaborative Partnership**: Align effectively with peers and cross-functional teams.
+
+** Recent Key Learnings
+I’ve consolidated key lessons from my experiences into a few rich-context examples:
+
+- **Leverage leadership and structures**
+  - Scenario: Attempted bottom-up charter building, but XFN teams had dedicated roles (reliability, efficiency, DevX).
+  - Learning: Tap existing leadership and structures early to avoid prolonged struggles.
+
+- **Set bigger, strategic goals**
+  - Scenario: Focused on incremental HD feature cleanup instead of holistic improvements.
+  - Learning: Aim for system-level impact over local optimizations.
+
+- **Focus on high-impact technical challenges**
+  - Scenario: Spent energy on low-leverage issues like headcount conflicts or minor operational inefficiencies.
+  - Learning: Invest where technical expertise creates the most difference; skip low-impact or doomed-to-fail problems.
+
+- **Be confident and assertive in requests**
+  - Scenario: Accepted deprioritization of output validation and serving checks.
+  - Learning: Advocate confidently for necessary changes rather than acquiescing passively.
+
+- **Generalize problems and share knowledge**
+  - Scenario: Solved problems in isolation, missing repeatable patterns across teams.
+  - Learning: Step back, find patterns, and share insights broadly for systemic improvement.
+
+- **Clarify complex problems for others**
+  - Scenario: HD feature management or feature metadata documentation.
+  - Learning: Create concise one-pagers to enable efficient group discussion and actionable feedback.
+
+- **Use tension as a signal, not stress**
+  - Scenario: Disagreements or unclear expectations.
+  - Learning: Treat discomfort as a sign that clarity is missing; seek clarification rather than reacting personally.
+
+- **Leverage AI/LLMs to amplify thinking**
+  - Scenario: Repetitive analysis, pattern recognition, or decision framing.
+  - Learning: Use AI to speed up synthesis, not replace judgment; combine insights with critical thinking.
+
+- **Practice minimalism and focus**
+  - Scenario: Daily workload feels scattered or overwhelming.
+  - Learning: Reduce distractions, enjoy what I already have, and focus on high-impact tasks.
+

@@ -397,107 +397,6 @@ Connecting better at work is both a **skill and a habit**. I make it automatic w
 At the end of each week, I reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
 ** local notes                                                     :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* Scope Better At Work                                             :noexport:
-URL: https://quantcodedenny.com/posts/scope-better/
-** Introduction
-For a successful tech lead, it usually has four steps: [[https://quantcodedenny.com/posts/scope-better/][scope better]] -> do better -> [[https://quantcodedenny.com/posts/look-better/][look better]] -> [[https://quantcodedenny.com/posts/connect-better/][connect better]].
-
-One of the hardest skills to master as a tech lead is *scoping*—understanding the right problems to solve, sizing them correctly, and aligning them with team capacity and organizational priorities. Poor scoping leads to wasted effort, missed deadlines, or over-committing your team. On the other hand, good scoping sets the foundation for execution, influence, and impact.
-
-This blog post is my personal journal on learning to *scope better*. I plan to keep updating it with new experiences, reflections, and frameworks as I encounter different challenges.
-** Why Scoping Matters
-Scoping is more than estimating timelines. It’s about:
-
-- Choosing the right problems – Focus on work that delivers meaningful impact.
-- Defining clear boundaries – Avoid scope creep and ensure deliverables are realistic.
-- Aligning expectations – Make sure stakeholders, peers, and the team understand the “what” and “why.”
-- Maximizing leverage – Prioritize work that scales or unlocks further opportunities.
-** My Approach to Scoping
-I’ve found a few practical techniques that help me scope better:
-
-- Start with the problem, not the solution.
-  - Ask: "What’s the problem we are really trying to solve?"
-- Break work into milestones.
-  - Large projects can be intimidating; splitting them into digestible chunks helps estimate more accurately.
-- Validate assumptions early.
-  - Run experiments, talk to users, or gather data to avoid over-committing to uncertain work.
-- Use a "P0-P1-P2" framework.
-  - Clearly identify the highest priority work versus nice-to-have work.
-- Learn from past projects.
-  - Keep track of what was over- or under-scoped and adjust future estimates.
-** Finding Good Problems to Solve
-A critical part of scoping is *finding good problems to tackle*. Some ways I approach this:
-
-- Look for problems with high leverage—fixes or features that benefit multiple teams or users.
-- Focus on repetitive pain points that slow down the org or team.
-- Seek ambiguous challenges where clarity and leadership can make a difference.
-- Align with org goals to ensure impact is recognized and resources are available.
-** Lessons Learned
-- It’s iterative.
-  - Scoping is rarely perfect the first time. Adjust as new information arrives.
-- Communication is key.
-  - A well-scoped project is useless if the team and stakeholders don’t understand it.
-- Balance ambition and realism.
-  - Stretch goals are fine, but over-promising hurts credibility.
-** Next Steps
-I will continue experimenting with different scoping strategies and documenting outcomes. Over time, I hope this post will become a living guide for myself and others on how to *scope better* as a tech lead.
-** #  --8<-------------------------- separator ------------------------>8-- :noexport:
-** Success Stories                                                 :noexport:
-1. **Feature Cleanup & Bad Feature Governance**
-    - Core Strength Demonstrated: Business Problem Focus
-    - Challenge: Legacy and unused features caused inefficiencies and stale data risks.
-    - Action: Built a reliable feature usage lineage table, automated cleanup, and implemented rapid mitigation plans.
-    - Impact: Reduced stale features by X%, minimized downstream errors, and saved engineers’ time.
-
-2. **Feature Metadata Service**
-    - Core Strength Demonstrated: End-to-End Ownership & Cross-Team Influence
-    - Challenge: Lack of a single source of truth (SoT) for feature metadata made management and discovery difficult.
-    - Action: Built a centralized feature metadata service covering both static and runtime metadata.
-    - Impact: Enabled consistent feature management, improved discoverability, and reduced errors in feature usage across multiple ML teams.
-
-3. **End-to-End Feature Infra Monitoring**
-    - Core Strength Demonstrated: End-to-End Ownership & Cross-Team Influence
-    - Challenge: Monitoring was fragmented across feature generation, serving, and model evaluation.
-    - Action: Designed and implemented a comprehensive monitoring framework covering generating, serving, and model sides.
-    - Impact: Enabled early detection of issues, reducing pipeline downtime and improving overall feature reliability.
-
-4. **Data Pipeline Push at Scale**
-    - Core Strength Demonstrated: Collaborative & Fair Partnership
-    - Challenge: Pushing streaming pipelines took up to 1 month and slowed model iteration.
-    - Action: Optimized infrastructure and processes to enable **scalable, automated pipeline pushes**.
-    - Impact: Reduced pipeline deployment time from 1 month → 1 week, accelerating feature iteration and business impact.
-** local notes                                                     :noexport:
-*** [#A] didn't think big enough or run out of ideas: other teams want to help, but there are no work items
-*** Some problems are doom to hard to fix.
-e.g: ops heavy - trunk health, metadata, etc.
-*** slow to go the details
-For HD feature management, I know all the context. But takes quite a while to create a one-pager for group discussions.
-
-Similar for feature metadata management
-*** [#A] difficult to manage the complexity and articulate it well for the audience to comment
-*** target on the most important problems, instead of less critical ones; but within you realm
-*** SWE always have more shining projects
-*** avoid being scared, then play safe
-*** [#A] skip the non-critical problems/questions
-learning how to learn
-adapt to change
-resilience
-learn how to figure out what people want
-how to interact in the world
-
-这些生活体悟，对我很有启发。帮我找到更多类似的体悟，并给出具体示例
-- 设立宏大目标可以激励自己和他人: 大目标提供方向感，让日常小努力不至于迷失。
-- 千万不要提前焦虑，事情会以奇怪的方式解决
-- 生活要做减法
-- take the best advantage and enjoy what you already have
-- minimalist can improve your freedom
-*** doing a task(not chore): think and generalize in a prompt -> do it -> discuss with LLM for this task
-*** guiding questions
-- If this problem disappears, who benefits?
-- What hard truth did I avoid?
-*** guide attention to the right problems
-*** Using tension as signal for missing clarity, not personal attack.
-*** Don’t use AI to automate — use it to amplify thinking.
 * Focus On P0 At Work                                              :noexport:
 URL: https://quantcodedenny.com/posts/clarify-p0s-at-work/
 ** My Goal
@@ -546,7 +445,6 @@ URL: https://quantcodedenny.com/posts/scope-better/
 For a successful tech lead, it usually has four steps: **scope better → do better → look better → connect better.**
 
 This post focuses on the first step — **scoping better**, the foundation of high-leverage impact.
-
 ---
 ** Start From Self: My Context and Strengths
 > The best scoping starts from self-awareness. You can’t choose the right battles if you don’t know your strengths or goals.
@@ -554,7 +452,7 @@ This post focuses on the first step — **scoping better**, the foundation of hi
 - **My Strengths:** Systematic, calm under pressure, and able to connect technical depth to reliability outcomes.
   → Scope problems requiring pattern recognition and systemic fixes.
 - **My Weakness:** Tend to over-invest in execution once scoped — need to *rescope regularly* and delegate earlier.
-- **My Long-term Goal:** Become a staff+ engineer driving reliability and leverage across Ads ML Infra.
+- **My Long-term Goal:** Become a staff+ engineer driving reliability and leverage across ML Infra.
   → Pick problems that *shape systems and culture*, not just short-term wins.
 - **My Personal Constraint:** Limited bandwidth — can only own 1–2 P0s at a time.
   → Be ruthless about focus and say “no” often.

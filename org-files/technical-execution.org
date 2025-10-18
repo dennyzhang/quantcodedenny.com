@@ -46,13 +46,12 @@ Here is the current version of my post:
 URL: https://quantcodedenny.com/posts/suggest-without-context/
 
 A living runbook for learning from and giving suggestions to other teams
-**Why This Matters**: 
-Cross-team collaboration is a critical part of tech lead work, yet you’re often asked to give feedback on efforts you don’t fully own or understand.  
+**Why This Matters**:
+Cross-team collaboration is a critical part of tech lead work, yet you’re often asked to give feedback on efforts you don’t fully own or understand.
 
 In these moments, your ability to learn fast, frame thoughtful suggestions, and communicate with empathy defines your credibility.
 
 Good suggestions create momentum and build bridges. Poorly framed ones, even if technically right, can erode trust or stall execution.
-
 ** Core Principles
 1. Understand Before Suggesting
    - Do the deep dive yourself; validate information.
@@ -108,8 +107,20 @@ Good suggestions create momentum and build bridges. Poorly framed ones, even if 
   - Process improvement sharing
   - Quarterly roadmap sync
   - Tooling/infra collaboration
-
 ** local notes                                                     :noexport:
+*** they are all operational metrics; what's our north star; what is an end?
+*** [#A] are we solving the right problem
+*** [#A] what's the investment to improve the foundation, besides the operational improvements
+*** it's a good question outside today's topics
+*** I think we are need a shared Incentive Framework
+*** [#A] co-ownership is a problem
+*** [#A] understand people's key points for questions/suggestions
+*** new requirements make discussions go deeper
+Fairness - sharing across teams (library, features, etc) - credit sharing and cost sharing
+- direct revenue
+- enable revenue
+*** I don't want to solve your problem. you solve your own problem
+*** risk management is valuable
 * Improve Technical Writing
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-technical-writing
@@ -117,9 +128,9 @@ Good suggestions create momentum and build bridges. Poorly framed ones, even if 
 :END:
 URL: https://quantcodedenny.com/posts/improve-technical-writing/
 
-Improving technical writing at work is not about sounding perfect—it’s about being clear, persuasive, and structured. Many daily scenarios (work chats, proposals, meeting invites, project updates, postmortems) require writing that is both professional and leadership-oriented.  
+Improving technical writing at work is not about sounding perfect—it’s about being clear, persuasive, and structured. Many daily scenarios (work chats, proposals, meeting invites, project updates, postmortems) require writing that is both professional and leadership-oriented.
 
-To make this easier, I created a **master prompt** that turns raw drafts into polished writing. You simply copy the prompt into your LLM, then add your content with a sub-command like `/invite`, `/update`, or `/proposal`. The system automatically transforms your draft into a refined version with staff+ tone, clear structure, and actionable framing.  
+To make this easier, I created a **master prompt** that turns raw drafts into polished writing. You simply copy the prompt into your LLM, then add your content with a sub-command like `/invite`, `/update`, or `/proposal`. The system automatically transforms your draft into a refined version with staff+ tone, clear structure, and actionable framing.
 
 Here’s how to use it:
 
@@ -134,7 +145,7 @@ Read https://quantcodedenny.com/posts/improve-technical-writing/
 
 Hi [Names],
 
-I’d like to set up a meeting to align on [topic or initiative]. 
+I’d like to set up a meeting to align on [topic or initiative].
 The goal is to [what decision, alignment, or milestone you want to achieve].
 
 bla bla bla
@@ -144,16 +155,13 @@ You are my **Technical Communication Coach** (staff+ ML infra engineer).
 Your job is to improve my writing for daily work scenarios.
 I will provide content prefixed by a command.
 You will apply the corresponding workflow automatically.
-
 **Universal Rules**
 - Always adopt staff+ leadership tone: clear, strategic, persuasive.
 - Always include a "what changed and why" summary so I can learn reusable patterns.
 - If the command is unclear or missing, ask me to clarify.
-
 **Commands & Workflows**
 
 Your response is determined by the user's command. You must identify the correct command and follow the specific instructions below.
-
 ** /proposal → Technical Proposal
 Take my raw notes (bullet points, fragments, rough ideas). Transform into a clear, persuasive proposal with these sections:
 - **Context**
@@ -241,11 +249,8 @@ You are a tech lead providing professional feedback. Feedback should be:
 - Succinct & professional (not overly wordy, but respectful)
 ** /peer – Peer Feedback
 **Use**: Generate professional, structured feedback for a peer (same level or cross-functional).
-
 **Goal**: Highlight their impact, technical contributions, collaboration, and areas for growth using specific examples.
-
 **Tone**: collegial, constructive, respectful, professional
-
 **Structure & Guidance**:
 
 - Overall Impact/Context – 1–2 sentences summarizing the peer’s overall contribution and role this period.
@@ -339,7 +344,6 @@ Raw notes:
 - Code readable, asked clarifying questions
 - Good understanding of basic data structures
 #+END_SRC
-
 ** local notes                                                     :noexport:
 * Drive V-Team Execution
 :PROPERTIES:
@@ -409,23 +413,26 @@ When make escalation, ensure there is direct 1/1 communication. e.g: In general,
 how to ensure the room know which team has the most
 
 use escalation, only after giving individual feedback and it doesn't work
-
 *** TODO bring clarify to make untangible problems tangible
 *** XFN meeting got distracted by talkative individuals
 *** avoid pushing for things people are not interested
 Push from IC5 to 6 when they are not ready doesn't help for both sides
-
 *** use company standard to set expectation: use STO to make project review
 *** inconsistent assements for the work dependency, which introduces delays
 *** align on the interface
 *** leaders bring clarify/make decision, then make untangible problems tangible
 *** feedback
 TL: walk through the flow and identify the issues
-EM: roles and responsilibty of teams and components; 
-** Mitigation: Navigate Corporate Environment                      :noexport:
+EM: roles and responsilibty of teams and components;
+*** Mitigation: Navigate Corporate Environment                     :noexport:
 1. **Make Value Visible**: Impact only counts if it’s measured and communicated.
 2. **Align and Advocate**: Influence grows with alignment and proactive advocacy.
 3. **Leverage, Don’t Reinvent**: Use existing processes and roles to accelerate outcomes.
+*** [#A] identify the work plan with priority and trade-offs
+*** [#A] drive progress with constraints and risks
+*** [#A] identify ownership for unowned problems
+*** there are diverged incentive
+*** make progression taking inconsistent feedback from different teams
 * Vibe Coding
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-for-vibe-coding
@@ -513,7 +520,6 @@ Output:
 - Document gaps: track behaviors, limitations, and “unknown unknowns” to avoid repeating mistakes.
 - Continuous learning: refine your workflow based on past errors and successful patterns.
 - Plan for LLM limitations: predefine expected outputs, constraints, and acceptable fallbacks.
-
 **** Technical challenges
 - Multiple versions: functions may be undefined or unsupported across versions.
 - Understanding conventions: e.g., Hugo generates files into the `docs` folder, not `content`.
@@ -540,7 +546,4 @@ Output:
 *** edge scenarios where common practice doesn't work well
 *** llm won't reject requirement which shouldn't happen in the first place
 Use elisp to "url:", it makes the code very fragile and hard to use. The development time is wasted
-
-
-
 

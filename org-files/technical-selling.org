@@ -111,7 +111,8 @@ as leader, you need to help the team
 *** TODO how to create a collaboration where leads and senios can help your?
 *** TODO how to set a tone(send a signal) for the team, yet don't have to say it explictly
 *** [#A] how to provide values as IC6
-** Mitigation: Organically improve market value                    :noexport:
+*** identify work caveats which slows down growing market values
+*** Mitigation: Organically improve market value                   :noexport:
 1. **Skill Leverage**: Work on rare, transferable, high-impact skills.
 2. **Visible Impact**: Quantify and share results internally.
 3. **Network & Influence**: Expand reputation via mentorship, XFN projects, and selective external visibility.
@@ -122,7 +123,6 @@ as leader, you need to help the team
 :EXPORT_HUGO_SECTION: posts
 :END:
 URL: https://quantcodedenny.com/posts/leadership-presence/
-
 ** Introduction
 As an IC6 ML Infra Tech Lead, technical expertise alone is not enough. I need to be seen as a **leader** — someone who drives impact, earns trust, and inspires confidence across teams.
 
@@ -222,15 +222,13 @@ Leadership presence is about **how I show up, influence decisions, and make work
 
 ---
 ** Conclusion
-Leadership presence is **not superficial** — it’s how I show up, influence, and make work visible while empowering others.  
-
+Leadership presence is **not superficial** — it’s how I show up, influence, and make work visible while empowering others.
 **Daily Habit:** Every day, I ask myself:
 1. What **impact** can I highlight?
 2. What **complexity & learning** did I uncover?
 3. Who do I need to involve or inform to **build credibility**?
 
 By following this **framework + mindset + daily habits**, I make my leadership **visible, trusted, and lasting**, while reducing overthinking.
-
 * Stress Less, Lead Better
 :PROPERTIES:
 :EXPORT_FILE_NAME: eq-playbook
@@ -283,6 +281,16 @@ This is my daily runbook for calm, clear, and high-leverage leadership.
 - Assuming shared context.
 - Taking low-leverage work just to be helpful.
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** Mitigation: Lower Mental Stress at Work                         :noexport:
+1. **Systemic Strategies (Change how I work)**: Adjust workflow, environment, and collaboration to minimize recurring stressors.
+    - Focus on problems where my technical expertise creates the most leverage; spend less time on areas outside my control (e.g., headcount, politics).
+    - Proactively prioritize high-impact technical challenges instead of reacting to every request.
+    - Build guardrails and scalable solutions to reduce firefighting.
+    - Set clear boundaries: avoid over-committing and delegate or decline tasks others can own.
+2. **Personal Strategies (Manage my mind & energy)**: Strengthen resilience to handle unavoidable stress.
+    - Develop habits to stay focused and centered under pressure.
+    - Protect time and energy for deep work and recovery.
+    - Maintain clarity: sustained impact comes from resilience and focus, not from spreading myself thin.
 ** local notes                                                     :noexport:
 *** Taking care of your appearance is a quiet way of showing confidence and control — both to yourself and to your team
 *** [#A] avoid procrastination: no phone - go directly to the bed or wake up to walk
@@ -301,16 +309,7 @@ I don't believe that is the right model though. There should be an E2E owner w/ 
 *** avoid over-read: when friday, someone comment in a lead doc, saying: Please complete by Mon.
 The comment applies to everyone. Not for you only.
 *** For other teams' job, if you have difficulties to sell, leverage owning team instead
-** Mitigation: Lower Mental Stress at Work                         :noexport:
-1. **Systemic Strategies (Change how I work)**: Adjust workflow, environment, and collaboration to minimize recurring stressors.
-    - Focus on problems where my technical expertise creates the most leverage; spend less time on areas outside my control (e.g., headcount, politics).
-    - Proactively prioritize high-impact technical challenges instead of reacting to every request.
-    - Build guardrails and scalable solutions to reduce firefighting.
-    - Set clear boundaries: avoid over-committing and delegate or decline tasks others can own.
-2. **Personal Strategies (Manage my mind & energy)**: Strengthen resilience to handle unavoidable stress.
-    - Develop habits to stay focused and centered under pressure.
-    - Protect time and energy for deep work and recovery.
-    - Maintain clarity: sustained impact comes from resilience and focus, not from spreading myself thin.
+*** [#A] self-accountability: For every struggle, you always have a choice. You choose to do and choose not to do.
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Scope Better At Work
 :PROPERTIES:
@@ -326,7 +325,6 @@ Scoping work effectively is one of the hardest skills I’ve learned as a tech l
 2. Setting boundaries and protecting focus.
 3. Aligning stakeholders and expectations.
 4. Align early, iterate fast.
-
 ** Using LLMs To Scope Better
 I use LLMs to address each core challenge efficiently:
 
@@ -345,31 +343,26 @@ I use LLMs to address each core challenge efficiently:
 - **Challenge #4: Scaling influence and aligning early**
   - **LLM Use:** Draft proposals, mock scenarios, polish communications, extract repeatable lessons.
   - **Sample Prompt:** "Create a mock SEV scenario for IC5, highlighting operational risks. Draft a proposal showing why early alignment and iterative experiments reduce delivery risks."
-
 ** Core Challenge #1: Identifying High-Leverage Problems
 - **Problem:** It’s easy to spend time on low-impact tasks or local optimizations.
 - **Bottlenecks:** Difficulty assessing org-wide impact, repetitive small pain points, ambiguous opportunities.
 - **Principle:** Focus on system-level, multi-team, or multi-user problems where my expertise creates leverage.
 - **How I Address It:** Score candidate work by scalability, visibility, and alignment with org goals; validate assumptions early; run lightweight experiments.
-
 ** Core Challenge #2: Setting Boundaries & Protecting Focus
 - **Problem:** Workload grows faster than capacity; distractions from minor requests or low-leverage tasks.
 - **Bottlenecks:** Social pressure, fear of missing opportunities, unclear prioritization.
 - **Principle:** Clarify P0s, say no strategically, and avoid firefighting on unimportant tasks.
 - **How I Address It:** Explicitly define P0s, communicate priorities, delegate or defer non-critical requests, revisit alignment quarterly.
-
 ** Core Challenge #3: Aligning Stakeholders & Expectations
 - **Problem:** Misalignment leads to wasted effort, repeated clarifications, and delays.
 - **Bottlenecks:** Complex org structures, unclear ownership, conflicting incentives, leadership signals not fully transparent.
 - **Principle:** Ensure everyone understands “what” and “why,” and map dependencies proactively.
 - **How I Address It:** Use concise one-pagers, map trade-offs, preempt conflicts, tap existing leadership structures, and seek authentic feedback from stakeholders.
-
 ** Core Challenge #4: Align Early, Iterate Fast
 - **Problem:** Delays or misaligned work occur when assumptions go untested or communication is late.
 - **Bottlenecks:** Pressure to deliver fast, unclear expectations, fragmented focus.
 - **Principle:** Align early on assumptions and goals; iterate quickly based on feedback.
 - **How I Address It:** Summarize assumptions in one-pagers, run lightweight experiments, seek early feedback from stakeholders, adjust course weekly.
-
 ** Principles for Scoping Better
 Protect my time and focus on what truly matters:
 
@@ -392,19 +385,16 @@ Protect my time and focus on what truly matters:
   - Scenario: Spending time on low-leverage tasks or local optimizations instead of multi-team or multi-user improvements.
   - Bottlenecks: Difficulty assessing cross-team impact, repeated small pain points, ambiguous opportunities.
   - How: Prioritize tasks where technical expertise creates outsized impact; skip low-value or doomed-to-fail problems; continuously check alignment with org goals.
-
 ** My Desire & Strength
 **My Desire**
 I aim to establish myself as a tech lead in ML infra with two main objectives:
 - Work with **market value**: focus on skills and outcomes recognized externally.
 - Minimize **mental stress**: maintain well-being while delivering high impact.
-
 **My Core Strengths**
 - **Self-Accountability**: Own work and choices, ensuring clarity in outcomes.
 - **Resiliency**: Adapt strategies and maintain focus under obstacles.
 - **Impact-Driven Execution**: Prioritize opportunities with measurable business wins.
 - **Collaborative Partnership**: Align effectively with peers and cross-functional teams.
-
 ** Recent Key Learnings
 I’ve distilled key lessons into a few rich-context examples:
 
@@ -427,6 +417,21 @@ I’ve distilled key lessons into a few rich-context examples:
 - **Generalize problems and share knowledge**
   - Scenario: Solved problems in isolation, missing repeatable patterns across teams.
   - Learning: Step back, find patterns, and share insights broadly for systemic improvement.
+** local notes                                                     :noexport:
+*** [#A] incentive: you don't have the setup - why your team is the best position to lead the efforts?
+*** you don't have the context - the historical reasons, the big pictures
+*** the constraints - no capacity, no reliable dependency
+*** work on important and exciting goals
+*** [#A] it's a skill gap to talk about critical parts in a short time
+*** psycology
+*** local selling
+if we don't give to leadership, it doesn't matter
+*** ask the key questions, and which shall add values
+*** understand team boundary and interest - make a collaboative and leveraged proposal
+*** And our customers are telling us to prioritize XXX.
+*** To have cross org impact, you need to think and learn from multiple orgs.
+*** [#A] need to think at abstract layers
+*** [#A] If you worry about survive and don't set big goals, you won't thrive
 * Look Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better
@@ -506,6 +511,7 @@ Learn turn delivery into lasting ownership
 *** avoid always look behind
 *** avoid caveat: voice is too low or talk too fast
 *** avoid caveat: talk too details which generates confusions
+*** naming is hard
 * Connect Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better

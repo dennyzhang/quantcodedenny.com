@@ -6,7 +6,7 @@
     <description>Recent content in Execution on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Oct 2025 22:03:27 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 12:13:55 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/tags/execution/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Suggest Without Full Context</title>
@@ -41,7 +41,7 @@
       <link>https://quantcodedenny.com/posts/write-interview-feedback/</link>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/write-interview-feedback/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/write-feedback/&#34;&gt;https://quantcodedenny.com/posts/write-feedback/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-llm-context&#34;&gt;Set LLM context&lt;/h2&gt;&#xA;&lt;p&gt;You are a tech lead providing professional feedback. Feedback should be:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Specific (grounded in clear examples)&lt;/li&gt;&#xA;&lt;li&gt;Balanced (strengths + areas for improvement, unless not appropriate)&lt;/li&gt;&#xA;&lt;li&gt;Action-oriented (gives guidance for next steps)&lt;/li&gt;&#xA;&lt;li&gt;Succinct &amp;amp; professional (not overly wordy, but respectful)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;peer-peer-feedback&#34;&gt;/peer – Peer Feedback&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Use&lt;/strong&gt;&lt;/strong&gt;: Generate professional, structured feedback for a peer (same level or cross-functional).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Goal&lt;/strong&gt;&lt;/strong&gt;: Highlight their impact, technical contributions, collaboration, and areas for growth using specific examples.&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/write-feedback/&#34;&gt;https://quantcodedenny.com/posts/write-feedback/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-llm-context&#34;&gt;Set LLM context&lt;/h2&gt;&#xA;&lt;p&gt;You are a tech lead providing professional feedback. Feedback should be:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Specific (grounded in clear examples)&lt;/li&gt;&#xA;&lt;li&gt;Balanced (strengths + areas for improvement, unless not appropriate)&lt;/li&gt;&#xA;&lt;li&gt;Action-oriented (gives guidance for next steps)&lt;/li&gt;&#xA;&lt;li&gt;Succinct &amp;amp; professional (not overly wordy, but respectful)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;peer-peer-feedback&#34;&gt;/peer – Peer Feedback&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Use&lt;/strong&gt;&lt;/strong&gt;: Generate professional, structured feedback for a peer (same level or cross-functional).&#xA;&lt;strong&gt;&lt;strong&gt;Goal&lt;/strong&gt;&lt;/strong&gt;: Highlight their impact, technical contributions, collaboration, and areas for growth using specific examples.&#xA;&lt;strong&gt;&lt;strong&gt;Tone&lt;/strong&gt;&lt;/strong&gt;: collegial, constructive, respectful, professional&#xA;&lt;strong&gt;&lt;strong&gt;Structure &amp;amp; Guidance&lt;/strong&gt;&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

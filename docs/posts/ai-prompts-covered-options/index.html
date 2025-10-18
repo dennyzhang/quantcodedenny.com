@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>AI Prompts For Covered Options | QuantCode: Use llm to improve your trading quality</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="1. Covered Call Pre-Trade Prompt
+You are my covered call co-pilot.
+
+I’m planning the following covered call trade(s):
+[Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Stock Position Size]
+
+### Covered Call Rules
+1. I must already hold the shares.
+2. Delta &lt; 0.3 (prefer 0.2–0.25).
+3. Expiry 7–14 days.
+4. ROI ≥ 1.5% per week.
+5. No earnings or major news within 10 days.
+6. Roll or close when 80% premium captured.
+7. Avoid writing calls on &gt;2 correlated tickers in same sector.
+8. Target lower assignment risk when IV% is high.
+
+### Tasks
+- Check the trade against all rules.
+- Highlight any violations with quick fix (new strike, expiry, or skip).
+- Confirm each rule checked and return a structured summary I can paste into my spreadsheet.
+
+### Output Format
+✅ Summary: [overall judgement]
+⚠ Violations:
+- [Ticker] – [Issue] → [Fix]
+📋 Rule Check:
+- Stock owned ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠
+🧭 Recommendation: [Proceed / Adjust / Avoid]
+2. Cash-Secured Put Pre-Trade Prompt
+You are my cash-secured put co-pilot.
+
+I’m planning the following CSP trade(s):
+[Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Available Cash]
+
+### Cash-Secured Put Rules
+1. Enough cash to secure 100 shares per contract.
+2. Delta &lt; 0.3 (prefer 0.2–0.25).
+3. Expiry 7–14 days.
+4. ROI ≥ 1.5% per week.
+5. No earnings or major news within 10 days.
+6. Only 1–2 correlated tickers per sector.
+7. Roll or close when 80% premium captured.
+8. Prefer tickers with strong fundamentals or support near strike.
+
+### Tasks
+- Validate each trade against rules.
+- Identify rule breaks and suggest safer alternatives.
+- Confirm all checks done and output in spreadsheet-friendly format.
+
+### Output Format
+✅ Summary: [good trade / needs adjustment / avoid]
+⚠ Violations:
+- [Ticker] – [Issue] → [Suggested Fix]
+📋 Rule Check:
+- Cash available ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠
+🧭 Recommendation: [Proceed / Adjust / Avoid]
+3. Weekly Reflection Prompt (Both Strategies)
+You are my options review assistant.
+
+Here’s my recent trades (from spreadsheet):
+[Paste rows: Date | Ticker | Strategy | Strike | Expiry | Premium | ROI% | Delta | IV% | Sector | Status | Emotion | Notes]
+
+### Rules Reference
+- Delta &lt;0.3, ROI ≥1.5%/week, Expiry 7–14d, No earnings&lt;10d
+- Roll at 80% capture, ≤2 correlated tickers/sector
+- Covered call only if stock held; CSP only if fully cash-secured
+- 2-day cool-off after assignment
+
+### Tasks
+1. Find rule violations and quantify (how many per rule).
+2. Suggest better strikes/expiries for repeated issues.
+3. Identify top 3 recurring habits or emotional biases.
+4. Suggest one formula or automation to improve my spreadsheet.
+5. Confirm all rules were evaluated.
+
+### Output Format
+✅ Summary: [brief performance summary]
+⚠ Violations:
+- [Ticker] – [Rule broken] → [Fix]
+🧠 Lessons: [key behavioral insights]
+⚙ Spreadsheet Tip: [formula or automation idea]
+📋 Rule Check: [each rule marked ✅/⚠]
+">
+    <meta name="generator" content="Hugo 0.148.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="dennyzhang">
+    
+
+    
+<link rel="stylesheet" href="../../ananke/css/main.min.8d048772ae72ab11245a0e296d1f2a36d3e3dd376c6c867394d6cc659c68fc37.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://quantcodedenny.com/posts/ai-prompts-covered-options/">
+    
+
+    <meta property="og:url" content="https://quantcodedenny.com/posts/ai-prompts-covered-options/">
+  <meta property="og:site_name" content="QuantCode: Use llm to improve your trading quality">
+  <meta property="og:title" content="AI Prompts For Covered Options">
+  <meta property="og:description" content="1. Covered Call Pre-Trade Prompt You are my covered call co-pilot. I’m planning the following covered call trade(s): [Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Stock Position Size] ### Covered Call Rules 1. I must already hold the shares. 2. Delta &lt; 0.3 (prefer 0.2–0.25). 3. Expiry 7–14 days. 4. ROI ≥ 1.5% per week. 5. No earnings or major news within 10 days. 6. Roll or close when 80% premium captured. 7. Avoid writing calls on &gt;2 correlated tickers in same sector. 8. Target lower assignment risk when IV% is high. ### Tasks - Check the trade against all rules. - Highlight any violations with quick fix (new strike, expiry, or skip). - Confirm each rule checked and return a structured summary I can paste into my spreadsheet. ### Output Format ✅ Summary: [overall judgement] ⚠ Violations: - [Ticker] – [Issue] → [Fix] 📋 Rule Check: - Stock owned ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠ 🧭 Recommendation: [Proceed / Adjust / Avoid] 2. Cash-Secured Put Pre-Trade Prompt You are my cash-secured put co-pilot. I’m planning the following CSP trade(s): [Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Available Cash] ### Cash-Secured Put Rules 1. Enough cash to secure 100 shares per contract. 2. Delta &lt; 0.3 (prefer 0.2–0.25). 3. Expiry 7–14 days. 4. ROI ≥ 1.5% per week. 5. No earnings or major news within 10 days. 6. Only 1–2 correlated tickers per sector. 7. Roll or close when 80% premium captured. 8. Prefer tickers with strong fundamentals or support near strike. ### Tasks - Validate each trade against rules. - Identify rule breaks and suggest safer alternatives. - Confirm all checks done and output in spreadsheet-friendly format. ### Output Format ✅ Summary: [good trade / needs adjustment / avoid] ⚠ Violations: - [Ticker] – [Issue] → [Suggested Fix] 📋 Rule Check: - Cash available ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠ 🧭 Recommendation: [Proceed / Adjust / Avoid] 3. Weekly Reflection Prompt (Both Strategies) You are my options review assistant. Here’s my recent trades (from spreadsheet): [Paste rows: Date | Ticker | Strategy | Strike | Expiry | Premium | ROI% | Delta | IV% | Sector | Status | Emotion | Notes] ### Rules Reference - Delta &lt;0.3, ROI ≥1.5%/week, Expiry 7–14d, No earnings&lt;10d - Roll at 80% capture, ≤2 correlated tickers/sector - Covered call only if stock held; CSP only if fully cash-secured - 2-day cool-off after assignment ### Tasks 1. Find rule violations and quantify (how many per rule). 2. Suggest better strikes/expiries for repeated issues. 3. Identify top 3 recurring habits or emotional biases. 4. Suggest one formula or automation to improve my spreadsheet. 5. Confirm all rules were evaluated. ### Output Format ✅ Summary: [brief performance summary] ⚠ Violations: - [Ticker] – [Rule broken] → [Fix] 🧠 Lessons: [key behavioral insights] ⚙ Spreadsheet Tip: [formula or automation idea] 📋 Rule Check: [each rule marked ✅/⚠]">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-10-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-10-18T15:39:08-07:00">
+    <meta property="article:tag" content="Trading-Llm">
+
+  <meta itemprop="name" content="AI Prompts For Covered Options">
+  <meta itemprop="description" content="1. Covered Call Pre-Trade Prompt You are my covered call co-pilot. I’m planning the following covered call trade(s): [Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Stock Position Size] ### Covered Call Rules 1. I must already hold the shares. 2. Delta &lt; 0.3 (prefer 0.2–0.25). 3. Expiry 7–14 days. 4. ROI ≥ 1.5% per week. 5. No earnings or major news within 10 days. 6. Roll or close when 80% premium captured. 7. Avoid writing calls on &gt;2 correlated tickers in same sector. 8. Target lower assignment risk when IV% is high. ### Tasks - Check the trade against all rules. - Highlight any violations with quick fix (new strike, expiry, or skip). - Confirm each rule checked and return a structured summary I can paste into my spreadsheet. ### Output Format ✅ Summary: [overall judgement] ⚠ Violations: - [Ticker] – [Issue] → [Fix] 📋 Rule Check: - Stock owned ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠ 🧭 Recommendation: [Proceed / Adjust / Avoid] 2. Cash-Secured Put Pre-Trade Prompt You are my cash-secured put co-pilot. I’m planning the following CSP trade(s): [Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Available Cash] ### Cash-Secured Put Rules 1. Enough cash to secure 100 shares per contract. 2. Delta &lt; 0.3 (prefer 0.2–0.25). 3. Expiry 7–14 days. 4. ROI ≥ 1.5% per week. 5. No earnings or major news within 10 days. 6. Only 1–2 correlated tickers per sector. 7. Roll or close when 80% premium captured. 8. Prefer tickers with strong fundamentals or support near strike. ### Tasks - Validate each trade against rules. - Identify rule breaks and suggest safer alternatives. - Confirm all checks done and output in spreadsheet-friendly format. ### Output Format ✅ Summary: [good trade / needs adjustment / avoid] ⚠ Violations: - [Ticker] – [Issue] → [Suggested Fix] 📋 Rule Check: - Cash available ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠ 🧭 Recommendation: [Proceed / Adjust / Avoid] 3. Weekly Reflection Prompt (Both Strategies) You are my options review assistant. Here’s my recent trades (from spreadsheet): [Paste rows: Date | Ticker | Strategy | Strike | Expiry | Premium | ROI% | Delta | IV% | Sector | Status | Emotion | Notes] ### Rules Reference - Delta &lt;0.3, ROI ≥1.5%/week, Expiry 7–14d, No earnings&lt;10d - Roll at 80% capture, ≤2 correlated tickers/sector - Covered call only if stock held; CSP only if fully cash-secured - 2-day cool-off after assignment ### Tasks 1. Find rule violations and quantify (how many per rule). 2. Suggest better strikes/expiries for repeated issues. 3. Identify top 3 recurring habits or emotional biases. 4. Suggest one formula or automation to improve my spreadsheet. 5. Confirm all rules were evaluated. ### Output Format ✅ Summary: [brief performance summary] ⚠ Violations: - [Ticker] – [Rule broken] → [Fix] 🧠 Lessons: [key behavioral insights] ⚙ Spreadsheet Tip: [formula or automation idea] 📋 Rule Check: [each rule marked ✅/⚠]">
+  <meta itemprop="datePublished" content="2025-10-18T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-10-18T15:39:08-07:00">
+  <meta itemprop="wordCount" content="500">
+  <meta itemprop="keywords" content="Trading-Llm">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AI Prompts For Covered Options">
+  <meta name="twitter:description" content="1. Covered Call Pre-Trade Prompt You are my covered call co-pilot. I’m planning the following covered call trade(s): [Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Stock Position Size] ### Covered Call Rules 1. I must already hold the shares. 2. Delta &lt; 0.3 (prefer 0.2–0.25). 3. Expiry 7–14 days. 4. ROI ≥ 1.5% per week. 5. No earnings or major news within 10 days. 6. Roll or close when 80% premium captured. 7. Avoid writing calls on &gt;2 correlated tickers in same sector. 8. Target lower assignment risk when IV% is high. ### Tasks - Check the trade against all rules. - Highlight any violations with quick fix (new strike, expiry, or skip). - Confirm each rule checked and return a structured summary I can paste into my spreadsheet. ### Output Format ✅ Summary: [overall judgement] ⚠ Violations: - [Ticker] – [Issue] → [Fix] 📋 Rule Check: - Stock owned ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠ 🧭 Recommendation: [Proceed / Adjust / Avoid] 2. Cash-Secured Put Pre-Trade Prompt You are my cash-secured put co-pilot. I’m planning the following CSP trade(s): [Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Available Cash] ### Cash-Secured Put Rules 1. Enough cash to secure 100 shares per contract. 2. Delta &lt; 0.3 (prefer 0.2–0.25). 3. Expiry 7–14 days. 4. ROI ≥ 1.5% per week. 5. No earnings or major news within 10 days. 6. Only 1–2 correlated tickers per sector. 7. Roll or close when 80% premium captured. 8. Prefer tickers with strong fundamentals or support near strike. ### Tasks - Validate each trade against rules. - Identify rule breaks and suggest safer alternatives. - Confirm all checks done and output in spreadsheet-friendly format. ### Output Format ✅ Summary: [good trade / needs adjustment / avoid] ⚠ Violations: - [Ticker] – [Issue] → [Suggested Fix] 📋 Rule Check: - Cash available ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠ 🧭 Recommendation: [Proceed / Adjust / Avoid] 3. Weekly Reflection Prompt (Both Strategies) You are my options review assistant. Here’s my recent trades (from spreadsheet): [Paste rows: Date | Ticker | Strategy | Strike | Expiry | Premium | ROI% | Delta | IV% | Sector | Status | Emotion | Notes] ### Rules Reference - Delta &lt;0.3, ROI ≥1.5%/week, Expiry 7–14d, No earnings&lt;10d - Roll at 80% capture, ≤2 correlated tickers/sector - Covered call only if stock held; CSP only if fully cash-secured - 2-day cool-off after assignment ### Tasks 1. Find rule violations and quantify (how many per rule). 2. Suggest better strikes/expiries for repeated issues. 3. Identify top 3 recurring habits or emotional biases. 4. Suggest one formula or automation to improve my spreadsheet. 5. Confirm all rules were evaluated. ### Output Format ✅ Summary: [brief performance summary] ⚠ Violations: - [Ticker] – [Rule broken] → [Fix] 🧠 Lessons: [key behavioral insights] ⚙ Spreadsheet Tip: [formula or automation idea] 📋 Rule Check: [each rule marked ✅/⚠]">
+
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="../../" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        QuantCode: Use llm to improve your trading quality
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="../../" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="../../posts/self-intro/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="../../tags/engineering/" title="Engineering page">
+              Engineering
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="../../tags/trading-llm/" title="AI Trading page">
+              AI Trading
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="../../tags/leadership/" title="Leadership page">
+              Leadership
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">AI Prompts For Covered Options</h1>
+      
+      <p class="tracked"><strong>dennyzhang</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-10-18T00:00:00Z">October 18, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="1-dot-covered-call-pre-trade-prompt">1. Covered Call Pre-Trade Prompt</h2>
+<pre tabindex="0"><code class="language-prompt" data-lang="prompt">You are my covered call co-pilot.
+
+I’m planning the following covered call trade(s):
+[Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Stock Position Size]
+
+### Covered Call Rules
+1. I must already hold the shares.
+2. Delta &lt; 0.3 (prefer 0.2–0.25).
+3. Expiry 7–14 days.
+4. ROI ≥ 1.5% per week.
+5. No earnings or major news within 10 days.
+6. Roll or close when 80% premium captured.
+7. Avoid writing calls on &gt;2 correlated tickers in same sector.
+8. Target lower assignment risk when IV% is high.
+
+### Tasks
+- Check the trade against all rules.
+- Highlight any violations with quick fix (new strike, expiry, or skip).
+- Confirm each rule checked and return a structured summary I can paste into my spreadsheet.
+
+### Output Format
+✅ Summary: [overall judgement]
+⚠ Violations:
+- [Ticker] – [Issue] → [Fix]
+📋 Rule Check:
+- Stock owned ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠
+🧭 Recommendation: [Proceed / Adjust / Avoid]
+</code></pre><h2 id="2-dot-cash-secured-put-pre-trade-prompt">2. Cash-Secured Put Pre-Trade Prompt</h2>
+<pre tabindex="0"><code class="language-prompt" data-lang="prompt">You are my cash-secured put co-pilot.
+
+I’m planning the following CSP trade(s):
+[Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Available Cash]
+
+### Cash-Secured Put Rules
+1. Enough cash to secure 100 shares per contract.
+2. Delta &lt; 0.3 (prefer 0.2–0.25).
+3. Expiry 7–14 days.
+4. ROI ≥ 1.5% per week.
+5. No earnings or major news within 10 days.
+6. Only 1–2 correlated tickers per sector.
+7. Roll or close when 80% premium captured.
+8. Prefer tickers with strong fundamentals or support near strike.
+
+### Tasks
+- Validate each trade against rules.
+- Identify rule breaks and suggest safer alternatives.
+- Confirm all checks done and output in spreadsheet-friendly format.
+
+### Output Format
+✅ Summary: [good trade / needs adjustment / avoid]
+⚠ Violations:
+- [Ticker] – [Issue] → [Suggested Fix]
+📋 Rule Check:
+- Cash available ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠
+🧭 Recommendation: [Proceed / Adjust / Avoid]
+</code></pre><h2 id="3-dot-weekly-reflection-prompt--both-strategies">3. Weekly Reflection Prompt (Both Strategies)</h2>
+<pre tabindex="0"><code class="language-prompt" data-lang="prompt">You are my options review assistant.
+
+Here’s my recent trades (from spreadsheet):
+[Paste rows: Date | Ticker | Strategy | Strike | Expiry | Premium | ROI% | Delta | IV% | Sector | Status | Emotion | Notes]
+
+### Rules Reference
+- Delta &lt;0.3, ROI ≥1.5%/week, Expiry 7–14d, No earnings&lt;10d
+- Roll at 80% capture, ≤2 correlated tickers/sector
+- Covered call only if stock held; CSP only if fully cash-secured
+- 2-day cool-off after assignment
+
+### Tasks
+1. Find rule violations and quantify (how many per rule).
+2. Suggest better strikes/expiries for repeated issues.
+3. Identify top 3 recurring habits or emotional biases.
+4. Suggest one formula or automation to improve my spreadsheet.
+5. Confirm all rules were evaluated.
+
+### Output Format
+✅ Summary: [brief performance summary]
+⚠ Violations:
+- [Ticker] – [Rule broken] → [Fix]
+🧠 Lessons: [key behavioral insights]
+⚙ Spreadsheet Tip: [formula or automation idea]
+📋 Rule Check: [each rule marked ✅/⚠]
+</code></pre><ul class="pa0">
+  
+   <li class="list di">
+     <a href="../../tags/trading-llm/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Trading-Llm</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="../../posts/coverged-option-with-ai/">Use AI For Covered Options</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="../../posts/llm-trade-common-scenarios/">Improve Trading Quality With AI</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="../../posts/llm-stock-sentiment/">Check Stock Sentiment With AI</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://quantcodedenny.com/" >
+    &copy;  QuantCode: Use llm to improve your trading quality 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

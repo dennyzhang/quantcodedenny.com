@@ -234,152 +234,99 @@ make run-llm
 # Function test: all
 make run-all
 #+end_src
-* Use AI For Covered Options
+* AI Prompts For Covered Options
 :PROPERTIES:
-:EXPORT_FILE_NAME: coverged-option-with-ai
+:EXPORT_FILE_NAME: ai-prompts-covered-options
 :EXPORT_DATE: 2025-10-18
 :END:
-URL: https://quantcodedenny.com/posts/coverged-option-with-ai
-** Goal
-Make covered calls and cash-secured puts more disciplined using AI — not by theory, but through small automations that prevent recurring mistakes and simplify reflection.
-
-** 1. Common Mistakes And How AI Can Help
-
-*** Mistake 1: Selling strikes too close to the money
-- *Problem:* High chance of assignment, small downside cushion.  
-- *AI Tips:*
-  1. Ask AI to calculate delta or probability of ITM before trade.  
-     Example prompt:  
-     #+begin_quote
-     For RKLB at $5.1, what is the strike with ~25 delta and <30% assignment risk for next Friday?
-     #+end_quote
-  2. Build a sheet formula =`IF(delta>0.35,"Too close","OK")` and let AI review results weekly.  
-  3. Ask AI to cluster past trades by delta and identify ROI vs assignment rate trend.
-
-*** Mistake 2: Ignoring earnings or news events
-- *Problem:* Premium looks great but hidden risk of sudden drop.  
-- *AI Tips:*
-  1. Use AI plugin or calendar script to check earnings automatically — e.g., `=AI("Is SOFI reporting next 10 days?")`.  
-  2. Before trade, ask AI:
-     #+begin_quote
-     Is there any upcoming earnings, major macro event, or SEC filing risk for this ticker?
-     #+end_quote
-  3. AI highlights risk with context, not just yes/no (e.g., “Earnings on 10/24, implied move ±11%, avoid short options.”).
-
-*** Mistake 3: Overconcentration in correlated tickers
-- *Problem:* Selling options in correlated names (SOFI, HOOD, AFRM).  
-- *AI Tips:*
-  1. Paste your open tickers into AI:  
-     #+begin_quote
-     These are my open option tickers: [SOFI, HOOD, AFRM].  
-     Which ones are highly correlated and how should I diversify?
-     #+end_quote
-  2. AI outputs a correlation heatmap or simple group tag (Fintech cluster 0.8 correlation).  
-  3. Update your sheet to color cells when same sector repeats.
-
-*** Mistake 4: Rolling too late
-- *Problem:* Miss chance to capture remaining theta efficiently.  
-- *AI Tips:*
-  1. In your sheet, track “% of premium captured”.  
-     Example formula: `=(original_premium - current_price) / original_premium`.  
-  2. Ask AI weekly:
-     #+begin_quote
-     Which of my covered calls have >80% premium captured but not yet closed?  
-     Suggest roll strikes and expiries.
-     #+end_quote
-  3. AI returns actionable list like “Roll RKLB 5.5C→6C, next Friday, net credit $0.05.”
-
-*** Mistake 5: Emotional reaction after assignment
-- *Problem:* Breaking strategy consistency after stock is called away.  
-- *AI Tips:*
-  1. Log each assigned trade in sheet with emotion tag (“panic”, “neutral”, “calm”).  
-  2. Ask AI monthly:
-     #+begin_quote
-     Review my post-assignment actions. When did I overtrade or break my rule?
-     #+end_quote
-  3. AI summarizes triggers (“You tend to rebuy too early after loss weeks; set cooling period = 2 days.”).
-
-** 2. Enforcing Best Practices With AI
-
-*** Practice 1: Always use a trade template
-- Define: strike delta range, duration (7–14 days), and profit target (≥80% capture).
-- AI Enforcer:
-  - Use LLM to validate each trade plan:  
-    #+begin_quote
-    Check if this SOFI CSP (strike 6, expiry 10/25, delta 0.28, premium $0.12) fits my trade template (delta <0.3, no earnings, ROI >1.5%/week).
-    #+end_quote
-  - AI replies “✅ Matches template” or “⚠ ROI low, consider 2-week expiry.”
-
-*** Practice 2: Keep one master spreadsheet for all trades
-- Columns: `Date | Ticker | Type | Strike | Expiry | Premium | ROI | Delta | IV% | Status | Notes`
-- AI Integration:
-  - Use =AI() plugin or ChatGPT CSV upload for weekly review.
-  - Example prompt:  
-    #+begin_quote
-    Analyze this CSV.  
-    - Highlight trades breaking my template.  
-    - Show top 3 with best annualized ROI.  
-    - Suggest any adjustment to strike or expiry rules.
-    #+end_quote
-  - Keep Org note link `[[file:trades.xlsx][Master Trade Sheet]]`.
-
-*** Practice 3: Automate pre-trade checklist
-- Create checklist (liquidity, earnings, IV rank, margin, diversification).  
-- AI bot runs it for you when you paste a ticker:
-  #+begin_quote
-  Check SOFI for covered call suitability this week.
-  #+end_quote
-  AI responds with a “go/no-go” summary (e.g., “✅ liquidity OK, ⚠ earnings soon, ❌ overexposed fintech sector”).
-
-*** Practice 4: Enforce review loop
-- Each weekend, ask:
-  #+begin_quote
-  From my trade history, what mistakes repeated this week?  
-  How could I change my entry rules to reduce those?
-  #+end_quote
-- AI identifies pattern drift and suggests measurable tweaks.
-
-** 3. Spreadsheet Integration
-To avoid duplication:
-1. Keep **all trading data** in Google Sheets or Excel.  
-2. Let AI read or export the sheet (via CSV).  
-3. Use consistent column headers; AI can parse them easily.  
-4. Add formulas AI can interpret directly:
-   - `% Premium Captured`  
-   - `Annualized ROI`  
-   - `Earnings Within 10 Days`  
-   - `IV Rank`  
-5. Sample compatible header:
-   | Date | Ticker | Strategy | Strike | Expiry | Premium | ROI% | Delta | IV% | Status | Emotion | Notes |
-6. Optional: create one hidden sheet “AI Summary” where ChatGPT output is pasted after each review.
-
-** 4. Reflection Made Easy
-Manual journaling is hard — make it frictionless with AI:
-1. Each week, export your sheet (CSV).  
-2. Ask AI:
-   #+begin_quote
-   Summarize this week’s covered options.  
-   - What trades deviated from my rules?  
-   - What emotions influenced bad decisions?  
-   - Suggest one process improvement for next week.
-   #+end_quote
-3. Copy AI’s summary under “Weekly Reflection” section below.  
-4. Keep cumulative learning by week (AI writes 2–3 bullets each time).
-
-*** Weekly Reflection Log
-- 2025-10-18: Strikes mostly within delta 0.25–0.3 ✅. Need auto alert for earnings week.  
-- 2025-10-25: Two CSPs overlapped fintech sector. Add correlation check next week.  
-
-** 5. Continuous AI Improvement Prompt
+** 1. Covered Call Pre-Trade Prompt
 #+BEGIN_SRC prompt
-You are my trading co-pilot.
-Review my "Use AI For Covered Options" org file and the linked spreadsheet.
-Suggest:
-1. What data columns or formulas are missing to automate ROI/risk analysis.
-2. How to enhance AI prompts for faster decision-making.
-3. Any better reflection structure for habit building.
-#+END_SRC
+You are my covered call co-pilot.
 
+I’m planning the following covered call trade(s):
+[Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Stock Position Size]
+
+### Covered Call Rules
+1. I must already hold the shares.
+2. Delta < 0.3 (prefer 0.2–0.25).
+3. Expiry 7–14 days.
+4. ROI ≥ 1.5% per week.
+5. No earnings or major news within 10 days.
+6. Roll or close when 80% premium captured.
+7. Avoid writing calls on >2 correlated tickers in same sector.
+8. Target lower assignment risk when IV% is high.
+
+### Tasks
+- Check the trade against all rules.
+- Highlight any violations with quick fix (new strike, expiry, or skip).
+- Confirm each rule checked and return a structured summary I can paste into my spreadsheet.
+
+### Output Format
+✅ Summary: [overall judgement]
+⚠ Violations:
+- [Ticker] – [Issue] → [Fix]
+📋 Rule Check:
+- Stock owned ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠
+🧭 Recommendation: [Proceed / Adjust / Avoid]
+#+END_SRC
+** 2. Cash-Secured Put Pre-Trade Prompt
+#+BEGIN_SRC prompt
+You are my cash-secured put co-pilot.
+
+I’m planning the following CSP trade(s):
+[Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Available Cash]
+
+### Cash-Secured Put Rules
+1. Enough cash to secure 100 shares per contract.
+2. Delta < 0.3 (prefer 0.2–0.25).
+3. Expiry 7–14 days.
+4. ROI ≥ 1.5% per week.
+5. No earnings or major news within 10 days.
+6. Only 1–2 correlated tickers per sector.
+7. Roll or close when 80% premium captured.
+8. Prefer tickers with strong fundamentals or support near strike.
+
+### Tasks
+- Validate each trade against rules.
+- Identify rule breaks and suggest safer alternatives.
+- Confirm all checks done and output in spreadsheet-friendly format.
+
+### Output Format
+✅ Summary: [good trade / needs adjustment / avoid]
+⚠ Violations:
+- [Ticker] – [Issue] → [Suggested Fix]
+📋 Rule Check:
+- Cash available ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠
+🧭 Recommendation: [Proceed / Adjust / Avoid]
+#+END_SRC
+** 3. Weekly Reflection Prompt (Both Strategies)
+#+BEGIN_SRC prompt
+You are my options review assistant.
+
+Here’s my recent trades (from spreadsheet):
+[Paste rows: Date | Ticker | Strategy | Strike | Expiry | Premium | ROI% | Delta | IV% | Sector | Status | Emotion | Notes]
+
+### Rules Reference
+- Delta <0.3, ROI ≥1.5%/week, Expiry 7–14d, No earnings<10d
+- Roll at 80% capture, ≤2 correlated tickers/sector
+- Covered call only if stock held; CSP only if fully cash-secured
+- 2-day cool-off after assignment
+
+### Tasks
+1. Find rule violations and quantify (how many per rule).
+2. Suggest better strikes/expiries for repeated issues.
+3. Identify top 3 recurring habits or emotional biases.
+4. Suggest one formula or automation to improve my spreadsheet.
+5. Confirm all rules were evaluated.
+
+### Output Format
+✅ Summary: [brief performance summary]
+⚠ Violations:
+- [Ticker] – [Rule broken] → [Fix]
+🧠 Lessons: [key behavioral insights]
+⚙ Spreadsheet Tip: [formula or automation idea]
+📋 Rule Check: [each rule marked ✅/⚠]
+#+END_SRC
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Caveats of using LLM for trading                                 :noexport:
 ** 市场不可预测，LLM可能miss黑天鹅

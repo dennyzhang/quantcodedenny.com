@@ -48,7 +48,7 @@
 
   <meta itemprop="name" content="Tags">
   <meta itemprop="datePublished" content="2025-10-18T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-10-18T15:27:37-07:00">
+  <meta itemprop="dateModified" content="2025-10-18T15:39:08-07:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Tags">
 
@@ -138,6 +138,104 @@
             Tag: Trading-Llm
           </a>
         </h2>
+        
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="../posts/ai-prompts-covered-options/" class="link black dim">
+        AI Prompts For Covered Options
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h2 id="1-dot-covered-call-pre-trade-prompt">1. Covered Call Pre-Trade Prompt</h2>
+<pre tabindex="0"><code class="language-prompt" data-lang="prompt">You are my covered call co-pilot.
+
+I’m planning the following covered call trade(s):
+[Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Stock Position Size]
+
+### Covered Call Rules
+1. I must already hold the shares.
+2. Delta &lt; 0.3 (prefer 0.2–0.25).
+3. Expiry 7–14 days.
+4. ROI ≥ 1.5% per week.
+5. No earnings or major news within 10 days.
+6. Roll or close when 80% premium captured.
+7. Avoid writing calls on &gt;2 correlated tickers in same sector.
+8. Target lower assignment risk when IV% is high.
+
+### Tasks
+- Check the trade against all rules.
+- Highlight any violations with quick fix (new strike, expiry, or skip).
+- Confirm each rule checked and return a structured summary I can paste into my spreadsheet.
+
+### Output Format
+✅ Summary: [overall judgement]
+⚠ Violations:
+- [Ticker] – [Issue] → [Fix]
+📋 Rule Check:
+- Stock owned ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠
+🧭 Recommendation: [Proceed / Adjust / Avoid]
+</code></pre><h2 id="2-dot-cash-secured-put-pre-trade-prompt">2. Cash-Secured Put Pre-Trade Prompt</h2>
+<pre tabindex="0"><code class="language-prompt" data-lang="prompt">You are my cash-secured put co-pilot.
+
+I’m planning the following CSP trade(s):
+[Ticker, Strike, Expiry, Delta, Premium, ROI%, Sector, Available Cash]
+
+### Cash-Secured Put Rules
+1. Enough cash to secure 100 shares per contract.
+2. Delta &lt; 0.3 (prefer 0.2–0.25).
+3. Expiry 7–14 days.
+4. ROI ≥ 1.5% per week.
+5. No earnings or major news within 10 days.
+6. Only 1–2 correlated tickers per sector.
+7. Roll or close when 80% premium captured.
+8. Prefer tickers with strong fundamentals or support near strike.
+
+### Tasks
+- Validate each trade against rules.
+- Identify rule breaks and suggest safer alternatives.
+- Confirm all checks done and output in spreadsheet-friendly format.
+
+### Output Format
+✅ Summary: [good trade / needs adjustment / avoid]
+⚠ Violations:
+- [Ticker] – [Issue] → [Suggested Fix]
+📋 Rule Check:
+- Cash available ✅/⚠ | Delta ✅/⚠ | ROI ✅/⚠ | Expiry ✅/⚠ | Earnings ✅/⚠ | Diversification ✅/⚠
+🧭 Recommendation: [Proceed / Adjust / Avoid]
+</code></pre><h2 id="3-dot-weekly-reflection-prompt--both-strategies">3. Weekly Reflection Prompt (Both Strategies)</h2>
+<pre tabindex="0"><code class="language-prompt" data-lang="prompt">You are my options review assistant.
+
+Here’s my recent trades (from spreadsheet):
+[Paste rows: Date | Ticker | Strategy | Strike | Expiry | Premium | ROI% | Delta | IV% | Sector | Status | Emotion | Notes]
+
+### Rules Reference
+- Delta &lt;0.3, ROI ≥1.5%/week, Expiry 7–14d, No earnings&lt;10d
+- Roll at 80% capture, ≤2 correlated tickers/sector
+- Covered call only if stock held; CSP only if fully cash-secured
+- 2-day cool-off after assignment
+
+### Tasks
+1. Find rule violations and quantify (how many per rule).
+2. Suggest better strikes/expiries for repeated issues.
+3. Identify top 3 recurring habits or emotional biases.
+4. Suggest one formula or automation to improve my spreadsheet.
+5. Confirm all rules were evaluated.
+
+### Output Format
+✅ Summary: [brief performance summary]
+⚠ Violations:
+- [Ticker] – [Rule broken] → [Fix]
+🧠 Lessons: [key behavioral insights]
+⚙ Spreadsheet Tip: [formula or automation idea]
+📋 Rule Check: [each rule marked ✅/⚠]
+</code></pre>
+    </div>
+    <a href="../posts/ai-prompts-covered-options/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
         
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
   <div class="mb3 pa4 gray overflow-hidden bg-white">

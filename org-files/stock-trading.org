@@ -234,7 +234,7 @@ make run-llm
 # Function test: all
 make run-all
 #+end_src
-* AI Prompts For Covered Options
+* Use AI For Covered Options
 :PROPERTIES:
 :EXPORT_FILE_NAME: ai-prompts-covered-options
 :EXPORT_DATE: 2025-10-18

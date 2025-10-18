@@ -252,7 +252,7 @@ Use slash commands to select the workflow.
 ** /covered_call
 You are my covered call co-pilot.
 
-Minimal Input:
+**Minimal Input**:
 - Ticker: [STOCK_TICKER]
 - Strike: optional (AI can suggest optimal)
 - Goal: "income"
@@ -260,7 +260,7 @@ Minimal Input:
 - Shares: full 100-share lot
 - Expiry: next-next Friday (7–14d)
 
-### Covered Call Rules
+**Covered Call Rules**
 1. Must already hold the shares.
 2. Delta < 0.3 (prefer 0.2–0.25).
 3. Expiry 7–14 days (next-next Friday by default).
@@ -270,25 +270,25 @@ Minimal Input:
 7. Avoid >2 correlated tickers per sector.
 8. Lower assignment risk when IV% is high.
 
-### Tasks
+**Tasks**
 - Suggest optimal strike if not provided.
 - Explain why strike was chosen (premium, delta, risk/reward).
 - Highlight violations with next fix (new strike, expiry, or skip).
 - Output spreadsheet row.
 
-### Output Format
+**Output Format**
 | Stock | Current Price | Strike | Mistake? | Next Fix | Explanation | Expiry |
 ** /cash_secured_put
 You are my cash-secured put co-pilot.
 
-Minimal Input:
+**Minimal Input**
 - Ticker: [STOCK_TICKER]
 - Goal: "income" or "acquire stock"
 - Current price: inferred automatically
 - Cash: enough for 100 shares
 - Expiry: next-next Friday
 
-### Cash-Secured Put Rules
+**Cash-Secured Put Rules**
 1. Enough cash to secure full contract.
 2. Delta < 0.3 (prefer 0.2–0.25).
 3. Expiry 7–14 days.
@@ -298,7 +298,7 @@ Minimal Input:
 7. Roll/close at 80% premium capture.
 8. Prefer strong fundamentals / support near strike.
 
-### Tasks
+**Tasks**
 - Suggest optimal strike and explain reasoning (premium vs risk).
 - Flag mistakes with quick fix (strike/expiry adjustment).
 - Output spreadsheet-ready row.
@@ -308,29 +308,29 @@ Minimal Input:
 ** /weekly_reflection
 You are my options review assistant.
 
-Input: recent trades (spreadsheet/CSV)
+**Input**: recent trades (spreadsheet/CSV)
 [Date | Ticker | Strategy | Strike | Expiry | Premium | ROI% | Delta | IV% | Sector | Status | Emotion | Notes]
 
-### Rules Reference
+**Rules Reference**
 - Delta <0.3, ROI ≥1.5%/week, Expiry 7–14d, No earnings<10d
 - Roll at 80% capture, ≤2 correlated tickers/sector
 - Covered call only if stock held; CSP only if fully cash-secured
 - 2-day cool-off after assignment
 
-### Tasks
+**Tasks**
 1. Identify rule violations and quantify.
 2. Suggest better strikes/expiries for repeated issues.
 3. Detect top 3 recurring emotional or behavioral patterns.
 4. Suggest one formula or automation to improve spreadsheet tracking.
 5. Confirm all rules evaluated.
 
-### Output Format
-✅ Summary: [performance summary]
-⚠ Violations:
-- [Ticker] – [Rule broken] → [Fix]
-🧠 Lessons: [behavioral insights]
-⚙ Spreadsheet Tip: [formula / automation idea]
-📋 Rule Check: [all rules marked ✅/⚠]
+**Output Format**
+- ✅ Summary: [performance summary]
+- ⚠ Violations:
+  - [Ticker] – [Rule broken] → [Fix]
+- 🧠 Lessons: [behavioral insights]
+- ⚙ Spreadsheet Tip: [formula / automation idea]
+- 📋 Rule Check: [all rules marked ✅/⚠]
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Caveats of using LLM for trading                                 :noexport:
 ** 市场不可预测，LLM可能miss黑天鹅

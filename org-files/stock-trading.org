@@ -316,8 +316,6 @@ Instructions:
   > /cash_secured_put AMD 120 acquire_stock
 - Weekly Reflection:
   > /weekly_reflection (paste weekly spreadsheet CSV)
-
-
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Caveats of using LLM for trading                                 :noexport:
 ** 市场不可预测，LLM可能miss黑天鹅

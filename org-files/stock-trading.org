@@ -239,7 +239,6 @@ make run-all
 :EXPORT_FILE_NAME: ai-prompts-covered-options
 :EXPORT_DATE: 2025-10-18
 :END:
-
 URL: https://quantcodedenny.com/posts/coverged-option-with-ai
 
 This master prompt covers all scenarios: Covered Call, Cash-Secured Put, and Weekly Reflection.

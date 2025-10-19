@@ -285,12 +285,12 @@ You are my covered call co-pilot.
 - Always calculate strike threshold digit-by-digit to avoid <20% OTM mistakes
 
 **Sample usage**
-#+begin_example
+```
 /covered_call	
 Tesla	600
 SOFI	50
 RKLB	100
-#+end_example
+```
 ** /cash_secured_put
 You are my cash-secured put co-pilot.
 

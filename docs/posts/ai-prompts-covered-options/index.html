@@ -69,7 +69,7 @@ Ticker: [STOCK_TICKER] Strike: optional (AI will only suggest if missing or viol
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-10-18T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-10-18T17:39:20-07:00">
+    <meta property="article:modified_time" content="2025-10-18T17:43:59-07:00">
     <meta property="article:tag" content="Trading-Llm">
 
   <meta itemprop="name" content="Use AI For Covered Options">
@@ -79,8 +79,8 @@ Principles Respect long-term ownership as a guiding principle when suggesting ad
 Minimal Input:
 Ticker: [STOCK_TICKER] Strike: optional (AI will only suggest if missing or violating rules; otherwise keep user strike) Goal: “income” Current price: inferred automatically Shares: full 100-share lot Expiry: next-next Friday (7–14d) Covered Call Rules">
   <meta itemprop="datePublished" content="2025-10-18T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-10-18T17:39:20-07:00">
-  <meta itemprop="wordCount" content="544">
+  <meta itemprop="dateModified" content="2025-10-18T17:43:59-07:00">
+  <meta itemprop="wordCount" content="546">
   <meta itemprop="keywords" content="Trading-Llm">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Use AI For Covered Options">
@@ -228,12 +228,14 @@ Stock | Current Price | Strike | Mistake? | Next Fix | Explanation</li>
 <li>Strike (%OTM) column shows: Strike Price ($) – % above current price</li>
 <li>Always calculate strike threshold digit-by-digit to avoid &lt;20% OTM mistakes</li>
 </ul>
-<p><strong><strong>Sample usage</strong></strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>/covered_call
-</span></span><span style="display:flex;"><span>Tesla	600
-</span></span><span style="display:flex;"><span>SOFI	50
-</span></span><span style="display:flex;"><span>RKLB	100
-</span></span></code></pre></div><h2 id="cash-secured-put">/cash_secured_put</h2>
+<p><strong><strong>Sample usage</strong></strong>
+```
+/covered_call
+Tesla	600
+SOFI	50
+RKLB	100
+```</p>
+<h2 id="cash-secured-put">/cash_secured_put</h2>
 <p>You are my cash-secured put co-pilot.</p>
 <p><strong><strong>Minimal Input</strong></strong></p>
 <ul>

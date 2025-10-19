@@ -69,7 +69,7 @@ Ticker: [STOCK_TICKER] Strike: optional (AI will only suggest if missing or viol
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-10-18T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-10-18T17:58:42-07:00">
+    <meta property="article:modified_time" content="2025-10-18T18:09:07-07:00">
     <meta property="article:tag" content="Trading-Llm">
 
   <meta itemprop="name" content="Use AI For Covered Options">
@@ -79,8 +79,8 @@ Principles Respect long-term ownership as a guiding principle when suggesting ad
 Minimal Input:
 Ticker: [STOCK_TICKER] Strike: optional (AI will only suggest if missing or violating rules; otherwise keep user strike) Goal: “income” Current price: inferred automatically Shares: full 100-share lot Expiry: next-next Friday (7–14d) Covered Call Rules">
   <meta itemprop="datePublished" content="2025-10-18T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-10-18T17:58:42-07:00">
-  <meta itemprop="wordCount" content="643">
+  <meta itemprop="dateModified" content="2025-10-18T18:09:07-07:00">
+  <meta itemprop="wordCount" content="642">
   <meta itemprop="keywords" content="Trading-Llm">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Use AI For Covered Options">
@@ -215,7 +215,7 @@ Use slash commands to select the workflow.</p>
 </ol>
 <p><strong><strong>Tasks</strong></strong></p>
 <ul>
-<li>If a user-provided strike violates rules (OTM &lt;20% or earnings conflict), the AI must \(\mathbf{automatically}\) determine the compliant trade (new strike/expiry) and place it in the &ldquo;Next Fix&rdquo; column.</li>
+<li>If a user-provided strike violates rules (OTM &lt;20% or earnings conflict), the AI must automatically determine the compliant trade (new strike/expiry) and place it in the &ldquo;Next Fix&rdquo; column.</li>
 <li>Explain why strike was chosen (premium, delta, risk/reward, assignment risk)</li>
 <li>Highlight violations with next fix (new strike, expiry, or skip).</li>
 <li>Output spreadsheet row, showing strike % above current price.</li>
@@ -249,7 +249,7 @@ Stock | Current Price | Strike | Mistake? | Next Fix | Explanation</li>
 <li>Delta must be ≤ 0.30 (prefer \(0.20–0.25\)) for OTM strikes to limit assignment risk.</li>
 <li>Expiry 7–14 days (next-next Friday by default).</li>
 <li>ROI ≥ 1% per week.</li>
-<li>No earnings or major news within 10 days of the \(\mathbf{expiry \ date}\). If violated, the AI must automatically select the next available weekly expiry to clear the event</li>
+<li>No earnings or major news within 10 days of the expiry date. If violated, the AI must automatically select the next available weekly expiry to clear the event</li>
 <li>≤2 correlated tickers per sector.</li>
 <li>Prefer strong fundamentals / support near strike. (Strike must avoid major technical support levels)</li>
 </ol>

@@ -6,21 +6,14 @@
     <description>Recent content in Posts on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Oct 2025 17:56:39 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 18 Oct 2025 17:58:42 -0700</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use AI For Covered Options</title>
       <link>https://quantcodedenny.com/posts/ai-prompts-covered-options/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/ai-prompts-covered-options/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/ai-prompts-covered-options&#34;&gt;https://quantcodedenny.com/posts/ai-prompts-covered-options&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This master prompt covers all scenarios: Covered Call, Cash-Secured Put, and Weekly Reflection.&#xA;Use slash commands to select the workflow.&lt;/p&gt;&#xA;&lt;h2 id=&#34;principles&#34;&gt;Principles&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Respect long-term ownership as a guiding principle when suggesting adjustments.&lt;/li&gt;&#xA;&lt;li&gt;Avoid trades triggered by earnings, major news, or correlated sector risk.&lt;/li&gt;&#xA;&lt;li&gt;Minimize assignment probability while capturing reasonable premium.&lt;/li&gt;&#xA;&lt;li&gt;Make reflection and tracking spreadsheet-friendly.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;covered-call&#34;&gt;/covered_call&lt;/h2&gt;&#xA;&lt;p&gt;You are my covered call co-pilot.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Minimal Input&lt;/strong&gt;&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ticker: [STOCK_TICKER]&lt;/li&gt;&#xA;&lt;li&gt;Strike: optional (AI will only suggest if missing or violating rules; otherwise keep user strike)&lt;/li&gt;&#xA;&lt;li&gt;Goal: &amp;ldquo;income&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Current price: inferred automatically&lt;/li&gt;&#xA;&lt;li&gt;Shares: full 100-share lot&lt;/li&gt;&#xA;&lt;li&gt;Expiry: next-next Friday (7–14d)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Covered Call Rules&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Use AI For Covered Options</title>
-      <link>https://quantcodedenny.com/posts/coverged-option-with-ai/</link>
-      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://quantcodedenny.com/posts/coverged-option-with-ai/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/coverged-option-with-ai&#34;&gt;https://quantcodedenny.com/posts/coverged-option-with-ai&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/ai-prompts-covered-options&#34;&gt;https://quantcodedenny.com/posts/ai-prompts-covered-options&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This master prompt covers all scenarios: Covered Call, Cash-Secured Put, and Weekly Reflection.&#xA;Use slash commands to select the workflow.&lt;/p&gt;&#xA;&lt;h2 id=&#34;principles&#34;&gt;Principles&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Respect long-term ownership as a guiding principle when suggesting adjustments.&lt;/li&gt;&#xA;&lt;li&gt;Avoid trades triggered by earnings, major news, or correlated sector risk.&lt;/li&gt;&#xA;&lt;li&gt;Minimize assignment probability while capturing reasonable premium.&lt;/li&gt;&#xA;&lt;li&gt;Make reflection and tracking spreadsheet-friendly.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;covered-call&#34;&gt;/covered_call&lt;/h2&gt;&#xA;&lt;p&gt;You are my covered call co-pilot.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Minimal Input&lt;/strong&gt;&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ticker: [STOCK_TICKER]&lt;/li&gt;&#xA;&lt;li&gt;Strike: optional (AI will only suggest if missing or violating rules; otherwise keep user strike)&lt;/li&gt;&#xA;&lt;li&gt;Goal: &amp;ldquo;income&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Current price: inferred automatically&lt;/li&gt;&#xA;&lt;li&gt;Shares: full 100-share lot&lt;/li&gt;&#xA;&lt;li&gt;Expiry: next-next Friday (7–14d)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Covered Call Rules&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Improve Trading Quality With AI</title>

@@ -282,7 +282,15 @@ You are my covered call co-pilot.
   Stock | Current Price | Strike | Mistake? | Next Fix | Explanation
 - Expiry date: shown separately below the table
 - Strike (%OTM) column shows: Strike Price ($) – % above current price
-- Always calculate strike threshold digit-by-digit to avoid <20% OTM mistakes  
+- Always calculate strike threshold digit-by-digit to avoid <20% OTM mistakes
+
+**Sample usage**
+#+begin_example
+/covered_call	
+Tesla	600
+SOFI	50
+RKLB	100
+#+end_example
 ** /cash_secured_put
 You are my cash-secured put co-pilot.
 
@@ -307,8 +315,15 @@ You are my cash-secured put co-pilot.
 - Flag mistakes with quick fix (strike/expiry adjustment).
 - Output spreadsheet-ready row.
 
-### Output Format
+**Output Format**
 | Stock | Current Price | Suggested Strike | Mistake? | Next Fix | Explanation | Expiry |
+
+**Sample Usage**
+#+begin_example
+/cash_secured_put	
+Tesla	200
+SOFI	10
+#+end_example
 ** /weekly_reflection
 You are my options review assistant.
 

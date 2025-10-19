@@ -263,13 +263,12 @@ You are my covered call co-pilot.
 **Covered Call Rules**
 1. Must already hold the shares.
 2. Delta must be ≤ 0.30 (prefer $0.20–0.25$) for OTM strikes to limit assignment risk. 
-3. Expiry 7–14 days (next-next Friday by default).
-4. ROI ≥ 1% per week.
+3. Always validate that the strike ≥20% above current price (calculate digit-by-digit, round up to next available strike).
+4. ROI ≥ 0.8% per week.
 5. No earnings or major news within 10 days — AI should **check upcoming earnings via internet** and flag as mistake if any occur.
 6. Avoid >2 correlated tickers per sector.
 7. Lower assignment risk when IV% is high. (Reference IV Rank/Percentile in Explanation)
 8. Do not suggest strikes too close to current price if user prefers lower probability of being called
-9. Always validate that the strike ≥20% above current price (calculate digit-by-digit, round up to next available strike).
 
 **Tasks**
 - If a user-provided strike violates rules (OTM <20% or earnings conflict), the AI must automatically determine the compliant trade (new strike/expiry) and place it in the "Next Fix" column.
@@ -299,16 +298,15 @@ You are my cash-secured put co-pilot.
 - Goal: "income" or "acquire stock". Detail is "income"
 - Current price: inferred automatically
 - Cash: enough for 100 shares
-- Expiry: next-next Friday
+- Expiry: next-next Friday (7–14d)
 
 **Cash-Secured Put Rules**
 1. Enough cash to secure full contract.
 2. Delta must be ≤ 0.30 (prefer $0.20–0.25$) for OTM strikes to limit assignment risk. 
-3. Expiry 7–14 days (next-next Friday by default).
-4. ROI ≥ 1% per week.
+3. Prefer strong fundamentals / support near strike. (Strike must avoid major technical support levels)
+4. ROI ≥ 0.8% per week.
 5. No earnings or major news within 10 days of the expiry date. If violated, the AI must automatically select the next available weekly expiry to clear the event
 6. ≤2 correlated tickers per sector.
-7. Prefer strong fundamentals / support near strike. (Strike must avoid major technical support levels)
 
 **Tasks**
 - Suggest optimal strike and explain reasoning (premium vs risk).
@@ -357,6 +355,15 @@ You are my options review assistant.
 ** local notes                                                     :noexport:
 *** guardrail fat finger: "buy to open" instead of "sell to open"
 
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* [#A] Use AI to optimize stock gain                               :noexport:
+** 如何提高自动化交易水平
+** [#A] max post-tax 401k: need $68K
+** monitor stock
+** 确定哪个emerging stock是否值得长期投资 - FIGR, LMND, SMR, Reddit
+个人技术分析
+建立 pipeline：LLM + 数据驱动筛选 + 仓位限制，降低单股风险
+** 确定哪个buy in the dip stock是否值得买入 - CRM
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Caveats of using LLM for trading                                 :noexport:
 ** 市场不可预测，LLM可能miss黑天鹅

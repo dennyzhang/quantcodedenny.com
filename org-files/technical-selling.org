@@ -116,6 +116,8 @@ as leader, you need to help the team
 1. **Skill Leverage**: Work on rare, transferable, high-impact skills.
 2. **Visible Impact**: Quantify and share results internally.
 3. **Network & Influence**: Expand reputation via mentorship, XFN projects, and selective external visibility.
+*** 核心价值：make a deal, see the root problem and solution, 
+*** Become better in some ways year over year; 
 * Improve Leadership Presence
 :PROPERTIES:
 :EXPORT_FILE_NAME: leadership-presence
@@ -310,6 +312,11 @@ I don't believe that is the right model though. There should be an E2E owner w/ 
 The comment applies to everyone. Not for you only.
 *** For other teams' job, if you have difficulties to sell, leverage owning team instead
 *** [#A] self-accountability: For every struggle, you always have a choice. You choose to do and choose not to do.
+*** [#A] less is more: simplify things in your life; stop chasing unnecessary goals
+too many bank accounts
+too many small optimization - use which credit cards for different scenarios.
+*** 作用：减少早晨/出门的决策疲劳
+*** 设置“默认决策”规则（衣服轮换、周餐单、出门包）（零成本）
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Scope Better At Work
 :PROPERTIES:
@@ -432,6 +439,7 @@ if we don't give to leadership, it doesn't matter
 *** To have cross org impact, you need to think and learn from multiple orgs.
 *** [#A] need to think at abstract layers
 *** [#A] If you worry about survive and don't set big goals, you won't thrive
+*** 1st principle: focus on the most fundmental challenges and facts
 * Look Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better

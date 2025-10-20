@@ -354,7 +354,7 @@ You are my options review assistant.
 - 📋 Rule Check: [all rules marked ✅/⚠]
 ** local notes                                                     :noexport:
 *** guardrail fat finger: "buy to open" instead of "sell to open"
-
+*** how to track the performance with many orders in different brokerages
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * [#A] Use AI to optimize stock gain                               :noexport:
 ** 如何提高自动化交易水平

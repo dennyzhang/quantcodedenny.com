@@ -317,6 +317,7 @@ too many bank accounts
 too many small optimization - use which credit cards for different scenarios.
 *** 作用：减少早晨/出门的决策疲劳
 *** 设置“默认决策”规则（衣服轮换、周餐单、出门包）（零成本）
+*** for things you don't know or not interested, just say I don't know
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Scope Better At Work
 :PROPERTIES:

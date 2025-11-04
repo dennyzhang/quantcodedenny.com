@@ -52,7 +52,7 @@ Focus on high-leverage actions and eliminate noise.
 - Stay emotionally connected with kids and spouse
 - Maintain routines for health and stress management
 **** Daily / Weekly Goals
-- [ ] 15–30 min 1:1 focused play with son (3x/week)
+- [ ] 15–30 min 1:1 focused play with kids (3x/week)
 - [ ] Evening family meal without devices (2x/week)
 - [ ] Weekly 30-min sync with spouse to review week and connect
 - [ ] Exercise 2–3x per week, sleep 7h/night
@@ -64,18 +64,15 @@ Focus on high-leverage actions and eliminate noise.
 - Build meaningful, positive connections
 **** Daily / Weekly Goals
 - [ ] Attend design reviews weekly
-- [ ] Work on high-impact project tasks daily
-- [ ] Connect with 1 mentor/peer weekly
-- [ ] Update wardrobe/grooming monthly — helps improve confidence, first impressions, and self-perception
+- [ ] Practice 5–10 min daily communication exercise (storytelling, presentation, or elevator pitch)
+- [ ] Weekly self-reflection on appearance or communication improvement
 - [ ] Publish or present 1 idea per quarter
 - Avoid overthinking or setting too many small, fragmented goals
 *** 3. Money — Grow Wealth with Leverage
 - Earn through smart, sustainable investing
 - Focus energy on high-return opportunities
 **** Daily / Weekly Goals
-- [ ] Review investment decisions weekly and track lessons learned
-- [ ] Track key financial metrics daily/weekly
-- [ ] Automate savings/investments
+- [ ] Track key financial metrics weekly and lessons learned
 - [ ] Delegate or outsource low-value tasks
 - Avoid over-optimizing trivial details
 ** ⚙️ Guiding Principles
@@ -91,14 +88,6 @@ Focus on high-leverage actions and eliminate noise.
 *** 3. Spend Smartly to Earn More
 - Buy time and energy via good services
 *** 4. Build systems and habits that compound over years, not weeks  
-** 🔍 Daily / Weekly Reflection
-- Check off goals in each section to track progress
-- Reflect on energy usage and focus areas rather than a separate checklist
-- Keep routines simple and repeatable
-- Build compounding systems over time
-** 🏷️ Org Tags for Dashboard
-- :daily: :weekly: :family: :confidence: :money: :mindset:
-
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value

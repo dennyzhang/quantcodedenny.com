@@ -38,6 +38,16 @@ Please help me improve it.
 
 Here is the current version of my post:
 [Paste your latest org-mode draft here]
+* Personal top priority
+:PROPERTIES:
+:EXPORT_FILE_NAME: personal-top-priority
+:EXPORT_DATE: 2025-11-03
+:END:
+URL: https://quantcodedenny.com/posts/personal-top-priority/
+** Key objectives
+1. Healthy family: kids, spouse relationship, personal health
+- Be confidence: grow market value; look good outside
+** Guiding principles
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value
@@ -118,6 +128,12 @@ as leader, you need to help the team
 3. **Network & Influence**: Expand reputation via mentorship, XFN projects, and selective external visibility.
 *** 核心价值：make a deal, see the root problem and solution, 
 *** Become better in some ways year over year; 
+*** keep learning organically in daily work - beyond assign projects
+You won't have concentrated time for deep dive. but expose to new info to be awared adds value
+*** [#A] follow-up to drive progress is a key value adding
+*** 你最大的底气是解决复杂问题的能力
+*** [#A] 没有follow 1st principle: work on too many downstream issues
+*** become confident inside
 * Improve Leadership Presence
 :PROPERTIES:
 :EXPORT_FILE_NAME: leadership-presence
@@ -318,6 +334,8 @@ too many small optimization - use which credit cards for different scenarios.
 *** 作用：减少早晨/出门的决策疲劳
 *** 设置“默认决策”规则（衣服轮换、周餐单、出门包）（零成本）
 *** for things you don't know or not interested, just say I don't know
+** avoid low roi - 少做费力不讨好的事
+tech people how to do things is one: better engineering
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Scope Better At Work
 :PROPERTIES:
@@ -441,6 +459,7 @@ if we don't give to leadership, it doesn't matter
 *** [#A] need to think at abstract layers
 *** [#A] If you worry about survive and don't set big goals, you won't thrive
 *** 1st principle: focus on the most fundmental challenges and facts
+*** main logic in our team, and the other team do integration
 * Look Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: look-better
@@ -521,6 +540,8 @@ Learn turn delivery into lasting ownership
 *** avoid caveat: voice is too low or talk too fast
 *** avoid caveat: talk too details which generates confusions
 *** naming is hard
+*** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+*** looks sucessful: looks fit, energetic and positive
 * Connect Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: connect-better
@@ -563,3 +584,11 @@ Connecting better at work is both a **skill and a habit**. I make it automatic w
 
 At the end of each week, I reflect briefly: **Who did I understand better, help, or stay connected with, and what simple action will strengthen the connection next week?**
 ** local notes                                                     :noexport:
+* Simple technical language                                        :noexport:
+- Difficulty in making changes without introducing SEVs
+- Lack of flexibility for diverse data processing needs
+
+
+
+
+

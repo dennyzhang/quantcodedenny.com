@@ -187,10 +187,10 @@ Take my draft and return:
 ---
 ** /reply → Group Chat Reply Review
 Take my conversation and return:
-- **Rating** against four dimensions: Inclusive, Persuasive, Ambitious & Practical, Progress-Based.
+- **Rating** against four dimensions: Inclusive, Persuasive, Ambitious & Practical, Progress-Based, Succint communication.
 - **Three detailed suggestions** with concrete rephrasing examples.
 - **Improved rewritten version** of my reply.
-
+  
 ---
 ** /invite → Meeting Invite Review
 Take my invite and return:
@@ -433,6 +433,11 @@ EM: roles and responsilibty of teams and components;
 *** [#A] identify ownership for unowned problems
 *** there are diverged incentive
 *** make progression taking inconsistent feedback from different teams
+** Where is this coming from?
+** is there I can do anything to stop this from happening?
+#+BEGIN_EXAMPLE
+
+#+END_EXAMPLE
 * Vibe Coding
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-for-vibe-coding

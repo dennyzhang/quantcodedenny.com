@@ -1,0 +1,11 @@
+#+hugo_base_dir: ~/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com
+#+language: en
+#+AUTHOR: dennyzhang
+#+HUGO_TAGS: engineering execution machine-learning
+#+TAGS: Important(i) noexport(n)
+#+SEQ_TODO: TODO HALF ASSIGN | DONE CANCELED BYPASS DELEGATE DEFERRED
+* Overfitting
+* Prediction decay
+* Workload tiering to manage at scale
+different models don't go through the same operation
+based on RoI

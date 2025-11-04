@@ -41,47 +41,85 @@ Here is the current version of my post:
 * Personal Top Priority
 :PROPERTIES:
 :EXPORT_FILE_NAME: personal-top-priority
-:EXPORT_DATE: 2025-11-03
+:EXPORT_DATE: 2025-11-04
 :END:
 URL: https://quantcodedenny.com/posts/personal-top-priority/
-** Key Objectives - FCM
-1. Family: Maintain a healthy and happy family
-   - Build strong connection with kids
-   - Nurture relationship with spouse
-   - Maintain physical health and manage stress
 
-2. Confidence: Strengthen confidence and growth
-   - Increase market value and professional impact
-   - Improve appearance and communication skills
-   - Deepen meaningful connections
+** 🌟 Vision
+Live a healthy, confident, and wealthy life — balanced across family, personal growth, and financial freedom.  
+Focus on high-leverage actions, eliminate noise, and consistently reinforce priorities that scale impact.
 
-3. Money: Grow wealth effectively
-   - Earn through smart, sustainable investing
-   - Focus energy on high-leverage opportunities
-** Guiding Principles
-1. Identify and protect priorities
-   - Know what to do and what not to do
-   - Bias toward problem solving, not perfection
-2. Improve mindset
-   - Apply growth mindset and first principles
-3. Spend smartly to earn more
-   - Pay for services that save time and energy
-   - Avoid over-optimizing trivial details
-** Build Good Habits & Stop Bad Habits
-*Good Habits*
-1. Practice thoughtful design reviews
-   - Gather and share impactful stories at work
-   - Say no to local or low-impact optimizations
-2. Write weekly summaries to reflect and refocus
+** 🎯 Key Objectives (FCM)
+*** 1. Family — Build a Healthy and Happy Family
+- Stay emotionally connected with kids and spouse
+- Maintain physical health and manage stress effectively
 
-*Bad Habits*
-- Stop setting too many small goals
-- Stop struggling in dead ends
-- Avoid overthinking without action
-** Clear Vision
-1. Stay deeply connected with kid and spouse
-2. Remain energetic and positive after work
-3. Deprioritize distractions and stay focused on what matters most
+**** Quarterly Focus
+- [ ] 1:1 time with each kid at least once per week
+- [ ] Monthly date night with spouse
+- [ ] Exercise 3x per week, sleep 7h/night
+
+*** 2. Confidence — Strengthen Personal and Professional Growth
+- Increase professional market value
+- Improve appearance and communication skills
+- Build meaningful, positive connections
+
+**** Quarterly Focus
+- [ ] Publish or present 1 idea publicly (talk, post, doc)
+- [ ] Update wardrobe / grooming once per quarter
+- [ ] Reach out to 1 mentor or peer connection monthly
+
+*** 3. Money — Grow Wealth with Leverage
+- Earn through smart, sustainable investing
+- Focus energy on high-return opportunities
+
+**** Quarterly Focus
+- [ ] Review investment portfolio quarterly
+- [ ] Evaluate investment decisions and lessons learned — track what worked, what didn’t
+- [ ] Automate saving and investing routines
+- [ ] Delegate or outsource low-value chores
+
+** ⚙️ Guiding Principles
+*** 1. Prioritize What Truly Matters
+- Be clear on what to do — and what not to do
+- Bias toward solving problems, not perfection
+
+*** 2. Evolve Mindset Continuously  (E6 → E7 Upgrade)
+- Think in systems and first principles — solve root causes, not symptoms  
+- Apply growth mindset — treat mistakes as learning opportunities and embrace ambiguity  
+- Create leverage — empower others, clarify processes, and automate repeat work  
+- Lead through influence — align people and decisions without authority
+
+*** 3. Spend Smartly to Earn More
+- Buy time and energy via good services
+- Avoid over-optimizing trivial details
+
+** 🧠 Habits
+*** Good Habits
+- [ ] Conduct effective design reviews weekly
+  - Share meaningful stories and lessons at work
+  - Say no to small or low-impact optimizations
+- [ ] Write a weekly summary to reflect and refocus
+
+*** Bad Habits
+- Struggling too long in dead ends
+- Overthinking without action
+- Setting too many small, fragmented goals
+
+** 🔄 Weekly Reflection Checklist
+| Focus Area | Reflection Question | Done? |
+|-------------+--------------------+-------|
+| Family | Did I spend 1:1 time with my spouse or kid? | [ ] |
+| Confidence | Did I act or share something that built self-belief? | [ ] |
+| Money | Did I review investments and track lessons learned? | [ ] |
+| Energy | Did I maintain good sleep and movement this week? | [ ] |
+| Mindset | Did I apply systems thinking, growth mindset, or empower others this week? | [ ] |
+
+** 🔍 Clarity Rules
+- Say *no* to non-essential goals
+- Keep *energy > time* as the key metric
+- Default to *reflection > reaction*
+- Build systems and habits that compound over years, not weeks
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value

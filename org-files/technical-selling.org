@@ -46,15 +46,16 @@ Here is the current version of my post:
 URL: https://quantcodedenny.com/posts/personal-top-priority/
 ** 🌟 Vision
 Live a healthy, confident, and wealthy life — balanced across family, personal growth, and financial freedom.
-Focus on high-leverage actions, eliminate noise, and consistently reinforce priorities that scale impact.
+
+Focus on high-leverage actions and eliminate noise
 ** 🎯 Key Objectives (FCM)
 *** 1. Family — Build a Healthy and Happy Family
 - Stay emotionally connected with kids and spouse
 - Maintain physical health and manage stress effectively
 **** Quarterly Focus
-- [ ] 1:1 time with each kid at least once per week
+- [ ] 1 hour's high quality time with kids twice a week
+- [ ] Exercise 2x per week, sleep 7h/night
 - [ ] Monthly date night with spouse
-- [ ] Exercise 3x per week, sleep 7h/night
 *** 2. Confidence — Strengthen Personal and Professional Growth
 - Increase professional market value
 - Improve appearance and communication skills
@@ -94,13 +95,13 @@ Focus on high-leverage actions, eliminate noise, and consistently reinforce prio
 - Overthinking without action
 - Setting too many small, fragmented goals
 ** 🔄 Weekly Reflection Checklist
-| Focus Area | Reflection Question | Done? |
-|-------------+--------------------+-------|
-| Family | Did I spend 1:1 time with my spouse or kid? | [ ] |
-| Confidence | Did I act or share something that built self-belief? | [ ] |
-| Money | Did I review investments and track lessons learned? | [ ] |
-| Energy | Did I maintain good sleep and movement this week? | [ ] |
-| Mindset | Did I apply systems thinking, growth mindset, or empower others this week? | [ ] |
+| Focus Area | Reflection Question                                                        | Done? |
+|------------+----------------------------------------------------------------------------+-------|
+| Family     | Did I spend 1:1 time with my spouse or kid?                                | [ ]   |
+| Confidence | Did I act or share something that built self-belief?                       | [ ]   |
+| Money      | Did I review investments and track lessons learned?                        | [ ]   |
+| Energy     | Did I maintain good sleep and movement this week?                          | [ ]   |
+| Mindset    | Did I apply systems thinking, growth mindset, or empower others this week? | [ ]   |
 ** 🔍 Clarity Rules
 - Say *no* to non-essential goals
 - Keep *energy > time* as the key metric

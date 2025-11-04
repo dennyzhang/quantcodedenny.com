@@ -44,16 +44,16 @@ Here is the current version of my post:
 :EXPORT_DATE: 2025-11-03
 :END:
 URL: https://quantcodedenny.com/posts/personal-top-priority/
-** Key Objectives
-1. Healthy family
+** Key Objectives - FCM
+1. Family: Healthy family
   - Kids
   - Spouse relationship
   - Personal health & maintain mental stress
-- Be confidence
+- Confidence: Be confidence
   - Grow market value
   - Look better
   - Connect better
-- Grow wealth
+- Money: Grow wealth
   - Earn money through investing
   - Use your energy with high returns
 ** Guiding Principles
@@ -67,11 +67,16 @@ URL: https://quantcodedenny.com/posts/personal-top-priority/
 - Earn money by spending
   - Purchase good services saving your energy
   - Stop overly optimizing small things
-** Good habits
+** Build good habits & stop bad habits
+**Good habits**:
 1. Practice design reviews
 - Collect story and share story at work
 - Say no to small local optimizations
 - Weekly summary
+
+**Bad habits**:
+- Stop struggling in dead ends
+- Over-think but don't act on it
 ** Clear vision
 1. Well connected with kid and spouse
 - Stay energetic after work

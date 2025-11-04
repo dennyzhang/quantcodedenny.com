@@ -64,15 +64,16 @@ URL: https://quantcodedenny.com/posts/personal-top-priority/
 - Build growth mindset
 - 1st principles
 ** Good habits
-- Connect with high quality sources
+1. Connect with high quality sources
 - Keep sharing
 - Uplevel your mental models
 - Practice system design
 - Build karma
 ** Clear vision
-- Well connected with kid and spouse
+1. Well connected with kid and spouse
 - Stay energetic after work
 - Sharable in the your org
+- Deprirotized goals
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value

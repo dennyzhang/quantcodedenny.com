@@ -38,7 +38,7 @@ Please help me improve it.
 
 Here is the current version of my post:
 [Paste your latest org-mode draft here]
-* Personal top priority
+* Personal Top Priority
 :PROPERTIES:
 :EXPORT_FILE_NAME: personal-top-priority
 :EXPORT_DATE: 2025-11-03
@@ -52,6 +52,9 @@ URL: https://quantcodedenny.com/posts/personal-top-priority/
 - Be confidence
   - Grow market value
   - Look good outside: energetic, persuative, knowledgeable
+- Grow wealth
+  - Earn money through stock investing
+  - Use energy with the most efficient way for both work and home
 ** Guiding Principles
 1. Identify the priority
    - What to do

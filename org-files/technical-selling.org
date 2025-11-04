@@ -45,42 +45,43 @@ Here is the current version of my post:
 :END:
 URL: https://quantcodedenny.com/posts/personal-top-priority/
 ** Key Objectives - FCM
-1. Family: Healthy family
-  - Kids
-  - Spouse relationship
-  - Personal health & maintain mental stress
-- Confidence: Be confidence
-  - Grow market value
-  - Look better
-  - Connect better
-- Money: Grow wealth
-  - Earn money through investing
-  - Use your energy with high returns
-** Guiding Principles
-1. Identify the priority
-  - What to do
-  - What not to do
-- Bias on problem solving
-- Improve your mindset
-  - Growth mindset
-  - 1st principles
-- Earn money by spending
-  - Purchase good services saving your energy
-  - Stop overly optimizing small things
-** Build good habits & stop bad habits
-**Good habits**:
-1. Practice design reviews
-- Collect story and share story at work
-- Say no to small local optimizations
-- Weekly summary
+1. Family: Maintain a healthy and happy family
+   - Build strong connection with kids
+   - Nurture relationship with spouse
+   - Maintain physical health and manage stress
 
-**Bad habits**:
+2. Confidence: Strengthen confidence and growth
+   - Increase market value and professional impact
+   - Improve appearance and communication skills
+   - Deepen meaningful connections
+
+3. Money: Grow wealth effectively
+   - Earn through smart, sustainable investing
+   - Focus energy on high-leverage opportunities
+** Guiding Principles
+1. Identify and protect priorities
+   - Know what to do and what not to do
+   - Bias toward problem solving, not perfection
+2. Improve mindset
+   - Apply growth mindset and first principles
+3. Spend smartly to earn more
+   - Pay for services that save time and energy
+   - Avoid over-optimizing trivial details
+** Build Good Habits & Stop Bad Habits
+*Good Habits*
+1. Practice thoughtful design reviews
+   - Gather and share impactful stories at work
+   - Say no to local or low-impact optimizations
+2. Write weekly summaries to reflect and refocus
+
+*Bad Habits*
+- Stop setting too many small goals
 - Stop struggling in dead ends
-- Over-think but don't act on it
-** Clear vision
-1. Well connected with kid and spouse
-- Stay energetic after work
-- Deprirotized goals
+- Avoid overthinking without action
+** Clear Vision
+1. Stay deeply connected with kid and spouse
+2. Remain energetic and positive after work
+3. Deprioritize distractions and stay focused on what matters most
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value

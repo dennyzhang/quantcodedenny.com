@@ -44,10 +44,21 @@ Here is the current version of my post:
 :EXPORT_DATE: 2025-11-03
 :END:
 URL: https://quantcodedenny.com/posts/personal-top-priority/
-** Key objectives
-1. Healthy family: kids, spouse relationship, personal health
-- Be confidence: grow market value; look good outside
-** Guiding principles
+** Key Objectives
+1. Healthy family
+  - Kids
+  - Spouse relationship
+  - Personal health
+- Be confidence
+  - Grow market value
+  - Look good outside: energetic, persuative, knowledgeable
+** Guiding Principles
+1. Identify the priority
+   - What to do
+   - What not to do
+- Improve RoI by spending
+   - RoI mindset
+- Build growth mindset
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value

@@ -40,42 +40,48 @@ Here is the current version of my post:
 [Paste your latest org-mode draft here]
 * Personal Top Priority
 :PROPERTIES:
-:EXPORT_FILE_NAME: personal-top-priority
+:EXPORT_FILE_NAME: personal-top-priority-dashboard
 :EXPORT_DATE: 2025-11-04
 :END:
 URL: https://quantcodedenny.com/posts/personal-top-priority/
 ** 🌟 Vision
 Live a healthy, confident, and wealthy life — balanced across family, personal growth, and financial freedom.
-
-Focus on high-leverage actions and eliminate noise
+Focus on high-leverage actions and eliminate noise.
 ** 🎯 Key Objectives (FCM)
 *** 1. Family — Build a Healthy and Happy Family
 - Stay emotionally connected with kids and spouse
-- Maintain physical health and manage stress effectively
-**** Quarterly Focus
-- [ ] 1 hour's high quality time with kids twice a week
-- [ ] Exercise 2x per week, sleep 7h/night
-- [ ] Monthly date night with spouse
+- Maintain routines for health and stress management
+**** Daily / Weekly Goals
+- [ ] 15–30 min 1:1 focused play with son (3x/week)
+- [ ] Evening family meal without devices (2x/week)
+- [ ] Weekly 30-min sync with spouse to review week and connect
+- [ ] Exercise 2–3x per week, sleep 7h/night
+- [ ] Plan 1 weekend activity per month with family
+- Avoid overthinking or struggling too long in dead ends
 *** 2. Confidence — Strengthen Personal and Professional Growth
 - Increase professional market value
 - Improve appearance and communication skills
 - Build meaningful, positive connections
-**** Quarterly Focus
-- [ ] Publish or present 1 idea publicly (talk, post, doc)
-- [ ] Update wardrobe / grooming once per quarter
-- [ ] Reach out to 1 mentor or peer connection monthly
+**** Daily / Weekly Goals
+- [ ] Attend design reviews weekly
+- [ ] Work on high-impact project tasks daily
+- [ ] Connect with 1 mentor/peer weekly
+- [ ] Update wardrobe/grooming monthly — helps improve confidence, first impressions, and self-perception
+- [ ] Publish or present 1 idea per quarter
+- Avoid overthinking or setting too many small, fragmented goals
 *** 3. Money — Grow Wealth with Leverage
 - Earn through smart, sustainable investing
 - Focus energy on high-return opportunities
-**** Quarterly Focus
-- [ ] Review investment portfolio quarterly
-- [ ] Evaluate investment decisions and lessons learned — track what worked, what didn’t
-- [ ] Automate saving and investing routines
-- [ ] Delegate or outsource low-value chores
+**** Daily / Weekly Goals
+- [ ] Review investment decisions weekly and track lessons learned
+- [ ] Track key financial metrics daily/weekly
+- [ ] Automate savings/investments
+- [ ] Delegate or outsource low-value tasks
+- Avoid over-optimizing trivial details
 ** ⚙️ Guiding Principles
 *** 1. Prioritize What Truly Matters
-- Be clear on what to do — and what not to do
-- Bias toward solving problems, not perfection
+- Focus on high-impact tasks
+- Say no to low-value work
 *** 2. Evolve Mindset Continuously  (E6 → E7 Upgrade)
 - Think in systems and first principles — solve root causes, not symptoms
 - Apply growth mindset — treat mistakes as learning opportunities and embrace ambiguity
@@ -83,30 +89,13 @@ Focus on high-leverage actions and eliminate noise
 - Lead through influence — align people and decisions without authority
 *** 3. Spend Smartly to Earn More
 - Buy time and energy via good services
-- Avoid over-optimizing trivial details
-** 🧠 Habits
-*** Good Habits
-- [ ] Conduct effective design reviews weekly
-  - Share meaningful stories and lessons at work
-  - Say no to small or low-impact optimizations
-- [ ] Write a weekly summary to reflect and refocus
-*** Bad Habits
-- Struggling too long in dead ends
-- Overthinking without action
-- Setting too many small, fragmented goals
-** 🔄 Weekly Reflection Checklist
-| Focus Area | Reflection Question                                                        | Done? |
-|------------+----------------------------------------------------------------------------+-------|
-| Family     | Did I spend 1:1 time with my spouse or kid?                                | [ ]   |
-| Confidence | Did I act or share something that built self-belief?                       | [ ]   |
-| Money      | Did I review investments and track lessons learned?                        | [ ]   |
-| Energy     | Did I maintain good sleep and movement this week?                          | [ ]   |
-| Mindset    | Did I apply systems thinking, growth mindset, or empower others this week? | [ ]   |
-** 🔍 Clarity Rules
-- Say *no* to non-essential goals
-- Keep *energy > time* as the key metric
-- Default to *reflection > reaction*
-- Build systems and habits that compound over years, not weeks
+** 🔍 Daily / Weekly Reflection
+- Check off goals in each section to track progress
+- Reflect on energy usage and focus areas rather than a separate checklist
+- Keep routines simple and repeatable
+- Build compounding systems over time
+** 🏷️ Org Tags for Dashboard
+- :daily: :weekly: :family: :confidence: :money: :mindset:
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value

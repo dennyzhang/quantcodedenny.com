@@ -81,14 +81,16 @@ Focus on high-leverage actions and eliminate noise.
 ** ⚙️ Guiding Principles
 *** 1. Prioritize What Truly Matters
 - Focus on high-impact tasks
-- Say no to low-value work
+- Say no to low-value work or non-essential goals
 *** 2. Evolve Mindset Continuously  (E6 → E7 Upgrade)
 - Think in systems and first principles — solve root causes, not symptoms
 - Apply growth mindset — treat mistakes as learning opportunities and embrace ambiguity
 - Create leverage — empower others, clarify processes, and automate repeat work
 - Lead through influence — align people and decisions without authority
+- Default to reflection > reaction
 *** 3. Spend Smartly to Earn More
 - Buy time and energy via good services
+*** 4. Build systems and habits that compound over years, not weeks  
 ** 🔍 Daily / Weekly Reflection
 - Check off goals in each section to track progress
 - Reflect on energy usage and focus areas rather than a separate checklist
@@ -96,6 +98,7 @@ Focus on high-leverage actions and eliminate noise.
 - Build compounding systems over time
 ** 🏷️ Org Tags for Dashboard
 - :daily: :weekly: :family: :confidence: :money: :mindset:
+
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value

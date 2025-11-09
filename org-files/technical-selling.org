@@ -88,7 +88,30 @@ Focus on high-leverage actions and eliminate noise.
 *** 3. Spend Smartly to Earn More
 - Buy time and energy via good services
 *** 4. Build systems and habits that compound over years, not weeks  
-* Improve Market Value
+** local notes
+*** make informed decision - identify the better way
+*** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+*** [#A] skills: identify the key challenges, historical context and incentives behind
+*** skills: drive executions with conflicts
+*** skills: have deep conversations
+*** skills: identify and sell the business values of your work
+*** skills: know when to say no
+*** skills: talk in a way people want to engage and help
+*** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+*** habits: don't set small goals
+*** habits: don't talk without clear goals or actions, as nothing will change
+*** habits: focus on key challenges and bottlenecks
+*** habits: stay curious - engage in learning new context and knowledge
+*** habits: talk and learn from others
+*** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+*** mindset: dare to challenge the status-quo
+*** mindset: focus on busines wins; focus on feedback of stakeholders of performance review.
+*** mindset: mostly you need to make trade-off; you can't have them all
+*** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+*** mindset: focus on the progress for key problems
+*** mindset: everyone has their own situations and desires
+
+* Improve Market Value                               :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value
 :EXPORT_DATE: 2025-10-03

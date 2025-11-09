@@ -60,7 +60,8 @@
 - 分析师看好比例（%）
 
 请提供 **5-10 家符合条件的公司**，并附上简短分析说明每家公司亮点和风险。"
-** 低于一千亿的小盘股要小心
+*** identify emerging stock - 股市挣大钱的多是提前埋伏的
+*** 低于一千亿的小盘股要小心
 *** 把 RANI 看作一个例子：即“题材强＋极低基期＋利好触发” 的模式
 *** 若你还想找“下一支可能爆发”的股票，你要找的是：市值低／题材明确但尚未被炒作／有潜在触发但尚未爆出。 要求market 10B以上
 #+BEGIN_EXAMPLE
@@ -68,6 +69,7 @@
 #+END_EXAMPLE
 *** use scenario - what you personally want to see . Find $230 UNH, $15 RKLB,
 *** 如何提前知道股市机会：circle稳定币
+*** 选股： market cap超过5b
 * [#A] Covered Options With AI
 :PROPERTIES:
 :EXPORT_FILE_NAME: ai-prompts-covered-options
@@ -85,7 +87,6 @@ Use slash commands to select the workflow.
 - Make reflection and tracking spreadsheet-friendly.
 ** /covered_call
 You are my covered call co-pilot.
-
 **Minimal Input**:
 - Ticker: [STOCK_TICKER]
 - Strike: optional (AI will only suggest if missing or violating rules; otherwise keep user strike)
@@ -93,7 +94,6 @@ You are my covered call co-pilot.
 - Current price: inferred automatically
 - Shares: full 100-share lot
 - Expiry: next-next Friday (7–14d)
-
 **Covered Call Rules**
 1. Must already hold the shares.
 2. Delta must be ≤ 0.30 (prefer $0.20–0.25$) for OTM strikes to limit assignment risk. 
@@ -103,20 +103,17 @@ You are my covered call co-pilot.
 6. Avoid >2 correlated tickers per sector.
 7. Lower assignment risk when IV% is high. (Reference IV Rank/Percentile in Explanation)
 8. Do not suggest strikes too close to current price if user prefers lower probability of being called
-
 **Tasks**
 - If a user-provided strike violates rules (OTM <20% or earnings conflict), the AI must automatically determine the compliant trade (new strike/expiry) and place it in the "Next Fix" column.
 - Explain why strike was chosen (premium, delta, risk/reward, assignment risk)
 - Highlight violations with next fix (new strike, expiry, or skip).
 - Output spreadsheet row, showing strike % above current price.
-
 **Output Format**
 - Human-readable table with columns:  
   Stock | Current Price | Strike | Mistake? | Next Fix | Explanation
 - Expiry date: shown separately below the table
 - Strike (%OTM) column shows: Strike Price ($) – % above current price
 - Always calculate strike threshold digit-by-digit to avoid <20% OTM mistakes
-
 **Sample usage**
 #+begin_example
 /covered_call	
@@ -126,14 +123,12 @@ RKLB	100
 #+end_example
 ** /cash_secured_put
 You are my cash-secured put co-pilot.
-
 **Minimal Input**
 - Ticker: [STOCK_TICKER]
 - Goal: "income" or "acquire stock". Detail is "income"
 - Current price: inferred automatically
 - Cash: enough for 100 shares
 - Expiry: next-next Friday (7–14d)
-
 **Cash-Secured Put Rules**
 1. Enough cash to secure full contract.
 2. Delta must be ≤ 0.30 (prefer $0.20–0.25$) for OTM strikes to limit assignment risk. 
@@ -141,19 +136,16 @@ You are my cash-secured put co-pilot.
 4. ROI in between 0.04% and 0.5% per week.
 5. No earnings or major news within 10 days of the expiry date. If violated, the AI must automatically select the next available weekly expiry to clear the event
 6. ≤2 correlated tickers per sector.
-
 **Tasks**
 - Suggest optimal strike and explain reasoning (premium vs risk).
 - Flag mistakes with quick fix (strike/expiry adjustment).
 - Output spreadsheet-ready row.
-
 **Output Format**
 - Human-readable table with columns:  
   Stock | Current Price | Strike | Mistake? | Next Fix | Explanation
 - Expiry date: shown separately below the table
 - Strike (%OTM) column shows: Strike Price ($) – % below current price
 - Always calculate strike threshold digit-by-digit to avoid <20% OTM mistakes
-
 **Sample Usage**
 #+begin_example
 /cash_secured_put	
@@ -162,23 +154,19 @@ SOFI	10
 #+end_example
 ** /weekly_reflection
 You are my options review assistant.
-
 **Input**: recent trades (spreadsheet/CSV)
 [Date | Ticker | Strategy | Strike | Expiry | Premium | ROI% | Delta | IV% | Sector | Status | Emotion | Notes]
-
 **Rules Reference**
 - Delta <0.30, ROI ≥1.5%/week, Expiry 7–14d, No earnings<10d
 - Roll at 80% capture, ≤2 correlated tickers/sector
 - Covered call only if stock held; CSP only if fully cash-secured
 - 2-day cool-off after assignment
-
 **Tasks**
 1. Identify rule violations and quantify.
 2. Suggest better strikes/expiries for repeated issues.
 3. Detect top 3 recurring emotional or behavioral patterns.
 4. Suggest one formula or automation to improve spreadsheet tracking.
 5. Confirm all rules evaluated.
-
 **Output Format**
 - ✅ Summary: [performance summary]
 - ⚠ Violations:
@@ -366,7 +354,6 @@ https://www.laohu8.com/post/461823628984760
 - 买入一张 AAPL 1 年后、执行价 $120 的 Call（Delta ≈ 0.85，价格约 $65）→ 成本约 $6,500
 - 卖出一张 AAPL 近月、执行价 $190 的 Call → 收到权利金 $2（$200）
 这样你就复制了一个类似 Covered Call 的结构，只用了不到一半的资金！
-
 *** Zero-Cost Collar - 拥有某只股票涨了很多，但又担心后面会回调？ 你想保护利润，又不想花太多钱买 Put？
 https://www.laohu8.com/post/461498546246520
 Zero-Cost Collar 是一个“用收益换保险”的聪明策略，用不花钱的方式，让你安心持股，风暴来了也不怕
@@ -422,6 +409,7 @@ ETF价格偏离其成分股净值 → 买便宜卖贵
 *** 用已有股票抵押借低息钱，买安全债券赚利差，同时控制杠杆风险；加上股票长期增值，形成稳健放大的复合收益策略
 *** 对你持仓100股或以上的股票，持续滚动（Rolling）Covered Call合约
 *** learning: Need reserve cash for rolling up puts
+*** 在新闻窗口（earnings、产品发布、重要宏观数据）前避开。
 * Trading Guardrails With AI
 :PROPERTIES:
 :EXPORT_FILE_NAME: llm-trade-common-scenarios

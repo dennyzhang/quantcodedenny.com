@@ -88,6 +88,264 @@ Focus on high-leverage actions and eliminate noise.
 *** 3. Spend Smartly to Earn More
 - Buy time and energy via good services
 *** 4. Build systems and habits that compound over years, not weeks  
+** local notes - 1                                                 :noexport:
+#+begin_example
+每天做5个标准的引体向上
+
+Denny top priority: Achieve more with less - deep conversations, enjoy daily work, build unique value, more freedom
+
+H2 improvement: 1/ talk with concrete examples 2/ what you say should be consistent with what you do. (In both ways of do and don’t)
+
+Heavy usage of AI in dailiy work and life
+FB PSC Tips
+米拓出海
+Leadership communication skills
+
+Public speech: 
+Hits
+Speak slow
+Easy to follow
+No mounting, clear and loud
+
+Miss:
+no ugh, 
+巴巴嘴
+Voice is small
+Don’t defer the discussion 
+Avoid lengthy reply: understand the question well, they answer right to point
+Avoid duplicate info, if audience already understand
+用胸腔说话
+Be ready for people’s confusion, since they may be misunderstanding
+Work mental model upgrade - achieve more with less
+Focus on critical problems; avoid wasting time in solving small or not critical problems
+Take leverage: there are four type of leverages - unique value to leverage yourself, collaborate to leverage team, use money to make more money, multiple success with low marginal cost
+
+6 month PSC already feels like people are shipping incomplete things to optimize for recency bias.
+Principle: Focus on RoI (a.k.a, goal oriented)
+No free work
+Being helpful in F3 org, however doesn’t grow the team
+Reduce waste in over-explaining when writing project proposal
+Take leverage
+Prioritize directors’ ask to save time in reaching alignments
+No need to be super accurate on numbers; Collecting accurate data would be expensive
+Principle: Take care of yourself and your team first
+Principle: Reduce communication cost
+Provide limited info for initial conversations, so far audience can understand
+Principle: Have good assessment
+Understand teams positions; projects overall design and process
+Explain e2e flow
+Principle: Get continuous rewards
+Keep selling your work: before-after comparison, my contribution
+How I can help you on xxx
+
+Principle: Effective collaboration (a.k.a use leverage)
+Leverage free resource: DS to build dashboard, existing building blocks, etc
+XFN want to do the work for you
+
+Finance investment
+Tesla, Microsoft, Nvidia
+
+To evaluate: PLTR, ServiceNow, Dogecoin
+Challenge
+我觉得拿住不是最难的。难的是如何说服自己all in。这些十倍股你投一万拿十年又如何呢？
+
+
+Recap
+Buy stock on dip
+Meta drops to 88 in 2021. I didn’t buy though I believe it is for sure undervalue
+Tesla drops to 144 in 2024. I didn’t buy, though I believe it’s for sure undervalue
+Buy stock before taking off
+Nvidia was 500 in 2023. I didn’t buy since I was not sure whether it’s overvalued
+Tesla was 200 in July 2024. I could buy 100K, yet I only buy 30K
+Doesn’t hold long enough
+I hold 100k Bitcoins on 2015 working in TOTVSLabs
+
+目标
+多交朋友，有深度交流
+提高mindset
+Growth mindset 
+Goal driven 
+减少精神内耗，道德绑架
+抱着“我弱我有理”的态度去进行道德绑架
+不需要维护：我是好人
+I’m not a victim. I can make the change 
+一定不要把自己放在‘受害者’的位置上，因为我们默认有罪的人才需要改变，一旦你坐定了‘受害者’的位置，就容易强调别人的责任、外界的环境，而自己心安理得地不行动
+
+难处
+没有空余时间，不自由
+没有松弛感，时刻被工作压力包围
+
+机会
+多多使用先进技术： AI
+
+
+
+经验总结
+不要让别人总是免费从你这里拿走好处
+“只吃一次亏”原则：先相信对方，但只要通过观察确认对方是不值得交往的，就立刻远离
+事情来了，要问自己三句话—— 要做什么？ 怎么做？该找谁？
+稻盛和夫曾经有言：“我们工作的最终目的是提升心性，磨砺灵魂，活出不一样的人生，所谓赚钱，只不过是顺便为之。
+
+————————————————————————————————————————————
+
+Opportunity 1: 米拓出海
+企业建站
+免费；vps + default theme; vps + premium theme; customized solution/app stores
+打通业务
+Deep understanding of U.S. market
+U.S. tax system
+OA system
+盗版软件维权
+家装施工
+
+Opportunity 2: AI商业应用
+跨境电商
+感觉用ai去设计小朋友的个性化用品，再对接中国的制造业，可能是一个好的思路
+搞那种人型玩偶或钥匙圈吊坠。场景是：送给自己子女或朋友子女的礼物
+
+Goal：5年内，家庭有松弛感 - 基本实现w2收入外，家庭收支平衡
+副业收入可观 10w 刀
+湾区三套房
+在国内待一个月
+
+Super power
+在美国的经验，在IT前沿的经验
+美国市场的判断和营销
+把中国产能和美国市场结合
+ai前沿应用
+与人合作/资源整合赚钱 side income
+老杨的20w，5%利息；6%的收益
+用现有资本赚passive income
+投资股市
+十倍股长持
+定投大盘
+投资房市 - 稳定现金流
+Denny top priority: deep conversations, enjoy daily work, build unique value, more freedom
+Achieve more and faster
+
+ Mission#1: Deep conversations 
+Effective listener
+Clearly Understand questions, opinions, suggestions. Both the surface level and underlined level
+Learn new ideas from others
+Having your own opinions
+Authentic thoughts with reasoning
+Deep thoughts with firsthand research
+Share, ask critical questions
+Provide value: emotion and intellectual
+Techniques: 总结实用的开头语和场景pattern
+我给妻子的建议是，每次沟通先说“我知道你过去生活不容易，也是为了咱们这个家好才节省的”
+给丈夫的建议是，每次沟通先说“我理解你对于小资生活的向往，这正是我当初追你的理由之一”
+Be specific
+6 questions in having deep conversations: a/ what do you think? b/ what else c/ what’s the real challenge for you d/ what I can help you e/ what you find useful in today’s conversations
+Ask five why to understand the root cause
+Ask powerful questions: a/ intention. I’m willing to know you b/ rapport. I see you c/ openness. I hear you d/ listening. I get you. E/ empathy. With you.
+Caveat
+Avoid being passive aggressive. Instead of why…(people implies to defense), how to … (drive actionable improvements)
+
+
+Mission #2: enjoy daily work
+Energy management
+sleep, exercise, reading
+Energy management: Make less decision
+人们都太想改变别人，太不想改变自己了。改变自己不改变别人，可以省去很多烦恼
+如何让人改变的智慧：你要先假设他是对的。只有在对的方向上，人才愿意变得更好
+Only optimize the critical parts
+如果问题不重要，优化它就是浪费资源，或者应该delegate给别人。比如：孩子的精致饮食，陪伴时的过度保护。
+生活中做减法
+不用擅长家务
+需要更少，更实惠的服务
+好的生活习惯
+早上六点出门，锻炼半小时。晚上陪崽睡觉
+消肚子，注意肠胃
+晚上和空闲时间不开手机
+Don’t compare with others
+每个人的情况和目标不一样。有些人为了事业可以每周把孩子放在daycare七
+把工作变成爱好
+Emotion Management
+不轻易上头
+Collaborate for a bigger wins
+Goal driven
+重燃心中的光
+
+
+
+Mission #3 build unique value
+不断提高自我认知
+Self confidence
+Undervalue your team
+strategic improvement 
+杂事太多，没有安排自我提升时间
+拒绝PUA和自我PUA
+Don’t sabotage yourself
+不是将环境对自己的负面影响都解读为“我不够好，如果我能力更强，就一定可以克服”的自我攻击
+handy技能
+Ai工具
+
+
+Feature management API
+Give people an anchor to leverage. Explain what problems you can help
+
+Mission #4 more freedom
+更多的时间
+松弛感
+passive income
+side business
+不要在小事精明，大事糊涂
+
+
+
+
+
+Main challenge
+No free time
+很难闲下来。来个朋友，很难招待
+没有松弛感
+很紧绷
+
+
+
+
+
+
+你让人舒服的程度，决定着你所能抵达的高度
+
+明白自己的核心诉求是什么，与他人的边界在哪里
+
+人最重要的是建立属于自己的一套规则，只要自己认为是对的
+
+“花半秒钟就看清事物本质的人和一辈子也看不清的人，注定是截然不同的人生。”
+
+一个人的事业是否成功，有15％取决于他的智商，而其余85％则取决于他的表达能力
+
+首先要保证自己的生存，这不是自私，这就是自然的法则。
+
+Caveat
+在边界模糊的工作，这种工作你只要承担一次开了口子，后面这个事就可能自动归你做了，你要是不做，别人就会抱怨。
+
+
+
+钱才是最大的底气
+
+足够爱自己，才能更好地爱你爱的人
+
+不吃没有意义的苦。如果吃苦真的让你学到了东西，就值得
+
+养成向自己提问的习惯：你学到了什么；这经验怎么用；你的评价是什么。
+
+快乐和存款一样，是需要积攒的。
+
+保养不是花许多钱才能做到的，而是要认真对待自己，作息规律，好好吃饭，认真清洁，不糊弄自己，情绪不过夜，有事积极处理
+
+不要让自己廉价，一旦接受了廉价的定位，会带来麻烦。
+
+真正厉害的人都不说难听的话
+
+钱的本质是时间。要像花钱一样去花时间
+
+没有任何人的帮助是理所应当的。包括父母兄弟和朋友
+
+别人越相信他，他对自己就越负责
+#+end_example
 ** local notes
 *** make informed decision - identify the better way
 *** #  --8<-------------------------- separator ------------------------>8-- :noexport:
@@ -110,7 +368,13 @@ Focus on high-leverage actions and eliminate noise.
 *** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 *** mindset: focus on the progress for key problems
 *** mindset: everyone has their own situations and desires
+*** habits: avoid vague yes - either yes or no
+XXX was owned by A team in 2024, and jointly owned by A & B in 2025.
 
+If A is not working in this area for 2025, call it out
+*** habits: avoid asking lazy questions, as you usually get surface answers.
+*** habits: know your customer, before you build solutions
+*** TODO habits: critical thinking - examine the truth, challenge the status-quo
 * Improve Market Value                               :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value

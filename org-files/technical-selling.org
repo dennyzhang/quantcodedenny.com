@@ -375,6 +375,11 @@ If A is not working in this area for 2025, call it out
 *** habits: avoid asking lazy questions, as you usually get surface answers.
 *** habits: know your customer, before you build solutions
 *** TODO habits: critical thinking - examine the truth, challenge the status-quo
+*** avoid jumping too fast
+*** have lots of energy
+*** need to solve real and critical problems
+*** understand and set the approriate-and-high expectation
+*** there are too many problems - how does this problem impacting us
 * Improve Market Value                               :noexport:
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value
@@ -914,6 +919,7 @@ At the end of each week, I reflect briefly: **Who did I understand better, help,
 * Simple technical language                                        :noexport:
 - Difficulty in making changes without introducing SEVs
 - Lack of flexibility for diverse data processing needs
+
 
 
 

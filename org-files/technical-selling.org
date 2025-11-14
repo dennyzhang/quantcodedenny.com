@@ -51,8 +51,9 @@ Focus on high-leverage actions and eliminate noise.
 *** 1. Family — Build a Healthy and Happy Family
 - Stay emotionally connected with kids and spouse
 - Maintain routines for health and stress management
-**** Daily / Weekly Goals
-- [ ] 15–30 min 1:1 focused play with kids (3x/week)
+
+**Daily / Weekly Goals**
+- 15–30 min 1:1 focused play with kids (3x/week)
 - [ ] Evening family meal without devices (2x/week)
 - [ ] Weekly 30-min sync with spouse to review week and connect
 - [ ] Exercise 2–3x per week, sleep 7h/night
@@ -62,7 +63,8 @@ Focus on high-leverage actions and eliminate noise.
 - Increase professional market value
 - Improve appearance and communication skills
 - Build meaningful, positive connections
-**** Daily / Weekly Goals
+
+**Daily / Weekly Goals**
 - [ ] Attend design reviews weekly
 - [ ] Practice 5–10 min daily communication exercise (storytelling, presentation, or elevator pitch)
 - [ ] Weekly self-reflection on appearance or communication improvement
@@ -71,7 +73,7 @@ Focus on high-leverage actions and eliminate noise.
 *** 3. Money — Grow Wealth with Leverage
 - Earn through smart, sustainable investing
 - Focus energy on high-return opportunities
-**** Daily / Weekly Goals
+**Daily / Weekly Goals**
 - [ ] Track key financial metrics weekly and lessons learned
 - [ ] Delegate or outsource low-value tasks
 - Avoid over-optimizing trivial details
@@ -380,7 +382,8 @@ If A is not working in this area for 2025, call it out
 *** need to solve real and critical problems
 *** understand and set the approriate-and-high expectation
 *** there are too many problems - how does this problem impacting us
-* Improve Market Value                               :noexport:
+*** lots of smoke in coroprate env; need to dig into fundmentals
+* Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value
 :EXPORT_DATE: 2025-10-03

@@ -235,6 +235,65 @@ The weekly doc has highlights and lowlights which is good. A few gaps I can see,
 - I also maintain a local doc, which has performance tracking entries yet missing from team doc
 - the team doesn't update the metrics, since it doesn't move on a weekly basis. and this is important for leadership communication in the lookback
 *** simplify paragraph for leads communication
+* Technical Doc Reading With LLM
+:PROPERTIES:
+:EXPORT_FILE_NAME: doc-reading-with-llm
+:EXPORT_DATE: 2025-12-05
+:END:
+URL: https://quantcodedenny.com/posts/doc-reading-with-llm
+** Set LLM context
+You are my reliability-focused research assistant.
+I will give you one or more internal documents.
+Your job is to extract only the high-value information that matters for:
+
+Reliability / SEV prevention / Infra stability
+
+Market-value impact (cost savings, latency, efficiency, quality, risk reduction)
+
+PE-leveraged opportunities (root-causes across teams, systemic gaps, blindspots, unclear ownership, missing guardrails)
+
+For each document, output:
+
+1. Key Signals (must-know, <10 bullets)
+
+What matters for reliability or system integrity?
+
+Any implicit assumptions or hidden risks?
+
+2. Impact Assessment
+
+Potential SEV exposure
+
+Perf/cost implications
+
+User impact / business impact
+
+3. Gaps & Blindspots
+
+Missing ownership
+
+Contract violations
+
+Lack of tests / monitoring
+
+Areas where design looks fragile or reactive
+
+4. Leveraged Opportunities for PE
+
+Repeatable patterns we can fix once, benefiting many teams
+
+Guardrails or automation ideas
+
+Reliability frameworks or quality bars to introduce
+
+5. Recommended Follow-ups
+
+5–8 concrete, high-ROI actions
+
+Prioritize by ROI (High / Medium / Low)
+
+Be concise, structured, and eliminate all low-value noise.
+
 * Write Feedback At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: write-interview-feedback
@@ -551,4 +610,16 @@ Output:
 *** edge scenarios where common practice doesn't work well
 *** llm won't reject requirement which shouldn't happen in the first place
 Use elisp to "url:", it makes the code very fragile and hard to use. The development time is wasted
-
+* ML Recommendation System
+** Concepts
+*** Eval
+| Eval Type       | Model State         | Data Source       | Environment         | Output Type                | Use Case                               |
+|-----------------+---------------------+-------------------+---------------------+----------------------------+----------------------------------------|
+| In-Trainer Eval | Checkpoint          | Validation Table  | Training Pipeline   | Metrics (Tensorboard)      | Early feedback, dev iteration          |
+| Predictor Eval  | Published Snapshot  | Offline Table     | Predictor (serving) | Metrics, sometimes per-row | Offline serving simulation, validation |
+| Serving Eval    | Published Snapshot  | Offline/Live Data | Production Serving  | Metrics, per-row           | Final validation, O2O, SEV             |
+| Inference Eval  | Checkpoint/Snapshot | Offline Table     | Non-prod/Generic    | Metrics                    | General offline evaluation             |
+| Bulk Eval       | Checkpoint/Snapshot | Offline Table     | Training/Custom     | Per-row predictions        | Deep-dive, debugging, cohort analysis  |
+*** KD and TL
+- Transfer Learning copies weights from a teacher to a student model (requires similar architectures).
+- Knowledge Distillation trains a student to mimic the outputs of a teacher model (can work across different architectures and feature sets).

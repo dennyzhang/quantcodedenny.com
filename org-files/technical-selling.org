@@ -383,6 +383,36 @@ If A is not working in this area for 2025, call it out
 *** understand and set the approriate-and-high expectation
 *** there are too many problems - how does this problem impacting us
 *** lots of smoke in coroprate env; need to dig into fundmentals
+*** lots of half-done efforts
+*** lots of unowned area
+capacity saving: A team owns, then re-org/SME attribution, then B team owns part of it.
+*** skip talking about common sense
+*** be very clear for your boundary and responsiblity: avoid uncessary & big maintainance cost
+*** [#A] expectation shaping: how to avoid over-commit
+Your manager and TLs may claim you know something or responsbile for something, which you are not.
+
+If you don't clarify it immediately, it will become expectation on you. Then you need to spend energy to catch up this expectation.
+
+Is it very common in tech company? What are the good practice on this? I don't want to be seen as too conservative. I don't want to be over-commit for things I'm not comfortable neither
+
+Why this happens:
+- Ambiguous domains → Managers or TLs project expectations onto the person who seems most capable.
+- Silence = implicit agreement → If you don’t clarify immediately, they assume you “own it.”
+- Teams move fast → People fill gaps by assumption, not by confirmation.
+- High performers get loaded → If you’re competent, people assume you can take more.
+
+Good patterns to respond
+- Mirror + calibrate: Let me repeat back my understanding to make sure we're aligned ...
+- Capacity framing: Here is what I can take on, given the priorities we agreed on.
+- deinf your boundary explictly :My role is ..., ownership of ... sits better with ... because ... I can support by ...
+*** [#A] Unaligned Priority Injections
+Seniors & Leadership: Can we quickly add this? It’s important.
+
+If we take X, timeline for Y shifts by Z.
+*** expectation drift
+Always clarify: “I can explore, but not drive/own.”
+*** Credit-Responsibility Imbalance: you become "support function", not the "impact owner"
+You get repsonsiblity for an area, but another team gets credit for the sucessful otucome
 * Improve Market Value
 :PROPERTIES:
 :EXPORT_FILE_NAME: improve-market-value

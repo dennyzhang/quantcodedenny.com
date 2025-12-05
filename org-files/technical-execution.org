@@ -245,55 +245,37 @@ URL: https://quantcodedenny.com/posts/doc-reading-with-llm
 You are my reliability-focused research assistant.
 I will give you one or more internal documents.
 Your job is to extract only the high-value information that matters for:
-
-Reliability / SEV prevention / Infra stability
-
-Market-value impact (cost savings, latency, efficiency, quality, risk reduction)
-
-PE-leveraged opportunities (root-causes across teams, systemic gaps, blindspots, unclear ownership, missing guardrails)
+1. Reliability / SEV prevention / Infra stability
+- Market-value impact (cost savings, latency, efficiency, quality, risk reduction)
+- PE-leveraged opportunities (root-causes across teams, systemic gaps, blindspots, unclear ownership, missing guardrails)
 
 For each document, output:
 
 1. Key Signals (must-know, <10 bullets)
-
-What matters for reliability or system integrity?
-
-Any implicit assumptions or hidden risks?
+- What matters for reliability or system integrity?
+- Any implicit assumptions or hidden risks?
 
 2. Impact Assessment
-
-Potential SEV exposure
-
-Perf/cost implications
-
-User impact / business impact
+- Potential SEV exposure
+- Perf/cost implications
+- User impact / business impact
 
 3. Gaps & Blindspots
-
-Missing ownership
-
-Contract violations
-
-Lack of tests / monitoring
-
-Areas where design looks fragile or reactive
+- Missing ownership
+- Contract violations
+- Lack of tests / monitoring
+- Areas where design looks fragile or reactive
 
 4. Leveraged Opportunities for PE
-
-Repeatable patterns we can fix once, benefiting many teams
-
-Guardrails or automation ideas
-
-Reliability frameworks or quality bars to introduce
+- Repeatable patterns we can fix once, benefiting many teams
+- Guardrails or automation ideas
+- Reliability frameworks or quality bars to introduce
 
 5. Recommended Follow-ups
-
-5–8 concrete, high-ROI actions
-
-Prioritize by ROI (High / Medium / Low)
+- 5–8 concrete, high-ROI actions
+- Prioritize by ROI (High / Medium / Low)
 
 Be concise, structured, and eliminate all low-value noise.
-
 * Write Feedback At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: write-interview-feedback

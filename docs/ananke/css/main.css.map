@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/dennyzhang/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com",
+	"sourceRoot": "/Users/dennyzhang/Library/CloudStorage/Dropbox/private_data/part_time/devops_blog/quantcodedenny.com",
 	"sources": [
 		"ananke/css/main.css"
 	],

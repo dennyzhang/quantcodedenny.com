@@ -711,6 +711,53 @@ URL: https://quantcodedenny.com/posts/design-win-win/
 
 Working deeply in ML Infra (like Meta or Google) can make your skills feel too specialized. You solve critical problems — but the broader market may not see your full capability.
 The key is to **grow visibility and generalize impact organically**, through habits you already do daily.
+** Understanding Interests vs. Positions
+***TODO:** Expand with real-life examples
+- Positions are what people say they want.
+- Interests are why they want it.
+- Asking "why" questions helps uncover underlying motivations.
+
+** Expanding the Pie: Creating Value
+- Brainstorm multiple solutions before negotiating.
+- Focus on solutions that cost you little but help the other party.
+- Example: If your team needs resources and leadership wants fast delivery, explore temporary staffing or automation.
+
+** Strategic Concessions
+- Trade things that are low cost for you but high value for them.
+- Always aim to ask for something in return.
+- Example: "I can support your project if you help me with X later."
+
+** Framing Shared Wins
+- Explicitly show benefits for all parties.
+- Practice drafting talking points or emails that highlight mutual gains.
+- Example: "This approach reduces errors for your team and meets our deadlines."
+
+** Practice in Low-Stakes Environments
+- Apply the principles to family decisions, small purchases, or team tasks.
+- Treat each negotiation as a mini-experiment.
+- Reflect: Did both sides feel good? Could more value have been created?
+
+** Post-Mortem and Continuous Improvement
+- Keep a **Win-Win Journal**: 1–2 entries per week.
+- Analyze:
+  - Interests of both sides
+  - Value created
+  - Satisfaction of both parties
+  - Lessons for next time
+
+** Tools and Frameworks
+- **BATNA** – Know your alternatives.
+- **ZOPA** – Identify the zone of possible agreement.
+- **Principled Negotiation** – Fisher & Ury’s *Getting to Yes* framework.
+
+** TODO Future Improvements
+- Add real-life case studies.
+- Include examples from work and family scenarios.
+- Add diagrams showing negotiation flow.
+
+** Conclusion
+Practicing win-win deals is a **skill that compounds over time**. By focusing on interests, creating value, and reflecting continuously, you can negotiate outcomes that strengthen relationships and achieve shared success.
+
 * Scope Better At Work
 :PROPERTIES:
 :EXPORT_FILE_NAME: scope-better

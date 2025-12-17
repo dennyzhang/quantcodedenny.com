@@ -699,7 +699,7 @@ too many small optimization - use which credit cards for different scenarios.
 *** 作用：减少早晨/出门的决策疲劳
 *** 设置“默认决策”规则（衣服轮换、周餐单、出门包）（零成本）
 *** for things you don't know or not interested, just say I don't know
-** avoid low roi - 少做费力不讨好的事
+*** avoid low roi - 少做费力不讨好的事
 tech people how to do things is one: better engineering
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * Design Win-Win Deal

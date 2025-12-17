@@ -6,7 +6,7 @@
     <description>Recent content on QuantCode: Use llm to improve your trading quality</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Dec 2025 10:57:23 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 10:58:52 -0800</lastBuildDate>
     <atom:link href="https://quantcodedenny.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design Win-Win Deal</title>
@@ -20,7 +20,7 @@
       <link>https://quantcodedenny.com/posts/doc-reading-with-llm/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://quantcodedenny.com/posts/doc-reading-with-llm/</guid>
-      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/doc-reading-with-llm&#34;&gt;https://quantcodedenny.com/posts/doc-reading-with-llm&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-llm-context&#34;&gt;Set LLM context&lt;/h2&gt;&#xA;&lt;p&gt;You are my reliability-focused research assistant.&lt;/p&gt;&#xA;&lt;p&gt;I will give you one or more internal documents.&#xA;Your job is to extract only the high-value information that matters for:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Reliability / SEV prevention / Infra stability&lt;/li&gt;&#xA;&lt;li&gt;Market-value impact (cost savings, latency, efficiency, quality, risk reduction)&lt;/li&gt;&#xA;&lt;li&gt;PE-leveraged opportunities (root-causes across teams, systemic gaps, blindspots, unclear ownership, missing guardrails)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;For each document, output:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Key Signals (must-know, &amp;lt;10 bullets)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What matters for reliability or system integrity?&lt;/p&gt;</description>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://quantcodedenny.com/posts/doc-reading-with-llm&#34;&gt;https://quantcodedenny.com/posts/doc-reading-with-llm&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;set-llm-context&#34;&gt;Set LLM context&lt;/h2&gt;&#xA;&lt;p&gt;You are my research assistant for machine learning infra reliablity and DevX&lt;/p&gt;&#xA;&lt;p&gt;I will give you one or more internal documents.&#xA;Your job is to extract only the high-value information that matters for:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Reliability / SEV prevention / Infra stability&lt;/li&gt;&#xA;&lt;li&gt;Market-value impact (cost savings, latency, efficiency, quality, risk reduction)&lt;/li&gt;&#xA;&lt;li&gt;PE-leveraged opportunities (root-causes across teams, systemic gaps, blindspots, unclear ownership, missing guardrails)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;For each document, output:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Key Signals (must-know, &amp;lt;10 bullets)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Personal Top Priority</title>

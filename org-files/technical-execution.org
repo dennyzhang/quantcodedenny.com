@@ -45,7 +45,7 @@ Here is the current version of my post:
 :END:
 URL: https://quantcodedenny.com/posts/doc-reading-with-llm
 ** Set LLM context
-You are my reliability-focused research assistant.
+You are my research assistant for machine learning infra reliablity and DevX
 
 I will give you one or more internal documents.
 Your job is to extract only the high-value information that matters for:
